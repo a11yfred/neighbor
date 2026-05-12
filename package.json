@@ -4,6 +4,7 @@
   "description": "Accessibility linting plugin for a11yfred — Stylelint (user-preference fallbacks) and ESLint (bad ARIA patterns). Won't you be my neighbor?",
   "type": "module",
   "license": "MIT",
+  "files": ["lib", "*.mjs", "LICENSE", "README.md"],
   "main": "./neighbor-stylelint.mjs",
   "repository": {
     "type": "git",
