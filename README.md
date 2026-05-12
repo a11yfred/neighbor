@@ -4,6 +4,29 @@ Neighbor is an accessibility linting plugin for ESLint and Stylelint that builds
 
 Some rules are specific to **@ulam** — an upcoming JavaScript framework by the same author. Those rules are prefixed `no-announce-in-render`, `no-hash-router-in-remix`, and `no-use-page-title-in-remix`. They activate only when @ulam-related imports are detected and are harmless in non-@ulam projects.
 
+## Contents
+
+- [Install](#install)
+- [Entry points](#entry-points)
+- [Setup](#setup)
+  - [React / JSX](#react--jsx)
+  - [Remix 2](#remix-2)
+  - [Remix 3](#remix-3)
+  - [Vue](#vue)
+  - [Angular](#angular)
+  - [Stylelint](#stylelint)
+- [Peer dependencies](#peer-dependencies)
+- [What neighbor adds](#what-neighbor-adds)
+  - [ESLint — React / JSX](#eslint--react--jsx)
+  - [ESLint — Remix 2](#eslint--remix-2)
+  - [ESLint — Vue SFCs](#eslint--vue-sfcs)
+  - [ESLint — Angular templates](#eslint--angular-templates)
+  - [Stylelint — CSS](#stylelint--css)
+- [Rule severity](#rule-severity)
+- [Contributing](CONTRIBUTING.md)
+- [See also](#see-also)
+- [License](#license)
+
 ## Install
 
 ```bash
