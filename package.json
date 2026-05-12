@@ -1,6 +1,6 @@
 {
   "name": "@a11yfred/neighbor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Accessibility linting for a11yfred  -  ESLint (markup + content), Stylelint (CSS). Won't you be my neighbor?",
   "type": "module",
   "license": "MIT",
@@ -59,6 +59,11 @@
     },
     "stylelint": {
       "optional": true
+    }
+  },
+  "overrides": {
+    "eslint-plugin-jsx-a11y": {
+      "eslint": ">=8"
     }
   },
   "devDependencies": {
