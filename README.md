@@ -2,6 +2,8 @@
 
 Neighbor is an accessibility linting plugin for ESLint and Stylelint that builds on jsx-a11y. It looks to cover gaps: bad ARIA patterns, live region misuse, missing names on roles, and CSS that removes focus indicators. It also brings that coverage to Vue and Angular, where jsx-a11y does not apply.
 
+Some rules are specific to **@ulam** — an upcoming React-based framework by the same author. Those rules are prefixed `no-announce-in-render`, `no-hash-router-in-remix`, and `no-use-page-title-in-remix`. They activate only when @ulam-related imports are detected and are harmless in non-@ulam projects.
+
 ## Install
 
 ```bash
@@ -255,6 +257,7 @@ Neighbor adds the same rule set as Vue, adapted for Angular's template AST (`[in
 | --- | --- |
 | `ulam/user-preferences` | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks |
 | `ulam/no-outline-none` | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors |
+| `ulam/no-forced-colors-none` | Disallows `forced-color-adjust: none` inside `@media (forced-colors)` — opts out of Windows High Contrast Mode |
 
 ## Rule severity
 
@@ -262,6 +265,7 @@ Neighbor adds the same rule set as Vue, adapted for Angular's template AST (`[in
 | --- | --- |
 | `error` | Definite AT breakage or HTML spec violation |
 | `warn` | Strong guidance, occasional legitimate overrides exist |
+| `off` | Available but disabled — too noisy for most codebases, enable if it fits your project |
 
 All rules can be overridden in your config.
 

@@ -193,4 +193,64 @@ const noOutlineNone = {
   meta: noOutlineNoneMeta,
 };
 
-export default [userPreferences, noOutlineNone];
+// ─── Rule: ulam/no-forced-colors-none ────────────────────────────────────────
+// forced-color-adjust: none inside @media (forced-colors) actively opts out of
+// Windows High Contrast Mode and other forced-colors user settings. For users
+// who depend on forced colors this is their last resort for viewing content —
+// overriding it is a serious accessibility regression.
+//
+// Legitimate narrow exceptions exist (e.g. color pickers where all swatches
+// would collapse to CanvasText). Those should be scoped tightly to the specific
+// element, not a whole section, and are typically few enough to suppress inline.
+//
+// Ref: Sarah Higley — forced-color-adjust: none (sarahmhigley.com)
+//      Adrian Roselli — WHCM and System Colors (adrianroselli.com)
+//      WCAG SC 1.4.11 Non-text Contrast; SC 1.4.3 Contrast (Minimum)
+
+const noForcedColorsNoneRuleName = 'ulam/no-forced-colors-none';
+
+const noForcedColorsNoneMessages = {
+  none: (selector) =>
+    `forced-color-adjust: none on "${selector}" inside @media (forced-colors) opts out of ` +
+    `Windows High Contrast Mode, removing all forced-color overrides for these elements. ` +
+    `Users who depend on forced colors lose visibility entirely. ` +
+    `Remove forced-color-adjust: none, or scope it to the narrowest possible element ` +
+    `(e.g. a color-picker swatch) and add a comment explaining why. ` +
+    `(Higley / Roselli — WCAG SC 1.4.11 / SC 1.4.3)`,
+};
+
+const noForcedColorsNoneMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** Returns true if the node is directly inside a @media (forced-colors) block. */
+function insideForcedColorsMedia(node) {
+  let current = node.parent;
+  while (current) {
+    if (
+      current.type === 'atrule' &&
+      current.name === 'media' &&
+      /forced-colors/.test(current.params)
+    ) return true;
+    current = current.parent;
+  }
+  return false;
+}
+
+/** @type {import('stylelint').Rule} */
+function noForcedColorsNoneRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^forced-color-adjust$/i, (decl) => {
+      if (decl.value.trim().toLowerCase() !== 'none') return;
+      if (!insideForcedColorsMedia(decl)) return;
+      const selector = decl.parent?.selector ?? decl.parent?.name ?? '(unknown)';
+      decl.warn(result, noForcedColorsNoneMessages.none(selector), { rule: noForcedColorsNoneRuleName });
+    });
+  };
+}
+
+const noForcedColorsNone = {
+  ruleName: noForcedColorsNoneRuleName,
+  rule: noForcedColorsNoneRule,
+  meta: noForcedColorsNoneMeta,
+};
+
+export default [userPreferences, noOutlineNone, noForcedColorsNone];

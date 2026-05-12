@@ -65,21 +65,30 @@ All rules share the same logic via `lib/rules.js` with framework-specific AST he
 | `form-field-multiple-labels` | Multiple `<label for="…">` elements targeting the same input — AT reads all, producing verbose or conflicting output | axe-core form-field-multiple-labels / SC 1.3.1 |
 | `no-empty-table-header` | `<th>` or `role="columnheader"/"rowheader"` with no accessible text or `aria-label` — column/row invisible to screen readers | axe-core empty-table-header / SC 1.3.1 |
 
-### Warnings — strong guidance, occasional legitimate overrides
+### Warnings — on by default
 
 | Rule | What it flags | Source |
 |---|---|---|
 | `no-tooltip-role-misuse` | `role="tooltip"` without an `id`; or `role="tooltip"` on an interactive element | APG: Tooltip Pattern |
+| `no-menu-role-on-nav` | Menu/menubar/menuitem roles — triggers AT application-mode keyboard handling; especially wrong on `<nav>` | Roselli / Lauke / Groves |
+| `no-button-type-missing` | `<button>` inside a `<form>` without an explicit `type` — defaults to `type="submit"`, causing accidental submission | HTML spec |
+
+### Off by default — opt in
+
+These rules are available but disabled in the recommended config. They flag real problems but have enough false positives or legitimate overrides in real codebases that leaving them on by default causes noise. Enable individually.
+
+| Rule | What it flags | Source |
+|---|---|---|
 | `no-application-role` | `role="application"` — disables AT browse mode, requires author to implement all keyboard handling | Roselli / Sutton / Lauke / APG |
 | `no-grid-role` | `role="grid"` — almost always wrong outside spreadsheet-like widgets | Roselli: ARIA Grid As an Anti-Pattern |
-| `no-menu-role-on-nav` | Menu/menubar/menuitem roles — triggers AT application-mode keyboard handling; especially wrong on `<nav>` | Roselli / Lauke / Groves |
 | `no-aria-roledescription` | `aria-roledescription` — overrides AT role label and does not auto-translate | Roselli: Avoid aria-roledescription |
 | `no-aria-readonly` | `aria-readonly` — limited and inconsistent AT support; TalkBack has misread it as disabled | Roselli |
-| `no-tab-without-controls` | `role="tab"` without `aria-controls` pointing to its tabpanel — APG recommends it but does not require it | APG: Tabs Pattern |
+| `no-tab-without-controls` | `role="tab"` without `aria-controls` — APG recommends but does not require it | APG: Tabs Pattern |
 | `no-href-hash` | `<a href="#">` used as a button — links navigate, buttons act | Sutton: Links vs Buttons |
 | `warn-role-alert` | `role="alert"` — prompt to confirm the interruption is warranted; prefer `role="status"` for non-urgent updates | APG / Roselli / Sutton |
-| `prefer-aria-disabled` | HTML `disabled` attribute on interactive elements — removes from tab order; `aria-disabled` keeps element discoverable | Roselli: Don't Disable Form Controls |
+| `prefer-aria-disabled` | HTML `disabled` removes element from tab order; `aria-disabled` keeps it discoverable | Roselli: Don't Disable Form Controls |
 | `no-target-blank-without-label` | `target="_blank"` without communicating the new-tab behaviour to AT users | WebAIM / WCAG 3.2.2 |
+| `no-dialog-without-close` | `role="dialog"` or `<dialog>` without a visible close button | APG: Dialog Pattern |
 
 ---
 
@@ -129,6 +138,7 @@ The `no-announce-in-render` rule also runs in the Vue and Angular plugins, with 
 |---|---|---|---|
 | `ulam/user-preferences` | warn | `opacity`, `animation`, `transition`, or alpha-channel colors in `src/components/ui/` without a `@media (prefers-*)` or `@media (forced-colors)` counterpart | WCAG 2.1 / WCAG 2.2 |
 | `ulam/no-outline-none` | warn | `outline: none` or `outline: 0` in a base rule (outside a `:focus`/`:focus-visible`/`:focus-within` selector) — removes keyboard focus indicator | WCAG 2.4.7 / WebAIM / double-great/stylelint-a11y |
+| `ulam/no-forced-colors-none` | warn | `forced-color-adjust: none` inside `@media (forced-colors)` — opts out of Windows High Contrast Mode, removing visibility for users who depend on it | Higley / Roselli — WCAG SC 1.4.11 / SC 1.4.3 |
 
 ### Notes on `ulam/no-outline-none`
 
@@ -154,3 +164,6 @@ The rule allows:
 | `no-dialog-without-modal` | Non-modal dialogs are a valid APG pattern; too much false-positive risk |
 | `no-generated-content-text` | Decorative generated content is extremely common; can't tell if a string is decorative or meaningful |
 | `font-size-is-readable` / `no-spread-text` | No universal threshold — context-dependent; high false-positive rate on real design systems |
+| `prefer-focus-visible` | `:focus` alone is WCAG 2.4.7 compliant; flagging it without `:focus-visible` fires constantly on legitimate code |
+| `no-fixed-font-size-px` | Browser zoom satisfies SC 1.4.4 regardless of unit; WCAG itself is ambiguous on this; very high false-positive rate |
+| `no-forced-colors-none` (global) | Legitimate narrow uses exist (color pickers, border tricks); rule is scoped to `@media (forced-colors)` blocks only to avoid firing on those |
