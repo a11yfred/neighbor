@@ -1,5 +1,5 @@
 /**
- * @a11yfred/neighbor — ESLint plugin (Vue SFCs)
+ * @a11yfred/neighbor  -  ESLint plugin (Vue SFCs)
  *
  * Flags the same ARIA anti-patterns as neighbor-eslint.mjs but for Vue templates.
  * Requires vue-eslint-parser as the project's ESLint parser for .vue files.

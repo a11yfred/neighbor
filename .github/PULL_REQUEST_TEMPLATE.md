@@ -11,7 +11,7 @@
 
 ## Why static analysis and not axe-core
 
-<!-- axe-core catches this at runtime — explain why a lint-time catch is still
+<!-- axe-core catches this at runtime  -  explain why a lint-time catch is still
      worth having, or confirm this is something axe-core cannot catch. -->
 
 ## False positive cases

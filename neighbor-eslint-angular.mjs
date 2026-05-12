@@ -1,5 +1,5 @@
 /**
- * @a11yfred/neighbor — ESLint plugin (Angular templates)
+ * @a11yfred/neighbor  -  ESLint plugin (Angular templates)
  *
  * Flags the same ARIA anti-patterns as neighbor-eslint.mjs but for Angular
  * component templates. Requires @angular-eslint/template-parser.

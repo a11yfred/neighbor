@@ -1,10 +1,10 @@
 /**
- * @a11yfred/neighbor — Stylelint plugin
+ * @a11yfred/neighbor  -  Stylelint plugin
  *
  * Rules:
- *   ulam/user-preferences  — Warn when motion, transparency, or alpha colors
+ *   ulam/user-preferences   -  Warn when motion, transparency, or alpha colors
  *                            are used without @media (prefers-*) fallbacks.
- *   ulam/no-outline-none   — Disallow bare outline:none/0 outside :focus selectors.
+ *   ulam/no-outline-none    -  Disallow bare outline:none/0 outside :focus selectors.
  *
  * Sources and credits:
  *   WCAG 2.1 / 2.2         w3.org/TR/WCAG21, w3.org/TR/WCAG22
@@ -114,7 +114,7 @@ function rule(primaryOption) {
       const prop = decl.prop.toLowerCase();
       const value = decl.value;
 
-      // opacity — warn on non-structural values (i.e. dims like 0.5, 0.75)
+      // opacity  -  warn on non-structural values (i.e. dims like 0.5, 0.75)
       if (prop === 'opacity' && !isStructuralOpacity(value)) {
         decl.warn(result, messages.opacity(value), { rule: ruleName });
         return;
@@ -122,7 +122,7 @@ function rule(primaryOption) {
 
       // animation or transition
       if (prop === 'animation' || prop === 'transition' || prop === 'animation-name') {
-        // Skip "none" values — they're already the reduced state
+        // Skip "none" values  -  they're already the reduced state
         if (/^none\b/i.test(value.trim())) return;
         decl.warn(result, messages.animation(prop, value), { rule: ruleName });
         return;
@@ -145,7 +145,7 @@ const userPreferences = { ruleName, rule, meta };
 
 // ─── Rule: ulam/no-outline-none ──────────────────────────────────────────────
 // outline: none / outline: 0 removes the browser's default keyboard focus
-// indicator. This is one of the most common keyboard accessibility failures —
+// indicator. This is one of the most common keyboard accessibility failures  - 
 // keyboard users lose all visual indication of where focus is.
 //
 // Only fires when the declaration is NOT inside a :focus-visible, :focus, or
@@ -175,7 +175,7 @@ function noOutlineNoneRule(_primaryOption) {
       const value = decl.value.trim().toLowerCase();
       if (value !== 'none' && value !== '0') return;
 
-      // If this declaration is already inside a :focus / :focus-visible rule, it's fine —
+      // If this declaration is already inside a :focus / :focus-visible rule, it's fine  - 
       // the author is intentionally restyling focus, which is acceptable as long as they
       // provide an alternative (we can't verify the alternative statically, so we allow it).
       const parent = decl.parent;
@@ -196,15 +196,15 @@ const noOutlineNone = {
 // ─── Rule: ulam/no-forced-colors-none ────────────────────────────────────────
 // forced-color-adjust: none inside @media (forced-colors) actively opts out of
 // Windows High Contrast Mode and other forced-colors user settings. For users
-// who depend on forced colors this is their last resort for viewing content —
+// who depend on forced colors this is their last resort for viewing content  - 
 // overriding it is a serious accessibility regression.
 //
 // Legitimate narrow exceptions exist (e.g. color pickers where all swatches
 // would collapse to CanvasText). Those should be scoped tightly to the specific
 // element, not a whole section, and are typically few enough to suppress inline.
 //
-// Ref: Sarah Higley — forced-color-adjust: none (sarahmhigley.com)
-//      Adrian Roselli — WHCM and System Colors (adrianroselli.com)
+// Ref: Sarah Higley  -  forced-color-adjust: none (sarahmhigley.com)
+//      Adrian Roselli  -  WHCM and System Colors (adrianroselli.com)
 //      WCAG SC 1.4.11 Non-text Contrast; SC 1.4.3 Contrast (Minimum)
 
 const noForcedColorsNoneRuleName = 'ulam/no-forced-colors-none';
@@ -216,7 +216,7 @@ const noForcedColorsNoneMessages = {
     `Users who depend on forced colors lose visibility entirely. ` +
     `Remove forced-color-adjust: none, or scope it to the narrowest possible element ` +
     `(e.g. a color-picker swatch) and add a comment explaining why. ` +
-    `(Higley / Roselli — WCAG SC 1.4.11 / SC 1.4.3)`,
+    `(Higley / Roselli  -  WCAG SC 1.4.11 / SC 1.4.3)`,
 };
 
 const noForcedColorsNoneMeta = { url: 'https://github.com/a11yfred/neighbor' };

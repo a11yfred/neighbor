@@ -1,8 +1,8 @@
 /**
- * @a11yfred/neighbor — ESLint plugin (React / JSX)
+ * @a11yfred/neighbor  -  ESLint plugin (React / JSX)
  *
  * Flags ARIA patterns that are widely derided, semantically wrong, or have
- * poor/no AT support — but are not caught by eslint-plugin-jsx-a11y recommended.
+ * poor/no AT support  -  but are not caught by eslint-plugin-jsx-a11y recommended.
  *
  * Sources and credits:
  *   Adrian Roselli         adrianroselli.com
