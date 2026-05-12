@@ -167,53 +167,53 @@ Base: `eslint-plugin-jsx-a11y`
 
 | What it checks | Rule | WCAG SC |
 | --- | --- | --- |
-| `aria-disabled` keeps element reachable | `prefer-aria-disabled` | 2.1.1 |
-| `aria-disabled` must block click handler | `no-unblocked-aria-disabled` | 2.1.1 |
-| `aria-label` on a generic element with no role | `no-aria-label-on-generic` | 1.3.1 |
-| `role="alert"` overuse | `warn-role-alert` | 4.1.3 |
-| `aria-live="assertive"` outside `role="alert"` | `no-assertive-live-overuse` | 4.1.3 |
-| `role="dialog"` requires accessible name | `no-roles-without-name` | 4.1.2 |
-| `role="group"` with form controls requires name | `no-group-without-name` | 1.3.1 |
-| `role="tooltip"` requires `id` on the tooltip | `no-tooltip-role-misuse` | 4.1.2 |
+| `aria-disabled` keeps element reachable | `prefer-aria-disabled` | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `aria-disabled` must block click handler | `no-unblocked-aria-disabled` | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `aria-label` on a generic element with no role | `no-aria-label-on-generic` | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `role="alert"` overuse | `warn-role-alert` | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
+| `aria-live="assertive"` outside `role="alert"` | `no-assertive-live-overuse` | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
+| `role="dialog"` requires accessible name | `no-roles-without-name` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `role="group"` with form controls requires name | `no-group-without-name` | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `role="tooltip"` requires `id` on the tooltip | `no-tooltip-role-misuse` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `role="application"` disables AT browse mode | `no-application-role` | — |
 | `role="grid"` almost always wrong | `no-grid-role` | — |
-| `role="menu"` on nav triggers wrong AT mode | `no-menu-role-on-nav` | 2.1.1 |
-| `role="presentation"` on a focusable element | `no-presentation-on-focusable` | 2.1.1 |
-| `role="log"` must not contain interactive children | `no-log-with-interactive-children` | 4.1.2 |
-| `role="img"` requires accessible name | `no-image-role-without-name` | 4.1.2 |
-| `role="tab"` requires `aria-selected` | `no-tabs-without-structure` | 4.1.2 |
-| `role="tab"` should declare `aria-controls` | `no-tab-without-controls` | 4.1.2 |
-| `role="combobox"` requires `aria-expanded` | `no-combobox-without-expanded` | 4.1.2 |
-| `role="slider"` requires value range attributes | `no-slider-without-range` | 4.1.2 |
-| `role="spinbutton"` requires value range attributes | `no-spinbutton-without-range` | 4.1.2 |
-| `role="listbox"` requires `role="option"` children | `no-listbox-without-option` | 4.1.2 |
-| `role="tree"` requires `role="treeitem"` children | `no-tree-without-treeitem` | 4.1.2 |
-| `role="feed"` requires `role="article"` children | `no-feed-without-article` | 4.1.2 |
+| `role="menu"` on nav triggers wrong AT mode | `no-menu-role-on-nav` | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `role="presentation"` on a focusable element | `no-presentation-on-focusable` | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `role="log"` must not contain interactive children | `no-log-with-interactive-children` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `role="img"` requires accessible name | `no-image-role-without-name` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `role="tab"` requires `aria-selected` | `no-tabs-without-structure` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `role="tab"` should declare `aria-controls` | `no-tab-without-controls` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `role="combobox"` requires `aria-expanded` | `no-combobox-without-expanded` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `role="slider"` requires value range attributes | `no-slider-without-range` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `role="spinbutton"` requires value range attributes | `no-spinbutton-without-range` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `role="listbox"` requires `role="option"` children | `no-listbox-without-option` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `role="tree"` requires `role="treeitem"` children | `no-tree-without-treeitem` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `role="feed"` requires `role="article"` children | `no-feed-without-article` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `aria-hidden="true"` + `role="none"` is redundant | `no-redundant-aria-hidden-with-presentation` | — |
 | `aria-roledescription` does not translate | `no-aria-roledescription` | — |
 | `aria-readonly` has poor AT support | `no-aria-readonly` | — |
-| `aria-owns` on a void element | `no-aria-owns-on-void` | 4.1.2 |
-| `aria-activedescendant` requires a non-empty static ID | `no-aria-activedescendant-without-id` | 4.1.2 |
-| `aria-required` only valid on form-control roles | `no-aria-required-on-non-form` | 4.1.2 |
-| `<a>` with only aria-hidden children | `no-aria-hidden-in-link` | 4.1.2 |
-| `<button>` with only aria-hidden children | `no-empty-button` | 4.1.2 |
-| `<input>` placeholder used as sole label | `no-placeholder-only` | 1.3.1 |
-| `<input>` with invalid type value | `no-input-type-invalid` | 1.3.5 |
-| `<button>` in a form missing explicit type | `no-button-type-missing` | HTML spec |
-| `<summary>` outside `<details>` | `no-summary-without-details` | 2.1.1 |
-| `<a href="#">` used as a button | `no-href-hash` | 2.1.1 |
-| `target="_blank"` without new-tab disclosure | `no-target-blank-without-label` | 3.2.2 |
-| Duplicate `id` breaks ARIA relationships | `no-duplicate-id` | 1.3.1 |
-| Positive `tabIndex` breaks tab order | `no-positive-tabindex` | 2.4.3 |
-| Heading inside an interactive element | `no-heading-inside-interactive` | 4.1.2 |
-| `title` attribute as the only accessible name | `no-title-as-label` | 2.4.6 |
-| `<video>` or `<audio autoplay>` without controls | `no-autoplay-without-controls` | 1.4.2 |
-| Mouse-only events without keyboard equivalents | `no-mouse-only-events` | 2.1.1 |
-| `aria-labelledby`/`describedby` references missing `id` | `no-labelledby-missing-target` | 4.1.2 |
-| `dangerouslySetInnerHTML` outside a live region | `no-dynamic-content-without-live` | 4.1.3 |
-| Multiple `<label>` elements for the same control | `form-field-multiple-labels` | 1.3.1 |
-| `<th>` or header role with no accessible text | `no-empty-table-header` | 1.3.1 |
-| `announce()` called in component render body | `no-announce-in-render` | 4.1.3 |
+| `aria-owns` on a void element | `no-aria-owns-on-void` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `aria-activedescendant` requires a non-empty static ID | `no-aria-activedescendant-without-id` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `aria-required` only valid on form-control roles | `no-aria-required-on-non-form` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `<a>` with only aria-hidden children | `no-aria-hidden-in-link` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `<button>` with only aria-hidden children | `no-empty-button` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `<input>` placeholder used as sole label | `no-placeholder-only` | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `<input>` with invalid type value | `no-input-type-invalid` | [1.3.5](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose) |
+| `<button>` in a form missing explicit type | `no-button-type-missing` | [HTML spec](https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element) |
+| `<summary>` outside `<details>` | `no-summary-without-details` | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `<a href="#">` used as a button | `no-href-hash` | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `target="_blank"` without new-tab disclosure | `no-target-blank-without-label` | [3.2.2](https://www.w3.org/WAI/WCAG21/Understanding/on-input) |
+| Duplicate `id` breaks ARIA relationships | `no-duplicate-id` | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| Positive `tabIndex` breaks tab order | `no-positive-tabindex` | [2.4.3](https://www.w3.org/WAI/WCAG21/Understanding/focus-order) |
+| Heading inside an interactive element | `no-heading-inside-interactive` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `title` attribute as the only accessible name | `no-title-as-label` | [2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels) |
+| `<video>` or `<audio autoplay>` without controls | `no-autoplay-without-controls` | [1.4.2](https://www.w3.org/WAI/WCAG21/Understanding/audio-control) |
+| Mouse-only events without keyboard equivalents | `no-mouse-only-events` | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `aria-labelledby`/`describedby` references missing `id` | `no-labelledby-missing-target` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `dangerouslySetInnerHTML` outside a live region | `no-dynamic-content-without-live` | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
+| Multiple `<label>` elements for the same control | `form-field-multiple-labels` | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `<th>` or header role with no accessible text | `no-empty-table-header` | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `announce()` called in component render body | `no-announce-in-render` | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
 
 ### ESLint — Remix 2
 
@@ -232,16 +232,16 @@ Neighbor adds everything in the React table above, adapted for Vue's AST (`v-htm
 
 | What it checks | Rule | WCAG SC |
 | --- | --- | --- |
-| Ambiguous link text ("click here", "read more") | `no-anchor-ambiguous-text` | 2.4.4 |
-| `<a>` with no content and no accessible name | `no-anchor-no-content` | 4.1.2 |
-| Invalid ARIA attribute values | `no-invalid-aria-prop-value` | 4.1.2 |
-| Invalid `autocomplete` token | `no-autocomplete-invalid` | 1.3.5 |
-| Heading with no content | `no-heading-no-content` | 2.4.6 |
-| `<iframe>` without `title` | `no-iframe-no-title` | 4.1.2 |
-| Alt text contains "image", "photo" | `no-img-redundant-alt` | 1.1.1 |
-| `accessKey` attribute | `no-access-key` | 2.1.4 |
-| `scope` on `<td>` (only valid on `<th>`) | `no-scope-on-td` | 1.3.1 |
-| `announce()` called outside `onMounted`/`watch`/handler | `no-announce-in-render` | 4.1.3 |
+| Ambiguous link text ("click here", "read more") | `no-anchor-ambiguous-text` | [2.4.4](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context) |
+| `<a>` with no content and no accessible name | `no-anchor-no-content` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| Invalid ARIA attribute values | `no-invalid-aria-prop-value` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| Invalid `autocomplete` token | `no-autocomplete-invalid` | [1.3.5](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose) |
+| Heading with no content | `no-heading-no-content` | [2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels) |
+| `<iframe>` without `title` | `no-iframe-no-title` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| Alt text contains "image", "photo" | `no-img-redundant-alt` | [1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content) |
+| `accessKey` attribute | `no-access-key` | [2.1.4](https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts) |
+| `scope` on `<td>` (only valid on `<th>`) | `no-scope-on-td` | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `announce()` called outside `onMounted`/`watch`/handler | `no-announce-in-render` | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
 
 ### ESLint — Angular templates
 
@@ -255,9 +255,9 @@ Neighbor adds the same rule set as Vue, adapted for Angular's template AST (`[in
 
 | Rule | What it checks |
 | --- | --- |
-| `ulam/user-preferences` | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks |
-| `ulam/no-outline-none` | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors |
-| `ulam/no-forced-colors-none` | Disallows `forced-color-adjust: none` inside `@media (forced-colors)` — opts out of Windows High Contrast Mode |
+| `ulam/user-preferences` | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks — [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
+| `ulam/no-outline-none` | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors — [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
+| `ulam/no-forced-colors-none` | Disallows `forced-color-adjust: none` inside `@media (forced-colors)` — opts out of Windows High Contrast Mode — [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
 
 ## Rule severity
 
