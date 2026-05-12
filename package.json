@@ -1,10 +1,10 @@
 {
   "name": "@a11yfred/neighbor",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Accessibility linting plugin for a11yfred — Stylelint (user-preference fallbacks) and ESLint (bad ARIA patterns). Won't you be my neighbor?",
   "type": "module",
   "license": "MIT",
-  "files": ["lib", "*.mjs", "LICENSE", "README.md"],
+  "files": ["lib", "*.mjs", "LICENSE", "README.md", "CHANGELOG.md"],
   "main": "./neighbor-stylelint.mjs",
   "repository": {
     "type": "git",
