@@ -25,9 +25,10 @@
 
 import { h } from './lib/helpers-angular.js'
 import { buildRules, buildRecommendedRules, buildPortabilityRules } from './lib/rules.js'
+import { buildUlamRulesAngular, buildUlamRecommendedRulesFramework } from './lib/ulam-rules.js'
 
 const NS = '@a11yfred/neighbor'
-const rules = buildRules(h)
+const rules = { ...buildRules(h), ...buildUlamRulesAngular() }
 const plugin = { meta: { name: `${NS}/angular` }, rules }
 
 let angularA11y = null
@@ -60,6 +61,7 @@ export default {
         ...(angularA11y ? getAngularA11yRules(angularA11y) : {}),
         ...buildRecommendedRules(NS),
         ...buildPortabilityRules(NS),
+        ...buildUlamRecommendedRulesFramework(NS),
       },
     },
   },

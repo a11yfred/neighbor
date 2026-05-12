@@ -20,9 +20,10 @@
 
 import { h } from './lib/helpers-vue.js'
 import { buildRules, buildRecommendedRules, buildPortabilityRules } from './lib/rules.js'
+import { buildUlamRulesVue, buildUlamRecommendedRulesFramework } from './lib/ulam-rules.js'
 
 const NS = '@a11yfred/neighbor'
-const rules = buildRules(h)
+const rules = { ...buildRules(h), ...buildUlamRulesVue() }
 const plugin = { meta: { name: `${NS}/vue` }, rules }
 
 let vueA11y = null
@@ -40,6 +41,7 @@ export default {
         ...(vueA11y ? vueA11y.configs['flat/recommended'].rules : {}),
         ...buildRecommendedRules(NS),
         ...buildPortabilityRules(NS),
+        ...buildUlamRecommendedRulesFramework(NS),
       },
     },
   },

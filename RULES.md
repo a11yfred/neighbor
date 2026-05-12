@@ -52,6 +52,18 @@ All rules share the same logic via `lib/rules.js` with framework-specific AST he
 | `no-slider-without-range` | `role="slider"` missing `aria-valuenow`, `aria-valuemin`, or `aria-valuemax` | ARIA 1.2 / APG: Slider |
 | `no-combobox-without-expanded` | `role="combobox"` without `aria-expanded` | ARIA 1.2 / APG: Combobox |
 | `no-mouse-only-events` | `onMouseEnter`/`onMouseLeave`/`onMouseOver`/`onMouseOut` without `onFocus`/`onBlur` equivalents | WCAG 2.1.1 / MDN |
+| `no-listbox-without-option` | `role="listbox"` with no `role="option"` children | ARIA 1.2 / APG |
+| `no-tree-without-treeitem` | `role="tree"` with no `role="treeitem"` children | ARIA 1.2 / APG |
+| `no-feed-without-article` | `role="feed"` with no `role="article"` children | ARIA 1.2 / APG |
+| `no-aria-activedescendant-without-id` | `aria-activedescendant` with an empty or missing static ID | ARIA 1.2 / SC 4.1.2 |
+| `no-duplicate-id` | Duplicate `id` values on elements referenced by `aria-labelledby`/`describedby`/`controls`/`owns`/`activedescendant` — AT uses first match | axe-core duplicate-id-aria / SC 1.3.1 / 4.1.2 |
+| `no-summary-without-details` | `<summary>` outside `<details>` — phantom interactive element | HTML spec / SC 2.1.1 / 4.1.2 |
+| `no-aria-required-on-non-form` | `aria-required` on an element whose role doesn't support it — AT ignores it | ARIA 1.2 §6.6.9 / SC 4.1.2 |
+| `no-input-type-invalid` | `<input type="X">` with an invalid type — silently falls back to `type="text"`, losing mobile keyboard hints and autofill | HTML spec / SC 1.3.5 |
+| `no-labelledby-missing-target` | `aria-labelledby`/`describedby`/`controls`/`owns`/`activedescendant` referencing an `id` that doesn't exist in the file — AT computes empty name | axe-core aria-labelledby / ARIA 1.2 §6.2.4 / SC 4.1.2 |
+| `no-dynamic-content-without-live` | `dangerouslySetInnerHTML` / `v-html` / `[innerHTML]` on an element outside a live region — screen readers don't re-read replaced content | axe-core content-changes / SC 4.1.3 |
+| `form-field-multiple-labels` | Multiple `<label for="…">` elements targeting the same input — AT reads all, producing verbose or conflicting output | axe-core form-field-multiple-labels / SC 1.3.1 |
+| `no-empty-table-header` | `<th>` or `role="columnheader"/"rowheader"` with no accessible text or `aria-label` — column/row invisible to screen readers | axe-core empty-table-header / SC 1.3.1 |
 
 ### Warnings — strong guidance, occasional legitimate overrides
 
@@ -68,6 +80,46 @@ All rules share the same logic via `lib/rules.js` with framework-specific AST he
 | `warn-role-alert` | `role="alert"` — prompt to confirm the interruption is warranted; prefer `role="status"` for non-urgent updates | APG / Roselli / Sutton |
 | `prefer-aria-disabled` | HTML `disabled` attribute on interactive elements — removes from tab order; `aria-disabled` keeps element discoverable | Roselli: Don't Disable Form Controls |
 | `no-target-blank-without-label` | `target="_blank"` without communicating the new-tab behaviour to AT users | WebAIM / WCAG 3.2.2 |
+
+---
+
+## Portability rules (Vue and Angular only)
+
+These rules cover gaps in `eslint-plugin-jsx-a11y` that have no equivalent in `eslint-plugin-vuejs-accessibility` or `@angular-eslint/eslint-plugin-template`. They are included in the Vue and Angular recommended configs only — React projects already get them from jsx-a11y.
+
+| Rule | What it flags | Source |
+|---|---|---|
+| `no-anchor-ambiguous-text` | Ambiguous link text ("click here", "read more", "learn more") | WCAG 2.4.4 / SC 2.4.6 |
+| `no-anchor-no-content` | `<a>` with no text content and no accessible name | WCAG 4.1.2 |
+| `no-aria-activedescendant-no-tabindex` | `aria-activedescendant` on an element without `tabindex` — focus can never reach it | ARIA 1.2 |
+| `no-invalid-aria-prop-value` | Invalid values on ARIA state/property attributes | WCAG 4.1.2 |
+| `no-autocomplete-invalid` | Invalid `autocomplete` token values | SC 1.3.5 |
+| `no-heading-no-content` | Headings (`<h1>`–`<h6>`) with no text content | WCAG 2.4.6 |
+| `no-iframe-no-title` | `<iframe>` without a `title` attribute | WCAG 4.1.2 |
+| `no-img-redundant-alt` | Alt text containing "image", "photo", or "picture" — screen readers already announce the element type | WCAG 1.1.1 |
+| `no-access-key` | `accessKey` attribute — conflicts with AT and browser shortcuts | WCAG 2.1.4 |
+| `no-noninteractive-to-interactive-role` | Non-interactive elements given interactive ARIA roles without keyboard handlers | WCAG 2.1.1 / 4.1.2 |
+| `no-noninteractive-tabindex` | `tabindex` on a non-interactive element with no interactive role | WCAG 2.1.1 |
+| `prefer-semantic-element` | `<div role="button">` and similar patterns where a native element would be correct | WCAG 4.1.2 |
+| `no-role-supports-aria-props` | ARIA properties applied to roles that do not support them (e.g. `aria-checked` on `role="button"`) | ARIA 1.2 |
+| `no-scope-on-td` | `scope` attribute on `<td>` — only valid on `<th>` | SC 1.3.1 |
+
+---
+
+## Framework-specific rules (React / Remix only)
+
+These rules are specific to the @ulam framework's patterns and activate only when their trigger imports appear in the file being linted.
+
+| Rule | Severity | What it flags |
+|---|---|---|
+| `no-announce-in-render` | error | `announce()` / `clearAnnouncements()` called directly in a component render body or Vue setup — fires on every render, spamming screen readers. Safe contexts: `useEffect` / `onMounted` / `watch` / event handlers. |
+| `no-hash-router-in-remix` | warn | `@ulam` hash router import alongside `react-router` — signals an incomplete Remix migration |
+| `no-use-page-title-in-remix` | warn | `usePageTitle()` alongside `react-router` imports — conflicts with Remix's declarative `meta` export |
+
+The `no-announce-in-render` rule also runs in the Vue and Angular plugins, with safe contexts tuned for each framework:
+
+- **Vue:** `onMounted`, `onUpdated`, `watch`, `watchEffect`, `nextTick`, and their variants
+- **Angular:** `ngOnInit`, `ngAfterViewInit`, `ngAfterContentInit`, `ngOnChanges`, `ngDoCheck`, and class method event handlers
 
 ---
 
