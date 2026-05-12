@@ -11,18 +11,41 @@
     "./eslint-vue": "./neighbor-eslint-vue.mjs",
     "./eslint-angular": "./neighbor-eslint-angular.mjs"
   },
-  "keywords": ["stylelint", "stylelint-plugin", "eslint", "eslint-plugin", "a11yfred", "css", "aria", "accessibility", "a11y"],
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "eslint",
+    "eslint-plugin",
+    "a11yfred",
+    "css",
+    "aria",
+    "accessibility",
+    "a11y"
+  ],
   "peerDependencies": {
+    "@angular-eslint/eslint-plugin-template": ">=17",
     "eslint": ">=8",
     "eslint-plugin-jsx-a11y": ">=6",
     "eslint-plugin-vuejs-accessibility": ">=2",
-    "@angular-eslint/eslint-plugin-template": ">=17",
     "stylelint": ">=14"
   },
   "peerDependenciesMeta": {
-    "eslint": { "optional": true },
-    "eslint-plugin-vuejs-accessibility": { "optional": true },
-    "@angular-eslint/eslint-plugin-template": { "optional": true },
-    "stylelint": { "optional": true }
+    "eslint": {
+      "optional": true
+    },
+    "eslint-plugin-vuejs-accessibility": {
+      "optional": true
+    },
+    "@angular-eslint/eslint-plugin-template": {
+      "optional": true
+    },
+    "stylelint": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "eslint": "^9.39.4",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "stylelint": "^17.11.0"
   }
 }
