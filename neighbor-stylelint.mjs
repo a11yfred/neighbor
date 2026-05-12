@@ -13,6 +13,9 @@
  *   double-great/stylelint-a11y  github.com/double-great/stylelint-a11y
  */
 
+import stylelint from 'stylelint';
+const { utils: { report } } = stylelint;
+
 const defined = (x) => x !== undefined && x !== null;
 
 /** True if the node or any ancestor is a prefers-* / forced-colors media block */
@@ -117,7 +120,7 @@ function rule(primaryOption) {
 
       // opacity  -  warn on non-structural values (i.e. dims like 0.5, 0.75)
       if (prop === 'opacity' && !isStructuralOpacity(value)) {
-        decl.warn(result, messages.opacity(value), { rule: ruleName });
+        report(decl, messages.opacity(value));
         return;
       }
 
@@ -125,7 +128,7 @@ function rule(primaryOption) {
       if (prop === 'animation' || prop === 'transition' || prop === 'animation-name') {
         // Skip "none" values  -  they're already the reduced state
         if (/^none\b/i.test(value.trim())) return;
-        decl.warn(result, messages.animation(prop, value), { rule: ruleName });
+        report(decl, messages.animation(prop, value));
         return;
       }
 
@@ -136,7 +139,7 @@ function rule(primaryOption) {
         'outline-color', 'box-shadow', 'text-shadow', 'fill', 'stroke',
       ]);
       if (visualProps.has(prop) && hasAlphaChannel(value)) {
-        decl.warn(result, messages.alpha(value), { rule: ruleName });
+        report(decl, messages.alpha(value));
       }
     });
   };
@@ -169,6 +172,30 @@ function isFocusSelector(selector) {
   return /:focus(?:-visible|-within)?/i.test(selector);
 }
 
+/** Returns true if the node is inside a @media (pointer: fine/coarse) block — keyboard users are unaffected. */
+function insidePointerMedia(node) {
+  let current = node.parent;
+  while (current) {
+    if (
+      current.type === 'atrule' &&
+      current.name === 'media' &&
+      /pointer\s*:\s*(fine|coarse)/.test(current.params)
+    ) return true;
+    current = current.parent;
+  }
+  return false;
+}
+
+/** Returns true if the decl or any ancestor rule node targets a focus state. */
+function insideFocusSelector(decl) {
+  let current = decl.parent;
+  while (current) {
+    if (current.type === 'rule' && isFocusSelector(current.selector ?? '')) return true;
+    current = current.parent;
+  }
+  return false;
+}
+
 /** @type {import('stylelint').Rule} */
 function noOutlineNoneRule(_primaryOption) {
   return (root, result) => {
@@ -176,14 +203,12 @@ function noOutlineNoneRule(_primaryOption) {
       const value = decl.value.trim().toLowerCase();
       if (value !== 'none' && value !== '0') return;
 
-      // If this declaration is already inside a :focus / :focus-visible rule, it's fine  - 
-      // the author is intentionally restyling focus, which is acceptable as long as they
-      // provide an alternative (we can't verify the alternative statically, so we allow it).
-      const parent = decl.parent;
-      if (parent?.type === 'rule' && isFocusSelector(parent.selector ?? '')) return;
+      // Allow inside :focus / :focus-visible (author is intentionally restyling focus)
+      if (insideFocusSelector(decl)) return;
+      // Allow inside @media (pointer: fine/coarse) — keyboard users are unaffected
+      if (insidePointerMedia(decl)) return;
 
-      // Flag it
-      decl.warn(result, noOutlineNoneMessages.removed(decl.value), { rule: noOutlineNoneRuleName });
+      report({ message: noOutlineNoneMessages.removed(decl.value), node: decl, result, ruleName: noOutlineNoneRuleName });
     });
   };
 }
@@ -243,7 +268,7 @@ function noForcedColorsNoneRule(_primaryOption) {
       if (decl.value.trim().toLowerCase() !== 'none') return;
       if (!insideForcedColorsMedia(decl)) return;
       const selector = decl.parent?.selector ?? decl.parent?.name ?? '(unknown)';
-      decl.warn(result, noForcedColorsNoneMessages.none(selector), { rule: noForcedColorsNoneRuleName });
+      report({ message: noForcedColorsNoneMessages.none(selector), node: decl, result, ruleName: noForcedColorsNoneRuleName });
     });
   };
 }

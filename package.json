@@ -1,10 +1,21 @@
 {
   "name": "@a11yfred/neighbor",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Accessibility linting for a11yfred  -  ESLint (markup + content), Stylelint (CSS). Won't you be my neighbor?",
   "type": "module",
   "license": "MIT",
-  "files": ["lib", "*.mjs", "LICENSE", "README.md", "CHANGELOG.md", "CONTRIBUTING.md", "RULES.md", "RULES-MARKUP.md", "RULES-CSS.md", "RULES-CONTENT.md"],
+  "files": [
+    "lib",
+    "*.mjs",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "RULES.md",
+    "RULES-MARKUP.md",
+    "RULES-CSS.md",
+    "RULES-CONTENT.md"
+  ],
   "main": "./neighbor-stylelint.mjs",
   "repository": {
     "type": "git",
@@ -67,6 +78,7 @@
     }
   },
   "devDependencies": {
+    "@a11yfred/neighbor": "^1.0.1",
     "eslint": "^9.39.4",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "stylelint": "^17.11.0"

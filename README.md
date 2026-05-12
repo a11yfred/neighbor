@@ -9,7 +9,8 @@ Some rules are specific to **@ulam**  -  an upcoming JavaScript framework by the
 - [Install](#install)
 - [Entry points](#entry-points)
 - [Setup](#setup)
-  - [React / JSX](#react--jsx)
+  - [Vanilla JS / plain HTML (no framework)](#vanilla-js--plain-html-no-framework)
+  - [React / JSX](#react-jsx)
   - [Remix 2](#remix-2)
   - [Remix 3](#remix-3)
   - [Vue](#vue)
@@ -18,11 +19,11 @@ Some rules are specific to **@ulam**  -  an upcoming JavaScript framework by the
   - [Content linting](#content-linting)
 - [Peer dependencies](#peer-dependencies)
 - [What neighbor adds](#what-neighbor-adds)
-  - [ESLint  -  React / JSX](#eslint--react--jsx)
-  - [ESLint  -  Remix 2](#eslint--remix-2)
-  - [ESLint  -  Vue SFCs](#eslint--vue-sfcs)
-  - [ESLint  -  Angular templates](#eslint--angular-templates)
-  - [Stylelint  -  CSS](#stylelint--css)
+  - [ESLint  -  React / JSX](#eslint-react-jsx)
+  - [ESLint  -  Remix 2](#eslint-remix-2)
+  - [ESLint  -  Vue SFCs](#eslint-vue-sfcs)
+  - [ESLint  -  Angular templates](#eslint-angular-templates)
+  - [Stylelint  -  CSS](#stylelint-css)
   - [Content linter](#content-linter)
 - [Rule severity](#rule-severity)
 - [Contributing](CONTRIBUTING.md)
@@ -47,6 +48,99 @@ npm install --save-dev @a11yfred/neighbor
 | `@a11yfred/neighbor/stylelint` | Stylelint  -  CSS rules (explicit) |
 
 ## Setup
+
+### Vanilla JS / plain HTML (no framework)
+
+If you write plain JavaScript with no JSX, React, Vue, or Angular, only the **Stylelint CSS rules** and the **content linter** apply. The ESLint markup rules require a component framework — they lint JSX or template syntax that plain JS does not have.
+
+**What you get:**
+
+| Plugin | What it checks |
+| --- | --- |
+| Stylelint (`@a11yfred/neighbor`) | CSS: bare `outline: none`, forced-colors opt-out, motion/transparency without `prefers-*` fallbacks |
+| Content linter (`@a11yfred/neighbor/content`) | JS strings: ableist language, vague CTAs, unexplained abbreviations, idioms, all-caps prose |
+
+**Stylelint setup** (CSS only, no framework needed):
+
+```bash
+npm install --save-dev stylelint stylelint-config-standard @a11yfred/neighbor
+```
+
+```json
+// .stylelintrc.json
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": ["@a11yfred/neighbor"],
+  "rules": {
+    "neighbor/no-outline-none": true,
+    "neighbor/no-forced-colors-none": true,
+    "neighbor/user-preferences": true
+  }
+}
+```
+
+Run it:
+
+```bash
+npx stylelint "**/*.css"
+```
+
+**Content linter setup** (plain JS string literals, no framework needed):
+
+```bash
+npm install --save-dev eslint @a11yfred/neighbor
+```
+
+```js
+// eslint.config.js  (ESLint flat config, ESLint >= 8)
+import neighborContent from '@a11yfred/neighbor/content'
+
+export default [
+  {
+    files: ['**/*.js'],
+    plugins: { ...neighborContent.configs.recommended.plugins },
+    rules:   { ...neighborContent.configs.recommended.rules },
+  },
+]
+```
+
+Run it:
+
+```bash
+npx eslint src/
+```
+
+**Both together:**
+
+```js
+// eslint.config.js
+import neighborContent from '@a11yfred/neighbor/content'
+
+export default [
+  {
+    files: ['**/*.js'],
+    plugins: { ...neighborContent.configs.recommended.plugins },
+    rules:   { ...neighborContent.configs.recommended.rules },
+  },
+]
+```
+
+```json
+// .stylelintrc.json
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": ["@a11yfred/neighbor"],
+  "rules": {
+    "neighbor/no-outline-none": true,
+    "neighbor/no-forced-colors-none": true,
+    "neighbor/user-preferences": true
+  }
+}
+```
+
+The ESLint markup rules (`@a11yfred/neighbor/eslint` and variants) require JSX or a component template syntax. They will not produce useful output on plain HTML or vanilla JS files and should be skipped.
+
+---
 
 ### React / JSX
 
