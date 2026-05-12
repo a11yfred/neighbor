@@ -32,9 +32,9 @@ Stylelint rules that flag CSS that removes focus indicators, opts out of High Co
 
 | Rule | What it flags |
 | --- | --- |
-| `ulam/user-preferences` | Animation, motion, and transparency without `@media (prefers-*)` fallbacks |
-| `ulam/no-outline-none` | `outline: none` outside `:focus` selectors  -  removes keyboard focus ring |
-| `ulam/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)`  -  opts out of Windows High Contrast Mode |
+| `neighbor/user-preferences` | Animation, motion, and transparency without `@media (prefers-*)` fallbacks |
+| `neighbor/no-outline-none` | `outline: none` outside `:focus` selectors  -  removes keyboard focus ring |
+| `neighbor/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)`  -  opts out of Windows High Contrast Mode |
 
 ---
 
@@ -45,11 +45,11 @@ ESLint rules that flag accessibility and inclusion problems in string literals a
 | Rule | What it flags | WCAG SC |
 | --- | --- | --- |
 | `no-ableist-language` | Slurs, suffering-framing, condescending euphemisms ("wheelchair-bound", "suffers from", "special needs") | 3.1.1 |
-| `no-disability-metaphor` | Disability used figuratively ("blind spot", "tone deaf", "paralyzed by") |  -  |
+| `no-disability-metaphor` | Disability used figuratively ("blind spot", "tone deaf", "paralyzed by") | - |
 | `no-english-idiom` | Idioms and sports metaphors opaque to ESL readers ("slam dunk", "boil the ocean", "circle back") | 3.1.5 |
 | `no-vague-cta` | Vague link/button text ("click here", "read more", "here") | 2.4.4 |
 | `no-directional-language` | Position-based instructions ("see above", "in the right sidebar") | 1.3.3 |
 | `no-unexplained-abbreviation` | Acronyms used without prior expansion in the file | 3.1.4 |
-| `no-all-caps-prose` | ALL CAPS words that screen readers may spell out letter-by-letter |  -  |
+| `no-all-caps-prose` | ALL CAPS words that screen readers may spell out letter-by-letter | - |
 | `no-vague-error-message` | Error messages that don't say what went wrong ("An error occurred") | 3.3.1 |
-| `no-ampersand-in-prose` | `&` in place of "and"  -  announced inconsistently by screen readers |  -  |
+| `no-ampersand-in-prose` | `&` in place of "and"  -  announced inconsistently by screen readers | - |

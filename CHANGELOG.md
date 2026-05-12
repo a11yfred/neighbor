@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.0.0  -  2026-05-12
+
+### Breaking change
+
+CSS rules renamed from `ulam/` to `neighbor/` namespace:
+
+| Old | New |
+| --- | --- |
+| `ulam/user-preferences` | `neighbor/user-preferences` |
+| `ulam/no-outline-none` | `neighbor/no-outline-none` |
+| `ulam/no-forced-colors-none` | `neighbor/no-forced-colors-none` |
+
+Update your `.stylelintrc.json` to use the new names.
+
+---
+
 ## 0.4.0  -  2026-05-12
 
 ### New entry point
@@ -41,8 +57,8 @@ RULES.md is now an index. Full references split into:
 ### New rule
 
 | Rule | What it catches |
-|---|---|
-| `ulam/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)`  -  actively opts out of Windows High Contrast Mode |
+| --- | --- |
+| `neighbor/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)`  -  actively opts out of Windows High Contrast Mode |
 
 ### Severity changes
 

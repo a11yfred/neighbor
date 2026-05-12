@@ -21,21 +21,21 @@ Stylelint rules for CSS accessibility.
 
 ## Rules
 
-All CSS rules use the `ulam/` namespace and ship from `@a11yfred/neighbor` (the default entry point) and `@a11yfred/neighbor/stylelint`.
+All CSS rules use the `neighbor/` namespace and ship from `@a11yfred/neighbor` (the default entry point) and `@a11yfred/neighbor/stylelint`.
 
 ### Warnings  -  on by default
 
 | Rule | What it flags | WCAG SC |
 | --- | --- | --- |
-| `ulam/user-preferences` | `opacity`, `animation`, `transition`, or alpha-channel colors used in `src/components/ui/` without a `@media (prefers-reduced-motion)`, `@media (prefers-reduced-transparency)`, or `@media (forced-colors)` counterpart | [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
-| `ulam/no-outline-none` | `outline: none` or `outline: 0` in a base rule (outside a `:focus`, `:focus-visible`, or `:focus-within` selector)  -  removes the keyboard focus indicator for all users | [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
-| `ulam/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)`  -  actively opts out of Windows High Contrast Mode, removing the system-enforced visibility that users with low vision depend on | [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
+| `neighbor/user-preferences` | `opacity`, `animation`, `transition`, or alpha-channel colors used in `src/components/ui/` without a `@media (prefers-reduced-motion)`, `@media (prefers-reduced-transparency)`, or `@media (forced-colors)` counterpart | [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
+| `neighbor/no-outline-none` | `outline: none` or `outline: 0` in a base rule (outside a `:focus`, `:focus-visible`, or `:focus-within` selector)  -  removes the keyboard focus indicator for all users | [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
+| `neighbor/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)`  -  actively opts out of Windows High Contrast Mode, removing the system-enforced visibility that users with low vision depend on | [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
 
 ---
 
 ## Notes
 
-### `ulam/no-outline-none`
+### `neighbor/no-outline-none`
 
 The rule allows `outline: none` inside `:focus`, `:focus-visible`, and `:focus-within` selectors  -  those are intentional restylings, not removals. The pattern for programmatic-focus-only targets (skip-link destinations, dialog headings) is:
 
@@ -45,7 +45,7 @@ The rule allows `outline: none` inside `:focus`, `:focus-visible`, and `:focus-w
 
 This suppresses the visible ring for JS `.focus()` calls while preserving it for keyboard-initiated focus. That pattern is not flagged.
 
-### `ulam/no-forced-colors-none`
+### `neighbor/no-forced-colors-none`
 
 `forced-color-adjust: none` has a small number of valid uses (color pickers, custom border tricks) when placed *outside* a `@media (forced-colors)` block  -  those are not flagged. The rule only fires inside the media query, where the intent is explicitly to cancel High Contrast Mode for an element that needs it most.
 

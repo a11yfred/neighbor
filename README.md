@@ -168,9 +168,9 @@ export default [
 {
   "plugins": ["@a11yfred/neighbor"],
   "rules": {
-    "ulam/user-preferences": true,
-    "ulam/no-outline-none": true,
-    "ulam/no-forced-colors-none": true
+    "neighbor/user-preferences": true,
+    "neighbor/no-outline-none": true,
+    "neighbor/no-forced-colors-none": true
   }
 }
 ```
@@ -246,8 +246,8 @@ Base: `eslint-plugin-jsx-a11y`
 | `role="dialog"` requires accessible name | `no-roles-without-name` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `role="group"` with form controls requires name | `no-group-without-name` | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
 | `role="tooltip"` requires `id` on the tooltip | `no-tooltip-role-misuse` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="application"` disables AT browse mode | `no-application-role` |  -  |
-| `role="grid"` almost always wrong | `no-grid-role` |  -  |
+| `role="application"` disables AT browse mode | `no-application-role` | - |
+| `role="grid"` almost always wrong | `no-grid-role` | - |
 | `role="menu"` on nav triggers wrong AT mode | `no-menu-role-on-nav` | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
 | `role="presentation"` on a focusable element | `no-presentation-on-focusable` | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
 | `role="log"` must not contain interactive children | `no-log-with-interactive-children` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
@@ -260,9 +260,9 @@ Base: `eslint-plugin-jsx-a11y`
 | `role="listbox"` requires `role="option"` children | `no-listbox-without-option` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `role="tree"` requires `role="treeitem"` children | `no-tree-without-treeitem` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `role="feed"` requires `role="article"` children | `no-feed-without-article` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `aria-hidden="true"` + `role="none"` is redundant | `no-redundant-aria-hidden-with-presentation` |  -  |
-| `aria-roledescription` does not translate | `no-aria-roledescription` |  -  |
-| `aria-readonly` has poor AT support | `no-aria-readonly` |  -  |
+| `aria-hidden="true"` + `role="none"` is redundant | `no-redundant-aria-hidden-with-presentation` | - |
+| `aria-roledescription` does not translate | `no-aria-roledescription` | - |
+| `aria-readonly` has poor AT support | `no-aria-readonly` | - |
 | `aria-owns` on a void element | `no-aria-owns-on-void` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `aria-activedescendant` requires a non-empty static ID | `no-aria-activedescendant-without-id` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `aria-required` only valid on form-control roles | `no-aria-required-on-non-form` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
@@ -326,9 +326,9 @@ Neighbor adds the same rule set as Vue, adapted for Angular's template AST (`[in
 
 | Rule | What it checks |
 | --- | --- |
-| `ulam/user-preferences` | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks  -  [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
-| `ulam/no-outline-none` | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors  -  [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
-| `ulam/no-forced-colors-none` | Disallows `forced-color-adjust: none` inside `@media (forced-colors)`  -  opts out of Windows High Contrast Mode  -  [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
+| `neighbor/user-preferences` | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks  -  [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
+| `neighbor/no-outline-none` | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors  -  [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
+| `neighbor/no-forced-colors-none` | Disallows `forced-color-adjust: none` inside `@media (forced-colors)`  -  opts out of Windows High Contrast Mode  -  [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
 
 ### Content linter
 
@@ -337,14 +337,14 @@ Rules that flag accessibility and inclusion problems in web and app copy. Works 
 | Rule | What it flags | Severity | WCAG SC |
 | --- | --- | --- | --- |
 | `no-ableist-language` | Slurs, condescending euphemisms, suffering-framing ("suffers from", "wheelchair-bound", "special needs") | warn | [3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page) |
-| `no-disability-metaphor` | Figurative use of disability language ("blind spot", "tone deaf", "paralyzed by") | warn |  -  |
+| `no-disability-metaphor` | Figurative use of disability language ("blind spot", "tone deaf", "paralyzed by") | warn | - |
 | `no-english-idiom` | Idioms and sports metaphors opaque to ESL readers ("ball park", "slam dunk", "boil the ocean") | warn | [3.1.5](https://www.w3.org/WAI/WCAG22/Understanding/reading-level) |
 | `no-vague-cta` | Vague link and button text ("click here", "read more", "here") | warn | [2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context) |
 | `no-directional-language` | Layout-dependent position references ("see above", "in the right sidebar") | warn | [1.3.3](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics) |
 | `no-unexplained-abbreviation` | Acronyms used without a prior expansion in the same file | warn | [3.1.4](https://www.w3.org/WAI/WCAG22/Understanding/abbreviations) |
-| `no-all-caps-prose` | ALL CAPS words in prose that screen readers may spell out letter-by-letter | warn |  -  |
+| `no-all-caps-prose` | ALL CAPS words in prose that screen readers may spell out letter-by-letter | warn | - |
 | `no-vague-error-message` | Error messages that don't explain what went wrong ("An error occurred", "Something went wrong") | warn | [3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification) |
-| `no-ampersand-in-prose` | `&` used in place of "and" in prose  -  announced inconsistently by screen readers | warn |  -  |
+| `no-ampersand-in-prose` | `&` used in place of "and" in prose  -  announced inconsistently by screen readers | warn | - |
 
 See [RULES-CONTENT.md](RULES-CONTENT.md) for the full rule reference including sources, methodology, and the language-evolution note.
 

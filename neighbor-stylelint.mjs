@@ -2,9 +2,10 @@
  * @a11yfred/neighbor  -  Stylelint plugin
  *
  * Rules:
- *   ulam/user-preferences   -  Warn when motion, transparency, or alpha colors
- *                            are used without @media (prefers-*) fallbacks.
- *   ulam/no-outline-none    -  Disallow bare outline:none/0 outside :focus selectors.
+ *   neighbor/user-preferences      -  Warn when motion, transparency, or alpha colors
+ *                                  are used without @media (prefers-*) fallbacks.
+ *   neighbor/no-outline-none       -  Disallow bare outline:none/0 outside :focus selectors.
+ *   neighbor/no-forced-colors-none -  Disallow forced-color-adjust:none inside @media (forced-colors).
  *
  * Sources and credits:
  *   WCAG 2.1 / 2.2         w3.org/TR/WCAG21, w3.org/TR/WCAG22
@@ -45,7 +46,7 @@ function isStructuralOpacity(value) {
   return n === 0 || n === 1;
 }
 
-const ruleName = 'ulam/user-preferences';
+const ruleName = 'neighbor/user-preferences';
 
 const messages = {
   opacity: (value) =>
@@ -143,7 +144,7 @@ function rule(primaryOption) {
 
 const userPreferences = { ruleName, rule, meta };
 
-// ─── Rule: ulam/no-outline-none ──────────────────────────────────────────────
+// ─── Rule: neighbor/no-outline-none ──────────────────────────────────────────
 // outline: none / outline: 0 removes the browser's default keyboard focus
 // indicator. This is one of the most common keyboard accessibility failures  - 
 // keyboard users lose all visual indication of where focus is.
@@ -154,7 +155,7 @@ const userPreferences = { ruleName, rule, meta };
 //
 // Ref: WCAG 2.4.7 (Focus Visible); WebAIM; Roselli; cross-practitioner consensus
 
-const noOutlineNoneRuleName = 'ulam/no-outline-none';
+const noOutlineNoneRuleName = 'neighbor/no-outline-none';
 
 const noOutlineNoneMessages = {
   removed: (value) =>
@@ -193,7 +194,7 @@ const noOutlineNone = {
   meta: noOutlineNoneMeta,
 };
 
-// ─── Rule: ulam/no-forced-colors-none ────────────────────────────────────────
+// ─── Rule: neighbor/no-forced-colors-none ────────────────────────────────────
 // forced-color-adjust: none inside @media (forced-colors) actively opts out of
 // Windows High Contrast Mode and other forced-colors user settings. For users
 // who depend on forced colors this is their last resort for viewing content  - 
@@ -207,7 +208,7 @@ const noOutlineNone = {
 //      Adrian Roselli  -  WHCM and System Colors (adrianroselli.com)
 //      WCAG SC 1.4.11 Non-text Contrast; SC 1.4.3 Contrast (Minimum)
 
-const noForcedColorsNoneRuleName = 'ulam/no-forced-colors-none';
+const noForcedColorsNoneRuleName = 'neighbor/no-forced-colors-none';
 
 const noForcedColorsNoneMessages = {
   none: (selector) =>
