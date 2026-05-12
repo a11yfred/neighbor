@@ -1,10 +1,10 @@
 {
   "name": "@a11yfred/neighbor",
-  "version": "0.3.0",
-  "description": "Accessibility linting plugin for a11yfred — Stylelint (user-preference fallbacks) and ESLint (bad ARIA patterns). Won't you be my neighbor?",
+  "version": "0.4.0",
+  "description": "Accessibility linting for a11yfred  -  ESLint (markup + content), Stylelint (CSS). Won't you be my neighbor?",
   "type": "module",
   "license": "MIT",
-  "files": ["lib", "*.mjs", "LICENSE", "README.md", "CHANGELOG.md", "CONTRIBUTING.md"],
+  "files": ["lib", "*.mjs", "LICENSE", "README.md", "CHANGELOG.md", "CONTRIBUTING.md", "RULES.md", "RULES-MARKUP.md", "RULES-CSS.md", "RULES-CONTENT.md"],
   "main": "./neighbor-stylelint.mjs",
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
     "./stylelint": "./neighbor-stylelint.mjs",
     "./eslint": "./neighbor-eslint.mjs",
     "./eslint-vue": "./neighbor-eslint-vue.mjs",
-    "./eslint-angular": "./neighbor-eslint-angular.mjs"
+    "./eslint-angular": "./neighbor-eslint-angular.mjs",
+    "./content": "./neighbor-content.mjs"
   },
   "keywords": [
     "stylelint",
@@ -30,7 +31,11 @@
     "css",
     "aria",
     "accessibility",
-    "a11y"
+    "a11y",
+    "content",
+    "plain-language",
+    "inclusive-language",
+    "ableist"
   ],
   "peerDependencies": {
     "@angular-eslint/eslint-plugin-template": ">=17",
@@ -41,6 +46,9 @@
   },
   "peerDependenciesMeta": {
     "eslint": {
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
       "optional": true
     },
     "eslint-plugin-vuejs-accessibility": {

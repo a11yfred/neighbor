@@ -2,7 +2,7 @@
 
 Neighbor is an accessibility linting plugin for ESLint and Stylelint that builds on jsx-a11y. It looks to cover gaps: bad ARIA patterns, live region misuse, missing names on roles, and CSS that removes focus indicators. It also brings that coverage to Vue and Angular, where jsx-a11y does not apply.
 
-Some rules are specific to **@ulam** — an upcoming JavaScript framework by the same author. Those rules are prefixed `no-announce-in-render`, `no-hash-router-in-remix`, and `no-use-page-title-in-remix`. They activate only when @ulam-related imports are detected and are harmless in non-@ulam projects.
+Some rules are specific to **@ulam**  -  an upcoming JavaScript framework by the same author. Those rules are prefixed `no-announce-in-render`, `no-hash-router-in-remix`, and `no-use-page-title-in-remix`. They activate only when @ulam-related imports are detected and are harmless in non-@ulam projects.
 
 ## Contents
 
@@ -15,13 +15,15 @@ Some rules are specific to **@ulam** — an upcoming JavaScript framework by the
   - [Vue](#vue)
   - [Angular](#angular)
   - [Stylelint](#stylelint)
+  - [Content linting](#content-linting)
 - [Peer dependencies](#peer-dependencies)
 - [What neighbor adds](#what-neighbor-adds)
-  - [ESLint — React / JSX](#eslint--react--jsx)
-  - [ESLint — Remix 2](#eslint--remix-2)
-  - [ESLint — Vue SFCs](#eslint--vue-sfcs)
-  - [ESLint — Angular templates](#eslint--angular-templates)
-  - [Stylelint — CSS](#stylelint--css)
+  - [ESLint  -  React / JSX](#eslint--react--jsx)
+  - [ESLint  -  Remix 2](#eslint--remix-2)
+  - [ESLint  -  Vue SFCs](#eslint--vue-sfcs)
+  - [ESLint  -  Angular templates](#eslint--angular-templates)
+  - [Stylelint  -  CSS](#stylelint--css)
+  - [Content linter](#content-linter)
 - [Rule severity](#rule-severity)
 - [Contributing](CONTRIBUTING.md)
 - [See also](#see-also)
@@ -37,10 +39,12 @@ npm install --save-dev @a11yfred/neighbor
 
 | Import | Use for |
 | --- | --- |
-| `@a11yfred/neighbor/eslint` | React / JSX, Remix 2 |
-| `@a11yfred/neighbor/eslint-vue` | Vue SFCs |
-| `@a11yfred/neighbor/eslint-angular` | Angular templates |
-| `@a11yfred/neighbor` | Stylelint — CSS user-preference fallbacks |
+| `@a11yfred/neighbor/eslint` | React / JSX, Remix 2  -  markup rules |
+| `@a11yfred/neighbor/eslint-vue` | Vue SFCs  -  markup rules |
+| `@a11yfred/neighbor/eslint-angular` | Angular templates  -  markup rules |
+| `@a11yfred/neighbor/content` | Any JS/TS/JSX/TSX  -  content and prose rules |
+| `@a11yfred/neighbor` | Stylelint  -  CSS rules (default export) |
+| `@a11yfred/neighbor/stylelint` | Stylelint  -  CSS rules (explicit) |
 
 ## Setup
 
@@ -87,7 +91,7 @@ export default [
 
 ### Remix 3
 
-Remix 3 is framework-agnostic and does not require React. Neighbor does not have a dedicated Remix 3 entry point — use the entry point that matches your renderer.
+Remix 3 is framework-agnostic and does not require React. Neighbor does not have a dedicated Remix 3 entry point  -  use the entry point that matches your renderer.
 
 If you are using React with Remix 3:
 
@@ -159,15 +163,59 @@ export default [
 
 ### Stylelint
 
-```js
+```json
 // .stylelintrc.json
 {
   "plugins": ["@a11yfred/neighbor"],
   "rules": {
     "ulam/user-preferences": true,
-    "ulam/no-outline-none": true
+    "ulam/no-outline-none": true,
+    "ulam/no-forced-colors-none": true
   }
 }
+```
+
+### Content linting
+
+The content plugin lints string literals and JSX text in JavaScript, TypeScript, JSX, and TSX files. It is separate from the markup plugins and can be used alongside any of them.
+
+```bash
+npm install --save-dev @a11yfred/neighbor
+```
+
+```js
+// eslint.config.js
+import neighborContent from '@a11yfred/neighbor/content'
+
+export default [
+  {
+    files: ['**/*.{js,jsx,ts,tsx}'],
+    plugins: { ...neighborContent.configs.recommended.plugins },
+    rules:   { ...neighborContent.configs.recommended.rules },
+  },
+]
+```
+
+To use alongside the React markup plugin:
+
+```js
+// eslint.config.js
+import neighbor from '@a11yfred/neighbor/eslint'
+import neighborContent from '@a11yfred/neighbor/content'
+
+export default [
+  {
+    files: ['**/*.{js,jsx,ts,tsx}'],
+    plugins: {
+      ...neighbor.configs.recommended.plugins,
+      ...neighborContent.configs.recommended.plugins,
+    },
+    rules: {
+      ...neighbor.configs.recommended.rules,
+      ...neighborContent.configs.recommended.rules,
+    },
+  },
+]
 ```
 
 ## Peer dependencies
@@ -175,7 +223,7 @@ export default [
 | Peer | Required for |
 | --- | --- |
 | `eslint >= 8` | Any ESLint entry point |
-| `eslint-plugin-jsx-a11y >= 6` | React config — neighbor extends it, not replaces it |
+| `eslint-plugin-jsx-a11y >= 6` | React config  -  neighbor extends it, not replaces it |
 | `eslint-plugin-vuejs-accessibility >= 2` | Vue config |
 | `@angular-eslint/eslint-plugin-template >= 17` | Angular config |
 | `stylelint >= 14` | Stylelint config |
@@ -184,7 +232,7 @@ All peers are optional. Install only what your project uses.
 
 ## What neighbor adds
 
-### ESLint — React / JSX
+### ESLint  -  React / JSX
 
 Base: `eslint-plugin-jsx-a11y`
 
@@ -198,8 +246,8 @@ Base: `eslint-plugin-jsx-a11y`
 | `role="dialog"` requires accessible name | `no-roles-without-name` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `role="group"` with form controls requires name | `no-group-without-name` | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
 | `role="tooltip"` requires `id` on the tooltip | `no-tooltip-role-misuse` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="application"` disables AT browse mode | `no-application-role` | — |
-| `role="grid"` almost always wrong | `no-grid-role` | — |
+| `role="application"` disables AT browse mode | `no-application-role` |  -  |
+| `role="grid"` almost always wrong | `no-grid-role` |  -  |
 | `role="menu"` on nav triggers wrong AT mode | `no-menu-role-on-nav` | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
 | `role="presentation"` on a focusable element | `no-presentation-on-focusable` | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
 | `role="log"` must not contain interactive children | `no-log-with-interactive-children` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
@@ -212,9 +260,9 @@ Base: `eslint-plugin-jsx-a11y`
 | `role="listbox"` requires `role="option"` children | `no-listbox-without-option` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `role="tree"` requires `role="treeitem"` children | `no-tree-without-treeitem` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `role="feed"` requires `role="article"` children | `no-feed-without-article` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `aria-hidden="true"` + `role="none"` is redundant | `no-redundant-aria-hidden-with-presentation` | — |
-| `aria-roledescription` does not translate | `no-aria-roledescription` | — |
-| `aria-readonly` has poor AT support | `no-aria-readonly` | — |
+| `aria-hidden="true"` + `role="none"` is redundant | `no-redundant-aria-hidden-with-presentation` |  -  |
+| `aria-roledescription` does not translate | `no-aria-roledescription` |  -  |
+| `aria-readonly` has poor AT support | `no-aria-readonly` |  -  |
 | `aria-owns` on a void element | `no-aria-owns-on-void` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `aria-activedescendant` requires a non-empty static ID | `no-aria-activedescendant-without-id` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `aria-required` only valid on form-control roles | `no-aria-required-on-non-form` | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
@@ -238,7 +286,7 @@ Base: `eslint-plugin-jsx-a11y`
 | `<th>` or header role with no accessible text | `no-empty-table-header` | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
 | `announce()` called in component render body | `no-announce-in-render` | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
 
-### ESLint — Remix 2
+### ESLint  -  Remix 2
 
 Same as React / JSX. Additional rules activate when Remix imports are detected in the file being linted:
 
@@ -247,7 +295,7 @@ Same as React / JSX. Additional rules activate when Remix imports are detected i
 | `@ulam` hash router alongside `react-router` | `no-hash-router-in-remix` | warn |
 | `usePageTitle()` alongside `react-router` | `no-use-page-title-in-remix` | warn |
 
-### ESLint — Vue SFCs
+### ESLint  -  Vue SFCs
 
 Base: `eslint-plugin-vuejs-accessibility`
 
@@ -266,21 +314,39 @@ Neighbor adds everything in the React table above, adapted for Vue's AST (`v-htm
 | `scope` on `<td>` (only valid on `<th>`) | `no-scope-on-td` | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
 | `announce()` called outside `onMounted`/`watch`/handler | `no-announce-in-render` | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
 
-### ESLint — Angular templates
+### ESLint  -  Angular templates
 
 Base: `@angular-eslint/eslint-plugin-template`
 
-Neighbor adds the same rule set as Vue, adapted for Angular's template AST (`[innerHTML]` instead of `dangerouslySetInnerHTML`). The `no-announce-in-render` rule also lints Angular component TypeScript files — see the setup instructions for how to configure it for `.ts` files alongside `.html` templates.
+Neighbor adds the same rule set as Vue, adapted for Angular's template AST (`[innerHTML]` instead of `dangerouslySetInnerHTML`). The `no-announce-in-render` rule also lints Angular component TypeScript files  -  see the setup instructions for how to configure it for `.ts` files alongside `.html` templates.
 
 **Known limitation:** Angular's template parser does not attach parent pointers to AST nodes. Rules that need to walk up the tree (`no-summary-without-details`, `no-button-type-missing`, `no-log-with-interactive-children`, `no-menu-role-on-nav`, `no-heading-inside-interactive`) will silently pass in Angular templates. The `no-dynamic-content-without-live` rule only checks the element itself for Angular (no ancestor walk).
 
-### Stylelint — CSS
+### Stylelint  -  CSS
 
 | Rule | What it checks |
 | --- | --- |
-| `ulam/user-preferences` | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks — [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
-| `ulam/no-outline-none` | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors — [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
-| `ulam/no-forced-colors-none` | Disallows `forced-color-adjust: none` inside `@media (forced-colors)` — opts out of Windows High Contrast Mode — [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
+| `ulam/user-preferences` | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks  -  [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
+| `ulam/no-outline-none` | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors  -  [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
+| `ulam/no-forced-colors-none` | Disallows `forced-color-adjust: none` inside `@media (forced-colors)`  -  opts out of Windows High Contrast Mode  -  [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
+
+### Content linter
+
+Rules that flag accessibility and inclusion problems in web and app copy. Works on string literals and JSX text in JS/TS/JSX/TSX files.
+
+| Rule | What it flags | Severity | WCAG SC |
+| --- | --- | --- | --- |
+| `no-ableist-language` | Slurs, condescending euphemisms, suffering-framing ("suffers from", "wheelchair-bound", "special needs") | warn | [3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page) |
+| `no-disability-metaphor` | Figurative use of disability language ("blind spot", "tone deaf", "paralyzed by") | warn |  -  |
+| `no-english-idiom` | Idioms and sports metaphors opaque to ESL readers ("ball park", "slam dunk", "boil the ocean") | warn | [3.1.5](https://www.w3.org/WAI/WCAG22/Understanding/reading-level) |
+| `no-vague-cta` | Vague link and button text ("click here", "read more", "here") | warn | [2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context) |
+| `no-directional-language` | Layout-dependent position references ("see above", "in the right sidebar") | warn | [1.3.3](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics) |
+| `no-unexplained-abbreviation` | Acronyms used without a prior expansion in the same file | warn | [3.1.4](https://www.w3.org/WAI/WCAG22/Understanding/abbreviations) |
+| `no-all-caps-prose` | ALL CAPS words in prose that screen readers may spell out letter-by-letter | warn |  -  |
+| `no-vague-error-message` | Error messages that don't explain what went wrong ("An error occurred", "Something went wrong") | warn | [3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification) |
+| `no-ampersand-in-prose` | `&` used in place of "and" in prose  -  announced inconsistently by screen readers | warn |  -  |
+
+See [RULES-CONTENT.md](RULES-CONTENT.md) for the full rule reference including sources, methodology, and the language-evolution note.
 
 ## Rule severity
 
@@ -288,13 +354,17 @@ Neighbor adds the same rule set as Vue, adapted for Angular's template AST (`[in
 | --- | --- |
 | `error` | Definite AT breakage or HTML spec violation |
 | `warn` | Strong guidance, occasional legitimate overrides exist |
-| `off` | Available but disabled — too noisy for most codebases, enable if it fits your project |
+| `off` | Available but disabled  -  too noisy for most codebases, enable if it fits your project |
 
 All rules can be overridden in your config.
 
 ## See also
 
-- [RULES.md](RULES.md) — full rule list with descriptions
+- [RULES.md](RULES.md)  -  rule index across all domains
+- [RULES-MARKUP.md](RULES-MARKUP.md)  -  full ESLint rule reference (markup)
+- [RULES-CSS.md](RULES-CSS.md)  -  full Stylelint rule reference (CSS)
+- [RULES-CONTENT.md](RULES-CONTENT.md)  -  full content rule reference with sources
+- [neighbor-vale](https://github.com/a11yfred/neighbor-vale)  -  companion Vale package for prose linting in Markdown, MDX, and HTML
 
 ## License
 
