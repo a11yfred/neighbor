@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.3.0 — 2026-05-12
+
+### New rule
+
+| Rule | What it catches |
+|---|---|
+| `ulam/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)` — actively opts out of Windows High Contrast Mode |
+
+### Severity changes
+
+10 rules moved from `warn` to `off` in the recommended config — they flag real problems but are too noisy for most codebases by default. All remain available to opt in individually:
+
+`no-application-role`, `no-grid-role`, `no-aria-roledescription`, `no-aria-readonly`, `no-tab-without-controls`, `no-href-hash`, `warn-role-alert`, `prefer-aria-disabled`, `no-target-blank-without-label`, `no-dialog-without-close`
+
+`no-tooltip-role-misuse` and `no-menu-role-on-nav` remain on as warns.
+
+### Docs
+
+- WCAG SC and HTML spec links added throughout README and RULES.md
+- CONTRIBUTING.md, PR template, and issue templates added
+- README table of contents added
+- @ulam described as a JavaScript framework (not React-based)
+
+---
+
 ## 0.2.0 — 2026-05-12
 
 ### New rules
