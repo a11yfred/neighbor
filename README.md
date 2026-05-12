@@ -1,6 +1,6 @@
 # @a11yfred/neighbor
 
-Accessibility linting plugin for ESLint and Stylelint. Catches ARIA anti-patterns, missing semantic structure, and HTML spec violations that existing plugins miss or only partially cover.
+Neighbor is an accessibility linting plugin for ESLint and Stylelint that builds on jsx-a11y. It looks to cover gaps: bad ARIA patterns, live region misuse, missing names on roles, and CSS that removes focus indicators. It also brings that coverage to Vue and Angular, where jsx-a11y does not apply.
 
 ## Packages
 
