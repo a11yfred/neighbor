@@ -56,7 +56,7 @@ const messages = {
     `Color value "${value}" uses an alpha channel. Add an opaque fallback in @media (prefers-reduced-transparency: reduce). See src/components/ui/user-preferences.css.`,
 };
 
-const meta = { url: 'https://github.com/mikeyfyi/ulam' };
+const meta = { url: 'https://github.com/a11yfred/neighbor' };
 
 /**
  * Collect all selectors that appear inside a prefers-reduced-* or forced-colors
@@ -161,7 +161,7 @@ const noOutlineNoneMessages = {
     `outline: ${value} removes the keyboard focus indicator. Add a :focus-visible rule with a visible outline or custom focus style. (WCAG 2.4.7 / WebAIM)`,
 };
 
-const noOutlineNoneMeta = { url: 'https://github.com/mikeyfyi/ulam' };
+const noOutlineNoneMeta = { url: 'https://github.com/a11yfred/neighbor' };
 
 /** Returns true if the selector string targets a focus state. */
 function isFocusSelector(selector) {
