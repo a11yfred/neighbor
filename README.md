@@ -11,7 +11,7 @@ npm install --save-dev @a11yfred/neighbor
 ## Entry points
 
 | Import | Use for |
-|---|---|
+| --- | --- |
 | `@a11yfred/neighbor/eslint` | React / JSX |
 | `@a11yfred/neighbor/eslint-vue` | Vue SFCs |
 | `@a11yfred/neighbor/eslint-angular` | Angular templates |
@@ -100,12 +100,12 @@ All peers are optional. Install only what your project uses.
 
 ## What neighbor adds
 
-### React / JSX
+### ESLint — React / JSX
 
 Base: `eslint-plugin-jsx-a11y`
 
 | What it checks | Rule | WCAG SC |
-|---|---|---|
+| --- | --- | --- |
 | `aria-disabled` keeps element reachable | `prefer-aria-disabled` | 2.1.1 |
 | `aria-disabled` must block click handler | `no-unblocked-aria-disabled` | 2.1.1 |
 | `aria-label` on a generic element with no role | `no-aria-label-on-generic` | 1.3.1 |
@@ -149,14 +149,14 @@ Base: `eslint-plugin-jsx-a11y`
 | `<video>` or `<audio autoplay>` without controls | `no-autoplay-without-controls` | 1.4.2 |
 | Mouse-only events without keyboard equivalents | `no-mouse-only-events` | 2.1.1 |
 
-### Vue SFCs
+### ESLint — Vue SFCs
 
 Base: `eslint-plugin-vuejs-accessibility`
 
 Neighbor adds everything in the React table above, adapted for Vue's AST, plus:
 
 | What it checks | Rule | WCAG SC |
-|---|---|---|
+| --- | --- | --- |
 | Ambiguous link text ("click here", "read more") | `no-anchor-ambiguous-text` | 2.4.4 |
 | `<a>` with no content and no accessible name | `no-anchor-no-content` | 4.1.2 |
 | Invalid ARIA attribute values | `no-invalid-aria-prop-value` | 4.1.2 |
@@ -167,7 +167,7 @@ Neighbor adds everything in the React table above, adapted for Vue's AST, plus:
 | `accessKey` attribute | `no-access-key` | 2.1.4 |
 | `scope` on `<td>` (only valid on `<th>`) | `no-scope-on-td` | 1.3.1 |
 
-### Angular templates
+### ESLint — Angular templates
 
 Base: `@angular-eslint/eslint-plugin-template`
 
@@ -175,17 +175,17 @@ Neighbor adds the same rule set as Vue, adapted for Angular's template AST.
 
 **Known limitation:** Angular's template parser does not attach parent pointers to AST nodes. Rules that need to walk up the tree (`no-summary-without-details`, `no-button-type-missing`, `no-log-with-interactive-children`, `no-menu-role-on-nav`, `no-heading-inside-interactive`) will silently pass in Angular templates.
 
-### Stylelint
+### Stylelint — CSS
 
 | Rule | What it checks |
-|---|---|
+| --- | --- |
 | `ulam/user-preferences` | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks |
 | `ulam/no-outline-none` | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors |
 
 ## Rule severity
 
 | Severity | Meaning |
-|---|---|
+| --- | --- |
 | `error` | Definite AT breakage or HTML spec violation |
 | `warn` | Strong guidance, occasional legitimate overrides exist |
 
@@ -198,3 +198,7 @@ All rules can be overridden in your config.
 ## License
 
 MIT
+
+---
+
+*Built with help from Claude.*
