@@ -51,7 +51,7 @@ npm install --save-dev @a11yfred/neighbor
 
 ### Vanilla JS / plain HTML (no framework)
 
-If you write plain JavaScript with no JSX, React, Vue, or Angular, only the **Stylelint CSS rules** and the **content linter** apply. The ESLint markup rules require a component framework — they lint JSX or template syntax that plain JS does not have.
+If you write plain JavaScript with no JSX, React, Vue, or Angular, only the **Stylelint CSS rules** and the **content linter** apply. The ESLint markup rules require a component framework. They lint JSX or template syntax that plain JS does not have.
 
 **What you get:**
 
