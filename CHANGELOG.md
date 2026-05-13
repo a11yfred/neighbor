@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.6  -  2026-05-13
+
+Add Severity column to all rule tables in README.
+
+---
+
 ## 1.0.5  -  2026-05-13
 
 Docs cleanup: remove em dashes, fix MD036/MD040 markdownlint issues across all docs.
@@ -97,7 +103,7 @@ RULES.md is now an index. Full references split into:
 ### New rules
 
 | Rule | What it catches |
-|---|---|
+| --- | --- |
 | `no-labelledby-missing-target` | `aria-labelledby`/`describedby`/`controls`/`owns`/`activedescendant` referencing an `id` that doesn't exist in the file |
 | `no-dynamic-content-without-live` | `dangerouslySetInnerHTML` / `v-html` / `[innerHTML]` on an element outside a live region |
 | `form-field-multiple-labels` | Multiple `<label for="…">` elements targeting the same input |
