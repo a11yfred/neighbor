@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.5  -  2026-05-13
+
+Docs cleanup: remove em dashes, fix MD036/MD040 markdownlint issues across all docs.
+
+---
+
 ## 1.0.4  -  2026-05-13
 
 ### Bug fixes

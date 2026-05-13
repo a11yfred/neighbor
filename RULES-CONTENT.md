@@ -106,7 +106,7 @@ Flags slurs, condescending euphemisms, and suffering-framing when writing about 
 
 **Consensus:** Every disability language guide surveyed  -  NCDJ, AP Stylebook, ADA National Network, APA Style, SIGACCESS  -  independently prohibits these terms. No credible source defends them.
 
-**What it catches:**
+What it catches:
 
 | Avoid | Instead use | Sources |
 | --- | --- | --- |
@@ -129,7 +129,7 @@ Flags slurs, condescending euphemisms, and suffering-framing when writing about 
 
 **Identity-first vs person-first language:** "Autistic person" and "person with autism" are both used in disability communities. APA (2022) accepts both and recommends following individual preference. [Nicolas Steenhout](https://incl.ca/disability-language-is-a-nuanced-thing/) notes the current momentum in disability advocacy is toward identity-first language as reclamation, while person-first remains standard in many clinical and government contexts. [Léonie Watson](https://tink.uk), cited by Steenhout: *"There is no right or wrong answer because it is a matter of personal choice, and the choice depends on context."* This rule does not flag either form.
 
-**Configuration:**
+Configuration:
 
 ```js
 '@a11yfred/neighbor/content/no-ableist-language': ['warn', {
@@ -145,7 +145,7 @@ Flags figurative uses of disability language  -  disability used as a metaphor i
 
 **WCAG basis:** No direct SC. Grounded in NCDJ, A11y Collective, and APA guidance that these uses normalise disability as a negative even when not intended that way.
 
-**What it catches:**
+What it catches:
 
 | Avoid | Instead use | Sources |
 | --- | --- | --- |
@@ -169,7 +169,7 @@ Flags English idioms and sports metaphors that are opaque to ESL readers and int
 
 **Sources:** Canadian Government accessible documents guide, SJSU accessible writing strategies, UX Content Co., A11y Collective.
 
-**What it catches:**
+What it catches:
 
 | Avoid | Instead use |
 | --- | --- |
@@ -238,7 +238,7 @@ Flags ALL CAPS words in prose content.
 
 **Sources:** Google Developer Style Guide, GOV.UK publishing guide, Canadian Government guide.
 
-**Configuration:**
+Configuration:
 
 ```js
 '@a11yfred/neighbor/content/no-all-caps-prose': ['warn', {

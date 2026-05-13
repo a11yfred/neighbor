@@ -53,7 +53,7 @@ npm install --save-dev @a11yfred/neighbor
 
 If you write plain JavaScript with no JSX, React, Vue, or Angular, only the **Stylelint CSS rules** and the **content linter** apply. The ESLint markup rules require a component framework. They lint JSX or template syntax that plain JS does not have.
 
-**What you get:**
+What you get:
 
 | Plugin | What it checks |
 | --- | --- |
@@ -110,7 +110,7 @@ Run it:
 npx eslint src/
 ```
 
-**Both together:**
+Both together:
 
 ```js
 // eslint.config.js

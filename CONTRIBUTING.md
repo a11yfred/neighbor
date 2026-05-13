@@ -93,7 +93,7 @@ When in doubt, start at `warn`. It's easier to promote a rule to `error` than to
 
 ## Commit style
 
-```
+```text
 feat: add no-my-new-rule (short description)
 fix: correct false positive in no-existing-rule
 docs: update RULES.md for no-my-new-rule
