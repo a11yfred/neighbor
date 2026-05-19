@@ -452,6 +452,12 @@ See [RULES-CONTENT.md](RULES-CONTENT.md) for the full rule reference including s
 
 All rules can be overridden in your config.
 
+## Roadmap
+
+Planned improvements and extensions to neighbor:
+
+- [ ] **Browser extension: live page linting** — A Chrome/Firefox extension that applies neighbor's accessibility rules to live web content in real-time, highlighting violations inline. Useful for auditors and testers who want to spot issues while testing third-party sites without a build step. Would reuse existing rule logic and integrate with a debug panel UI similar to [@a11yfred/rogers](https://github.com/a11yfred/rogers).
+
 ## See also
 
 - [RULES.md](RULES.md)  -  rule index across all domains
