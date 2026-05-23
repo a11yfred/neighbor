@@ -24,6 +24,13 @@ jobs:
         run: npm publish --access public --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish textlint-rule to npm
+        run: |
+          cd packages/textlint-rule-neighbor
+          npm publish --access public --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           
       - name: Package Vale Rules
         run: |

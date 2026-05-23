@@ -1,0 +1,30 @@
+{
+  "name": "@a11yfred/textlint-rule-neighbor",
+  "version": "1.1.2",
+  "description": "Textlint prose linting rules for accessibility. Won't you be my neighbor?",
+  "type": "module",
+  "main": "index.js",
+  "keywords": [
+    "textlint",
+    "textlintrule",
+    "accessibility",
+    "a11yfred",
+    "content",
+    "plain-language",
+    "inclusive-language",
+    "ableist"
+  ],
+  "author": "Mikey Ilagan",
+  "license": "MIT",
+  "dependencies": {
+    "@a11yfred/neighbor": "^1.1.2"
+  },
+  "peerDependencies": {
+    "textlint": ">=12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a11yfred/neighbor.git",
+    "directory": "packages/textlint-rule-neighbor"
+  }
+}
