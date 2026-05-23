@@ -8,9 +8,7 @@
  * This keeps lib/content-rules.js as the single source of truth. Run this
  * script after updating any of the exported term lists or directional patterns:
  *
- *   node scripts/generate-vale.mjs
- *
- * Output: ../neighbor-vale/neighbor/{AbleistLanguage,DisabilityMetaphor,EnglishIdiom,DirectionalLanguage}.yml
+ * Output: ../vale/neighbor/{AbleistLanguage,DisabilityMetaphor,EnglishIdiom,DirectionalLanguage}.yml
  *
  * The two hand-authored rules (AllCapsProse, AmpersandInProse) are NOT
  * generated here - they use raw regex patterns not derivable from JS lists.
@@ -27,7 +25,7 @@ import {
 } from '../lib/content-rules.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const OUT_DIR = resolve(__dirname, '../../neighbor-vale/neighbor')
+const OUT_DIR = resolve(__dirname, '../vale/neighbor')
 
 mkdirSync(OUT_DIR, { recursive: true })
 
@@ -112,7 +110,7 @@ function buildSubstitutionRule({ header, message, termList }) {
 extends: substitution
 message: "${message}"
 level: warning
-link: https://github.com/a11yfred/neighbor-vale
+link: https://github.com/a11yfred/neighbor
 ignorecase: true
 swap:
 ${swapLines.join('\n')}
@@ -140,7 +138,7 @@ function buildExistenceRule({ header, message, termList }) {
 extends: existence
 message: "${message}"
 level: warning
-link: https://github.com/a11yfred/neighbor-vale
+link: https://github.com/a11yfred/neighbor
 ignorecase: true
 tokens:
 ${tokenLines.join('\n')}
