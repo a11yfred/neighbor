@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.1.0  -  2026-05-23
+
+### New rules
+
+| Rule | What it catches |
+| --- | --- |
+| `no-disabled-and-aria-disabled` | Elements with both `disabled` and `aria-disabled` attributes  -  causes conflicting states in assistive tech |
+
+### Severity changes
+
+- `prefer-aria-disabled` moved from `off` to `error` by default to enforce discoverable form controls in tab order.
+
+---
+
 ## 1.0.6  -  2026-05-13
 
 Add Severity column to all rule tables in README.

@@ -67,6 +67,8 @@ All rules run on React, Vue, and Angular unless noted.
 | `no-dynamic-content-without-live` | `dangerouslySetInnerHTML` / `v-html` / `[innerHTML]` on an element outside a live region | [SC 4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
 | `form-field-multiple-labels` | Multiple `<label for="…">` elements targeting the same input | [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
 | `no-empty-table-header` | `<th>` or `role="columnheader"/"rowheader"` with no accessible text or `aria-label` | [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `prefer-aria-disabled` | HTML `disabled` removes element from tab order; `aria-disabled` keeps it discoverable | Roselli: Don't Disable Form Controls  -  [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `no-disabled-and-aria-disabled` | Element has both `disabled` and `aria-disabled`  -  causes conflicting states in assistive tech | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
 
 ### Warnings  -  on by default
 
@@ -89,7 +91,6 @@ These rules flag real problems but generate enough noise in typical codebases th
 | `no-tab-without-controls` | `role="tab"` without `aria-controls` | [APG: Tabs Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/) |
 | `no-href-hash` | `<a href="#">` used as a button | Sutton: Links vs Buttons  -  [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
 | `warn-role-alert` | `role="alert"`  -  prefer `role="status"` for non-urgent updates | [APG](https://www.w3.org/WAI/ARIA/apg/) / Roselli / Sutton  -  [SC 4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
-| `prefer-aria-disabled` | HTML `disabled` removes element from tab order; `aria-disabled` keeps it discoverable | Roselli: Don't Disable Form Controls  -  [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
 | `no-target-blank-without-label` | `target="_blank"` without communicating the new-tab behaviour | WebAIM  -  [SC 3.2.2](https://www.w3.org/WAI/WCAG21/Understanding/on-input) |
 | `no-dialog-without-close` | `role="dialog"` or `<dialog>` without a visible close button | [APG: Dialog Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/)  -  [SC 2.1.2](https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap) |
 
