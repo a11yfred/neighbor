@@ -1,9 +1,9 @@
 name: "CodeQL config"
 disable-default-queries: false
 paths-ignore:
-  - node_modules
-  - apps/word-addin/node_modules
-  - dist
-  - .vite
+  - '**/node_modules/**'
+  - '**/dist/**'
+  - '**/.vite/**'
+  - '**/.vite-temp/**'
 queries:
   - uses: security-and-quality
