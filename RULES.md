@@ -1,12 +1,14 @@
 # @a11yfred/neighbor: Rule Index
 
-Neighbor has rules for three different areas. Each area has its own page.
+Neighbor has rules for four different areas. Each area has its own page.
 
 | Area | Setup | Rules page |
 | --- | --- | --- |
 | HTML / Markup | `@a11yfred/neighbor/eslint`, `/eslint-vue`, `/eslint-angular`, `/webcomponents` | [RULES-MARKUP.md](RULES-MARKUP.md) |
 | CSS | `@a11yfred/neighbor`, `@a11yfred/neighbor/stylelint` | [RULES-CSS.md](RULES-CSS.md) |
 | Text / Content | `@a11yfred/neighbor/content` | [RULES-CONTENT.md](RULES-CONTENT.md) |
+| Native Mobile | `apps/ios-app`, `apps/android-app` | [iOS Rules](apps/ios-app/README.md) / [Android Rules](apps/android-app/README.md) |
+
 
 ---
 
@@ -58,4 +60,13 @@ ESLint rules that find problems in your text. They check for ableist language, h
 | `no-deficit-language` | Words that reduce people to their bad situations (the homeless, inmate, addict) | - |
 | `no-gendered-language` | Gendered pronouns when you don't know the gender (he/she, his or her, mum and dad) | - |
 | `no-anti-lgbtq-language` | Old or offensive words about sexual orientation and gender | - |
-| `no-device-specific-action` | Words that only make sense for one device (like swipe or click) | - |
+| `no-device-specific-action` | Words that only make sense on a desktop computer ("click here", "press enter") | - |
+
+---
+
+## Native Mobile: summary
+
+`neighbor` includes strict rule implementations translated directly from our core web libraries for native iOS (SwiftUI) and Android (Jetpack Compose). They flag issues like missing Roles, unscaled text, broken touch targets, and improper semantics directly inside Xcode and Android Studio.
+
+- **[iOS Rules](apps/ios-app/README.md):** 8 Custom SwiftLint Rules for SwiftUI (via `.swiftlint.yml`).
+- **[Android Rules](apps/android-app/README.md):** 17 Custom Android Lint Rules for Jetpack Compose (via standard Gradle module).

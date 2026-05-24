@@ -1,8 +1,8 @@
 # @a11yfred/neighbor
 
-The a11yfred accessibility linter ecosystem. This repository contains tools for React, Vue, Angular, Remix, Web Components, CSS, and text. It uses ESLint, Stylelint, textlint, and Vale.
+The a11yfred accessibility linter ecosystem. This repository contains tools for React, Vue, Angular, Remix, Web Components, CSS, text, iOS (SwiftUI), and Android (Jetpack Compose). It uses ESLint, Stylelint, textlint, Vale, SwiftLint, and Android Lint.
 
-It adds new rules to base tools like `eslint-plugin-jsx-a11y`. It finds problems like bad ARIA code, wrong live regions, missing names, and bad CSS. It brings these strong checks to non-React frameworks like Vue, Angular, and Web Components.
+It adds new rules to base tools like `eslint-plugin-jsx-a11y`. It finds problems like bad ARIA code, wrong live regions, missing names, and bad CSS. It brings these strong checks to non-React frameworks like Vue, Angular, Web Components, iOS, and Android.
 
 Some rules are only for **@ulam**, an upcoming JavaScript framework. These rules will not run unless you use @ulam. They are safe to keep in other projects.
 
@@ -17,7 +17,7 @@ Tools like axe-core and Lighthouse are great, but they only test your app *after
 Why choose `neighbor`?
 
 1. **More Rules:** It checks for complex problems. Standard tools check simple things like missing `alt` text. `neighbor` checks for harder problems, like missing close buttons on dialogs or broken tab menus.
-2. **Same Rules for Every Framework:** If you switch from React to Vue or Angular, your linter often catches fewer mistakes. `neighbor` gives you the exact same strict rules for React, Vue, Angular, and Lit Web Components.
+2. **Same Rules for Every Framework:** If you switch from React to Vue or Angular, your linter often catches fewer mistakes. `neighbor` gives you the exact same strict rules for React, Vue, Angular, Lit Web Components, iOS, and Android.
 3. **CSS and Text:** Accessibility is not just HTML. `neighbor` also finds bad CSS (like hiding focus outlines) and bad text (like ableist words or confusing links).
 
 ## Contents
