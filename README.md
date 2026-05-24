@@ -1,8 +1,14 @@
 # @a11yfred/neighbor
 
-The a11yfred accessibility linter ecosystem. This repository contains tools for React, Vue, Angular, Remix, Web Components, CSS, text, iOS (SwiftUI), and Android (Jetpack Compose). It uses ESLint, Stylelint, textlint, Vale, SwiftLint, and Android Lint.
+The a11yfred accessibility linter ecosystem, **neighbor**. This repository contains tools for React, Vue, Angular, Remix, Web Components, CSS, text, iOS (SwiftUI), Android (Jetpack Compose), and Microsoft Word. It uses ESLint, Stylelint, textlint, Vale, SwiftLint, and Android Lint.
 
-It adds new rules to base tools like `eslint-plugin-jsx-a11y`. It finds problems like bad ARIA code, wrong live regions, missing names, and bad CSS. It brings these strong checks to non-React frameworks like Vue, Angular, Web Components, iOS, and Android.
+It adds new rules to base tools like `eslint-plugin-jsx-a11y`. It finds problems like bad ARIA code, wrong live regions, missing names, and bad CSS. It brings these strong checks to non-React frameworks like Vue, Angular, and Web Components.
+
+**Beyond the web**, neighbor also ships:
+
+- **[Native iOS linting](./apps/ios-app/README.md)** with 9 custom SwiftLint rules for SwiftUI accessibility.
+- **[Native Android linting](./apps/android-app/README.md)** with 8 custom Android Lint rules for Jetpack Compose.
+- **[A Microsoft Word add-in](./apps/word-addin/README.md)** that checks documents for exclusionary and ableist language while you type.
 
 Some rules are only for **@ulam**, an upcoming JavaScript framework. These rules will not run unless you use @ulam. They are safe to keep in other projects.
 
