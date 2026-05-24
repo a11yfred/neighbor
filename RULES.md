@@ -4,15 +4,15 @@ Neighbor ships rules across three separate domains. Each has its own reference p
 
 | Domain | Entry point | Rules page |
 | --- | --- | --- |
-| Markup | `@a11yfred/neighbor/eslint`, `/eslint-vue`, `/eslint-angular` | [RULES-MARKUP.md](RULES-MARKUP.md) |
-| CSS | `@a11yfred/neighbor` (default), `@a11yfred/neighbor/stylelint` | [RULES-CSS.md](RULES-CSS.md) |
+| Markup | `@a11yfred/neighbor/eslint`, `/eslint-vue`, `/eslint-angular`, `/webcomponents` | [RULES-MARKUP.md](RULES-MARKUP.md) |
+| CSS | `@a11yfred/neighbor`, `@a11yfred/neighbor/stylelint` | [RULES-CSS.md](RULES-CSS.md) |
 | Content | `@a11yfred/neighbor/content` | [RULES-CONTENT.md](RULES-CONTENT.md) |
 
 ---
 
 ## Markup rules  -  summary
 
-ESLint rules that flag bad ARIA patterns, missing accessible names, keyboard traps, and structural errors in JSX, Vue SFCs, and Angular templates. Full reference → [RULES-MARKUP.md](RULES-MARKUP.md)
+ESLint rules that flag bad ARIA patterns, missing accessible names, keyboard traps, and structural errors in React / JSX, Remix 2, Remix 3, Vue SFCs, Angular templates, and Vanilla Web Components / HTML. Full reference → [RULES-MARKUP.md](RULES-MARKUP.md)
 
 **Errors (definite breakage):** `no-aria-label-on-generic`, `no-assertive-live-overuse`, `no-unblocked-aria-disabled`, `no-roles-without-name`, `no-group-without-name`, `no-presentation-on-focusable`, `no-log-with-interactive-children`, `no-aria-hidden-in-link`, `no-redundant-aria-hidden-with-presentation`, `no-aria-owns-on-void`, `no-title-as-label`, `no-tabs-without-structure`, `no-positive-tabindex`, `no-autoplay-without-controls`, `no-heading-inside-interactive`, `no-placeholder-only`, `no-empty-button`, `no-image-role-without-name`, `no-spinbutton-without-range`, `no-slider-without-range`, `no-combobox-without-expanded`, `no-mouse-only-events`, `no-listbox-without-option`, `no-tree-without-treeitem`, `no-feed-without-article`, `no-aria-activedescendant-without-id`, `no-duplicate-id`, `no-summary-without-details`, `no-aria-required-on-non-form`, `no-input-type-invalid`, `no-labelledby-missing-target`, `no-dynamic-content-without-live`, `form-field-multiple-labels`, `no-empty-table-header`, `no-disabled-and-aria-disabled`, `prefer-aria-disabled`
 
