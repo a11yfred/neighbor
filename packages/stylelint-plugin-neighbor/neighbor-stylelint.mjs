@@ -14,6 +14,15 @@
  */
 
 import stylelint from 'stylelint';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+let a11yLoaded = false;
+try {
+  require.resolve('stylelint-a11y');
+  a11yLoaded = true;
+} catch {}
+
 const { utils: { report } } = stylelint;
 
 const defined = (x) => x !== undefined && x !== null;
@@ -126,6 +135,8 @@ function rule(primaryOption) {
 
       // animation or transition
       if (prop === 'animation' || prop === 'transition' || prop === 'animation-name') {
+        // If stylelint-a11y is installed, it already checks prefers-reduced-motion
+        if (a11yLoaded) return;
         // Skip "none" values  -  they're already the reduced state
         if (/^none\b/i.test(value.trim())) return;
         report(decl, messages.animation(prop, value));
@@ -199,6 +210,9 @@ function insideFocusSelector(decl) {
 /** @type {import('stylelint').Rule} */
 function noOutlineNoneRule(_primaryOption) {
   return (root, result) => {
+    // Redundant with stylelint-a11y/no-outline-none
+    if (a11yLoaded) return;
+
     root.walkDecls(/^outline$/i, (decl) => {
       const value = decl.value.trim().toLowerCase();
       if (value !== 'none' && value !== '0') return;
@@ -279,4 +293,128 @@ const noForcedColorsNone = {
   meta: noForcedColorsNoneMeta,
 };
 
-export default [userPreferences, noOutlineNone, noForcedColorsNone];
+// ─── Rule: neighbor/no-text-justify ──────────────────────────────────────────
+// text-align: justify creates inconsistent spacing ("rivers of white space").
+// This makes it significantly harder for users with cognitive disabilities like dyslexia to read.
+// Ref: WCAG SC 1.4.8 Visual Presentation (AAA)
+
+const noTextJustifyRuleName = 'neighbor/no-text-justify';
+
+const noTextJustifyMessages = {
+  justify: () =>
+    `text-align: justify creates uneven spacing that is difficult for users with dyslexia or cognitive disabilities to read. Use left, right, or center instead. (WCAG 1.4.8)`,
+};
+
+const noTextJustifyMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function noTextJustifyRule(_primaryOption) {
+  return (root, result) => {
+    // Redundant with stylelint-a11y/no-text-align-justify
+    if (a11yLoaded) return;
+
+    root.walkDecls(/^text-align$/i, (decl) => {
+      if (decl.value.trim().toLowerCase() !== 'justify') return;
+      report({ message: noTextJustifyMessages.justify(), node: decl, result, ruleName: noTextJustifyRuleName });
+    });
+  };
+}
+
+const noTextJustify = {
+  ruleName: noTextJustifyRuleName,
+  rule: noTextJustifyRule,
+  meta: noTextJustifyMeta,
+};
+
+// ─── Rule: neighbor/no-user-select-all-none ──────────────────────────────────
+// user-select: none prevents users from highlighting text.
+// This breaks screen readers, translation tools, and custom highlighting tools that users rely on.
+// Allowed on global resets (*), html, body, p, h1-h6, span, div.
+
+const noUserSelectAllNoneRuleName = 'neighbor/no-user-select-all-none';
+
+const noUserSelectAllNoneMessages = {
+  none: (selector) =>
+    `user-select: none on "${selector}" prevents users from selecting text. This breaks translation tools, text-to-speech, and custom highlighting. Only use this on buttons or interactive UI elements, never on text elements or global selectors.`,
+};
+
+const noUserSelectAllNoneMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function noUserSelectAllNoneRule(_primaryOption) {
+  return (root, result) => {
+    const textSelectors = new Set(['*', 'html', 'body', 'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'span', 'div', 'main', 'article', 'section']);
+    root.walkDecls(/^user-select$/i, (decl) => {
+      if (decl.value.trim().toLowerCase() !== 'none') return;
+      
+      const parentSelector = decl.parent?.selector ?? '';
+      // Check if it's applying to a broad or text-specific tag
+      const selectors = parentSelector.split(',').map(s => s.trim().toLowerCase());
+      
+      let violates = false;
+      for (const sel of selectors) {
+        // Strip pseudo-classes
+        const baseSel = sel.replace(/:[a-z-]+(\([^)]+\))?/g, '');
+        if (textSelectors.has(baseSel)) {
+          violates = true;
+          break;
+        }
+      }
+      
+      if (violates) {
+        report({ message: noUserSelectAllNoneMessages.none(parentSelector), node: decl, result, ruleName: noUserSelectAllNoneRuleName });
+      }
+    });
+  };
+}
+
+const noUserSelectAllNone = {
+  ruleName: noUserSelectAllNoneRuleName,
+  rule: noUserSelectAllNoneRule,
+  meta: noUserSelectAllNoneMeta,
+};
+
+// ─── Rule: neighbor/no-absolute-viewport-text ────────────────────────────────
+// font-size: 5vw does not scale when the user zooms in their browser.
+// This violates WCAG 1.4.4 Resize Text.
+// Must be used with calc() or clamp() alongside a fixed unit like rem/em.
+
+const noAbsoluteViewportTextRuleName = 'neighbor/no-absolute-viewport-text';
+
+const noAbsoluteViewportTextMessages = {
+  viewport: (value) =>
+    `font-size: ${value} uses pure viewport units. This text will not get bigger when users zoom in with their browser. Wrap it in calc() or clamp() with rem or em to allow resizing. (WCAG 1.4.4)`,
+};
+
+const noAbsoluteViewportTextMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function noAbsoluteViewportTextRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^font-size$/i, (decl) => {
+      const value = decl.value.trim().toLowerCase();
+      // If it has calc/clamp/max/min, it's likely mixing units, which is okay
+      if (value.includes('calc(') || value.includes('clamp(') || value.includes('max(') || value.includes('min(')) return;
+      
+      // If it ends directly with vw, vh, vmin, or vmax
+      if (/^\d*\.?\d+(vw|vh|vmin|vmax)$/.test(value)) {
+        report({ message: noAbsoluteViewportTextMessages.viewport(value), node: decl, result, ruleName: noAbsoluteViewportTextRuleName });
+      }
+    });
+  };
+}
+
+const noAbsoluteViewportText = {
+  ruleName: noAbsoluteViewportTextRuleName,
+  rule: noAbsoluteViewportTextRule,
+  meta: noAbsoluteViewportTextMeta,
+};
+
+export default [
+  userPreferences,
+  noOutlineNone,
+  noForcedColorsNone,
+  noTextJustify,
+  noUserSelectAllNone,
+  noAbsoluteViewportText,
+];

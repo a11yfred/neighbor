@@ -1,6 +1,6 @@
 # Atomic API (SVG Sprites)
 
-> **⚠️ Alpha** — this feature is available as an alpha prerelease only.
+> **⚠️ Alpha** - this feature is available as an alpha prerelease only.
 >
 > Install via `npm i @fluentui/react-icons@prerelease`
 
@@ -29,15 +29,15 @@ Each icon component renders a lightweight `<svg><use href="/path/to/sprite.svg#i
 
 ## Same-origin requirement
 
-> **Important:** Browsers block cross-origin SVG `<use href="...">` references due to security constraints — this is **not** a CORS header issue and cannot be solved by adding `Access-Control-Allow-Origin` headers alone.
+> **Important:** Browsers block cross-origin SVG `<use href="...">` references due to security constraints - this is **not** a CORS header issue and cannot be solved by adding `Access-Control-Allow-Origin` headers alone.
 
 The sprite files **must be served from the same origin** as your application. There are two straightforward ways to achieve this:
 
-**Option 1 — Serve from your own static assets (recommended)**
+**Option 1 - Serve from your own static assets (recommended)**
 
 Copy the sprite files into your application's public/static folder and reference them from your own domain. The [Webpack Subsetting Plugin](#webpack-plugin) handles this automatically at build time.
 
-**Option 2 — Reverse proxy**
+**Option 2 - Reverse proxy**
 
 If the sprites are hosted on a CDN or separate server, configure your reverse proxy to forward requests under a same-origin path to that upstream. Example Nginx config:
 
@@ -120,16 +120,16 @@ export default defineConfig({
     // If you use vite-plugin-svgr, exclude sprite files:
     // svgr({ include: /(?<!\.sprite)\.svg$/ }),
   ],
-  // Sprite .svg files are served as static URLs automatically — no extra config needed.
+  // Sprite .svg files are served as static URLs automatically - no extra config needed.
 });
 ```
 
 ### Webpack Plugin
 
-> **⚠️ 0.x** — this package is in early development and follows [zero-based major semver](https://0ver.org/).
+> **⚠️ 0.x** - this package is in early development and follows [zero-based major semver](https://0ver.org/).
 > Breaking changes may occur in minor releases until 1.0.
 
-To leverage performance benefits to the fullest, use the Webpack SvgSprite Subsetting Plugin. It analyzes your application's actual icon usage at build time and strips unused icon definitions from the sprite files — ensuring only icons your app references are shipped.
+To leverage performance benefits to the fullest, use the Webpack SvgSprite Subsetting Plugin. It analyzes your application's actual icon usage at build time and strips unused icon definitions from the sprite files - ensuring only icons your app references are shipped.
 
 [Learn more about `react-icons-svg-sprite-subsetting-webpack-plugin`](https://www.npmjs.com/package/@fluentui/react-icons-svg-sprite-subsetting-webpack-plugin)
 
@@ -142,11 +142,11 @@ const config = {
   plugins: [
     new FluentUIReactIconsSvgSpriteSubsettingPlugin({
       /**
-       * 'atomic' (recommended) — one sprite file per icon group (e.g. access-time.sprite.svg).
+       * 'atomic' (recommended) - one sprite file per icon group (e.g. access-time.sprite.svg).
        *   Best for HTTP/2 servers; browsers fetch only the groups your app actually uses and
        *   cache each group independently.
        *
-       * 'merged' — all icons combined into a single sprite file.
+       * 'merged' - all icons combined into a single sprite file.
        *   Useful when your app uses a large portion of the icon set and you prefer a single
        *   network request over many smaller ones.
        */

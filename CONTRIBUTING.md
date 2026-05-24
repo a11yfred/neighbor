@@ -1,23 +1,23 @@
 # Contributing to @a11yfred/neighbor
 
-Neighbor is maintained by [@a11yfred](https://github.com/a11yfred). Contributions are welcome from the accessibility community: practitioners, AT users, spec readers, and people who have found a gap in existing tooling.
+Neighbor is maintained by [@a11yfred](https://github.com/a11yfred). We welcome help from the accessibility community: experts, screen reader users, spec readers, and anyone who sees something missing in other tools.
 
 ## What belongs here
 
-A rule belongs in neighbor if it meets all three criteria:
+A rule belongs in neighbor if it meets all three checks:
 
-1. **Statically detectable**: the violation can be identified from markup/code alone, without a browser or AT. Runtime-only failures (color contrast, focus order in the DOM) belong in axe-core.
-2. **Not already covered**: jsx-a11y, vuejs-accessibility, @angular-eslint/template, or axe-core doesn't already flag it in a recommended config.
-3. **Expert-backed**: there's a WCAG SC, ARIA spec citation, or clear consensus from accessibility practitioners (Roselli, O'Hara, Lauke, Sutton, Pickering, Groves, Eggert, etc.).
+1. **Easy to find in code**: The linter can find the problem just by looking at the code, without needing a browser. Things like color contrast belong in `axe-core`.
+2. **Not in other tools**: Plugins like `jsx-a11y` or `vuejs-accessibility` do not already check it.
+3. **Expert-backed**: A rule must come from WCAG, ARIA specs, or accessibility experts.
 
-If you're unsure, open an issue before writing a rule. A brief description and a source is enough to start a conversation.
+If you are not sure, open an issue before writing the rule. Just describe the idea and where it comes from to start a conversation.
 
 ## What doesn't belong here
 
-- Rules that require runtime information (computed styles, DOM layout, AT output)
-- Rules already in jsx-a11y recommended: neighbor extends it, not replaces it
-- Opinionated style rules without a clear accessibility impact
-- Rules with very high false-positive rates on real codebases (see the rejected rules list in [RULES.md](RULES.md))
+- Rules that need a browser to run (like checking CSS layout).
+- Rules already in the standard accessibility linter for your framework (e.g., `jsx-a11y`, `vuejs-accessibility`, `@angular-eslint/template`, or `lit-a11y`). Neighbor works with them, it doesn't replace them.
+- Code style rules that do not affect accessibility.
+- Rules that give too many false warnings on real projects (see rejected rules in [RULES.md](RULES.md)).
 
 ## Setup
 
@@ -27,7 +27,7 @@ cd neighbor
 npm install
 ```
 
-No build step. Rules are plain ES modules: edit and run ESLint directly.
+There is no build step. Rules are simple JavaScript files. You can edit them and run ESLint directly.
 
 ## How rules are structured
 
@@ -53,10 +53,10 @@ export function makeMyNewRule(h) {
 }
 ```
 
-The `h` adapter gives you a uniform interface across all three frameworks:
+The `h` helper gives you a single way to check code across React, Vue, and Angular:
 
 | Helper | Returns |
-|---|---|
+| --- | --- |
 | `h.getAttr(node, name)` | attribute node or `null` |
 | `h.getAttrStringValue(attr)` | string or `null` (null for dynamic expressions) |
 | `h.getElementName(node)` | lowercase tag name, or `null` for custom components |
@@ -71,25 +71,25 @@ The `h` adapter gives you a uniform interface across all three frameworks:
 | `h.elementVisitor` | AST node type string for `create()` visitor key |
 | `h.elementWithChildrenVisitor` | visitor key for rules that need child access |
 
-**Angular caveat:** `getParent()` and `getAncestors()` return `null`/nothing for Angular. The template parser doesn't attach parent pointers. Rules that require ancestor walking should degrade gracefully (skip the check, don't throw).
+**Angular warning:** `getParent()` and `getAncestors()` return `null` in Angular. The parser does not link child nodes to parent nodes. If your rule needs to look at parent nodes, it should fail quietly (skip the check, do not throw an error).
 
-After writing your factory:
+After writing your rule function:
 
-1. Add it to `RULE_FACTORIES` at the bottom of `lib/rules.js`
-2. Add it to `buildRecommendedRules()` at the appropriate severity (`'error'` / `'warn'` / `'off'`)
-3. If it's Vue/Angular-only (porting a jsx-a11y gap), add it to `buildPortabilityRules()` instead
+1. Add it to `RULE_FACTORIES` at the bottom of `lib/rules.js`.
+2. Add it to `buildRecommendedRules()` and set the severity (`'error'`, `'warn'`, or `'off'`).
+3. If the rule is only for Vue or Angular, add it to `buildPortabilityRules()` instead.
 
-Stylelint rules live in [`neighbor-stylelint.mjs`](neighbor-stylelint.mjs) and use the PostCSS AST directly. See the existing rules for the pattern.
+Stylelint rules live in [`neighbor-stylelint.mjs`](neighbor-stylelint.mjs). They use PostCSS. Look at the existing rules to see how they work.
 
 ## Severity guidance
 
 | Severity | When to use |
-|---|---|
-| `error` | Unambiguous AT breakage: a phantom control, broken name computation, HTML spec violation. No legitimate override. |
-| `warn` | Strong guidance with a clear accessibility basis, but real codebases occasionally have justified exceptions. |
-| `off` | Real problem, but fires too often on legitimate patterns to be on by default. Make it available; let teams opt in. |
+| --- | --- |
+| `error` | This breaks screen readers or violates HTML rules. There is no good reason to do this. |
+| `warn` | This is usually bad, but sometimes there is a good reason to do it. |
+| `off` | This rule gives too many warnings on normal code to be turned on by default. Users can turn it on if they want. |
 
-When in doubt, start at `warn`. It's easier to promote a rule to `error` than to demote it after people have already configured it.
+If you are not sure, start with `warn`. It is easier to change a `warn` to an `error` later.
 
 ## Commit style
 
@@ -99,17 +99,17 @@ fix: correct false positive in no-existing-rule
 docs: update RULES.md for no-my-new-rule
 ```
 
-No ticket numbers required.
+You do not need to include issue ticket numbers in your commit messages.
 
 ## Opening a PR
 
-Use the PR template. The key things:
+Please use the PR template. Here are the most important things:
 
-- **What problem does this flag?** Link a WCAG SC, ARIA spec section, or expert source.
-- **Why can't axe-core catch it at runtime instead?** (If it can, it probably belongs there.)
-- **What are the false-positive cases?** Be honest. We would rather move a rule to `off` than reject it.
-- **Does it degrade gracefully for Angular?** (Parent walking unavailable.)
+- **What problem does this find?** Link to WCAG, ARIA specs, or an expert guide.
+- **Why can't axe-core catch this?** If `axe-core` can catch it, the rule probably belongs there.
+- **When will this give false warnings?** Be honest. We prefer to set a rule to `off` instead of rejecting your PR.
+- **Does it fail quietly in Angular?** Remember that parent-walking does not work in Angular.
 
 ## Questions
 
-Open an issue or reach out in the [Web A11y Slack](https://web-a11y.slack.com). The `#tools` channel is a good place to discuss rule ideas before writing code.
+Open an issue or talk to us in the [Web A11y Slack](https://web-a11y.slack.com). The `#tools` channel is a great place to talk about rule ideas before you start writing code.

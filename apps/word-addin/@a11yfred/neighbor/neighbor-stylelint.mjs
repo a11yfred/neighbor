@@ -172,7 +172,7 @@ function isFocusSelector(selector) {
   return /:focus(?:-visible|-within)?/i.test(selector);
 }
 
-/** Returns true if the node is inside a @media (pointer: fine/coarse) block — keyboard users are unaffected. */
+/** Returns true if the node is inside a @media (pointer: fine/coarse) block - keyboard users are unaffected. */
 function insidePointerMedia(node) {
   let current = node.parent;
   while (current) {
@@ -205,7 +205,7 @@ function noOutlineNoneRule(_primaryOption) {
 
       // Allow inside :focus / :focus-visible (author is intentionally restyling focus)
       if (insideFocusSelector(decl)) return;
-      // Allow inside @media (pointer: fine/coarse) — keyboard users are unaffected
+      // Allow inside @media (pointer: fine/coarse) - keyboard users are unaffected
       if (insidePointerMedia(decl)) return;
 
       report({ message: noOutlineNoneMessages.removed(decl.value), node: decl, result, ruleName: noOutlineNoneRuleName });

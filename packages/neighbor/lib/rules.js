@@ -2674,8 +2674,10 @@ export const RULE_FACTORIES = {
   // Vue-specific template rules  -  included in Vue config only
   'vue-transition-live-region':                 makeVueTransitionLiveRegion,
   'vue-click-key-events':                       makeVueClickKeyEvents,
+  'vue-router-focus-management':                makeVueRouterFocusManagement,
   // React-specific JSX rules  -  included in React/Remix configs only
   'react-fragment-ruins-aria':                  makeReactFragmentRuinsAria,
+  'react-spa-focus-management':                 makeReactSpaFocusManagement,
 }
 
 /** Build the rules map for a plugin by applying helpers to all factories. */
@@ -2705,7 +2707,7 @@ export function buildRecommendedRules(ns) {
     [`${ns}/no-presentation-on-focusable`]:               'error',
     [`${ns}/no-log-with-interactive-children`]:           'error',
     [`${ns}/no-aria-hidden-in-link`]:                     'error',
-    [`${ns}/no-redundant-aria-hidden-with-presentation`]: 'error',
+    [`${ns}/no-redundant-aria-hidden-with-presentation`]: 'warn',
     [`${ns}/no-aria-owns-on-void`]:                       'error',
     [`${ns}/no-title-as-label`]:                          'error',
     [`${ns}/no-tabs-without-structure`]:                  'error',
@@ -2744,7 +2746,7 @@ export function buildRecommendedRules(ns) {
     [`${ns}/no-tab-without-controls`]:                    'off',
     [`${ns}/no-href-hash`]:                               'off',
     [`${ns}/warn-role-alert`]:                            'off',
-    [`${ns}/prefer-aria-disabled`]:                       'error',
+    [`${ns}/prefer-aria-disabled`]:                       'off',
     [`${ns}/no-target-blank-without-label`]:              'off',
     [`${ns}/no-dialog-without-close`]:                    'off',
   }
@@ -2775,6 +2777,7 @@ export function buildVueFrameworkRules(ns) {
   return {
     [`${ns}/vue-transition-live-region`]: 'warn',
     [`${ns}/vue-click-key-events`]:       'error',
+    [`${ns}/vue-router-focus-management`]: 'off',
   }
 }
 
@@ -2782,5 +2785,6 @@ export function buildVueFrameworkRules(ns) {
 export function buildReactFrameworkRules(ns) {
   return {
     [`${ns}/react-fragment-ruins-aria`]: 'warn',
+    [`${ns}/react-spa-focus-management`]: 'warn',
   }
 }

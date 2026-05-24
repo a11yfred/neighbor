@@ -8,83 +8,81 @@ Rules for accessible and inclusive web and app copy.
 
 ## On language
 
-Language is inherently sensitive. What is appropriate - or inappropriate - is never fixed. It shifts depending on who is speaking, who is listening, the relationship between them, the cultural context, the time period, and how communities themselves evolve. A term that was clinical yesterday may be reclaimed tomorrow. A word considered polite in one country may carry different weight in another. What one person finds empowering another may find reductive.
+Language is sensitive and always changing. What is okay depends on who is talking, who is listening, and the culture. A word that is fine today might be offensive tomorrow.
 
-This is not a problem that a linter can fully solve. It is a problem that requires ongoing human attention.
+A linter cannot solve this. Humans must check it.
 
-Accessibility practitioner [Nicolas Steenhout](https://incl.ca/disability-language-is-a-nuanced-thing/) argues against prescriptive language rules: disabled people must lead conversations about disability language rather than having terminology imposed by well-meaning non-disabled people - the foundational disability rights principle *[Nothing About Us Without Us](https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us)*. Well-intentioned euphemisms ("handicapable", "physically challenged") have historically increased stigma rather than reduced it, precisely because they were invented by people outside the community they were meant to serve.
+Accessibility expert [Nicolas Steenhout](https://incl.ca/disability-language-is-a-nuanced-thing/) says we should not make strict language rules. Disabled people should decide what words to use, following the rule *[Nothing About Us Without Us](https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us)*. When people outside a community make up polite words (like "handicapable"), it often makes things worse.
 
-Steenhout cites [Léonie Watson](https://tink.uk), blind web standards engineer: *"There is no right or wrong answer because it is a matter of personal choice, and the choice depends on context."*
+As blind web standards engineer [Léonie Watson](https://tink.uk) says: *"There is no right or wrong answer because it is a matter of personal choice, and the choice depends on context."*
 
-With that framing in mind, these rules exist to flag patterns where expert consensus across multiple independent disability-led sources is clear and consistent - not to arbitrate language for every situation. Where consensus is genuinely contested (identity-first vs person-first language being the clearest example), no rule is applied. Where context matters more than pattern (a slur used in direct quotation, a metaphor in a novel excerpt, internal tooling with a known audience), suppress the rule.
+Because of this, these rules only warn you about words that experts agree are bad. We do not make rules for words that people still argue about. If a rule gives a warning in a safe place (like quoting someone or an internal tool), you can ignore it.
 
-All content rules ship as `warn`, not `error`, for exactly this reason. A warning is an invitation to think. An error is a claim of certainty that language does not deserve.
+All content rules are set to `warn`, not `error`. A warning tells you to think. An error tells you the linter is 100% sure, and language is never 100% sure.
 
-If the defaults feel wrong for your community, context, or codebase - use the `allow` option, open an issue, or submit a PR. These lists should be a living document maintained by the people who use them.
+If these rules do not fit your project, you can turn them off, use the `allow` option, or submit a PR to change them.
 
 ---
 
 ## Rule methodology
 
-A rule is included only when all three conditions hold:
+A rule is added only if:
 
-1. A WCAG Success Criterion directly applies, **or** the pattern appears in ≥ 3 independent authoritative sources as an explicit problem.
-2. The rule can be expressed as a finite, deterministic pattern - a string match, token count, or AST shape. No NLP, no runtime context required.
-3. Expert consensus is clear and consistent across sources. Where credible authorities disagree, the rule is excluded.
+1. WCAG says it is bad, **or** at least 3 expert guides say it is bad.
+2. The linter can easily find it with a simple string match. No AI or guessing.
+3. Experts agree it is bad. If experts disagree, we do not add the rule.
 
-Rules that require subjective reading, that depend on the relationship between speaker and audience, or that are under active community debate are not included.
-
-Grammarly and the Hemingway Editor informed the sentence-structure patterns: both flag passive voice, sentences over ~25 words, and words with simpler alternatives. Those patterns are consistent with the plain language guides surveyed. They are noted in the "Rules not included" section because, while valid as prose guidance, their false-positive rate in code string literals is too high to ship by default.
+We do not include rules that are subjective or hard to check, like sentence length or passive voice. Tools like Grammarly or Hemingway are better for that.
 
 ---
 
 ## Sources
 
-These rules were synthesized from the following sources. Where sources conflict, W3C WAI takes precedence.
+These rules come from these sources. Where sources conflict, W3C WAI wins.
 
 ### Global standards
 
 | Source | URL |
 | --- | --- |
 | W3C WAI Writing Tips | [w3.org/WAI/tips/writing](https://www.w3.org/WAI/tips/writing/) - primary authority |
-| wcag.com/authors | [wcag.com/authors](https://wcag.com/authors/) |
 | WCAG 2.2 | [w3.org/TR/WCAG22](https://www.w3.org/TR/WCAG22/) |
+| wcag.com/authors | [wcag.com/authors](https://wcag.com/authors/) |
 
 ### English-speaking governments
 
 | Country | Source |
 | --- | --- |
-| United States | [plainlanguage.gov](https://www.plainlanguage.gov) / [digital.gov/guides/plain-language](https://digital.gov/guides/plain-language) |
-| United States | [SBA Content Style Guide](https://advocacy.sba.gov/office-of-advocacy-content-style-guide/writing-accessible-content/) |
+| Australia | [Australian Government Style Manual - Accessible and Inclusive Content](https://www.stylemanual.gov.au/accessible-and-inclusive-content) |
+| Canada | [Government of Canada - Guidelines for Creating Accessible Documents](https://accessible.canada.ca/guidelines-creating-accessible-documents) |
 | United Kingdom | [GOV.UK - Publishing Accessible Documents](https://www.gov.uk/guidance/publishing-accessible-documents) |
 | United Kingdom | [DWP Accessibility Manual](https://accessibility-manual.dwp.gov.uk/best-practice/writing-content) |
 | United Kingdom | [GOV.UK Communications - accessible communications resources](https://www.communications.gov.uk/guidance/accessible-communications/accessible-communications-learning-and-resources/) |
-| Australia | [Australian Government Style Manual - Accessible and Inclusive Content](https://www.stylemanual.gov.au/accessible-and-inclusive-content) |
-| Canada | [Government of Canada - Guidelines for Creating Accessible Documents](https://accessible.canada.ca/guidelines-creating-accessible-documents) |
+| United States | [plainlanguage.gov](https://www.plainlanguage.gov) / [digital.gov/guides/plain-language](https://digital.gov/guides/plain-language) |
+| United States | [SBA Content Style Guide](https://advocacy.sba.gov/office-of-advocacy-content-style-guide/writing-accessible-content/) |
 
 ### Disability language authorities
 
 | Source | URL | Notes |
 | --- | --- | --- |
-| NCDJ Disability Language Style Guide | [cronkite.asu.edu/ncdj](https://cronkite.asu.edu/ncdj/disability-language-style-guide) | Journalism standard; updated regularly |
-| AP Stylebook - Disability | [amdisrights.org/ap-stylebook-primer-on-disability](https://amdisrights.org/ap-stylebook-primer-on-disability) | Wire journalism standard |
 | ADA National Network | [adata.org/factsheet/ADANN-writing](https://adata.org/factsheet/ADANN-writing) | U.S. legal/advocacy context |
+| AP Stylebook - Disability | [amdisrights.org/ap-stylebook-primer-on-disability](https://amdisrights.org/ap-stylebook-primer-on-disability) | Wire journalism standard |
 | APA Style - Disability | [apastyle.apa.org - bias-free language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability) | Academic publishing standard |
-| SIGACCESS Accessible Writing Guide | [sigaccess.org](https://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/) | Computing research community |
-| Nicolas Steenhout | [incl.ca - Disability Language Is a Nuanced Thing](https://incl.ca/disability-language-is-a-nuanced-thing/) | Practitioner perspective; *Nothing About Us Without Us* principle; identity-first vs person-first as community choice, not external rule; cites Léonie Watson |
 | Léonie Watson | [tink.uk](https://tink.uk) | Blind web standards engineer; cited by Steenhout: *"There is no right or wrong answer because it is a matter of personal choice, and the choice depends on context."* |
+| NCDJ Disability Language Style Guide | [cronkite.asu.edu/ncdj](https://cronkite.asu.edu/ncdj/disability-language-style-guide) | Journalism standard; updated regularly |
+| Nicolas Steenhout | [incl.ca - Disability Language Is a Nuanced Thing](https://incl.ca/disability-language-is-a-nuanced-thing/) | Practitioner perspective; *Nothing About Us Without Us* principle; identity-first vs person-first as community choice, not external rule; cites Léonie Watson |
+| SIGACCESS Accessible Writing Guide | [sigaccess.org](https://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/) | Computing research community |
 
 ### Technical and UX writing
 
 | Source | URL |
 | --- | --- |
-| Google Developer Style Guide | [developers.google.com/style/accessibility](https://developers.google.com/style/accessibility) |
-| UX Content Co. | [uxcontent.com - Accessible UX Writing](https://uxcontent.com/accessible-ux-writing-a-guide-for-inclusive-content-design/) |
 | A11y Collective | [a11y-collective.com - Accessible Writing](https://www.a11y-collective.com/blog/accessible-writing/) |
-| SJSU Writing Center | [sjsu.edu - Accessible Writing Strategies](https://www.sjsu.edu/writingcenter/docs/handouts/Accessible%20Writing%20Strategies.pdf) |
-| Section 508 | [section508.gov - Alternative Text](https://www.section508.gov/create/alternative-text/) |
+| Google Developer Style Guide | [developers.google.com/style/accessibility](https://developers.google.com/style/accessibility) |
 | Grammarly | Clarity and passive voice patterns |
 | Hemingway Editor | Sentence length and readability grade |
+| Section 508 | [section508.gov - Alternative Text](https://www.section508.gov/create/alternative-text/) |
+| SJSU Writing Center | [sjsu.edu - Accessible Writing Strategies](https://www.sjsu.edu/writingcenter/docs/handouts/Accessible%20Writing%20Strategies.pdf) |
+| UX Content Co. | [uxcontent.com - Accessible UX Writing](https://uxcontent.com/accessible-ux-writing-a-guide-for-inclusive-content-design/) |
 
 ### Source abbreviations
 
@@ -92,29 +90,29 @@ When rule tables cite sources, they use these abbreviations:
 
 | Abbreviation | Source |
 | --- | --- |
-| W3C WAI | W3C WAI Writing Tips |
-| WCAG 2.2 | WCAG 2.2 specification |
-| plainlanguage.gov | U.S. Plain Language Action and Information Network |
-| digital.gov | U.S. Digital.gov Plain Language Guide |
-| SBA | SBA Content Style Guide (U.S.) |
-| GOV.UK | GOV.UK Publishing Accessible Documents (UK) |
-| DWP | DWP Accessibility Manual (UK) |
+| A11y Collective | A11y Collective Accessible Writing |
+| ADA NN | ADA National Network |
+| AP | AP Stylebook (wire journalism standard) |
+| APA | APA Style - Bias-free Language |
 | Australian Gov | Australian Government Style Manual |
 | Canadian Gov | Government of Canada Accessible Documents Guidelines |
-| NCDJ | National Center for Disability Journalism |
-| AP | AP Stylebook (wire journalism standard) |
-| ADA NN | ADA National Network |
-| APA | APA Style - Bias-free Language |
-| SIGACCESS | SIGACCESS Accessible Writing Guide |
+| digital.gov | U.S. Digital.gov Plain Language Guide |
+| DWP | DWP Accessibility Manual (UK) |
 | Google | Google Developer Style Guide - Accessibility |
-| UX Content Co. | UX Content Co. Accessible UX Writing |
-| A11y Collective | A11y Collective Accessible Writing |
-| SJSU | SJSU Writing Center Accessible Writing Strategies |
-| Section 508 | Section 508.gov Alternative Text Guide |
-| Scope UK | Scope UK (disability rights organization) |
+| GOV.UK | GOV.UK Publishing Accessible Documents (UK) |
 | NAHJ | National Association of Hispanic Journalists |
+| NCDJ | National Center for Disability Journalism |
+| plainlanguage.gov | U.S. Plain Language Action and Information Network |
+| SBA | SBA Content Style Guide (U.S.) |
+| Scope UK | Scope UK (disability rights organization) |
+| Section 508 | Section 508.gov Alternative Text Guide |
+| SIGACCESS | SIGACCESS Accessible Writing Guide |
+| SJSU | SJSU Writing Center Accessible Writing Strategies |
 | TJA | Trans Journalists Association |
 | UK Gov | UK Government style and communications |
+| UX Content Co. | UX Content Co. Accessible UX Writing |
+| W3C WAI | W3C WAI Writing Tips |
+| WCAG 2.2 | WCAG 2.2 specification |
 
 ---
 
@@ -122,7 +120,7 @@ When rule tables cite sources, they use these abbreviations:
 
 All rules ship from `@a11yfred/neighbor/content`. All ship as `warn` by default.
 
-**Why all warnings?** Content is subjective in ways markup is not. A rule that fires on a metaphor inside a novel excerpt, or on an idiom in a developer-facing internal tool, is noise. Every content rule has legitimate exceptions - `warn` lets teams decide which matter for their context rather than forcing blanket errors. Upgrade individual rules to `error` in your own config where the stakes are higher.
+**Why all warnings?** Content is subjective. A rule that warns on a metaphor inside a book, or on an idiom in an internal tool, is noise. Every rule has valid exceptions. `warn` lets your team decide if it matters. Upgrade rules to `error` if you want to be strict.
 
 ---
 
@@ -130,7 +128,7 @@ All rules ship from `@a11yfred/neighbor/content`. All ship as `warn` by default.
 
 #### `no-ableist-language`
 
-Flags slurs, condescending euphemisms, and suffering-framing when writing about disability.
+Finds offensive words and words that frame disability as suffering.
 
 **WCAG basis:** SC 3.1.1 (Language of Page). While WCAG does not enumerate specific words, content that demeans or excludes users undermines the perceivable and understandable principles the spec is built on.
 
@@ -140,23 +138,23 @@ What it catches:
 
 | Avoid | Instead use | Sources |
 | --- | --- | --- |
-| cripple / crippled | person with a mobility disability | NCDJ, AP, ADA NN, APA |
-| spastic / spaz | clumsy / energetic (highly offensive ableist slur in UK) | Scope UK |
-| retarded / retard | person with an intellectual disability | NCDJ, AP, ADA NN, APA |
-| dumb | mute / nonverbal | NCDJ, ADA NN |
-| lame | weak / unconvincing | NCDJ, A11y Collective |
-| special needs | disability / person with a disability | NCDJ, AP, ADA NN, APA |
-| differently abled | person with a disability | NCDJ, AP, ADA NN, APA |
-| handi-capable / physically challenged | person with a disability | NCDJ, AP, ADA NN |
-| wheelchair-bound / confined to a wheelchair | wheelchair user | NCDJ, AP, ADA NN, APA, SIGACCESS |
-| suffers from | has / lives with | NCDJ, AP, ADA NN, APA |
 | afflicted with / victim of | has / lives with | NCDJ, AP, ADA NN, APA |
 | committed suicide | died by suicide | ADA NN, APA, AP Stylebook 2022 |
 | crazy / psycho | wild / reckless (in non-clinical use) | NCDJ, A11y Collective |
-| hearing-impaired | deaf / hard of hearing | NCDJ, AP, ADA NN, APA |
-| the disabled / the blind / the deaf | people with disabilities / blind people / deaf people | NCDJ, AP, ADA NN, APA, SIGACCESS |
-| normal people / normal hearing | people without disabilities / typical hearing | AP, ADA NN, APA, SIGACCESS |
+| cripple / crippled | person with a mobility disability | NCDJ, AP, ADA NN, APA |
+| differently abled | person with a disability | NCDJ, AP, ADA NN, APA |
+| dumb | mute / nonverbal | NCDJ, ADA NN |
+| handi-capable / physically challenged | person with a disability | NCDJ, AP, ADA NN |
 | handicapped | person with a disability / accessible (for spaces) | NCDJ, AP, ADA NN |
+| hearing-impaired | deaf / hard of hearing | NCDJ, AP, ADA NN, APA |
+| lame | weak / unconvincing | NCDJ, A11y Collective |
+| normal people / normal hearing | people without disabilities / typical hearing | AP, ADA NN, APA, SIGACCESS |
+| retarded / retard | person with an intellectual disability | NCDJ, AP, ADA NN, APA |
+| spastic / spaz | clumsy / energetic (highly offensive ableist slur in UK) | Scope UK |
+| special needs | disability / person with a disability | NCDJ, AP, ADA NN, APA |
+| suffers from | has / lives with | NCDJ, AP, ADA NN, APA |
+| the disabled / the blind / the deaf | people with disabilities / blind people / deaf people | NCDJ, AP, ADA NN, APA, SIGACCESS |
+| wheelchair-bound / confined to a wheelchair | wheelchair user | NCDJ, AP, ADA NN, APA, SIGACCESS |
 
 **Identity-first vs person-first language:** "Autistic person" and "person with autism" are both used in disability communities. APA (2022) accepts both and recommends following individual preference. [Nicolas Steenhout](https://incl.ca/disability-language-is-a-nuanced-thing/) notes the current momentum in disability advocacy is toward identity-first language as reclamation, while person-first remains standard in many clinical and government contexts. [Léonie Watson](https://tink.uk), cited by Steenhout: *"There is no right or wrong answer because it is a matter of personal choice, and the choice depends on context."* This rule does not flag either form.
 
@@ -172,7 +170,7 @@ Configuration:
 
 #### `no-disability-metaphor`
 
-Flags figurative uses of disability language - disability used as a metaphor in non-clinical prose.
+Finds disability words used as metaphors.
 
 **WCAG basis:** No direct SC. Grounded in NCDJ, A11y Collective, and APA guidance that these uses normalise disability as a negative even when not intended that way.
 
@@ -181,12 +179,12 @@ What it catches:
 | Avoid | Instead use | Sources |
 | --- | --- | --- |
 | blind spot | gap / oversight / unaware of | NCDJ, A11y Collective |
-| turning a blind eye | ignoring / overlooking | NCDJ, A11y Collective |
-| tone deaf | out of touch / insensitive | NCDJ, A11y Collective |
+| crippling debt / crippling fear | devastating / crushing | NCDJ, A11y Collective |
 | falling on deaf ears | being ignored / going unheard | NCDJ, A11y Collective |
 | paralyzed by / paralyzed with | overwhelmed by / unable to act because of | NCDJ, A11y Collective |
-| crippling debt / crippling fear | devastating / crushing | NCDJ, A11y Collective |
 | schizophrenic approach | contradictory / inconsistent | NCDJ, APA |
+| tone deaf | out of touch / insensitive | NCDJ, A11y Collective |
+| turning a blind eye | ignoring / overlooking | NCDJ, A11y Collective |
 
 ---
 
@@ -194,7 +192,7 @@ What it catches:
 
 #### `no-english-idiom`
 
-Flags English idioms and sports metaphors that are opaque to ESL readers and international audiences.
+Finds English idioms and sports metaphors that are hard for ESL readers to understand.
 
 **WCAG basis:** SC 3.1.5 (Reading Level). Idioms systematically fail this criterion for non-native English speakers because their meaning cannot be inferred from constituent words. No other accessibility linting tool flags idioms - this is the most novel rule in this set.
 
@@ -204,36 +202,36 @@ What it catches:
 
 | Avoid | Instead use |
 | --- | --- |
-| boil the ocean | attempt everything at once |
-| move the needle | make progress / have an impact |
-| blue-sky thinking | open-ended brainstorming |
-| drink the Kool-Aid | follow without question |
-| low-hanging fruit | easiest tasks / quick wins |
-| circle back | follow up / return to |
-| take it offline | discuss separately |
-| deep dive | thorough review |
-| level-set | align / agree on expectations |
 | back to square one | starting over |
-| in the pipeline | planned / in progress |
-| on the same page | in agreement |
-| catch-22 | impossible situation |
-| hit the ground running | start immediately |
-| on the fence | undecided |
-| bite the bullet | proceed despite difficulty |
-| under the weather | unwell / sick |
 | ballpark | rough estimate |
-| slam dunk | certain success |
+| bite the bullet | proceed despite difficulty |
+| blue-sky thinking | open-ended brainstorming |
+| boil the ocean | attempt everything at once |
+| catch-22 | impossible situation |
+| circle back | follow up / return to |
+| deep dive | thorough review |
+| drink the Kool-Aid | follow without question |
 | drop the ball | make a mistake |
 | game-changer | major shift |
+| hit the ground running | start immediately |
+| in the pipeline | planned / in progress |
 | level the playing field | create equal conditions |
+| level-set | align / agree on expectations |
+| low-hanging fruit | easiest tasks / quick wins |
 | move the goalposts | change the requirements |
+| move the needle | make progress / have an impact |
+| on the fence | undecided |
+| on the same page | in agreement |
+| slam dunk | certain success |
+| take it offline | discuss separately |
 | touch base | check in / follow up |
+| under the weather | unwell / sick |
 
 ---
 
 #### `no-directional-language`
 
-Flags content that gives instructions using screen position ("above", "in the right sidebar").
+Finds instructions that tell users where things are on the screen (like "above" or "on the right").
 
 **WCAG basis:** SC 1.3.3 (Sensory Characteristics) - instructions shall not rely solely on location or sensory characteristics. Position references break for screen reader users, keyboard users, and anyone who zooms or reflows the page.
 
@@ -245,7 +243,7 @@ Flags content that gives instructions using screen position ("above", "in the ri
 
 #### `no-unexplained-abbreviation`
 
-Flags abbreviations and acronyms used without a prior expansion in the same file.
+Finds short words or acronyms used before you explain them.
 
 **WCAG basis:** SC 3.1.4 (Abbreviations) - a mechanism shall be available for identifying the expanded form of abbreviations.
 
@@ -263,7 +261,7 @@ Flags abbreviations and acronyms used without a prior expansion in the same file
 
 #### `no-all-caps-prose`
 
-Flags ALL CAPS words in prose content.
+Finds words in ALL CAPS.
 
 **Why it matters:** Some screen readers using high verbosity settings read ALL CAPS letter-by-letter ("H-E-L-P" instead of "help"). Also reduces readability for users with dyslexia. IMPORTANT, WARNING, NOTE, and common acronyms are excluded by default.
 
@@ -281,9 +279,9 @@ Configuration:
 
 #### `no-ampersand-in-prose`
 
-Flags `&` used in place of "and" in prose.
+Finds `&` used instead of "and".
 
-**Why it matters:** Screen readers may announce `&` as "ampersand" or skip it entirely - behaviour is inconsistent across AT vendors and verbosity settings.
+**Why it matters:** Screen readers may announce `&` as "ampersand" or skip it entirely - behavior is inconsistent across AT vendors and verbosity settings.
 
 **Sources:** Google Developer Style Guide, US Plain Language guide.
 
@@ -295,7 +293,7 @@ Flags `&` used in place of "and" in prose.
 
 #### `no-exclusive-language`
 
-Flags unnecessarily violent, culturally appropriated, or racially loaded tech jargon.
+Finds violent, culturally insensitive, or racist tech jargon.
 
 **WCAG basis:** No direct SC. Grounded in Google, Microsoft, and public health style guides that emphasize the tech industry moving away from appropriated language.
 
@@ -304,23 +302,23 @@ What it catches:
 | Avoid | Instead use | Sources |
 | --- | --- | --- |
 | blacklist / whitelist | denylist / allowlist | Google, MS, Prevention.org |
-| master / slave | primary / replica or main / worker | Google, MS, Prevention.org |
-| dummy | placeholder, sample, or mock | Google |
+| caucasian | white / specific descent | UPenn |
 | colored people, coloured | people of color (avoid 'coloured' which is highly offensive in the UK) | APA, AP Style |
-| Oriental | Asian / specific descent | AP Style, Microsoft |
+| dummy | placeholder, sample, or mock | Google |
 | Eskimo | Alaska Native / Inuit | AP Style, Microsoft |
+| guys | folks, everyone, or team | Google, MS |
+| master / slave | primary / replica or main / worker | Google, MS, Prevention.org |
 | Negro, Afro-American | Black / African American / specific descent | AP Style, APA |
+| Oriental | Asian / specific descent | AP Style, Microsoft |
 | Paki | specific descent (highly offensive slur in UK, avoid entirely) | UK Gov |
 | sanity check | quick check or confidence check | Google |
 | spirit animal, powwow, ninja, guru, tribe | remove, or use literal terms | MS, Prevention.org |
-| guys | folks, everyone, or team | Google, MS |
-| caucasian | white / specific descent | UPenn |
 
 ---
 
 #### `no-colonial-and-violent-language`
 
-Flags terms rooted in colonialism or violent imagery applied to people.
+Finds words based on colonialism or violence when talking about people.
 
 **WCAG basis:** No direct SC.
 
@@ -329,8 +327,8 @@ What it catches:
 | Avoid | Instead use | Sources |
 | --- | --- | --- |
 | stakeholder | partner, collaborator, contributor, community member | SkilledWork |
-| target population / target audience | group of focus, intended audience, specific population | SkilledWork, Prevention.org |
 | tackle / combat (communities/people) | address, collaborate with, eliminate (the issue) | Prevention.org |
+| target population / target audience | group of focus, intended audience, specific population | SkilledWork, Prevention.org |
 
 *(Note: "stakeholder" originates from the colonial practice of planting a stake to claim land; "target" conjures a mark to shoot at).*
 
@@ -340,7 +338,7 @@ What it catches:
 
 #### `no-deficit-language`
 
-Flags language that reduces people to their circumstances, behaviors, or conditions.
+Finds words that reduce people to their bad situations.
 
 **WCAG basis:** No direct SC. Grounded in modern public health and non-profit communications.
 
@@ -348,32 +346,32 @@ What it catches:
 
 | Avoid | Instead use | Sources |
 | --- | --- | --- |
-| the homeless | people experiencing homelessness | Prevention.org, SkilledWork |
-| inmate, felon, offender, convict | person with legal system involvement | SkilledWork |
 | addict, drug abuse | person with a substance use disorder | Prevention.org |
-| minority | historically marginalized group / people of color | APA, Prevention.org |
 | at-risk youth, vulnerable groups | opportunity youth, groups experiencing vulnerability | SkilledWork, Prevention.org, ACECQA |
-| non-English speaking | multilingual learner | ACECQA |
 | illegal immigrant | undocumented immigrant | UPenn |
+| inmate, felon, offender, convict | person with legal system involvement | SkilledWork |
+| minority | historically marginalized group / people of color | APA, Prevention.org |
+| non-English speaking | multilingual learner | ACECQA |
 | the elderly, seniors | older adults | UPenn, SkilledWork |
+| the homeless | people experiencing homelessness | Prevention.org, SkilledWork |
 
 ---
 
 #### `no-gendered-language`
 
-Flags generic use of gendered pronouns.
+Finds gendered pronouns when you don't know the gender.
 
 What it catches:
 
 | Avoid | Instead use | Sources |
 | --- | --- | --- |
-| he/she, he or she, his or her | they, their, you, the user | MS, Google |
-| mum and dad | families, parents, carers | ACECQA |
 | born a man/woman, biologically male/female | assigned male/female at birth | UPenn, NAHJ |
-| opposite sex, opposite gender | different gender, another sex | APA, TJA |
+| fireman, policeman, chairman | firefighter, police officer, chairperson | GOV.UK, Canada |
+| he/she, he or she, his or her | they, their, you, the user | MS, Google |
 | husband / wife, boyfriend / girlfriend | partner, spouse (when gender is unknown) | APA, Google, NAHJ |
 | male-bodied, female-bodied | assigned male/female at birth | TJA |
-| fireman, policeman, chairman | firefighter, police officer, chairperson | GOV.UK, Canada |
+| mum and dad | families, parents, carers | ACECQA |
+| opposite sex, opposite gender | different gender, another sex | APA, TJA |
 
 ---
 
@@ -381,7 +379,7 @@ What it catches:
 
 #### `no-anti-lgbtq-language`
 
-Flags outdated, pathologizing, or offensive terms regarding sexual orientation and gender identity.
+Finds old or offensive words about sexual orientation and gender.
 
 **WCAG basis:** No direct SC. Grounded in APA, AP Style, and Trans Journalists Association guidelines.
 
@@ -389,15 +387,15 @@ What it catches:
 
 | Avoid | Instead use | Sources |
 | --- | --- | --- |
+| faggot, fag | (highly offensive slur, avoid entirely. Note: 'fag' is slang for cigarette in UK but a slur in US) | AP Style |
 | homosexual | gay, lesbian, bisexual | APA, AP Style, NAHJ |
+| queer | (use only if referring to self-identification, otherwise avoid as it can be considered a slur) | AP Style, UK Gov |
 | sexual preference | sexual orientation | APA, AP Style, NAHJ |
+| trans male, trans female | trans man, trans woman | TJA |
+| trans-identified | transgender | TJA |
 | transgendered, a transgender | transgender, a transgender person | TJA, APA, AP Style |
 | transgenderism, trans ideology, gender ideology | transgender people, trans rights | TJA |
-| trans-identified | transgender | TJA |
-| trans male, trans female | trans man, trans woman | TJA |
 | transvestite, cross-dresser | transgender (or use specific terms as preferred) | NAHJ, TJA |
-| faggot, fag | (highly offensive slur, avoid entirely. Note: 'fag' is slang for cigarette in UK but a slur in US) | AP Style |
-| queer | (use only if referring to self-identification, otherwise avoid as it can be considered a slur) | AP Style, UK Gov |
 
 ---
 
@@ -405,7 +403,7 @@ What it catches:
 
 #### `no-device-specific-action`
 
-Flags instructions that assume the user's input device.
+Finds instructions that only make sense for one device (like 'click' or 'swipe').
 
 **WCAG basis:** Grounded in inclusive writing principles to not exclude touchscreen, keyboard, and alternative input users.
 
@@ -414,8 +412,8 @@ What it catches:
 | Avoid | Instead use | Sources |
 | --- | --- | --- |
 | click on, click the | choose, select | Apple, Google |
-| tap on, tap the | choose, select | Apple, Google |
 | swipe the | choose, select, navigate | Apple |
+| tap on, tap the | choose, select | Apple, Google |
 
 ---
 
@@ -423,7 +421,7 @@ What it catches:
 
 #### `no-vague-cta`
 
-Flags vague call-to-action and link text.
+Finds confusing link and button text.
 
 **WCAG basis:** SC 2.4.4 (Link Purpose, In Context) - link purpose shall be determinable from the link text alone. Patterns like "click here" or "read more" are the most-cited failure in the annual WebAIM Million report.
 
@@ -435,7 +433,7 @@ Flags vague call-to-action and link text.
 
 #### `no-vague-error-message`
 
-Flags error messages that do not explain what went wrong.
+Finds error messages that do not explain what is wrong.
 
 **WCAG basis:** SC 3.3.1 (Error Identification) - if an input error is detected, the item in error shall be described. SC 3.3.3 (Error Suggestion) - suggestions for correction shall be provided. "An error occurred" satisfies neither.
 
@@ -449,9 +447,9 @@ Flags error messages that do not explain what went wrong.
 
 | Pattern | Reason not included |
 | --- | --- |
-| Passive voice | Hemingway and Grammarly both flag this, and the plain language guides recommend active voice. However, passive voice has many legitimate uses in technical and legal writing. The false-positive rate is high enough that it would generate more noise than signal for most codebases. Recommended alternative: use Grammarly or Hemingway for prose review outside the linter. |
-| Sentence length | A 25-word threshold is the most commonly cited guideline (Google Dev Style, GOV.UK). However, compound technical sentences often need to exceed this. A sentence-length rule would require calibration per content type and is better suited to a prose editor than a code linter. |
-| Reading grade level | Cannot be computed accurately from string literals in a JS AST without analysing full document context. Better measured by Hemingway on full page text. |
 | Adverbs and qualifiers ("very", "really", "quite") | Flagged by Grammarly and Hemingway as weak writing. Not an accessibility-specific issue and false-positive rate in code string literals is extremely high. |
 | Cultural references | Too broad to enumerate reliably. No finite term list is possible. |
+| Passive voice | Hemingway and Grammarly both flag this, and the plain language guides recommend active voice. However, passive voice has many legitimate uses in technical and legal writing. The false-positive rate is high enough that it would generate more noise than signal for most codebases. Recommended alternative: use Grammarly or Hemingway for prose review outside the linter. |
 | Placeholder used as label | Overlaps with `jsx-a11y/label-has-associated-control`. Check that rule first before enabling here. |
+| Reading grade level | Cannot be computed accurately from string literals in a JS AST without analysing full document context. Better measured by Hemingway on full page text. |
+| Sentence length | A 25-word threshold is the most commonly cited guideline (Google Dev Style, GOV.UK). However, compound technical sentences often need to exceed this. A sentence-length rule would require calibration per content type and is better suited to a prose editor than a code linter. |

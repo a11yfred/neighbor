@@ -1663,7 +1663,7 @@ export function makeNoNoninteractiveTabindex(h) {
 const ROLE_TO_ELEMENT = {
   button:      'button',
   link:        'a',
-  heading:     'h1–h6',
+  heading:     'h1-h6',
   checkbox:    'input[type=checkbox]',
   radio:       'input[type=radio]',
   textbox:     'input or textarea',

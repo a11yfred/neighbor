@@ -193,6 +193,54 @@ export const angularHostA11y = {
   },
 }
 
+// ─── angular-router-focus-management ─────────────────────────────────────────
+
+export const angularRouterFocusManagement = {
+  meta: {
+    type: 'suggestion',
+    docs: { description: 'Warn if <router-outlet> is used without focus management.' },
+    messages: {
+      noFocus: 'SPA route transitions via <router-outlet> require manual focus management (e.g., using a skip-link or programmatic focus).'
+    },
+    schema: [],
+  },
+  create(context) {
+    return {
+      Element(node) {
+        if (node.name === 'router-outlet') {
+          context.report({ node, messageId: 'noFocus' })
+        }
+      }
+    }
+  }
+}
+
+// ─── lit-no-autofocus ────────────────────────────────────────────────────────
+
+export const litNoAutofocus = {
+  meta: {
+    type: 'suggestion',
+    docs: { description: 'Disallow autofocus in Lit templates.' },
+    messages: {
+      noAutofocus: 'The autofocus attribute disrupts focus flow and disorients screen reader users.'
+    },
+    schema: [],
+  },
+  create(context) {
+    return {
+      TaggedTemplateExpression(node) {
+        if (node.tag && node.tag.name === 'html') {
+          const raw = node.quasi.quasis.map(q => q.value.raw).join('')
+          // Simple regex to catch autofocus attribute
+          if (/\bautofocus\b/.test(raw)) {
+            context.report({ node, messageId: 'noAutofocus' })
+          }
+        }
+      }
+    }
+  }
+}
+
 // ─── Exports ─────────────────────────────────────────────────────────────────
 
 export function buildRemixRules() {
@@ -210,11 +258,25 @@ export function buildRemixRecommendedRules(ns) {
 export function buildAngularFrameworkRules() {
   return {
     'angular-host-a11y': angularHostA11y,
+    'angular-router-focus-management': angularRouterFocusManagement,
   }
 }
 
 export function buildAngularHostRecommendedRules(ns) {
   return {
     [`${ns}/angular-host-a11y`]: 'error',
+    [`${ns}/angular-router-focus-management`]: 'off',
+  }
+}
+
+export function buildLitRules() {
+  return {
+    'lit-no-autofocus': litNoAutofocus,
+  }
+}
+
+export function buildLitRecommendedRules(ns) {
+  return {
+    [`${ns}/lit-no-autofocus`]: 'error',
   }
 }

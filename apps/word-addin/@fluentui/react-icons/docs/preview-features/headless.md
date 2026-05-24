@@ -1,18 +1,18 @@
 # Headless API
 
-> **⚠️ Alpha** — this feature is available as an alpha prerelease only.
+> **⚠️ Alpha** - this feature is available as an alpha prerelease only.
 >
 > Install via `npm i @fluentui/react-icons@prerelease`
 
-The Headless API is a drop-in replacement for the standard icon API that removes the CSS-in-JS runtime dependency. It provides `data-*` attribute selectors for styling behaviour with opt-in pre-defined vanilla CSS — making it suitable for any React setup, including those without a CSS-in-JS runtime.
+The Headless API is a drop-in replacement for the standard icon API that removes the CSS-in-JS runtime dependency. It provides `data-*` attribute selectors for styling behaviour with opt-in pre-defined vanilla CSS - making it suitable for any React setup, including those without a CSS-in-JS runtime.
 
 ## Benefits
 
-- **No CSS-in-JS runtime** — removes the CSS-in-JS dependency entirely; styling is handled by an opt in plain CSS file or in user-land
-- **Smaller JavaScript bundles** — icon styling code is moved from JS to a static CSS file
-- **Framework-agnostic styling** — works in any environment that can load a CSS file (Vite, Next.js, Remix, etc.)
-- **Same API surface** — `createFluentIcon`, `bundleIcon`, `useIconState`, and all constants work identically to the standard API
-- **Migration-friendly** — works with both existing codebases (via build-time transforms) and greenfield projects (via direct imports)
+- **No CSS-in-JS runtime** - removes the CSS-in-JS dependency entirely; styling is handled by an opt in plain CSS file or in user-land
+- **Smaller JavaScript bundles** - icon styling code is moved from JS to a static CSS file
+- **Framework-agnostic styling** - works in any environment that can load a CSS file (Vite, Next.js, Remix, etc.)
+- **Same API surface** - `createFluentIcon`, `bundleIcon`, `useIconState`, and all constants work identically to the standard API
+- **Migration-friendly** - works with both existing codebases (via build-time transforms) and greenfield projects (via direct imports)
 
 ## How it works
 
@@ -28,7 +28,7 @@ The standard API uses Griffel's `makeStyles` / `mergeClasses` to inject CSS rule
 
 ## CSS Setup
 
-You **must** import the headless CSS file — this is the key difference from the standard API, which injects styles at runtime.
+You **must** import the headless CSS file - this is the key difference from the standard API, which injects styles at runtime.
 
 **For SVG icons and SVG sprites:**
 
@@ -97,7 +97,7 @@ function MyComponent() {
 
 ### Font Icons
 
-Headless font icons require both CSS files — `headless.css` for base styles and `headless-fonts.css` for `@font-face` declarations:
+Headless font icons require both CSS files - `headless.css` for base styles and `headless-fonts.css` for `@font-face` declarations:
 
 ```tsx
 import '@fluentui/react-icons/headless/headless-fonts.css';
@@ -179,6 +179,6 @@ You can keep root-level barrel imports and leverage build transforms to adopt th
 
 Use `headless/svg` as the target path (or `headless/svg-sprite` for sprites, `headless/fonts` for font icons).
 
-> **Note:** You still need to manually add the CSS import (`import '@fluentui/react-icons/headless/headless.css'`) to your application entry point — build transforms only rewrite component imports.
+> **Note:** You still need to manually add the CSS import (`import '@fluentui/react-icons/headless/headless.css'`) to your application entry point - build transforms only rewrite component imports.
 
 👉 **[Build-Time Transform setup (Babel & SWC) →](../build-transforms.md)**

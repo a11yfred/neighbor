@@ -1,6 +1,6 @@
 # Build-Time Import Transforms
 
-You can keep root-level barrel imports and leverage build-time transforms to automatically rewrite them to optimized atomic imports — no source code changes required.
+You can keep root-level barrel imports and leverage build-time transforms to automatically rewrite them to optimized atomic imports - no source code changes required.
 
 These transforms rewrite imports from:
 
@@ -118,7 +118,7 @@ Replace every `svg` segment in the target paths below with your chosen target (`
                 // (.+?) lazily captures the icon base name (may contain digits,
                 // e.g. "Space3D", "Rotate315Right"), (\d+)? greedily strips any
                 // trailing all-digit segment (size suffixes like 16/20/24, but
-                // also level indicators like Battery0) — this mirrors the
+                // also level indicators like Battery0) - this mirrors the
                 // normalizeBaseName logic used by the generation pipeline.
                 // {{ kebabCase }} on group 1 mirrors lodash.kebabCase.
                 [
@@ -167,7 +167,7 @@ module.exports = {
 };
 ```
 
-> **Note:** Unlike most loaders, do **not** exclude `node_modules` — the loader needs to transform barrel imports inside dependencies too. Files without `@fluentui/react-icons` references are skipped via a fast regex pre-check.
+> **Note:** Unlike most loaders, do **not** exclude `node_modules` - the loader needs to transform barrel imports inside dependencies too. Files without `@fluentui/react-icons` references are skipped via a fast regex pre-check.
 
 To use font icons instead of SVG, pass the `iconVariant` option:
 

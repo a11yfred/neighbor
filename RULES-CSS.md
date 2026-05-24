@@ -1,6 +1,6 @@
 # @a11yfred/neighbor: CSS Rules
 
-Stylelint rules for CSS accessibility.
+Stylelint rules that check your CSS for accessibility problems.
 
 → [Markup rules](RULES-MARKUP.md) · [Content rules](RULES-CONTENT.md) · [Back to RULES.md](RULES.md)
 
@@ -8,28 +8,50 @@ Stylelint rules for CSS accessibility.
 
 | Source | Reference |
 | --- | --- |
-| WCAG 2.1 SC 1.4.3 | [Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) |
-| WCAG 2.1 SC 1.4.4 | [Resize Text](https://www.w3.org/WAI/WCAG21/Understanding/resize-text) |
-| WCAG 2.1 SC 1.4.11 | [Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
-| WCAG 2.1 SC 2.3.3 | [Animation from Interactions](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
-| WCAG 2.1 SC 2.4.7 | [Focus Visible](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
+| double-great/stylelint-a11y | [github.com/double-great/stylelint-a11y](https://github.com/double-great/stylelint-a11y) |
 | Eric Eggert | [yatil.net](https://yatil.net) - forced colors and focus patterns |
 | MDN Web Docs | [forced-color-adjust](https://developer.mozilla.org/en-US/docs/Web/CSS/forced-color-adjust) |
-| double-great/stylelint-a11y | [github.com/double-great/stylelint-a11y](https://github.com/double-great/stylelint-a11y) |
+| WCAG 2.1 SC 1.4.11 | [Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
+| WCAG 2.1 SC 1.4.3 | [Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) |
+| WCAG 2.1 SC 1.4.4 | [Resize Text](https://www.w3.org/WAI/WCAG21/Understanding/resize-text) |
+| WCAG 2.1 SC 2.3.3 | [Animation from Interactions](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
+| WCAG 2.1 SC 2.4.7 | [Focus Visible](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
 
 ---
 
 ## Rules
 
-All CSS rules use the `neighbor/` namespace and ship from `@a11yfred/neighbor` (the default entry point) and `@a11yfred/neighbor/stylelint`.
+All CSS rules start with `neighbor/`. You can use them from `@a11yfred/neighbor` or `@a11yfred/neighbor/stylelint`.
 
-### Warnings: on by default
+### Errors (you must fix these)
 
-| Rule | What it flags | WCAG SC |
+These rules flag issues that objectively break WCAG requirements and block users from accessing your content. By default, Stylelint rules are configured as errors unless you explicitly set their severity to "warning".
+
+| Rule | What it finds | WCAG SC |
 | --- | --- | --- |
-| `neighbor/user-preferences` | `opacity`, `animation`, `transition`, or alpha-channel colors without a `@media (prefers-reduced-motion)`, `@media (prefers-reduced-transparency)`, or `@media (forced-colors)` counterpart | [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
-| `neighbor/no-outline-none` | `outline: none` or `outline: 0` in a base rule (outside a `:focus`, `:focus-visible`, or `:focus-within` selector) - removes the keyboard focus indicator for all users | [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
-| `neighbor/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)` - actively opts out of Windows High Contrast Mode, removing the system-enforced visibility that users with low vision depend on | [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
+| `neighbor/no-forced-colors-none` | Using `forced-color-adjust: none` inside `@media (forced-colors)`. This blocks Windows High Contrast Mode, which hurts users with low vision. | [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
+| `neighbor/no-outline-none` | Using `outline: none` or `outline: 0` without a `:focus` selector. This hides the focus ring for keyboard users. | [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
+| `neighbor/no-text-justify` | Using `text-align: justify`. This creates uneven spaces between words that are very difficult for users with dyslexia to read. | [SC 1.4.8](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation) |
+
+### Warnings (configure these in your stylelint config)
+
+| Rule | What it finds | WCAG SC |
+| --- | --- | --- |
+| `neighbor/no-absolute-viewport-text` | Using pure viewport units (like `font-size: 5vw`). This stops the text from getting bigger when users zoom in with their browser. | [SC 1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text) |
+| `neighbor/no-user-select-all-none` | Using `user-select: none` on text. This stops users from highlighting text, which breaks translation and screen reading tools. | [SC 1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text) |
+| `neighbor/user-preferences` | Using `opacity`, `animation`, `transition`, or see-through colors without a `@media` fallback for users who need less motion, less transparency, or forced colors. | [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
+
+---
+
+## `stylelint-a11y` Integration
+
+If you already have [`stylelint-a11y`](https://github.com/double-great/stylelint-a11y) installed in your project, `neighbor` will automatically detect it and **turn off** the following rules to prevent duplicate warnings:
+
+- `neighbor/no-outline-none` (handled by `a11y/no-outline-none`)
+- `neighbor/no-text-justify` (handled by `a11y/no-text-align-justify`)
+- Motion checks in `neighbor/user-preferences` (handled by `a11y/media-prefers-reduced-motion`)
+
+You will still get `neighbor`'s unique checks for forced colors, text selection, and viewport sizing!
 
 ---
 
@@ -37,17 +59,17 @@ All CSS rules use the `neighbor/` namespace and ship from `@a11yfred/neighbor` (
 
 ### `neighbor/no-outline-none`
 
-The rule allows `outline: none` inside `:focus`, `:focus-visible`, and `:focus-within` selectors - those are intentional restylings, not removals. The pattern for programmatic-focus-only targets (skip-link destinations, dialog headings) is:
+This rule allows `outline: none` inside `:focus`, `:focus-visible`, and `:focus-within`. This is because you are usually changing the style, not removing it completely. A common pattern for elements focused by JavaScript is:
 
 ```css
 :focus:not(:focus-visible) { outline: none }
 ```
 
-This suppresses the visible ring for JS `.focus()` calls while preserving it for keyboard-initiated focus. That pattern is not flagged.
+This hides the focus ring when JavaScript focuses an element, but keeps it when a user uses the keyboard. This rule will not complain about this pattern.
 
 ### `neighbor/no-forced-colors-none`
 
-`forced-color-adjust: none` has a small number of valid uses (color pickers, custom border tricks) when placed *outside* a `@media (forced-colors)` block - those are not flagged. The rule only fires inside the media query, where the intent is explicitly to cancel High Contrast Mode for an element that needs it most.
+Using `forced-color-adjust: none` is sometimes okay (like for color pickers) if it is *outside* a `@media (forced-colors)` block. This rule will only complain if you use it inside the media query, because that means you are trying to turn off High Contrast Mode.
 
 ---
 
@@ -55,7 +77,7 @@ This suppresses the visible ring for JS `.focus()` calls while preserving it for
 
 | Rule | Reason rejected |
 | --- | --- |
-| `prefer-focus-visible` | `:focus` alone satisfies [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible); flagging it without `:focus-visible` fires constantly on legitimate code |
-| `no-fixed-font-size-px` | Browser zoom satisfies [SC 1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text) regardless of unit; WCAG is ambiguous on this; very high false-positive rate |
-| `font-size-is-readable` / `no-spread-text` | No universal threshold - highly context-dependent; high false-positive rate on real design systems |
-| `no-forced-colors-none` (global, not scoped to media query) | Legitimate narrow uses exist; rule is scoped to `@media (forced-colors)` blocks only |
+| `font-size-is-readable` / `no-spread-text` | Readable font size changes based on design. We cannot make a rule that works everywhere. |
+| `no-fixed-font-size-px` | Browser zoom works with `px`. WCAG does not clearly forbid `px`. Complaining about `px` gives too many false errors. |
+| `no-forced-colors-none` (global, not scoped to media query) | There are valid reasons to use this globally. We only check inside the `@media (forced-colors)` block. |
+| `prefer-focus-visible` | Using `:focus` is enough for WCAG. Complaining about it gives too many false errors. |

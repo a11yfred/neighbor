@@ -1,10 +1,24 @@
 # @a11yfred/neighbor
 
-The a11yfred accessibility linter ecosystem. This monorepo houses a suite of plugins covering React, Vue, Angular, Remix, Vanilla Web Components, CSS, and prose content across ESLint, Stylelint, textlint, and Vale.
+The a11yfred accessibility linter ecosystem. This repository contains tools for React, Vue, Angular, Remix, Web Components, CSS, and text. It uses ESLint, Stylelint, textlint, and Vale.
 
-It builds on foundational tools like `eslint-plugin-jsx-a11y` to cover gaps: bad ARIA patterns, live region misuse, missing names on roles, and CSS that removes focus indicators. It also brings that robust coverage to non-React frameworks like Vue, Angular, and Vanilla Web Components.
+It adds new rules to base tools like `eslint-plugin-jsx-a11y`. It finds problems like bad ARIA code, wrong live regions, missing names, and bad CSS. It brings these strong checks to non-React frameworks like Vue, Angular, and Web Components.
 
-Some rules are specific to **@ulam**, an upcoming JavaScript framework by the same author. Those rules are prefixed `no-announce-in-render`, `no-hash-router-in-remix`, and `no-use-page-title-in-remix`. They activate only when @ulam-related imports are detected and are harmless in non-@ulam projects.
+Some rules are only for **@ulam**, an upcoming JavaScript framework. These rules will not run unless you use @ulam. They are safe to keep in other projects.
+
+> [!NOTE]
+> **AI Assisted Development**
+> All of the platform adaptations, browser extensions, native plugins, and ecosystem tooling in this repository were largely aided by AI. We could really use the community's help in testing these tools and verifying their real-world usefulness and quality!
+
+## Why use neighbor?
+
+Tools like axe-core and Lighthouse are great, but they only test your app *after* you build it. This makes fixing mistakes slow. **`neighbor` finds accessibility mistakes directly in your editor, while you type.**
+
+Why choose `neighbor`?
+
+1. **More Rules:** It checks for complex problems. Standard tools check simple things like missing `alt` text. `neighbor` checks for harder problems, like missing close buttons on dialogs or broken tab menus.
+2. **Same Rules for Every Framework:** If you switch from React to Vue or Angular, your linter often catches fewer mistakes. `neighbor` gives you the exact same strict rules for React, Vue, Angular, and Lit Web Components.
+3. **CSS and Text:** Accessibility is not just HTML. `neighbor` also finds bad CSS (like hiding focus outlines) and bad text (like ableist words or confusing links).
 
 ## Contents
 
@@ -21,10 +35,10 @@ Some rules are specific to **@ulam**, an upcoming JavaScript framework by the sa
   - [Content linting](#content-linting)
 - [Peer dependencies](#peer-dependencies)
 - [What neighbor adds](#what-neighbor-adds)
-  - [ESLint - React / JSX](#eslint---react--jsx)
-  - [ESLint - Remix 2](#eslint---remix-2)
-  - [ESLint - Vue SFCs](#eslint---vue-sfcs)
-  - [ESLint - Angular templates](#eslint---angular-templates)
+  - [ESLint - React / JSX](#react--jsx)
+  - [ESLint - Remix 2](#remix-2)
+  - [ESLint - Vue SFCs](#vue)
+  - [ESLint - Angular templates](#angular)
   - [Stylelint - CSS](#stylelint---css)
   - [Content linter](#content-linter)
 - [Rule severity](#rule-severity)
@@ -57,17 +71,20 @@ vale config pull
 
 | Import | Use for |
 | --- | --- |
-| `@a11yfred/neighbor/eslint` | React / JSX, Remix 2: markup rules |
-| `@a11yfred/neighbor/eslint-vue` | Vue SFCs: markup rules |
-| `@a11yfred/neighbor/eslint-angular` | Angular templates: markup rules |
-| `@a11yfred/neighbor/webcomponents` | Web Components / Vanilla HTML: markup rules |
-| `@a11yfred/neighbor/content` | Any JS/TS/JSX/TSX: content and prose rules |
 | `@a11yfred/neighbor` | Stylelint - CSS rules |
+| `@a11yfred/neighbor/content` | Any JS/TS/JSX/TSX: content and prose rules |
+| `@a11yfred/neighbor/eslint` | React / JSX, Remix 2: markup rules |
+| `@a11yfred/neighbor/eslint-angular` | Angular templates: markup rules |
+| `@a11yfred/neighbor/eslint-vue` | Vue SFCs: markup rules |
+| `@a11yfred/neighbor/lit` | Lit: markup rules |
 | `@a11yfred/neighbor/stylelint` | Stylelint - CSS rules (explicit alias) |
+| `@a11yfred/neighbor/webcomponents` | Web Components / Vanilla HTML: markup rules |
 
 ## Setup
 
 ### Vanilla JS / Web Components / plain HTML
+
+<details><summary>Show setup instructions</summary>
 
 If you write plain HTML or Vanilla Web Components (like Lit), you can use the `@a11yfred/neighbor/webcomponents` configuration. It natively lints standard HTML syntax for accessibility violations!
 
@@ -75,9 +92,9 @@ What you get:
 
 | Plugin | What it checks |
 | --- | --- |
+| Content linter (`@a11yfred/neighbor/content`) | JS strings: ableist language, vague CTAs, unexplained abbreviations, idioms, all-caps prose |
 | ESLint (`@a11yfred/neighbor/webcomponents`) | Markup: Native HTML elements and Lit templates for ARIA misuse, missing labels, etc. |
 | Stylelint (`@a11yfred/neighbor`) | CSS: bare `outline: none`, forced-colors opt-out, motion/transparency without `prefers-*` fallbacks |
-| Content linter (`@a11yfred/neighbor/content`) | JS strings: ableist language, vague CTAs, unexplained abbreviations, idioms, all-caps prose |
 
 **Stylelint setup** (CSS only, no framework needed):
 
@@ -159,9 +176,13 @@ export default [
 
 The ESLint markup rules (`@a11yfred/neighbor/eslint` and variants) require a template syntax to parse (like JSX, Vue templates, or HTML strings). For vanilla HTML or Web Components, you should use the `@a11yfred/neighbor/webcomponents` plugin along with the `@html-eslint/parser`!
 
+</details>
+
 ---
 
 ### React / JSX
+
+<details><summary>Show setup instructions</summary>
 
 Neighbor works alongside `eslint-plugin-jsx-a11y`. Install both.
 
@@ -181,9 +202,13 @@ export default [
 ]
 ```
 
+</details>
+
 ### Remix 2
 
-Remix 2 is React-based. Use the React entry point. The `no-hash-router-in-remix` and `no-use-page-title-in-remix` rules activate automatically when Remix imports are detected.
+<details><summary>Show setup instructions</summary>
+
+Remix 2 uses React. Use the React setup. The special Remix rules turn on automatically when you import Remix.
 
 ```bash
 npm install --save-dev eslint-plugin-jsx-a11y @a11yfred/neighbor
@@ -202,9 +227,13 @@ export default [
 ]
 ```
 
+</details>
+
 ### Remix 3
 
-Remix 3 is framework-agnostic and does not require React. Neighbor does not have a dedicated Remix 3 entry point - use the entry point that matches your renderer.
+<details><summary>Show setup instructions</summary>
+
+Remix 3 works with any framework. Neighbor does not have a special setup for Remix 3. Use the setup for your view framework (like React or Vue).
 
 If you are using React with Remix 3:
 
@@ -224,9 +253,13 @@ export default [
 ]
 ```
 
-If you are not using React with Remix 3, neighbor does not currently have a template-level entry point for your renderer. The Remix-specific rules (`no-hash-router-in-remix`, `no-use-page-title-in-remix`) only apply to React-based Remix projects.
+If you do not use React with Remix 3, the special Remix rules will not run.
+
+</details>
 
 ### Vue
+
+<details><summary>Show setup instructions</summary>
 
 ```bash
 npm install --save-dev eslint-plugin-vuejs-accessibility @a11yfred/neighbor
@@ -246,7 +279,11 @@ export default [
 ]
 ```
 
+</details>
+
 ### Angular
+
+<details><summary>Show setup instructions</summary>
 
 ```bash
 npm install --save-dev @angular-eslint/eslint-plugin-template @a11yfred/neighbor
@@ -274,7 +311,11 @@ export default [
 ]
 ```
 
+</details>
+
 ### Stylelint
+
+<details><summary>Show setup instructions</summary>
 
 ```json
 // .stylelintrc.json
@@ -288,7 +329,11 @@ export default [
 }
 ```
 
+</details>
+
 ### Content linting
+
+<details><summary>Show setup instructions</summary>
 
 The content plugin lints string literals and JSX text in JavaScript, TypeScript, JSX, and TSX files. It is separate from the markup plugins and can be used alongside any of them.
 
@@ -331,117 +376,94 @@ export default [
 ]
 ```
 
+</details>
+
 ## Peer dependencies
 
 | Peer | Required for |
 | --- | --- |
+| `@angular-eslint/eslint-plugin-template >= 17` | Angular config |
 | `eslint >= 8` | Any ESLint entry point |
 | `eslint-plugin-jsx-a11y >= 6` | React config - neighbor extends it, not replaces it |
 | `eslint-plugin-vuejs-accessibility >= 2` | Vue config |
-| `@angular-eslint/eslint-plugin-template >= 17` | Angular config |
 | `stylelint >= 14` | Stylelint config |
 
 All peers are optional. Install only what your project uses.
 
 ## What neighbor adds
 
-### ESLint - React / JSX
+Because `neighbor` is designed as a "gap-filler", it assumes you are running it alongside the standard linters for your framework.
 
-Base: `eslint-plugin-jsx-a11y`
+| Framework | Standard A11y Linter | `neighbor` Gap Coverage (Rules not in standard linter) |
+| :--- | :--- | :--- |
+| **@ulam** | *N/A (Internal framework)* | **3 specific rules** <br/>*(Checks for `announce()` abuse in render loops and router collisions)* |
+| **Android (Compose)** | Android Lint (built-in) | **8 custom UAST rules** <br/>*(Checks specifically for `Modifier` chain accessibility, `pointerInput` semantics, and TalkBack traversal groups)* |
+| **Angular** | `@angular-eslint/eslint-plugin-template` | **~52 rules** <br/>*(30 core rules + 20 portability rules missing from Angular standard + 2 Angular-specific rules like host `tabindex`)* |
+| **Lit / Web Components** | `eslint-plugin-lit-a11y` | **~51 rules** <br/>*(30 core rules + 20 portability rules + 1 Lit-specific autofocus rule)* |
+| **React / JSX** | `eslint-plugin-jsx-a11y` | **~32 rules** <br/>*(30 core rules + 2 React-specific rules like `<Fragment>` ARIA drops and SPA focus)* |
+| **Remix** | `eslint-plugin-jsx-a11y` | **~31 rules** <br/>*(30 core rules + Remix missing `meta` title)* |
+| **Vanilla HTML** | `@html-eslint/eslint-plugin` | **~50 rules** <br/>*(30 core rules + 20 portability rules applied directly to `.html` AST)* |
+| **Vue** | `eslint-plugin-vuejs-accessibility` | **~53 rules** <br/>*(30 core rules + 20 portability rules missing from Vue standard + 3 Vue-specific rules like `<Transition>` live regions)* |
 
-| What it checks | Rule | Severity | WCAG SC |
-| --- | --- | --- | --- |
-| `aria-disabled` keeps element reachable | `prefer-aria-disabled` | off | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `aria-disabled` must block click handler | `no-unblocked-aria-disabled` | error | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `aria-label` on a generic element with no role | `no-aria-label-on-generic` | error | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
-| `role="alert"` overuse | `warn-role-alert` | off | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
-| `aria-live="assertive"` outside `role="alert"` | `no-assertive-live-overuse` | error | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
-| `role="dialog"` requires accessible name | `no-roles-without-name` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="group"` with form controls requires name | `no-group-without-name` | error | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
-| `role="tooltip"` requires `id` on the tooltip | `no-tooltip-role-misuse` | warn | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="application"` disables AT browse mode | `no-application-role` | off | - |
-| `role="grid"` almost always wrong | `no-grid-role` | off | - |
-| `role="menu"` on nav triggers wrong AT mode | `no-menu-role-on-nav` | warn | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `role="presentation"` on a focusable element | `no-presentation-on-focusable` | error | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `role="log"` must not contain interactive children | `no-log-with-interactive-children` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="img"` requires accessible name | `no-image-role-without-name` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="tab"` requires `aria-selected` | `no-tabs-without-structure` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="tab"` should declare `aria-controls` | `no-tab-without-controls` | off | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="combobox"` requires `aria-expanded` | `no-combobox-without-expanded` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="slider"` requires value range attributes | `no-slider-without-range` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="spinbutton"` requires value range attributes | `no-spinbutton-without-range` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="listbox"` requires `role="option"` children | `no-listbox-without-option` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="tree"` requires `role="treeitem"` children | `no-tree-without-treeitem` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `role="feed"` requires `role="article"` children | `no-feed-without-article` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `aria-hidden="true"` + `role="none"` is redundant | `no-redundant-aria-hidden-with-presentation` | error | - |
-| `aria-roledescription` does not translate | `no-aria-roledescription` | off | - |
-| `aria-readonly` has poor AT support | `no-aria-readonly` | off | - |
-| `aria-owns` on a void element | `no-aria-owns-on-void` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `aria-activedescendant` requires a non-empty static ID | `no-aria-activedescendant-without-id` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `aria-required` only valid on form-control roles | `no-aria-required-on-non-form` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `<a>` with only aria-hidden children | `no-aria-hidden-in-link` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `<button>` with only aria-hidden children | `no-empty-button` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `<input>` placeholder used as sole label | `no-placeholder-only` | error | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
-| `<input>` with invalid type value | `no-input-type-invalid` | error | [1.3.5](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose) |
-| `<button>` in a form missing explicit type | `no-button-type-missing` | warn | [HTML spec](https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element) |
-| `<summary>` outside `<details>` | `no-summary-without-details` | error | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `<a href="#">` used as a button | `no-href-hash` | off | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `target="_blank"` without new-tab disclosure | `no-target-blank-without-label` | off | [3.2.2](https://www.w3.org/WAI/WCAG21/Understanding/on-input) |
-| Duplicate `id` breaks ARIA relationships | `no-duplicate-id` | error | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
-| Positive `tabIndex` breaks tab order | `no-positive-tabindex` | error | [2.4.3](https://www.w3.org/WAI/WCAG21/Understanding/focus-order) |
-| Heading inside an interactive element | `no-heading-inside-interactive` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `title` attribute as the only accessible name | `no-title-as-label` | error | [2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels) |
-| `<video>` or `<audio autoplay>` without controls | `no-autoplay-without-controls` | error | [1.4.2](https://www.w3.org/WAI/WCAG21/Understanding/audio-control) |
-| Mouse-only events without keyboard equivalents | `no-mouse-only-events` | error | [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `aria-labelledby`/`describedby` references missing `id` | `no-labelledby-missing-target` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `dangerouslySetInnerHTML` outside a live region | `no-dynamic-content-without-live` | error | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
-| Multiple `<label>` elements for the same control | `form-field-multiple-labels` | error | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
-| `<th>` or header role with no accessible text | `no-empty-table-header` | error | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
-| `announce()` called in component render body | `no-announce-in-render` | error | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
+### Detailed Rule Lists
 
-### ESLint - Remix 2
+Neighbor's exact rule sets, including what is checked for each framework, which rules are errors vs warnings, and how they map to WCAG Success Criteria, are documented in our dedicated rule pages:
 
-Same as React / JSX. Additional rules activate when Remix imports are detected in the file being linted:
+- **[Markup Rules](RULES-MARKUP.md)**: React, Remix, Vue, Angular, Lit, and Web Components (ARIA, focus, semantic HTML)
+- **[CSS Rules](RULES-CSS.md)**: Stylelint rules for focus rings, high contrast mode, and motion preferences
+- **[Content Rules](RULES-CONTENT.md)**: Textlint rules for ableist language, confusing CTAs, and jargon
 
-| What it checks | Rule | Severity |
-| --- | --- | --- |
-| `@ulam` hash router alongside `react-router` | `no-hash-router-in-remix` | warn |
-| `usePageTitle()` alongside `react-router` | `no-use-page-title-in-remix` | warn |
+### Working with standard linters
 
-### ESLint - Vue SFCs
+The JavaScript ecosystem already has great tools (`eslint-plugin-jsx-a11y` for React, `eslint-plugin-vuejs-accessibility` for Vue, `@angular-eslint` for Angular, and `eslint-plugin-lit-a11y` for Lit).
 
-Base: `eslint-plugin-vuejs-accessibility`
+Neighbor is designed as a **gap-filler**. It automatically detects if you have the standard linter installed for your framework. If you do, it will disable any of its own redundant checks and only run the rules that the standard linter misses, ensuring you get maximum coverage without duplicate warnings. For a full list of omitted redundant rules, see the [Framework Omissions](RULES-MARKUP.md#framework-specific-omissions) section.
 
-Neighbor adds everything in the React table above, adapted for Vue's AST (`v-html` instead of `dangerouslySetInnerHTML`), plus:
+### Customizing Rule Severity
 
-| What it checks | Rule | Severity | WCAG SC |
-| --- | --- | --- | --- |
-| Ambiguous link text ("click here", "read more") | `no-anchor-ambiguous-text` | error | [2.4.4](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context) |
-| `<a>` with no content and no accessible name | `no-anchor-no-content` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| Invalid ARIA attribute values | `no-invalid-aria-prop-value` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| Invalid `autocomplete` token | `no-autocomplete-invalid` | error | [1.3.5](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose) |
-| Heading with no content | `no-heading-no-content` | error | [2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels) |
-| `<iframe>` without `title` | `no-iframe-no-title` | error | [4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| Alt text contains "image", "photo" | `no-img-redundant-alt` | warn | [1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content) |
-| `accessKey` attribute | `no-access-key` | warn | [2.1.4](https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts) |
-| `scope` on `<td>` (only valid on `<th>`) | `no-scope-on-td` | error | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
-| `announce()` called outside `onMounted`/`watch`/handler | `no-announce-in-render` | error | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
+Yes! You have full control over the rules. If you want to change a rule to a warning, turn off a noisy rule, or enable a rule that is off by default, you can do so in your ESLint or Stylelint configuration:
 
-### ESLint - Angular templates
+**ESLint (`eslint.config.js`)**
 
-Base: `@angular-eslint/eslint-plugin-template`
+```js
+export default [
+  // ... other config
+  {
+    rules: {
+      // Turn a rule off completely
+      '@a11yfred/neighbor/no-positive-tabindex': 'off',
+      // Change an error to a warning
+      '@a11yfred/neighbor/no-aria-label-on-generic': 'warn',
+      // Turn on a rule that is off by default
+      '@a11yfred/neighbor/prefer-aria-disabled': 'error',
+      // Content rules
+      '@a11yfred/neighbor/content/no-ableist-language': 'error'
+    }
+  }
+]
+```
 
-Neighbor adds the same rule set as Vue, adapted for Angular's template AST (`[innerHTML]` instead of `dangerouslySetInnerHTML`). The `no-announce-in-render` rule also lints Angular component TypeScript files - see the setup instructions for how to configure it for `.ts` files alongside `.html` templates.
+**Stylelint (`stylelint.config.js`)**
 
-**Known limitation:** Angular's template parser does not attach parent pointers to AST nodes. Rules that need to walk up the tree (`no-summary-without-details`, `no-button-type-missing`, `no-log-with-interactive-children`, `no-menu-role-on-nav`, `no-heading-inside-interactive`) will silently pass in Angular templates. The `no-dynamic-content-without-live` rule only checks the element itself for Angular (no ancestor walk).
+```js
+export default {
+  // ... other config
+  rules: {
+    // Turn a rule off
+    'neighbor/no-outline-none': null,
+    // Change an error to a warning
+    'neighbor/no-forced-colors-none': [true, { "severity": "warning" }]
+  }
+}
+```
 
 ### Stylelint - CSS
 
 | Rule | Severity | What it checks |
 | --- | --- | --- |
-| `neighbor/user-preferences` | warn | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks - [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
-| `neighbor/no-outline-none` | error | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors - [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
 | `neighbor/no-forced-colors-none` | error | Disallows `forced-color-adjust: none` inside `@media (forced-colors)` - opts out of Windows High Contrast Mode - [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
+| `neighbor/no-outline-none` | error | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors - [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
+| `neighbor/user-preferences` | warn | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks - [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
 
 ### Content linter
 
@@ -450,20 +472,20 @@ Rules that flag accessibility and inclusion problems in web and app copy. Works 
 | Rule | What it flags | Severity | WCAG SC |
 | --- | --- | --- | --- |
 | `no-ableist-language` | Slurs, condescending euphemisms, suffering-framing ("suffers from", "wheelchair-bound", "special needs") | warn | [3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page) |
-| `no-disability-metaphor` | Figurative use of disability language ("blind spot", "tone deaf", "paralyzed by") | warn | - |
-| `no-english-idiom` | Idioms and sports metaphors opaque to ESL readers ("ball park", "slam dunk", "boil the ocean") | warn | [3.1.5](https://www.w3.org/WAI/WCAG22/Understanding/reading-level) |
-| `no-vague-cta` | Vague link and button text ("click here", "read more", "here") | warn | [2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context) |
-| `no-directional-language` | Layout-dependent position references ("see above", "in the right sidebar") | warn | [1.3.3](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics) |
-| `no-unexplained-abbreviation` | Acronyms used without a prior expansion in the same file | warn | [3.1.4](https://www.w3.org/WAI/WCAG22/Understanding/abbreviations) |
 | `no-all-caps-prose` | ALL CAPS words in prose that screen readers may spell out letter-by-letter | warn | - |
-| `no-vague-error-message` | Error messages that don't explain what went wrong ("An error occurred", "Something went wrong") | warn | [3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification) |
 | `no-ampersand-in-prose` | `&` used in place of "and" in prose - announced inconsistently by screen readers | warn | - |
-| `no-exclusive-language` | Tech jargon and culturally appropriated terms (blacklist, master/slave, sanity check, spirit animal) | warn | - |
+| `no-anti-lgbtq-language` | Outdated or pathologizing terms regarding sexual orientation and gender identity | warn | - |
 | `no-colonial-and-violent-language` | Terms rooted in colonialism or violence applied to people (stakeholder, target population, tackle) | warn | - |
 | `no-deficit-language` | Language that reduces people to their circumstances (the homeless, inmate, addict, at-risk youth) | warn | - |
-| `no-gendered-language` | Generic gendered pronoun patterns (he/she, his or her, mum and dad) | warn | - |
-| `no-anti-lgbtq-language` | Outdated or pathologizing terms regarding sexual orientation and gender identity | warn | - |
 | `no-device-specific-action` | Device-specific input actions (click, tap, swipe) | warn | - |
+| `no-directional-language` | Layout-dependent position references ("see above", "in the right sidebar") | warn | [1.3.3](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics) |
+| `no-disability-metaphor` | Figurative use of disability language ("blind spot", "tone deaf", "paralyzed by") | warn | - |
+| `no-english-idiom` | Idioms and sports metaphors opaque to ESL readers ("ball park", "slam dunk", "boil the ocean") | warn | [3.1.5](https://www.w3.org/WAI/WCAG22/Understanding/reading-level) |
+| `no-exclusive-language` | Tech jargon and culturally appropriated terms (blacklist, master/slave, sanity check, spirit animal) | warn | - |
+| `no-gendered-language` | Generic gendered pronoun patterns (he/she, his or her, mum and dad) | warn | - |
+| `no-unexplained-abbreviation` | Acronyms used without a prior expansion in the same file | warn | [3.1.4](https://www.w3.org/WAI/WCAG22/Understanding/abbreviations) |
+| `no-vague-cta` | Vague link and button text ("click here", "read more", "here") | warn | [2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context) |
+| `no-vague-error-message` | Error messages that don't explain what went wrong ("An error occurred", "Something went wrong") | warn | [3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification) |
 
 See [RULES-CONTENT.md](RULES-CONTENT.md) for the full rule reference including sources, methodology, and the language-evolution note.
 
@@ -471,27 +493,27 @@ See [RULES-CONTENT.md](RULES-CONTENT.md) for the full rule reference including s
 
 | Severity | Meaning |
 | --- | --- |
-| `error` | Definite AT breakage or HTML spec violation |
-| `warn` | Strong guidance, occasional legitimate overrides exist |
-| `off` | Available but disabled - too noisy for most codebases, enable if it fits your project |
+| `error` | This breaks screen readers or violates HTML rules. You must fix it. |
+| `warn` | This is usually bad, but sometimes you have a good reason to do it. |
+| `off` | This rule is turned off because it gives too many warnings. You can turn it on if you want. |
 
-All rules can be overridden in your config.
+You can change any rule's severity in your config file.
 
 ## Roadmap
 
-Planned improvements and extensions to neighbor:
+Future plans for neighbor:
 
 ### In development
 
-- [ ] **iOS app**: Accessibility linting for native iOS applications (Swift)
-- [ ] **Android app**: Accessibility linting for native Android applications (Kotlin)
-- [ ] **Desktop app (Electron)**: Standalone desktop application for cross-platform linting
-- [ ] **Microsoft Word add-in**: Native Word add-in for accessibility linting in document authoring
-- [ ] **Browser extensions**: Chrome and Firefox extensions for live page linting with real-time violation highlighting
+- [ ] **Browser extensions**: Chrome and Firefox plugins to check pages live.
+- `[x]` **iOS app**: [Accessibility checking for iOS apps (SwiftUI)](./apps/ios-app/README.md).
+- `[x]` **Android app**: [Accessibility checking for Android apps (Compose)](./apps/android-app/README.md).
+- [ ] **Desktop app (Electron)**: A desktop app that runs these checks.
+- `[x]` **Microsoft Word add-in**: [Check documents while you type in Word](./apps/word-addin/README.md).
 
 ### Planned
 
-- [ ] Additional editor integrations (VS Code, Sublime Text, etc.) for embedded accessibility linting
+- [ ] More editor plugins (VS Code, Sublime Text, Xcode, Android Studio, etc.).
 
 ## See also
 
@@ -504,7 +526,3 @@ Planned improvements and extensions to neighbor:
 ## License
 
 MIT
-
----
-
-*Built with help from Claude.*

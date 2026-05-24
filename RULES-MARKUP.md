@@ -1,6 +1,6 @@
 # @a11yfred/neighbor: Markup Rules
 
-ESLint rules for React / JSX, Remix 2, Remix 3, Vue SFCs, Angular templates, and Vanilla Web Components / HTML.
+ESLint rules for React, Remix, Vue, Angular, Lit, and plain HTML.
 
 → [CSS rules](RULES-CSS.md) · [Content rules](RULES-CONTENT.md) · [Back to RULES.md](RULES.md)
 
@@ -9,98 +9,98 @@ ESLint rules for React / JSX, Remix 2, Remix 3, Vue SFCs, Angular templates, and
 | Source | Reference |
 | --- | --- |
 | Adrian Roselli | [adrianroselli.com](https://adrianroselli.com) |
+| ARIA 1.2 spec | [w3.org/TR/wai-aria-1.2](https://www.w3.org/TR/wai-aria-1.2/) |
+| Deque / axe-core | deque.com: rule concepts reimplemented independently under MPL-2.0 |
+| Eric Eggert | [yatil.net](https://yatil.net) |
 | Heydon Pickering | [heydonworks.com](https://heydonworks.com), [inclusive-components.design](https://inclusive-components.design) |
-| Scott O'Hara | [scottohara.me](https://scottohara.me) |
-| Patrick Lauke | [splintered.co.uk](https://splintered.co.uk), [patrickhlauke.github.io/aria](https://patrickhlauke.github.io/aria) |
+| HTML Living Standard | [html.spec.whatwg.org](https://html.spec.whatwg.org/) |
 | Karl Groves | [karlgroves.com](https://karlgroves.com) |
 | Marcy Sutton | [marcysutton.com](https://marcysutton.com) |
-| Eric Eggert | [yatil.net](https://yatil.net) |
+| Patrick Lauke | [splintered.co.uk](https://splintered.co.uk), [patrickhlauke.github.io/aria](https://patrickhlauke.github.io/aria) |
+| Scott O'Hara | [scottohara.me](https://scottohara.me) |
 | WAI-ARIA APG | [w3.org/WAI/ARIA/apg](https://www.w3.org/WAI/ARIA/apg/) |
-| ARIA 1.2 spec | [w3.org/TR/wai-aria-1.2](https://www.w3.org/TR/wai-aria-1.2/) |
-| WebAIM Million | [webaim.org/projects/million](https://webaim.org/projects/million/) |
-| Deque / axe-core | deque.com: rule concepts reimplemented independently under MPL-2.0 |
 | WCAG 2.1 | [w3.org/TR/WCAG21](https://www.w3.org/TR/WCAG21/) |
 | WCAG 2.2 | [w3.org/TR/WCAG22](https://www.w3.org/TR/WCAG22/) |
-| HTML Living Standard | [html.spec.whatwg.org](https://html.spec.whatwg.org/) |
+| WebAIM Million | [webaim.org/projects/million](https://webaim.org/projects/million/) |
 
 ---
 
 ## Core rules: all frameworks
 
-All rules run on React, Remix 2, Remix 3, Vue, Angular, and Web Components unless noted.
+All rules run on React, Remix, Vue, Angular, and Web Components unless noted.
 
-### Errors: definite breakage or phantom controls
+### Errors (you must fix these)
 
-| Rule | What it flags | Source |
+| Rule | What it finds | Source |
 | --- | --- | --- |
-| `no-aria-label-on-generic` | `aria-label`/`aria-labelledby` on `<div>`, `<span>`, `<p>` with no `role` - AT ignores it | Roselli / O'Hara |
-| `no-assertive-live-overuse` | `aria-live="assertive"` without `role="alert"` - interrupts user unexpectedly | [APG](https://www.w3.org/WAI/ARIA/apg/) / Sutton / Eggert |
-| `no-unblocked-aria-disabled` | `aria-disabled="true"` on an interactive element that still has an `onClick` - clicks still fire | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
-| `no-roles-without-name` | `role="region/dialog/alertdialog/application/marquee/searchbox"` without `aria-label`/`aria-labelledby` | [APG](https://www.w3.org/WAI/ARIA/apg/) / [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
-| `no-group-without-name` | `role="group"` containing form controls without an accessible name | [APG](https://www.w3.org/WAI/ARIA/apg/) / Groves - [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
-| `no-presentation-on-focusable` | `role="presentation"/"none"` on a focusable element - phantom control | Roselli / Lauke / O'Hara - [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `no-log-with-interactive-children` | Interactive elements nested inside `role="log"` | [APG: Log Role](https://www.w3.org/WAI/ARIA/apg/patterns/) |
-| `no-aria-hidden-in-link` | `<a>` whose only content is `aria-hidden` elements - phantom link with no name | Roselli - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `no-redundant-aria-hidden-with-presentation` | `aria-hidden="true"` combined with `role="none"/"presentation"` - redundant | O'Hara |
-| `no-aria-owns-on-void` | `aria-owns` on void elements (`<img>`, `<input>`, `<br>`, etc.) - meaningless | O'Hara / [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
-| `no-title-as-label` | `title` attribute as the sole accessible name on an `<input>` - not keyboard accessible | Groves / O'Hara - [SC 2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels) |
-| `no-tabs-without-structure` | `role="tab"` without `aria-selected`; `role="tabpanel"` without `aria-labelledby`; `role="tablist"` without an accessible name | [APG: Tabs Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/) - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `no-positive-tabindex` | `tabIndex` value greater than 0 - breaks natural DOM tab order | WebAIM / Lauke - [SC 2.4.3](https://www.w3.org/WAI/WCAG21/Understanding/focus-order) |
-| `no-autoplay-without-controls` | `<video>`/`<audio autoPlay>` without `controls` | [SC 1.4.2](https://www.w3.org/WAI/WCAG21/Understanding/audio-control) |
-| `no-heading-inside-interactive` | Heading elements (`<h1>`–`<h6>`) nested inside `<button>`, `<a>`, or interactive roles | Roselli / Pickering - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `no-placeholder-only` | `<input placeholder>` with no `aria-label`, `aria-labelledby`, or paired `<label>` - WebAIM Million #3 failure | [WebAIM Million](https://webaim.org/projects/million/) - [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
-| `no-empty-button` | `<button>` with only `aria-hidden` children and no accessible name | [WebAIM Million](https://webaim.org/projects/million/) - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `no-image-role-without-name` | `role="img"` without `aria-label`/`aria-labelledby` | [APG](https://www.w3.org/WAI/ARIA/apg/) / O'Hara - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `no-spinbutton-without-range` | `role="spinbutton"` missing `aria-valuenow`, `aria-valuemin`, or `aria-valuemax` | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Spinbutton](https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/) |
-| `no-slider-without-range` | `role="slider"` missing `aria-valuenow`, `aria-valuemin`, or `aria-valuemax` | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Slider](https://www.w3.org/WAI/ARIA/apg/patterns/slider/) |
-| `no-combobox-without-expanded` | `role="combobox"` without `aria-expanded` | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Combobox](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/) |
-| `no-mouse-only-events` | `onMouseEnter`/`onMouseLeave`/`onMouseOver`/`onMouseOut` without `onFocus`/`onBlur` equivalents | [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `no-listbox-without-option` | `role="listbox"` with no `role="option"` children | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Listbox](https://www.w3.org/WAI/ARIA/apg/patterns/listbox/) |
-| `no-tree-without-treeitem` | `role="tree"` with no `role="treeitem"` children | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Tree View](https://www.w3.org/WAI/ARIA/apg/patterns/treeview/) |
-| `no-feed-without-article` | `role="feed"` with no `role="article"` children | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Feed](https://www.w3.org/WAI/ARIA/apg/patterns/feed/) |
-| `no-aria-activedescendant-without-id` | `aria-activedescendant` with an empty or missing static ID | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `no-duplicate-id` | Duplicate `id` values on elements referenced by `aria-labelledby`/`describedby`/`controls`/`owns`/`activedescendant` | [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) / [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `no-summary-without-details` | `<summary>` outside `<details>` - phantom interactive element | [HTML spec](https://html.spec.whatwg.org/multipage/interactive-elements.html#the-summary-element) - [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `no-aria-required-on-non-form` | `aria-required` on an element whose role doesn't support it - AT ignores it | [ARIA 1.2 §6.6.9](https://www.w3.org/TR/wai-aria-1.2/#aria-required) - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `no-input-type-invalid` | `<input type="X">` with an invalid type - silently falls back to `type="text"` | [HTML spec §4.10.18](https://html.spec.whatwg.org/multipage/input.html#the-input-element) - [SC 1.3.5](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose) |
-| `no-labelledby-missing-target` | `aria-labelledby`/`describedby`/`controls`/`owns`/`activedescendant` referencing an `id` that doesn't exist in the file | [ARIA 1.2 §6.2.4](https://www.w3.org/TR/wai-aria-1.2/#mapping_additional_nd_name) - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `no-dynamic-content-without-live` | `dangerouslySetInnerHTML` / `v-html` / `[innerHTML]` on an element outside a live region | [SC 4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
-| `form-field-multiple-labels` | Multiple `<label for="…">` elements targeting the same input | [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
-| `no-empty-table-header` | `<th>` or `role="columnheader"/"rowheader"` with no accessible text or `aria-label` | [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
-| `prefer-aria-disabled` | HTML `disabled` removes element from tab order; `aria-disabled` keeps it discoverable | Roselli: Don't Disable Form Controls - [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `no-disabled-and-aria-disabled` | Element has both `disabled` and `aria-disabled` - causes conflicting states in assistive tech | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
-| `no-toggle-without-checked` | `role="switch"`, `checkbox`, or `radio` without `aria-checked` | [APG: Checkbox](https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/) |
-| `no-aria-hidden-on-main` | `aria-hidden="true"` on `<body>`, `<main>`, or `role="main"` - hides entire app from AT | [APG](https://www.w3.org/WAI/ARIA/apg/) |
-| `no-meter-without-valuenow` | `role="meter"` missing `aria-valuenow` | [APG: Meter](https://www.w3.org/WAI/ARIA/apg/patterns/meter/) |
+| `form-field-multiple-labels` | More than one `<label>` pointing to the same `<input>`. | [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `no-aria-activedescendant-without-id` | `aria-activedescendant` without a valid ID. | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `no-aria-hidden-in-link` | A link (`<a>`) that only contains hidden elements. It has no name. | Roselli - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `no-aria-hidden-on-main` | Using `aria-hidden="true"` on `<body>` or `<main>`. This hides your whole app. | [APG](https://www.w3.org/WAI/ARIA/apg/) |
+| `no-aria-label-on-generic` | `aria-label` or `aria-labelledby` on `<div>`, `<span>`, or `<p>` without a `role`. Screen readers ignore this. | Roselli / O'Hara |
+| `no-aria-owns-on-void` | Using `aria-owns` on elements that cannot have children (like `<img>` or `<input>`). | O'Hara / [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
+| `no-aria-required-on-non-form` | Using `aria-required` on something that is not a form input. | [ARIA 1.2 §6.6.9](https://www.w3.org/TR/wai-aria-1.2/#aria-required) - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `no-assertive-live-overuse` | `aria-live="assertive"` without `role="alert"`. This interrupts the user when they do not expect it. | [APG](https://www.w3.org/WAI/ARIA/apg/) / Sutton / Eggert |
+| `no-autoplay-without-controls` | Autoplaying video or audio without giving the user controls to stop it. | [SC 1.4.2](https://www.w3.org/WAI/WCAG21/Understanding/audio-control) |
+| `no-combobox-without-expanded` | `role="combobox"` without `aria-expanded`. | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Combobox](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/) |
+| `no-disabled-and-aria-disabled` | Using both `disabled` and `aria-disabled` at the same time. | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
+| `no-duplicate-id` | Using the same `id` twice when ARIA is trying to point to it. | [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) / [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `no-dynamic-content-without-live` | Adding HTML dynamically without using a live region to tell the screen reader. | [SC 4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
+| `no-empty-button` | A `<button>` that only has hidden children and no name. | [WebAIM Million](https://webaim.org/projects/million/) - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `no-empty-table-header` | A table header (`<th>`) with no text. | [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `no-feed-without-article` | `role="feed"` without any `role="article"` inside it. | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Feed](https://www.w3.org/WAI/ARIA/apg/patterns/feed/) |
+| `no-group-without-name` | `role="group"` with form inputs, but no accessible name. | [APG](https://www.w3.org/WAI/ARIA/apg/) / Groves - [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `no-heading-inside-interactive` | Putting a heading inside a button or link. | Roselli / Pickering - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `no-image-role-without-name` | `role="img"` without an accessible name. | [APG](https://www.w3.org/WAI/ARIA/apg/) / O'Hara - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `no-input-type-invalid` | Using an `<input>` type that does not exist. | [HTML spec §4.10.18](https://html.spec.whatwg.org/multipage/input.html#the-input-element) - [SC 1.3.5](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose) |
+| `no-labelledby-missing-target` | ARIA pointing to an `id` that does not exist. | [ARIA 1.2 §6.2.4](https://www.w3.org/TR/wai-aria-1.2/#mapping_additional_nd_name) - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `no-listbox-without-option` | `role="listbox"` without any `role="option"` inside it. | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Listbox](https://www.w3.org/WAI/ARIA/apg/patterns/listbox/) |
+| `no-log-with-interactive-children` | Buttons or links inside `role="log"`. | [APG: Log Role](https://www.w3.org/WAI/ARIA/apg/patterns/) |
+| `no-meter-without-valuenow` | `role="meter"` missing `aria-valuenow`. | [APG: Meter](https://www.w3.org/WAI/ARIA/apg/patterns/meter/) |
+| `no-mouse-only-events` | Using mouse events (like `onMouseEnter`) without adding keyboard events (like `onFocus`). | [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `no-placeholder-only` | Using only a `placeholder` to label an `<input>`. | [WebAIM Million](https://webaim.org/projects/million/) - [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `no-positive-tabindex` | Using a `tabIndex` greater than 0. This breaks the normal keyboard tab order. | WebAIM / Lauke - [SC 2.4.3](https://www.w3.org/WAI/WCAG21/Understanding/focus-order) |
+| `no-presentation-on-focusable` | Using `role="presentation"` on something you can focus on. | Roselli / Lauke / O'Hara - [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `no-roles-without-name` | Using `role="dialog"` or similar roles without giving them an accessible name. | [APG](https://www.w3.org/WAI/ARIA/apg/) / [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
+| `no-slider-without-range` | `role="slider"` missing range values (`aria-valuenow`, etc.). | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Slider](https://www.w3.org/WAI/ARIA/apg/patterns/slider/) |
+| `no-spinbutton-without-range` | `role="spinbutton"` missing range values (`aria-valuenow`, etc.). | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Spinbutton](https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/) |
+| `no-summary-without-details` | Using `<summary>` outside of a `<details>` element. | [HTML spec](https://html.spec.whatwg.org/multipage/interactive-elements.html#the-summary-element) - [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `no-tabs-without-structure` | Missing pieces in a tab menu (like a tab without `aria-selected`). | [APG: Tabs Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/) - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `no-title-as-label` | Using only the `title` attribute to name an `<input>`. Keyboard users cannot see this. | Groves / O'Hara - [SC 2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels) |
+| `no-toggle-without-checked` | A switch, checkbox, or radio button missing `aria-checked`. | [APG: Checkbox](https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/) |
+| `no-tree-without-treeitem` | `role="tree"` without any `role="treeitem"` inside it. | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Tree View](https://www.w3.org/WAI/ARIA/apg/patterns/treeview/) |
+| `no-unblocked-aria-disabled` | `aria-disabled="true"` on a button or link that still has an `onClick`. The button still works even though it says it is disabled. | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
 
-### Warnings: on by default
+### Warnings (these are usually bad)
 
-| Rule | What it flags | Source |
+| Rule | What it finds | Source |
 | --- | --- | --- |
-| `no-tooltip-role-misuse` | `role="tooltip"` without an `id`; or `role="tooltip"` on an interactive element | [APG: Tooltip Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/) - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
-| `no-menu-role-on-nav` | Menu/menubar/menuitem roles - triggers AT application-mode keyboard handling; especially wrong on `<nav>` | Roselli / Lauke / Groves - [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `no-button-type-missing` | `<button>` inside a `<form>` without an explicit `type` - defaults to `type="submit"` | [HTML spec §4.10.18](https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element) |
-| `no-skipped-heading-levels` | Skipping heading levels (e.g. `<h1>` to `<h3>`) | [Axe: heading-order](https://dequeuniversity.com/rules/axe/4.8/heading-order) - [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
-| `no-multiple-main` | More than one `<main>` or `role="main"` element in the file | [Axe: landmark-one-main](https://dequeuniversity.com/rules/axe/4.8/landmark-one-main) |
-| `no-expanded-without-controls` | `aria-expanded` without `aria-controls` pointing to the expanded container | [APG: Disclosure](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/) |
+| `no-button-type-missing` | A `<button>` inside a `<form>` missing `type="button"` or `type="submit"`. | [HTML spec §4.10.18](https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element) |
+| `no-expanded-without-controls` | `aria-expanded` without `aria-controls`. | [APG: Disclosure](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/) |
+| `no-menu-role-on-nav` | Using menu roles (like `role="menu"`). This changes how keyboards work and is usually wrong. | Roselli / Lauke / Groves - [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `no-multiple-main` | Having more than one `<main>` element. | [Axe: landmark-one-main](https://dequeuniversity.com/rules/axe/4.8/landmark-one-main) |
+| `no-redundant-aria-hidden-with-presentation` | Using both `aria-hidden="true"` and `role="presentation"`. You only need one. | O'Hara |
+| `no-skipped-heading-levels` | Skipping heading levels (like going from `<h1>` straight to `<h3>`). | [Axe: heading-order](https://dequeuniversity.com/rules/axe/4.8/heading-order) - [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `no-tooltip-role-misuse` | `role="tooltip"` without an `id`, or putting it on a button/link. | [APG: Tooltip Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/) - [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 
-> **Note on component boundaries:** `no-skipped-heading-levels` and `no-multiple-main` are evaluated *per file*. They cannot guarantee headings are sequential across parent/child components, or that a single `<main>` isn't duplicated in other files. For full DOM validation, use a runtime tool like `@axe-core/react`.
+> **Note on components:** `no-skipped-heading-levels` and `no-multiple-main` are only checked in a single file. They cannot promise that your headings are perfect across your entire app. To test the whole app, use a tool like `@axe-core/react`.
 
-### Off by default: opt in
+### Off by default (you can turn these on)
 
-These rules flag real problems but generate enough noise in typical codebases that they ship off. Enable individually.
+These rules find real problems, but they complain a lot in most projects. You can turn them on if you want.
 
-| Rule | What it flags | Source |
+| Rule | What it finds | Source |
 | --- | --- | --- |
-| `no-application-role` | `role="application"` - disables AT browse mode | Roselli / Sutton / Lauke / [APG](https://www.w3.org/WAI/ARIA/apg/) |
-| `no-grid-role` | `role="grid"` - almost always wrong outside spreadsheet-like widgets | Roselli: ARIA Grid As an Anti-Pattern |
-| `no-aria-roledescription` | `aria-roledescription` - overrides AT role label, does not auto-translate | Roselli: Avoid aria-roledescription |
-| `no-aria-readonly` | `aria-readonly` - limited and inconsistent AT support | Roselli |
-| `no-tab-without-controls` | `role="tab"` without `aria-controls` | [APG: Tabs Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/) |
-| `no-href-hash` | `<a href="#">` used as a button | Sutton: Links vs Buttons - [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `warn-role-alert` | `role="alert"` - prefer `role="status"` for non-urgent updates | [APG](https://www.w3.org/WAI/ARIA/apg/) / Roselli / Sutton - [SC 4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
-| `no-target-blank-without-label` | `target="_blank"` without communicating the new-tab behaviour | WebAIM - [SC 3.2.2](https://www.w3.org/WAI/WCAG21/Understanding/on-input) |
-| `no-dialog-without-close` | `role="dialog"` or `<dialog>` without a visible close button | [APG: Dialog Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/) - [SC 2.1.2](https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap) |
+| `no-application-role` | `role="application"` (disables normal screen reader reading). | Roselli / Sutton / Lauke / [APG](https://www.w3.org/WAI/ARIA/apg/) |
+| `no-aria-readonly` | `aria-readonly` (screen readers do not support this well). | Roselli |
+| `no-aria-roledescription` | `aria-roledescription` (does not translate to other languages). | Roselli: Avoid aria-roledescription |
+| `no-dialog-without-close` | A dialog without a close button. | [APG: Dialog Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/) - [SC 2.1.2](https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap) |
+| `no-grid-role` | `role="grid"` (almost always wrong unless building a spreadsheet). | Roselli: ARIA Grid As an Anti-Pattern |
+| `no-href-hash` | Using `<a href="#">` instead of a `<button>`. | Sutton: Links vs Buttons - [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `no-tab-without-controls` | `role="tab"` missing `aria-controls`. | [APG: Tabs Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/) |
+| `no-target-blank-without-label` | Using `target="_blank"` without telling the user it will open a new tab. | WebAIM - [SC 3.2.2](https://www.w3.org/WAI/WCAG21/Understanding/on-input) |
+| `prefer-aria-disabled` | Using HTML `disabled` (which hides it from the keyboard). You should use `aria-disabled` instead. | Roselli: Don't Disable Form Controls - [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
+| `warn-role-alert` | Using `role="alert"`. You should use `role="status"` for things that are not urgent. | [APG](https://www.w3.org/WAI/ARIA/apg/) / Roselli / Sutton - [SC 4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
 
 ---
 
@@ -110,20 +110,83 @@ These rules cover gaps in `eslint-plugin-jsx-a11y` that have no equivalent in `e
 
 | Rule | What it flags | Source |
 | --- | --- | --- |
+| `no-access-key` | `accessKey` attribute - conflicts with AT and browser shortcuts | [SC 2.1.4](https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts) |
 | `no-anchor-ambiguous-text` | Ambiguous link text ("click here", "read more", "learn more") | [SC 2.4.4](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context) |
 | `no-anchor-no-content` | `<a>` with no text content and no accessible name | [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `no-aria-activedescendant-no-tabindex` | `aria-activedescendant` on an element without `tabindex` | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
-| `no-invalid-aria-prop-value` | Invalid values on ARIA state/property attributes | [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `no-autocomplete-invalid` | Invalid `autocomplete` token values | [SC 1.3.5](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose) |
-| `no-heading-no-content` | Headings (`<h1>`–`<h6>`) with no text content | [SC 2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels) |
+| `no-heading-no-content` | Headings (`<h1>`-`<h6>`) with no text content | [SC 2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels) |
 | `no-iframe-no-title` | `<iframe>` without a `title` attribute | [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `no-img-redundant-alt` | Alt text containing "image", "photo", or "picture" | [SC 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content) |
-| `no-access-key` | `accessKey` attribute - conflicts with AT and browser shortcuts | [SC 2.1.4](https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts) |
-| `no-noninteractive-to-interactive-role` | Non-interactive elements given interactive ARIA roles without keyboard handlers | [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) / [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `no-invalid-aria-prop-value` | Invalid values on ARIA state/property attributes | [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `no-noninteractive-tabindex` | `tabindex` on a non-interactive element with no interactive role | [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
-| `prefer-semantic-element` | `<div role="button">` where a native element would be correct | [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `no-noninteractive-to-interactive-role` | Non-interactive elements given interactive ARIA roles without keyboard handlers | [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) / [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `no-role-supports-aria-props` | ARIA properties applied to roles that don't support them | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
 | `no-scope-on-td` | `scope` attribute on `<td>` - only valid on `<th>` | [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `prefer-semantic-element` | `<div role="button">` where a native element would be correct | [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+
+## Framework-specific rules: React, Vue, Angular, Remix, Lit
+
+These rules apply only to specific frameworks using their respective parser plugins.
+
+| Rule | Severity | What it finds |
+| --- | --- | --- |
+| `angular-host-a11y` | error | Setting `role: 'button'` on an Angular component without setting a `tabindex`. |
+| `lit-no-autofocus` | error | Using `autofocus` inside a Lit `html` template. |
+| `remix-route-title-missing` | error | Remix route missing a `title` in its `meta` export. |
+| `vue-click-key-events` | error | Adding `@click` to something that is not a button, but forgetting to add keyboard events. |
+| `react-fragment-ruins-aria` | warn | React `<Fragment>` (or `<>`) with ARIA attributes. The attributes get deleted when the HTML is created. |
+| `react-spa-focus-management` | warn | Using `useNavigate` or `<Link>` without managing focus. Keyboard users get lost when the page changes. |
+| `vue-transition-live-region` | warn | `<Transition>` around a live region. Screen readers will not announce this correctly. |
+| `angular-router-focus-management` | off | `<router-outlet>` without managing focus when the page changes. |
+| `vue-router-focus-management` | off | `<RouterView>` without managing focus or using `aria-live`. |
+
+## Framework-Specific Omissions
+
+Neighbor is designed to run alongside standard accessibility linters (like `eslint-plugin-jsx-a11y`, `eslint-plugin-vuejs-accessibility`, `@angular-eslint/eslint-plugin-template`, and `eslint-plugin-lit-a11y`).
+
+If you have these standard linters installed, Neighbor will automatically **turn off** its own redundant base rules to prevent duplicate warnings. If you choose *not* to install the standard linters, Neighbor will keep these base rules enabled to protect your codebase.
+
+### Vue (`eslint-plugin-vuejs-accessibility`)
+
+Omitted base rules: `no-heading-no-content`, `no-iframe-no-title`, `no-access-key`, `no-img-redundant-alt`, `no-anchor-no-content`, `no-invalid-aria-prop-value`, `no-role-supports-aria-props`.
+
+### Angular (`@angular-eslint/eslint-plugin-template`)
+
+Omitted base rules: `no-heading-no-content`, `no-anchor-no-content`, `no-img-redundant-alt`, `no-scope-on-td`, `no-invalid-aria-prop-value`.
+
+### Lit (`eslint-plugin-lit-a11y`)
+
+Omitted base rules: `no-heading-no-content`, `no-iframe-no-title`, `no-img-redundant-alt`, `no-access-key`, `no-aria-activedescendant-no-tabindex`, `no-anchor-no-content`, `no-invalid-aria-prop-value`, `no-role-supports-aria-props`, `no-scope-on-td`.
+
+---
+
+## Vue / Angular / Lit specific rules
+
+These rules are added specifically to handle framework-specific ASTs or behaviors.
+
+| Rule | What it finds | Framework |
+| --- | --- | --- |
+| `angular-host-a11y` | Angular component missing `tabindex` for interactive host role | Angular |
+| `angular-router-focus-management` | SPA route without focus management | Angular |
+| `lit-no-autofocus` | `autofocus` attribute used inside a Lit template | Lit |
+| `no-access-key` | `accessKey` attribute | Vue, Angular, Lit |
+| `no-anchor-ambiguous-text` | Ambiguous link text ("click here") | Vue, Angular |
+| `no-anchor-no-content` | `<a>` with no content | Vue, Angular |
+| `no-aria-activedescendant-no-tabindex` | `aria-activedescendant` without `tabindex` | Vue, Angular |
+| `no-autocomplete-invalid` | Invalid `autocomplete` token | Vue, Angular |
+| `no-heading-no-content` | Heading with no content | Vue, Angular |
+| `no-iframe-no-title` | `<iframe>` with no `title` | Vue, Angular |
+| `no-img-redundant-alt` | `<img>` alt text contains "image of" | Vue, Angular |
+| `no-invalid-aria-prop-value` | Invalid ARIA attribute values | Vue, Angular |
+| `no-noninteractive-tabindex` | Non-interactive element with `tabindex` | Vue, Angular |
+| `no-noninteractive-to-interactive-role` | Non-interactive element with interactive role | Vue, Angular |
+| `no-role-supports-aria-props` | Using an ARIA attribute not supported by the role | Vue, Angular |
+| `no-scope-on-td` | `scope` on `<td>` | Vue, Angular, Lit |
+| `prefer-semantic-element` | Use native HTML tags instead of roles | Vue, Angular |
+| `vue-click-key-events` | `v-on:click` without key equivalent | Vue |
+| `vue-router-focus-management` | SPA route without focus management | Vue |
+| `vue-transition-live-region` | `<Transition>` changing live regions | Vue |
 
 ---
 
@@ -131,11 +194,11 @@ These rules cover gaps in `eslint-plugin-jsx-a11y` that have no equivalent in `e
 
 These rules are specific to the @ulam framework and activate only when @ulam-related imports are detected.
 
-| Rule | Severity | What it flags |
+| Rule | Severity | What it finds |
 | --- | --- | --- |
-| `no-announce-in-render` | error | `announce()` / `clearAnnouncements()` called in a component render body or Vue setup - fires on every render, spamming screen readers. Safe contexts: `useEffect` / `onMounted` / `watch` / event handlers |
-| `no-hash-router-in-remix` | warn | @ulam hash router alongside `react-router` - signals an incomplete Remix migration |
-| `no-use-page-title-in-remix` | warn | `usePageTitle()` alongside `react-router` - conflicts with Remix's declarative `meta` export |
+| `no-announce-in-render` | error | Calling `announce()` during a render. This will spam screen readers. Only call it inside `useEffect`, `onMounted`, or event handlers. |
+| `no-hash-router-in-remix` | warn | Using the @ulam hash router with `react-router`. This means your Remix migration is not finished. |
+| `no-use-page-title-in-remix` | warn | Using `usePageTitle()` with `react-router`. This breaks Remix's `meta` export. |
 
 The `no-announce-in-render` rule runs in React, Vue, and Angular plugins with safe contexts per framework:
 
@@ -143,10 +206,10 @@ The `no-announce-in-render` rule runs in React, Vue, and Angular plugins with sa
 - **Vue:** `onMounted`, `onUpdated`, `watch`, `watchEffect`, `nextTick`, and their variants
 - **Angular:** `ngOnInit`, `ngAfterViewInit`, `ngAfterContentInit`, `ngOnChanges`, `ngDoCheck`, and class method event handlers
 
-**Known parser limitations:**
+**Known problems with parsers:**
 
-- **Angular templates:** The template parser does not attach parent pointers to AST nodes. Rules that walk up the tree (`no-summary-without-details`, `no-button-type-missing`, `no-log-with-interactive-children`, `no-menu-role-on-nav`, `no-heading-inside-interactive`) will silently pass in Angular templates. The `no-dynamic-content-without-live` rule only checks the element itself (no ancestor walk) in Angular.
-- **Web Components:** When using the `@a11yfred/neighbor/webcomponents` entry point with `@html-eslint/parser`, parent-walking rules have the same limitation as Angular due to parser constraints.
+- **Angular templates:** The parser does not let us look up the tree. Some rules that need to look at parent elements will not work in Angular.
+- **Web Components:** The `@html-eslint/parser` has the same problem. Rules cannot look at parent elements.
 
 ---
 
@@ -154,15 +217,15 @@ The `no-announce-in-render` rule runs in React, Vue, and Angular plugins with sa
 
 | Rule | Reason rejected |
 | --- | --- |
-| `no-aria-controls` | Support improved substantially since Pickering's 2014 post; APG *requires* it in the tabs pattern - conflicted with `no-tabs-without-structure` |
-| `no-aria-label-on-link` | `aria-label` on `<a>` is the correct technique for ambiguous link text; can't detect the bad case (overriding good visible text) statically |
-| `no-aria-live-on-carousel` | Class-name heuristic - `carousel` in a class doesn't mean auto-advancing; too many false positives |
-| `no-figure-role-without-label` | `role="figure"` on `<figure>` is redundant (element already has the role implicitly); flags the wrong thing |
-| `no-scrollable-without-focusable` | Class-name heuristic for scroll behaviour - can't read CSS from static analysis |
-| `no-empty-heading` | Covered by jsx-a11y recommended |
-| `aria-required-on-required-form-control` | AT already reads native `required`; adding `aria-required` is redundant, not required |
-| `require-menu-owned-menuitem` / `require-listbox-owned-option` | Component-based code renders children conditionally - fires constantly on empty/loading states |
-| `no-aria-owns-circular` | Cross-file ID graph required; vanishingly rare in practice |
-| `no-dialog-without-modal` | Non-modal dialogs are a valid APG pattern; too much false-positive risk |
-| `no-generated-content-text` | Decorative generated content is extremely common; can't distinguish decorative from meaningful statically |
-| DevTools console output for accessibility | Requires runtime execution; belongs in a browser devtools extension, not a static linter |
+| `aria-required-on-required-form-control` | Screen readers already know what HTML `required` means. Adding `aria-required` is not needed. |
+| DevTools console output for accessibility | This belongs in a browser extension, not a code linter. |
+| `no-aria-controls` | Screen reader support is better now. It is required for tabs. |
+| `no-aria-label-on-link` | Using `aria-label` on `<a>` is the right way to fix bad link text. A linter cannot check if you are doing it correctly. |
+| `no-aria-live-on-carousel` | Just because a class says `carousel` does not mean it moves by itself. This gives too many false errors. |
+| `no-aria-owns-circular` | This requires checking across different files, which is too hard for a simple linter. |
+| `no-dialog-without-modal` | Non-modal dialogs are allowed. This would give too many false errors. |
+| `no-empty-heading` | Another plugin (`jsx-a11y`) already checks this. |
+| `no-figure-role-without-label` | Putting `role="figure"` on a `<figure>` is redundant. It flags the wrong problem. |
+| `no-generated-content-text` | We cannot tell if CSS generated content is decorative or important. |
+| `no-scrollable-without-focusable` | We cannot read CSS to see if an element scrolls. |
+| `require-menu-owned-menuitem` / `require-listbox-owned-option` | In React/Vue, children are often hidden while loading. This would give too many false errors. |

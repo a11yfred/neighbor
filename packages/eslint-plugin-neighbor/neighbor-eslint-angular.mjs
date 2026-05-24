@@ -42,12 +42,34 @@ const ANGULAR_A11Y_RULES = [
   'no-positive-tabindex', 'role-has-required-aria', 'table-scope', 'valid-aria',
 ]
 
+const UNLIKELY_ANGULAR_RULES = new Set([
+  'no-autofocus', 'no-distracting-elements'
+])
+
 function getAngularA11yRules(plugin) {
   const out = {}
   for (const rule of ANGULAR_A11Y_RULES) {
-    if (plugin.rules?.[rule]) out[`@angular-eslint/template/${rule}`] = 'error'
+    if (plugin.rules?.[rule]) {
+      out[`@angular-eslint/template/${rule}`] = UNLIKELY_ANGULAR_RULES.has(rule) ? 'off' : 'error'
+    }
   }
   return out
+}
+
+const angularRecommended = {
+  ...buildRecommendedRules(NS),
+  ...buildPortabilityRules(NS),
+  ...buildUlamRecommendedRulesFramework(NS),
+  ...buildAngularHostRecommendedRules(NS),
+}
+
+// Omit rules that are already covered by @angular-eslint/template (if installed):
+if (angularA11y) {
+  delete angularRecommended[`${NS}/no-heading-no-content`] // covered by @angular-eslint/template/elements-content
+  delete angularRecommended[`${NS}/no-anchor-no-content`] // covered by @angular-eslint/template/elements-content
+  delete angularRecommended[`${NS}/no-img-redundant-alt`] // covered by @angular-eslint/template/alt-text
+  delete angularRecommended[`${NS}/no-scope-on-td`] // covered by @angular-eslint/template/table-scope
+  delete angularRecommended[`${NS}/no-invalid-aria-prop-value`] // covered by @angular-eslint/template/valid-aria
 }
 
 export default {
@@ -60,10 +82,7 @@ export default {
       },
       rules: {
         ...(angularA11y ? getAngularA11yRules(angularA11y) : {}),
-        ...buildRecommendedRules(NS),
-        ...buildPortabilityRules(NS),
-        ...buildUlamRecommendedRulesFramework(NS),
-        ...buildAngularHostRecommendedRules(NS),
+        ...angularRecommended,
       },
     },
   },

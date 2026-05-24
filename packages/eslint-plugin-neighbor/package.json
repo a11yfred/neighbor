@@ -9,6 +9,7 @@
     "./angular": "./neighbor-eslint-angular.mjs",
     "./remix3": "./neighbor-eslint-remix3.mjs",
     "./webcomponents": "./neighbor-eslint-webcomponents.mjs",
+    "./lit": "./neighbor-eslint-lit.mjs",
     "./content": "./neighbor-content.mjs"
   },
   "dependencies": {
@@ -18,10 +19,14 @@
     "@angular-eslint/eslint-plugin-template": ">=15",
     "eslint": ">=8",
     "eslint-plugin-jsx-a11y": ">=6",
+    "eslint-plugin-lit-a11y": ">=4",
     "eslint-plugin-vuejs-accessibility": ">=2"
   },
   "peerDependenciesMeta": {
     "@angular-eslint/eslint-plugin-template": {
+      "optional": true
+    },
+    "eslint-plugin-lit-a11y": {
       "optional": true
     },
     "eslint-plugin-jsx-a11y": {

@@ -230,6 +230,187 @@ val ISSUE_STATE_NO_STATE_DESCRIPTION = Issue.create(
     implementation = Implementation(NeighborStateDescriptionDetector::class.java, Scope.JAVA_FILE_SCOPE)
 )
 
+val ISSUE_INSUFFICIENT_RIPPLE_FOCUS = Issue.create(
+    id = "NeighborComposeInsufficientRippleFocus",
+    briefDescription = "Default ripple effect is insufficient for keyboard focus",
+    explanation = """
+        Android's default ripple effect is often insufficient as a keyboard focus indicator because
+        it relies on a subtle background color change with low contrast. This violates WCAG guidelines
+        for Focus Visible. You should provide a custom `Indication` with a high-contrast focus border,
+        or explicitly override `LocalIndication` globally and suppress this warning.
+
+        Fix:
+        ```kotlin
+        Modifier.clickable(indication = myHighContrastFocusIndication) { /* action */ }
+        ```
+
+        **Source:** Web stylelint-a11y/no-outline-none adaptation, WCAG guidelines
+        **WCAG:** 2.4.7 Focus Visible, 1.4.11 Non-text Contrast
+    """,
+    category = Category.A11Y,
+    priority = 8,
+    severity = Severity.WARNING,
+    implementation = Implementation(NeighborInsufficientRippleFocusDetector::class.java, Scope.JAVA_FILE_SCOPE)
+)
+
+val ISSUE_REDUNDANT_CONTENT_DESCRIPTION = Issue.create(
+    id = "NeighborComposeRedundantContentDescription",
+    briefDescription = "ContentDescription contains hardcoded states or roles",
+    explanation = """
+        Screen readers announce roles and states natively in the user's preferred language and dialect
+        (e.g. Indian English TalkBack says "ticked" instead of "checked"). Hardcoding words like "button",
+        "checkbox", "enabled", or "ticked" inside `contentDescription` creates confusing
+        double-announcements and breaks localization. State should use `stateDescription` and roles
+        should use the `role` parameter.
+
+        Fix:
+        ```kotlin
+        // Bad
+        Image(contentDescription = "Bluetooth, enabled")
+
+        // Good
+        Image(
+            contentDescription = "Bluetooth",
+            modifier = Modifier.semantics { stateDescription = "enabled" }
+        )
+        ```
+
+        **Source:** jsx-a11y/redundant-alt, Android OEM compat guidelines
+        **WCAG:** 1.3.1 Info and Relationships, 4.1.2 Name, Role, Value
+    """,
+    category = Category.A11Y,
+    priority = 7,
+    severity = Severity.WARNING,
+    implementation = Implementation(NeighborRedundantContentDescriptionDetector::class.java, Scope.JAVA_FILE_SCOPE)
+)
+
+val ISSUE_ASSERTIVE_LIVE_REGION = Issue.create(
+    id = "NeighborComposeAssertiveLiveRegion",
+    briefDescription = "Assertive live regions drop previous announcements",
+    explanation = """
+        Assertive live regions flush the speech queue. On heavily customized Android OEM
+        devices, this can drop important previous announcements. You should use `LiveRegionMode.Polite`
+        unless it is an absolute emergency (like a ringing phone or critical security alert).
+
+        Fix:
+        ```kotlin
+        Modifier.semantics { liveRegion = LiveRegionMode.Polite }
+        ```
+
+        **Source:** OEM Screen Reader Compat guidelines
+        **WCAG:** 4.1.3 Status Messages
+    """,
+    category = Category.A11Y,
+    priority = 5,
+    severity = Severity.WARNING,
+    implementation = Implementation(NeighborAssertiveLiveRegionDetector::class.java, Scope.JAVA_FILE_SCOPE)
+)
+
+val ISSUE_CLICKABLE_TEXT = Issue.create(
+    id = "NeighborComposeClickableText",
+    briefDescription = "Clickable Modifier applied directly to Text",
+    explanation = """
+        Many OEM screen readers handle bare clickable text differently than true buttons.
+        Wrapping text in a `TextButton` or `Surface` ensures better native focus bounds
+        and semantic treatment.
+
+        Fix:
+        ```kotlin
+        TextButton(onClick = { /* action */ }) {
+            Text("Click me")
+        }
+        ```
+
+        **Source:** Android Developer guidelines, OEM Compat
+        **WCAG:** 4.1.2 Name, Role, Value
+    """,
+    category = Category.A11Y,
+    priority = 6,
+    severity = Severity.WARNING,
+    implementation = Implementation(NeighborClickableTextDetector::class.java, Scope.JAVA_FILE_SCOPE)
+)
+
+val ISSUE_FORCED_LIGHT_MODE = Issue.create(
+    id = "NeighborComposeForcedLightMode",
+    briefDescription = "Dark mode support is explicitly disabled",
+    explanation = """
+        Forcing an app or screen into Light Mode prevents users from using Dark Mode, which is
+        essential for users with light sensitivity, photophobia, or certain visual impairments.
+        Avoid hardcoding `darkTheme = false` in your theme wrappers.
+
+        Fix:
+        ```kotlin
+        // Use the system preference
+        MyTheme(darkTheme = isSystemInDarkTheme()) { ... }
+        ```
+
+        **Source:** WCAG Accessibility best practices
+        **WCAG:** 1.4.8 Visual Presentation
+    """,
+    category = Category.A11Y,
+    priority = 4,
+    severity = Severity.WARNING,
+    implementation = Implementation(NeighborForcedLightModeDetector::class.java, Scope.JAVA_FILE_SCOPE)
+).setEnabledByDefault(false)
+
+val ISSUE_HARDCODED_CONTENT_VIOLATION = Issue.create(
+    id = "NeighborComposeContentViolation",
+    briefDescription = "ContentDescription contains confusing CTAs or jargon",
+    explanation = """
+        Avoid hardcoding confusing directional CTAs (like "click here", "tap here") or
+        ableist jargon into `contentDescription`. Screen reader users need descriptive actions
+        that explain what the element does, not how to physically interact with it.
+
+        Ideally, all copy should be placed in `strings.xml` and checked by `@a11yfred/neighbor/textlint`.
+
+        **Source:** Content linting best practices
+        **WCAG:** 3.1.5 Reading Level, 3.3.2 Labels or Instructions
+    """,
+    category = Category.A11Y,
+    priority = 6,
+    severity = Severity.WARNING,
+    implementation = Implementation(NeighborContentViolationDetector::class.java, Scope.JAVA_FILE_SCOPE)
+)
+
+val ISSUE_UNSCALABLE_TEXT_UNIT = Issue.create(
+    id = "NeighborComposeUnscalableTextUnit",
+    briefDescription = "Using dp or px instead of sp for text sizing",
+    explanation = """
+        When setting `fontSize` or `lineHeight` in Compose, using `.dp` or `.px` prevents
+        the text from scaling when the user changes their system font size preferences. This
+        violates WCAG guidelines for resizable text. Always use `.sp` (scalable pixels) for text.
+
+        Fix:
+        ```kotlin
+        Text("Hello", fontSize = 16.sp) // Good
+        ```
+
+        **Source:** Android SpUsage Lint Check
+        **WCAG:** 1.4.4 Resize Text
+    """,
+    category = Category.A11Y,
+    priority = 8,
+    severity = Severity.ERROR,
+    implementation = Implementation(NeighborUnscalableTextDetector::class.java, Scope.JAVA_FILE_SCOPE)
+)
+
+val ISSUE_SMALL_TOUCH_TARGET = Issue.create(
+    id = "NeighborComposeSmallTouchTarget",
+    briefDescription = "Interactive element has a touch target smaller than 48dp",
+    explanation = """
+        Interactive elements (like buttons or clickable modifiers) must have a minimum touch
+        target size of 48x48dp to ensure they are easily tappable by users with motor impairments.
+        Avoid overriding `Modifier.size()` to values smaller than 48dp on clickable elements.
+
+        **Source:** Android Accessibility Guidelines
+        **WCAG:** 2.5.8 Target Size (Minimum)
+    """,
+    category = Category.A11Y,
+    priority = 7,
+    severity = Severity.WARNING,
+    implementation = Implementation(NeighborSmallTouchTargetDetector::class.java, Scope.JAVA_FILE_SCOPE)
+)
+
 // ─── Detector Stubs ──────────────────────────────────────────────────────────
 // Each detector body is stubbed. The TODO comments document the exact UAST
 // traversal logic needed to implement the detection.
@@ -334,6 +515,96 @@ class NeighborStateDescriptionDetector : Detector(), SourceCodeScanner {
     }
 }
 
+class NeighborInsufficientRippleFocusDetector : Detector(), SourceCodeScanner {
+    override fun getApplicableUastTypes() = listOf(UCallExpression::class.java)
+    override fun createUastHandler(context: JavaContext) = object : UElementHandler() {
+        override fun visitCallExpression(node: UCallExpression) {
+            if (node.methodName != "clickable" && node.methodName != "toggleable" && node.methodName != "selectable") return
+            // TODO: Check if the `indication` argument is explicitly provided.
+            // TODO: If absent, flag ISSUE_INSUFFICIENT_RIPPLE_FOCUS (Warning).
+        }
+    }
+}
+
+class NeighborRedundantContentDescriptionDetector : Detector(), SourceCodeScanner {
+    override fun getApplicableUastTypes() = listOf(UCallExpression::class.java)
+    override fun createUastHandler(context: JavaContext) = object : UElementHandler() {
+        override fun visitCallExpression(node: UCallExpression) {
+            // TODO: Check arguments named `contentDescription` in Image, Icon, or semantics block.
+            // TODO: If the string contains "button", "checkbox", "radio", "switch", "link",
+            //       "enabled", "disabled", "checked", "selected", "ticked", "unticked", "dimmed",
+            //       or "toggle" (case-insensitive to catch English dialect variants),
+            //       flag ISSUE_REDUNDANT_CONTENT_DESCRIPTION.
+        }
+    }
+}
+
+class NeighborAssertiveLiveRegionDetector : Detector(), SourceCodeScanner {
+    override fun getApplicableUastTypes() = listOf(UCallExpression::class.java)
+    override fun createUastHandler(context: JavaContext) = object : UElementHandler() {
+        override fun visitCallExpression(node: UCallExpression) {
+            // TODO: Look for assignments to `liveRegion` property in a semantics block.
+            // TODO: If assigned `LiveRegionMode.Assertive`, flag ISSUE_ASSERTIVE_LIVE_REGION.
+        }
+    }
+}
+
+class NeighborClickableTextDetector : Detector(), SourceCodeScanner {
+    override fun getApplicableUastTypes() = listOf(UCallExpression::class.java)
+    override fun createUastHandler(context: JavaContext) = object : UElementHandler() {
+        override fun visitCallExpression(node: UCallExpression) {
+            if (node.methodName != "Text") return
+            // TODO: Check the modifier chain of the Text composable.
+            // TODO: If it contains `.clickable()`, flag ISSUE_CLICKABLE_TEXT.
+        }
+    }
+}
+
+class NeighborForcedLightModeDetector : Detector(), SourceCodeScanner {
+    override fun getApplicableUastTypes() = listOf(UCallExpression::class.java)
+    override fun createUastHandler(context: JavaContext) = object : UElementHandler() {
+        override fun visitCallExpression(node: UCallExpression) {
+            // TODO: Look for Theme composable calls (e.g. MaterialTheme, or custom themes)
+            // TODO: If `darkTheme` parameter is explicitly passed as `false` instead of
+            //       dynamically reading `isSystemInDarkTheme()`, flag ISSUE_FORCED_LIGHT_MODE.
+            // Note: This rule is disabled by default.
+        }
+    }
+}
+
+class NeighborContentViolationDetector : Detector(), SourceCodeScanner {
+    override fun getApplicableUastTypes() = listOf(UCallExpression::class.java)
+    override fun createUastHandler(context: JavaContext) = object : UElementHandler() {
+        override fun visitCallExpression(node: UCallExpression) {
+            // TODO: Check arguments named `contentDescription`.
+            // TODO: Scan string literals for words like "click here", "tap here", "swipe left",
+            //       "swipe right", "blind to", "crazy", "insane", "dumb", "crippled".
+            // TODO: If found, flag ISSUE_HARDCODED_CONTENT_VIOLATION.
+        }
+    }
+}
+
+class NeighborUnscalableTextDetector : Detector(), SourceCodeScanner {
+    override fun getApplicableUastTypes() = listOf(UCallExpression::class.java)
+    override fun createUastHandler(context: JavaContext) = object : UElementHandler() {
+        override fun visitCallExpression(node: UCallExpression) {
+            // TODO: Check assignments to `fontSize` or `lineHeight` in Text() calls.
+            // TODO: If the unit is `.dp` or `.px`, flag ISSUE_UNSCALABLE_TEXT_UNIT.
+        }
+    }
+}
+
+class NeighborSmallTouchTargetDetector : Detector(), SourceCodeScanner {
+    override fun getApplicableUastTypes() = listOf(UCallExpression::class.java)
+    override fun createUastHandler(context: JavaContext) = object : UElementHandler() {
+        override fun visitCallExpression(node: UCallExpression) {
+            // TODO: Look for `.size(x.dp)`, `.height(x.dp)`, or `.width(x.dp)` modifiers
+            //       where x < 48f, AND the element is clickable/toggleable/selectable.
+            // TODO: Flag ISSUE_SMALL_TOUCH_TARGET.
+        }
+    }
+}
+
 // ─── Issue Registry ───────────────────────────────────────────────────────────
 
 class NeighborIssueRegistry : IssueRegistry() {
@@ -346,6 +617,14 @@ class NeighborIssueRegistry : IssueRegistry() {
         ISSUE_DYNAMIC_CONTENT_NO_LIVE_REGION,
         ISSUE_CUSTOM_CLICKABLE_NO_MERGE_DESCENDANTS,
         ISSUE_STATE_NO_STATE_DESCRIPTION,
+        ISSUE_INSUFFICIENT_RIPPLE_FOCUS,
+        ISSUE_REDUNDANT_CONTENT_DESCRIPTION,
+        ISSUE_ASSERTIVE_LIVE_REGION,
+        ISSUE_CLICKABLE_TEXT,
+        ISSUE_FORCED_LIGHT_MODE,
+        ISSUE_HARDCODED_CONTENT_VIOLATION,
+        ISSUE_UNSCALABLE_TEXT_UNIT,
+        ISSUE_SMALL_TOUCH_TARGET,
     )
     override val api = CURRENT_API
 }

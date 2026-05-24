@@ -50,6 +50,10 @@ export default {
       },
       rules: {
         ...(jsxA11y ? jsxA11y.configs.recommended.rules : {}),
+        'jsx-a11y/accessible-emoji': 'off',
+        'jsx-a11y/no-autofocus': 'off',
+        'jsx-a11y/no-distracting-elements': 'off',
+        'jsx-a11y/no-redundant-roles': 'off',
         ...buildRecommendedRules(NS),
         ...buildUlamRecommendedRules(NS),
         ...buildReactFrameworkRules(NS),

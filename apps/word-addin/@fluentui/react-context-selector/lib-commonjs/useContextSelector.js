@@ -39,7 +39,7 @@ const useContextSelector = (context, selectorFn)=>{
                     forceUpdate();
                 }
             } catch  {
-            // ignored (stale props or similar — heals on the next parent-driven render)
+            // ignored (stale props or similar - heals on the next parent-driven render)
             }
         };
         listeners.push(listener);

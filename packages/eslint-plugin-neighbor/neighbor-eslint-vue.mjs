@@ -29,6 +29,24 @@ const plugin = { meta: { name: `${NS}/vue` }, rules }
 let vueA11y = null
 try { vueA11y = (await import('eslint-plugin-vuejs-accessibility')).default } catch {}
 
+const vueRecommended = {
+  ...buildRecommendedRules(NS),
+  ...buildPortabilityRules(NS),
+  ...buildUlamRecommendedRulesFramework(NS),
+  ...buildVueFrameworkRules(NS),
+}
+
+// Omit rules that are already covered by vuejs-accessibility (if installed):
+if (vueA11y) {
+  delete vueRecommended[`${NS}/no-heading-no-content`] // covered by vuejs-accessibility/heading-has-content
+  delete vueRecommended[`${NS}/no-iframe-no-title`] // covered by vuejs-accessibility/iframe-has-title
+  delete vueRecommended[`${NS}/no-access-key`] // covered by vuejs-accessibility/no-access-key
+  delete vueRecommended[`${NS}/no-img-redundant-alt`] // covered by vuejs-accessibility/alt-text
+  delete vueRecommended[`${NS}/no-anchor-no-content`] // covered by vuejs-accessibility/anchor-has-content
+  delete vueRecommended[`${NS}/no-invalid-aria-prop-value`] // covered by vuejs-accessibility/aria-props
+  delete vueRecommended[`${NS}/no-role-supports-aria-props`] // covered by vuejs-accessibility/aria-role
+}
+
 export default {
   ...plugin,
   configs: {
@@ -39,10 +57,11 @@ export default {
       },
       rules: {
         ...(vueA11y ? vueA11y.configs['flat/recommended'].rules : {}),
-        ...buildRecommendedRules(NS),
-        ...buildPortabilityRules(NS),
-        ...buildUlamRecommendedRulesFramework(NS),
-        ...buildVueFrameworkRules(NS),
+        'vuejs-accessibility/accessible-emoji': 'off',
+        'vuejs-accessibility/no-autofocus': 'off',
+        'vuejs-accessibility/no-distracting-elements': 'off',
+        'vuejs-accessibility/no-redundant-roles': 'off',
+        ...vueRecommended,
       },
     },
   },

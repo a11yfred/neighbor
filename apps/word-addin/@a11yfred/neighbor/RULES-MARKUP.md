@@ -47,7 +47,7 @@ All rules run on React, Vue, and Angular unless noted.
 | `no-tabs-without-structure` | `role="tab"` without `aria-selected`; `role="tabpanel"` without `aria-labelledby`; `role="tablist"` without an accessible name | [APG: Tabs Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/)  -  [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `no-positive-tabindex` | `tabIndex` value greater than 0  -  breaks natural DOM tab order | WebAIM / Lauke  -  [SC 2.4.3](https://www.w3.org/WAI/WCAG21/Understanding/focus-order) |
 | `no-autoplay-without-controls` | `<video>`/`<audio autoPlay>` without `controls` | [SC 1.4.2](https://www.w3.org/WAI/WCAG21/Understanding/audio-control) |
-| `no-heading-inside-interactive` | Heading elements (`<h1>`–`<h6>`) nested inside `<button>`, `<a>`, or interactive roles | Roselli / Pickering  -  [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
+| `no-heading-inside-interactive` | Heading elements (`<h1>`-`<h6>`) nested inside `<button>`, `<a>`, or interactive roles | Roselli / Pickering  -  [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `no-placeholder-only` | `<input placeholder>` with no `aria-label`, `aria-labelledby`, or paired `<label>`  -  WebAIM Million #3 failure | [WebAIM Million](https://webaim.org/projects/million/)  -  [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
 | `no-empty-button` | `<button>` with only `aria-hidden` children and no accessible name | [WebAIM Million](https://webaim.org/projects/million/)  -  [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `no-image-role-without-name` | `role="img"` without `aria-label`/`aria-labelledby` | [APG](https://www.w3.org/WAI/ARIA/apg/) / O'Hara  -  [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
@@ -107,7 +107,7 @@ These rules cover gaps in `eslint-plugin-jsx-a11y` that have no equivalent in `e
 | `no-aria-activedescendant-no-tabindex` | `aria-activedescendant` on an element without `tabindex` | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
 | `no-invalid-aria-prop-value` | Invalid values on ARIA state/property attributes | [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `no-autocomplete-invalid` | Invalid `autocomplete` token values | [SC 1.3.5](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose) |
-| `no-heading-no-content` | Headings (`<h1>`–`<h6>`) with no text content | [SC 2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels) |
+| `no-heading-no-content` | Headings (`<h1>`-`<h6>`) with no text content | [SC 2.4.6](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels) |
 | `no-iframe-no-title` | `<iframe>` without a `title` attribute | [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `no-img-redundant-alt` | Alt text containing "image", "photo", or "picture" | [SC 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content) |
 | `no-access-key` | `accessKey` attribute  -  conflicts with AT and browser shortcuts | [SC 2.1.4](https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts) |
