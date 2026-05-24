@@ -20,6 +20,12 @@ jobs:
           node-version: '22'
           registry-url: 'https://registry.npmjs.org'
 
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build packages
+        run: npm run build
+
       - name: Prepare @a11yfred/neighbor package
         run: |
           cp LICENSE CHANGELOG.md CONTRIBUTING.md RULES.md RULES-MARKUP.md RULES-CSS.md RULES-CONTENT.md packages/neighbor/
