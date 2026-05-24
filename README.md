@@ -470,10 +470,12 @@ Planned improvements and extensions to neighbor:
 - [ ] **iOS app** — Accessibility linting for native iOS applications (Swift)
 - [ ] **Android app** — Accessibility linting for native Android applications (Kotlin)
 - [ ] **Desktop app (Electron)** — Standalone desktop application for cross-platform linting
+- [ ] **Microsoft Word add-in** — Native Word add-in for accessibility linting in document authoring
+- [ ] **Browser extensions** — Chrome and Firefox extensions for live page linting with real-time violation highlighting
 
 ### Planned
 
-- [ ] **Browser extension: live page linting** — A Chrome/Firefox extension that applies neighbor's accessibility rules to live web content in real-time, highlighting violations inline. Useful for auditors and testers who want to spot issues while testing third-party sites without a build step. Would reuse existing rule logic and integrate with a debug panel UI similar to [@a11yfred/rogers](https://github.com/a11yfred/rogers).
+- [ ] Additional editor integrations (VS Code, Sublime Text, etc.) for embedded accessibility linting
 
 ## See also
 
