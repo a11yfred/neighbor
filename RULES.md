@@ -40,7 +40,7 @@ Stylelint rules that flag CSS that removes focus indicators, opts out of High Co
 
 ## Content rules  -  summary
 
-ESLint rules that flag accessibility and inclusion problems in string literals and JSX text  -  ableist language, disability metaphors, English idioms, vague link and button text, directional references, unexplained abbreviations, ALL CAPS prose, and vague error messages. All ship as `warn`. Full reference → [RULES-CONTENT.md](RULES-CONTENT.md)
+ESLint rules that flag accessibility and inclusion problems in string literals and JSX text  -  ableist language, disability metaphors, English idioms, vague link and button text, directional references, unexplained abbreviations, ALL CAPS prose, vague error messages, and exclusive/decolonized language. All ship as `warn`. Full reference → [RULES-CONTENT.md](RULES-CONTENT.md)
 
 | Rule | What it flags | WCAG SC |
 | --- | --- | --- |
@@ -53,3 +53,9 @@ ESLint rules that flag accessibility and inclusion problems in string literals a
 | `no-all-caps-prose` | ALL CAPS words that screen readers may spell out letter-by-letter | - |
 | `no-vague-error-message` | Error messages that don't say what went wrong ("An error occurred") | 3.3.1 |
 | `no-ampersand-in-prose` | `&` in place of "and"  -  announced inconsistently by screen readers | - |
+| `no-exclusive-language` | Tech jargon and culturally appropriated terms (blacklist, master/slave, spirit animal) | - |
+| `no-colonial-and-violent-language` | Terms rooted in colonialism or violence (stakeholder, target population, tackle) | - |
+| `no-deficit-language` | Language that reduces people to their circumstances (the homeless, inmate, addict) | - |
+| `no-gendered-language` | Generic gendered pronouns (he/she, his or her, mum and dad) | - |
+| `no-anti-lgbtq-language` | Outdated or pathologizing terms regarding sexual orientation and gender identity | - |
+| `no-device-specific-action` | Device-specific input actions (click, tap, swipe) | - |

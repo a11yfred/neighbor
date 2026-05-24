@@ -27,7 +27,7 @@ All CSS rules use the `neighbor/` namespace and ship from `@a11yfred/neighbor` (
 
 | Rule | What it flags | WCAG SC |
 | --- | --- | --- |
-| `neighbor/user-preferences` | `opacity`, `animation`, `transition`, or alpha-channel colors used in `src/components/ui/` without a `@media (prefers-reduced-motion)`, `@media (prefers-reduced-transparency)`, or `@media (forced-colors)` counterpart | [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
+| `neighbor/user-preferences` | `opacity`, `animation`, `transition`, or alpha-channel colors without a `@media (prefers-reduced-motion)`, `@media (prefers-reduced-transparency)`, or `@media (forced-colors)` counterpart | [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
 | `neighbor/no-outline-none` | `outline: none` or `outline: 0` in a base rule (outside a `:focus`, `:focus-visible`, or `:focus-within` selector)  -  removes the keyboard focus indicator for all users | [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
 | `neighbor/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)`  -  actively opts out of Windows High Contrast Mode, removing the system-enforced visibility that users with low vision depend on | [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
 

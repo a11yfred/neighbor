@@ -446,6 +446,7 @@ Rules that flag accessibility and inclusion problems in web and app copy. Works 
 | `no-colonial-and-violent-language` | Terms rooted in colonialism or violence applied to people (stakeholder, target population, tackle) | warn | - |
 | `no-deficit-language` | Language that reduces people to their circumstances (the homeless, inmate, addict, at-risk youth) | warn | - |
 | `no-gendered-language` | Generic gendered pronoun patterns (he/she, his or her, mum and dad) | warn | - |
+| `no-anti-lgbtq-language` | Outdated or pathologizing terms regarding sexual orientation and gender identity | warn | - |
 | `no-device-specific-action` | Device-specific input actions (click, tap, swipe) | warn | - |
 
 See [RULES-CONTENT.md](RULES-CONTENT.md) for the full rule reference including sources, methodology, and the language-evolution note.
