@@ -73,7 +73,7 @@ All rules run on React, Remix 2, Remix 3, Vue, Angular, and Web Components unles
 | `no-aria-hidden-on-main` | `aria-hidden="true"` on `<body>`, `<main>`, or `role="main"` - hides entire app from AT | [APG](https://www.w3.org/WAI/ARIA/apg/) |
 | `no-meter-without-valuenow` | `role="meter"` missing `aria-valuenow` | [APG: Meter](https://www.w3.org/WAI/ARIA/apg/patterns/meter/) |
 
-### Warnings - on by default
+### Warnings: on by default
 
 | Rule | What it flags | Source |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ All rules run on React, Remix 2, Remix 3, Vue, Angular, and Web Components unles
 
 > **Note on component boundaries:** `no-skipped-heading-levels` and `no-multiple-main` are evaluated *per file*. They cannot guarantee headings are sequential across parent/child components, or that a single `<main>` isn't duplicated in other files. For full DOM validation, use a runtime tool like `@axe-core/react`.
 
-### Off by default - opt in
+### Off by default: opt in
 
 These rules flag real problems but generate enough noise in typical codebases that they ship off. Enable individually.
 
@@ -104,7 +104,7 @@ These rules flag real problems but generate enough noise in typical codebases th
 
 ---
 
-## Portability rules - Vue and Angular only
+## Portability rules: Vue and Angular only
 
 These rules cover gaps in `eslint-plugin-jsx-a11y` that have no equivalent in `eslint-plugin-vuejs-accessibility` or `@angular-eslint/eslint-plugin-template`. React projects get these from jsx-a11y already.
 
@@ -127,7 +127,7 @@ These rules cover gaps in `eslint-plugin-jsx-a11y` that have no equivalent in `e
 
 ---
 
-## Framework-specific rules - @ulam only
+## Framework-specific rules: @ulam only
 
 These rules are specific to the @ulam framework and activate only when @ulam-related imports are detected.
 

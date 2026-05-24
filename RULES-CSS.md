@@ -23,7 +23,7 @@ Stylelint rules for CSS accessibility.
 
 All CSS rules use the `neighbor/` namespace and ship from `@a11yfred/neighbor` (the default entry point) and `@a11yfred/neighbor/stylelint`.
 
-### Warnings - on by default
+### Warnings: on by default
 
 | Rule | What it flags | WCAG SC |
 | --- | --- | --- |
