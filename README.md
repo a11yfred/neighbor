@@ -33,6 +33,7 @@ Why choose `neighbor`?
   - [Angular](#angular)
   - [Stylelint](#stylelint)
   - [Content linting](#content-linting)
+- [Ecosystem & Integrations](#ecosystem--integrations)
 - [Peer dependencies](#peer-dependencies)
 - [What neighbor adds](#what-neighbor-adds)
   - [ESLint - React / JSX](#react--jsx)
@@ -377,6 +378,15 @@ export default [
 ```
 
 </details>
+
+## Ecosystem & Integrations
+
+`neighbor` extends beyond traditional JavaScript IDE linters into standalone applications and native platform integrations.
+
+- **[iOS App (SwiftUI)](./apps/ios-app/README.md)**: Custom SwiftLint rules for native iOS accessibility.
+- **[Android App (Jetpack Compose)](./apps/android-app/README.md)**: A standard Gradle lint module for native Android accessibility.
+- **[Microsoft Word Add-in](./apps/word-addin/README.md)**: An Office.js add-in that checks documents for exclusionary language while you type.
+- **[Vale Dictionary](./packages/neighbor/vale/neighbor)**: A compiled Vale-compatible dictionary containing our textlint content vocabulary for standalone Markdown checking.
 
 ## Peer dependencies
 
