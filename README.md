@@ -1,6 +1,6 @@
 # @a11yfred/neighbor
 
-The a11yfred accessibility linter ecosystem. This monorepo houses a suite of plugins covering React, Vue, Angular, Remix, Vanilla Web Components, CSS, and prose content across ESLint, Stylelint, and Vale.
+The a11yfred accessibility linter ecosystem. This monorepo houses a suite of plugins covering React, Vue, Angular, Remix, Vanilla Web Components, CSS, and prose content across ESLint, Stylelint, textlint, and Vale.
 
 It builds on foundational tools like `eslint-plugin-jsx-a11y` to cover gaps: bad ARIA patterns, live region misuse, missing names on roles, and CSS that removes focus indicators. It also brings that robust coverage to non-React frameworks like Vue, Angular, and Vanilla Web Components.
 
@@ -46,8 +46,8 @@ npm install --save-dev @a11yfred/neighbor
 | `@a11yfred/neighbor/eslint-vue` | Vue SFCs  -  markup rules |
 | `@a11yfred/neighbor/eslint-angular` | Angular templates  -  markup rules |
 | `@a11yfred/neighbor/content` | Any JS/TS/JSX/TSX  -  content and prose rules |
-| `@a11yfred/neighbor` | Stylelint  -  CSS rules (default export) |
-| `@a11yfred/neighbor/stylelint` | Stylelint  -  CSS rules (explicit) |
+| `@a11yfred/neighbor` | Stylelint  -  CSS rules |
+| `@a11yfred/neighbor/stylelint` | Stylelint  -  CSS rules (explicit alias) |
 
 ## Setup
 
@@ -464,6 +464,14 @@ All rules can be overridden in your config.
 ## Roadmap
 
 Planned improvements and extensions to neighbor:
+
+### In development
+
+- [ ] **iOS app** — Accessibility linting for native iOS applications (Swift)
+- [ ] **Android app** — Accessibility linting for native Android applications (Kotlin)
+- [ ] **Desktop app (Electron)** — Standalone desktop application for cross-platform linting
+
+### Planned
 
 - [ ] **Browser extension: live page linting** — A Chrome/Firefox extension that applies neighbor's accessibility rules to live web content in real-time, highlighting violations inline. Useful for auditors and testers who want to spot issues while testing third-party sites without a build step. Would reuse existing rule logic and integrate with a debug panel UI similar to [@a11yfred/rogers](https://github.com/a11yfred/rogers).
 
