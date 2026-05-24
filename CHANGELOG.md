@@ -60,9 +60,7 @@ Update your `.stylelintrc.json` to use the new names.
 ### Added
 
 - **New rule:** `neighbor/no-forced-colors-none`: `forced-color-adjust: none` inside `@media (forced-colors)` actively opts out of Windows High Contrast Mode
-
 - **New entry point:** `@a11yfred/neighbor/content`: An ESLint plugin for accessibility and inclusion problems in web and app copy. Lints string literals and JSX text in JS/TS/JSX/TSX files.
-
 - **New content rules (all `warn`):**
 
 | Rule | What it flags |
@@ -83,9 +81,7 @@ Rules are synthesised from 17 sources spanning W3C WAI, government plain languag
   - [RULES-MARKUP.md](RULES-MARKUP.md): ESLint markup rules
   - [RULES-CSS.md](RULES-CSS.md): Stylelint CSS rules
   - [RULES-CONTENT.md](RULES-CONTENT.md): content rules with sources and methodology
-
 - **New entry point alias:** `@a11yfred/neighbor/stylelint` added as an explicit stylelint alias alongside the default export.
-
 - **Additional rules:** `no-labelledby-missing-target`, `no-dynamic-content-without-live`, `form-field-multiple-labels`, `no-empty-table-header` added to core markup rules (all run on React, Vue, and Angular).
 
 ### Changed
@@ -93,7 +89,6 @@ Rules are synthesised from 17 sources spanning W3C WAI, government plain languag
 - **Severity changes:** 10 rules moved from `warn` to `off` in the recommended config. They flag real problems but are too noisy for most codebases by default. All remain available to opt in individually:
   - `no-application-role`, `no-grid-role`, `no-aria-roledescription`, `no-aria-readonly`, `no-tab-without-controls`, `no-href-hash`, `warn-role-alert`, `prefer-aria-disabled`, `no-target-blank-without-label`, `no-dialog-without-close`
   - `no-tooltip-role-misuse` and `no-menu-role-on-nav` remain on as warns.
-
 - **Extended rules:** `no-announce-in-render` now runs in Vue and Angular plugins (not just React). Safe contexts are tuned per framework: Vue recognizes `onMounted`, `watch`, `watchEffect`, `nextTick`; Angular recognizes `ngOnInit`, `ngAfterViewInit`, `ngOnChanges`, and class method event handlers.
 
 ### Documentation
