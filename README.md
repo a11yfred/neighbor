@@ -19,6 +19,7 @@ Why choose `neighbor`?
 1. **More Rules:** It checks for complex problems. Standard tools check simple things like missing `alt` text. `neighbor` checks for harder problems, like missing close buttons on dialogs or broken tab menus.
 2. **Same Rules for Every Framework:** If you switch from React to Vue or Angular, your linter often catches fewer mistakes. `neighbor` gives you the exact same strict rules for React, Vue, Angular, Lit Web Components, iOS, and Android.
 3. **CSS and Text:** Accessibility is not just HTML. `neighbor` also finds bad CSS (like hiding focus outlines) and bad text (like ableist words or confusing links).
+4. **Ecosystem Integration:** Works natively across your entire stack via ESLint, Stylelint, textlint, Vale, Microsoft Word, Xcode (iOS), and Android Studio.
 
 ## Contents
 
@@ -473,6 +474,9 @@ export default {
 | --- | --- | --- |
 | `neighbor/no-forced-colors-none` | error | Disallows `forced-color-adjust: none` inside `@media (forced-colors)` - opts out of Windows High Contrast Mode - [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
 | `neighbor/no-outline-none` | error | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors - [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
+| `neighbor/no-text-justify` | error | Disallows `text-align: justify` which creates uneven spacing for dyslexic users - [SC 1.4.8](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation) |
+| `neighbor/no-absolute-viewport-text` | warn | Warns on pure viewport units (`vw`, `vh`) for text sizing which block browser zoom - [SC 1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text) |
+| `neighbor/no-user-select-all-none` | warn | Warns on `user-select: none` which prevents text selection and translation - [SC 1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text) |
 | `neighbor/user-preferences` | warn | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks - [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
 
 ### Content linter

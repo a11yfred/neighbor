@@ -35,6 +35,6 @@ const easing = motionTokens.curveDecelerateMid;
                 composite: 'accumulate'
             }
         ],
-        // No exit animation — the surface unmounts immediately on close.
+        // No exit animation - the surface unmounts immediately on close.
         exit: []
     }));

@@ -5,7 +5,7 @@ const tslib_1 = require("tslib");
 const React = tslib_1.__importStar(require("react"));
 const shared_1 = require("./shared");
 /**
- * Headless bundleIcon — combines Filled and Regular icon variants.
+ * Headless bundleIcon - combines Filled and Regular icon variants.
  *
  * Renders both icons; the inactive variant gets `data-fui-icon-hidden`.
  * The shipped headless.css handles visibility via `[data-fui-icon-hidden] { display: none }`.

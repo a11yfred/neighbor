@@ -304,7 +304,7 @@ const useMenuOpenState = (state)=>{
         if (open) {
             focusFirst();
         } else {
-            // Skip the initial render — focus should only be restored when the menu
+            // Skip the initial render - focus should only be restored when the menu
             // transitions from open → closed, not on mount.
             if (!firstMount) {
                 var // The surfaceMotion presence component delays unmounting the popover

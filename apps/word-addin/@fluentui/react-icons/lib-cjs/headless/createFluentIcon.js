@@ -10,7 +10,7 @@ const renderSvgNode = (node, key) => {
     return React.createElement(tag, { ...attrs, key }, ...children.map(renderSvgNode));
 };
 /**
- * Headless createFluentIcon — SVG icon factory without Styles.
+ * Headless createFluentIcon - SVG icon factory without Styles.
  *
  * Returns a React component that renders an SVG icon with:
  * - data-fui-icon attribute for CSS targeting
@@ -21,9 +21,9 @@ const renderSvgNode = (node, key) => {
  * @param displayName - The display name for the component (used in React DevTools).
  * @param width - The intrinsic width/height of the icon (e.g. `"20"`, `"24"`, `"1em"`).
  * @param pathsOrSvg - Icon content in one of three forms:
- *   - `string[]` — Array of SVG path `d` attributes (mono-color icons).
- *   - `SvgNode[]` — Structured SVG element tree for color icons (CSP-safe).
- *   - `string` — Raw SVG innerHTML string.
+ *   - `string[]` - Array of SVG path `d` attributes (mono-color icons).
+ *   - `SvgNode[]` - Structured SVG element tree for color icons (CSP-safe).
+ *   - `string` - Raw SVG innerHTML string.
  *     **Deprecated:** Use `SvgNode[]` with `options.color` instead. The `string` overload uses
  *     `dangerouslySetInnerHTML` which violates Trusted Types CSP policies.
  * @param options - Optional configuration.

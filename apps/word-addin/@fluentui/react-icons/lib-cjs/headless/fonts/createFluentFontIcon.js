@@ -12,7 +12,7 @@ const FONT_VARIANT_MAP = {
     [3 /* Light */]: 'light',
 };
 /**
- * Headless createFluentFontIcon — font icon factory without Griffel.
+ * Headless createFluentFontIcon - font icon factory without Griffel.
  *
  * Sets data attributes for CSS targeting:
  * - data-fui-icon="font" for base font icon styles
