@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { cx, iconFilledClassName, iconRegularClassName, DATA_FUI_ICON_HIDDEN } from './shared';
 /**
- * Headless bundleIcon — combines Filled and Regular icon variants.
+ * Headless bundleIcon - combines Filled and Regular icon variants.
  *
  * Renders both icons; the inactive variant gets `data-fui-icon-hidden`.
  * The shipped headless.css handles visibility via `[data-fui-icon-hidden] { display: none }`.

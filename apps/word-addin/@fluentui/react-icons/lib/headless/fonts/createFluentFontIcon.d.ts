@@ -8,7 +8,7 @@ export declare type FluentFontIcon = React.FC<FluentIconsProps<React.HTMLAttribu
     codepoint: string;
 };
 /**
- * Headless createFluentFontIcon — font icon factory without Griffel.
+ * Headless createFluentFontIcon - font icon factory without Griffel.
  *
  * Sets data attributes for CSS targeting:
  * - data-fui-icon="font" for base font icon styles
