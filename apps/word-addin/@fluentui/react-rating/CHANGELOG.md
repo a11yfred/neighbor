@@ -6,28 +6,28 @@ This log was last generated on Thu, 23 Apr 2026 11:59:30 GMT and should not be m
 
 ## [9.4.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.4.1)
 
-Thu, 23 Apr 2026 11:59:30 GMT 
+Thu, 23 Apr 2026 11:59:30 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.4.0..@fluentui/react-rating_v9.4.1)
 
 ### Patches
 
-- fix: add mising base hook export ([PR #35972](https://github.com/microsoft/fluentui/pull/35972) by dmytrokirpa@microsoft.com)
+- fix: add mising base hook export ([PR #35972](https://github.com/microsoft/fluentui/pull/35972) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.4.2 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-tabster to v9.26.14 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-utilities to v9.26.3 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 
 ## [9.4.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.4.0)
 
-Thu, 26 Mar 2026 08:12:51 GMT 
+Thu, 26 Mar 2026 08:12:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.15..@fluentui/react-rating_v9.4.0)
 
 ### Minor changes
 
-- feat: add base hooks for Rating ([PR #35823](https://github.com/microsoft/fluentui/pull/35823) by dmytrokirpa@microsoft.com)
+- feat: add base hooks for Rating ([PR #35823](https://github.com/microsoft/fluentui/pull/35823) by <dmytrokirpa@microsoft.com>)
 
 ## [9.3.15](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.15)
 
-Wed, 25 Feb 2026 13:32:28 GMT 
+Wed, 25 Feb 2026 13:32:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.14..@fluentui/react-rating_v9.3.15)
 
 ### Patches
@@ -39,7 +39,7 @@ Wed, 25 Feb 2026 13:32:28 GMT
 
 ## [9.3.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.14)
 
-Thu, 12 Feb 2026 10:46:15 GMT 
+Thu, 12 Feb 2026 10:46:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.13..@fluentui/react-rating_v9.3.14)
 
 ### Patches
@@ -48,7 +48,7 @@ Thu, 12 Feb 2026 10:46:15 GMT
 
 ## [9.3.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.13)
 
-Thu, 22 Jan 2026 17:06:38 GMT 
+Thu, 22 Jan 2026 17:06:38 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.12..@fluentui/react-rating_v9.3.13)
 
 ### Patches
@@ -61,7 +61,7 @@ Thu, 22 Jan 2026 17:06:38 GMT
 
 ## [9.3.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.12)
 
-Wed, 17 Dec 2025 18:10:11 GMT 
+Wed, 17 Dec 2025 18:10:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.11..@fluentui/react-rating_v9.3.12)
 
 ### Patches
@@ -72,12 +72,12 @@ Wed, 17 Dec 2025 18:10:11 GMT
 
 ## [9.3.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.11)
 
-Tue, 11 Nov 2025 19:18:07 GMT 
+Tue, 11 Nov 2025 19:18:07 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.10..@fluentui/react-rating_v9.3.11)
 
 ### Patches
 
-- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by estebanmu@microsoft.com)
+- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by <estebanmu@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.3.3 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.26.0 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-tabster to v9.26.10 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
@@ -85,7 +85,7 @@ Tue, 11 Nov 2025 19:18:07 GMT
 
 ## [9.3.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.10)
 
-Thu, 06 Nov 2025 15:01:25 GMT 
+Thu, 06 Nov 2025 15:01:25 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.9..@fluentui/react-rating_v9.3.10)
 
 ### Patches
@@ -96,7 +96,7 @@ Thu, 06 Nov 2025 15:01:25 GMT
 
 ## [9.3.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.9)
 
-Fri, 31 Oct 2025 16:22:06 GMT 
+Fri, 31 Oct 2025 16:22:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.8..@fluentui/react-rating_v9.3.9)
 
 ### Patches
@@ -107,7 +107,7 @@ Fri, 31 Oct 2025 16:22:06 GMT
 
 ## [9.3.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.8)
 
-Tue, 21 Oct 2025 14:16:59 GMT 
+Tue, 21 Oct 2025 14:16:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.7..@fluentui/react-rating_v9.3.8)
 
 ### Patches
@@ -116,7 +116,7 @@ Tue, 21 Oct 2025 14:16:59 GMT
 
 ## [9.3.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.7)
 
-Wed, 08 Oct 2025 12:04:53 GMT 
+Wed, 08 Oct 2025 12:04:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.6..@fluentui/react-rating_v9.3.7)
 
 ### Patches
@@ -127,12 +127,12 @@ Wed, 08 Oct 2025 12:04:53 GMT
 
 ## [9.3.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.6)
 
-Thu, 02 Oct 2025 15:12:32 GMT 
+Thu, 02 Oct 2025 15:12:32 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.5..@fluentui/react-rating_v9.3.6)
 
 ### Patches
 
-- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by dmytrokirpa@microsoft.com)
+- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.2.1 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.25.2 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-tabster to v9.26.6 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
@@ -140,14 +140,14 @@ Thu, 02 Oct 2025 15:12:32 GMT
 
 ## [9.3.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.5)
 
-Mon, 08 Sep 2025 12:51:20 GMT 
+Mon, 08 Sep 2025 12:51:20 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.4..@fluentui/react-rating_v9.3.5)
 
 ### Patches
 
-- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by dmytrokirpa@microsoft.com)
-- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by dmytrokirpa@microsoft.com)
-- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by dmytrokirpa@microsoft.com)
+- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by <dmytrokirpa@microsoft.com>)
+- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by <dmytrokirpa@microsoft.com>)
+- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.2.0 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.25.1 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-tabster to v9.26.5 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
@@ -155,7 +155,7 @@ Mon, 08 Sep 2025 12:51:20 GMT
 
 ## [9.3.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.4)
 
-Thu, 21 Aug 2025 12:25:17 GMT 
+Thu, 21 Aug 2025 12:25:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.3..@fluentui/react-rating_v9.3.4)
 
 ### Patches
@@ -167,7 +167,7 @@ Thu, 21 Aug 2025 12:25:17 GMT
 
 ## [9.3.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.3)
 
-Thu, 07 Aug 2025 10:03:33 GMT 
+Thu, 07 Aug 2025 10:03:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.2..@fluentui/react-rating_v9.3.3)
 
 ### Patches
@@ -178,7 +178,7 @@ Thu, 07 Aug 2025 10:03:33 GMT
 
 ## [9.3.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.2)
 
-Wed, 30 Jul 2025 13:10:57 GMT 
+Wed, 30 Jul 2025 13:10:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.1..@fluentui/react-rating_v9.3.2)
 
 ### Patches
@@ -191,7 +191,7 @@ Wed, 30 Jul 2025 13:10:57 GMT
 
 ## [9.3.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.1)
 
-Mon, 28 Jul 2025 18:48:21 GMT 
+Mon, 28 Jul 2025 18:48:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.3.0..@fluentui/react-rating_v9.3.1)
 
 ### Patches
@@ -202,17 +202,17 @@ Mon, 28 Jul 2025 18:48:21 GMT
 
 ## [9.3.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.3.0)
 
-Thu, 17 Jul 2025 13:49:45 GMT 
+Thu, 17 Jul 2025 13:49:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.2.3..@fluentui/react-rating_v9.3.0)
 
 ### Minor changes
 
-- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by martinhochel@microsoft.com)
+- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.26.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 
 ## [9.2.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.2.3)
 
-Fri, 27 Jun 2025 13:39:41 GMT 
+Fri, 27 Jun 2025 13:39:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.2.2..@fluentui/react-rating_v9.2.3)
 
 ### Patches
@@ -221,7 +221,7 @@ Fri, 27 Jun 2025 13:39:41 GMT
 
 ## [9.2.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.2.2)
 
-Thu, 26 Jun 2025 14:11:55 GMT 
+Thu, 26 Jun 2025 14:11:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.2.1..@fluentui/react-rating_v9.2.2)
 
 ### Patches
@@ -232,7 +232,7 @@ Thu, 26 Jun 2025 14:11:55 GMT
 
 ## [9.2.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.2.1)
 
-Wed, 18 Jun 2025 17:34:00 GMT 
+Wed, 18 Jun 2025 17:34:00 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.2.0..@fluentui/react-rating_v9.2.1)
 
 ### Patches
@@ -244,7 +244,7 @@ Wed, 18 Jun 2025 17:34:00 GMT
 
 ## [9.2.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.2.0)
 
-Thu, 12 Jun 2025 09:43:33 GMT 
+Thu, 12 Jun 2025 09:43:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.1.8..@fluentui/react-rating_v9.2.0)
 
 ### Minor changes
@@ -255,7 +255,7 @@ Thu, 12 Jun 2025 09:43:33 GMT
 
 ## [9.1.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.1.8)
 
-Fri, 06 Jun 2025 13:15:17 GMT 
+Fri, 06 Jun 2025 13:15:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.1.7..@fluentui/react-rating_v9.1.8)
 
 ### Patches
@@ -266,7 +266,7 @@ Fri, 06 Jun 2025 13:15:17 GMT
 
 ## [9.1.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.1.7)
 
-Wed, 14 May 2025 18:49:20 GMT 
+Wed, 14 May 2025 18:49:20 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.1.6..@fluentui/react-rating_v9.1.7)
 
 ### Patches
@@ -275,7 +275,7 @@ Wed, 14 May 2025 18:49:20 GMT
 
 ## [9.1.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.1.6)
 
-Thu, 24 Apr 2025 09:59:45 GMT 
+Thu, 24 Apr 2025 09:59:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.1.5..@fluentui/react-rating_v9.1.6)
 
 ### Patches
@@ -284,7 +284,7 @@ Thu, 24 Apr 2025 09:59:45 GMT
 
 ## [9.1.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.1.5)
 
-Wed, 16 Apr 2025 19:42:18 GMT 
+Wed, 16 Apr 2025 19:42:18 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.1.4..@fluentui/react-rating_v9.1.5)
 
 ### Patches
@@ -295,7 +295,7 @@ Wed, 16 Apr 2025 19:42:18 GMT
 
 ## [9.1.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.1.4)
 
-Tue, 01 Apr 2025 15:08:02 GMT 
+Tue, 01 Apr 2025 15:08:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.1.3..@fluentui/react-rating_v9.1.4)
 
 ### Patches
@@ -304,12 +304,12 @@ Tue, 01 Apr 2025 15:08:02 GMT
 
 ## [9.1.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.1.3)
 
-Thu, 27 Mar 2025 21:12:49 GMT 
+Thu, 27 Mar 2025 21:12:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.1.2..@fluentui/react-rating_v9.1.3)
 
 ### Patches
 
-- feat: add customStyleHook ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by dmytrokirpa@microsoft.com)
+- feat: add customStyleHook ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.53 ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.23.1 ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by beachball)
 - Bump @fluentui/react-tabster to v9.24.3 ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by beachball)
@@ -317,7 +317,7 @@ Thu, 27 Mar 2025 21:12:49 GMT
 
 ## [9.1.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.1.2)
 
-Wed, 19 Mar 2025 15:40:43 GMT 
+Wed, 19 Mar 2025 15:40:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.1.1..@fluentui/react-rating_v9.1.2)
 
 ### Patches
@@ -328,7 +328,7 @@ Wed, 19 Mar 2025 15:40:43 GMT
 
 ## [9.1.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.1.1)
 
-Tue, 11 Mar 2025 18:58:54 GMT 
+Tue, 11 Mar 2025 18:58:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.1.0..@fluentui/react-rating_v9.1.1)
 
 ### Patches
@@ -339,7 +339,7 @@ Tue, 11 Mar 2025 18:58:54 GMT
 
 ## [9.1.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.1.0)
 
-Fri, 21 Feb 2025 14:34:05 GMT 
+Fri, 21 Feb 2025 14:34:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.28..@fluentui/react-rating_v9.1.0)
 
 ### Minor changes
@@ -348,7 +348,7 @@ Fri, 21 Feb 2025 14:34:05 GMT
 
 ## [9.0.28](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.28)
 
-Wed, 22 Jan 2025 14:00:21 GMT 
+Wed, 22 Jan 2025 14:00:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.27..@fluentui/react-rating_v9.0.28)
 
 ### Patches
@@ -359,7 +359,7 @@ Wed, 22 Jan 2025 14:00:21 GMT
 
 ## [9.0.27](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.27)
 
-Wed, 08 Jan 2025 18:33:36 GMT 
+Wed, 08 Jan 2025 18:33:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.26..@fluentui/react-rating_v9.0.27)
 
 ### Patches
@@ -368,16 +368,16 @@ Wed, 08 Jan 2025 18:33:36 GMT
 
 ## [9.0.26](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.26)
 
-Wed, 18 Dec 2024 10:59:37 GMT 
+Wed, 18 Dec 2024 10:59:37 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.25..@fluentui/react-rating_v9.0.26)
 
 ### Patches
 
-- fix: Pass missing Rating's itemLabel prop to its state so RatingItem consumes it from context. ([PR #33361](https://github.com/microsoft/fluentui/pull/33361) by derdem@microsoft.com)
+- fix: Pass missing Rating's itemLabel prop to its state so RatingItem consumes it from context. ([PR #33361](https://github.com/microsoft/fluentui/pull/33361) by <derdem@microsoft.com>)
 
 ## [9.0.25](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.25)
 
-Mon, 16 Dec 2024 16:26:49 GMT 
+Mon, 16 Dec 2024 16:26:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.24..@fluentui/react-rating_v9.0.25)
 
 ### Patches
@@ -389,16 +389,16 @@ Mon, 16 Dec 2024 16:26:49 GMT
 
 ## [9.0.24](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.24)
 
-Mon, 09 Dec 2024 17:38:15 GMT 
+Mon, 09 Dec 2024 17:38:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.23..@fluentui/react-rating_v9.0.24)
 
 ### Patches
 
-- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by olfedias@microsoft.com)
+- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by <olfedias@microsoft.com>)
 
 ## [9.0.23](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.23)
 
-Fri, 06 Dec 2024 12:53:46 GMT 
+Fri, 06 Dec 2024 12:53:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.22..@fluentui/react-rating_v9.0.23)
 
 ### Patches
@@ -410,12 +410,12 @@ Fri, 06 Dec 2024 12:53:46 GMT
 
 ## [9.0.22](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.22)
 
-Mon, 11 Nov 2024 10:00:53 GMT 
+Mon, 11 Nov 2024 10:00:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.21..@fluentui/react-rating_v9.0.22)
 
 ### Patches
 
-- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by martinhochel@microsoft.com)
+- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.46 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-theme to v9.1.22 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-tabster to v9.23.0 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
@@ -423,7 +423,7 @@ Mon, 11 Nov 2024 10:00:53 GMT
 
 ## [9.0.21](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.21)
 
-Tue, 15 Oct 2024 17:17:53 GMT 
+Tue, 15 Oct 2024 17:17:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.20..@fluentui/react-rating_v9.0.21)
 
 ### Patches
@@ -435,7 +435,7 @@ Tue, 15 Oct 2024 17:17:53 GMT
 
 ## [9.0.20](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.20)
 
-Tue, 08 Oct 2024 22:05:59 GMT 
+Tue, 08 Oct 2024 22:05:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.19..@fluentui/react-rating_v9.0.20)
 
 ### Patches
@@ -444,7 +444,7 @@ Tue, 08 Oct 2024 22:05:59 GMT
 
 ## [9.0.19](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.19)
 
-Mon, 23 Sep 2024 12:40:17 GMT 
+Mon, 23 Sep 2024 12:40:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.18..@fluentui/react-rating_v9.0.19)
 
 ### Patches
@@ -456,7 +456,7 @@ Mon, 23 Sep 2024 12:40:17 GMT
 
 ## [9.0.18](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.18)
 
-Tue, 10 Sep 2024 10:19:12 GMT 
+Tue, 10 Sep 2024 10:19:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.17..@fluentui/react-rating_v9.0.18)
 
 ### Patches
@@ -467,7 +467,7 @@ Tue, 10 Sep 2024 10:19:12 GMT
 
 ## [9.0.17](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.17)
 
-Thu, 15 Aug 2024 13:49:46 GMT 
+Thu, 15 Aug 2024 13:49:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.16..@fluentui/react-rating_v9.0.17)
 
 ### Patches
@@ -476,7 +476,7 @@ Thu, 15 Aug 2024 13:49:46 GMT
 
 ## [9.0.16](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.16)
 
-Thu, 15 Aug 2024 08:22:17 GMT 
+Thu, 15 Aug 2024 08:22:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.15..@fluentui/react-rating_v9.0.16)
 
 ### Patches
@@ -485,7 +485,7 @@ Thu, 15 Aug 2024 08:22:17 GMT
 
 ## [9.0.15](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.15)
 
-Tue, 23 Jul 2024 20:13:14 GMT 
+Tue, 23 Jul 2024 20:13:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.14..@fluentui/react-rating_v9.0.15)
 
 ### Patches
@@ -496,32 +496,32 @@ Tue, 23 Jul 2024 20:13:14 GMT
 
 ## [9.0.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.14)
 
-Mon, 15 Jul 2024 17:25:44 GMT 
+Mon, 15 Jul 2024 17:25:44 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.13..@fluentui/react-rating_v9.0.14)
 
 ### Patches
 
-- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by martinhochel@microsoft.com)
+- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.41 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-tabster to v9.22.2 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-utilities to v9.18.12 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 
 ## [9.0.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.13)
 
-Mon, 01 Jul 2024 20:30:28 GMT 
+Mon, 01 Jul 2024 20:30:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.12..@fluentui/react-rating_v9.0.13)
 
 ### Patches
 
-- chore: Update react-icons package to ^2.0.245 ([PR #31802](https://github.com/microsoft/fluentui/pull/31802) by ololubek@microsoft.com)
-- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by seanmonahan@microsoft.com)
+- chore: Update react-icons package to ^2.0.245 ([PR #31802](https://github.com/microsoft/fluentui/pull/31802) by <ololubek@microsoft.com>)
+- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.40 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-tabster to v9.22.1 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-utilities to v9.18.11 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 
 ## [9.0.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.12)
 
-Mon, 17 Jun 2024 07:34:17 GMT 
+Mon, 17 Jun 2024 07:34:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-rating_v9.0.11..@fluentui/react-rating_v9.0.12)
 
 ### Patches
@@ -546,7 +546,7 @@ Thu, 23 May 2024 08:02:47 GMT
 
 ### Patches
 
-- chore: replace usage of .shorthands() in styles ([PR #31449](https://github.com/microsoft/fluentui/pull/31449) by olfedias@microsoft.com)
+- chore: replace usage of .shorthands() in styles ([PR #31449](https://github.com/microsoft/fluentui/pull/31449) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.21.4 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 
 ## [9.0.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.9)
@@ -556,7 +556,7 @@ Mon, 20 May 2024 12:45:02 GMT
 
 ### Patches
 
-- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by olfedias@microsoft.com)
+- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.38 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-tabster to v9.21.3 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-utilities to v9.18.9 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
@@ -568,7 +568,7 @@ Thu, 16 May 2024 09:25:17 GMT
 
 ### Patches
 
-- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by ololubek@microsoft.com)
+- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by <ololubek@microsoft.com>)
 
 ## [9.0.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.7)
 
@@ -597,7 +597,7 @@ Thu, 02 May 2024 11:36:36 GMT
 
 ### Patches
 
-- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by ololubek@microsoft.com)
+- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.21.0 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 
 ## [9.0.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.4)
@@ -618,8 +618,8 @@ Wed, 17 Apr 2024 21:53:56 GMT
 
 ### Patches
 
-- chore: Update RatingDisplay value margin-left tokens. ([PR #31034](https://github.com/microsoft/fluentui/pull/31034) by ololubek@microsoft.com)
-- chore: Update react-icons to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by ololubek@microsoft.com)
+- chore: Update RatingDisplay value margin-left tokens. ([PR #31034](https://github.com/microsoft/fluentui/pull/31034) by <ololubek@microsoft.com>)
+- chore: Update react-icons to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.20.0 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 
 ## [9.0.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating_v9.0.2)
@@ -652,7 +652,7 @@ Fri, 15 Mar 2024 21:43:49 GMT
 
 ### Minor changes
 
-- 'feat: Release Rating to stable. ([PR #30740](https://github.com/microsoft/fluentui/pull/30740) by ololubek@microsoft.com)
+- 'feat: Release Rating to stable. ([PR #30740](https://github.com/microsoft/fluentui/pull/30740) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.33 ([PR #30740](https://github.com/microsoft/fluentui/pull/30740) by beachball)
 - Bump @fluentui/react-theme to v9.1.18 ([PR #30740](https://github.com/microsoft/fluentui/pull/30740) by beachball)
 - Bump @fluentui/react-tabster to v9.19.4 ([PR #30740](https://github.com/microsoft/fluentui/pull/30740) by beachball)
@@ -665,7 +665,7 @@ Thu, 07 Mar 2024 19:33:24 GMT
 
 ### Minor changes
 
-- breaking: Update icon api type to ElementType ([PR #30666](https://github.com/microsoft/fluentui/pull/30666) by ololubek@microsoft.com)
+- breaking: Update icon api type to ElementType ([PR #30666](https://github.com/microsoft/fluentui/pull/30666) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.32 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-theme to v9.1.17 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-tabster to v9.19.3 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
@@ -673,7 +673,7 @@ Thu, 07 Mar 2024 19:33:24 GMT
 
 ### Patches
 
-- chore: Update jsdocs and stories in Rating ([PR #30653](https://github.com/microsoft/fluentui/pull/30653) by ololubek@microsoft.com)
+- chore: Update jsdocs and stories in Rating ([PR #30653](https://github.com/microsoft/fluentui/pull/30653) by <ololubek@microsoft.com>)
 
 ## [0.3.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating-preview_v0.3.2)
 
@@ -682,9 +682,9 @@ Wed, 28 Feb 2024 02:34:18 GMT
 
 ### Patches
 
-- fix: Add focus border styling to Rating ([PR #30581](https://github.com/microsoft/fluentui/pull/30581) by ololubek@microsoft.com)
-- fix: update RatingItem styling to use flex to align all items properly ([PR #30638](https://github.com/microsoft/fluentui/pull/30638) by ololubek@microsoft.com)
-- fix: Add flex wrap to Rating and RatingDisplay ([PR #30639](https://github.com/microsoft/fluentui/pull/30639) by ololubek@microsoft.com)
+- fix: Add focus border styling to Rating ([PR #30581](https://github.com/microsoft/fluentui/pull/30581) by <ololubek@microsoft.com>)
+- fix: update RatingItem styling to use flex to align all items properly ([PR #30638](https://github.com/microsoft/fluentui/pull/30638) by <ololubek@microsoft.com>)
+- fix: Add flex wrap to Rating and RatingDisplay ([PR #30639](https://github.com/microsoft/fluentui/pull/30639) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.31 ([PR #30639](https://github.com/microsoft/fluentui/pull/30639) by beachball)
 - Bump @fluentui/react-tabster to v9.19.2 ([PR #30639](https://github.com/microsoft/fluentui/pull/30639) by beachball)
 - Bump @fluentui/react-utilities to v9.18.2 ([PR #30639](https://github.com/microsoft/fluentui/pull/30639) by beachball)
@@ -696,8 +696,8 @@ Tue, 20 Feb 2024 14:22:24 GMT
 
 ### Patches
 
-- fix: remove component assignment from prop destructuring ([PR #30520](https://github.com/microsoft/fluentui/pull/30520) by seanmonahan@microsoft.com)
-- fix: update vertical styling for RatingDisplay to fix vertical alignment ([PR #30465](https://github.com/microsoft/fluentui/pull/30465) by ololubek@microsoft.com)
+- fix: remove component assignment from prop destructuring ([PR #30520](https://github.com/microsoft/fluentui/pull/30520) by <seanmonahan@microsoft.com>)
+- fix: update vertical styling for RatingDisplay to fix vertical alignment ([PR #30465](https://github.com/microsoft/fluentui/pull/30465) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.30 ([PR #30543](https://github.com/microsoft/fluentui/pull/30543) by beachball)
 - Bump @fluentui/react-tabster to v9.19.1 ([PR #30543](https://github.com/microsoft/fluentui/pull/30543) by beachball)
 - Bump @fluentui/react-utilities to v9.18.1 ([PR #30543](https://github.com/microsoft/fluentui/pull/30543) by beachball)
@@ -709,13 +709,13 @@ Tue, 06 Feb 2024 17:55:19 GMT
 
 ### Minor changes
 
-- chore: Simplify high contrast visuals for RatingItem, and remove iconOutline from RatingDisplay ([PR #30457](https://github.com/microsoft/fluentui/pull/30457) by behowell@microsoft.com)
+- chore: Simplify high contrast visuals for RatingItem, and remove iconOutline from RatingDisplay ([PR #30457](https://github.com/microsoft/fluentui/pull/30457) by <behowell@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.19.0 ([PR #30392](https://github.com/microsoft/fluentui/pull/30392) by beachball)
 
 ### Patches
 
-- chore: add accesibility props to Rating and RatingDisplay ([PR #30414](https://github.com/microsoft/fluentui/pull/30414) by ololubek@microsoft.com)
-- chore: add accessibility props to Rating and RatingDisplay ([PR #30421](https://github.com/microsoft/fluentui/pull/30421) by ololubek@microsoft.com)
+- chore: add accesibility props to Rating and RatingDisplay ([PR #30414](https://github.com/microsoft/fluentui/pull/30414) by <ololubek@microsoft.com>)
+- chore: add accessibility props to Rating and RatingDisplay ([PR #30421](https://github.com/microsoft/fluentui/pull/30421) by <ololubek@microsoft.com>)
 
 ## [0.2.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating-preview_v0.2.1)
 
@@ -735,7 +735,7 @@ Fri, 26 Jan 2024 10:40:21 GMT
 
 ### Minor changes
 
-- feat: Add RatingDisplay component ([PR #30323](https://github.com/microsoft/fluentui/pull/30323) by ololubek@microsoft.com)
+- feat: Add RatingDisplay component ([PR #30323](https://github.com/microsoft/fluentui/pull/30323) by <ololubek@microsoft.com>)
 
 ## [0.1.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating-preview_v0.1.6)
 
@@ -777,7 +777,7 @@ Tue, 16 Jan 2024 13:14:23 GMT
 
 ### Patches
 
-- Scaffold RatingDisplay ([PR #30283](https://github.com/microsoft/fluentui/pull/30283) by ololubek@microsoft.com)
+- Scaffold RatingDisplay ([PR #30283](https://github.com/microsoft/fluentui/pull/30283) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.25 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-tabster to v9.17.1 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 
@@ -788,7 +788,7 @@ Thu, 11 Jan 2024 09:04:29 GMT
 
 ### Patches
 
-- chore: Updating doc stories and API. ([PR #30092](https://github.com/microsoft/fluentui/pull/30092) by ololubek@microsoft.com)
+- chore: Updating doc stories and API. ([PR #30092](https://github.com/microsoft/fluentui/pull/30092) by <ololubek@microsoft.com>)
 
 ## [0.1.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-rating-preview_v0.1.1)
 
@@ -807,7 +807,7 @@ Wed, 03 Jan 2024 09:26:43 GMT
 
 ### Minor changes
 
-- 'feat: release rating to preview ([PR #30153](https://github.com/microsoft/fluentui/pull/30153) by ololubek@microsoft.com)
+- 'feat: release rating to preview ([PR #30153](https://github.com/microsoft/fluentui/pull/30153) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.23 ([PR #30163](https://github.com/microsoft/fluentui/pull/30163) by beachball)
 - Bump @fluentui/react-tabster to v9.16.1 ([PR #30163](https://github.com/microsoft/fluentui/pull/30163) by beachball)
 - Bump @fluentui/react-utilities to v9.15.5 ([PR #30163](https://github.com/microsoft/fluentui/pull/30163) by beachball)

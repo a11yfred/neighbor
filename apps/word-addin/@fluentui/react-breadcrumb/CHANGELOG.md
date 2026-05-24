@@ -6,13 +6,13 @@ This log was last generated on Thu, 23 Apr 2026 11:59:40 GMT and should not be m
 
 ## [9.4.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.4.1)
 
-Thu, 23 Apr 2026 11:59:40 GMT 
+Thu, 23 Apr 2026 11:59:40 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.4.0..@fluentui/react-breadcrumb_v9.4.1)
 
 ### Patches
 
-- fix: update types for render function ([PR #35972](https://github.com/microsoft/fluentui/pull/35972) by dmytrokirpa@microsoft.com)
-- fix(react-breadcrumb): wrong appearance applied by default to BreadcrumbButton ([PR #35970](https://github.com/microsoft/fluentui/pull/35970) by dmytrokirpa@microsoft.com)
+- fix: update types for render function ([PR #35972](https://github.com/microsoft/fluentui/pull/35972) by <dmytrokirpa@microsoft.com>)
+- fix(react-breadcrumb): wrong appearance applied by default to BreadcrumbButton ([PR #35970](https://github.com/microsoft/fluentui/pull/35970) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-aria to v9.17.11 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-button to v9.9.1 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-link to v9.8.1 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
@@ -22,18 +22,18 @@ Thu, 23 Apr 2026 11:59:40 GMT
 
 ## [9.4.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.4.0)
 
-Thu, 26 Mar 2026 08:12:47 GMT 
+Thu, 26 Mar 2026 08:12:47 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.17..@fluentui/react-breadcrumb_v9.4.0)
 
 ### Minor changes
 
-- feat: add base hooks for Breadcrumb ([PR #35819](https://github.com/microsoft/fluentui/pull/35819) by dmytrokirpa@microsoft.com)
+- feat: add base hooks for Breadcrumb ([PR #35819](https://github.com/microsoft/fluentui/pull/35819) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-button to v9.9.0 ([PR #35824](https://github.com/microsoft/fluentui/pull/35824) by beachball)
 - Bump @fluentui/react-link to v9.8.0 ([PR #35824](https://github.com/microsoft/fluentui/pull/35824) by beachball)
 
 ## [9.3.17](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.17)
 
-Wed, 25 Feb 2026 13:32:28 GMT 
+Wed, 25 Feb 2026 13:32:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.16..@fluentui/react-breadcrumb_v9.3.17)
 
 ### Patches
@@ -48,7 +48,7 @@ Wed, 25 Feb 2026 13:32:28 GMT
 
 ## [9.3.16](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.16)
 
-Thu, 12 Feb 2026 10:46:15 GMT 
+Thu, 12 Feb 2026 10:46:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.15..@fluentui/react-breadcrumb_v9.3.16)
 
 ### Patches
@@ -60,7 +60,7 @@ Thu, 12 Feb 2026 10:46:15 GMT
 
 ## [9.3.15](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.15)
 
-Thu, 22 Jan 2026 17:07:02 GMT 
+Thu, 22 Jan 2026 17:07:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.14..@fluentui/react-breadcrumb_v9.3.15)
 
 ### Patches
@@ -76,7 +76,7 @@ Thu, 22 Jan 2026 17:07:02 GMT
 
 ## [9.3.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.14)
 
-Wed, 17 Dec 2025 18:10:11 GMT 
+Wed, 17 Dec 2025 18:10:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.13..@fluentui/react-breadcrumb_v9.3.14)
 
 ### Patches
@@ -90,7 +90,7 @@ Wed, 17 Dec 2025 18:10:11 GMT
 
 ## [9.3.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.13)
 
-Fri, 05 Dec 2025 22:38:44 GMT 
+Fri, 05 Dec 2025 22:38:44 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.12..@fluentui/react-breadcrumb_v9.3.13)
 
 ### Patches
@@ -99,12 +99,12 @@ Fri, 05 Dec 2025 22:38:44 GMT
 
 ## [9.3.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.12)
 
-Tue, 11 Nov 2025 19:18:17 GMT 
+Tue, 11 Nov 2025 19:18:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.11..@fluentui/react-breadcrumb_v9.3.12)
 
 ### Patches
 
-- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by estebanmu@microsoft.com)
+- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by <estebanmu@microsoft.com>)
 - Bump @fluentui/react-aria to v9.17.6 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-button to v9.6.12 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-link to v9.7.0 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
@@ -115,7 +115,7 @@ Tue, 11 Nov 2025 19:18:17 GMT
 
 ## [9.3.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.11)
 
-Thu, 06 Nov 2025 15:01:25 GMT 
+Thu, 06 Nov 2025 15:01:25 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.10..@fluentui/react-breadcrumb_v9.3.11)
 
 ### Patches
@@ -129,7 +129,7 @@ Thu, 06 Nov 2025 15:01:25 GMT
 
 ## [9.3.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.10)
 
-Fri, 31 Oct 2025 16:22:06 GMT 
+Fri, 31 Oct 2025 16:22:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.9..@fluentui/react-breadcrumb_v9.3.10)
 
 ### Patches
@@ -143,7 +143,7 @@ Fri, 31 Oct 2025 16:22:06 GMT
 
 ## [9.3.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.9)
 
-Tue, 21 Oct 2025 14:16:59 GMT 
+Tue, 21 Oct 2025 14:16:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.8..@fluentui/react-breadcrumb_v9.3.9)
 
 ### Patches
@@ -155,7 +155,7 @@ Tue, 21 Oct 2025 14:16:59 GMT
 
 ## [9.3.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.8)
 
-Wed, 08 Oct 2025 12:04:53 GMT 
+Wed, 08 Oct 2025 12:04:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.7..@fluentui/react-breadcrumb_v9.3.8)
 
 ### Patches
@@ -169,12 +169,12 @@ Wed, 08 Oct 2025 12:04:53 GMT
 
 ## [9.3.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.7)
 
-Thu, 02 Oct 2025 15:12:12 GMT 
+Thu, 02 Oct 2025 15:12:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.6..@fluentui/react-breadcrumb_v9.3.7)
 
 ### Patches
 
-- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by dmytrokirpa@microsoft.com)
+- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-aria to v9.17.1 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-button to v9.6.7 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-link to v9.6.6 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
@@ -185,14 +185,14 @@ Thu, 02 Oct 2025 15:12:12 GMT
 
 ## [9.3.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.6)
 
-Mon, 08 Sep 2025 12:51:24 GMT 
+Mon, 08 Sep 2025 12:51:24 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.5..@fluentui/react-breadcrumb_v9.3.6)
 
 ### Patches
 
-- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by dmytrokirpa@microsoft.com)
-- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by dmytrokirpa@microsoft.com)
-- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by dmytrokirpa@microsoft.com)
+- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by <dmytrokirpa@microsoft.com>)
+- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by <dmytrokirpa@microsoft.com>)
+- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-aria to v9.17.0 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-button to v9.6.6 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-link to v9.6.5 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
@@ -203,7 +203,7 @@ Mon, 08 Sep 2025 12:51:24 GMT
 
 ## [9.3.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.5)
 
-Thu, 21 Aug 2025 12:25:27 GMT 
+Thu, 21 Aug 2025 12:25:27 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.4..@fluentui/react-breadcrumb_v9.3.5)
 
 ### Patches
@@ -218,7 +218,7 @@ Thu, 21 Aug 2025 12:25:27 GMT
 
 ## [9.3.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.4)
 
-Thu, 07 Aug 2025 10:03:33 GMT 
+Thu, 07 Aug 2025 10:03:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.3..@fluentui/react-breadcrumb_v9.3.4)
 
 ### Patches
@@ -232,7 +232,7 @@ Thu, 07 Aug 2025 10:03:33 GMT
 
 ## [9.3.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.3)
 
-Wed, 30 Jul 2025 16:55:43 GMT 
+Wed, 30 Jul 2025 16:55:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.2..@fluentui/react-breadcrumb_v9.3.3)
 
 ### Patches
@@ -242,7 +242,7 @@ Wed, 30 Jul 2025 16:55:43 GMT
 
 ## [9.3.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.2)
 
-Wed, 30 Jul 2025 13:10:57 GMT 
+Wed, 30 Jul 2025 13:10:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.1..@fluentui/react-breadcrumb_v9.3.2)
 
 ### Patches
@@ -258,7 +258,7 @@ Wed, 30 Jul 2025 13:10:57 GMT
 
 ## [9.3.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.1)
 
-Mon, 28 Jul 2025 18:48:21 GMT 
+Mon, 28 Jul 2025 18:48:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.3.0..@fluentui/react-breadcrumb_v9.3.1)
 
 ### Patches
@@ -272,12 +272,12 @@ Mon, 28 Jul 2025 18:48:21 GMT
 
 ## [9.3.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.3.0)
 
-Thu, 17 Jul 2025 13:49:34 GMT 
+Thu, 17 Jul 2025 13:49:34 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.2.5..@fluentui/react-breadcrumb_v9.3.0)
 
 ### Minor changes
 
-- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by martinhochel@microsoft.com)
+- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-aria to v9.15.4 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 - Bump @fluentui/react-button to v9.6.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 - Bump @fluentui/react-link to v9.6.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
@@ -285,7 +285,7 @@ Thu, 17 Jul 2025 13:49:34 GMT
 
 ## [9.2.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.2.5)
 
-Fri, 27 Jun 2025 13:39:41 GMT 
+Fri, 27 Jun 2025 13:39:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.2.4..@fluentui/react-breadcrumb_v9.2.5)
 
 ### Patches
@@ -297,7 +297,7 @@ Fri, 27 Jun 2025 13:39:41 GMT
 
 ## [9.2.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.2.4)
 
-Thu, 26 Jun 2025 14:11:55 GMT 
+Thu, 26 Jun 2025 14:11:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.2.2..@fluentui/react-breadcrumb_v9.2.4)
 
 ### Patches
@@ -311,7 +311,7 @@ Thu, 26 Jun 2025 14:11:55 GMT
 
 ## [9.2.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.2.2)
 
-Wed, 18 Jun 2025 17:34:00 GMT 
+Wed, 18 Jun 2025 17:34:00 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.2.0..@fluentui/react-breadcrumb_v9.2.2)
 
 ### Patches
@@ -326,7 +326,7 @@ Wed, 18 Jun 2025 17:34:00 GMT
 
 ## [9.2.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.2.0)
 
-Thu, 12 Jun 2025 09:43:33 GMT 
+Thu, 12 Jun 2025 09:43:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.1.8..@fluentui/react-breadcrumb_v9.2.0)
 
 ### Minor changes
@@ -340,7 +340,7 @@ Thu, 12 Jun 2025 09:43:33 GMT
 
 ## [9.1.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.1.8)
 
-Fri, 06 Jun 2025 13:15:17 GMT 
+Fri, 06 Jun 2025 13:15:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.1.7..@fluentui/react-breadcrumb_v9.1.8)
 
 ### Patches
@@ -354,7 +354,7 @@ Fri, 06 Jun 2025 13:15:17 GMT
 
 ## [9.1.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.1.7)
 
-Wed, 14 May 2025 18:49:20 GMT 
+Wed, 14 May 2025 18:49:20 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.1.6..@fluentui/react-breadcrumb_v9.1.7)
 
 ### Patches
@@ -366,7 +366,7 @@ Wed, 14 May 2025 18:49:20 GMT
 
 ## [9.1.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.1.6)
 
-Thu, 24 Apr 2025 09:59:45 GMT 
+Thu, 24 Apr 2025 09:59:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.1.5..@fluentui/react-breadcrumb_v9.1.6)
 
 ### Patches
@@ -378,7 +378,7 @@ Thu, 24 Apr 2025 09:59:45 GMT
 
 ## [9.1.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.1.5)
 
-Wed, 16 Apr 2025 19:42:18 GMT 
+Wed, 16 Apr 2025 19:42:18 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.1.4..@fluentui/react-breadcrumb_v9.1.5)
 
 ### Patches
@@ -392,7 +392,7 @@ Wed, 16 Apr 2025 19:42:18 GMT
 
 ## [9.1.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.1.4)
 
-Tue, 01 Apr 2025 15:08:02 GMT 
+Tue, 01 Apr 2025 15:08:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.1.3..@fluentui/react-breadcrumb_v9.1.4)
 
 ### Patches
@@ -404,7 +404,7 @@ Tue, 01 Apr 2025 15:08:02 GMT
 
 ## [9.1.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.1.3)
 
-Thu, 27 Mar 2025 21:12:51 GMT 
+Thu, 27 Mar 2025 21:12:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.1.2..@fluentui/react-breadcrumb_v9.1.3)
 
 ### Patches
@@ -419,7 +419,7 @@ Thu, 27 Mar 2025 21:12:51 GMT
 
 ## [9.1.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.1.2)
 
-Wed, 19 Mar 2025 15:40:43 GMT 
+Wed, 19 Mar 2025 15:40:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.1.1..@fluentui/react-breadcrumb_v9.1.2)
 
 ### Patches
@@ -434,7 +434,7 @@ Wed, 19 Mar 2025 15:40:43 GMT
 
 ## [9.1.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.1.1)
 
-Tue, 11 Mar 2025 18:58:54 GMT 
+Tue, 11 Mar 2025 18:58:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.1.0..@fluentui/react-breadcrumb_v9.1.1)
 
 ### Patches
@@ -449,7 +449,7 @@ Tue, 11 Mar 2025 18:58:54 GMT
 
 ## [9.1.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.1.0)
 
-Fri, 21 Feb 2025 14:34:05 GMT 
+Fri, 21 Feb 2025 14:34:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.52..@fluentui/react-breadcrumb_v9.1.0)
 
 ### Minor changes
@@ -461,7 +461,7 @@ Fri, 21 Feb 2025 14:34:05 GMT
 
 ## [9.0.52](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.52)
 
-Fri, 07 Feb 2025 10:42:12 GMT 
+Fri, 07 Feb 2025 10:42:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.51..@fluentui/react-breadcrumb_v9.0.52)
 
 ### Patches
@@ -470,7 +470,7 @@ Fri, 07 Feb 2025 10:42:12 GMT
 
 ## [9.0.51](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.51)
 
-Tue, 28 Jan 2025 21:26:35 GMT 
+Tue, 28 Jan 2025 21:26:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.49..@fluentui/react-breadcrumb_v9.0.51)
 
 ### Patches
@@ -479,7 +479,7 @@ Tue, 28 Jan 2025 21:26:35 GMT
 
 ## [9.0.49](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.49)
 
-Wed, 22 Jan 2025 14:00:21 GMT 
+Wed, 22 Jan 2025 14:00:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.48..@fluentui/react-breadcrumb_v9.0.49)
 
 ### Patches
@@ -493,7 +493,7 @@ Wed, 22 Jan 2025 14:00:21 GMT
 
 ## [9.0.48](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.48)
 
-Wed, 08 Jan 2025 18:33:36 GMT 
+Wed, 08 Jan 2025 18:33:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.46..@fluentui/react-breadcrumb_v9.0.48)
 
 ### Patches
@@ -505,7 +505,7 @@ Wed, 08 Jan 2025 18:33:36 GMT
 
 ## [9.0.46](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.46)
 
-Mon, 16 Dec 2024 16:26:49 GMT 
+Mon, 16 Dec 2024 16:26:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.45..@fluentui/react-breadcrumb_v9.0.46)
 
 ### Patches
@@ -521,24 +521,24 @@ Mon, 16 Dec 2024 16:26:49 GMT
 
 ## [9.0.45](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.45)
 
-Mon, 09 Dec 2024 17:38:09 GMT 
+Mon, 09 Dec 2024 17:38:09 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.44..@fluentui/react-breadcrumb_v9.0.45)
 
 ### Patches
 
-- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by olfedias@microsoft.com)
+- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-aria to v9.13.11 ([PR #33431](https://github.com/microsoft/fluentui/pull/33431) by beachball)
 - Bump @fluentui/react-button to v9.3.97 ([PR #33431](https://github.com/microsoft/fluentui/pull/33431) by beachball)
 - Bump @fluentui/react-link to v9.3.4 ([PR #33431](https://github.com/microsoft/fluentui/pull/33431) by beachball)
 
 ## [9.0.44](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.44)
 
-Fri, 06 Dec 2024 12:53:38 GMT 
+Fri, 06 Dec 2024 12:53:38 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.42..@fluentui/react-breadcrumb_v9.0.44)
 
 ### Patches
 
-- Updated README.md ([PR #33385](https://github.com/microsoft/fluentui/pull/33385) by vkozlova@microsoft.com)
+- Updated README.md ([PR #33385](https://github.com/microsoft/fluentui/pull/33385) by <vkozlova@microsoft.com>)
 - Bump @fluentui/react-aria to v9.13.10 ([PR #33372](https://github.com/microsoft/fluentui/pull/33372) by beachball)
 - Bump @fluentui/react-button to v9.3.96 ([PR #33372](https://github.com/microsoft/fluentui/pull/33372) by beachball)
 - Bump @fluentui/react-link to v9.3.3 ([PR #33372](https://github.com/microsoft/fluentui/pull/33372) by beachball)
@@ -550,12 +550,12 @@ Fri, 06 Dec 2024 12:53:38 GMT
 
 ## [9.0.42](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.42)
 
-Mon, 11 Nov 2024 10:01:06 GMT 
+Mon, 11 Nov 2024 10:01:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.41..@fluentui/react-breadcrumb_v9.0.42)
 
 ### Patches
 
-- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by martinhochel@microsoft.com)
+- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-aria to v9.13.9 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-button to v9.3.95 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-link to v9.3.2 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
@@ -567,7 +567,7 @@ Mon, 11 Nov 2024 10:01:06 GMT
 
 ## [9.0.41](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.41)
 
-Tue, 15 Oct 2024 17:17:53 GMT 
+Tue, 15 Oct 2024 17:17:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.40..@fluentui/react-breadcrumb_v9.0.41)
 
 ### Patches
@@ -583,7 +583,7 @@ Tue, 15 Oct 2024 17:17:53 GMT
 
 ## [9.0.40](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.40)
 
-Tue, 08 Oct 2024 22:05:59 GMT 
+Tue, 08 Oct 2024 22:05:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.39..@fluentui/react-breadcrumb_v9.0.40)
 
 ### Patches
@@ -595,7 +595,7 @@ Tue, 08 Oct 2024 22:05:59 GMT
 
 ## [9.0.39](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.39)
 
-Thu, 26 Sep 2024 14:15:28 GMT 
+Thu, 26 Sep 2024 14:15:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.38..@fluentui/react-breadcrumb_v9.0.39)
 
 ### Patches
@@ -604,7 +604,7 @@ Thu, 26 Sep 2024 14:15:28 GMT
 
 ## [9.0.38](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.38)
 
-Mon, 23 Sep 2024 12:40:17 GMT 
+Mon, 23 Sep 2024 12:40:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.37..@fluentui/react-breadcrumb_v9.0.38)
 
 ### Patches
@@ -620,7 +620,7 @@ Mon, 23 Sep 2024 12:40:17 GMT
 
 ## [9.0.37](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.37)
 
-Tue, 10 Sep 2024 10:19:12 GMT 
+Tue, 10 Sep 2024 10:19:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.36..@fluentui/react-breadcrumb_v9.0.37)
 
 ### Patches
@@ -634,7 +634,7 @@ Tue, 10 Sep 2024 10:19:12 GMT
 
 ## [9.0.36](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.36)
 
-Thu, 15 Aug 2024 13:49:46 GMT 
+Thu, 15 Aug 2024 13:49:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.35..@fluentui/react-breadcrumb_v9.0.36)
 
 ### Patches
@@ -646,7 +646,7 @@ Thu, 15 Aug 2024 13:49:46 GMT
 
 ## [9.0.35](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.35)
 
-Thu, 15 Aug 2024 08:22:08 GMT 
+Thu, 15 Aug 2024 08:22:08 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.33..@fluentui/react-breadcrumb_v9.0.35)
 
 ### Patches
@@ -658,7 +658,7 @@ Thu, 15 Aug 2024 08:22:08 GMT
 
 ## [9.0.33](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.33)
 
-Tue, 23 Jul 2024 20:13:14 GMT 
+Tue, 23 Jul 2024 20:13:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.32..@fluentui/react-breadcrumb_v9.0.33)
 
 ### Patches
@@ -673,12 +673,12 @@ Tue, 23 Jul 2024 20:13:14 GMT
 
 ## [9.0.32](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.32)
 
-Mon, 15 Jul 2024 17:25:53 GMT 
+Mon, 15 Jul 2024 17:25:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.31..@fluentui/react-breadcrumb_v9.0.32)
 
 ### Patches
 
-- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by martinhochel@microsoft.com)
+- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-aria to v9.13.1 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-button to v9.3.86 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-link to v9.2.27 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
@@ -689,13 +689,13 @@ Mon, 15 Jul 2024 17:25:53 GMT
 
 ## [9.0.31](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.31)
 
-Mon, 01 Jul 2024 20:30:42 GMT 
+Mon, 01 Jul 2024 20:30:42 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.30..@fluentui/react-breadcrumb_v9.0.31)
 
 ### Patches
 
-- chore: Update react-icons package to ^2.0.245 ([PR #31802](https://github.com/microsoft/fluentui/pull/31802) by ololubek@microsoft.com)
-- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by seanmonahan@microsoft.com)
+- chore: Update react-icons package to ^2.0.245 ([PR #31802](https://github.com/microsoft/fluentui/pull/31802) by <ololubek@microsoft.com>)
+- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-aria to v9.13.0 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-button to v9.3.85 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-link to v9.2.26 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
@@ -705,7 +705,7 @@ Mon, 01 Jul 2024 20:30:42 GMT
 
 ## [9.0.30](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.30)
 
-Mon, 17 Jun 2024 07:34:17 GMT 
+Mon, 17 Jun 2024 07:34:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.29..@fluentui/react-breadcrumb_v9.0.30)
 
 ### Patches
@@ -717,7 +717,7 @@ Mon, 17 Jun 2024 07:34:17 GMT
 
 ## [9.0.29](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.29)
 
-Thu, 06 Jun 2024 15:26:30 GMT 
+Thu, 06 Jun 2024 15:26:30 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-breadcrumb_v9.0.28..@fluentui/react-breadcrumb_v9.0.29)
 
 ### Patches
@@ -736,7 +736,7 @@ Thu, 23 May 2024 08:02:40 GMT
 
 ### Patches
 
-- chore: replace usage of .shorthands() in styles ([PR #31448](https://github.com/microsoft/fluentui/pull/31448) by olfedias@microsoft.com)
+- chore: replace usage of .shorthands() in styles ([PR #31448](https://github.com/microsoft/fluentui/pull/31448) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-aria to v9.11.4 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 - Bump @fluentui/react-button to v9.3.82 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 - Bump @fluentui/react-link to v9.2.23 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
@@ -749,7 +749,7 @@ Mon, 20 May 2024 12:44:52 GMT
 
 ### Patches
 
-- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by olfedias@microsoft.com)
+- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-aria to v9.11.3 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-button to v9.3.81 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-link to v9.2.22 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
@@ -765,7 +765,7 @@ Thu, 16 May 2024 09:25:12 GMT
 
 ### Patches
 
-- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by ololubek@microsoft.com)
+- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.80 ([PR #31390](https://github.com/microsoft/fluentui/pull/31390) by beachball)
 
 ## [9.0.25](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.25)
@@ -802,7 +802,7 @@ Thu, 02 May 2024 11:36:30 GMT
 
 ### Patches
 
-- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by ololubek@microsoft.com)
+- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-aria to v9.11.0 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 - Bump @fluentui/react-button to v9.3.77 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 - Bump @fluentui/react-link to v9.2.19 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
@@ -830,7 +830,7 @@ Wed, 17 Apr 2024 21:53:48 GMT
 
 ### Patches
 
-- chore: Update react-icons version to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by ololubek@microsoft.com)
+- chore: Update react-icons version to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-aria to v9.10.4 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 - Bump @fluentui/react-button to v9.3.75 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 - Bump @fluentui/react-link to v9.2.17 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
@@ -921,7 +921,7 @@ Tue, 20 Feb 2024 14:22:17 GMT
 
 ### Patches
 
-- fix: moved sized icons to styling ([PR #30551](https://github.com/microsoft/fluentui/pull/30551) by vkozlova@microsoft.com)
+- fix: moved sized icons to styling ([PR #30551](https://github.com/microsoft/fluentui/pull/30551) by <vkozlova@microsoft.com>)
 - Bump @fluentui/react-aria to v9.9.0 ([PR #30543](https://github.com/microsoft/fluentui/pull/30543) by beachball)
 - Bump @fluentui/react-button to v9.3.69 ([PR #30543](https://github.com/microsoft/fluentui/pull/30543) by beachball)
 - Bump @fluentui/react-link to v9.2.11 ([PR #30543](https://github.com/microsoft/fluentui/pull/30543) by beachball)
@@ -1005,7 +1005,7 @@ Tue, 16 Jan 2024 13:14:14 GMT
 
 ### Patches
 
-- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by mgodbolt@microsoft.com)
+- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-aria to v9.7.1 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-button to v9.3.63 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-link to v9.2.5 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
@@ -1029,7 +1029,7 @@ Mon, 08 Jan 2024 16:24:20 GMT
 
 ### Patches
 
-- Update version of @fluentui/react-icons to 2.0.224 ([PR #30078](https://github.com/microsoft/fluentui/pull/30078) by ololubek@microsoft.com)
+- Update version of @fluentui/react-icons to 2.0.224 ([PR #30078](https://github.com/microsoft/fluentui/pull/30078) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-aria to v9.6.2 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
 - Bump @fluentui/react-button to v9.3.61 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
 - Bump @fluentui/react-link to v9.2.4 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
@@ -1058,7 +1058,7 @@ Thu, 21 Dec 2023 17:00:40 GMT
 
 ### Patches
 
-- fix(breadcrumb): BreadcrumbButton focus border has incorrent width and transition ([PR #30135](https://github.com/microsoft/fluentui/pull/30135) by vkozlova@microsoft.com)
+- fix(breadcrumb): BreadcrumbButton focus border has incorrent width and transition ([PR #30135](https://github.com/microsoft/fluentui/pull/30135) by <vkozlova@microsoft.com>)
 
 ## [9.0.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb_v9.0.4)
 
@@ -1067,7 +1067,7 @@ Mon, 18 Dec 2023 14:40:44 GMT
 
 ### Patches
 
-- partitionBreadcrumbItems miscalculated endDisplayedItems when endDisplayedItems is incorrect when numberOfItemsToHide <= 0 ([PR #30005](https://github.com/microsoft/fluentui/pull/30005) by GordonJSmith@gmail.com)
+- partitionBreadcrumbItems miscalculated endDisplayedItems when endDisplayedItems is incorrect when numberOfItemsToHide <= 0 ([PR #30005](https://github.com/microsoft/fluentui/pull/30005) by <GordonJSmith@gmail.com>)
 - Bump @fluentui/react-aria to v9.6.0 ([PR #30103](https://github.com/microsoft/fluentui/pull/30103) by beachball)
 - Bump @fluentui/react-button to v9.3.59 ([PR #30103](https://github.com/microsoft/fluentui/pull/30103) by beachball)
 - Bump @fluentui/react-link to v9.2.2 ([PR #30103](https://github.com/microsoft/fluentui/pull/30103) by beachball)
@@ -1123,14 +1123,14 @@ Tue, 14 Nov 2023 17:51:26 GMT
 
 ### Minor changes
 
-- feat: release stable ([PR #29826](https://github.com/microsoft/fluentui/pull/29826) by marcosvmmoura@gmail.com)
+- feat: release stable ([PR #29826](https://github.com/microsoft/fluentui/pull/29826) by <marcosvmmoura@gmail.com>)
 - Bump @fluentui/react-button to v9.3.55 ([PR #29835](https://github.com/microsoft/fluentui/pull/29835) by beachball)
 - Bump @fluentui/react-link to v9.1.34 ([PR #29835](https://github.com/microsoft/fluentui/pull/29835) by beachball)
 - Bump @fluentui/react-tabster to v9.14.5 ([PR #29835](https://github.com/microsoft/fluentui/pull/29835) by beachball)
 
 ### Patches
 
-- docs(breadcrumb): removed preview from all the links ([PR #29838](https://github.com/microsoft/fluentui/pull/29838) by vkozlova@microsoft.com)
+- docs(breadcrumb): removed preview from all the links ([PR #29838](https://github.com/microsoft/fluentui/pull/29838) by <vkozlova@microsoft.com>)
 
 ## [2.1.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb-preview_v2.1.2)
 
@@ -1139,7 +1139,7 @@ Fri, 10 Nov 2023 13:46:32 GMT
 
 ### Patches
 
-- fix: use button when no href is defined ([PR #29803](https://github.com/microsoft/fluentui/pull/29803) by sarah.higley@microsoft.com)
+- fix: use button when no href is defined ([PR #29803](https://github.com/microsoft/fluentui/pull/29803) by <sarah.higley@microsoft.com>)
 
 ## [2.1.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb-preview_v2.1.1)
 
@@ -1148,7 +1148,7 @@ Thu, 09 Nov 2023 17:29:50 GMT
 
 ### Patches
 
-- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by martinhochel@microsoft.com)
+- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.54 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-link to v9.1.33 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.12.0 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
@@ -1164,7 +1164,7 @@ Wed, 01 Nov 2023 19:15:55 GMT
 
 ### Minor changes
 
-- feat: made BreadcrumbButton semantically as a link ([PR #29679](https://github.com/microsoft/fluentui/pull/29679) by vkozlova@microsoft.com)
+- feat: made BreadcrumbButton semantically as a link ([PR #29679](https://github.com/microsoft/fluentui/pull/29679) by <vkozlova@microsoft.com>)
 
 ## [2.0.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb-preview_v2.0.1)
 
@@ -1186,8 +1186,8 @@ Sat, 28 Oct 2023 23:35:54 GMT
 
 ### Major changes
 
-- BREAKING CHANGE: Removed non-interactive item and `slash` divider ([PR #29623](https://github.com/microsoft/fluentui/pull/29623) by vkozlova@microsoft.com)
-- BREAKING CHANGE: remove `appearance` prop and set `current` prop for BreadcrumbButton last item ([PR #29554](https://github.com/microsoft/fluentui/pull/29554) by vkozlova@microsoft.com)
+- BREAKING CHANGE: Removed non-interactive item and `slash` divider ([PR #29623](https://github.com/microsoft/fluentui/pull/29623) by <vkozlova@microsoft.com>)
+- BREAKING CHANGE: remove `appearance` prop and set `current` prop for BreadcrumbButton last item ([PR #29554](https://github.com/microsoft/fluentui/pull/29554) by <vkozlova@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.52 ([commit](https://github.com/microsoft/fluentui/commit/555b0fae3ec7f052e765557ae243c58000514f92) by beachball)
 - Bump @fluentui/react-link to v9.1.31 ([commit](https://github.com/microsoft/fluentui/commit/555b0fae3ec7f052e765557ae243c58000514f92) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.11.0 ([commit](https://github.com/microsoft/fluentui/commit/555b0fae3ec7f052e765557ae243c58000514f92) by beachball)
@@ -1224,7 +1224,7 @@ Thu, 12 Oct 2023 14:55:42 GMT
 
 ### Patches
 
-- chore: migrate from getNativeElementProps for getIntrinsicElementProps ([PR #29498](https://github.com/microsoft/fluentui/pull/29498) by bernardo.sunderhus@gmail.com)
+- chore: migrate from getNativeElementProps for getIntrinsicElementProps ([PR #29498](https://github.com/microsoft/fluentui/pull/29498) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-button to v9.3.49 ([PR #29513](https://github.com/microsoft/fluentui/pull/29513) by beachball)
 - Bump @fluentui/react-link to v9.1.28 ([PR #29513](https://github.com/microsoft/fluentui/pull/29513) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.17 ([PR #29513](https://github.com/microsoft/fluentui/pull/29513) by beachball)
@@ -1263,7 +1263,7 @@ Thu, 05 Oct 2023 15:25:29 GMT
 
 ### Minor changes
 
-- feat: register items via context ([PR #29393](https://github.com/microsoft/fluentui/pull/29393) by vkozlova@microsoft.com)
+- feat: register items via context ([PR #29393](https://github.com/microsoft/fluentui/pull/29393) by <vkozlova@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.46 ([PR #29412](https://github.com/microsoft/fluentui/pull/29412) by beachball)
 - Bump @fluentui/react-link to v9.1.25 ([PR #29412](https://github.com/microsoft/fluentui/pull/29412) by beachball)
 - Bump @fluentui/react-tabster to v9.13.4 ([PR #29412](https://github.com/microsoft/fluentui/pull/29412) by beachball)
@@ -1290,8 +1290,8 @@ Mon, 02 Oct 2023 08:56:03 GMT
 
 ### Minor changes
 
-- fix: exported BreadcrumbProvider and useBreadcrumbContext ([PR #29315](https://github.com/microsoft/fluentui/pull/29315) by vkozlova@microsoft.com)
-- feat: add custom styling hooks for Breadcrumb component and its sub-components ([PR #29318](https://github.com/microsoft/fluentui/pull/29318) by vkozlova@microsoft.com)
+- fix: exported BreadcrumbProvider and useBreadcrumbContext ([PR #29315](https://github.com/microsoft/fluentui/pull/29315) by <vkozlova@microsoft.com>)
+- feat: add custom styling hooks for Breadcrumb component and its sub-components ([PR #29318](https://github.com/microsoft/fluentui/pull/29318) by <vkozlova@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.44 ([PR #29301](https://github.com/microsoft/fluentui/pull/29301) by beachball)
 - Bump @fluentui/react-link to v9.1.23 ([PR #29301](https://github.com/microsoft/fluentui/pull/29301) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.9.2 ([PR #29301](https://github.com/microsoft/fluentui/pull/29301) by beachball)
@@ -1304,7 +1304,7 @@ Tue, 26 Sep 2023 17:49:03 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by yuanboxue@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by <yuanboxue@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.43 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-link to v9.1.22 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.9.1 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
@@ -1320,9 +1320,9 @@ Tue, 26 Sep 2023 15:32:04 GMT
 
 ### Patches
 
-- fix: used makeResetStyles instead of makeStyles ([PR #29278](https://github.com/microsoft/fluentui/pull/29278) by vkozlova@microsoft.com)
-- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by martinhochel@microsoft.com)
-- chore: Update react-icons version to pick up IconDirectionContextProvider updated export ([PR #29151](https://github.com/microsoft/fluentui/pull/29151) by ololubek@microsoft.com)
+- fix: used makeResetStyles instead of makeStyles ([PR #29278](https://github.com/microsoft/fluentui/pull/29278) by <vkozlova@microsoft.com>)
+- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by <martinhochel@microsoft.com>)
+- chore: Update react-icons version to pick up IconDirectionContextProvider updated export ([PR #29151](https://github.com/microsoft/fluentui/pull/29151) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.42 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-link to v9.1.21 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.9.0 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
@@ -1338,7 +1338,7 @@ Wed, 20 Sep 2023 17:47:35 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by martinhochel@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.41 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-link to v9.1.20 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.8.1 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
@@ -1352,7 +1352,7 @@ Wed, 20 Sep 2023 14:59:53 GMT
 
 ### Patches
 
-- fix/added CSS variables to BreadcrumbItem icon ([PR #29158](https://github.com/microsoft/fluentui/pull/29158) by vkozlova@microsoft.com)
+- fix/added CSS variables to BreadcrumbItem icon ([PR #29158](https://github.com/microsoft/fluentui/pull/29158) by <vkozlova@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.40 ([PR #29193](https://github.com/microsoft/fluentui/pull/29193) by beachball)
 - Bump @fluentui/react-link to v9.1.19 ([PR #29193](https://github.com/microsoft/fluentui/pull/29193) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.8.0 ([PR #29193](https://github.com/microsoft/fluentui/pull/29193) by beachball)
@@ -1377,7 +1377,7 @@ Tue, 12 Sep 2023 08:51:31 GMT
 
 ### Major changes
 
-- feat: removed breadcrumb-link component ([PR #29112](https://github.com/microsoft/fluentui/pull/29112) by vkozlova@microsoft.com)
+- feat: removed breadcrumb-link component ([PR #29112](https://github.com/microsoft/fluentui/pull/29112) by <vkozlova@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.38 ([PR #29129](https://github.com/microsoft/fluentui/pull/29129) by beachball)
 - Bump @fluentui/react-link to v9.1.17 ([PR #29129](https://github.com/microsoft/fluentui/pull/29129) by beachball)
 - Bump @fluentui/react-tabster to v9.12.9 ([PR #29129](https://github.com/microsoft/fluentui/pull/29129) by beachball)
@@ -1385,7 +1385,7 @@ Tue, 12 Sep 2023 08:51:31 GMT
 
 ### Patches
 
-- fix: icon spacing in Breadcrumb ([PR #29096](https://github.com/microsoft/fluentui/pull/29096) by vkozlova@microsoft.com)
+- fix: icon spacing in Breadcrumb ([PR #29096](https://github.com/microsoft/fluentui/pull/29096) by <vkozlova@microsoft.com>)
 
 ## [0.3.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb-preview_v0.3.8)
 
@@ -1394,7 +1394,7 @@ Wed, 06 Sep 2023 13:31:30 GMT
 
 ### Patches
 
-- fix: styling for BreadcrumbItem ([PR #29059](https://github.com/microsoft/fluentui/pull/29059) by vkozlova@microsoft.com)
+- fix: styling for BreadcrumbItem ([PR #29059](https://github.com/microsoft/fluentui/pull/29059) by <vkozlova@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.37 ([PR #29080](https://github.com/microsoft/fluentui/pull/29080) by beachball)
 - Bump @fluentui/react-link to v9.1.16 ([PR #29080](https://github.com/microsoft/fluentui/pull/29080) by beachball)
 - Bump @fluentui/react-tabster to v9.12.8 ([PR #29080](https://github.com/microsoft/fluentui/pull/29080) by beachball)
@@ -1421,8 +1421,8 @@ Tue, 05 Sep 2023 13:29:16 GMT
 
 ### Patches
 
-- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by bernardo.sunderhus@gmail.com)
-- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by bernardo.sunderhus@gmail.com)
+- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by <bernardo.sunderhus@gmail.com>)
+- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-button to v9.3.35 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-link to v9.1.14 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.7.3 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
@@ -1477,7 +1477,7 @@ Mon, 21 Aug 2023 11:38:00 GMT
 
 ### Patches
 
-- fix: breadcrumb spacing ([PR #28883](https://github.com/microsoft/fluentui/pull/28883) by vkozlova@microsoft.com)
+- fix: breadcrumb spacing ([PR #28883](https://github.com/microsoft/fluentui/pull/28883) by <vkozlova@microsoft.com>)
 
 ## [0.3.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb-preview_v0.3.1)
 
@@ -1497,14 +1497,14 @@ Wed, 16 Aug 2023 11:38:32 GMT
 
 ### Minor changes
 
-- removed iconPosition prop from the Breadcrumb ([PR #28846](https://github.com/microsoft/fluentui/pull/28846) by vkozlova@microsoft.com)
+- removed iconPosition prop from the Breadcrumb ([PR #28846](https://github.com/microsoft/fluentui/pull/28846) by <vkozlova@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.30 ([PR #28791](https://github.com/microsoft/fluentui/pull/28791) by beachball)
 - Bump @fluentui/react-link to v9.1.9 ([PR #28791](https://github.com/microsoft/fluentui/pull/28791) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.16 ([PR #28791](https://github.com/microsoft/fluentui/pull/28791) by beachball)
 
 ### Patches
 
-- Added CY tests for Breacrumb with Menu and Overflow ([PR #28790](https://github.com/microsoft/fluentui/pull/28790) by vkozlova@microsoft.com)
+- Added CY tests for Breacrumb with Menu and Overflow ([PR #28790](https://github.com/microsoft/fluentui/pull/28790) by <vkozlova@microsoft.com>)
 
 ## [0.2.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb-preview_v0.2.2)
 
@@ -1526,9 +1526,9 @@ Wed, 09 Aug 2023 13:16:50 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by olfedias@microsoft.com)
-- fix: disabled BreadcrumbLink shouldn't be focusable ([PR #28720](https://github.com/microsoft/fluentui/pull/28720) by vkozlova@microsoft.com)
-- chore(cxe-prg): migrate to new slot API ([PR #28752](https://github.com/microsoft/fluentui/pull/28752) by bernardo.sunderhus@gmail.com)
+- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by <olfedias@microsoft.com>)
+- fix: disabled BreadcrumbLink shouldn't be focusable ([PR #28720](https://github.com/microsoft/fluentui/pull/28720) by <vkozlova@microsoft.com>)
+- chore(cxe-prg): migrate to new slot API ([PR #28752](https://github.com/microsoft/fluentui/pull/28752) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-button to v9.3.28 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-link to v9.1.7 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.7.2 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
@@ -1543,7 +1543,7 @@ Fri, 04 Aug 2023 08:52:55 GMT
 
 ### Minor changes
 
-- feat: Added an icon for BreadcrumbItem ([PR #28682](https://github.com/microsoft/fluentui/pull/28682) by vkozlova@microsoft.com)
+- feat: Added an icon for BreadcrumbItem ([PR #28682](https://github.com/microsoft/fluentui/pull/28682) by <vkozlova@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.27 ([commit](https://github.com/microsoft/fluentui/commit/0bf7d9438c1d0ff90cd2b28bc4cceb4f807afbca) by beachball)
 - Bump @fluentui/react-link to v9.1.6 ([commit](https://github.com/microsoft/fluentui/commit/0bf7d9438c1d0ff90cd2b28bc4cceb4f807afbca) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.7.1 ([commit](https://github.com/microsoft/fluentui/commit/0bf7d9438c1d0ff90cd2b28bc4cceb4f807afbca) by beachball)
@@ -1554,7 +1554,7 @@ Fri, 04 Aug 2023 08:52:55 GMT
 
 ### Patches
 
-- fix: made BreadcrumbButton consistent with other items ([PR #28672](https://github.com/microsoft/fluentui/pull/28672) by vkozlova@microsoft.com)
+- fix: made BreadcrumbButton consistent with other items ([PR #28672](https://github.com/microsoft/fluentui/pull/28672) by <vkozlova@microsoft.com>)
 
 ## [0.1.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-breadcrumb-preview_v0.1.3)
 
@@ -1575,9 +1575,9 @@ Tue, 25 Jul 2023 13:29:16 GMT
 
 ### Patches
 
-- chore: Update react-icons version to pick up fowardref change. ([PR #28590](https://github.com/microsoft/fluentui/pull/28590) by ololubek@microsoft.com)
-- fix: updated readme, replaced MenuItem with MenuItemLink ([PR #28626](https://github.com/microsoft/fluentui/pull/28626) by vkozlova@microsoft.com)
-- fix: spacing in BreadcrumbButton and Link, added more examples to the stories ([PR #28578](https://github.com/microsoft/fluentui/pull/28578) by vkozlova@microsoft.com)
+- chore: Update react-icons version to pick up fowardref change. ([PR #28590](https://github.com/microsoft/fluentui/pull/28590) by <ololubek@microsoft.com>)
+- fix: updated readme, replaced MenuItem with MenuItemLink ([PR #28626](https://github.com/microsoft/fluentui/pull/28626) by <vkozlova@microsoft.com>)
+- fix: spacing in BreadcrumbButton and Link, added more examples to the stories ([PR #28578](https://github.com/microsoft/fluentui/pull/28578) by <vkozlova@microsoft.com>)
 - Bump @fluentui/react-button to v9.3.25 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
 - Bump @fluentui/react-link to v9.1.4 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
 - Bump @fluentui/react-tabster to v9.11.0 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
@@ -1599,8 +1599,8 @@ Mon, 17 Jul 2023 21:27:34 GMT
 
 ### Minor changes
 
-- feat: release react-breadcrumb to unstable ([PR #28402](https://github.com/microsoft/fluentui/pull/28402) by vkozlova@microsoft.com)
+- feat: release react-breadcrumb to unstable ([PR #28402](https://github.com/microsoft/fluentui/pull/28402) by <vkozlova@microsoft.com>)
 
 ### Patches
 
-- made breadcrumb package public ([PR #28549](https://github.com/microsoft/fluentui/pull/28549) by vkozlova@microsoft.com)
+- made breadcrumb package public ([PR #28549](https://github.com/microsoft/fluentui/pull/28549) by <vkozlova@microsoft.com>)

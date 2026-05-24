@@ -1,12 +1,17 @@
 # Installation
+>
 > `npm install --save @types/esrecurse`
 
 # Summary
-This package contains type definitions for esrecurse (https://github.com/estools/esrecurse).
+
+This package contains type definitions for esrecurse (<https://github.com/estools/esrecurse>).
 
 # Details
-Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/esrecurse.
+
+Files were exported from <https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/esrecurse>.
+
 ## [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/esrecurse/index.d.ts)
+
 ````ts
 /**
  * Options for the Visitor constructor and visit function.
@@ -65,8 +70,10 @@ export { visit, Visitor, type VisitorOptions };
 ````
 
 ### Additional Details
- * Last updated: Sat, 19 Jul 2025 03:47:05 GMT
- * Dependencies: none
+
+* Last updated: Sat, 19 Jul 2025 03:47:05 GMT
+* Dependencies: none
 
 # Credits
+
 These definitions were written by [Jimmy Leung](https://github.com/hkleungai).

@@ -6,7 +6,7 @@ This log was last generated on Thu, 23 Apr 2026 11:59:36 GMT and should not be m
 
 ## [9.7.17](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.17)
 
-Thu, 23 Apr 2026 11:59:36 GMT 
+Thu, 23 Apr 2026 11:59:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.16..@fluentui/react-toast_v9.7.17)
 
 ### Patches
@@ -21,7 +21,7 @@ Thu, 23 Apr 2026 11:59:36 GMT
 
 ## [9.7.16](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.16)
 
-Mon, 30 Mar 2026 14:37:41 GMT 
+Mon, 30 Mar 2026 14:37:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.15..@fluentui/react-toast_v9.7.16)
 
 ### Patches
@@ -31,16 +31,16 @@ Mon, 30 Mar 2026 14:37:41 GMT
 
 ## [9.7.15](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.15)
 
-Wed, 11 Mar 2026 09:22:22 GMT 
+Wed, 11 Mar 2026 09:22:22 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.14..@fluentui/react-toast_v9.7.15)
 
 ### Patches
 
-- Update MessageBar, Field, and Toast to use Dismiss Diamond icons ([PR #35758](https://github.com/microsoft/fluentui/pull/35758) by 198982749+Copilot@users.noreply.github.com)
+- Update MessageBar, Field, and Toast to use Dismiss Diamond icons ([PR #35758](https://github.com/microsoft/fluentui/pull/35758) by <198982749+Copilot@users.noreply.github.com>)
 
 ## [9.7.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.14)
 
-Tue, 03 Mar 2026 09:43:43 GMT 
+Tue, 03 Mar 2026 09:43:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.13..@fluentui/react-toast_v9.7.14)
 
 ### Patches
@@ -50,12 +50,12 @@ Tue, 03 Mar 2026 09:43:43 GMT
 
 ## [9.7.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.13)
 
-Wed, 25 Feb 2026 13:32:27 GMT 
+Wed, 25 Feb 2026 13:32:27 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.12..@fluentui/react-toast_v9.7.13)
 
 ### Patches
 
-- fix: add  missing "use client" directive to client components and styles ([PR #35719](https://github.com/microsoft/fluentui/pull/35719) by dmytrokirpa@microsoft.com)
+- fix: add  missing "use client" directive to client components and styles ([PR #35719](https://github.com/microsoft/fluentui/pull/35719) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-aria to v9.17.10 ([PR #35782](https://github.com/microsoft/fluentui/pull/35782) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.4.1 ([PR #35782](https://github.com/microsoft/fluentui/pull/35782) by beachball)
 - Bump @fluentui/react-motion to v9.12.0 ([PR #35782](https://github.com/microsoft/fluentui/pull/35782) by beachball)
@@ -67,7 +67,7 @@ Wed, 25 Feb 2026 13:32:27 GMT
 
 ## [9.7.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.12)
 
-Thu, 12 Feb 2026 10:46:15 GMT 
+Thu, 12 Feb 2026 10:46:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.11..@fluentui/react-toast_v9.7.12)
 
 ### Patches
@@ -77,7 +77,7 @@ Thu, 12 Feb 2026 10:46:15 GMT
 
 ## [9.7.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.11)
 
-Thu, 22 Jan 2026 17:06:46 GMT 
+Thu, 22 Jan 2026 17:06:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.10..@fluentui/react-toast_v9.7.11)
 
 ### Patches
@@ -94,7 +94,7 @@ Thu, 22 Jan 2026 17:06:46 GMT
 
 ## [9.7.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.10)
 
-Wed, 17 Dec 2025 18:10:11 GMT 
+Wed, 17 Dec 2025 18:10:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.9..@fluentui/react-toast_v9.7.10)
 
 ### Patches
@@ -109,12 +109,12 @@ Wed, 17 Dec 2025 18:10:11 GMT
 
 ## [9.7.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.9)
 
-Tue, 11 Nov 2025 19:18:13 GMT 
+Tue, 11 Nov 2025 19:18:13 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.8..@fluentui/react-toast_v9.7.9)
 
 ### Patches
 
-- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by estebanmu@microsoft.com)
+- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by <estebanmu@microsoft.com>)
 - Bump @fluentui/react-aria to v9.17.6 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.3.3 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-motion to v9.11.4 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
@@ -126,7 +126,7 @@ Tue, 11 Nov 2025 19:18:13 GMT
 
 ## [9.7.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.8)
 
-Thu, 06 Nov 2025 17:24:17 GMT 
+Thu, 06 Nov 2025 17:24:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.7..@fluentui/react-toast_v9.7.8)
 
 ### Patches
@@ -135,7 +135,7 @@ Thu, 06 Nov 2025 17:24:17 GMT
 
 ## [9.7.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.7)
 
-Thu, 06 Nov 2025 15:01:25 GMT 
+Thu, 06 Nov 2025 15:01:25 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.6..@fluentui/react-toast_v9.7.7)
 
 ### Patches
@@ -150,7 +150,7 @@ Thu, 06 Nov 2025 15:01:25 GMT
 
 ## [9.7.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.6)
 
-Fri, 31 Oct 2025 16:22:06 GMT 
+Fri, 31 Oct 2025 16:22:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.5..@fluentui/react-toast_v9.7.6)
 
 ### Patches
@@ -165,7 +165,7 @@ Fri, 31 Oct 2025 16:22:06 GMT
 
 ## [9.7.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.5)
 
-Tue, 21 Oct 2025 14:16:59 GMT 
+Tue, 21 Oct 2025 14:16:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.4..@fluentui/react-toast_v9.7.5)
 
 ### Patches
@@ -176,7 +176,7 @@ Tue, 21 Oct 2025 14:16:59 GMT
 
 ## [9.7.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.4)
 
-Wed, 08 Oct 2025 12:04:53 GMT 
+Wed, 08 Oct 2025 12:04:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.3..@fluentui/react-toast_v9.7.4)
 
 ### Patches
@@ -191,7 +191,7 @@ Wed, 08 Oct 2025 12:04:53 GMT
 
 ## [9.7.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.3)
 
-Fri, 03 Oct 2025 14:19:04 GMT 
+Fri, 03 Oct 2025 14:19:04 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.2..@fluentui/react-toast_v9.7.3)
 
 ### Patches
@@ -200,13 +200,13 @@ Fri, 03 Oct 2025 14:19:04 GMT
 
 ## [9.7.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.2)
 
-Thu, 02 Oct 2025 15:12:07 GMT 
+Thu, 02 Oct 2025 15:12:07 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.1..@fluentui/react-toast_v9.7.2)
 
 ### Patches
 
-- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by dmytrokirpa@microsoft.com)
-- fix: Update ToastBody lineheight ([PR #35042](https://github.com/microsoft/fluentui/pull/35042) by lingfangao@hotmail.com)
+- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by <dmytrokirpa@microsoft.com>)
+- fix: Update ToastBody lineheight ([PR #35042](https://github.com/microsoft/fluentui/pull/35042) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-aria to v9.17.1 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.2.1 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-motion to v9.11.0 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
@@ -218,14 +218,14 @@ Thu, 02 Oct 2025 15:12:07 GMT
 
 ## [9.7.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.1)
 
-Mon, 08 Sep 2025 12:50:49 GMT 
+Mon, 08 Sep 2025 12:50:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.7.0..@fluentui/react-toast_v9.7.1)
 
 ### Patches
 
-- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by dmytrokirpa@microsoft.com)
-- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by dmytrokirpa@microsoft.com)
-- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by dmytrokirpa@microsoft.com)
+- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by <dmytrokirpa@microsoft.com>)
+- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by <dmytrokirpa@microsoft.com>)
+- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-aria to v9.17.0 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.2.0 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-motion to v9.10.4 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
@@ -237,12 +237,12 @@ Mon, 08 Sep 2025 12:50:49 GMT
 
 ## [9.7.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.7.0)
 
-Thu, 21 Aug 2025 12:25:23 GMT 
+Thu, 21 Aug 2025 12:25:23 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.6.4..@fluentui/react-toast_v9.7.0)
 
 ### Minor changes
 
-- feat: Export ToastContainer state and classNames nessecary for style overrides ([PR #35007](https://github.com/microsoft/fluentui/pull/35007) by mifraser@microsoft.com)
+- feat: Export ToastContainer state and classNames nessecary for style overrides ([PR #35007](https://github.com/microsoft/fluentui/pull/35007) by <mifraser@microsoft.com>)
 - Bump @fluentui/react-aria to v9.16.4 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.1.6 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
 - Bump @fluentui/react-motion to v9.10.3 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
@@ -254,16 +254,16 @@ Thu, 21 Aug 2025 12:25:23 GMT
 
 ### Patches
 
-- fix: replace deprecated element.ref usages to support react 19 ([PR #35030](https://github.com/microsoft/fluentui/pull/35030) by dmytrokirpa@microsoft.com)
+- fix: replace deprecated element.ref usages to support react 19 ([PR #35030](https://github.com/microsoft/fluentui/pull/35030) by <dmytrokirpa@microsoft.com>)
 
 ## [9.6.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.6.4)
 
-Thu, 07 Aug 2025 10:03:29 GMT 
+Thu, 07 Aug 2025 10:03:29 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.6.3..@fluentui/react-toast_v9.6.4)
 
 ### Patches
 
-- fix: Toaster should merge user onKeyDown handler ([PR #34982](https://github.com/microsoft/fluentui/pull/34982) by lingfangao@hotmail.com)
+- fix: Toaster should merge user onKeyDown handler ([PR #34982](https://github.com/microsoft/fluentui/pull/34982) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-aria to v9.16.3 ([PR #34980](https://github.com/microsoft/fluentui/pull/34980) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.1.5 ([PR #34980](https://github.com/microsoft/fluentui/pull/34980) by beachball)
 - Bump @fluentui/react-motion to v9.10.2 ([PR #34980](https://github.com/microsoft/fluentui/pull/34980) by beachball)
@@ -274,7 +274,7 @@ Thu, 07 Aug 2025 10:03:29 GMT
 
 ## [9.6.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.6.3)
 
-Wed, 30 Jul 2025 16:55:39 GMT 
+Wed, 30 Jul 2025 16:55:39 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.6.2..@fluentui/react-toast_v9.6.3)
 
 ### Patches
@@ -283,7 +283,7 @@ Wed, 30 Jul 2025 16:55:39 GMT
 
 ## [9.6.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.6.2)
 
-Wed, 30 Jul 2025 13:10:57 GMT 
+Wed, 30 Jul 2025 13:10:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.6.1..@fluentui/react-toast_v9.6.2)
 
 ### Patches
@@ -300,7 +300,7 @@ Wed, 30 Jul 2025 13:10:57 GMT
 
 ## [9.6.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.6.1)
 
-Mon, 28 Jul 2025 18:48:21 GMT 
+Mon, 28 Jul 2025 18:48:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.6.0..@fluentui/react-toast_v9.6.1)
 
 ### Patches
@@ -315,19 +315,19 @@ Mon, 28 Jul 2025 18:48:21 GMT
 
 ## [9.6.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.6.0)
 
-Thu, 17 Jul 2025 13:49:50 GMT 
+Thu, 17 Jul 2025 13:49:50 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.5.5..@fluentui/react-toast_v9.6.0)
 
 ### Minor changes
 
-- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by martinhochel@microsoft.com)
+- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-aria to v9.15.4 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 - Bump @fluentui/react-portal to v9.7.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 - Bump @fluentui/react-tabster to v9.26.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 
 ## [9.5.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.5.5)
 
-Wed, 16 Jul 2025 13:52:50 GMT 
+Wed, 16 Jul 2025 13:52:50 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.5.4..@fluentui/react-toast_v9.5.5)
 
 ### Patches
@@ -336,7 +336,7 @@ Wed, 16 Jul 2025 13:52:50 GMT
 
 ## [9.5.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.5.4)
 
-Fri, 04 Jul 2025 10:02:51 GMT 
+Fri, 04 Jul 2025 10:02:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.5.3..@fluentui/react-toast_v9.5.4)
 
 ### Patches
@@ -345,7 +345,7 @@ Fri, 04 Jul 2025 10:02:51 GMT
 
 ## [9.5.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.5.3)
 
-Fri, 27 Jun 2025 13:39:41 GMT 
+Fri, 27 Jun 2025 13:39:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.5.2..@fluentui/react-toast_v9.5.3)
 
 ### Patches
@@ -356,7 +356,7 @@ Fri, 27 Jun 2025 13:39:41 GMT
 
 ## [9.5.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.5.2)
 
-Thu, 26 Jun 2025 14:11:55 GMT 
+Thu, 26 Jun 2025 14:11:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.5.1..@fluentui/react-toast_v9.5.2)
 
 ### Patches
@@ -371,7 +371,7 @@ Thu, 26 Jun 2025 14:11:55 GMT
 
 ## [9.5.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.5.1)
 
-Wed, 18 Jun 2025 17:34:00 GMT 
+Wed, 18 Jun 2025 17:34:00 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.5.0..@fluentui/react-toast_v9.5.1)
 
 ### Patches
@@ -387,7 +387,7 @@ Wed, 18 Jun 2025 17:34:00 GMT
 
 ## [9.5.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.5.0)
 
-Thu, 12 Jun 2025 09:43:32 GMT 
+Thu, 12 Jun 2025 09:43:32 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.4.10..@fluentui/react-toast_v9.5.0)
 
 ### Minor changes
@@ -402,7 +402,7 @@ Thu, 12 Jun 2025 09:43:32 GMT
 
 ## [9.4.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.4.10)
 
-Fri, 06 Jun 2025 13:15:16 GMT 
+Fri, 06 Jun 2025 13:15:16 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.4.9..@fluentui/react-toast_v9.4.10)
 
 ### Patches
@@ -417,7 +417,7 @@ Fri, 06 Jun 2025 13:15:16 GMT
 
 ## [9.4.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.4.9)
 
-Wed, 14 May 2025 18:49:20 GMT 
+Wed, 14 May 2025 18:49:20 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.4.8..@fluentui/react-toast_v9.4.9)
 
 ### Patches
@@ -430,7 +430,7 @@ Wed, 14 May 2025 18:49:20 GMT
 
 ## [9.4.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.4.8)
 
-Thu, 24 Apr 2025 09:59:45 GMT 
+Thu, 24 Apr 2025 09:59:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.4.7..@fluentui/react-toast_v9.4.8)
 
 ### Patches
@@ -441,12 +441,12 @@ Thu, 24 Apr 2025 09:59:45 GMT
 
 ## [9.4.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.4.7)
 
-Wed, 16 Apr 2025 19:42:05 GMT 
+Wed, 16 Apr 2025 19:42:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.4.6..@fluentui/react-toast_v9.4.7)
 
 ### Patches
 
-- chore: update useToastContainer callback type to support React 18 ([PR #34253](https://github.com/microsoft/fluentui/pull/34253) by dmytrokirpa@microsoft.com)
+- chore: update useToastContainer callback type to support React 18 ([PR #34253](https://github.com/microsoft/fluentui/pull/34253) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-aria to v9.14.5 ([PR #34166](https://github.com/microsoft/fluentui/pull/34166) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.54 ([PR #34166](https://github.com/microsoft/fluentui/pull/34166) by beachball)
 - Bump @fluentui/react-motion to v9.7.2 ([PR #34166](https://github.com/microsoft/fluentui/pull/34166) by beachball)
@@ -457,7 +457,7 @@ Wed, 16 Apr 2025 19:42:05 GMT
 
 ## [9.4.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.4.6)
 
-Tue, 01 Apr 2025 15:08:02 GMT 
+Tue, 01 Apr 2025 15:08:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.4.5..@fluentui/react-toast_v9.4.6)
 
 ### Patches
@@ -468,12 +468,12 @@ Tue, 01 Apr 2025 15:08:02 GMT
 
 ## [9.4.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.4.5)
 
-Thu, 27 Mar 2025 21:12:50 GMT 
+Thu, 27 Mar 2025 21:12:50 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.4.4..@fluentui/react-toast_v9.4.5)
 
 ### Patches
 
-- feat: add customStyleHook ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by dmytrokirpa@microsoft.com)
+- feat: add customStyleHook ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-aria to v9.14.3 ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.53 ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by beachball)
 - Bump @fluentui/react-motion to v9.7.1 ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by beachball)
@@ -485,7 +485,7 @@ Thu, 27 Mar 2025 21:12:50 GMT
 
 ## [9.4.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.4.4)
 
-Wed, 26 Mar 2025 21:47:47 GMT 
+Wed, 26 Mar 2025 21:47:47 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.4.3..@fluentui/react-toast_v9.4.4)
 
 ### Patches
@@ -495,7 +495,7 @@ Wed, 26 Mar 2025 21:47:47 GMT
 
 ## [9.4.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.4.3)
 
-Thu, 20 Mar 2025 09:34:59 GMT 
+Thu, 20 Mar 2025 09:34:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.4.2..@fluentui/react-toast_v9.4.3)
 
 ### Patches
@@ -505,7 +505,7 @@ Thu, 20 Mar 2025 09:34:59 GMT
 
 ## [9.4.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.4.2)
 
-Wed, 19 Mar 2025 15:40:43 GMT 
+Wed, 19 Mar 2025 15:40:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.4.1..@fluentui/react-toast_v9.4.2)
 
 ### Patches
@@ -521,7 +521,7 @@ Wed, 19 Mar 2025 15:40:43 GMT
 
 ## [9.4.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.4.1)
 
-Tue, 11 Mar 2025 18:58:54 GMT 
+Tue, 11 Mar 2025 18:58:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.4.0..@fluentui/react-toast_v9.4.1)
 
 ### Patches
@@ -537,7 +537,7 @@ Tue, 11 Mar 2025 18:58:54 GMT
 
 ## [9.4.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.4.0)
 
-Fri, 21 Feb 2025 14:34:05 GMT 
+Fri, 21 Feb 2025 14:34:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.65..@fluentui/react-toast_v9.4.0)
 
 ### Minor changes
@@ -548,7 +548,7 @@ Fri, 21 Feb 2025 14:34:05 GMT
 
 ## [9.3.65](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.65)
 
-Wed, 22 Jan 2025 14:00:10 GMT 
+Wed, 22 Jan 2025 14:00:10 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.64..@fluentui/react-toast_v9.3.65)
 
 ### Patches
@@ -563,12 +563,12 @@ Wed, 22 Jan 2025 14:00:10 GMT
 
 ## [9.3.64](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.64)
 
-Wed, 08 Jan 2025 18:33:35 GMT 
+Wed, 08 Jan 2025 18:33:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.63..@fluentui/react-toast_v9.3.64)
 
 ### Patches
 
-- feat: Add intent property to Toast state and useToast hook. Correct media className assignment in useToastTitleStyles. ([PR #33550](https://github.com/microsoft/fluentui/pull/33550) by soumya_tripathy@outlook.com)
+- feat: Add intent property to Toast state and useToast hook. Correct media className assignment in useToastTitleStyles. ([PR #33550](https://github.com/microsoft/fluentui/pull/33550) by <soumya_tripathy@outlook.com>)
 - Bump @fluentui/react-aria to v9.13.13 ([PR #33550](https://github.com/microsoft/fluentui/pull/33550) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.49 ([PR #33550](https://github.com/microsoft/fluentui/pull/33550) by beachball)
 - Bump @fluentui/react-motion to v9.6.6 ([PR #33550](https://github.com/microsoft/fluentui/pull/33550) by beachball)
@@ -577,7 +577,7 @@ Wed, 08 Jan 2025 18:33:35 GMT
 
 ## [9.3.63](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.63)
 
-Mon, 16 Dec 2024 16:26:49 GMT 
+Mon, 16 Dec 2024 16:26:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.62..@fluentui/react-toast_v9.3.63)
 
 ### Patches
@@ -594,24 +594,24 @@ Mon, 16 Dec 2024 16:26:49 GMT
 
 ## [9.3.62](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.62)
 
-Mon, 09 Dec 2024 17:38:07 GMT 
+Mon, 09 Dec 2024 17:38:07 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.61..@fluentui/react-toast_v9.3.62)
 
 ### Patches
 
-- refactor(Toast): replace custom component with CollapseDelayed ([PR #33405](https://github.com/microsoft/fluentui/pull/33405) by robertpenner@microsoft.com)
+- refactor(Toast): replace custom component with CollapseDelayed ([PR #33405](https://github.com/microsoft/fluentui/pull/33405) by <robertpenner@microsoft.com>)
 - Bump @fluentui/react-aria to v9.13.11 ([PR #33431](https://github.com/microsoft/fluentui/pull/33431) by beachball)
 - Bump @fluentui/react-motion to v9.6.4 ([PR #33431](https://github.com/microsoft/fluentui/pull/33431) by beachball)
 - Bump @fluentui/react-motion-components-preview to v0.4.0 ([PR #33431](https://github.com/microsoft/fluentui/pull/33431) by beachball)
 
 ## [9.3.61](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.61)
 
-Fri, 06 Dec 2024 12:53:44 GMT 
+Fri, 06 Dec 2024 12:53:44 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.60..@fluentui/react-toast_v9.3.61)
 
 ### Patches
 
-- chore: remove usage of "export *"  ([PR #33380](https://github.com/microsoft/fluentui/pull/33380) by olfedias@microsoft.com)
+- chore: remove usage of "export *"  ([PR #33380](https://github.com/microsoft/fluentui/pull/33380) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-aria to v9.13.10 ([PR #33372](https://github.com/microsoft/fluentui/pull/33372) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.47 ([PR #33372](https://github.com/microsoft/fluentui/pull/33372) by beachball)
 - Bump @fluentui/react-motion to v9.6.3 ([PR #33372](https://github.com/microsoft/fluentui/pull/33372) by beachball)
@@ -623,7 +623,7 @@ Fri, 06 Dec 2024 12:53:44 GMT
 
 ## [9.3.60](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.60)
 
-Thu, 28 Nov 2024 09:30:54 GMT 
+Thu, 28 Nov 2024 09:30:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.59..@fluentui/react-toast_v9.3.60)
 
 ### Patches
@@ -632,12 +632,12 @@ Thu, 28 Nov 2024 09:30:54 GMT
 
 ## [9.3.59](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.59)
 
-Mon, 11 Nov 2024 10:00:36 GMT 
+Mon, 11 Nov 2024 10:00:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.58..@fluentui/react-toast_v9.3.59)
 
 ### Patches
 
-- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by martinhochel@microsoft.com)
+- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by <martinhochel@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.8 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-aria to v9.13.9 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.46 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
@@ -650,7 +650,7 @@ Mon, 11 Nov 2024 10:00:36 GMT
 
 ## [9.3.58](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.58)
 
-Tue, 15 Oct 2024 17:17:53 GMT 
+Tue, 15 Oct 2024 17:17:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.57..@fluentui/react-toast_v9.3.58)
 
 ### Patches
@@ -666,7 +666,7 @@ Tue, 15 Oct 2024 17:17:53 GMT
 
 ## [9.3.57](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.57)
 
-Tue, 08 Oct 2024 22:05:59 GMT 
+Tue, 08 Oct 2024 22:05:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.56..@fluentui/react-toast_v9.3.57)
 
 ### Patches
@@ -677,7 +677,7 @@ Tue, 08 Oct 2024 22:05:59 GMT
 
 ## [9.3.56](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.56)
 
-Mon, 23 Sep 2024 12:40:16 GMT 
+Mon, 23 Sep 2024 12:40:16 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.55..@fluentui/react-toast_v9.3.56)
 
 ### Patches
@@ -693,7 +693,7 @@ Mon, 23 Sep 2024 12:40:16 GMT
 
 ## [9.3.55](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.55)
 
-Tue, 10 Sep 2024 10:19:12 GMT 
+Tue, 10 Sep 2024 10:19:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.54..@fluentui/react-toast_v9.3.55)
 
 ### Patches
@@ -707,7 +707,7 @@ Tue, 10 Sep 2024 10:19:12 GMT
 
 ## [9.3.54](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.54)
 
-Fri, 16 Aug 2024 10:24:17 GMT 
+Fri, 16 Aug 2024 10:24:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.53..@fluentui/react-toast_v9.3.54)
 
 ### Patches
@@ -716,7 +716,7 @@ Fri, 16 Aug 2024 10:24:17 GMT
 
 ## [9.3.53](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.53)
 
-Thu, 15 Aug 2024 13:49:46 GMT 
+Thu, 15 Aug 2024 13:49:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.52..@fluentui/react-toast_v9.3.53)
 
 ### Patches
@@ -727,7 +727,7 @@ Thu, 15 Aug 2024 13:49:46 GMT
 
 ## [9.3.52](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.52)
 
-Thu, 15 Aug 2024 08:22:16 GMT 
+Thu, 15 Aug 2024 08:22:16 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.51..@fluentui/react-toast_v9.3.52)
 
 ### Patches
@@ -738,7 +738,7 @@ Thu, 15 Aug 2024 08:22:16 GMT
 
 ## [9.3.51](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.51)
 
-Tue, 23 Jul 2024 20:13:14 GMT 
+Tue, 23 Jul 2024 20:13:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.50..@fluentui/react-toast_v9.3.51)
 
 ### Patches
@@ -753,12 +753,12 @@ Tue, 23 Jul 2024 20:13:14 GMT
 
 ## [9.3.50](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.50)
 
-Mon, 15 Jul 2024 17:25:20 GMT 
+Mon, 15 Jul 2024 17:25:20 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.49..@fluentui/react-toast_v9.3.50)
 
 ### Patches
 
-- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by martinhochel@microsoft.com)
+- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-aria to v9.13.1 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.41 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-motion to v9.3.0 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
@@ -769,7 +769,7 @@ Mon, 15 Jul 2024 17:25:20 GMT
 
 ## [9.3.49](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.49)
 
-Thu, 04 Jul 2024 15:14:36 GMT 
+Thu, 04 Jul 2024 15:14:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.48..@fluentui/react-toast_v9.3.49)
 
 ### Patches
@@ -778,13 +778,13 @@ Thu, 04 Jul 2024 15:14:36 GMT
 
 ## [9.3.48](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.48)
 
-Mon, 01 Jul 2024 20:30:37 GMT 
+Mon, 01 Jul 2024 20:30:37 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.47..@fluentui/react-toast_v9.3.48)
 
 ### Patches
 
-- chore: Update react-icons package to ^2.0.245 ([PR #31802](https://github.com/microsoft/fluentui/pull/31802) by ololubek@microsoft.com)
-- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by seanmonahan@microsoft.com)
+- chore: Update react-icons package to ^2.0.245 ([PR #31802](https://github.com/microsoft/fluentui/pull/31802) by <ololubek@microsoft.com>)
+- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-aria to v9.13.0 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.40 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-motion to v9.2.1 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
@@ -794,7 +794,7 @@ Mon, 01 Jul 2024 20:30:37 GMT
 
 ## [9.3.47](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.47)
 
-Mon, 17 Jun 2024 07:34:17 GMT 
+Mon, 17 Jun 2024 07:34:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.46..@fluentui/react-toast_v9.3.47)
 
 ### Patches
@@ -806,7 +806,7 @@ Mon, 17 Jun 2024 07:34:17 GMT
 
 ## [9.3.46](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.46)
 
-Wed, 12 Jun 2024 13:17:27 GMT 
+Wed, 12 Jun 2024 13:17:27 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.45..@fluentui/react-toast_v9.3.46)
 
 ### Patches
@@ -815,15 +815,15 @@ Wed, 12 Jun 2024 13:17:27 GMT
 
 ## [9.3.45](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.45)
 
-Thu, 06 Jun 2024 15:26:41 GMT 
+Thu, 06 Jun 2024 15:26:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-toast_v9.3.44..@fluentui/react-toast_v9.3.45)
 
 ### Patches
 
-- chore: migrate Toast to new motion library ([PR #31516](https://github.com/microsoft/fluentui/pull/31516) by olfedias@microsoft.com)
-- chore: use @fluentui/react-motion ([PR #31574](https://github.com/microsoft/fluentui/pull/31574) by olfedias@microsoft.com)
-- chore: adopt changes in motion APIs ([PR #31508](https://github.com/microsoft/fluentui/pull/31508) by olfedias@microsoft.com)
-- chore: disable eslint rule. ([PR #30967](https://github.com/microsoft/fluentui/pull/30967) by seanmonahan@microsoft.com)
+- chore: migrate Toast to new motion library ([PR #31516](https://github.com/microsoft/fluentui/pull/31516) by <olfedias@microsoft.com>)
+- chore: use @fluentui/react-motion ([PR #31574](https://github.com/microsoft/fluentui/pull/31574) by <olfedias@microsoft.com>)
+- chore: adopt changes in motion APIs ([PR #31508](https://github.com/microsoft/fluentui/pull/31508) by <olfedias@microsoft.com>)
+- chore: disable eslint rule. ([PR #30967](https://github.com/microsoft/fluentui/pull/30967) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-aria to v9.12.0 ([PR #31586](https://github.com/microsoft/fluentui/pull/31586) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.39 ([PR #31586](https://github.com/microsoft/fluentui/pull/31586) by beachball)
 - Bump @fluentui/react-motion to v9.0.0 ([PR #31586](https://github.com/microsoft/fluentui/pull/31586) by beachball)
@@ -838,7 +838,7 @@ Thu, 23 May 2024 08:02:51 GMT
 
 ### Patches
 
-- chore: replace usage of .shorthands() in styles ([PR #31432](https://github.com/microsoft/fluentui/pull/31432) by olfedias@microsoft.com)
+- chore: replace usage of .shorthands() in styles ([PR #31432](https://github.com/microsoft/fluentui/pull/31432) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-aria to v9.11.4 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 - Bump @fluentui/react-portal to v9.4.26 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 - Bump @fluentui/react-tabster to v9.21.4 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
@@ -850,7 +850,7 @@ Mon, 20 May 2024 12:45:07 GMT
 
 ### Patches
 
-- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by olfedias@microsoft.com)
+- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-aria to v9.11.3 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.38 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-portal to v9.4.25 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
@@ -865,7 +865,7 @@ Thu, 16 May 2024 09:25:20 GMT
 
 ### Patches
 
-- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by ololubek@microsoft.com)
+- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by <ololubek@microsoft.com>)
 
 ## [9.3.41](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.3.41)
 
@@ -899,9 +899,9 @@ Thu, 02 May 2024 11:36:42 GMT
 
 ### Patches
 
-- refactor: use timeout and animation frame utilities ([PR #31168](https://github.com/microsoft/fluentui/pull/31168) by lingfangao@hotmail.com)
-- fix: use "key" properly in ToastContainer ([PR #31104](https://github.com/microsoft/fluentui/pull/31104) by olfedias@microsoft.com)
-- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by ololubek@microsoft.com)
+- refactor: use timeout and animation frame utilities ([PR #31168](https://github.com/microsoft/fluentui/pull/31168) by <lingfangao@hotmail.com>)
+- fix: use "key" properly in ToastContainer ([PR #31104](https://github.com/microsoft/fluentui/pull/31104) by <olfedias@microsoft.com>)
+- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-aria to v9.11.0 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 - Bump @fluentui/react-portal to v9.4.22 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 - Bump @fluentui/react-tabster to v9.21.0 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
@@ -927,8 +927,8 @@ Wed, 17 Apr 2024 21:54:05 GMT
 
 ### Patches
 
-- chore: refactor styles defined in makeResetStyles() to avoid shorthands.\*() ([PR #30996](https://github.com/microsoft/fluentui/pull/30996) by olfedias@microsoft.com)
-- chore: Update react-icons to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by ololubek@microsoft.com)
+- chore: refactor styles defined in makeResetStyles() to avoid shorthands.\*() ([PR #30996](https://github.com/microsoft/fluentui/pull/30996) by <olfedias@microsoft.com>)
+- chore: Update react-icons to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-aria to v9.10.4 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 - Bump @fluentui/react-portal to v9.4.20 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 - Bump @fluentui/react-tabster to v9.20.0 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
@@ -984,7 +984,7 @@ Thu, 07 Mar 2024 19:33:27 GMT
 
 ### Patches
 
-- fix: Use semantic colours ([PR #30715](https://github.com/microsoft/fluentui/pull/30715) by lingfangao@hotmail.com)
+- fix: Use semantic colours ([PR #30715](https://github.com/microsoft/fluentui/pull/30715) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-aria to v9.10.0 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.32 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-portal to v9.4.16 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
@@ -1014,7 +1014,7 @@ Tue, 20 Feb 2024 14:22:28 GMT
 
 ### Patches
 
-- chore: disable consistent-callback-type lint rule for existing callbacks ([PR #30293](https://github.com/microsoft/fluentui/pull/30293) by yuanboxue@microsoft.com)
+- chore: disable consistent-callback-type lint rule for existing callbacks ([PR #30293](https://github.com/microsoft/fluentui/pull/30293) by <yuanboxue@microsoft.com>)
 - Bump @fluentui/react-aria to v9.9.0 ([PR #30543](https://github.com/microsoft/fluentui/pull/30543) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.30 ([PR #30543](https://github.com/microsoft/fluentui/pull/30543) by beachball)
 - Bump @fluentui/react-portal to v9.4.14 ([PR #30543](https://github.com/microsoft/fluentui/pull/30543) by beachball)
@@ -1092,8 +1092,8 @@ Tue, 16 Jan 2024 13:14:12 GMT
 
 ### Patches
 
-- bugfix: Omit colliding content property from ComponentProps ([PR #29865](https://github.com/microsoft/fluentui/pull/29865) by bernardo.sunderhus@gmail.com)
-- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by mgodbolt@microsoft.com)
+- bugfix: Omit colliding content property from ComponentProps ([PR #29865](https://github.com/microsoft/fluentui/pull/29865) by <bernardo.sunderhus@gmail.com>)
+- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-aria to v9.7.1 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.25 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-portal to v9.4.8 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
@@ -1115,7 +1115,7 @@ Mon, 08 Jan 2024 16:24:27 GMT
 
 ### Patches
 
-- Update version of @fluentui/react-icons to 2.0.224 ([PR #30078](https://github.com/microsoft/fluentui/pull/30078) by ololubek@microsoft.com)
+- Update version of @fluentui/react-icons to 2.0.224 ([PR #30078](https://github.com/microsoft/fluentui/pull/30078) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-aria to v9.6.2 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.24 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
 - Bump @fluentui/react-portal to v9.4.7 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
@@ -1203,8 +1203,8 @@ Thu, 09 Nov 2023 17:29:46 GMT
 
 ### Patches
 
-- fix: Toast text content should wrap ([PR #29678](https://github.com/microsoft/fluentui/pull/29678) by lingfangao@hotmail.com)
-- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by martinhochel@microsoft.com)
+- fix: Toast text content should wrap ([PR #29678](https://github.com/microsoft/fluentui/pull/29678) by <lingfangao@hotmail.com>)
+- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by <martinhochel@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.7 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-aria to v9.3.44 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.19 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
@@ -1233,7 +1233,7 @@ Sat, 28 Oct 2023 23:35:59 GMT
 
 ### Patches
 
-- fix: invoke useCustomStyleHook_unstable() ([PR #29632](https://github.com/microsoft/fluentui/pull/29632) by olfedias@microsoft.com)
+- fix: invoke useCustomStyleHook_unstable() ([PR #29632](https://github.com/microsoft/fluentui/pull/29632) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-portal to v9.3.26 ([commit](https://github.com/microsoft/fluentui/commit/555b0fae3ec7f052e765557ae243c58000514f92) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.11.0 ([commit](https://github.com/microsoft/fluentui/commit/555b0fae3ec7f052e765557ae243c58000514f92) by beachball)
 - Bump @fluentui/react-tabster to v9.14.2 ([commit](https://github.com/microsoft/fluentui/commit/555b0fae3ec7f052e765557ae243c58000514f92) by beachball)
@@ -1304,7 +1304,7 @@ Thu, 05 Oct 2023 15:25:33 GMT
 
 ### Patches
 
-- chore: migrate from getNativeElementProps to getIntrinsicElementProps ([PR #29387](https://github.com/microsoft/fluentui/pull/29387) by bernardo.sunderhus@gmail.com)
+- chore: migrate from getNativeElementProps to getIntrinsicElementProps ([PR #29387](https://github.com/microsoft/fluentui/pull/29387) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.3.40 ([PR #29412](https://github.com/microsoft/fluentui/pull/29412) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.14 ([PR #29412](https://github.com/microsoft/fluentui/pull/29412) by beachball)
 - Bump @fluentui/react-portal to v9.3.21 ([PR #29412](https://github.com/microsoft/fluentui/pull/29412) by beachball)
@@ -1342,7 +1342,7 @@ Tue, 26 Sep 2023 17:49:14 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by yuanboxue@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by <yuanboxue@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.6 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-aria to v9.3.38 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.12 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
@@ -1359,8 +1359,8 @@ Tue, 26 Sep 2023 15:31:43 GMT
 
 ### Patches
 
-- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by martinhochel@microsoft.com)
-- chore: Update react-icons version to pick up IconDirectionContextProvider updated export ([PR #29151](https://github.com/microsoft/fluentui/pull/29151) by ololubek@microsoft.com)
+- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by <martinhochel@microsoft.com>)
+- chore: Update react-icons version to pick up IconDirectionContextProvider updated export ([PR #29151](https://github.com/microsoft/fluentui/pull/29151) by <ololubek@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.5 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-aria to v9.3.37 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.11 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
@@ -1377,7 +1377,7 @@ Wed, 20 Sep 2023 17:47:45 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by martinhochel@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.10 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-portal to v9.3.16 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.8.1 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
@@ -1411,8 +1411,8 @@ Tue, 12 Sep 2023 08:51:33 GMT
 
 ### Minor changes
 
-- feat(Toaster): Adds `inline` prop ([PR #29085](https://github.com/microsoft/fluentui/pull/29085) by lingfan.gao@microsoft.com)
-- feat: Add center aligned positions for Toast ([PR #29080](https://github.com/microsoft/fluentui/pull/29080) by lingfan.gao@microsoft.com)
+- feat(Toaster): Adds `inline` prop ([PR #29085](https://github.com/microsoft/fluentui/pull/29085) by <lingfan.gao@microsoft.com>)
+- feat: Add center aligned positions for Toast ([PR #29080](https://github.com/microsoft/fluentui/pull/29080) by <lingfan.gao@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.7 ([PR #29129](https://github.com/microsoft/fluentui/pull/29129) by beachball)
 - Bump @fluentui/react-portal to v9.3.14 ([PR #29129](https://github.com/microsoft/fluentui/pull/29129) by beachball)
 - Bump @fluentui/react-tabster to v9.12.9 ([PR #29129](https://github.com/microsoft/fluentui/pull/29129) by beachball)
@@ -1450,8 +1450,8 @@ Tue, 05 Sep 2023 13:29:09 GMT
 
 ### Patches
 
-- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by bernardo.sunderhus@gmail.com)
-- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by bernardo.sunderhus@gmail.com)
+- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by <bernardo.sunderhus@gmail.com>)
+- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/keyboard-keys to v9.0.4 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-aria to v9.3.34 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.4 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
@@ -1468,7 +1468,7 @@ Tue, 29 Aug 2023 12:57:35 GMT
 
 ### Minor changes
 
-- feat: adds mountNode to Toaster API ([PR #29003](https://github.com/microsoft/fluentui/pull/29003) by bernardo.sunderhus@gmail.com)
+- feat: adds mountNode to Toaster API ([PR #29003](https://github.com/microsoft/fluentui/pull/29003) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.3.33 ([PR #29005](https://github.com/microsoft/fluentui/pull/29005) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.3 ([PR #29005](https://github.com/microsoft/fluentui/pull/29005) by beachball)
 - Bump @fluentui/react-portal to v9.3.10 ([PR #29005](https://github.com/microsoft/fluentui/pull/29005) by beachball)
@@ -1539,8 +1539,8 @@ Wed, 09 Aug 2023 13:17:08 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by olfedias@microsoft.com)
-- chore(teams-prg): migrate to new slot API ([PR #28751](https://github.com/microsoft/fluentui/pull/28751) by bernardo.sunderhus@gmail.com)
+- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by <olfedias@microsoft.com>)
+- chore(teams-prg): migrate to new slot API ([PR #28751](https://github.com/microsoft/fluentui/pull/28751) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.3.29 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.14 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-portal to v9.3.6 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
@@ -1555,7 +1555,7 @@ Fri, 04 Aug 2023 08:52:57 GMT
 
 ### Minor changes
 
-- feat: Add extra keyboard behaviour for multi toast scenario ([PR #28660](https://github.com/microsoft/fluentui/pull/28660) by lingfangao@hotmail.com)
+- feat: Add extra keyboard behaviour for multi toast scenario ([PR #28660](https://github.com/microsoft/fluentui/pull/28660) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-aria to v9.3.28 ([commit](https://github.com/microsoft/fluentui/commit/0bf7d9438c1d0ff90cd2b28bc4cceb4f807afbca) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.13 ([commit](https://github.com/microsoft/fluentui/commit/0bf7d9438c1d0ff90cd2b28bc4cceb4f807afbca) by beachball)
 - Bump @fluentui/react-portal to v9.3.5 ([commit](https://github.com/microsoft/fluentui/commit/0bf7d9438c1d0ff90cd2b28bc4cceb4f807afbca) by beachball)
@@ -1582,7 +1582,7 @@ Tue, 25 Jul 2023 13:29:22 GMT
 
 ### Patches
 
-- chore: Update react-icons version to pick up fowardref change. ([PR #28590](https://github.com/microsoft/fluentui/pull/28590) by ololubek@microsoft.com)
+- chore: Update react-icons version to pick up fowardref change. ([PR #28590](https://github.com/microsoft/fluentui/pull/28590) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-portal to v9.3.3 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
 - Bump @fluentui/react-tabster to v9.11.0 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
 
@@ -1614,7 +1614,7 @@ Mon, 03 Jul 2023 20:43:09 GMT
 
 ### Patches
 
-- fix: Toaster should play toasts on action dismiss ([PR #28420](https://github.com/microsoft/fluentui/pull/28420) by lingfan.gao@microsoft.com)
+- fix: Toaster should play toasts on action dismiss ([PR #28420](https://github.com/microsoft/fluentui/pull/28420) by <lingfan.gao@microsoft.com>)
 
 ## [9.0.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-toast_v9.0.1)
 
@@ -1632,7 +1632,7 @@ Mon, 03 Jul 2023 11:57:13 GMT
 
 ### Minor changes
 
-- feat: Initial release ([PR #28399](https://github.com/microsoft/fluentui/pull/28399) by lingfan.gao@microsoft.com)
+- feat: Initial release ([PR #28399](https://github.com/microsoft/fluentui/pull/28399) by <lingfan.gao@microsoft.com>)
 - Bump @fluentui/react-aria to v9.3.26 ([PR #28412](https://github.com/microsoft/fluentui/pull/28412) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.10 ([PR #28412](https://github.com/microsoft/fluentui/pull/28412) by beachball)
 - Bump @fluentui/react-portal to v9.3.0 ([PR #28412](https://github.com/microsoft/fluentui/pull/28412) by beachball)

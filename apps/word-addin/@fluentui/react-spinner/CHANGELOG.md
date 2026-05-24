@@ -6,19 +6,19 @@ This log was last generated on Thu, 23 Apr 2026 11:59:32 GMT and should not be m
 
 ## [9.8.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.8.2)
 
-Thu, 23 Apr 2026 11:59:32 GMT 
+Thu, 23 Apr 2026 11:59:32 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.8.1..@fluentui/react-spinner_v9.8.2)
 
 ### Patches
 
-- fix: drop unnecessary dependencies from base hooks ([PR #35972](https://github.com/microsoft/fluentui/pull/35972) by dmytrokirpa@microsoft.com)
+- fix: drop unnecessary dependencies from base hooks ([PR #35972](https://github.com/microsoft/fluentui/pull/35972) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.4.2 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-label to v9.4.1 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-utilities to v9.26.3 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 
 ## [9.8.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.8.1)
 
-Wed, 01 Apr 2026 15:52:43 GMT 
+Wed, 01 Apr 2026 15:52:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.8.0..@fluentui/react-spinner_v9.8.1)
 
 ### Patches
@@ -27,16 +27,16 @@ Wed, 01 Apr 2026 15:52:43 GMT
 
 ## [9.8.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.8.0)
 
-Thu, 26 Mar 2026 08:12:52 GMT 
+Thu, 26 Mar 2026 08:12:52 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.15..@fluentui/react-spinner_v9.8.0)
 
 ### Minor changes
 
-- feat: add base hooks for Spinner ([PR #35818](https://github.com/microsoft/fluentui/pull/35818) by dmytrokirpa@microsoft.com)
+- feat: add base hooks for Spinner ([PR #35818](https://github.com/microsoft/fluentui/pull/35818) by <dmytrokirpa@microsoft.com>)
 
 ## [9.7.15](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.15)
 
-Wed, 25 Feb 2026 13:32:28 GMT 
+Wed, 25 Feb 2026 13:32:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.14..@fluentui/react-spinner_v9.7.15)
 
 ### Patches
@@ -48,7 +48,7 @@ Wed, 25 Feb 2026 13:32:28 GMT
 
 ## [9.7.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.14)
 
-Thu, 12 Feb 2026 10:46:15 GMT 
+Thu, 12 Feb 2026 10:46:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.13..@fluentui/react-spinner_v9.7.14)
 
 ### Patches
@@ -58,7 +58,7 @@ Thu, 12 Feb 2026 10:46:15 GMT
 
 ## [9.7.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.13)
 
-Thu, 22 Jan 2026 17:06:40 GMT 
+Thu, 22 Jan 2026 17:06:40 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.12..@fluentui/react-spinner_v9.7.13)
 
 ### Patches
@@ -71,7 +71,7 @@ Thu, 22 Jan 2026 17:06:40 GMT
 
 ## [9.7.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.12)
 
-Wed, 17 Dec 2025 18:10:11 GMT 
+Wed, 17 Dec 2025 18:10:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.11..@fluentui/react-spinner_v9.7.12)
 
 ### Patches
@@ -82,12 +82,12 @@ Wed, 17 Dec 2025 18:10:11 GMT
 
 ## [9.7.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.11)
 
-Tue, 11 Nov 2025 19:18:10 GMT 
+Tue, 11 Nov 2025 19:18:10 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.10..@fluentui/react-spinner_v9.7.11)
 
 ### Patches
 
-- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by estebanmu@microsoft.com)
+- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by <estebanmu@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.3.3 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-label to v9.3.11 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.26.0 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
@@ -95,7 +95,7 @@ Tue, 11 Nov 2025 19:18:10 GMT
 
 ## [9.7.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.10)
 
-Thu, 06 Nov 2025 15:01:25 GMT 
+Thu, 06 Nov 2025 15:01:25 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.9..@fluentui/react-spinner_v9.7.10)
 
 ### Patches
@@ -106,7 +106,7 @@ Thu, 06 Nov 2025 15:01:25 GMT
 
 ## [9.7.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.9)
 
-Fri, 31 Oct 2025 16:22:06 GMT 
+Fri, 31 Oct 2025 16:22:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.8..@fluentui/react-spinner_v9.7.9)
 
 ### Patches
@@ -117,7 +117,7 @@ Fri, 31 Oct 2025 16:22:06 GMT
 
 ## [9.7.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.8)
 
-Tue, 21 Oct 2025 14:16:59 GMT 
+Tue, 21 Oct 2025 14:16:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.7..@fluentui/react-spinner_v9.7.8)
 
 ### Patches
@@ -127,7 +127,7 @@ Tue, 21 Oct 2025 14:16:59 GMT
 
 ## [9.7.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.7)
 
-Wed, 08 Oct 2025 12:04:53 GMT 
+Wed, 08 Oct 2025 12:04:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.6..@fluentui/react-spinner_v9.7.7)
 
 ### Patches
@@ -138,12 +138,12 @@ Wed, 08 Oct 2025 12:04:53 GMT
 
 ## [9.7.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.6)
 
-Thu, 02 Oct 2025 15:12:34 GMT 
+Thu, 02 Oct 2025 15:12:34 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.5..@fluentui/react-spinner_v9.7.6)
 
 ### Patches
 
-- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by dmytrokirpa@microsoft.com)
+- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.2.1 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-label to v9.3.6 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.25.2 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
@@ -151,15 +151,15 @@ Thu, 02 Oct 2025 15:12:34 GMT
 
 ## [9.7.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.5)
 
-Mon, 08 Sep 2025 12:50:36 GMT 
+Mon, 08 Sep 2025 12:50:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.4..@fluentui/react-spinner_v9.7.5)
 
 ### Patches
 
-- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by dmytrokirpa@microsoft.com)
-- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by dmytrokirpa@microsoft.com)
-- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by dmytrokirpa@microsoft.com)
-- fix: set min-width to min-content to prevent spinner clipping ([PR #35068](https://github.com/microsoft/fluentui/pull/35068) by busratemizyureek@gmail.com)
+- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by <dmytrokirpa@microsoft.com>)
+- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by <dmytrokirpa@microsoft.com>)
+- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by <dmytrokirpa@microsoft.com>)
+- fix: set min-width to min-content to prevent spinner clipping ([PR #35068](https://github.com/microsoft/fluentui/pull/35068) by <busratemizyureek@gmail.com>)
 - Bump @fluentui/react-jsx-runtime to v9.2.0 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-label to v9.3.5 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.25.1 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
@@ -167,7 +167,7 @@ Mon, 08 Sep 2025 12:50:36 GMT
 
 ## [9.7.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.4)
 
-Thu, 21 Aug 2025 12:25:39 GMT 
+Thu, 21 Aug 2025 12:25:39 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.3..@fluentui/react-spinner_v9.7.4)
 
 ### Patches
@@ -179,7 +179,7 @@ Thu, 21 Aug 2025 12:25:39 GMT
 
 ## [9.7.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.3)
 
-Thu, 07 Aug 2025 10:03:33 GMT 
+Thu, 07 Aug 2025 10:03:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.2..@fluentui/react-spinner_v9.7.3)
 
 ### Patches
@@ -190,7 +190,7 @@ Thu, 07 Aug 2025 10:03:33 GMT
 
 ## [9.7.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.2)
 
-Wed, 30 Jul 2025 13:10:57 GMT 
+Wed, 30 Jul 2025 13:10:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.1..@fluentui/react-spinner_v9.7.2)
 
 ### Patches
@@ -203,7 +203,7 @@ Wed, 30 Jul 2025 13:10:57 GMT
 
 ## [9.7.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.1)
 
-Mon, 28 Jul 2025 18:48:21 GMT 
+Mon, 28 Jul 2025 18:48:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.7.0..@fluentui/react-spinner_v9.7.1)
 
 ### Patches
@@ -214,17 +214,17 @@ Mon, 28 Jul 2025 18:48:21 GMT
 
 ## [9.7.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.7.0)
 
-Thu, 17 Jul 2025 13:49:47 GMT 
+Thu, 17 Jul 2025 13:49:47 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.6.2..@fluentui/react-spinner_v9.7.0)
 
 ### Minor changes
 
-- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by martinhochel@microsoft.com)
+- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-label to v9.3.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 
 ## [9.6.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.6.2)
 
-Thu, 26 Jun 2025 14:11:55 GMT 
+Thu, 26 Jun 2025 14:11:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.6.1..@fluentui/react-spinner_v9.6.2)
 
 ### Patches
@@ -235,7 +235,7 @@ Thu, 26 Jun 2025 14:11:55 GMT
 
 ## [9.6.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.6.1)
 
-Wed, 18 Jun 2025 17:34:00 GMT 
+Wed, 18 Jun 2025 17:34:00 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.6.0..@fluentui/react-spinner_v9.6.1)
 
 ### Patches
@@ -247,7 +247,7 @@ Wed, 18 Jun 2025 17:34:00 GMT
 
 ## [9.6.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.6.0)
 
-Thu, 12 Jun 2025 09:43:33 GMT 
+Thu, 12 Jun 2025 09:43:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.12..@fluentui/react-spinner_v9.6.0)
 
 ### Minor changes
@@ -258,7 +258,7 @@ Thu, 12 Jun 2025 09:43:33 GMT
 
 ## [9.5.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.12)
 
-Fri, 06 Jun 2025 13:15:17 GMT 
+Fri, 06 Jun 2025 13:15:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.11..@fluentui/react-spinner_v9.5.12)
 
 ### Patches
@@ -269,7 +269,7 @@ Fri, 06 Jun 2025 13:15:17 GMT
 
 ## [9.5.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.11)
 
-Wed, 16 Apr 2025 19:42:18 GMT 
+Wed, 16 Apr 2025 19:42:18 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.10..@fluentui/react-spinner_v9.5.11)
 
 ### Patches
@@ -280,7 +280,7 @@ Wed, 16 Apr 2025 19:42:18 GMT
 
 ## [9.5.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.10)
 
-Thu, 27 Mar 2025 21:12:51 GMT 
+Thu, 27 Mar 2025 21:12:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.9..@fluentui/react-spinner_v9.5.10)
 
 ### Patches
@@ -292,7 +292,7 @@ Thu, 27 Mar 2025 21:12:51 GMT
 
 ## [9.5.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.9)
 
-Wed, 19 Mar 2025 15:40:43 GMT 
+Wed, 19 Mar 2025 15:40:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.8..@fluentui/react-spinner_v9.5.9)
 
 ### Patches
@@ -304,7 +304,7 @@ Wed, 19 Mar 2025 15:40:43 GMT
 
 ## [9.5.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.8)
 
-Tue, 11 Mar 2025 18:58:54 GMT 
+Tue, 11 Mar 2025 18:58:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.7..@fluentui/react-spinner_v9.5.8)
 
 ### Patches
@@ -316,7 +316,7 @@ Tue, 11 Mar 2025 18:58:54 GMT
 
 ## [9.5.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.7)
 
-Wed, 22 Jan 2025 14:00:21 GMT 
+Wed, 22 Jan 2025 14:00:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.6..@fluentui/react-spinner_v9.5.7)
 
 ### Patches
@@ -327,7 +327,7 @@ Wed, 22 Jan 2025 14:00:21 GMT
 
 ## [9.5.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.6)
 
-Wed, 08 Jan 2025 18:33:36 GMT 
+Wed, 08 Jan 2025 18:33:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.5..@fluentui/react-spinner_v9.5.6)
 
 ### Patches
@@ -337,7 +337,7 @@ Wed, 08 Jan 2025 18:33:36 GMT
 
 ## [9.5.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.5)
 
-Mon, 16 Dec 2024 16:26:49 GMT 
+Mon, 16 Dec 2024 16:26:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.4..@fluentui/react-spinner_v9.5.5)
 
 ### Patches
@@ -350,17 +350,17 @@ Mon, 16 Dec 2024 16:26:49 GMT
 
 ## [9.5.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.4)
 
-Mon, 09 Dec 2024 17:38:05 GMT 
+Mon, 09 Dec 2024 17:38:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.3..@fluentui/react-spinner_v9.5.4)
 
 ### Patches
 
-- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by olfedias@microsoft.com)
+- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-label to v9.1.80 ([PR #33431](https://github.com/microsoft/fluentui/pull/33431) by beachball)
 
 ## [9.5.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.3)
 
-Fri, 06 Dec 2024 12:53:46 GMT 
+Fri, 06 Dec 2024 12:53:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.2..@fluentui/react-spinner_v9.5.3)
 
 ### Patches
@@ -373,12 +373,12 @@ Fri, 06 Dec 2024 12:53:46 GMT
 
 ## [9.5.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.2)
 
-Mon, 11 Nov 2024 10:00:55 GMT 
+Mon, 11 Nov 2024 10:00:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.1..@fluentui/react-spinner_v9.5.2)
 
 ### Patches
 
-- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by martinhochel@microsoft.com)
+- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.46 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-label to v9.1.78 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.21.0 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
@@ -387,7 +387,7 @@ Mon, 11 Nov 2024 10:00:55 GMT
 
 ## [9.5.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.1)
 
-Tue, 15 Oct 2024 17:17:53 GMT 
+Tue, 15 Oct 2024 17:17:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.5.0..@fluentui/react-spinner_v9.5.1)
 
 ### Patches
@@ -400,16 +400,16 @@ Tue, 15 Oct 2024 17:17:53 GMT
 
 ## [9.5.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.5.0)
 
-Tue, 08 Oct 2024 22:05:59 GMT 
+Tue, 08 Oct 2024 22:05:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.4.14..@fluentui/react-spinner_v9.5.0)
 
 ### Minor changes
 
-- feat: spinner root slot as span ([PR #32989](https://github.com/microsoft/fluentui/pull/32989) by kirpadv@gmail.com)
+- feat: spinner root slot as span ([PR #32989](https://github.com/microsoft/fluentui/pull/32989) by <kirpadv@gmail.com>)
 
 ## [9.4.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.4.14)
 
-Mon, 23 Sep 2024 12:40:17 GMT 
+Mon, 23 Sep 2024 12:40:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.4.13..@fluentui/react-spinner_v9.4.14)
 
 ### Patches
@@ -422,7 +422,7 @@ Mon, 23 Sep 2024 12:40:17 GMT
 
 ## [9.4.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.4.13)
 
-Tue, 10 Sep 2024 10:19:12 GMT 
+Tue, 10 Sep 2024 10:19:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.4.12..@fluentui/react-spinner_v9.4.13)
 
 ### Patches
@@ -433,7 +433,7 @@ Tue, 10 Sep 2024 10:19:12 GMT
 
 ## [9.4.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.4.12)
 
-Tue, 23 Jul 2024 20:13:14 GMT 
+Tue, 23 Jul 2024 20:13:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.4.11..@fluentui/react-spinner_v9.4.12)
 
 ### Patches
@@ -445,12 +445,12 @@ Tue, 23 Jul 2024 20:13:14 GMT
 
 ## [9.4.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.4.11)
 
-Mon, 15 Jul 2024 17:25:48 GMT 
+Mon, 15 Jul 2024 17:25:48 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.4.10..@fluentui/react-spinner_v9.4.11)
 
 ### Patches
 
-- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by martinhochel@microsoft.com)
+- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.41 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-label to v9.1.73 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.19.1 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
@@ -458,12 +458,12 @@ Mon, 15 Jul 2024 17:25:48 GMT
 
 ## [9.4.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.4.10)
 
-Mon, 01 Jul 2024 20:30:31 GMT 
+Mon, 01 Jul 2024 20:30:31 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-spinner_v9.4.9..@fluentui/react-spinner_v9.4.10)
 
 ### Patches
 
-- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by seanmonahan@microsoft.com)
+- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.40 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-label to v9.1.72 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-utilities to v9.18.11 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
@@ -486,7 +486,7 @@ Mon, 20 May 2024 12:45:04 GMT
 
 ### Patches
 
-- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by olfedias@microsoft.com)
+- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.38 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-label to v9.1.70 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.19.0 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
@@ -511,7 +511,7 @@ Thu, 02 May 2024 11:36:37 GMT
 
 ### Patches
 
-- Fix spinner embedded in button animation ([PR #31195](https://github.com/microsoft/fluentui/pull/31195) by kirpadv@gmail.com)
+- Fix spinner embedded in button animation ([PR #31195](https://github.com/microsoft/fluentui/pull/31195) by <kirpadv@gmail.com>)
 
 ## [9.4.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.4.5)
 
@@ -532,7 +532,7 @@ Wed, 17 Apr 2024 21:53:58 GMT
 
 ### Patches
 
-- chore: move tabindex to the root slot of Spinner. ([PR #31056](https://github.com/microsoft/fluentui/pull/31056) by ololubek@microsoft.com)
+- chore: move tabindex to the root slot of Spinner. ([PR #31056](https://github.com/microsoft/fluentui/pull/31056) by <ololubek@microsoft.com>)
 
 ## [9.4.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.4.3)
 
@@ -541,7 +541,7 @@ Tue, 02 Apr 2024 09:48:00 GMT
 
 ### Patches
 
-- fix: rotating SVG should not cause parent overflow ([PR #30615](https://github.com/microsoft/fluentui/pull/30615) by sarah.higley@microsoft.com)
+- fix: rotating SVG should not cause parent overflow ([PR #30615](https://github.com/microsoft/fluentui/pull/30615) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.35 ([PR #30644](https://github.com/microsoft/fluentui/pull/30644) by beachball)
 - Bump @fluentui/react-label to v9.1.67 ([PR #30644](https://github.com/microsoft/fluentui/pull/30644) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.16.0 ([PR #30644](https://github.com/microsoft/fluentui/pull/30644) by beachball)
@@ -580,7 +580,7 @@ Thu, 07 Mar 2024 19:33:25 GMT
 
 ### Minor changes
 
-- chore: Rewrite Spinner animation using only rotation transforms. ([PR #30567](https://github.com/microsoft/fluentui/pull/30567) by behowell@microsoft.com)
+- chore: Rewrite Spinner animation using only rotation transforms. ([PR #30567](https://github.com/microsoft/fluentui/pull/30567) by <behowell@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.32 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-label to v9.1.64 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.15.0 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
@@ -648,7 +648,7 @@ Thu, 18 Jan 2024 14:25:02 GMT
 
 ### Patches
 
-- fix: Update isVisible initial value to false to prevent Spinner flicker ([PR #30330](https://github.com/microsoft/fluentui/pull/30330) by ololubek@microsoft.com)
+- fix: Update isVisible initial value to false to prevent Spinner flicker ([PR #30330](https://github.com/microsoft/fluentui/pull/30330) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.27 ([PR #30046](https://github.com/microsoft/fluentui/pull/30046) by beachball)
 - Bump @fluentui/react-label to v9.1.58 ([PR #30046](https://github.com/microsoft/fluentui/pull/30046) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.14.0 ([PR #30046](https://github.com/microsoft/fluentui/pull/30046) by beachball)
@@ -672,7 +672,7 @@ Tue, 16 Jan 2024 13:14:08 GMT
 
 ### Patches
 
-- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by mgodbolt@microsoft.com)
+- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.25 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-label to v9.1.56 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 
@@ -749,7 +749,7 @@ Thu, 09 Nov 2023 17:29:43 GMT
 
 ### Patches
 
-- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by martinhochel@microsoft.com)
+- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.19 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-label to v9.1.49 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.12.0 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
@@ -784,7 +784,7 @@ Wed, 18 Oct 2023 17:54:06 GMT
 
 ### Patches
 
-- chore: migrate from getNativeElementProps to getIntrinsicElementProps ([PR #29499](https://github.com/microsoft/fluentui/pull/29499) by bernardo.sunderhus@gmail.com)
+- chore: migrate from getNativeElementProps to getIntrinsicElementProps ([PR #29499](https://github.com/microsoft/fluentui/pull/29499) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.18 ([PR #29560](https://github.com/microsoft/fluentui/pull/29560) by beachball)
 - Bump @fluentui/react-label to v9.1.46 ([PR #29560](https://github.com/microsoft/fluentui/pull/29560) by beachball)
 - Bump @fluentui/react-utilities to v9.15.1 ([PR #29560](https://github.com/microsoft/fluentui/pull/29560) by beachball)
@@ -861,7 +861,7 @@ Tue, 26 Sep 2023 17:49:11 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by yuanboxue@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by <yuanboxue@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.12 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-label to v9.1.39 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.9.1 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
@@ -875,7 +875,7 @@ Tue, 26 Sep 2023 15:31:49 GMT
 
 ### Patches
 
-- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by martinhochel@microsoft.com)
+- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.11 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-label to v9.1.38 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.9.0 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
@@ -889,7 +889,7 @@ Wed, 20 Sep 2023 17:47:43 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by martinhochel@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.10 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-label to v9.1.37 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.8.1 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
@@ -954,9 +954,9 @@ Tue, 05 Sep 2023 13:29:04 GMT
 
 ### Patches
 
-- feat: Update Spinner appearance token to colorBrandStroke2Contrast ([PR #29008](https://github.com/microsoft/fluentui/pull/29008) by ololubek@microsoft.com)
-- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by bernardo.sunderhus@gmail.com)
-- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by bernardo.sunderhus@gmail.com)
+- feat: Update Spinner appearance token to colorBrandStroke2Contrast ([PR #29008](https://github.com/microsoft/fluentui/pull/29008) by <ololubek@microsoft.com>)
+- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by <bernardo.sunderhus@gmail.com>)
+- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.4 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-label to v9.1.31 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.7.3 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
@@ -1034,8 +1034,8 @@ Wed, 09 Aug 2023 13:17:05 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by olfedias@microsoft.com)
-- chore(cxe-red): migrate to new slot API ([PR #28753](https://github.com/microsoft/fluentui/pull/28753) by bernardo.sunderhus@gmail.com)
+- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by <olfedias@microsoft.com>)
+- chore(cxe-red): migrate to new slot API ([PR #28753](https://github.com/microsoft/fluentui/pull/28753) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.14 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-label to v9.1.24 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.7.2 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
@@ -1081,7 +1081,7 @@ Mon, 17 Jul 2023 21:27:36 GMT
 
 ### Minor changes
 
-- feat: add extra-tiny value to size prop of Spinner ([PR #28249](https://github.com/microsoft/fluentui/pull/28249) by ololubek@microsoft.com)
+- feat: add extra-tiny value to size prop of Spinner ([PR #28249](https://github.com/microsoft/fluentui/pull/28249) by <ololubek@microsoft.com>)
 
 ## [9.2.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.2.7)
 
@@ -1149,7 +1149,7 @@ Wed, 31 May 2023 06:46:19 GMT
 
 ### Patches
 
-- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by seanmonahan@microsoft.com)
+- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.6 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-label to v9.1.15 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-utilities to v9.9.2 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
@@ -1173,7 +1173,7 @@ Wed, 24 May 2023 20:45:33 GMT
 
 ### Minor changes
 
-- feat: added delay prop to spinner ([PR #27852](https://github.com/microsoft/fluentui/pull/27852) by kakrookaran@gmail.com)
+- feat: added delay prop to spinner ([PR #27852](https://github.com/microsoft/fluentui/pull/27852) by <kakrookaran@gmail.com>)
 - Bump @fluentui/react-label to v9.1.13 ([PR #27989](https://github.com/microsoft/fluentui/pull/27989) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.5.0 ([PR #27989](https://github.com/microsoft/fluentui/pull/27989) by beachball)
 
@@ -1195,9 +1195,9 @@ Fri, 12 May 2023 20:27:47 GMT
 
 ### Patches
 
-- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by olfedias@microsoft.com)
-- Update to use single hook selector ([PR #27491](https://github.com/microsoft/fluentui/pull/27491) by gcox@microsoft.com)
-- chore: move makeStyles() calls to .styles.ts files ([PR #27710](https://github.com/microsoft/fluentui/pull/27710) by olfedias@microsoft.com)
+- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by <olfedias@microsoft.com>)
+- Update to use single hook selector ([PR #27491](https://github.com/microsoft/fluentui/pull/27491) by <gcox@microsoft.com>)
+- chore: move makeStyles() calls to .styles.ts files ([PR #27710](https://github.com/microsoft/fluentui/pull/27710) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.3 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-label to v9.1.11 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.4.0 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
@@ -1212,7 +1212,7 @@ Mon, 24 Apr 2023 08:12:42 GMT
 
 ### Patches
 
-- chore: adopt custom JSX pragma ([PR #27622](https://github.com/microsoft/fluentui/pull/27622) by bernardo.sunderhus@gmail.com)
+- chore: adopt custom JSX pragma ([PR #27622](https://github.com/microsoft/fluentui/pull/27622) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.2 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
 - Bump @fluentui/react-label to v9.1.10 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
 
@@ -1253,8 +1253,8 @@ Tue, 21 Mar 2023 21:23:04 GMT
 
 ### Patches
 
-- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by tristan.watanabe@gmail.com)
-- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by tristan.watanabe@gmail.com)
+- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by <tristan.watanabe@gmail.com>)
+- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by <tristan.watanabe@gmail.com>)
 - Bump @fluentui/react-label to v9.1.5 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.3.2 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-theme to v9.1.7 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
@@ -1309,7 +1309,7 @@ Wed, 08 Mar 2023 17:42:43 GMT
 
 ### Minor changes
 
-- feat: Adding calls to custom style hooks derived from context. ([PR #27075](https://github.com/microsoft/fluentui/pull/27075) by gcox@microsoft.com)
+- feat: Adding calls to custom style hooks derived from context. ([PR #27075](https://github.com/microsoft/fluentui/pull/27075) by <gcox@microsoft.com>)
 - Bump @fluentui/react-label to v9.1.0 ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.3.0 ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by beachball)
 - Bump @fluentui/react-utilities to v9.6.1 ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by beachball)
@@ -1390,7 +1390,7 @@ Wed, 04 Jan 2023 01:40:30 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #26045](https://github.com/microsoft/fluentui/pull/26045) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #26045](https://github.com/microsoft/fluentui/pull/26045) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.15 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
 - Bump @fluentui/react-utilities to v9.3.1 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.19 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
@@ -1423,7 +1423,7 @@ Mon, 05 Dec 2022 18:29:30 GMT
 
 ### Patches
 
-- chore: Migrate to new package structure. ([PR #25814](https://github.com/microsoft/fluentui/pull/25814) by tristan.watanabe@gmail.com)
+- chore: Migrate to new package structure. ([PR #25814](https://github.com/microsoft/fluentui/pull/25814) by <tristan.watanabe@gmail.com>)
 - Bump @fluentui/react-theme to v9.1.3 ([PR #25798](https://github.com/microsoft/fluentui/pull/25798) by beachball)
 - Bump @fluentui/react-label to v9.0.12 ([PR #25798](https://github.com/microsoft/fluentui/pull/25798) by beachball)
 
@@ -1444,9 +1444,9 @@ Fri, 11 Nov 2022 14:57:39 GMT
 
 ### Patches
 
-- Add documentation for Spinner when reduced-motion is active ([PR #25561](https://github.com/microsoft/fluentui/pull/25561) by ololubek@microsoft.com)
-- chore: Replacing use of hard-coded constants with curve and duration tokens from theme. ([PR #25522](https://github.com/microsoft/fluentui/pull/25522) by humberto_makoto@hotmail.com)
-- fix: create valid export maps ([PR #25558](https://github.com/microsoft/fluentui/pull/25558) by martinhochel@microsoft.com)
+- Add documentation for Spinner when reduced-motion is active ([PR #25561](https://github.com/microsoft/fluentui/pull/25561) by <ololubek@microsoft.com>)
+- chore: Replacing use of hard-coded constants with curve and duration tokens from theme. ([PR #25522](https://github.com/microsoft/fluentui/pull/25522) by <humberto_makoto@hotmail.com>)
+- fix: create valid export maps ([PR #25558](https://github.com/microsoft/fluentui/pull/25558) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-theme to v9.1.2 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
 - Bump @fluentui/react-label to v9.0.10 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
 - Bump @fluentui/react-utilities to v9.2.1 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
@@ -1459,7 +1459,7 @@ Wed, 02 Nov 2022 11:58:02 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #25412](https://github.com/microsoft/fluentui/pull/25412) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25412](https://github.com/microsoft/fluentui/pull/25412) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.9 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 - Bump @fluentui/react-utilities to v9.2.0 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.17 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
@@ -1471,8 +1471,8 @@ Thu, 20 Oct 2022 08:39:47 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #25212](https://github.com/microsoft/fluentui/pull/25212) by olfedias@microsoft.com)
-- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by mgodbolt@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25212](https://github.com/microsoft/fluentui/pull/25212) by <olfedias@microsoft.com>)
+- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-theme to v9.1.1 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 - Bump @fluentui/react-label to v9.0.8 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 - Bump @fluentui/react-utilities to v9.1.2 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
@@ -1485,7 +1485,7 @@ Thu, 13 Oct 2022 11:03:01 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #25075](https://github.com/microsoft/fluentui/pull/25075) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25075](https://github.com/microsoft/fluentui/pull/25075) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.7 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
 - Bump @fluentui/react-utilities to v9.1.1 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.15 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
@@ -1507,11 +1507,11 @@ Thu, 15 Sep 2022 09:49:23 GMT
 
 ### Patches
 
-- fix: Rename colorNeutralForegroundInvertedStatic token to colorNeutralForegroundStaticInverted ([PR #24611](https://github.com/microsoft/fluentui/pull/24611) by miroslav.stastny@microsoft.com)
-- chore: Update Griffel to latest version ([PR #24221](https://github.com/microsoft/fluentui/pull/24221) by olfedias@microsoft.com)
-- (patch): Add line-height styling to Spinner ([PR #24643](https://github.com/microsoft/fluentui/pull/24643) by ololubek@microsoft.com)
-- fix: update color tokens ([PR #24027](https://github.com/microsoft/fluentui/pull/24027) by seanmonahan@microsoft.com)
-- (chore): Remove appearance conditional from Spinner slot styling ([PR #24480](https://github.com/microsoft/fluentui/pull/24480) by ololubek@microsoft.com)
+- fix: Rename colorNeutralForegroundInvertedStatic token to colorNeutralForegroundStaticInverted ([PR #24611](https://github.com/microsoft/fluentui/pull/24611) by <miroslav.stastny@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #24221](https://github.com/microsoft/fluentui/pull/24221) by <olfedias@microsoft.com>)
+- (patch): Add line-height styling to Spinner ([PR #24643](https://github.com/microsoft/fluentui/pull/24643) by <ololubek@microsoft.com>)
+- fix: update color tokens ([PR #24027](https://github.com/microsoft/fluentui/pull/24027) by <seanmonahan@microsoft.com>)
+- (chore): Remove appearance conditional from Spinner slot styling ([PR #24480](https://github.com/microsoft/fluentui/pull/24480) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-theme to v9.1.0 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 - Bump @fluentui/react-label to v9.0.5 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 - Bump @fluentui/react-utilities to v9.1.0 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
@@ -1524,8 +1524,8 @@ Wed, 03 Aug 2022 16:04:01 GMT
 
 ### Patches
 
-- chore: Bump Griffel dependencies ([PR #24114](https://github.com/microsoft/fluentui/pull/24114) by miroslav.stastny@microsoft.com)
-- bugfix: add reduced motion styles for avatar, spinner, switch, and input focus styles ([PR #23788](https://github.com/microsoft/fluentui/pull/23788) by sarah.higley@microsoft.com)
+- chore: Bump Griffel dependencies ([PR #24114](https://github.com/microsoft/fluentui/pull/24114) by <miroslav.stastny@microsoft.com>)
+- bugfix: add reduced motion styles for avatar, spinner, switch, and input focus styles ([PR #23788](https://github.com/microsoft/fluentui/pull/23788) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.4 ([PR #24131](https://github.com/microsoft/fluentui/pull/24131) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.12 ([PR #24131](https://github.com/microsoft/fluentui/pull/24131) by beachball)
 
@@ -1536,7 +1536,7 @@ Thu, 14 Jul 2022 21:21:04 GMT
 
 ### Patches
 
-- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by Humberto.Morimoto@microsoft.com)
+- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by <Humberto.Morimoto@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.3 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 - Bump @fluentui/react-utilities to v9.0.2 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 
@@ -1558,7 +1558,7 @@ Tue, 28 Jun 2022 17:39:52 GMT
 
 ### Patches
 
-- fix: Use caret dependency range for Griffel ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by lingfangao@hotmail.com)
+- fix: Use caret dependency range for Griffel ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-label to v9.0.1 ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.10 ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by beachball)
 
@@ -1569,7 +1569,7 @@ Tue, 28 Jun 2022 15:14:02 GMT
 
 ### Patches
 
-- feat: Initial 9.0.0 release ([PR #23733](https://github.com/microsoft/fluentui/pull/23733) by lingfangao@hotmail.com)
+- feat: Initial 9.0.0 release ([PR #23733](https://github.com/microsoft/fluentui/pull/23733) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-theme to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-label to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
@@ -1577,10 +1577,10 @@ Tue, 28 Jun 2022 15:14:02 GMT
 
 ### Changes
 
-- Bump Griffel dependencies ([PR #23688](https://github.com/microsoft/fluentui/pull/23688) by lingfangao@hotmail.com)
-- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by lingfangao@hotmail.com)
-- fix: Move role attribute to root slot and update Spinner documentation ([PR #23385](https://github.com/microsoft/fluentui/pull/23385) by ololubek@microsoft.com)
-- undefined ([PR #23503](https://github.com/microsoft/fluentui/pull/23503) by Humberto.Morimoto@microsoft.com)
+- Bump Griffel dependencies ([PR #23688](https://github.com/microsoft/fluentui/pull/23688) by <lingfangao@hotmail.com>)
+- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by <lingfangao@hotmail.com>)
+- fix: Move role attribute to root slot and update Spinner documentation ([PR #23385](https://github.com/microsoft/fluentui/pull/23385) by <ololubek@microsoft.com>)
+- undefined ([PR #23503](https://github.com/microsoft/fluentui/pull/23503) by <Humberto.Morimoto@microsoft.com>)
 
 ## [9.0.0-rc.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.0.0-rc.6)
 
@@ -1599,8 +1599,8 @@ Tue, 31 May 2022 21:28:47 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #23275](https://github.com/microsoft/fluentui/pull/23275) by olfedias@microsoft.com)
-- Remove usage of focus-visible pseudo-class. ([PR #23305](https://github.com/microsoft/fluentui/pull/23305) by tristan.watanabe@gmail.com)
+- chore: Update Griffel to latest version ([PR #23275](https://github.com/microsoft/fluentui/pull/23275) by <olfedias@microsoft.com>)
+- Remove usage of focus-visible pseudo-class. ([PR #23305](https://github.com/microsoft/fluentui/pull/23305) by <tristan.watanabe@gmail.com>)
 - Bump @fluentui/react-label to v9.0.0-rc.5 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.10 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.8 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
@@ -1612,7 +1612,7 @@ Thu, 26 May 2022 21:01:29 GMT
 
 ### Changes
 
-- BREAKING: Remove `status` prop in Spinner ([PR #23204](https://github.com/microsoft/fluentui/pull/23204) by ololubek@microsoft.com)
+- BREAKING: Remove `status` prop in Spinner ([PR #23204](https://github.com/microsoft/fluentui/pull/23204) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.0-rc.4 ([PR #23267](https://github.com/microsoft/fluentui/pull/23267) by beachball)
 
 ## [9.0.0-rc.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.0.0-rc.3)
@@ -1633,13 +1633,13 @@ Mon, 23 May 2022 12:13:44 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #22894](https://github.com/microsoft/fluentui/pull/22894) by olfedias@microsoft.com)
-- chore: Update Griffel to latest version ([PR #23029](https://github.com/microsoft/fluentui/pull/23029) by olfedias@microsoft.com)
-- Migrate react-spinner to rc ([PR #23009](https://github.com/microsoft/fluentui/pull/23009) by ololubek@microsoft.com)
-- Removing SpinnerCommons type. ([PR #22954](https://github.com/microsoft/fluentui/pull/22954) by Humberto.Morimoto@microsoft.com)
-- Updated react-label package version to RC. ([PR #22865](https://github.com/microsoft/fluentui/pull/22865) by esteban.230@hotmail.com)
-- Updated to use tokens were possible ([PR #22949](https://github.com/microsoft/fluentui/pull/22949) by gcox@microsoft.com)
-- feat: ship rolluped only dts ([PR #22828](https://github.com/microsoft/fluentui/pull/22828) by martinhochel@microsoft.com)
+- chore: Update Griffel to latest version ([PR #22894](https://github.com/microsoft/fluentui/pull/22894) by <olfedias@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #23029](https://github.com/microsoft/fluentui/pull/23029) by <olfedias@microsoft.com>)
+- Migrate react-spinner to rc ([PR #23009](https://github.com/microsoft/fluentui/pull/23009) by <ololubek@microsoft.com>)
+- Removing SpinnerCommons type. ([PR #22954](https://github.com/microsoft/fluentui/pull/22954) by <Humberto.Morimoto@microsoft.com>)
+- Updated react-label package version to RC. ([PR #22865](https://github.com/microsoft/fluentui/pull/22865) by <esteban.230@hotmail.com>)
+- Updated to use tokens were possible ([PR #22949](https://github.com/microsoft/fluentui/pull/22949) by <gcox@microsoft.com>)
+- feat: ship rolluped only dts ([PR #22828](https://github.com/microsoft/fluentui/pull/22828) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-theme to v9.0.0-rc.8 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
 - Bump @fluentui/react-label to v9.0.0-rc.2 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.9 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
@@ -1675,7 +1675,7 @@ Mon, 25 Apr 2022 09:32:15 GMT
 
 ### Changes
 
-- Reexport react-spinner in react-components ([PR #22531](https://github.com/microsoft/fluentui/pull/22531) by ololubek@microsoft.com)
+- Reexport react-spinner in react-components ([PR #22531](https://github.com/microsoft/fluentui/pull/22531) by <ololubek@microsoft.com>)
 
 ## [9.0.0-beta.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-spinner_v9.0.0-beta.6)
 

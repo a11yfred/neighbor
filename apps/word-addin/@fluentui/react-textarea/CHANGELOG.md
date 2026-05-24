@@ -6,19 +6,19 @@ This log was last generated on Thu, 23 Apr 2026 11:59:35 GMT and should not be m
 
 ## [9.7.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.7.2)
 
-Thu, 23 Apr 2026 11:59:35 GMT 
+Thu, 23 Apr 2026 11:59:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.7.1..@fluentui/react-textarea_v9.7.2)
 
 ### Patches
 
-- fix: update types for render function ([PR #35972](https://github.com/microsoft/fluentui/pull/35972) by dmytrokirpa@microsoft.com)
+- fix: update types for render function ([PR #35972](https://github.com/microsoft/fluentui/pull/35972) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-field to v9.5.1 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-utilities to v9.26.3 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.4.2 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 
 ## [9.7.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.7.1)
 
-Wed, 01 Apr 2026 15:52:43 GMT 
+Wed, 01 Apr 2026 15:52:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.7.0..@fluentui/react-textarea_v9.7.1)
 
 ### Patches
@@ -27,17 +27,17 @@ Wed, 01 Apr 2026 15:52:43 GMT
 
 ## [9.7.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.7.0)
 
-Thu, 26 Mar 2026 08:12:53 GMT 
+Thu, 26 Mar 2026 08:12:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.16..@fluentui/react-textarea_v9.7.0)
 
 ### Minor changes
 
-- feat: expose base hook and types for Textarea ([PR #35886](https://github.com/microsoft/fluentui/pull/35886) by dmytrokirpa@microsoft.com)
-- feat: add base hooks for Textarea ([PR #35822](https://github.com/microsoft/fluentui/pull/35822) by dmytrokirpa@microsoft.com)
+- feat: expose base hook and types for Textarea ([PR #35886](https://github.com/microsoft/fluentui/pull/35886) by <dmytrokirpa@microsoft.com>)
+- feat: add base hooks for Textarea ([PR #35822](https://github.com/microsoft/fluentui/pull/35822) by <dmytrokirpa@microsoft.com>)
 
 ## [9.6.16](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.16)
 
-Wed, 11 Mar 2026 09:22:22 GMT 
+Wed, 11 Mar 2026 09:22:22 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.15..@fluentui/react-textarea_v9.6.16)
 
 ### Patches
@@ -46,7 +46,7 @@ Wed, 11 Mar 2026 09:22:22 GMT
 
 ## [9.6.15](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.15)
 
-Wed, 25 Feb 2026 13:32:28 GMT 
+Wed, 25 Feb 2026 13:32:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.14..@fluentui/react-textarea_v9.6.15)
 
 ### Patches
@@ -58,7 +58,7 @@ Wed, 25 Feb 2026 13:32:28 GMT
 
 ## [9.6.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.14)
 
-Thu, 12 Feb 2026 10:46:15 GMT 
+Thu, 12 Feb 2026 10:46:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.13..@fluentui/react-textarea_v9.6.14)
 
 ### Patches
@@ -68,7 +68,7 @@ Thu, 12 Feb 2026 10:46:15 GMT
 
 ## [9.6.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.13)
 
-Thu, 22 Jan 2026 17:06:44 GMT 
+Thu, 22 Jan 2026 17:06:44 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.12..@fluentui/react-textarea_v9.6.13)
 
 ### Patches
@@ -81,7 +81,7 @@ Thu, 22 Jan 2026 17:06:44 GMT
 
 ## [9.6.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.12)
 
-Wed, 17 Dec 2025 18:10:11 GMT 
+Wed, 17 Dec 2025 18:10:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.11..@fluentui/react-textarea_v9.6.12)
 
 ### Patches
@@ -92,12 +92,12 @@ Wed, 17 Dec 2025 18:10:11 GMT
 
 ## [9.6.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.11)
 
-Tue, 11 Nov 2025 19:18:13 GMT 
+Tue, 11 Nov 2025 19:18:13 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.10..@fluentui/react-textarea_v9.6.11)
 
 ### Patches
 
-- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by estebanmu@microsoft.com)
+- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by <estebanmu@microsoft.com>)
 - Bump @fluentui/react-field to v9.4.11 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.26.0 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-utilities to v9.25.4 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
@@ -105,7 +105,7 @@ Tue, 11 Nov 2025 19:18:13 GMT
 
 ## [9.6.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.10)
 
-Thu, 06 Nov 2025 15:01:25 GMT 
+Thu, 06 Nov 2025 15:01:25 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.9..@fluentui/react-textarea_v9.6.10)
 
 ### Patches
@@ -116,7 +116,7 @@ Thu, 06 Nov 2025 15:01:25 GMT
 
 ## [9.6.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.9)
 
-Fri, 31 Oct 2025 16:22:06 GMT 
+Fri, 31 Oct 2025 16:22:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.8..@fluentui/react-textarea_v9.6.9)
 
 ### Patches
@@ -127,7 +127,7 @@ Fri, 31 Oct 2025 16:22:06 GMT
 
 ## [9.6.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.8)
 
-Tue, 21 Oct 2025 14:16:59 GMT 
+Tue, 21 Oct 2025 14:16:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.7..@fluentui/react-textarea_v9.6.8)
 
 ### Patches
@@ -137,7 +137,7 @@ Tue, 21 Oct 2025 14:16:59 GMT
 
 ## [9.6.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.7)
 
-Wed, 08 Oct 2025 12:04:53 GMT 
+Wed, 08 Oct 2025 12:04:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.6..@fluentui/react-textarea_v9.6.7)
 
 ### Patches
@@ -148,12 +148,12 @@ Wed, 08 Oct 2025 12:04:53 GMT
 
 ## [9.6.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.6)
 
-Thu, 02 Oct 2025 15:12:07 GMT 
+Thu, 02 Oct 2025 15:12:07 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.5..@fluentui/react-textarea_v9.6.6)
 
 ### Patches
 
-- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by dmytrokirpa@microsoft.com)
+- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-field to v9.4.6 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.25.2 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-utilities to v9.25.0 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
@@ -161,14 +161,14 @@ Thu, 02 Oct 2025 15:12:07 GMT
 
 ## [9.6.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.5)
 
-Mon, 08 Sep 2025 12:50:47 GMT 
+Mon, 08 Sep 2025 12:50:47 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.4..@fluentui/react-textarea_v9.6.5)
 
 ### Patches
 
-- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by dmytrokirpa@microsoft.com)
-- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by dmytrokirpa@microsoft.com)
-- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by dmytrokirpa@microsoft.com)
+- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by <dmytrokirpa@microsoft.com>)
+- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by <dmytrokirpa@microsoft.com>)
+- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-field to v9.4.5 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.25.1 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-utilities to v9.24.1 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
@@ -176,7 +176,7 @@ Mon, 08 Sep 2025 12:50:47 GMT
 
 ## [9.6.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.4)
 
-Thu, 21 Aug 2025 12:25:23 GMT 
+Thu, 21 Aug 2025 12:25:23 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.3..@fluentui/react-textarea_v9.6.4)
 
 ### Patches
@@ -188,19 +188,19 @@ Thu, 21 Aug 2025 12:25:23 GMT
 
 ## [9.6.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.3)
 
-Thu, 07 Aug 2025 10:03:29 GMT 
+Thu, 07 Aug 2025 10:03:29 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.2..@fluentui/react-textarea_v9.6.3)
 
 ### Patches
 
-- fix: remove custom selection styles ([PR #34897](https://github.com/microsoft/fluentui/pull/34897) by vgenaev@gmail.com)
+- fix: remove custom selection styles ([PR #34897](https://github.com/microsoft/fluentui/pull/34897) by <vgenaev@gmail.com>)
 - Bump @fluentui/react-field to v9.4.3 ([PR #34980](https://github.com/microsoft/fluentui/pull/34980) by beachball)
 - Bump @fluentui/react-utilities to v9.23.2 ([PR #34980](https://github.com/microsoft/fluentui/pull/34980) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.1.5 ([PR #34980](https://github.com/microsoft/fluentui/pull/34980) by beachball)
 
 ## [9.6.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.2)
 
-Wed, 30 Jul 2025 13:10:57 GMT 
+Wed, 30 Jul 2025 13:10:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.1..@fluentui/react-textarea_v9.6.2)
 
 ### Patches
@@ -213,7 +213,7 @@ Wed, 30 Jul 2025 13:10:57 GMT
 
 ## [9.6.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.1)
 
-Mon, 28 Jul 2025 18:48:21 GMT 
+Mon, 28 Jul 2025 18:48:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.6.0..@fluentui/react-textarea_v9.6.1)
 
 ### Patches
@@ -224,17 +224,17 @@ Mon, 28 Jul 2025 18:48:21 GMT
 
 ## [9.6.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.6.0)
 
-Thu, 17 Jul 2025 13:49:50 GMT 
+Thu, 17 Jul 2025 13:49:50 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.5.7..@fluentui/react-textarea_v9.6.0)
 
 ### Minor changes
 
-- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by martinhochel@microsoft.com)
+- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-field to v9.4.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 
 ## [9.5.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.5.7)
 
-Fri, 11 Jul 2025 15:59:24 GMT 
+Fri, 11 Jul 2025 15:59:24 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.5.6..@fluentui/react-textarea_v9.5.7)
 
 ### Patches
@@ -243,7 +243,7 @@ Fri, 11 Jul 2025 15:59:24 GMT
 
 ## [9.5.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.5.6)
 
-Fri, 04 Jul 2025 10:02:51 GMT 
+Fri, 04 Jul 2025 10:02:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.5.5..@fluentui/react-textarea_v9.5.6)
 
 ### Patches
@@ -252,7 +252,7 @@ Fri, 04 Jul 2025 10:02:51 GMT
 
 ## [9.5.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.5.5)
 
-Fri, 27 Jun 2025 13:39:41 GMT 
+Fri, 27 Jun 2025 13:39:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.5.4..@fluentui/react-textarea_v9.5.5)
 
 ### Patches
@@ -261,7 +261,7 @@ Fri, 27 Jun 2025 13:39:41 GMT
 
 ## [9.5.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.5.4)
 
-Thu, 26 Jun 2025 14:11:55 GMT 
+Thu, 26 Jun 2025 14:11:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.5.3..@fluentui/react-textarea_v9.5.4)
 
 ### Patches
@@ -272,7 +272,7 @@ Thu, 26 Jun 2025 14:11:55 GMT
 
 ## [9.5.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.5.3)
 
-Mon, 23 Jun 2025 15:49:48 GMT 
+Mon, 23 Jun 2025 15:49:48 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.5.2..@fluentui/react-textarea_v9.5.3)
 
 ### Patches
@@ -281,7 +281,7 @@ Mon, 23 Jun 2025 15:49:48 GMT
 
 ## [9.5.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.5.2)
 
-Wed, 18 Jun 2025 17:34:00 GMT 
+Wed, 18 Jun 2025 17:34:00 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.5.1..@fluentui/react-textarea_v9.5.2)
 
 ### Patches
@@ -293,7 +293,7 @@ Wed, 18 Jun 2025 17:34:00 GMT
 
 ## [9.5.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.5.1)
 
-Fri, 13 Jun 2025 12:32:53 GMT 
+Fri, 13 Jun 2025 12:32:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.5.0..@fluentui/react-textarea_v9.5.1)
 
 ### Patches
@@ -302,7 +302,7 @@ Fri, 13 Jun 2025 12:32:53 GMT
 
 ## [9.5.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.5.0)
 
-Thu, 12 Jun 2025 09:43:33 GMT 
+Thu, 12 Jun 2025 09:43:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.4.9..@fluentui/react-textarea_v9.5.0)
 
 ### Minor changes
@@ -313,7 +313,7 @@ Thu, 12 Jun 2025 09:43:33 GMT
 
 ## [9.4.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.4.9)
 
-Wed, 11 Jun 2025 22:31:58 GMT 
+Wed, 11 Jun 2025 22:31:58 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.4.8..@fluentui/react-textarea_v9.4.9)
 
 ### Patches
@@ -322,7 +322,7 @@ Wed, 11 Jun 2025 22:31:58 GMT
 
 ## [9.4.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.4.8)
 
-Fri, 06 Jun 2025 13:15:17 GMT 
+Fri, 06 Jun 2025 13:15:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.4.7..@fluentui/react-textarea_v9.4.8)
 
 ### Patches
@@ -333,7 +333,7 @@ Fri, 06 Jun 2025 13:15:17 GMT
 
 ## [9.4.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.4.7)
 
-Wed, 14 May 2025 18:49:20 GMT 
+Wed, 14 May 2025 18:49:20 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.4.6..@fluentui/react-textarea_v9.4.7)
 
 ### Patches
@@ -342,7 +342,7 @@ Wed, 14 May 2025 18:49:20 GMT
 
 ## [9.4.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.4.6)
 
-Thu, 24 Apr 2025 09:59:45 GMT 
+Thu, 24 Apr 2025 09:59:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.4.5..@fluentui/react-textarea_v9.4.6)
 
 ### Patches
@@ -351,7 +351,7 @@ Thu, 24 Apr 2025 09:59:45 GMT
 
 ## [9.4.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.4.5)
 
-Wed, 16 Apr 2025 19:42:18 GMT 
+Wed, 16 Apr 2025 19:42:18 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.4.4..@fluentui/react-textarea_v9.4.5)
 
 ### Patches
@@ -362,7 +362,7 @@ Wed, 16 Apr 2025 19:42:18 GMT
 
 ## [9.4.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.4.4)
 
-Tue, 01 Apr 2025 15:08:02 GMT 
+Tue, 01 Apr 2025 15:08:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.4.3..@fluentui/react-textarea_v9.4.4)
 
 ### Patches
@@ -371,7 +371,7 @@ Tue, 01 Apr 2025 15:08:02 GMT
 
 ## [9.4.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.4.3)
 
-Thu, 27 Mar 2025 21:12:51 GMT 
+Thu, 27 Mar 2025 21:12:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.4.2..@fluentui/react-textarea_v9.4.3)
 
 ### Patches
@@ -383,7 +383,7 @@ Thu, 27 Mar 2025 21:12:51 GMT
 
 ## [9.4.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.4.2)
 
-Wed, 19 Mar 2025 15:40:43 GMT 
+Wed, 19 Mar 2025 15:40:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.4.1..@fluentui/react-textarea_v9.4.2)
 
 ### Patches
@@ -395,12 +395,12 @@ Wed, 19 Mar 2025 15:40:43 GMT
 
 ## [9.4.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.4.1)
 
-Tue, 11 Mar 2025 18:58:54 GMT 
+Tue, 11 Mar 2025 18:58:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.4.0..@fluentui/react-textarea_v9.4.1)
 
 ### Patches
 
-- fix: use correct tokens for hover, active and focus states ([PR #33927](https://github.com/microsoft/fluentui/pull/33927) by vgenaev@gmail.com)
+- fix: use correct tokens for hover, active and focus states ([PR #33927](https://github.com/microsoft/fluentui/pull/33927) by <vgenaev@gmail.com>)
 - Bump @fluentui/react-field to v9.2.1 ([PR #33927](https://github.com/microsoft/fluentui/pull/33927) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.22.0 ([PR #33927](https://github.com/microsoft/fluentui/pull/33927) by beachball)
 - Bump @fluentui/react-utilities to v9.18.21 ([PR #33927](https://github.com/microsoft/fluentui/pull/33927) by beachball)
@@ -408,7 +408,7 @@ Tue, 11 Mar 2025 18:58:54 GMT
 
 ## [9.4.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.4.0)
 
-Fri, 21 Feb 2025 14:34:05 GMT 
+Fri, 21 Feb 2025 14:34:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.98..@fluentui/react-textarea_v9.4.0)
 
 ### Minor changes
@@ -417,7 +417,7 @@ Fri, 21 Feb 2025 14:34:05 GMT
 
 ## [9.3.98](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.98)
 
-Mon, 27 Jan 2025 20:27:35 GMT 
+Mon, 27 Jan 2025 20:27:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.97..@fluentui/react-textarea_v9.3.98)
 
 ### Patches
@@ -426,7 +426,7 @@ Mon, 27 Jan 2025 20:27:35 GMT
 
 ## [9.3.97](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.97)
 
-Wed, 22 Jan 2025 14:00:21 GMT 
+Wed, 22 Jan 2025 14:00:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.96..@fluentui/react-textarea_v9.3.97)
 
 ### Patches
@@ -437,7 +437,7 @@ Wed, 22 Jan 2025 14:00:21 GMT
 
 ## [9.3.96](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.96)
 
-Wed, 08 Jan 2025 18:33:36 GMT 
+Wed, 08 Jan 2025 18:33:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.95..@fluentui/react-textarea_v9.3.96)
 
 ### Patches
@@ -447,7 +447,7 @@ Wed, 08 Jan 2025 18:33:36 GMT
 
 ## [9.3.95](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.95)
 
-Mon, 16 Dec 2024 16:26:49 GMT 
+Mon, 16 Dec 2024 16:26:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.94..@fluentui/react-textarea_v9.3.95)
 
 ### Patches
@@ -460,17 +460,17 @@ Mon, 16 Dec 2024 16:26:49 GMT
 
 ## [9.3.94](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.94)
 
-Mon, 09 Dec 2024 17:38:07 GMT 
+Mon, 09 Dec 2024 17:38:07 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.93..@fluentui/react-textarea_v9.3.94)
 
 ### Patches
 
-- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by olfedias@microsoft.com)
+- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.82 ([PR #33431](https://github.com/microsoft/fluentui/pull/33431) by beachball)
 
 ## [9.3.93](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.93)
 
-Fri, 06 Dec 2024 12:53:46 GMT 
+Fri, 06 Dec 2024 12:53:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.92..@fluentui/react-textarea_v9.3.93)
 
 ### Patches
@@ -483,7 +483,7 @@ Fri, 06 Dec 2024 12:53:46 GMT
 
 ## [9.3.92](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.92)
 
-Mon, 18 Nov 2024 09:44:40 GMT 
+Mon, 18 Nov 2024 09:44:40 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.91..@fluentui/react-textarea_v9.3.92)
 
 ### Patches
@@ -492,12 +492,12 @@ Mon, 18 Nov 2024 09:44:40 GMT
 
 ## [9.3.91](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.91)
 
-Mon, 11 Nov 2024 10:01:01 GMT 
+Mon, 11 Nov 2024 10:01:01 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.90..@fluentui/react-textarea_v9.3.91)
 
 ### Patches
 
-- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by martinhochel@microsoft.com)
+- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.79 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.21.0 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-theme to v9.1.22 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
@@ -506,7 +506,7 @@ Mon, 11 Nov 2024 10:01:01 GMT
 
 ## [9.3.90](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.90)
 
-Tue, 15 Oct 2024 17:17:53 GMT 
+Tue, 15 Oct 2024 17:17:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.89..@fluentui/react-textarea_v9.3.90)
 
 ### Patches
@@ -519,7 +519,7 @@ Tue, 15 Oct 2024 17:17:53 GMT
 
 ## [9.3.89](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.89)
 
-Tue, 08 Oct 2024 22:05:59 GMT 
+Tue, 08 Oct 2024 22:05:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.88..@fluentui/react-textarea_v9.3.89)
 
 ### Patches
@@ -528,7 +528,7 @@ Tue, 08 Oct 2024 22:05:59 GMT
 
 ## [9.3.88](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.88)
 
-Mon, 23 Sep 2024 12:40:17 GMT 
+Mon, 23 Sep 2024 12:40:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.87..@fluentui/react-textarea_v9.3.88)
 
 ### Patches
@@ -541,7 +541,7 @@ Mon, 23 Sep 2024 12:40:17 GMT
 
 ## [9.3.87](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.87)
 
-Tue, 10 Sep 2024 10:19:12 GMT 
+Tue, 10 Sep 2024 10:19:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.86..@fluentui/react-textarea_v9.3.87)
 
 ### Patches
@@ -552,7 +552,7 @@ Tue, 10 Sep 2024 10:19:12 GMT
 
 ## [9.3.86](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.86)
 
-Thu, 15 Aug 2024 13:49:46 GMT 
+Thu, 15 Aug 2024 13:49:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.85..@fluentui/react-textarea_v9.3.86)
 
 ### Patches
@@ -561,7 +561,7 @@ Thu, 15 Aug 2024 13:49:46 GMT
 
 ## [9.3.85](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.85)
 
-Thu, 15 Aug 2024 08:22:17 GMT 
+Thu, 15 Aug 2024 08:22:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.84..@fluentui/react-textarea_v9.3.85)
 
 ### Patches
@@ -570,7 +570,7 @@ Thu, 15 Aug 2024 08:22:17 GMT
 
 ## [9.3.84](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.84)
 
-Tue, 30 Jul 2024 18:47:35 GMT 
+Tue, 30 Jul 2024 18:47:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.83..@fluentui/react-textarea_v9.3.84)
 
 ### Patches
@@ -579,7 +579,7 @@ Tue, 30 Jul 2024 18:47:35 GMT
 
 ## [9.3.83](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.83)
 
-Tue, 23 Jul 2024 20:13:14 GMT 
+Tue, 23 Jul 2024 20:13:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.82..@fluentui/react-textarea_v9.3.83)
 
 ### Patches
@@ -591,12 +591,12 @@ Tue, 23 Jul 2024 20:13:14 GMT
 
 ## [9.3.82](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.82)
 
-Mon, 15 Jul 2024 17:25:19 GMT 
+Mon, 15 Jul 2024 17:25:19 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.81..@fluentui/react-textarea_v9.3.82)
 
 ### Patches
 
-- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by martinhochel@microsoft.com)
+- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.70 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.19.1 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-utilities to v9.18.12 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
@@ -604,28 +604,28 @@ Mon, 15 Jul 2024 17:25:19 GMT
 
 ## [9.3.81](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.81)
 
-Thu, 04 Jul 2024 15:14:36 GMT 
+Thu, 04 Jul 2024 15:14:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.80..@fluentui/react-textarea_v9.3.81)
 
 ### Patches
 
-- vertically align textarea component ([PR #31812](https://github.com/microsoft/fluentui/pull/31812) by kirpadv@gmail.com)
+- vertically align textarea component ([PR #31812](https://github.com/microsoft/fluentui/pull/31812) by <kirpadv@gmail.com>)
 
 ## [9.3.80](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.80)
 
-Mon, 01 Jul 2024 20:30:36 GMT 
+Mon, 01 Jul 2024 20:30:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.79..@fluentui/react-textarea_v9.3.80)
 
 ### Patches
 
-- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by seanmonahan@microsoft.com)
+- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.69 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-utilities to v9.18.11 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.40 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 
 ## [9.3.79](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.79)
 
-Mon, 17 Jun 2024 07:34:17 GMT 
+Mon, 17 Jun 2024 07:34:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-textarea_v9.3.78..@fluentui/react-textarea_v9.3.79)
 
 ### Patches
@@ -650,7 +650,7 @@ Thu, 23 May 2024 08:02:50 GMT
 
 ### Patches
 
-- chore: replace usage of .shorthands() in styles ([PR #31449](https://github.com/microsoft/fluentui/pull/31449) by olfedias@microsoft.com)
+- chore: replace usage of .shorthands() in styles ([PR #31449](https://github.com/microsoft/fluentui/pull/31449) by <olfedias@microsoft.com>)
 
 ## [9.3.76](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.76)
 
@@ -659,7 +659,7 @@ Mon, 20 May 2024 12:45:07 GMT
 
 ### Patches
 
-- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by olfedias@microsoft.com)
+- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.66 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.19.0 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-utilities to v9.18.9 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
@@ -860,7 +860,7 @@ Tue, 16 Jan 2024 13:14:11 GMT
 
 ### Patches
 
-- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by mgodbolt@microsoft.com)
+- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.48 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.25 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 
@@ -937,7 +937,7 @@ Thu, 09 Nov 2023 17:29:45 GMT
 
 ### Patches
 
-- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by martinhochel@microsoft.com)
+- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.41 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.12.0 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-theme to v9.1.16 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
@@ -1048,7 +1048,7 @@ Tue, 26 Sep 2023 17:49:13 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by yuanboxue@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by <yuanboxue@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.31 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.9.1 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-theme to v9.1.14 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
@@ -1062,7 +1062,7 @@ Tue, 26 Sep 2023 15:31:44 GMT
 
 ### Patches
 
-- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by martinhochel@microsoft.com)
+- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.30 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.9.0 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-theme to v9.1.13 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
@@ -1076,7 +1076,7 @@ Wed, 20 Sep 2023 17:47:44 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by martinhochel@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.29 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.8.1 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.10 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
@@ -1141,8 +1141,8 @@ Tue, 05 Sep 2023 13:29:08 GMT
 
 ### Patches
 
-- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by bernardo.sunderhus@gmail.com)
-- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by bernardo.sunderhus@gmail.com)
+- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by <bernardo.sunderhus@gmail.com>)
+- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-field to v9.1.23 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.7.3 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-theme to v9.1.12 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
@@ -1220,8 +1220,8 @@ Wed, 09 Aug 2023 13:17:07 GMT
 
 ### Patches
 
-- chore(cxe-red): migrate to new slot API ([PR #28753](https://github.com/microsoft/fluentui/pull/28753) by bernardo.sunderhus@gmail.com)
-- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by olfedias@microsoft.com)
+- chore(cxe-red): migrate to new slot API ([PR #28753](https://github.com/microsoft/fluentui/pull/28753) by <bernardo.sunderhus@gmail.com>)
+- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.16 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.7.2 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-theme to v9.1.11 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
@@ -1321,7 +1321,7 @@ Tue, 20 Jun 2023 12:39:05 GMT
 
 ### Patches
 
-- fix: Remove fixed height so rows prop works and add missing max-height. ([PR #28181](https://github.com/microsoft/fluentui/pull/28181) by esteban.230@hotmail.com)
+- fix: Remove fixed height so rows prop works and add missing max-height. ([PR #28181](https://github.com/microsoft/fluentui/pull/28181) by <esteban.230@hotmail.com>)
 - Bump @fluentui/react-field to v9.1.7 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.5.1 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
 - Bump @fluentui/react-theme to v9.1.9 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
@@ -1336,7 +1336,7 @@ Wed, 31 May 2023 06:46:21 GMT
 
 ### Patches
 
-- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by seanmonahan@microsoft.com)
+- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.6 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-utilities to v9.9.2 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.6 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
@@ -1360,7 +1360,7 @@ Wed, 24 May 2023 20:45:35 GMT
 
 ### Patches
 
-- fix: Move disabled styles in textarea selector to the textarea styles. ([PR #27920](https://github.com/microsoft/fluentui/pull/27920) by esteban.230@hotmail.com)
+- fix: Move disabled styles in textarea selector to the textarea styles. ([PR #27920](https://github.com/microsoft/fluentui/pull/27920) by <esteban.230@hotmail.com>)
 - Bump @fluentui/react-field to v9.1.4 ([PR #27989](https://github.com/microsoft/fluentui/pull/27989) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.5.0 ([PR #27989](https://github.com/microsoft/fluentui/pull/27989) by beachball)
 
@@ -1371,7 +1371,7 @@ Thu, 18 May 2023 00:39:17 GMT
 
 ### Patches
 
-- fix: When Textarea is disabled, make the text gray and add an outline for the filled appearance. ([PR #27837](https://github.com/microsoft/fluentui/pull/27837) by esteban.230@hotmail.com)
+- fix: When Textarea is disabled, make the text gray and add an outline for the filled appearance. ([PR #27837](https://github.com/microsoft/fluentui/pull/27837) by <esteban.230@hotmail.com>)
 - Bump @fluentui/react-field to v9.1.3 ([PR #27834](https://github.com/microsoft/fluentui/pull/27834) by beachball)
 - Bump @fluentui/react-utilities to v9.9.0 ([PR #27834](https://github.com/microsoft/fluentui/pull/27834) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.4 ([PR #27834](https://github.com/microsoft/fluentui/pull/27834) by beachball)
@@ -1383,9 +1383,9 @@ Fri, 12 May 2023 20:27:55 GMT
 
 ### Patches
 
-- Update to use single hook selector ([PR #27491](https://github.com/microsoft/fluentui/pull/27491) by gcox@microsoft.com)
-- chore: move makeStyles() calls to .styles.ts files ([PR #27710](https://github.com/microsoft/fluentui/pull/27710) by olfedias@microsoft.com)
-- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by olfedias@microsoft.com)
+- Update to use single hook selector ([PR #27491](https://github.com/microsoft/fluentui/pull/27491) by <gcox@microsoft.com>)
+- chore: move makeStyles() calls to .styles.ts files ([PR #27710](https://github.com/microsoft/fluentui/pull/27710) by <olfedias@microsoft.com>)
+- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.2 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.4.0 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-theme to v9.1.8 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
@@ -1400,7 +1400,7 @@ Mon, 24 Apr 2023 08:12:43 GMT
 
 ### Patches
 
-- chore: adopt custom JSX pragma ([PR #27631](https://github.com/microsoft/fluentui/pull/27631) by bernardo.sunderhus@gmail.com)
+- chore: adopt custom JSX pragma ([PR #27631](https://github.com/microsoft/fluentui/pull/27631) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-field to v9.1.1 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.2 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
 
@@ -1411,8 +1411,8 @@ Mon, 17 Apr 2023 17:53:59 GMT
 
 ### Patches
 
-- chore: Remove deprecated TextareaField_unstable shim component ([PR #27492](https://github.com/microsoft/fluentui/pull/27492) by behowell@microsoft.com)
-- chore: Update react-field dependency version ([PR #27493](https://github.com/microsoft/fluentui/pull/27493) by behowell@microsoft.com)
+- chore: Remove deprecated TextareaField_unstable shim component ([PR #27492](https://github.com/microsoft/fluentui/pull/27492) by <behowell@microsoft.com>)
+- chore: Update react-field dependency version ([PR #27493](https://github.com/microsoft/fluentui/pull/27493) by <behowell@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.0 ([PR #27564](https://github.com/microsoft/fluentui/pull/27564) by beachball)
 - Bump @fluentui/react-utilities to v9.8.0 ([PR #27564](https://github.com/microsoft/fluentui/pull/27564) by beachball)
 
@@ -1433,8 +1433,8 @@ Fri, 07 Apr 2023 00:01:45 GMT
 
 ### Patches
 
-- chore: Update package version of react-field ([PR #27458](https://github.com/microsoft/fluentui/pull/27458) by behowell@microsoft.com)
-- chore: Hook up FieldContext for use inside a Field ([PR #27399](https://github.com/microsoft/fluentui/pull/27399) by behowell@microsoft.com)
+- chore: Update package version of react-field ([PR #27458](https://github.com/microsoft/fluentui/pull/27458) by <behowell@microsoft.com>)
+- chore: Hook up FieldContext for use inside a Field ([PR #27399](https://github.com/microsoft/fluentui/pull/27399) by <behowell@microsoft.com>)
 - Bump @fluentui/react-field to v9.0.0-beta.1 ([PR #27420](https://github.com/microsoft/fluentui/pull/27420) by beachball)
 
 ## [9.3.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.3.7)
@@ -1454,8 +1454,8 @@ Tue, 21 Mar 2023 21:23:10 GMT
 
 ### Patches
 
-- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by tristan.watanabe@gmail.com)
-- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by tristan.watanabe@gmail.com)
+- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by <tristan.watanabe@gmail.com>)
+- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by <tristan.watanabe@gmail.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.27 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.3.2 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-theme to v9.1.7 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
@@ -1510,7 +1510,7 @@ Wed, 08 Mar 2023 17:42:48 GMT
 
 ### Minor changes
 
-- feat: Adding calls to custom style hooks derived from context. ([PR #27079](https://github.com/microsoft/fluentui/pull/27079) by gcox@microsoft.com)
+- feat: Adding calls to custom style hooks derived from context. ([PR #27079](https://github.com/microsoft/fluentui/pull/27079) by <gcox@microsoft.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.22 ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.3.0 ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by beachball)
 - Bump @fluentui/react-utilities to v9.6.1 ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by beachball)
@@ -1562,15 +1562,15 @@ Thu, 26 Jan 2023 13:31:01 GMT
 
 ### Minor changes
 
-- feat: Allow default appearance override ([PR #25262](https://github.com/microsoft/fluentui/pull/25262) by miroslav.stastny@microsoft.com)
-- feat: export TextareaOnChangeData type ([PR #26455](https://github.com/microsoft/fluentui/pull/26455) by olfedias@microsoft.com)
+- feat: Allow default appearance override ([PR #25262](https://github.com/microsoft/fluentui/pull/25262) by <miroslav.stastny@microsoft.com>)
+- feat: export TextareaOnChangeData type ([PR #26455](https://github.com/microsoft/fluentui/pull/26455) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.17 ([PR #26496](https://github.com/microsoft/fluentui/pull/26496) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.2.0 ([PR #26496](https://github.com/microsoft/fluentui/pull/26496) by beachball)
 - Bump @fluentui/react-utilities to v9.5.0 ([PR #26496](https://github.com/microsoft/fluentui/pull/26496) by beachball)
 
 ### Patches
 
-- Deprecate TextareaField_unstable in favor of Field with Textarea as its child. ([PR #26430](https://github.com/microsoft/fluentui/pull/26430) by behowell@microsoft.com)
+- Deprecate TextareaField_unstable in favor of Field with Textarea as its child. ([PR #26430](https://github.com/microsoft/fluentui/pull/26430) by <behowell@microsoft.com>)
 
 ## [9.1.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.1.13)
 
@@ -1607,7 +1607,7 @@ Wed, 04 Jan 2023 01:40:37 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #26045](https://github.com/microsoft/fluentui/pull/26045) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #26045](https://github.com/microsoft/fluentui/pull/26045) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.13 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
 - Bump @fluentui/react-utilities to v9.3.1 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.19 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
@@ -1640,8 +1640,8 @@ Mon, 05 Dec 2022 18:29:35 GMT
 
 ### Patches
 
-- chore: Replace use of fontSize tokens with typographyStyles ([PR #25727](https://github.com/microsoft/fluentui/pull/25727) by behowell@microsoft.com)
-- chore: Migrate to new package structure. ([PR #25820](https://github.com/microsoft/fluentui/pull/25820) by tristan.watanabe@gmail.com)
+- chore: Replace use of fontSize tokens with typographyStyles ([PR #25727](https://github.com/microsoft/fluentui/pull/25727) by <behowell@microsoft.com>)
+- chore: Migrate to new package structure. ([PR #25820](https://github.com/microsoft/fluentui/pull/25820) by <tristan.watanabe@gmail.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.10 ([PR #25798](https://github.com/microsoft/fluentui/pull/25798) by beachball)
 - Bump @fluentui/react-theme to v9.1.3 ([PR #25798](https://github.com/microsoft/fluentui/pull/25798) by beachball)
 
@@ -1662,8 +1662,8 @@ Fri, 11 Nov 2022 14:57:46 GMT
 
 ### Patches
 
-- fix: create valid export maps ([PR #25558](https://github.com/microsoft/fluentui/pull/25558) by martinhochel@microsoft.com)
-- chore: Move TextareaField into the @fluentui/react-textarea package and export as \_unstable ([PR #25593](https://github.com/microsoft/fluentui/pull/25593) by behowell@microsoft.com)
+- fix: create valid export maps ([PR #25558](https://github.com/microsoft/fluentui/pull/25558) by <martinhochel@microsoft.com>)
+- chore: Move TextareaField into the @fluentui/react-textarea package and export as \_unstable ([PR #25593](https://github.com/microsoft/fluentui/pull/25593) by <behowell@microsoft.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.8 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
 - Bump @fluentui/react-theme to v9.1.2 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
 - Bump @fluentui/react-utilities to v9.2.1 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
@@ -1676,7 +1676,7 @@ Wed, 02 Nov 2022 11:58:04 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #25412](https://github.com/microsoft/fluentui/pull/25412) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25412](https://github.com/microsoft/fluentui/pull/25412) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-utilities to v9.2.0 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.17 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 
@@ -1687,9 +1687,9 @@ Thu, 20 Oct 2022 08:39:53 GMT
 
 ### Patches
 
-- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by mgodbolt@microsoft.com)
-- chore: Update Griffel to latest version ([PR #25212](https://github.com/microsoft/fluentui/pull/25212) by olfedias@microsoft.com)
-- feat: Add red border when aria-invalid is set ([PR #25252](https://github.com/microsoft/fluentui/pull/25252) by behowell@microsoft.com)
+- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by <mgodbolt@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #25212](https://github.com/microsoft/fluentui/pull/25212) by <olfedias@microsoft.com>)
+- feat: Add red border when aria-invalid is set ([PR #25252](https://github.com/microsoft/fluentui/pull/25252) by <behowell@microsoft.com>)
 - Bump @fluentui/react-theme to v9.1.1 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 - Bump @fluentui/react-utilities to v9.1.2 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.16 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
@@ -1701,7 +1701,7 @@ Thu, 13 Oct 2022 11:03:03 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #25075](https://github.com/microsoft/fluentui/pull/25075) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25075](https://github.com/microsoft/fluentui/pull/25075) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-utilities to v9.1.1 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.15 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
 
@@ -1712,7 +1712,7 @@ Mon, 03 Oct 2022 22:24:42 GMT
 
 ### Patches
 
-- chore: Deprecating filled with shadow appearance variant. ([PR #24900](https://github.com/microsoft/fluentui/pull/24900) by esteban.230@hotmail.com)
+- chore: Deprecating filled with shadow appearance variant. ([PR #24900](https://github.com/microsoft/fluentui/pull/24900) by <esteban.230@hotmail.com>)
 
 ## [9.1.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.1.0)
 
@@ -1721,7 +1721,7 @@ Tue, 20 Sep 2022 20:55:42 GMT
 
 ### Minor changes
 
-- feat: Adding filled with shadow appearance. ([PR #24512](https://github.com/microsoft/fluentui/pull/24512) by esteban.230@hotmail.com)
+- feat: Adding filled with shadow appearance. ([PR #24512](https://github.com/microsoft/fluentui/pull/24512) by <esteban.230@hotmail.com>)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.14 ([PR #24869](https://github.com/microsoft/fluentui/pull/24869) by beachball)
 
 ## [9.0.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.0.5)
@@ -1731,9 +1731,9 @@ Thu, 15 Sep 2022 09:49:34 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #24221](https://github.com/microsoft/fluentui/pull/24221) by olfedias@microsoft.com)
-- fix: Change filled appearances' normal state's token. ([PR #24701](https://github.com/microsoft/fluentui/pull/24701) by esteban.230@hotmail.com)
-- fix: disabled textarea uses semantic contrast theme border color ([PR #24311](https://github.com/microsoft/fluentui/pull/24311) by sarah.higley@microsoft.com)
+- chore: Update Griffel to latest version ([PR #24221](https://github.com/microsoft/fluentui/pull/24221) by <olfedias@microsoft.com>)
+- fix: Change filled appearances' normal state's token. ([PR #24701](https://github.com/microsoft/fluentui/pull/24701) by <esteban.230@hotmail.com>)
+- fix: disabled textarea uses semantic contrast theme border color ([PR #24311](https://github.com/microsoft/fluentui/pull/24311) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-theme to v9.1.0 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 - Bump @fluentui/react-utilities to v9.1.0 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.13 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
@@ -1745,9 +1745,9 @@ Wed, 03 Aug 2022 16:04:06 GMT
 
 ### Patches
 
-- bugfix: add reduced motion styles for avatar, spinner, switch, and input focus styles ([PR #23788](https://github.com/microsoft/fluentui/pull/23788) by sarah.higley@microsoft.com)
-- fix: Make <textarea> match its wrapper size and add documentation on changing its height. ([PR #23992](https://github.com/microsoft/fluentui/pull/23992) by esteban.230@hotmail.com)
-- chore: Bump Griffel dependencies ([PR #24114](https://github.com/microsoft/fluentui/pull/24114) by miroslav.stastny@microsoft.com)
+- bugfix: add reduced motion styles for avatar, spinner, switch, and input focus styles ([PR #23788](https://github.com/microsoft/fluentui/pull/23788) by <sarah.higley@microsoft.com>)
+- fix: Make <textarea> match its wrapper size and add documentation on changing its height. ([PR #23992](https://github.com/microsoft/fluentui/pull/23992) by <esteban.230@hotmail.com>)
+- chore: Bump Griffel dependencies ([PR #24114](https://github.com/microsoft/fluentui/pull/24114) by <miroslav.stastny@microsoft.com>)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.12 ([PR #24131](https://github.com/microsoft/fluentui/pull/24131) by beachball)
 
 ## [9.0.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.0.3)
@@ -1757,7 +1757,7 @@ Thu, 14 Jul 2022 21:21:06 GMT
 
 ### Patches
 
-- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by Humberto.Morimoto@microsoft.com)
+- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by <Humberto.Morimoto@microsoft.com>)
 - Bump @fluentui/react-utilities to v9.0.2 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 
 ## [9.0.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.0.2)
@@ -1777,7 +1777,7 @@ Tue, 28 Jun 2022 17:39:54 GMT
 
 ### Patches
 
-- fix: Use caret dependency range for Griffel ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by lingfangao@hotmail.com)
+- fix: Use caret dependency range for Griffel ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.10 ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by beachball)
 
 ## [9.0.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.0.0)
@@ -1787,17 +1787,17 @@ Tue, 28 Jun 2022 15:13:20 GMT
 
 ### Patches
 
-- feat: Initial 9.0.0 release ([PR #23733](https://github.com/microsoft/fluentui/pull/23733) by lingfangao@hotmail.com)
+- feat: Initial 9.0.0 release ([PR #23733](https://github.com/microsoft/fluentui/pull/23733) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-theme to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.9 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 
 ### Changes
 
-- fix: Adding missing spacing to top+bottom padding, font family to large variant, and min-height to size variants. ([PR #23478](https://github.com/microsoft/fluentui/pull/23478) by esteban.230@hotmail.com)
-- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by lingfangao@hotmail.com)
-- chore: Using ::before and ::after instead of :before and :after. ([PR #23469](https://github.com/microsoft/fluentui/pull/23469) by Humberto.Morimoto@microsoft.com)
-- Bump Griffel dependencies ([PR #23688](https://github.com/microsoft/fluentui/pull/23688) by lingfangao@hotmail.com)
+- fix: Adding missing spacing to top+bottom padding, font family to large variant, and min-height to size variants. ([PR #23478](https://github.com/microsoft/fluentui/pull/23478) by <esteban.230@hotmail.com>)
+- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by <lingfangao@hotmail.com>)
+- chore: Using ::before and ::after instead of :before and :after. ([PR #23469](https://github.com/microsoft/fluentui/pull/23469) by <Humberto.Morimoto@microsoft.com>)
+- Bump Griffel dependencies ([PR #23688](https://github.com/microsoft/fluentui/pull/23688) by <lingfangao@hotmail.com>)
 
 ## [9.0.0-rc.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.0.0-rc.6)
 
@@ -1815,7 +1815,7 @@ Tue, 31 May 2022 21:28:49 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #23275](https://github.com/microsoft/fluentui/pull/23275) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #23275](https://github.com/microsoft/fluentui/pull/23275) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-utilities to v9.0.0-rc.10 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.8 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 
@@ -1826,7 +1826,7 @@ Thu, 26 May 2022 21:01:31 GMT
 
 ### Changes
 
-- Removing additional focus ring in native textarea for macOS safari. ([PR #23197](https://github.com/microsoft/fluentui/pull/23197) by esteban.230@hotmail.com)
+- Removing additional focus ring in native textarea for macOS safari. ([PR #23197](https://github.com/microsoft/fluentui/pull/23197) by <esteban.230@hotmail.com>)
 
 ## [9.0.0-rc.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-textarea_v9.0.0-rc.3)
 
@@ -1835,7 +1835,7 @@ Mon, 23 May 2022 18:56:50 GMT
 
 ### Changes
 
-- BREAKING: update string unions to use spinal-case ([PR #23092](https://github.com/microsoft/fluentui/pull/23092) by seanmonahan@microsoft.com)
+- BREAKING: update string unions to use spinal-case ([PR #23092](https://github.com/microsoft/fluentui/pull/23092) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-theme to v9.0.0-rc.9 ([PR #23146](https://github.com/microsoft/fluentui/pull/23146) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.7 ([PR #23146](https://github.com/microsoft/fluentui/pull/23146) by beachball)
 
@@ -1846,14 +1846,14 @@ Mon, 23 May 2022 12:13:54 GMT
 
 ### Changes
 
-- Moving react-textarea to RC. ([PR #22999](https://github.com/microsoft/fluentui/pull/22999) by esteban.230@hotmail.com)
-- chore: Update Griffel to latest version ([PR #22894](https://github.com/microsoft/fluentui/pull/22894) by olfedias@microsoft.com)
-- feat: ship rolluped only dts ([PR #22874](https://github.com/microsoft/fluentui/pull/22874) by martinhochel@microsoft.com)
-- chore: Update Griffel to latest version ([PR #23029](https://github.com/microsoft/fluentui/pull/23029) by olfedias@microsoft.com)
-- Update appearance stories and add best practices. ([PR #22987](https://github.com/microsoft/fluentui/pull/22987) by esteban.230@hotmail.com)
-- Remove commons from react-textarea. ([PR #22881](https://github.com/microsoft/fluentui/pull/22881) by esteban.230@hotmail.com)
-- Updating spec to match implementation. ([PR #22902](https://github.com/microsoft/fluentui/pull/22902) by esteban.230@hotmail.com)
-- Updating Textarea styles to use font tokens. ([PR #22885](https://github.com/microsoft/fluentui/pull/22885) by esteban.230@hotmail.com)
+- Moving react-textarea to RC. ([PR #22999](https://github.com/microsoft/fluentui/pull/22999) by <esteban.230@hotmail.com>)
+- chore: Update Griffel to latest version ([PR #22894](https://github.com/microsoft/fluentui/pull/22894) by <olfedias@microsoft.com>)
+- feat: ship rolluped only dts ([PR #22874](https://github.com/microsoft/fluentui/pull/22874) by <martinhochel@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #23029](https://github.com/microsoft/fluentui/pull/23029) by <olfedias@microsoft.com>)
+- Update appearance stories and add best practices. ([PR #22987](https://github.com/microsoft/fluentui/pull/22987) by <esteban.230@hotmail.com>)
+- Remove commons from react-textarea. ([PR #22881](https://github.com/microsoft/fluentui/pull/22881) by <esteban.230@hotmail.com>)
+- Updating spec to match implementation. ([PR #22902](https://github.com/microsoft/fluentui/pull/22902) by <esteban.230@hotmail.com>)
+- Updating Textarea styles to use font tokens. ([PR #22885](https://github.com/microsoft/fluentui/pull/22885) by <esteban.230@hotmail.com>)
 - Bump @fluentui/react-theme to v9.0.0-rc.8 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.9 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.6 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
@@ -1886,7 +1886,7 @@ Tue, 19 Apr 2022 19:17:02 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #21976](https://github.com/microsoft/fluentui/pull/21976) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #21976](https://github.com/microsoft/fluentui/pull/21976) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-theme to v9.0.0-rc.5 ([PR #21995](https://github.com/microsoft/fluentui/pull/21995) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.6 ([PR #21995](https://github.com/microsoft/fluentui/pull/21995) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.4 ([PR #21995](https://github.com/microsoft/fluentui/pull/21995) by beachball)

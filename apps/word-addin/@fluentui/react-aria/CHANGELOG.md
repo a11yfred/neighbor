@@ -6,7 +6,7 @@ This log was last generated on Thu, 23 Apr 2026 11:59:54 GMT and should not be m
 
 ## [9.17.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.17.11)
 
-Thu, 23 Apr 2026 11:59:54 GMT 
+Thu, 23 Apr 2026 11:59:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.17.10..@fluentui/react-aria_v9.17.11)
 
 ### Patches
@@ -17,7 +17,7 @@ Thu, 23 Apr 2026 11:59:54 GMT
 
 ## [9.17.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.17.10)
 
-Wed, 25 Feb 2026 13:32:28 GMT 
+Wed, 25 Feb 2026 13:32:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.17.9..@fluentui/react-aria_v9.17.10)
 
 ### Patches
@@ -29,7 +29,7 @@ Wed, 25 Feb 2026 13:32:28 GMT
 
 ## [9.17.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.17.9)
 
-Thu, 12 Feb 2026 10:46:15 GMT 
+Thu, 12 Feb 2026 10:46:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.17.8..@fluentui/react-aria_v9.17.9)
 
 ### Patches
@@ -38,7 +38,7 @@ Thu, 12 Feb 2026 10:46:15 GMT
 
 ## [9.17.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.17.8)
 
-Thu, 22 Jan 2026 17:07:01 GMT 
+Thu, 22 Jan 2026 17:07:01 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.17.7..@fluentui/react-aria_v9.17.8)
 
 ### Patches
@@ -50,7 +50,7 @@ Thu, 22 Jan 2026 17:07:01 GMT
 
 ## [9.17.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.17.7)
 
-Wed, 17 Dec 2025 18:10:11 GMT 
+Wed, 17 Dec 2025 18:10:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.17.6..@fluentui/react-aria_v9.17.7)
 
 ### Patches
@@ -61,7 +61,7 @@ Wed, 17 Dec 2025 18:10:11 GMT
 
 ## [9.17.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.17.6)
 
-Tue, 11 Nov 2025 19:18:29 GMT 
+Tue, 11 Nov 2025 19:18:29 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.17.5..@fluentui/react-aria_v9.17.6)
 
 ### Patches
@@ -73,19 +73,19 @@ Tue, 11 Nov 2025 19:18:29 GMT
 
 ## [9.17.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.17.5)
 
-Thu, 06 Nov 2025 15:01:17 GMT 
+Thu, 06 Nov 2025 15:01:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.17.4..@fluentui/react-aria_v9.17.5)
 
 ### Patches
 
-- chore: migrate source to react 19 ([PR #35434](https://github.com/microsoft/fluentui/pull/35434) by martinhochel@microsoft.com)
+- chore: migrate source to react 19 ([PR #35434](https://github.com/microsoft/fluentui/pull/35434) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.3.2 ([PR #35466](https://github.com/microsoft/fluentui/pull/35466) by beachball)
 - Bump @fluentui/react-tabster to v9.26.9 ([PR #35466](https://github.com/microsoft/fluentui/pull/35466) by beachball)
 - Bump @fluentui/react-utilities to v9.25.3 ([PR #35466](https://github.com/microsoft/fluentui/pull/35466) by beachball)
 
 ## [9.17.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.17.4)
 
-Fri, 31 Oct 2025 16:22:06 GMT 
+Fri, 31 Oct 2025 16:22:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.17.3..@fluentui/react-aria_v9.17.4)
 
 ### Patches
@@ -96,7 +96,7 @@ Fri, 31 Oct 2025 16:22:06 GMT
 
 ## [9.17.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.17.3)
 
-Tue, 21 Oct 2025 14:16:59 GMT 
+Tue, 21 Oct 2025 14:16:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.17.2..@fluentui/react-aria_v9.17.3)
 
 ### Patches
@@ -105,7 +105,7 @@ Tue, 21 Oct 2025 14:16:59 GMT
 
 ## [9.17.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.17.2)
 
-Wed, 08 Oct 2025 12:04:53 GMT 
+Wed, 08 Oct 2025 12:04:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.17.1..@fluentui/react-aria_v9.17.2)
 
 ### Patches
@@ -116,13 +116,13 @@ Wed, 08 Oct 2025 12:04:53 GMT
 
 ## [9.17.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.17.1)
 
-Thu, 02 Oct 2025 15:12:11 GMT 
+Thu, 02 Oct 2025 15:12:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.17.0..@fluentui/react-aria_v9.17.1)
 
 ### Patches
 
-- fix: fix useTypingAnnounce React 19 type-check issues ([PR #35192](https://github.com/microsoft/fluentui/pull/35192) by dmytrokirpa@microsoft.com)
-- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by dmytrokirpa@microsoft.com)
+- fix: fix useTypingAnnounce React 19 type-check issues ([PR #35192](https://github.com/microsoft/fluentui/pull/35192) by <dmytrokirpa@microsoft.com>)
+- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-shared-contexts to v9.25.2 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.2.1 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-tabster to v9.26.6 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
@@ -130,12 +130,12 @@ Thu, 02 Oct 2025 15:12:11 GMT
 
 ## [9.17.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.17.0)
 
-Mon, 08 Sep 2025 12:51:20 GMT 
+Mon, 08 Sep 2025 12:51:20 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.16.4..@fluentui/react-aria_v9.17.0)
 
 ### Minor changes
 
-- feat: add useTypingAnnounce hook for managing live regions triggered by user input ([PR #34354](https://github.com/microsoft/fluentui/pull/34354) by sarah.higley@microsoft.com)
+- feat: add useTypingAnnounce hook for managing live regions triggered by user input ([PR #34354](https://github.com/microsoft/fluentui/pull/34354) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-shared-contexts to v9.25.1 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.2.0 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-tabster to v9.26.5 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
@@ -143,13 +143,13 @@ Mon, 08 Sep 2025 12:51:20 GMT
 
 ### Patches
 
-- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by dmytrokirpa@microsoft.com)
-- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by dmytrokirpa@microsoft.com)
-- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by dmytrokirpa@microsoft.com)
+- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by <dmytrokirpa@microsoft.com>)
+- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by <dmytrokirpa@microsoft.com>)
+- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by <dmytrokirpa@microsoft.com>)
 
 ## [9.16.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.16.4)
 
-Thu, 21 Aug 2025 12:25:39 GMT 
+Thu, 21 Aug 2025 12:25:39 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.16.3..@fluentui/react-aria_v9.16.4)
 
 ### Patches
@@ -161,28 +161,28 @@ Thu, 21 Aug 2025 12:25:39 GMT
 
 ## [9.16.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.16.3)
 
-Thu, 07 Aug 2025 10:03:31 GMT 
+Thu, 07 Aug 2025 10:03:31 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.16.2..@fluentui/react-aria_v9.16.3)
 
 ### Patches
 
-- fix: migrate to R19 compatible JSX.* namespace types ([PR #34923](https://github.com/microsoft/fluentui/pull/34923) by martinhochel@microsoft.com)
+- fix: migrate to R19 compatible JSX.* namespace types ([PR #34923](https://github.com/microsoft/fluentui/pull/34923) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.1.5 ([PR #34980](https://github.com/microsoft/fluentui/pull/34980) by beachball)
 - Bump @fluentui/react-tabster to v9.26.3 ([PR #34980](https://github.com/microsoft/fluentui/pull/34980) by beachball)
 - Bump @fluentui/react-utilities to v9.23.2 ([PR #34980](https://github.com/microsoft/fluentui/pull/34980) by beachball)
 
 ## [9.16.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.16.2)
 
-Wed, 30 Jul 2025 16:55:42 GMT 
+Wed, 30 Jul 2025 16:55:42 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.16.1..@fluentui/react-aria_v9.16.2)
 
 ### Patches
 
-- fix: release TreeWalker reference ([PR #34945](https://github.com/microsoft/fluentui/pull/34945) by seanmonahan@microsoft.com)
+- fix: release TreeWalker reference ([PR #34945](https://github.com/microsoft/fluentui/pull/34945) by <seanmonahan@microsoft.com>)
 
 ## [9.16.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.16.1)
 
-Wed, 30 Jul 2025 13:10:57 GMT 
+Wed, 30 Jul 2025 13:10:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.16.0..@fluentui/react-aria_v9.16.1)
 
 ### Patches
@@ -194,19 +194,19 @@ Wed, 30 Jul 2025 13:10:57 GMT
 
 ## [9.16.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.16.0)
 
-Mon, 28 Jul 2025 18:48:17 GMT 
+Mon, 28 Jul 2025 18:48:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.15.4..@fluentui/react-aria_v9.16.0)
 
 ### Minor changes
 
-- feat: replace global JSX.IntrinsicElements with in house alternative to make types compatible across react major versions ([PR #34733](https://github.com/microsoft/fluentui/pull/34733) by martinhochel@microsoft.com)
+- feat: replace global JSX.IntrinsicElements with in house alternative to make types compatible across react major versions ([PR #34733](https://github.com/microsoft/fluentui/pull/34733) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.1.3 ([PR #34918](https://github.com/microsoft/fluentui/pull/34918) by beachball)
 - Bump @fluentui/react-tabster to v9.26.1 ([PR #34918](https://github.com/microsoft/fluentui/pull/34918) by beachball)
 - Bump @fluentui/react-utilities to v9.23.0 ([PR #34918](https://github.com/microsoft/fluentui/pull/34918) by beachball)
 
 ## [9.15.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.15.4)
 
-Thu, 17 Jul 2025 13:49:52 GMT 
+Thu, 17 Jul 2025 13:49:52 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.15.3..@fluentui/react-aria_v9.15.4)
 
 ### Patches
@@ -215,7 +215,7 @@ Thu, 17 Jul 2025 13:49:52 GMT
 
 ## [9.15.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.15.3)
 
-Fri, 27 Jun 2025 13:39:41 GMT 
+Fri, 27 Jun 2025 13:39:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.15.2..@fluentui/react-aria_v9.15.3)
 
 ### Patches
@@ -224,7 +224,7 @@ Fri, 27 Jun 2025 13:39:41 GMT
 
 ## [9.15.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.15.2)
 
-Thu, 26 Jun 2025 14:11:55 GMT 
+Thu, 26 Jun 2025 14:11:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.15.1..@fluentui/react-aria_v9.15.2)
 
 ### Patches
@@ -235,7 +235,7 @@ Thu, 26 Jun 2025 14:11:55 GMT
 
 ## [9.15.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.15.1)
 
-Wed, 18 Jun 2025 17:34:00 GMT 
+Wed, 18 Jun 2025 17:34:00 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.15.0..@fluentui/react-aria_v9.15.1)
 
 ### Patches
@@ -247,7 +247,7 @@ Wed, 18 Jun 2025 17:34:00 GMT
 
 ## [9.15.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.15.0)
 
-Thu, 12 Jun 2025 09:43:29 GMT 
+Thu, 12 Jun 2025 09:43:29 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.14.8..@fluentui/react-aria_v9.15.0)
 
 ### Minor changes
@@ -258,11 +258,11 @@ Thu, 12 Jun 2025 09:43:29 GMT
 
 ### Patches
 
-- chore: adjust types to support react 18 ([PR #34456](https://github.com/microsoft/fluentui/pull/34456) by dmytrokirpa@microsoft.com)
+- chore: adjust types to support react 18 ([PR #34456](https://github.com/microsoft/fluentui/pull/34456) by <dmytrokirpa@microsoft.com>)
 
 ## [9.14.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.14.8)
 
-Fri, 06 Jun 2025 13:15:17 GMT 
+Fri, 06 Jun 2025 13:15:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.14.7..@fluentui/react-aria_v9.14.8)
 
 ### Patches
@@ -273,17 +273,17 @@ Fri, 06 Jun 2025 13:15:17 GMT
 
 ## [9.14.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.14.7)
 
-Wed, 14 May 2025 18:49:15 GMT 
+Wed, 14 May 2025 18:49:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.14.6..@fluentui/react-aria_v9.14.7)
 
 ### Patches
 
-- fix: update fluent ariaNotify implementation to match new API ([PR #34311](https://github.com/microsoft/fluentui/pull/34311) by sarah.higley@microsoft.com)
+- fix: update fluent ariaNotify implementation to match new API ([PR #34311](https://github.com/microsoft/fluentui/pull/34311) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.24.7 ([PR #34438](https://github.com/microsoft/fluentui/pull/34438) by beachball)
 
 ## [9.14.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.14.6)
 
-Thu, 24 Apr 2025 09:59:45 GMT 
+Thu, 24 Apr 2025 09:59:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.14.5..@fluentui/react-aria_v9.14.6)
 
 ### Patches
@@ -292,7 +292,7 @@ Thu, 24 Apr 2025 09:59:45 GMT
 
 ## [9.14.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.14.5)
 
-Wed, 16 Apr 2025 19:42:18 GMT 
+Wed, 16 Apr 2025 19:42:18 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.14.4..@fluentui/react-aria_v9.14.5)
 
 ### Patches
@@ -303,7 +303,7 @@ Wed, 16 Apr 2025 19:42:18 GMT
 
 ## [9.14.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.14.4)
 
-Tue, 01 Apr 2025 15:08:02 GMT 
+Tue, 01 Apr 2025 15:08:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.14.3..@fluentui/react-aria_v9.14.4)
 
 ### Patches
@@ -312,7 +312,7 @@ Tue, 01 Apr 2025 15:08:02 GMT
 
 ## [9.14.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.14.3)
 
-Thu, 27 Mar 2025 21:12:51 GMT 
+Thu, 27 Mar 2025 21:12:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.14.2..@fluentui/react-aria_v9.14.3)
 
 ### Patches
@@ -324,7 +324,7 @@ Thu, 27 Mar 2025 21:12:51 GMT
 
 ## [9.14.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.14.2)
 
-Wed, 19 Mar 2025 15:40:43 GMT 
+Wed, 19 Mar 2025 15:40:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.14.1..@fluentui/react-aria_v9.14.2)
 
 ### Patches
@@ -336,7 +336,7 @@ Wed, 19 Mar 2025 15:40:43 GMT
 
 ## [9.14.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.14.1)
 
-Tue, 11 Mar 2025 18:58:54 GMT 
+Tue, 11 Mar 2025 18:58:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.14.0..@fluentui/react-aria_v9.14.1)
 
 ### Patches
@@ -348,7 +348,7 @@ Tue, 11 Mar 2025 18:58:54 GMT
 
 ## [9.14.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.14.0)
 
-Fri, 21 Feb 2025 14:34:03 GMT 
+Fri, 21 Feb 2025 14:34:03 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.14..@fluentui/react-aria_v9.14.0)
 
 ### Minor changes
@@ -357,11 +357,11 @@ Fri, 21 Feb 2025 14:34:03 GMT
 
 ### Patches
 
-- fix: useAnnounce live regions do not get aria-hidden from tabster ([PR #33855](https://github.com/microsoft/fluentui/pull/33855) by sarah.higley@microsoft.com)
+- fix: useAnnounce live regions do not get aria-hidden from tabster ([PR #33855](https://github.com/microsoft/fluentui/pull/33855) by <sarah.higley@microsoft.com>)
 
 ## [9.13.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.14)
 
-Wed, 22 Jan 2025 14:00:14 GMT 
+Wed, 22 Jan 2025 14:00:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.13..@fluentui/react-aria_v9.13.14)
 
 ### Patches
@@ -372,7 +372,7 @@ Wed, 22 Jan 2025 14:00:14 GMT
 
 ## [9.13.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.13)
 
-Wed, 08 Jan 2025 18:33:36 GMT 
+Wed, 08 Jan 2025 18:33:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.12..@fluentui/react-aria_v9.13.13)
 
 ### Patches
@@ -381,7 +381,7 @@ Wed, 08 Jan 2025 18:33:36 GMT
 
 ## [9.13.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.12)
 
-Mon, 16 Dec 2024 16:26:49 GMT 
+Mon, 16 Dec 2024 16:26:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.11..@fluentui/react-aria_v9.13.12)
 
 ### Patches
@@ -393,16 +393,16 @@ Mon, 16 Dec 2024 16:26:49 GMT
 
 ## [9.13.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.11)
 
-Mon, 09 Dec 2024 17:38:08 GMT 
+Mon, 09 Dec 2024 17:38:08 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.10..@fluentui/react-aria_v9.13.11)
 
 ### Patches
 
-- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by olfedias@microsoft.com)
+- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by <olfedias@microsoft.com>)
 
 ## [9.13.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.10)
 
-Fri, 06 Dec 2024 12:53:46 GMT 
+Fri, 06 Dec 2024 12:53:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.9..@fluentui/react-aria_v9.13.10)
 
 ### Patches
@@ -414,14 +414,14 @@ Fri, 06 Dec 2024 12:53:46 GMT
 
 ## [9.13.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.9)
 
-Mon, 11 Nov 2024 10:01:04 GMT 
+Mon, 11 Nov 2024 10:01:04 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.8..@fluentui/react-aria_v9.13.9)
 
 ### Patches
 
-- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by martinhochel@microsoft.com)
-- fix: correct expectations for Button rendered as a link with an href ([PR #33050](https://github.com/microsoft/fluentui/pull/33050) by sarah.higley@microsoft.com)
-- style: resolve exposed jsx pragma lint issues within monorepo ([PR #32975](https://github.com/microsoft/fluentui/pull/32975) by martinhochel@microsoft.com)
+- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by <martinhochel@microsoft.com>)
+- fix: correct expectations for Button rendered as a link with an href ([PR #33050](https://github.com/microsoft/fluentui/pull/33050) by <sarah.higley@microsoft.com>)
+- style: resolve exposed jsx pragma lint issues within monorepo ([PR #32975](https://github.com/microsoft/fluentui/pull/32975) by <martinhochel@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.8 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.21.0 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.46 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
@@ -430,7 +430,7 @@ Mon, 11 Nov 2024 10:01:04 GMT
 
 ## [9.13.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.8)
 
-Tue, 15 Oct 2024 17:17:53 GMT 
+Tue, 15 Oct 2024 17:17:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.7..@fluentui/react-aria_v9.13.8)
 
 ### Patches
@@ -442,7 +442,7 @@ Tue, 15 Oct 2024 17:17:53 GMT
 
 ## [9.13.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.7)
 
-Tue, 08 Oct 2024 22:05:59 GMT 
+Tue, 08 Oct 2024 22:05:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.6..@fluentui/react-aria_v9.13.7)
 
 ### Patches
@@ -451,7 +451,7 @@ Tue, 08 Oct 2024 22:05:59 GMT
 
 ## [9.13.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.6)
 
-Mon, 23 Sep 2024 12:40:12 GMT 
+Mon, 23 Sep 2024 12:40:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.5..@fluentui/react-aria_v9.13.6)
 
 ### Patches
@@ -463,7 +463,7 @@ Mon, 23 Sep 2024 12:40:12 GMT
 
 ## [9.13.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.5)
 
-Tue, 10 Sep 2024 10:19:12 GMT 
+Tue, 10 Sep 2024 10:19:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.4..@fluentui/react-aria_v9.13.5)
 
 ### Patches
@@ -474,7 +474,7 @@ Tue, 10 Sep 2024 10:19:12 GMT
 
 ## [9.13.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.4)
 
-Thu, 15 Aug 2024 13:49:46 GMT 
+Thu, 15 Aug 2024 13:49:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.3..@fluentui/react-aria_v9.13.4)
 
 ### Patches
@@ -483,7 +483,7 @@ Thu, 15 Aug 2024 13:49:46 GMT
 
 ## [9.13.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.3)
 
-Thu, 15 Aug 2024 08:22:07 GMT 
+Thu, 15 Aug 2024 08:22:07 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.2..@fluentui/react-aria_v9.13.3)
 
 ### Patches
@@ -492,7 +492,7 @@ Thu, 15 Aug 2024 08:22:07 GMT
 
 ## [9.13.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.2)
 
-Tue, 23 Jul 2024 20:13:14 GMT 
+Tue, 23 Jul 2024 20:13:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.1..@fluentui/react-aria_v9.13.2)
 
 ### Patches
@@ -504,12 +504,12 @@ Tue, 23 Jul 2024 20:13:14 GMT
 
 ## [9.13.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.1)
 
-Mon, 15 Jul 2024 17:25:51 GMT 
+Mon, 15 Jul 2024 17:25:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.13.0..@fluentui/react-aria_v9.13.1)
 
 ### Patches
 
-- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by martinhochel@microsoft.com)
+- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-shared-contexts to v9.19.1 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.41 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-tabster to v9.22.2 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
@@ -517,19 +517,19 @@ Mon, 15 Jul 2024 17:25:51 GMT
 
 ## [9.13.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.13.0)
 
-Mon, 01 Jul 2024 20:30:41 GMT 
+Mon, 01 Jul 2024 20:30:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.12.1..@fluentui/react-aria_v9.13.0)
 
 ### Minor changes
 
-- feat: add options to manually show/hide focus visibility on active descendants, and scroll the active item into view ([PR #31415](https://github.com/microsoft/fluentui/pull/31415) by sarah.higley@microsoft.com)
+- feat: add options to manually show/hide focus visibility on active descendants, and scroll the active item into view ([PR #31415](https://github.com/microsoft/fluentui/pull/31415) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.40 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-tabster to v9.22.1 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-utilities to v9.18.11 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 
 ## [9.12.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.12.1)
 
-Mon, 17 Jun 2024 07:34:17 GMT 
+Mon, 17 Jun 2024 07:34:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.12.0..@fluentui/react-aria_v9.12.1)
 
 ### Patches
@@ -538,19 +538,19 @@ Mon, 17 Jun 2024 07:34:17 GMT
 
 ## [9.12.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.12.0)
 
-Thu, 06 Jun 2024 15:26:29 GMT 
+Thu, 06 Jun 2024 15:26:29 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-aria_v9.11.4..@fluentui/react-aria_v9.12.0)
 
 ### Minor changes
 
-- add optional `window` argument to `scrollIntoView`. ([PR #30967](https://github.com/microsoft/fluentui/pull/30967) by seanmonahan@microsoft.com)
+- add optional `window` argument to `scrollIntoView`. ([PR #30967](https://github.com/microsoft/fluentui/pull/30967) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.39 ([PR #31586](https://github.com/microsoft/fluentui/pull/31586) by beachball)
 - Bump @fluentui/react-tabster to v9.21.5 ([PR #31586](https://github.com/microsoft/fluentui/pull/31586) by beachball)
 - Bump @fluentui/react-utilities to v9.18.10 ([PR #31586](https://github.com/microsoft/fluentui/pull/31586) by beachball)
 
 ### Patches
 
-- chore: remove optional "win" argument ([PR #31470](https://github.com/microsoft/fluentui/pull/31470) by seanmonahan@microsoft.com)
+- chore: remove optional "win" argument ([PR #31470](https://github.com/microsoft/fluentui/pull/31470) by <seanmonahan@microsoft.com>)
 
 ## [9.11.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.11.4)
 
@@ -559,7 +559,7 @@ Thu, 23 May 2024 08:02:39 GMT
 
 ### Patches
 
-- fix: add cleanup for timeout in announce ([PR #31264](https://github.com/microsoft/fluentui/pull/31264) by sarah.higley@microsoft.com)
+- fix: add cleanup for timeout in announce ([PR #31264](https://github.com/microsoft/fluentui/pull/31264) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.21.4 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 
 ## [9.11.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.11.3)
@@ -590,7 +590,7 @@ Mon, 06 May 2024 12:55:00 GMT
 
 ### Patches
 
-- feat: use ariaNotify in AriaLiveAnnouncer when available ([PR #31251](https://github.com/microsoft/fluentui/pull/31251) by sarah.higley@microsoft.com)
+- feat: use ariaNotify in AriaLiveAnnouncer when available ([PR #31251](https://github.com/microsoft/fluentui/pull/31251) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-shared-contexts to v9.18.0 ([PR #31271](https://github.com/microsoft/fluentui/pull/31271) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.37 ([PR #31271](https://github.com/microsoft/fluentui/pull/31271) by beachball)
 - Bump @fluentui/react-tabster to v9.21.1 ([PR #31271](https://github.com/microsoft/fluentui/pull/31271) by beachball)
@@ -603,13 +603,13 @@ Thu, 02 May 2024 11:36:29 GMT
 
 ### Minor changes
 
-- Adding function to focus last active descendant if it exists ([PR #31140](https://github.com/microsoft/fluentui/pull/31140) by stevenco@microsoft.com)
-- ActiveDescendantChangeEvent for tracking active item ([PR #31149](https://github.com/microsoft/fluentui/pull/31149) by jurokapsiar@gmail.com)
+- Adding function to focus last active descendant if it exists ([PR #31140](https://github.com/microsoft/fluentui/pull/31140) by <stevenco@microsoft.com>)
+- ActiveDescendantChangeEvent for tracking active item ([PR #31149](https://github.com/microsoft/fluentui/pull/31149) by <jurokapsiar@gmail.com>)
 - Bump @fluentui/react-tabster to v9.21.0 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 
 ### Patches
 
-- Updating ActiveDescendent scrollIntoView logic to work with ancester scroll containers and scroll margin styles ([PR #31158](https://github.com/microsoft/fluentui/pull/31158) by stevenco@microsoft.com)
+- Updating ActiveDescendent scrollIntoView logic to work with ancester scroll containers and scroll margin styles ([PR #31158](https://github.com/microsoft/fluentui/pull/31158) by <stevenco@microsoft.com>)
 
 ## [9.10.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.10.5)
 
@@ -630,7 +630,7 @@ Wed, 17 Apr 2024 21:53:47 GMT
 
 ### Patches
 
-- fix: End key should move activeOption ([PR #30864](https://github.com/microsoft/fluentui/pull/30864) by sarah.higley@microsoft.com)
+- fix: End key should move activeOption ([PR #30864](https://github.com/microsoft/fluentui/pull/30864) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.20.0 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 
 ## [9.10.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.10.3)
@@ -676,7 +676,7 @@ Thu, 07 Mar 2024 19:33:21 GMT
 
 ### Minor changes
 
-- feat: active descendants imperative handle to toggle attribute ([PR #30716](https://github.com/microsoft/fluentui/pull/30716) by bernardo.sunderhus@gmail.com)
+- feat: active descendants imperative handle to toggle attribute ([PR #30716](https://github.com/microsoft/fluentui/pull/30716) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-shared-contexts to v9.15.0 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.32 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-tabster to v9.19.3 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
@@ -701,7 +701,7 @@ Tue, 20 Feb 2024 14:22:17 GMT
 
 ### Minor changes
 
-- feat: adds a context for active descendant ([PR #30528](https://github.com/microsoft/fluentui/pull/30528) by lingfan.gao@microsoft.com)
+- feat: adds a context for active descendant ([PR #30528](https://github.com/microsoft/fluentui/pull/30528) by <lingfan.gao@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.30 ([PR #30543](https://github.com/microsoft/fluentui/pull/30543) by beachball)
 - Bump @fluentui/react-tabster to v9.19.1 ([PR #30543](https://github.com/microsoft/fluentui/pull/30543) by beachball)
 - Bump @fluentui/react-utilities to v9.18.1 ([PR #30543](https://github.com/microsoft/fluentui/pull/30543) by beachball)
@@ -713,7 +713,7 @@ Tue, 06 Feb 2024 17:55:18 GMT
 
 ### Patches
 
-- chore: adds @fluentui/react-jsx-runtime as dependency ([PR #30485](https://github.com/microsoft/fluentui/pull/30485) by bernardo.sunderhus@gmail.com)
+- chore: adds @fluentui/react-jsx-runtime as dependency ([PR #30485](https://github.com/microsoft/fluentui/pull/30485) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-tabster to v9.19.0 ([PR #30392](https://github.com/microsoft/fluentui/pull/30392) by beachball)
 
 ## [9.8.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.8.1)
@@ -733,13 +733,13 @@ Tue, 23 Jan 2024 15:10:57 GMT
 
 ### Minor changes
 
-- feat: add AriaLiveAnnouncer component ([PR #30345](https://github.com/microsoft/fluentui/pull/30345) by olfedias@microsoft.com)
+- feat: add AriaLiveAnnouncer component ([PR #30345](https://github.com/microsoft/fluentui/pull/30345) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.17.4 ([PR #30359](https://github.com/microsoft/fluentui/pull/30359) by beachball)
 - Bump @fluentui/react-utilities to v9.17.0 ([PR #30359](https://github.com/microsoft/fluentui/pull/30359) by beachball)
 
 ### Patches
 
-- chore: import UnionToIntersection from react-utilities instead of redeclaring it locally ([PR #30317](https://github.com/microsoft/fluentui/pull/30317) by bernardo.sunderhus@gmail.com)
+- chore: import UnionToIntersection from react-utilities instead of redeclaring it locally ([PR #30317](https://github.com/microsoft/fluentui/pull/30317) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.7.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.7.3)
 
@@ -769,7 +769,7 @@ Tue, 16 Jan 2024 13:14:14 GMT
 
 ### Patches
 
-- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by mgodbolt@microsoft.com)
+- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.17.1 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 
 ## [9.7.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.7.0)
@@ -779,7 +779,7 @@ Thu, 11 Jan 2024 09:04:28 GMT
 
 ### Minor changes
 
-- feat: active descedant improvements ([PR #30253](https://github.com/microsoft/fluentui/pull/30253) by lingfan.gao@microsoft.com)
+- feat: active descedant improvements ([PR #30253](https://github.com/microsoft/fluentui/pull/30253) by <lingfan.gao@microsoft.com>)
 
 ## [9.6.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.6.2)
 
@@ -797,7 +797,7 @@ Wed, 03 Jan 2024 09:26:42 GMT
 
 ### Patches
 
-- chore: deprecate old slot API methods and types ([PR #29646](https://github.com/microsoft/fluentui/pull/29646) by bernardo.sunderhus@gmail.com)
+- chore: deprecate old slot API methods and types ([PR #29646](https://github.com/microsoft/fluentui/pull/29646) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-utilities to v9.15.5 ([PR #30163](https://github.com/microsoft/fluentui/pull/30163) by beachball)
 
 ## [9.6.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.6.0)
@@ -807,7 +807,7 @@ Mon, 18 Dec 2023 14:40:44 GMT
 
 ### Minor changes
 
-- feat: deprecates useARIAButtonShorthand in favor of useARIAButtonProps ([PR #29735](https://github.com/microsoft/fluentui/pull/29735) by bernardo.sunderhus@gmail.com)
+- feat: deprecates useARIAButtonShorthand in favor of useARIAButtonProps ([PR #29735](https://github.com/microsoft/fluentui/pull/29735) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-shared-contexts to v9.13.2 ([PR #30103](https://github.com/microsoft/fluentui/pull/30103) by beachball)
 - Bump @fluentui/react-utilities to v9.15.4 ([PR #30103](https://github.com/microsoft/fluentui/pull/30103) by beachball)
 
@@ -818,7 +818,7 @@ Thu, 14 Dec 2023 09:58:42 GMT
 
 ### Minor changes
 
-- feat(useActiveDescendant): Changing active descendant scrolls into view ([PR #29992](https://github.com/microsoft/fluentui/pull/29992) by lingfangao@hotmail.com)
+- feat(useActiveDescendant): Changing active descendant scrolls into view ([PR #29992](https://github.com/microsoft/fluentui/pull/29992) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-shared-contexts to v9.13.1 ([PR #30056](https://github.com/microsoft/fluentui/pull/30056) by beachball)
 - Bump @fluentui/react-utilities to v9.15.3 ([PR #30056](https://github.com/microsoft/fluentui/pull/30056) by beachball)
 
@@ -829,7 +829,7 @@ Thu, 30 Nov 2023 13:42:05 GMT
 
 ### Minor changes
 
-- feat: Implement aria-activedescendant utility ([PR #29904](https://github.com/microsoft/fluentui/pull/29904) by lingfan.gao@microsoft.com)
+- feat: Implement aria-activedescendant utility ([PR #29904](https://github.com/microsoft/fluentui/pull/29904) by <lingfan.gao@microsoft.com>)
 
 ## [9.3.44](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.3.44)
 
@@ -838,7 +838,7 @@ Thu, 09 Nov 2023 17:29:50 GMT
 
 ### Patches
 
-- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by martinhochel@microsoft.com)
+- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by <martinhochel@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.7 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-utilities to v9.15.2 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 
@@ -894,7 +894,7 @@ Tue, 26 Sep 2023 17:49:02 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by yuanboxue@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by <yuanboxue@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.6 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-utilities to v9.13.5 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 
@@ -905,7 +905,7 @@ Tue, 26 Sep 2023 15:32:05 GMT
 
 ### Patches
 
-- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by martinhochel@microsoft.com)
+- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by <martinhochel@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.5 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-utilities to v9.13.4 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 
@@ -934,8 +934,8 @@ Tue, 05 Sep 2023 13:29:15 GMT
 
 ### Patches
 
-- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by bernardo.sunderhus@gmail.com)
-- bumps react peer dependencies to v16.14.0 ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by bernardo.sunderhus@gmail.com)
+- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by <bernardo.sunderhus@gmail.com>)
+- bumps react peer dependencies to v16.14.0 ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/keyboard-keys to v9.0.4 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-utilities to v9.13.1 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 
@@ -982,7 +982,7 @@ Wed, 09 Aug 2023 13:16:49 GMT
 
 ### Patches
 
-- chore(teams-prg): migrate to new slot API ([PR #28751](https://github.com/microsoft/fluentui/pull/28751) by bernardo.sunderhus@gmail.com)
+- chore(teams-prg): migrate to new slot API ([PR #28751](https://github.com/microsoft/fluentui/pull/28751) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.3.28](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.3.28)
 
@@ -1063,7 +1063,7 @@ Fri, 12 May 2023 20:28:12 GMT
 
 ### Patches
 
-- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by olfedias@microsoft.com)
+- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by <olfedias@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.3 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-utilities to v9.8.1 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 
@@ -1101,8 +1101,8 @@ Tue, 21 Mar 2023 21:23:22 GMT
 
 ### Patches
 
-- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by tristan.watanabe@gmail.com)
-- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by tristan.watanabe@gmail.com)
+- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by <tristan.watanabe@gmail.com>)
+- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by <tristan.watanabe@gmail.com>)
 - Bump @fluentui/keyboard-keys to v9.0.2 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-utilities to v9.7.2 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 
@@ -1230,7 +1230,7 @@ Fri, 11 Nov 2022 14:57:51 GMT
 
 ### Patches
 
-- fix: create valid export maps ([PR #25558](https://github.com/microsoft/fluentui/pull/25558) by martinhochel@microsoft.com)
+- fix: create valid export maps ([PR #25558](https://github.com/microsoft/fluentui/pull/25558) by <martinhochel@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.1 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
 - Bump @fluentui/react-utilities to v9.2.1 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
 
@@ -1241,7 +1241,7 @@ Wed, 02 Nov 2022 11:57:47 GMT
 
 ### Minor changes
 
-- exposes internal typings: ARIAButtonAlteredProps and ARIAButtonElement ([PR #25403](https://github.com/microsoft/fluentui/pull/25403) by bernardo.sunderhus@gmail.com)
+- exposes internal typings: ARIAButtonAlteredProps and ARIAButtonElement ([PR #25403](https://github.com/microsoft/fluentui/pull/25403) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-utilities to v9.2.0 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 
 ## [9.2.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.2.3)
@@ -1251,7 +1251,7 @@ Thu, 20 Oct 2022 08:39:58 GMT
 
 ### Patches
 
-- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by mgodbolt@microsoft.com)
+- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-utilities to v9.1.2 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 
 ## [9.2.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.2.2)
@@ -1270,7 +1270,7 @@ Mon, 03 Oct 2022 22:24:33 GMT
 
 ### Patches
 
-- chore: user defined tabIndex should prevail aria-button defined ([PR #24962](https://github.com/microsoft/fluentui/pull/24962) by bernardo.sunderhus@gmail.com)
+- chore: user defined tabIndex should prevail aria-button defined ([PR #24962](https://github.com/microsoft/fluentui/pull/24962) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.2.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.2.0)
 
@@ -1279,14 +1279,14 @@ Thu, 15 Sep 2022 09:49:48 GMT
 
 ### Minor changes
 
-- feat: add helper types to assist DOM element handling ([PR #24722](https://github.com/microsoft/fluentui/pull/24722) by bernardo.sunderhus@gmail.com)
+- feat: add helper types to assist DOM element handling ([PR #24722](https://github.com/microsoft/fluentui/pull/24722) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-utilities to v9.1.0 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 
 ### Patches
 
-- docs(react-aria): re-generate api.md ([PR #23369](https://github.com/microsoft/fluentui/pull/23369) by martinhochel@microsoft.com)
-- chore(react-aria): improve internal typings ([PR #24742](https://github.com/microsoft/fluentui/pull/24742) by bernardo.sunderhus@gmail.com)
-- feat: upgrade typings on useARIAButtonProps to be more specific ([PR #24177](https://github.com/microsoft/fluentui/pull/24177) by bernardo.sunderhus@gmail.com)
+- docs(react-aria): re-generate api.md ([PR #23369](https://github.com/microsoft/fluentui/pull/23369) by <martinhochel@microsoft.com>)
+- chore(react-aria): improve internal typings ([PR #24742](https://github.com/microsoft/fluentui/pull/24742) by <bernardo.sunderhus@gmail.com>)
+- feat: upgrade typings on useARIAButtonProps to be more specific ([PR #24177](https://github.com/microsoft/fluentui/pull/24177) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.1.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.1.0)
 
@@ -1295,11 +1295,11 @@ Wed, 03 Aug 2022 16:03:37 GMT
 
 ### Minor changes
 
-- chore: Splits useARIAButton into useARIAButtonProps and useARIAButtonShorthand. ([PR #24032](https://github.com/microsoft/fluentui/pull/24032) by bernardo.sunderhus@gmail.com)
+- chore: Splits useARIAButton into useARIAButtonProps and useARIAButtonShorthand. ([PR #24032](https://github.com/microsoft/fluentui/pull/24032) by <bernardo.sunderhus@gmail.com>)
 
 ### Patches
 
-- feat: treats aria-disabled as disabled state on useARIAButtonProps ([PR #24197](https://github.com/microsoft/fluentui/pull/24197) by bernardo.sunderhus@gmail.com)
+- feat: treats aria-disabled as disabled state on useARIAButtonProps ([PR #24197](https://github.com/microsoft/fluentui/pull/24197) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.0.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.2)
 
@@ -1308,7 +1308,7 @@ Thu, 14 Jul 2022 21:21:08 GMT
 
 ### Patches
 
-- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by Humberto.Morimoto@microsoft.com)
+- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by <Humberto.Morimoto@microsoft.com>)
 - Bump @fluentui/react-utilities to v9.0.2 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 
 ## [9.0.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.1)
@@ -1327,14 +1327,14 @@ Tue, 28 Jun 2022 15:14:13 GMT
 
 ### Patches
 
-- feat: Initial 9.0.0 release ([PR #23733](https://github.com/microsoft/fluentui/pull/23733) by lingfangao@hotmail.com)
+- feat: Initial 9.0.0 release ([PR #23733](https://github.com/microsoft/fluentui/pull/23733) by <lingfangao@hotmail.com>)
 - Bump @fluentui/keyboard-keys to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 
 ### Changes
 
-- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by lingfangao@hotmail.com)
-- chore: Mark internal APIs with @internal ([PR #23689](https://github.com/microsoft/fluentui/pull/23689) by lingfangao@hotmail.com)
+- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by <lingfangao@hotmail.com>)
+- chore: Mark internal APIs with @internal ([PR #23689](https://github.com/microsoft/fluentui/pull/23689) by <lingfangao@hotmail.com>)
 
 ## [9.0.0-rc.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-rc.10)
 
@@ -1361,8 +1361,8 @@ Thu, 05 May 2022 18:26:28 GMT
 
 ### Changes
 
-- Removing star exports. ([PR #22798](https://github.com/microsoft/fluentui/pull/22798) by humberto_makoto@hotmail.com)
-- feat: ship rolluped only dts ([PR #22823](https://github.com/microsoft/fluentui/pull/22823) by martinhochel@microsoft.com)
+- Removing star exports. ([PR #22798](https://github.com/microsoft/fluentui/pull/22798) by <humberto_makoto@hotmail.com>)
+- feat: ship rolluped only dts ([PR #22823](https://github.com/microsoft/fluentui/pull/22823) by <martinhochel@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.0-rc.6 ([PR #22857](https://github.com/microsoft/fluentui/pull/22857) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.8 ([PR #22857](https://github.com/microsoft/fluentui/pull/22857) by beachball)
 
@@ -1392,7 +1392,7 @@ Fri, 04 Mar 2022 05:17:33 GMT
 
 ### Changes
 
-- Adding explicit export maps on all consumer packages for FUIR 8 and 9. ([PR #21508](https://github.com/microsoft/fluentui/pull/21508) by dzearing@microsoft.com)
+- Adding explicit export maps on all consumer packages for FUIR 8 and 9. ([PR #21508](https://github.com/microsoft/fluentui/pull/21508) by <dzearing@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.0-rc.4 ([PR #21947](https://github.com/microsoft/fluentui/pull/21947) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.5 ([PR #21947](https://github.com/microsoft/fluentui/pull/21947) by beachball)
 
@@ -1412,8 +1412,8 @@ Fri, 18 Feb 2022 13:35:38 GMT
 
 ### Changes
 
-- fix: Source maps contain original source code ([PR #21690](https://github.com/microsoft/fluentui/pull/21690) by lingfangao@hotmail.com)
-- Fixing issue in useAriaButton where passing disabledFocusable=false caused aria-disabled to be set to false and appear in DOM instead of just be undefined for that element. ([PR #21703](https://github.com/microsoft/fluentui/pull/21703) by Humberto.Morimoto@microsoft.com)
+- fix: Source maps contain original source code ([PR #21690](https://github.com/microsoft/fluentui/pull/21690) by <lingfangao@hotmail.com>)
+- Fixing issue in useAriaButton where passing disabledFocusable=false caused aria-disabled to be set to false and appear in DOM instead of just be undefined for that element. ([PR #21703](https://github.com/microsoft/fluentui/pull/21703) by <Humberto.Morimoto@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.0-rc.3 ([PR #21800](https://github.com/microsoft/fluentui/pull/21800) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.3 ([PR #21800](https://github.com/microsoft/fluentui/pull/21800) by beachball)
 
@@ -1424,11 +1424,11 @@ Thu, 10 Feb 2022 08:52:17 GMT
 
 ### Changes
 
-- remove Griffel packages ([PR #21440](https://github.com/microsoft/fluentui/pull/21440) by olfedias@microsoft.com)
-- Bump Fluent UI packages to 9.0.0-rc ([PR #21623](https://github.com/microsoft/fluentui/pull/21623) by lingfangao@hotmail.com)
-- Updating based on changes to composition types. ([PR #20891](https://github.com/microsoft/fluentui/pull/20891) by Humberto.Morimoto@microsoft.com)
-- Refactor component Slot typings ([PR #21518](https://github.com/microsoft/fluentui/pull/21518) by behowell@microsoft.com)
-- Remove component's shorthandProps array ([PR #21134](https://github.com/microsoft/fluentui/pull/21134) by behowell@microsoft.com)
+- remove Griffel packages ([PR #21440](https://github.com/microsoft/fluentui/pull/21440) by <olfedias@microsoft.com>)
+- Bump Fluent UI packages to 9.0.0-rc ([PR #21623](https://github.com/microsoft/fluentui/pull/21623) by <lingfangao@hotmail.com>)
+- Updating based on changes to composition types. ([PR #20891](https://github.com/microsoft/fluentui/pull/20891) by <Humberto.Morimoto@microsoft.com>)
+- Refactor component Slot typings ([PR #21518](https://github.com/microsoft/fluentui/pull/21518) by <behowell@microsoft.com>)
+- Remove component's shorthandProps array ([PR #21134](https://github.com/microsoft/fluentui/pull/21134) by <behowell@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.0-rc.1 ([commit](https://github.com/microsoft/fluentui/commit/e6c855f6d9019d6c73668d15fc9bc3a13291a6c8) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.1 ([commit](https://github.com/microsoft/fluentui/commit/e6c855f6d9019d6c73668d15fc9bc3a13291a6c8) by beachball)
 
@@ -1451,8 +1451,8 @@ Fri, 12 Nov 2021 13:25:13 GMT
 
 ### Changes
 
-- Fixing events being fired when button is disabledFocusable ([PR #20342](https://github.com/microsoft/fluentui/pull/20342) by Humberto.Morimoto@microsoft.com)
-- Updated beta and RC components to ES2019 ([PR #20405](https://github.com/microsoft/fluentui/pull/20405) by gcox@microsoft.com)
+- Fixing events being fired when button is disabledFocusable ([PR #20342](https://github.com/microsoft/fluentui/pull/20342) by <Humberto.Morimoto@microsoft.com>)
+- Updated beta and RC components to ES2019 ([PR #20405](https://github.com/microsoft/fluentui/pull/20405) by <gcox@microsoft.com>)
 - Bump @fluentui/react-make-styles to v9.0.0-beta.3 ([PR #20583](https://github.com/microsoft/fluentui/pull/20583) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-beta.3 ([PR #20583](https://github.com/microsoft/fluentui/pull/20583) by beachball)
 - Bump @fluentui/jest-serializer-make-styles to v9.0.0-beta.3 ([PR #20583](https://github.com/microsoft/fluentui/pull/20583) by beachball)
@@ -1464,7 +1464,7 @@ Wed, 27 Oct 2021 12:14:13 GMT
 
 ### Changes
 
-- added styling of documentation ([PR #20193](https://github.com/microsoft/fluentui/pull/20193) by peter@draxler.ml)
+- added styling of documentation ([PR #20193](https://github.com/microsoft/fluentui/pull/20193) by <peter@draxler.ml>)
 - Bump @fluentui/react-make-styles to v9.0.0-beta.2 ([PR #20353](https://github.com/microsoft/fluentui/pull/20353) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-beta.2 ([PR #20353](https://github.com/microsoft/fluentui/pull/20353) by beachball)
 - Bump @fluentui/jest-serializer-make-styles to v9.0.0-beta.2 ([PR #20353](https://github.com/microsoft/fluentui/pull/20353) by beachball)
@@ -1476,7 +1476,7 @@ Wed, 06 Oct 2021 10:37:22 GMT
 
 ### Changes
 
-- Bump all v9 components to beta prerelease tag ([PR #20106](https://github.com/microsoft/fluentui/pull/20106) by lingfangao@hotmail.com)
+- Bump all v9 components to beta prerelease tag ([PR #20106](https://github.com/microsoft/fluentui/pull/20106) by <lingfangao@hotmail.com>)
 - Bump @fluentui/keyboard-keys to v9.0.0-beta.1 ([PR #20106](https://github.com/microsoft/fluentui/pull/20106) by beachball)
 - Bump @fluentui/react-make-styles to v9.0.0-beta.1 ([PR #20106](https://github.com/microsoft/fluentui/pull/20106) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-beta.1 ([PR #20106](https://github.com/microsoft/fluentui/pull/20106) by beachball)
@@ -1510,7 +1510,7 @@ Fri, 01 Oct 2021 14:13:08 GMT
 
 ### Changes
 
-- Bump v9 prerelease versions to rerelease ([PR #20069](https://github.com/microsoft/fluentui/pull/20069) by lingfangao@hotmail.com)
+- Bump v9 prerelease versions to rerelease ([PR #20069](https://github.com/microsoft/fluentui/pull/20069) by <lingfangao@hotmail.com>)
 - Bump @fluentui/keyboard-keys to v9.0.0-alpha.5 ([PR #20069](https://github.com/microsoft/fluentui/pull/20069) by beachball)
 - Bump @fluentui/react-make-styles to v9.0.0-alpha.76 ([PR #20069](https://github.com/microsoft/fluentui/pull/20069) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-alpha.55 ([PR #20069](https://github.com/microsoft/fluentui/pull/20069) by beachball)
@@ -1523,7 +1523,7 @@ Fri, 01 Oct 2021 12:30:46 GMT
 
 ### Changes
 
-- Removes disabled attribute when not required ([PR #18814](https://github.com/microsoft/fluentui/pull/18814) by bsunderhus@microsoft.com)
+- Removes disabled attribute when not required ([PR #18814](https://github.com/microsoft/fluentui/pull/18814) by <bsunderhus@microsoft.com>)
 
 ## [9.0.0-alpha.40](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.40)
 
@@ -1596,7 +1596,7 @@ Mon, 20 Sep 2021 07:36:26 GMT
 
 ### Changes
 
-- Bump @fluentui/react-aria to v9.0.0-alpha.34 ([PR #19844](https://github.com/microsoft/fluentui/pull/19844) by lingfangao@hotmail.com)
+- Bump @fluentui/react-aria to v9.0.0-alpha.34 ([PR #19844](https://github.com/microsoft/fluentui/pull/19844) by <lingfangao@hotmail.com>)
 
 ## [9.0.0-alpha.33](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.33)
 
@@ -1605,7 +1605,7 @@ Fri, 17 Sep 2021 07:35:26 GMT
 
 ### Changes
 
-- Bump @fluentui/react-aria to v9.0.0-alpha.33 ([PR #19840](https://github.com/microsoft/fluentui/pull/19840) by Humberto.Morimoto@microsoft.com)
+- Bump @fluentui/react-aria to v9.0.0-alpha.33 ([PR #19840](https://github.com/microsoft/fluentui/pull/19840) by <Humberto.Morimoto@microsoft.com>)
 
 ## [9.0.0-alpha.32](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.32)
 
@@ -1614,7 +1614,7 @@ Thu, 16 Sep 2021 07:38:39 GMT
 
 ### Changes
 
-- Bump @fluentui/react-aria to v9.0.0-alpha.32 ([PR #19815](https://github.com/microsoft/fluentui/pull/19815) by behowell@microsoft.com)
+- Bump @fluentui/react-aria to v9.0.0-alpha.32 ([PR #19815](https://github.com/microsoft/fluentui/pull/19815) by <behowell@microsoft.com>)
 
 ## [9.0.0-alpha.31](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.31)
 
@@ -1623,7 +1623,7 @@ Tue, 14 Sep 2021 20:09:02 GMT
 
 ### Changes
 
-- Bump @fluentui/react-aria to v9.0.0-alpha.31 ([PR #19155](https://github.com/microsoft/fluentui/pull/19155) by bsunderhus@microsoft.com)
+- Bump @fluentui/react-aria to v9.0.0-alpha.31 ([PR #19155](https://github.com/microsoft/fluentui/pull/19155) by <bsunderhus@microsoft.com>)
 
 ## [9.0.0-alpha.30](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.30)
 
@@ -1632,7 +1632,7 @@ Tue, 14 Sep 2021 07:38:18 GMT
 
 ### Changes
 
-- Generalize mergeARIADisabled ([PR #19605](https://github.com/microsoft/fluentui/pull/19605) by bsunderhus@microsoft.com)
+- Generalize mergeARIADisabled ([PR #19605](https://github.com/microsoft/fluentui/pull/19605) by <bsunderhus@microsoft.com>)
 
 ## [9.0.0-alpha.29](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.29)
 
@@ -1641,8 +1641,8 @@ Fri, 10 Sep 2021 16:31:53 GMT
 
 ### Changes
 
-- chore(v9): Move all internal v9 dependencies from caret to fixed version ([PR #19748](https://github.com/microsoft/fluentui/pull/19748) by lingfangao@hotmail.com)
-- Bump @fluentui/react-aria to v9.0.0-alpha.29 ([PR #19748](https://github.com/microsoft/fluentui/pull/19748) by lingfangao@hotmail.com)
+- chore(v9): Move all internal v9 dependencies from caret to fixed version ([PR #19748](https://github.com/microsoft/fluentui/pull/19748) by <lingfangao@hotmail.com>)
+- Bump @fluentui/react-aria to v9.0.0-alpha.29 ([PR #19748](https://github.com/microsoft/fluentui/pull/19748) by <lingfangao@hotmail.com>)
 
 ## [9.0.0-alpha.28](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.28)
 
@@ -1651,7 +1651,7 @@ Fri, 10 Sep 2021 07:39:51 GMT
 
 ### Changes
 
-- Refactor ObjectShorthandProps into IntrinsicShorthandProps ([PR #19642](https://github.com/microsoft/fluentui/pull/19642) by behowell@microsoft.com)
+- Refactor ObjectShorthandProps into IntrinsicShorthandProps ([PR #19642](https://github.com/microsoft/fluentui/pull/19642) by <behowell@microsoft.com>)
 
 ## [9.0.0-alpha.27](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.27)
 
@@ -1660,7 +1660,7 @@ Mon, 06 Sep 2021 07:34:53 GMT
 
 ### Changes
 
-- Bump @fluentui/react-utilities to v9.0.0-alpha.44 ([PR #19640](https://github.com/microsoft/fluentui/pull/19640) by lingfangao@hotmail.com)
+- Bump @fluentui/react-utilities to v9.0.0-alpha.44 ([PR #19640](https://github.com/microsoft/fluentui/pull/19640) by <lingfangao@hotmail.com>)
 
 ## [9.0.0-alpha.26](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.26)
 
@@ -1669,7 +1669,7 @@ Thu, 02 Sep 2021 07:36:46 GMT
 
 ### Patches
 
-- Bump @fluentui/react-conformance to v0.4.5 ([PR #19590](https://github.com/microsoft/fluentui/pull/19590) by olfedias@microsoft.com)
+- Bump @fluentui/react-conformance to v0.4.5 ([PR #19590](https://github.com/microsoft/fluentui/pull/19590) by <olfedias@microsoft.com>)
 
 ## [9.0.0-alpha.25](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.25)
 
@@ -1678,7 +1678,7 @@ Wed, 01 Sep 2021 07:39:56 GMT
 
 ### Changes
 
-- Updates react-aria to use root as slot ([PR #19483](https://github.com/microsoft/fluentui/pull/19483) by bsunderhus@microsoft.com)
+- Updates react-aria to use root as slot ([PR #19483](https://github.com/microsoft/fluentui/pull/19483) by <bsunderhus@microsoft.com>)
 
 ## [9.0.0-alpha.24](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.24)
 
@@ -1687,7 +1687,7 @@ Tue, 31 Aug 2021 07:37:47 GMT
 
 ### Changes
 
-- Bump @fluentui/react-utilities to v9.0.0-alpha.42 ([PR #19556](https://github.com/microsoft/fluentui/pull/19556) by lingfan.gao@microsoft.com)
+- Bump @fluentui/react-utilities to v9.0.0-alpha.42 ([PR #19556](https://github.com/microsoft/fluentui/pull/19556) by <lingfan.gao@microsoft.com>)
 
 ## [9.0.0-alpha.23](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.23)
 
@@ -1696,7 +1696,7 @@ Mon, 30 Aug 2021 07:35:05 GMT
 
 ### Changes
 
-- Updating TypeScript type-only imports/exports to use import/export type syntax. ([PR #19485](https://github.com/microsoft/fluentui/pull/19485) by dzearing@hotmail.com)
+- Updating TypeScript type-only imports/exports to use import/export type syntax. ([PR #19485](https://github.com/microsoft/fluentui/pull/19485) by <dzearing@hotmail.com>)
 
 ## [9.0.0-alpha.22](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.22)
 
@@ -1705,7 +1705,7 @@ Fri, 20 Aug 2021 07:37:28 GMT
 
 ### Changes
 
-- Update .npmignore ([PR #19441](https://github.com/microsoft/fluentui/pull/19441) by elcraig@microsoft.com)
+- Update .npmignore ([PR #19441](https://github.com/microsoft/fluentui/pull/19441) by <elcraig@microsoft.com>)
 
 ## [9.0.0-alpha.21](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.21)
 
@@ -1714,7 +1714,7 @@ Thu, 19 Aug 2021 07:41:35 GMT
 
 ### Changes
 
-- Updates react-aria on slot null rendering ([PR #19273](https://github.com/microsoft/fluentui/pull/19273) by bsunderhus@microsoft.com)
+- Updates react-aria on slot null rendering ([PR #19273](https://github.com/microsoft/fluentui/pull/19273) by <bsunderhus@microsoft.com>)
 
 ## [9.0.0-alpha.20](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.20)
 
@@ -1723,7 +1723,7 @@ Fri, 13 Aug 2021 07:36:34 GMT
 
 ### Changes
 
-- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.32 ([PR #19341](https://github.com/microsoft/fluentui/pull/19341) by olfedias@microsoft.com)
+- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.32 ([PR #19341](https://github.com/microsoft/fluentui/pull/19341) by <olfedias@microsoft.com>)
 
 ## [9.0.0-alpha.19](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.19)
 
@@ -1732,7 +1732,7 @@ Fri, 06 Aug 2021 07:35:14 GMT
 
 ### Changes
 
-- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.31 ([PR #19281](https://github.com/microsoft/fluentui/pull/19281) by jspurlin@microsoft.com)
+- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.31 ([PR #19281](https://github.com/microsoft/fluentui/pull/19281) by <jspurlin@microsoft.com>)
 
 ## [9.0.0-alpha.18](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.18)
 
@@ -1741,13 +1741,13 @@ Tue, 03 Aug 2021 07:39:30 GMT
 
 ### Patches
 
-- Bump @fluentui/eslint-plugin to v1.3.3 ([PR #19169](https://github.com/microsoft/fluentui/pull/19169) by behowell@microsoft.com)
-- Bump @fluentui/react-conformance to v0.4.4 ([PR #19169](https://github.com/microsoft/fluentui/pull/19169) by behowell@microsoft.com)
-- Bump @fluentui/scripts to v1.0.0 ([PR #19169](https://github.com/microsoft/fluentui/pull/19169) by behowell@microsoft.com)
+- Bump @fluentui/eslint-plugin to v1.3.3 ([PR #19169](https://github.com/microsoft/fluentui/pull/19169) by <behowell@microsoft.com>)
+- Bump @fluentui/react-conformance to v0.4.4 ([PR #19169](https://github.com/microsoft/fluentui/pull/19169) by <behowell@microsoft.com>)
+- Bump @fluentui/scripts to v1.0.0 ([PR #19169](https://github.com/microsoft/fluentui/pull/19169) by <behowell@microsoft.com>)
 
 ### Changes
 
-- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.30 ([PR #19169](https://github.com/microsoft/fluentui/pull/19169) by behowell@microsoft.com)
+- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.30 ([PR #19169](https://github.com/microsoft/fluentui/pull/19169) by <behowell@microsoft.com>)
 
 ## [9.0.0-alpha.17](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.17)
 
@@ -1756,7 +1756,7 @@ Mon, 02 Aug 2021 07:36:20 GMT
 
 ### Changes
 
-- Bump @fluentui/react-utilities to v9.0.0-alpha.36 ([PR #19204](https://github.com/microsoft/fluentui/pull/19204) by lingfan.gao@microsoft.com)
+- Bump @fluentui/react-utilities to v9.0.0-alpha.36 ([PR #19204](https://github.com/microsoft/fluentui/pull/19204) by <lingfan.gao@microsoft.com>)
 
 ## [9.0.0-alpha.16](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.16)
 
@@ -1765,7 +1765,7 @@ Mon, 26 Jul 2021 07:37:30 GMT
 
 ### Changes
 
-- add Babel plugins to build pipeline ([PR #18968](https://github.com/microsoft/fluentui/pull/18968) by olfedias@microsoft.com)
+- add Babel plugins to build pipeline ([PR #18968](https://github.com/microsoft/fluentui/pull/18968) by <olfedias@microsoft.com>)
 
 ## [9.0.0-alpha.15](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.15)
 
@@ -1774,7 +1774,7 @@ Fri, 23 Jul 2021 07:38:19 GMT
 
 ### Changes
 
-- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.27 ([PR #19041](https://github.com/microsoft/fluentui/pull/19041) by miroslav.stastny@microsoft.com)
+- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.27 ([PR #19041](https://github.com/microsoft/fluentui/pull/19041) by <miroslav.stastny@microsoft.com>)
 
 ## [9.0.0-alpha.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.14)
 
@@ -1783,7 +1783,7 @@ Thu, 22 Jul 2021 07:36:55 GMT
 
 ### Changes
 
-- Bump @fluentui/react-utilities to v9.0.0-alpha.34 ([PR #19023](https://github.com/microsoft/fluentui/pull/19023) by behowell@microsoft.com)
+- Bump @fluentui/react-utilities to v9.0.0-alpha.34 ([PR #19023](https://github.com/microsoft/fluentui/pull/19023) by <behowell@microsoft.com>)
 
 ## [9.0.0-alpha.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.13)
 
@@ -1792,7 +1792,7 @@ Tue, 20 Jul 2021 22:23:17 GMT
 
 ### Changes
 
-- chore(react-aria): Replace keyboard-key with keyboard-keys ([PR #19016](https://github.com/microsoft/fluentui/pull/19016) by lingfan.gao@microsoft.com)
+- chore(react-aria): Replace keyboard-key with keyboard-keys ([PR #19016](https://github.com/microsoft/fluentui/pull/19016) by <lingfan.gao@microsoft.com>)
 
 ## [9.0.0-alpha.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.12)
 
@@ -1801,7 +1801,7 @@ Thu, 15 Jul 2021 07:36:18 GMT
 
 ### Changes
 
-- Fix react-aria due to changes on slots typings ([PR #18861](https://github.com/microsoft/fluentui/pull/18861) by bsunderhus@microsoft.com)
+- Fix react-aria due to changes on slots typings ([PR #18861](https://github.com/microsoft/fluentui/pull/18861) by <bsunderhus@microsoft.com>)
 
 ## [9.0.0-alpha.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.11)
 
@@ -1810,7 +1810,7 @@ Tue, 13 Jul 2021 22:32:58 GMT
 
 ### Patches
 
-- Bump @fluentui/react-conformance to v0.4.3 ([PR #18925](https://github.com/microsoft/fluentui/pull/18925) by elcraig@microsoft.com)
+- Bump @fluentui/react-conformance to v0.4.3 ([PR #18925](https://github.com/microsoft/fluentui/pull/18925) by <elcraig@microsoft.com>)
 
 ## [9.0.0-alpha.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.10)
 
@@ -1819,7 +1819,7 @@ Tue, 13 Jul 2021 07:35:36 GMT
 
 ### Changes
 
-- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.24 ([PR #18560](https://github.com/microsoft/fluentui/pull/18560) by behowell@microsoft.com)
+- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.24 ([PR #18560](https://github.com/microsoft/fluentui/pull/18560) by <behowell@microsoft.com>)
 
 ## [9.0.0-alpha.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.9)
 
@@ -1828,8 +1828,8 @@ Mon, 12 Jul 2021 07:33:23 GMT
 
 ### Changes
 
-- Update prop merging mechanism ([PR #18813](https://github.com/microsoft/fluentui/pull/18813) by bsunderhus@microsoft.com)
-- Removes forcing children on useARIAButton ([PR #18879](https://github.com/microsoft/fluentui/pull/18879) by bsunderhus@microsoft.com)
+- Update prop merging mechanism ([PR #18813](https://github.com/microsoft/fluentui/pull/18813) by <bsunderhus@microsoft.com>)
+- Removes forcing children on useARIAButton ([PR #18879](https://github.com/microsoft/fluentui/pull/18879) by <bsunderhus@microsoft.com>)
 
 ## [9.0.0-alpha.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.8)
 
@@ -1838,14 +1838,14 @@ Fri, 09 Jul 2021 07:39:31 GMT
 
 ### Patches
 
-- Bump @fluentui/eslint-plugin to v1.3.2 ([PR #18808](https://github.com/microsoft/fluentui/pull/18808) by martinhochel@microsoft.com)
-- Bump @fluentui/keyboard-key to v0.3.3 ([PR #18808](https://github.com/microsoft/fluentui/pull/18808) by martinhochel@microsoft.com)
-- Bump @fluentui/react-conformance to v0.4.2 ([PR #18808](https://github.com/microsoft/fluentui/pull/18808) by martinhochel@microsoft.com)
-- Bump @fluentui/scripts to v1.0.0 ([PR #18808](https://github.com/microsoft/fluentui/pull/18808) by martinhochel@microsoft.com)
+- Bump @fluentui/eslint-plugin to v1.3.2 ([PR #18808](https://github.com/microsoft/fluentui/pull/18808) by <martinhochel@microsoft.com>)
+- Bump @fluentui/keyboard-key to v0.3.3 ([PR #18808](https://github.com/microsoft/fluentui/pull/18808) by <martinhochel@microsoft.com>)
+- Bump @fluentui/react-conformance to v0.4.2 ([PR #18808](https://github.com/microsoft/fluentui/pull/18808) by <martinhochel@microsoft.com>)
+- Bump @fluentui/scripts to v1.0.0 ([PR #18808](https://github.com/microsoft/fluentui/pull/18808) by <martinhochel@microsoft.com>)
 
 ### Changes
 
-- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.23 ([PR #18808](https://github.com/microsoft/fluentui/pull/18808) by martinhochel@microsoft.com)
+- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.23 ([PR #18808](https://github.com/microsoft/fluentui/pull/18808) by <martinhochel@microsoft.com>)
 
 ## [9.0.0-alpha.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.7)
 
@@ -1854,7 +1854,7 @@ Fri, 02 Jul 2021 23:15:55 GMT
 
 ### Changes
 
-- Bump @fluentui/react-utilities to v9.0.0-alpha.31 ([PR #18721](https://github.com/microsoft/fluentui/pull/18721) by bsunderhus@microsoft.com)
+- Bump @fluentui/react-utilities to v9.0.0-alpha.31 ([PR #18721](https://github.com/microsoft/fluentui/pull/18721) by <bsunderhus@microsoft.com>)
 
 ## [9.0.0-alpha.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.6)
 
@@ -1863,7 +1863,7 @@ Fri, 02 Jul 2021 07:37:06 GMT
 
 ### Changes
 
-- Rename typings and getSlots to have the Compat Suffix ([PR #18796](https://github.com/microsoft/fluentui/pull/18796) by bsunderhus@microsoft.com)
+- Rename typings and getSlots to have the Compat Suffix ([PR #18796](https://github.com/microsoft/fluentui/pull/18796) by <bsunderhus@microsoft.com>)
 
 ## [9.0.0-alpha.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.5)
 
@@ -1872,7 +1872,7 @@ Thu, 01 Jul 2021 07:35:05 GMT
 
 ### Changes
 
-- Fixing bug in start script of converged packages. ([PR #18768](https://github.com/microsoft/fluentui/pull/18768) by Humberto.Morimoto@microsoft.com)
+- Fixing bug in start script of converged packages. ([PR #18768](https://github.com/microsoft/fluentui/pull/18768) by <Humberto.Morimoto@microsoft.com>)
 
 ## [9.0.0-alpha.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.4)
 
@@ -1881,7 +1881,7 @@ Wed, 30 Jun 2021 07:38:35 GMT
 
 ### Changes
 
-- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.20 ([PR #18695](https://github.com/microsoft/fluentui/pull/18695) by tristan.watanabe@gmail.com)
+- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.20 ([PR #18695](https://github.com/microsoft/fluentui/pull/18695) by <tristan.watanabe@gmail.com>)
 
 ## [9.0.0-alpha.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.3)
 
@@ -1890,7 +1890,7 @@ Tue, 29 Jun 2021 07:33:32 GMT
 
 ### Changes
 
-- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.19 ([PR #18169](https://github.com/microsoft/fluentui/pull/18169) by olfedias@microsoft.com)
+- Bump @fluentui/jest-serializer-make-styles to v9.0.0-alpha.19 ([PR #18169](https://github.com/microsoft/fluentui/pull/18169) by <olfedias@microsoft.com>)
 
 ## [9.0.0-alpha.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.2)
 
@@ -1899,7 +1899,7 @@ Mon, 21 Jun 2021 07:34:33 GMT
 
 ### Changes
 
-- Fix useARIAButton children problem ([PR #18597](https://github.com/microsoft/fluentui/pull/18597) by bsunderhus@microsoft.com)
+- Fix useARIAButton children problem ([PR #18597](https://github.com/microsoft/fluentui/pull/18597) by <bsunderhus@microsoft.com>)
 
 ## [9.0.0-alpha.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-aria_v9.0.0-alpha.1)
 
@@ -1907,5 +1907,5 @@ Thu, 17 Jun 2021 07:34:11 GMT
 
 ### Changes
 
-- Adds @fluentui/keyboard-key due to legacy ([PR #18585](https://github.com/microsoft/fluentui/pull/18585) by bsunderhus@microsoft.com)
-- Creates react-aria package ([PR #18550](https://github.com/microsoft/fluentui/pull/18550) by bsunderhus@microsoft.com)
+- Adds @fluentui/keyboard-key due to legacy ([PR #18585](https://github.com/microsoft/fluentui/pull/18585) by <bsunderhus@microsoft.com>)
+- Creates react-aria package ([PR #18550](https://github.com/microsoft/fluentui/pull/18550) by <bsunderhus@microsoft.com>)

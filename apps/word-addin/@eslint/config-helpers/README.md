@@ -36,21 +36,21 @@ import { defineConfig } from "@eslint/config-helpers";
 import js from "@eslint/js";
 
 export default defineConfig([
-	{
-		files: ["src/**/*.js"],
-		plugins: { js },
-		extends: ["js/recommended"],
-		rules: {
-			"no-var": "error",
-			"prefer-const": "error",
-		},
-	},
-	{
-		files: ["test/**/*.js"],
-		rules: {
-			"no-console": "off",
-		},
-	},
+ {
+  files: ["src/**/*.js"],
+  plugins: { js },
+  extends: ["js/recommended"],
+  rules: {
+   "no-var": "error",
+   "prefer-const": "error",
+  },
+ },
+ {
+  files: ["test/**/*.js"],
+  rules: {
+   "no-console": "off",
+  },
+ },
 ]);
 ```
 
@@ -63,14 +63,14 @@ The `globalIgnores()` function allows you to specify patterns for files and dire
 import { defineConfig, globalIgnores } from "@eslint/config-helpers";
 
 export default defineConfig([
-	{
-		files: ["src/**/*.js"],
-		rules: {
-			"no-var": "error",
-			"prefer-const": "error",
-		},
-	},
-	globalIgnores(["node_modules/", "dist/", "coverage/"]),
+ {
+  files: ["src/**/*.js"],
+  rules: {
+   "no-var": "error",
+   "prefer-const": "error",
+  },
+ },
+ globalIgnores(["node_modules/", "dist/", "coverage/"]),
 ]);
 ```
 
@@ -87,10 +87,10 @@ import path from "node:path";
 const ignorePath = path.join(import.meta.dirname, ".gitignore");
 
 export default defineConfig([
-	includeIgnoreFile(ignorePath, {
-		gitignoreResolution: true,
-	}),
-	// ...
+ includeIgnoreFile(ignorePath, {
+  gitignoreResolution: true,
+ }),
+ // ...
 ]);
 ```
 
@@ -99,8 +99,8 @@ export default defineConfig([
 The second argument is an optional options object:
 
 - **`gitignoreResolution`** (`boolean`): Controls how ignore patterns are interpreted.
-    - `false` (default) — patterns are resolved relative to the location of the configuration file.
-    - `true` — patterns are resolved relative to the location of the ignore file, matching the behavior of `.gitignore` files.
+  - `false` (default) — patterns are resolved relative to the location of the configuration file.
+  - `true` — patterns are resolved relative to the location of the ignore file, matching the behavior of `.gitignore` files.
 - **`name`** (`string`): A custom name for the resulting config object.
 
 For backwards compatibility with `includeIgnoreFile()` from `@eslint/compat`, passing a string instead of an object as the second argument is treated as equivalent to providing a value for `name`.
@@ -116,14 +116,14 @@ import { defineConfig, includeIgnoreFile } from "@eslint/config-helpers";
 import path from "node:path";
 
 export default defineConfig([
-	includeIgnoreFile(
-		[
-			path.join(import.meta.dirname, ".gitignore"),
-			path.join(import.meta.dirname, "packages/lib/.gitignore"),
-		],
-		{ gitignoreResolution: true },
-	),
-	// ...
+ includeIgnoreFile(
+  [
+   path.join(import.meta.dirname, ".gitignore"),
+   path.join(import.meta.dirname, "packages/lib/.gitignore"),
+  ],
+  { gitignoreResolution: true },
+ ),
+ // ...
 ]);
 ```
 

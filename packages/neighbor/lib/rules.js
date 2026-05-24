@@ -2265,9 +2265,350 @@ function isEffectivelyEmpty(wrapperNode, h) {
   })
 }
 
+// ─── no-skipped-heading-levels ───────────────────────────────────────────────
+
+export function makeNoSkippedHeadingLevels(h) {
+  return {
+    meta: {
+      type: 'suggestion',
+      docs: { description: 'Disallow skipping heading levels (e.g. <h1> to <h3>)' },
+      messages: {
+        skippedHeading: 'Skipped heading level. Do not jump from <h{{prev}}> to <h{{current}}>. (Axe: heading-order)',
+      },
+      schema: [],
+    },
+    create(context) {
+      let prevLevel = null
+      return {
+        [h.elementVisitor](node) {
+          const el = h.getElementName(node)
+          const role = h.getRoleValue(node)
+          let currentLevel = null
+          
+          if (el && el.match(/^h[1-6]$/i) && role !== 'presentation' && role !== 'none') {
+            currentLevel = parseInt(el.charAt(1), 10)
+          }
+          
+          const ariaLevelAttr = h.getAttr(node, 'aria-level')
+          const ariaLevel = ariaLevelAttr ? h.getAttrStringValue(ariaLevelAttr) : null
+          if (ariaLevel && !isNaN(parseInt(ariaLevel, 10))) {
+            currentLevel = parseInt(ariaLevel, 10)
+          }
+          
+          if (currentLevel !== null) {
+            if (prevLevel !== null && currentLevel > prevLevel + 1) {
+              context.report({
+                node,
+                messageId: 'skippedHeading',
+                data: { prev: prevLevel, current: currentLevel }
+              })
+            }
+            prevLevel = currentLevel
+          }
+        },
+      }
+    },
+  }
+}
+
+// ─── no-multiple-main ────────────────────────────────────────────────────────
+
+export function makeNoMultipleMain(h) {
+  return {
+    meta: {
+      type: 'problem',
+      docs: { description: 'Disallow more than one <main> or role="main" element per file' },
+      messages: {
+        multipleMain: 'A document must not have more than one <main> or role="main" visible. (Axe: landmark-one-main)',
+      },
+      schema: [],
+    },
+    create(context) {
+      let mainCount = 0
+      return {
+        [h.elementVisitor](node) {
+          const role = h.getRoleValue(node)
+          const el = h.getElementName(node)
+          if (role === 'main' || (el === 'main' && role !== 'presentation' && role !== 'none')) {
+            mainCount++
+            if (mainCount > 1) {
+              context.report({ node, messageId: 'multipleMain' })
+            }
+          }
+        },
+      }
+    },
+  }
+}
+
+// ─── no-toggle-without-checked ───────────────────────────────────────────────
+
+export function makeNoToggleWithoutChecked(h) {
+  return {
+    meta: {
+      type: 'problem',
+      docs: { description: 'Disallow role="switch", "checkbox", or "radio" without aria-checked' },
+      messages: {
+        missingChecked: 'Elements with role="{{role}}" must have an aria-checked attribute to convey their state. (APG)',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          const role = h.getRoleValue(node)
+          if (role !== 'switch' && role !== 'checkbox' && role !== 'radio') return
+          
+          if (h.hasAttr(node, 'aria-checked')) return
+          
+          // Exception: HTML native <input type="checkbox/radio"> has native state
+          const el = h.getElementName(node)
+          if (el === 'input') {
+            const typeAttr = h.getAttr(node, 'type')
+            const type = typeAttr ? h.getAttrStringValue(typeAttr) : null
+            if (type === 'checkbox' || type === 'radio') return
+          }
+          
+          context.report({ node, messageId: 'missingChecked', data: { role } })
+        },
+      }
+    },
+  }
+}
+
+// ─── no-expanded-without-controls ────────────────────────────────────────────
+
+export function makeNoExpandedWithoutControls(h) {
+  return {
+    meta: {
+      type: 'suggestion',
+      docs: { description: 'Disallow aria-expanded without aria-controls' },
+      messages: {
+        missingControls: 'Elements with aria-expanded must have an aria-controls attribute pointing to the ID of the expandable container. (APG: Disclosure)',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          if (!h.hasAttr(node, 'aria-expanded')) return
+          if (h.hasAttr(node, 'aria-controls')) return
+          
+          context.report({ node, messageId: 'missingControls' })
+        },
+      }
+    },
+  }
+}
+
+// ─── no-aria-hidden-on-main ──────────────────────────────────────────────────
+
+export function makeNoAriaHiddenOnMain(h) {
+  return {
+    meta: {
+      type: 'problem',
+      docs: { description: 'Disallow aria-hidden="true" on <body>, <main>, or role="main"' },
+      messages: {
+        hiddenMain: 'aria-hidden="true" on the main content or body hides the entire application from screen readers. Place it on a sibling wrapper instead. (APG)',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          const isHidden = h.getAttrStringValue(h.getAttr(node, 'aria-hidden')) === 'true'
+          if (!isHidden) return
+          
+          const el = h.getElementName(node)
+          const role = h.getRoleValue(node)
+          
+          if (el === 'main' || el === 'body' || role === 'main') {
+            context.report({ node, messageId: 'hiddenMain' })
+          }
+        },
+      }
+    },
+  }
+}
+
+// ─── no-meter-without-valuenow ───────────────────────────────────────────────
+
+export function makeNoMeterWithoutValuenow(h) {
+  return {
+    meta: {
+      type: 'problem',
+      docs: { description: 'Disallow role="meter" without aria-valuenow' },
+      messages: {
+        missingValuenow: 'role="meter" represents a scalar measurement and must have an aria-valuenow attribute. (APG: Meter)',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          const role = h.getRoleValue(node)
+          if (role !== 'meter') return
+          if (h.hasAttr(node, 'aria-valuenow')) return
+          
+          context.report({ node, messageId: 'missingValuenow' })
+        },
+      }
+    },
+  }
+}
+
+// ─── vue-transition-live-region ──────────────────────────────────────────────
+
+export function makeVueTransitionLiveRegion(h) {
+  return {
+    meta: {
+      type: 'suggestion',
+      docs: { description: 'Require aria-live on <Transition>/<TransitionGroup> containing dynamic text' },
+      messages: {
+        missingLive:
+          '<{{tag}}> renders content dynamically but has no aria-live region wrapper. Screen readers will not announce the new content. Wrap it in an element with aria-live="polite". (WCAG SC 4.1.3)',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          const raw = node.rawName ?? node.name ?? ''
+          if (raw !== 'Transition' && raw !== 'TransitionGroup' && raw !== 'transition' && raw !== 'transition-group') return
+
+          if (h.hasAttr(node, 'aria-live')) return
+          let ancestor = typeof h.getParent === 'function' ? h.getParent(node) : null
+          while (ancestor) {
+            if (h.hasAttr(ancestor, 'aria-live')) return
+            ancestor = typeof h.getParent === 'function' ? h.getParent(ancestor) : null
+          }
+
+          const children = node.children ?? []
+          const hasContent = children.some(c => {
+            if (c.type === 'VText') return (c.value ?? '').trim().length > 0
+            if (c.type === 'VElement') return true
+            return false
+          })
+          if (!hasContent) return
+
+          context.report({ node, messageId: 'missingLive', data: { tag: raw } })
+        },
+      }
+    },
+  }
+}
+
+// ─── vue-click-key-events ────────────────────────────────────────────────────
+
+export function makeVueClickKeyEvents(_h) {
+  return {
+    meta: {
+      type: 'problem',
+      docs: { description: 'Require keyboard event handlers alongside @click on non-native elements' },
+      messages: {
+        missingKeyboard:
+          'Element has @click but no @keyup.enter or @keydown.space. Vue does not polyfill keyboard events on custom elements  -  keyboard-only users cannot activate it. Add @keyup.enter and @keydown.space handlers. (WCAG SC 2.1.1)',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        VAttribute(node) {
+          if (!node.directive) return
+
+          const keyName = node.key?.name
+          const argName = node.key?.argument?.name ?? node.key?.argument?.value
+          if (keyName !== 'on' || argName !== 'click') return
+
+          const vElement = node.parent?.parent ?? node.parent
+          if (!vElement || vElement.type !== 'VElement') return
+
+          const el = (vElement.rawName ?? vElement.name ?? '').toLowerCase()
+          if (['button', 'a', 'input', 'select', 'textarea', 'summary'].includes(el)) return
+
+          const attrs = vElement.startTag?.attributes ?? []
+          const hasKeyboard = attrs.some(a => {
+            if (!a.directive) return false
+            const k = a.key?.name
+            const arg = a.key?.argument?.name ?? a.key?.argument?.value ?? ''
+            const modifiers = a.key?.modifiers ?? []
+            if (k !== 'on') return false
+            if (arg === 'keyup' && modifiers.includes('enter')) return true
+            if (arg === 'keydown' && (modifiers.includes('space') || modifiers.includes('enter'))) return true
+            if (arg === 'keypress') return true
+            return false
+          })
+
+          if (!hasKeyboard) {
+            context.report({ node, messageId: 'missingKeyboard' })
+          }
+        },
+      }
+    },
+  }
+}
+
+// ─── react-fragment-ruins-aria ───────────────────────────────────────────────
+
+const ARIA_CHILD_CONSTRAINED_ROLES = new Set([
+  'list', 'listbox', 'menu', 'menubar', 'radiogroup', 'tree',
+  'grid', 'rowgroup', 'row', 'tablist',
+])
+const NATIVE_CHILD_CONSTRAINED = new Set([
+  'ul', 'ol', 'dl', 'table', 'thead', 'tbody', 'tfoot', 'tr', 'select',
+])
+
+export function makeReactFragmentRuinsAria(h) {
+  return {
+    meta: {
+      type: 'suggestion',
+      docs: { description: 'Warn when a <div key={...}> in a map breaks required ARIA parent-child relationships' },
+      messages: {
+        useFragment:
+          'A <div> with only a `key` prop inside a constrained ARIA container breaks the required DOM hierarchy. Use <React.Fragment key={...}> instead. (ARIA 1.2)',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          const el = h.getElementName(node)
+          if (el !== 'div' && el !== 'span') return
+
+          const attrs = node.openingElement?.attributes ?? node.startTag?.attributes ?? []
+          const nonKeyAttrs = attrs.filter(a => {
+            const name = a.name?.name ?? a.name ?? a.key?.name
+            return name !== 'key'
+          })
+          if (nonKeyAttrs.length > 0) return
+
+          const parent = typeof h.getParent === 'function' ? h.getParent(node) : null
+          if (!parent) return
+
+          const parentEl = h.getElementName(parent)
+          const parentRole = h.getRoleValue(parent)
+
+          if (
+            (parentRole && ARIA_CHILD_CONSTRAINED_ROLES.has(parentRole)) ||
+            (parentEl && NATIVE_CHILD_CONSTRAINED.has(parentEl))
+          ) {
+            context.report({ node, messageId: 'useFragment' })
+          }
+        },
+      }
+    },
+  }
+}
+
 // ─── All rules map ────────────────────────────────────────────────────────────
 
 export const RULE_FACTORIES = {
+  'no-toggle-without-checked':                  makeNoToggleWithoutChecked,
+  'no-expanded-without-controls':               makeNoExpandedWithoutControls,
+  'no-aria-hidden-on-main':                     makeNoAriaHiddenOnMain,
+  'no-meter-without-valuenow':                  makeNoMeterWithoutValuenow,
+  'no-skipped-heading-levels':                  makeNoSkippedHeadingLevels,
+  'no-multiple-main':                           makeNoMultipleMain,
   'no-aria-label-on-generic':                   makeNoAriaLabelOnGeneric,
   'no-assertive-live-overuse':                  makeNoAssertiveLiveOveruse,
   'warn-role-alert':                            makeWarnRoleAlert,
@@ -2330,6 +2671,11 @@ export const RULE_FACTORIES = {
   'no-dynamic-content-without-live':            makeNoDynamicContentWithoutLive,
   'form-field-multiple-labels':                 makeFormFieldMultipleLabels,
   'no-empty-table-header':                      makeNoEmptyTableHeader,
+  // Vue-specific template rules  -  included in Vue config only
+  'vue-transition-live-region':                 makeVueTransitionLiveRegion,
+  'vue-click-key-events':                       makeVueClickKeyEvents,
+  // React-specific JSX rules  -  included in React/Remix configs only
+  'react-fragment-ruins-aria':                  makeReactFragmentRuinsAria,
 }
 
 /** Build the rules map for a plugin by applying helpers to all factories. */
@@ -2350,6 +2696,12 @@ export function buildRecommendedRules(ns) {
     [`${ns}/no-unblocked-aria-disabled`]:                 'error',
     [`${ns}/no-roles-without-name`]:                      'error',
     [`${ns}/no-group-without-name`]:                      'error',
+    [`${ns}/no-toggle-without-checked`]:                  'error',
+    [`${ns}/no-aria-hidden-on-main`]:                     'error',
+    [`${ns}/no-meter-without-valuenow`]:                  'error',
+    [`${ns}/no-expanded-without-controls`]:               'warn',
+    [`${ns}/no-skipped-heading-levels`]:                  'warn',
+    [`${ns}/no-multiple-main`]:                           'warn',
     [`${ns}/no-presentation-on-focusable`]:               'error',
     [`${ns}/no-log-with-interactive-children`]:           'error',
     [`${ns}/no-aria-hidden-in-link`]:                     'error',
@@ -2415,5 +2767,20 @@ export function buildPortabilityRules(ns) {
     [`${ns}/prefer-semantic-element`]:                'warn',
     [`${ns}/no-role-supports-aria-props`]:            'error',
     [`${ns}/no-scope-on-td`]:                         'error',
+  }
+}
+
+/** Build Vue-specific rules (Transition live region, click key events). */
+export function buildVueFrameworkRules(ns) {
+  return {
+    [`${ns}/vue-transition-live-region`]: 'warn',
+    [`${ns}/vue-click-key-events`]:       'error',
+  }
+}
+
+/** Build React/Remix-specific JSX rules (fragment hierarchy, etc.). */
+export function buildReactFrameworkRules(ns) {
+  return {
+    [`${ns}/react-fragment-ruins-aria`]: 'warn',
   }
 }

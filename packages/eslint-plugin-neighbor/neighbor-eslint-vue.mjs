@@ -19,7 +19,7 @@
  */
 
 import { h } from '@a11yfred/neighbor/lib/helpers-vue.js'
-import { buildRules, buildRecommendedRules, buildPortabilityRules } from '@a11yfred/neighbor/lib/rules.js'
+import { buildRules, buildRecommendedRules, buildPortabilityRules, buildVueFrameworkRules } from '@a11yfred/neighbor/lib/rules.js'
 import { buildUlamRulesVue, buildUlamRecommendedRulesFramework } from '@a11yfred/neighbor/lib/ulam-rules.js'
 
 const NS = '@a11yfred/neighbor'
@@ -42,6 +42,7 @@ export default {
         ...buildRecommendedRules(NS),
         ...buildPortabilityRules(NS),
         ...buildUlamRecommendedRulesFramework(NS),
+        ...buildVueFrameworkRules(NS),
       },
     },
   },

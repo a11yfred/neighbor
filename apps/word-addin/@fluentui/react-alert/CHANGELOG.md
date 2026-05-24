@@ -6,7 +6,7 @@ This log was last generated on Thu, 23 Apr 2026 11:59:53 GMT and should not be m
 
 ## [9.0.0-beta.139](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.139)
 
-Thu, 23 Apr 2026 11:59:53 GMT 
+Thu, 23 Apr 2026 11:59:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.138..@fluentui/react-alert_v9.0.0-beta.139)
 
 ### Changes
@@ -19,7 +19,7 @@ Thu, 23 Apr 2026 11:59:53 GMT
 
 ## [9.0.0-beta.138](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.138)
 
-Wed, 01 Apr 2026 15:52:43 GMT 
+Wed, 01 Apr 2026 15:52:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.137..@fluentui/react-alert_v9.0.0-beta.138)
 
 ### Changes
@@ -28,7 +28,7 @@ Wed, 01 Apr 2026 15:52:43 GMT
 
 ## [9.0.0-beta.137](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.137)
 
-Mon, 30 Mar 2026 14:37:41 GMT 
+Mon, 30 Mar 2026 14:37:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.136..@fluentui/react-alert_v9.0.0-beta.137)
 
 ### Changes
@@ -37,7 +37,7 @@ Mon, 30 Mar 2026 14:37:41 GMT
 
 ## [9.0.0-beta.136](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.136)
 
-Thu, 26 Mar 2026 08:12:54 GMT 
+Thu, 26 Mar 2026 08:12:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.135..@fluentui/react-alert_v9.0.0-beta.136)
 
 ### Changes
@@ -47,7 +47,7 @@ Thu, 26 Mar 2026 08:12:54 GMT
 
 ## [9.0.0-beta.135](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.135)
 
-Tue, 03 Mar 2026 09:43:43 GMT 
+Tue, 03 Mar 2026 09:43:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.134..@fluentui/react-alert_v9.0.0-beta.135)
 
 ### Changes
@@ -56,7 +56,7 @@ Tue, 03 Mar 2026 09:43:43 GMT
 
 ## [9.0.0-beta.134](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.134)
 
-Wed, 25 Feb 2026 13:32:28 GMT 
+Wed, 25 Feb 2026 13:32:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.133..@fluentui/react-alert_v9.0.0-beta.134)
 
 ### Changes
@@ -69,7 +69,7 @@ Wed, 25 Feb 2026 13:32:28 GMT
 
 ## [9.0.0-beta.133](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.133)
 
-Thu, 12 Feb 2026 10:46:15 GMT 
+Thu, 12 Feb 2026 10:46:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.132..@fluentui/react-alert_v9.0.0-beta.133)
 
 ### Changes
@@ -80,7 +80,7 @@ Thu, 12 Feb 2026 10:46:15 GMT
 
 ## [9.0.0-beta.132](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.132)
 
-Thu, 22 Jan 2026 17:07:01 GMT 
+Thu, 22 Jan 2026 17:07:01 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.131..@fluentui/react-alert_v9.0.0-beta.132)
 
 ### Changes
@@ -94,7 +94,7 @@ Thu, 22 Jan 2026 17:07:01 GMT
 
 ## [9.0.0-beta.131](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.131)
 
-Wed, 17 Dec 2025 18:10:11 GMT 
+Wed, 17 Dec 2025 18:10:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.130..@fluentui/react-alert_v9.0.0-beta.131)
 
 ### Changes
@@ -107,7 +107,7 @@ Wed, 17 Dec 2025 18:10:11 GMT
 
 ## [9.0.0-beta.130](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.130)
 
-Fri, 05 Dec 2025 22:38:42 GMT 
+Fri, 05 Dec 2025 22:38:42 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.129..@fluentui/react-alert_v9.0.0-beta.130)
 
 ### Changes
@@ -116,12 +116,12 @@ Fri, 05 Dec 2025 22:38:42 GMT
 
 ## [9.0.0-beta.129](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.129)
 
-Tue, 11 Nov 2025 19:18:16 GMT 
+Tue, 11 Nov 2025 19:18:16 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.128..@fluentui/react-alert_v9.0.0-beta.129)
 
 ### Changes
 
-- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by estebanmu@microsoft.com)
+- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by <estebanmu@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.9.12 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-button to v9.6.12 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-tabster to v9.26.10 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
@@ -130,7 +130,7 @@ Tue, 11 Nov 2025 19:18:16 GMT
 
 ## [9.0.0-beta.128](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.128)
 
-Thu, 06 Nov 2025 15:01:25 GMT 
+Thu, 06 Nov 2025 15:01:25 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.127..@fluentui/react-alert_v9.0.0-beta.128)
 
 ### Changes
@@ -143,7 +143,7 @@ Thu, 06 Nov 2025 15:01:25 GMT
 
 ## [9.0.0-beta.127](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.127)
 
-Fri, 31 Oct 2025 16:22:06 GMT 
+Fri, 31 Oct 2025 16:22:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.126..@fluentui/react-alert_v9.0.0-beta.127)
 
 ### Changes
@@ -156,7 +156,7 @@ Fri, 31 Oct 2025 16:22:06 GMT
 
 ## [9.0.0-beta.126](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.126)
 
-Tue, 21 Oct 2025 14:16:59 GMT 
+Tue, 21 Oct 2025 14:16:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.125..@fluentui/react-alert_v9.0.0-beta.126)
 
 ### Changes
@@ -167,12 +167,12 @@ Tue, 21 Oct 2025 14:16:59 GMT
 
 ## [9.0.0-beta.125](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.125)
 
-Wed, 08 Oct 2025 12:04:51 GMT 
+Wed, 08 Oct 2025 12:04:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.124..@fluentui/react-alert_v9.0.0-beta.125)
 
 ### Changes
 
-- feat: add react 19 support ([PR #35285](https://github.com/microsoft/fluentui/pull/35285) by martinhochel@microsoft.com)
+- feat: add react 19 support ([PR #35285](https://github.com/microsoft/fluentui/pull/35285) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.9.8 ([PR #35294](https://github.com/microsoft/fluentui/pull/35294) by beachball)
 - Bump @fluentui/react-button to v9.6.8 ([PR #35294](https://github.com/microsoft/fluentui/pull/35294) by beachball)
 - Bump @fluentui/react-tabster to v9.26.7 ([PR #35294](https://github.com/microsoft/fluentui/pull/35294) by beachball)
@@ -181,7 +181,7 @@ Wed, 08 Oct 2025 12:04:51 GMT
 
 ## [9.0.0-beta.124](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.124)
 
-Thu, 06 Jun 2024 15:26:45 GMT 
+Thu, 06 Jun 2024 15:26:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.123..@fluentui/react-alert_v9.0.0-beta.124)
 
 ### Changes
@@ -194,24 +194,24 @@ Thu, 06 Jun 2024 15:26:45 GMT
 
 ## [9.0.0-beta.123](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.123)
 
-Thu, 23 May 2024 08:02:39 GMT 
+Thu, 23 May 2024 08:02:39 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.122..@fluentui/react-alert_v9.0.0-beta.123)
 
 ### Changes
 
-- chore: replace usage of .shorthands() in styles ([PR #31458](https://github.com/microsoft/fluentui/pull/31458) by olfedias@microsoft.com)
+- chore: replace usage of .shorthands() in styles ([PR #31458](https://github.com/microsoft/fluentui/pull/31458) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.6.28 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 - Bump @fluentui/react-button to v9.3.82 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 - Bump @fluentui/react-tabster to v9.21.4 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 
 ## [9.0.0-beta.122](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.122)
 
-Mon, 20 May 2024 12:44:51 GMT 
+Mon, 20 May 2024 12:44:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.121..@fluentui/react-alert_v9.0.0-beta.122)
 
 ### Changes
 
-- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by olfedias@microsoft.com)
+- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.6.27 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-button to v9.3.81 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-tabster to v9.21.3 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
@@ -220,18 +220,18 @@ Mon, 20 May 2024 12:44:51 GMT
 
 ## [9.0.0-beta.121](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.121)
 
-Thu, 16 May 2024 09:25:11 GMT 
+Thu, 16 May 2024 09:25:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.120..@fluentui/react-alert_v9.0.0-beta.121)
 
 ### Changes
 
--  chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by ololubek@microsoft.com)
+- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.6.26 ([PR #31390](https://github.com/microsoft/fluentui/pull/31390) by beachball)
 - Bump @fluentui/react-button to v9.3.80 ([PR #31390](https://github.com/microsoft/fluentui/pull/31390) by beachball)
 
 ## [9.0.0-beta.120](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.120)
 
-Thu, 09 May 2024 19:35:12 GMT 
+Thu, 09 May 2024 19:35:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.119..@fluentui/react-alert_v9.0.0-beta.120)
 
 ### Changes
@@ -242,7 +242,7 @@ Thu, 09 May 2024 19:35:12 GMT
 
 ## [9.0.0-beta.119](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.119)
 
-Mon, 06 May 2024 12:55:02 GMT 
+Mon, 06 May 2024 12:55:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.118..@fluentui/react-alert_v9.0.0-beta.119)
 
 ### Changes
@@ -255,19 +255,19 @@ Mon, 06 May 2024 12:55:02 GMT
 
 ## [9.0.0-beta.118](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.118)
 
-Thu, 02 May 2024 11:36:28 GMT 
+Thu, 02 May 2024 11:36:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.117..@fluentui/react-alert_v9.0.0-beta.118)
 
 ### Changes
 
--  chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by ololubek@microsoft.com)
+- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.6.23 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 - Bump @fluentui/react-button to v9.3.77 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 - Bump @fluentui/react-tabster to v9.21.0 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 
 ## [9.0.0-beta.117](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.117)
 
-Tue, 23 Apr 2024 08:17:49 GMT 
+Tue, 23 Apr 2024 08:17:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.116..@fluentui/react-alert_v9.0.0-beta.117)
 
 ### Changes
@@ -280,19 +280,19 @@ Tue, 23 Apr 2024 08:17:49 GMT
 
 ## [9.0.0-beta.116](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.116)
 
-Wed, 17 Apr 2024 21:53:47 GMT 
+Wed, 17 Apr 2024 21:53:47 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.115..@fluentui/react-alert_v9.0.0-beta.116)
 
 ### Changes
 
-- chore: Update react-icons to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by ololubek@microsoft.com)
+- chore: Update react-icons to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.6.21 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 - Bump @fluentui/react-button to v9.3.75 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 - Bump @fluentui/react-tabster to v9.20.0 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 
 ## [9.0.0-beta.115](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.115)
 
-Tue, 02 Apr 2024 09:48:01 GMT 
+Tue, 02 Apr 2024 09:48:01 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.114..@fluentui/react-alert_v9.0.0-beta.115)
 
 ### Changes
@@ -305,7 +305,7 @@ Tue, 02 Apr 2024 09:48:01 GMT
 
 ## [9.0.0-beta.114](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.114)
 
-Mon, 18 Mar 2024 19:50:46 GMT 
+Mon, 18 Mar 2024 19:50:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.113..@fluentui/react-alert_v9.0.0-beta.114)
 
 ### Changes
@@ -319,7 +319,7 @@ Mon, 18 Mar 2024 19:50:46 GMT
 
 ## [9.0.0-beta.113](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.113)
 
-Fri, 15 Mar 2024 21:43:49 GMT 
+Fri, 15 Mar 2024 21:43:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.112..@fluentui/react-alert_v9.0.0-beta.113)
 
 ### Changes
@@ -333,7 +333,7 @@ Fri, 15 Mar 2024 21:43:49 GMT
 
 ## [9.0.0-beta.112](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.112)
 
-Thu, 07 Mar 2024 19:33:27 GMT 
+Thu, 07 Mar 2024 19:33:27 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.111..@fluentui/react-alert_v9.0.0-beta.112)
 
 ### Changes
@@ -347,7 +347,7 @@ Thu, 07 Mar 2024 19:33:27 GMT
 
 ## [9.0.0-beta.111](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.111)
 
-Wed, 28 Feb 2024 02:34:19 GMT 
+Wed, 28 Feb 2024 02:34:19 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.110..@fluentui/react-alert_v9.0.0-beta.111)
 
 ### Changes
@@ -360,7 +360,7 @@ Wed, 28 Feb 2024 02:34:19 GMT
 
 ## [9.0.0-beta.110](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.110)
 
-Tue, 20 Feb 2024 14:22:30 GMT 
+Tue, 20 Feb 2024 14:22:30 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.109..@fluentui/react-alert_v9.0.0-beta.110)
 
 ### Changes
@@ -373,7 +373,7 @@ Tue, 20 Feb 2024 14:22:30 GMT
 
 ## [9.0.0-beta.109](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.109)
 
-Tue, 06 Feb 2024 17:55:21 GMT 
+Tue, 06 Feb 2024 17:55:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.108..@fluentui/react-alert_v9.0.0-beta.109)
 
 ### Changes
@@ -384,7 +384,7 @@ Tue, 06 Feb 2024 17:55:21 GMT
 
 ## [9.0.0-beta.108](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.108)
 
-Tue, 30 Jan 2024 23:16:54 GMT 
+Tue, 30 Jan 2024 23:16:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.107..@fluentui/react-alert_v9.0.0-beta.108)
 
 ### Changes
@@ -397,7 +397,7 @@ Tue, 30 Jan 2024 23:16:54 GMT
 
 ## [9.0.0-beta.107](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.107)
 
-Mon, 29 Jan 2024 13:56:06 GMT 
+Mon, 29 Jan 2024 13:56:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.106..@fluentui/react-alert_v9.0.0-beta.107)
 
 ### Changes
@@ -406,7 +406,7 @@ Mon, 29 Jan 2024 13:56:06 GMT
 
 ## [9.0.0-beta.106](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.106)
 
-Fri, 26 Jan 2024 10:40:22 GMT 
+Fri, 26 Jan 2024 10:40:22 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.105..@fluentui/react-alert_v9.0.0-beta.106)
 
 ### Changes
@@ -415,7 +415,7 @@ Fri, 26 Jan 2024 10:40:22 GMT
 
 ## [9.0.0-beta.105](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.105)
 
-Tue, 23 Jan 2024 15:11:00 GMT 
+Tue, 23 Jan 2024 15:11:00 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.104..@fluentui/react-alert_v9.0.0-beta.105)
 
 ### Changes
@@ -428,7 +428,7 @@ Tue, 23 Jan 2024 15:11:00 GMT
 
 ## [9.0.0-beta.104](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.104)
 
-Thu, 18 Jan 2024 14:25:03 GMT 
+Thu, 18 Jan 2024 14:25:03 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.103..@fluentui/react-alert_v9.0.0-beta.104)
 
 ### Changes
@@ -441,7 +441,7 @@ Thu, 18 Jan 2024 14:25:03 GMT
 
 ## [9.0.0-beta.103](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.103)
 
-Wed, 17 Jan 2024 16:18:50 GMT 
+Wed, 17 Jan 2024 16:18:50 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.102..@fluentui/react-alert_v9.0.0-beta.103)
 
 ### Changes
@@ -454,12 +454,12 @@ Wed, 17 Jan 2024 16:18:50 GMT
 
 ## [9.0.0-beta.102](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.102)
 
-Tue, 16 Jan 2024 13:14:13 GMT 
+Tue, 16 Jan 2024 13:14:13 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.101..@fluentui/react-alert_v9.0.0-beta.102)
 
 ### Changes
 
-- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by mgodbolt@microsoft.com)
+- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.6.7 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-button to v9.3.63 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-tabster to v9.17.1 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
@@ -467,7 +467,7 @@ Tue, 16 Jan 2024 13:14:13 GMT
 
 ## [9.0.0-beta.101](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.101)
 
-Thu, 11 Jan 2024 09:04:29 GMT 
+Thu, 11 Jan 2024 09:04:29 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.100..@fluentui/react-alert_v9.0.0-beta.101)
 
 ### Changes
@@ -477,7 +477,7 @@ Thu, 11 Jan 2024 09:04:29 GMT
 
 ## [9.0.0-beta.100](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.100)
 
-Tue, 09 Jan 2024 10:21:34 GMT 
+Tue, 09 Jan 2024 10:21:34 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.99..@fluentui/react-alert_v9.0.0-beta.100)
 
 ### Changes
@@ -486,12 +486,12 @@ Tue, 09 Jan 2024 10:21:34 GMT
 
 ## [9.0.0-beta.99](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.99)
 
-Mon, 08 Jan 2024 16:24:19 GMT 
+Mon, 08 Jan 2024 16:24:19 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.98..@fluentui/react-alert_v9.0.0-beta.99)
 
 ### Changes
 
-- Update version of @fluentui/react-icons to 2.0.224 ([PR #30078](https://github.com/microsoft/fluentui/pull/30078) by ololubek@microsoft.com)
+- Update version of @fluentui/react-icons to 2.0.224 ([PR #30078](https://github.com/microsoft/fluentui/pull/30078) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.6.4 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
 - Bump @fluentui/react-button to v9.3.61 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
 - Bump @fluentui/react-tabster to v9.17.0 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
@@ -500,7 +500,7 @@ Mon, 08 Jan 2024 16:24:19 GMT
 
 ## [9.0.0-beta.98](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.98)
 
-Wed, 03 Jan 2024 09:26:44 GMT 
+Wed, 03 Jan 2024 09:26:44 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.97..@fluentui/react-alert_v9.0.0-beta.98)
 
 ### Changes
@@ -513,7 +513,7 @@ Wed, 03 Jan 2024 09:26:44 GMT
 
 ## [9.0.0-beta.97](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.97)
 
-Mon, 18 Dec 2023 17:48:16 GMT 
+Mon, 18 Dec 2023 17:48:16 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.96..@fluentui/react-alert_v9.0.0-beta.97)
 
 ### Changes
@@ -522,7 +522,7 @@ Mon, 18 Dec 2023 17:48:16 GMT
 
 ## [9.0.0-beta.96](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.96)
 
-Mon, 18 Dec 2023 14:40:46 GMT 
+Mon, 18 Dec 2023 14:40:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.95..@fluentui/react-alert_v9.0.0-beta.96)
 
 ### Changes
@@ -535,7 +535,7 @@ Mon, 18 Dec 2023 14:40:46 GMT
 
 ## [9.0.0-beta.95](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.95)
 
-Thu, 14 Dec 2023 09:58:46 GMT 
+Thu, 14 Dec 2023 09:58:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.94..@fluentui/react-alert_v9.0.0-beta.95)
 
 ### Changes
@@ -548,7 +548,7 @@ Thu, 14 Dec 2023 09:58:46 GMT
 
 ## [9.0.0-beta.94](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.94)
 
-Thu, 30 Nov 2023 13:42:08 GMT 
+Thu, 30 Nov 2023 13:42:08 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.93..@fluentui/react-alert_v9.0.0-beta.94)
 
 ### Changes
@@ -560,7 +560,7 @@ Thu, 30 Nov 2023 13:42:08 GMT
 
 ## [9.0.0-beta.93](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.93)
 
-Mon, 20 Nov 2023 09:55:10 GMT 
+Mon, 20 Nov 2023 09:55:10 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.92..@fluentui/react-alert_v9.0.0-beta.93)
 
 ### Changes
@@ -571,7 +571,7 @@ Mon, 20 Nov 2023 09:55:10 GMT
 
 ## [9.0.0-beta.92](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.92)
 
-Tue, 14 Nov 2023 17:51:27 GMT 
+Tue, 14 Nov 2023 17:51:27 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.91..@fluentui/react-alert_v9.0.0-beta.92)
 
 ### Changes
@@ -582,7 +582,7 @@ Tue, 14 Nov 2023 17:51:27 GMT
 
 ## [9.0.0-beta.91](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.91)
 
-Thu, 09 Nov 2023 17:29:50 GMT 
+Thu, 09 Nov 2023 17:29:50 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.90..@fluentui/react-alert_v9.0.0-beta.91)
 
 ### Changes
@@ -596,7 +596,7 @@ Thu, 09 Nov 2023 17:29:50 GMT
 
 ## [9.0.0-beta.90](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.90)
 
-Wed, 01 Nov 2023 12:55:59 GMT 
+Wed, 01 Nov 2023 12:55:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.89..@fluentui/react-alert_v9.0.0-beta.90)
 
 ### Changes
@@ -608,19 +608,19 @@ Wed, 01 Nov 2023 12:55:59 GMT
 
 ## [9.0.0-beta.89](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.89)
 
-Sat, 28 Oct 2023 23:35:54 GMT 
+Sat, 28 Oct 2023 23:35:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.88..@fluentui/react-alert_v9.0.0-beta.89)
 
 ### Changes
 
-- feat: deprecate component and utilities ([PR #29615](https://github.com/microsoft/fluentui/pull/29615) by lingfan.gao@microsoft.com)
+- feat: deprecate component and utilities ([PR #29615](https://github.com/microsoft/fluentui/pull/29615) by <lingfan.gao@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.5.43 ([commit](https://github.com/microsoft/fluentui/commit/555b0fae3ec7f052e765557ae243c58000514f92) by beachball)
 - Bump @fluentui/react-button to v9.3.52 ([commit](https://github.com/microsoft/fluentui/commit/555b0fae3ec7f052e765557ae243c58000514f92) by beachball)
 - Bump @fluentui/react-tabster to v9.14.2 ([commit](https://github.com/microsoft/fluentui/commit/555b0fae3ec7f052e765557ae243c58000514f92) by beachball)
 
 ## [9.0.0-beta.88](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.88)
 
-Mon, 23 Oct 2023 09:51:57 GMT 
+Mon, 23 Oct 2023 09:51:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.87..@fluentui/react-alert_v9.0.0-beta.88)
 
 ### Changes
@@ -631,7 +631,7 @@ Mon, 23 Oct 2023 09:51:57 GMT
 
 ## [9.0.0-beta.87](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.87)
 
-Wed, 18 Oct 2023 17:54:08 GMT 
+Wed, 18 Oct 2023 17:54:08 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.86..@fluentui/react-alert_v9.0.0-beta.87)
 
 ### Changes
@@ -644,7 +644,7 @@ Wed, 18 Oct 2023 17:54:08 GMT
 
 ## [9.0.0-beta.86](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.86)
 
-Thu, 12 Oct 2023 14:55:44 GMT 
+Thu, 12 Oct 2023 14:55:44 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.85..@fluentui/react-alert_v9.0.0-beta.86)
 
 ### Changes
@@ -655,7 +655,7 @@ Thu, 12 Oct 2023 14:55:44 GMT
 
 ## [9.0.0-beta.85](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.85)
 
-Wed, 11 Oct 2023 13:54:26 GMT 
+Wed, 11 Oct 2023 13:54:26 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.84..@fluentui/react-alert_v9.0.0-beta.85)
 
 ### Changes
@@ -668,7 +668,7 @@ Wed, 11 Oct 2023 13:54:26 GMT
 
 ## [9.0.0-beta.84](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.84)
 
-Mon, 09 Oct 2023 20:45:44 GMT 
+Mon, 09 Oct 2023 20:45:44 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.83..@fluentui/react-alert_v9.0.0-beta.84)
 
 ### Changes
@@ -681,12 +681,12 @@ Mon, 09 Oct 2023 20:45:44 GMT
 
 ## [9.0.0-beta.83](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.83)
 
-Thu, 05 Oct 2023 15:25:29 GMT 
+Thu, 05 Oct 2023 15:25:29 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.82..@fluentui/react-alert_v9.0.0-beta.83)
 
 ### Changes
 
-- chore: migrate from getNativeElementProps to getIntrinsicElementProps ([PR #29387](https://github.com/microsoft/fluentui/pull/29387) by bernardo.sunderhus@gmail.com)
+- chore: migrate from getNativeElementProps to getIntrinsicElementProps ([PR #29387](https://github.com/microsoft/fluentui/pull/29387) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.37 ([PR #29412](https://github.com/microsoft/fluentui/pull/29412) by beachball)
 - Bump @fluentui/react-button to v9.3.46 ([PR #29412](https://github.com/microsoft/fluentui/pull/29412) by beachball)
 - Bump @fluentui/react-tabster to v9.13.4 ([PR #29412](https://github.com/microsoft/fluentui/pull/29412) by beachball)
@@ -695,7 +695,7 @@ Thu, 05 Oct 2023 15:25:29 GMT
 
 ## [9.0.0-beta.82](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.82)
 
-Wed, 04 Oct 2023 08:45:47 GMT 
+Wed, 04 Oct 2023 08:45:47 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.81..@fluentui/react-alert_v9.0.0-beta.82)
 
 ### Changes
@@ -708,7 +708,7 @@ Wed, 04 Oct 2023 08:45:47 GMT
 
 ## [9.0.0-beta.81](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.81)
 
-Mon, 02 Oct 2023 08:56:05 GMT 
+Mon, 02 Oct 2023 08:56:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.80..@fluentui/react-alert_v9.0.0-beta.81)
 
 ### Changes
@@ -719,12 +719,12 @@ Mon, 02 Oct 2023 08:56:05 GMT
 
 ## [9.0.0-beta.80](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.80)
 
-Tue, 26 Sep 2023 17:49:02 GMT 
+Tue, 26 Sep 2023 17:49:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.79..@fluentui/react-alert_v9.0.0-beta.80)
 
 ### Changes
 
-- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by yuanboxue@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by <yuanboxue@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.5.34 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-button to v9.3.43 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-tabster to v9.13.1 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
@@ -734,13 +734,13 @@ Tue, 26 Sep 2023 17:49:02 GMT
 
 ## [9.0.0-beta.79](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.79)
 
-Tue, 26 Sep 2023 15:32:05 GMT 
+Tue, 26 Sep 2023 15:32:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.78..@fluentui/react-alert_v9.0.0-beta.79)
 
 ### Changes
 
-- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by martinhochel@microsoft.com)
-- chore: Update react-icons version to pick up IconDirectionContextProvider updated export ([PR #29151](https://github.com/microsoft/fluentui/pull/29151) by ololubek@microsoft.com)
+- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by <martinhochel@microsoft.com>)
+- chore: Update react-icons version to pick up IconDirectionContextProvider updated export ([PR #29151](https://github.com/microsoft/fluentui/pull/29151) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.5.33 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-button to v9.3.42 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-tabster to v9.13.0 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
@@ -750,12 +750,12 @@ Tue, 26 Sep 2023 15:32:05 GMT
 
 ## [9.0.0-beta.78](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.78)
 
-Wed, 20 Sep 2023 17:47:34 GMT 
+Wed, 20 Sep 2023 17:47:34 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.77..@fluentui/react-alert_v9.0.0-beta.78)
 
 ### Changes
 
-- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by martinhochel@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.5.32 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-button to v9.3.41 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-tabster to v9.12.11 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
@@ -763,7 +763,7 @@ Wed, 20 Sep 2023 17:47:34 GMT
 
 ## [9.0.0-beta.77](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.77)
 
-Wed, 20 Sep 2023 14:59:53 GMT 
+Wed, 20 Sep 2023 14:59:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.76..@fluentui/react-alert_v9.0.0-beta.77)
 
 ### Changes
@@ -775,7 +775,7 @@ Wed, 20 Sep 2023 14:59:53 GMT
 
 ## [9.0.0-beta.76](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.76)
 
-Thu, 14 Sep 2023 16:44:47 GMT 
+Thu, 14 Sep 2023 16:44:47 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.75..@fluentui/react-alert_v9.0.0-beta.76)
 
 ### Changes
@@ -786,7 +786,7 @@ Thu, 14 Sep 2023 16:44:47 GMT
 
 ## [9.0.0-beta.75](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.75)
 
-Tue, 12 Sep 2023 08:51:34 GMT 
+Tue, 12 Sep 2023 08:51:34 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.74..@fluentui/react-alert_v9.0.0-beta.75)
 
 ### Changes
@@ -798,7 +798,7 @@ Tue, 12 Sep 2023 08:51:34 GMT
 
 ## [9.0.0-beta.74](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.74)
 
-Wed, 06 Sep 2023 13:31:31 GMT 
+Wed, 06 Sep 2023 13:31:31 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.73..@fluentui/react-alert_v9.0.0-beta.74)
 
 ### Changes
@@ -811,7 +811,7 @@ Wed, 06 Sep 2023 13:31:31 GMT
 
 ## [9.0.0-beta.73](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.73)
 
-Tue, 05 Sep 2023 15:39:04 GMT 
+Tue, 05 Sep 2023 15:39:04 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.72..@fluentui/react-alert_v9.0.0-beta.73)
 
 ### Changes
@@ -824,13 +824,13 @@ Tue, 05 Sep 2023 15:39:04 GMT
 
 ## [9.0.0-beta.72](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.72)
 
-Tue, 05 Sep 2023 13:29:14 GMT 
+Tue, 05 Sep 2023 13:29:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.71..@fluentui/react-alert_v9.0.0-beta.72)
 
 ### Changes
 
-- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by bernardo.sunderhus@gmail.com)
-- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by bernardo.sunderhus@gmail.com)
+- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by <bernardo.sunderhus@gmail.com>)
+- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.26 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-button to v9.3.35 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-tabster to v9.12.6 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
@@ -840,7 +840,7 @@ Tue, 05 Sep 2023 13:29:14 GMT
 
 ## [9.0.0-beta.71](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.71)
 
-Tue, 29 Aug 2023 12:57:36 GMT 
+Tue, 29 Aug 2023 12:57:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.70..@fluentui/react-alert_v9.0.0-beta.71)
 
 ### Changes
@@ -853,7 +853,7 @@ Tue, 29 Aug 2023 12:57:36 GMT
 
 ## [9.0.0-beta.70](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.70)
 
-Thu, 24 Aug 2023 10:26:35 GMT 
+Thu, 24 Aug 2023 10:26:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.69..@fluentui/react-alert_v9.0.0-beta.70)
 
 ### Changes
@@ -866,7 +866,7 @@ Thu, 24 Aug 2023 10:26:35 GMT
 
 ## [9.0.0-beta.69](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.69)
 
-Wed, 23 Aug 2023 12:01:49 GMT 
+Wed, 23 Aug 2023 12:01:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.68..@fluentui/react-alert_v9.0.0-beta.69)
 
 ### Changes
@@ -879,7 +879,7 @@ Wed, 23 Aug 2023 12:01:49 GMT
 
 ## [9.0.0-beta.68](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.68)
 
-Mon, 21 Aug 2023 11:38:03 GMT 
+Mon, 21 Aug 2023 11:38:03 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.67..@fluentui/react-alert_v9.0.0-beta.68)
 
 ### Changes
@@ -888,7 +888,7 @@ Mon, 21 Aug 2023 11:38:03 GMT
 
 ## [9.0.0-beta.67](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.67)
 
-Wed, 16 Aug 2023 17:41:08 GMT 
+Wed, 16 Aug 2023 17:41:08 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.66..@fluentui/react-alert_v9.0.0-beta.67)
 
 ### Changes
@@ -899,7 +899,7 @@ Wed, 16 Aug 2023 17:41:08 GMT
 
 ## [9.0.0-beta.66](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.66)
 
-Wed, 16 Aug 2023 11:38:33 GMT 
+Wed, 16 Aug 2023 11:38:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.65..@fluentui/react-alert_v9.0.0-beta.66)
 
 ### Changes
@@ -910,7 +910,7 @@ Wed, 16 Aug 2023 11:38:33 GMT
 
 ## [9.0.0-beta.65](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.65)
 
-Fri, 11 Aug 2023 12:14:26 GMT 
+Fri, 11 Aug 2023 12:14:26 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.64..@fluentui/react-alert_v9.0.0-beta.65)
 
 ### Changes
@@ -923,13 +923,13 @@ Fri, 11 Aug 2023 12:14:26 GMT
 
 ## [9.0.0-beta.64](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.64)
 
-Wed, 09 Aug 2023 13:16:49 GMT 
+Wed, 09 Aug 2023 13:16:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.63..@fluentui/react-alert_v9.0.0-beta.64)
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by olfedias@microsoft.com)
-- chore(teams-prg): migrate to new slot API ([PR #28751](https://github.com/microsoft/fluentui/pull/28751) by bernardo.sunderhus@gmail.com)
+- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by <olfedias@microsoft.com>)
+- chore(teams-prg): migrate to new slot API ([PR #28751](https://github.com/microsoft/fluentui/pull/28751) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.18 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-button to v9.3.28 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-tabster to v9.12.1 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
@@ -938,7 +938,7 @@ Wed, 09 Aug 2023 13:16:49 GMT
 
 ## [9.0.0-beta.63](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.63)
 
-Fri, 04 Aug 2023 08:52:58 GMT 
+Fri, 04 Aug 2023 08:52:58 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.62..@fluentui/react-alert_v9.0.0-beta.63)
 
 ### Changes
@@ -952,7 +952,7 @@ Fri, 04 Aug 2023 08:52:58 GMT
 
 ## [9.0.0-beta.62](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.62)
 
-Tue, 01 Aug 2023 10:17:21 GMT 
+Tue, 01 Aug 2023 10:17:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.61..@fluentui/react-alert_v9.0.0-beta.62)
 
 ### Changes
@@ -963,7 +963,7 @@ Tue, 01 Aug 2023 10:17:21 GMT
 
 ## [9.0.0-beta.61](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.61)
 
-Thu, 27 Jul 2023 10:34:14 GMT 
+Thu, 27 Jul 2023 10:34:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.60..@fluentui/react-alert_v9.0.0-beta.61)
 
 ### Changes
@@ -972,19 +972,19 @@ Thu, 27 Jul 2023 10:34:14 GMT
 
 ## [9.0.0-beta.60](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.60)
 
-Tue, 25 Jul 2023 13:29:16 GMT 
+Tue, 25 Jul 2023 13:29:16 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.59..@fluentui/react-alert_v9.0.0-beta.60)
 
 ### Changes
 
-- chore: Update react-icons version to pick up fowardref change. ([PR #28590](https://github.com/microsoft/fluentui/pull/28590) by ololubek@microsoft.com)
+- chore: Update react-icons version to pick up fowardref change. ([PR #28590](https://github.com/microsoft/fluentui/pull/28590) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.5.14 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
 - Bump @fluentui/react-button to v9.3.25 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
 - Bump @fluentui/react-tabster to v9.11.0 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
 
 ## [9.0.0-beta.59](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.59)
 
-Thu, 20 Jul 2023 18:27:25 GMT 
+Thu, 20 Jul 2023 18:27:25 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.58..@fluentui/react-alert_v9.0.0-beta.59)
 
 ### Changes
@@ -995,7 +995,7 @@ Thu, 20 Jul 2023 18:27:25 GMT
 
 ## [9.0.0-beta.58](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.58)
 
-Tue, 11 Jul 2023 18:46:36 GMT 
+Tue, 11 Jul 2023 18:46:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.57..@fluentui/react-alert_v9.0.0-beta.58)
 
 ### Changes
@@ -1007,7 +1007,7 @@ Tue, 11 Jul 2023 18:46:36 GMT
 
 ## [9.0.0-beta.57](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.57)
 
-Mon, 03 Jul 2023 13:34:28 GMT 
+Mon, 03 Jul 2023 13:34:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.56..@fluentui/react-alert_v9.0.0-beta.57)
 
 ### Changes
@@ -1018,7 +1018,7 @@ Mon, 03 Jul 2023 13:34:28 GMT
 
 ## [9.0.0-beta.56](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.56)
 
-Mon, 03 Jul 2023 11:57:14 GMT 
+Mon, 03 Jul 2023 11:57:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.55..@fluentui/react-alert_v9.0.0-beta.56)
 
 ### Changes
@@ -1031,7 +1031,7 @@ Mon, 03 Jul 2023 11:57:14 GMT
 
 ## [9.0.0-beta.55](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.55)
 
-Wed, 28 Jun 2023 11:12:22 GMT 
+Wed, 28 Jun 2023 11:12:22 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.54..@fluentui/react-alert_v9.0.0-beta.55)
 
 ### Changes
@@ -1044,7 +1044,7 @@ Wed, 28 Jun 2023 11:12:22 GMT
 
 ## [9.0.0-beta.54](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.54)
 
-Tue, 27 Jun 2023 11:21:23 GMT 
+Tue, 27 Jun 2023 11:21:23 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.53..@fluentui/react-alert_v9.0.0-beta.54)
 
 ### Changes
@@ -1055,7 +1055,7 @@ Tue, 27 Jun 2023 11:21:23 GMT
 
 ## [9.0.0-beta.53](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.53)
 
-Mon, 26 Jun 2023 09:53:55 GMT 
+Mon, 26 Jun 2023 09:53:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.52..@fluentui/react-alert_v9.0.0-beta.53)
 
 ### Changes
@@ -1068,12 +1068,12 @@ Mon, 26 Jun 2023 09:53:55 GMT
 
 ## [9.0.0-beta.52](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.52)
 
-Tue, 20 Jun 2023 12:38:54 GMT 
+Tue, 20 Jun 2023 12:38:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.51..@fluentui/react-alert_v9.0.0-beta.52)
 
 ### Changes
 
-- chore: update @fluentui/react-icons to 2.0.203 ([PR #28203](https://github.com/microsoft/fluentui/pull/28203) by ololubek@microsoft.com)
+- chore: update @fluentui/react-icons to 2.0.203 ([PR #28203](https://github.com/microsoft/fluentui/pull/28203) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.5.6 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
 - Bump @fluentui/react-button to v9.3.17 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
 - Bump @fluentui/react-tabster to v9.8.0 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
@@ -1084,12 +1084,12 @@ Tue, 20 Jun 2023 12:38:54 GMT
 
 ## [9.0.0-beta.51](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.51)
 
-Wed, 31 May 2023 06:46:09 GMT 
+Wed, 31 May 2023 06:46:09 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.50..@fluentui/react-alert_v9.0.0-beta.51)
 
 ### Changes
 
-- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by seanmonahan@microsoft.com)
+- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.5.5 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-button to v9.3.16 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-tabster to v9.7.5 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
@@ -1099,7 +1099,7 @@ Wed, 31 May 2023 06:46:09 GMT
 
 ## [9.0.0-beta.50](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.50)
 
-Thu, 25 May 2023 10:00:48 GMT 
+Thu, 25 May 2023 10:00:48 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.49..@fluentui/react-alert_v9.0.0-beta.50)
 
 ### Changes
@@ -1112,7 +1112,7 @@ Thu, 25 May 2023 10:00:48 GMT
 
 ## [9.0.0-beta.49](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.49)
 
-Wed, 24 May 2023 20:45:23 GMT 
+Wed, 24 May 2023 20:45:23 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.48..@fluentui/react-alert_v9.0.0-beta.49)
 
 ### Changes
@@ -1123,7 +1123,7 @@ Wed, 24 May 2023 20:45:23 GMT
 
 ## [9.0.0-beta.48](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.48)
 
-Thu, 18 May 2023 13:11:08 GMT 
+Thu, 18 May 2023 13:11:08 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.47..@fluentui/react-alert_v9.0.0-beta.48)
 
 ### Changes
@@ -1134,7 +1134,7 @@ Thu, 18 May 2023 13:11:08 GMT
 
 ## [9.0.0-beta.47](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.47)
 
-Thu, 18 May 2023 00:39:01 GMT 
+Thu, 18 May 2023 00:39:01 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.46..@fluentui/react-alert_v9.0.0-beta.47)
 
 ### Changes
@@ -1147,13 +1147,13 @@ Thu, 18 May 2023 00:39:01 GMT
 
 ## [9.0.0-beta.46](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.46)
 
-Fri, 12 May 2023 20:28:12 GMT 
+Fri, 12 May 2023 20:28:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.45..@fluentui/react-alert_v9.0.0-beta.46)
 
 ### Changes
 
-- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by olfedias@microsoft.com)
-- chore: move makeStyles() calls to .styles.ts files ([PR #27698](https://github.com/microsoft/fluentui/pull/27698) by olfedias@microsoft.com)
+- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by <olfedias@microsoft.com>)
+- chore: move makeStyles() calls to .styles.ts files ([PR #27698](https://github.com/microsoft/fluentui/pull/27698) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.5.0 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-button to v9.3.11 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-tabster to v9.7.0 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
@@ -1164,24 +1164,24 @@ Fri, 12 May 2023 20:28:12 GMT
 
 ## [9.0.0-beta.45](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.45)
 
-Mon, 24 Apr 2023 08:12:31 GMT 
+Mon, 24 Apr 2023 08:12:31 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.44..@fluentui/react-alert_v9.0.0-beta.45)
 
 ### Changes
 
-- bugfix: remove caret from react-jsx-runtime prerelease dependency ([PR #27588](https://github.com/microsoft/fluentui/pull/27588) by bernardo.sunderhus@gmail.com)
+- bugfix: remove caret from react-jsx-runtime prerelease dependency ([PR #27588](https://github.com/microsoft/fluentui/pull/27588) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.4.10 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
 - Bump @fluentui/react-button to v9.3.10 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.2 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
 
 ## [9.0.0-beta.44](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.44)
 
-Mon, 17 Apr 2023 17:53:44 GMT 
+Mon, 17 Apr 2023 17:53:44 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.43..@fluentui/react-alert_v9.0.0-beta.44)
 
 ### Changes
 
-- chore: adopt custom JSX pragma ([PR #27550](https://github.com/microsoft/fluentui/pull/27550) by bernardo.sunderhus@gmail.com)
+- chore: adopt custom JSX pragma ([PR #27550](https://github.com/microsoft/fluentui/pull/27550) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.4.9 ([PR #27564](https://github.com/microsoft/fluentui/pull/27564) by beachball)
 - Bump @fluentui/react-button to v9.3.9 ([PR #27564](https://github.com/microsoft/fluentui/pull/27564) by beachball)
 - Bump @fluentui/react-tabster to v9.6.5 ([PR #27564](https://github.com/microsoft/fluentui/pull/27564) by beachball)
@@ -1190,7 +1190,7 @@ Mon, 17 Apr 2023 17:53:44 GMT
 
 ## [9.0.0-beta.43](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.43)
 
-Wed, 12 Apr 2023 09:31:45 GMT 
+Wed, 12 Apr 2023 09:31:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.42..@fluentui/react-alert_v9.0.0-beta.43)
 
 ### Changes
@@ -1202,7 +1202,7 @@ Wed, 12 Apr 2023 09:31:45 GMT
 
 ## [9.0.0-beta.42](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.42)
 
-Tue, 04 Apr 2023 18:44:50 GMT 
+Tue, 04 Apr 2023 18:44:50 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.41..@fluentui/react-alert_v9.0.0-beta.42)
 
 ### Changes
@@ -1214,14 +1214,14 @@ Tue, 04 Apr 2023 18:44:50 GMT
 
 ## [9.0.0-beta.41](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.41)
 
-Tue, 21 Mar 2023 21:23:21 GMT 
+Tue, 21 Mar 2023 21:23:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.40..@fluentui/react-alert_v9.0.0-beta.41)
 
 ### Changes
 
-- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by tristan.watanabe@gmail.com)
-- chore: Bumping version of @fluentui/react-icons to ^2.0.196. ([PR #27100](https://github.com/microsoft/fluentui/pull/27100) by makotom@microsoft.com)
-- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by tristan.watanabe@gmail.com)
+- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by <tristan.watanabe@gmail.com>)
+- chore: Bumping version of @fluentui/react-icons to ^2.0.196. ([PR #27100](https://github.com/microsoft/fluentui/pull/27100) by <makotom@microsoft.com>)
+- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by <tristan.watanabe@gmail.com>)
 - Bump @fluentui/react-avatar to v9.4.5 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-button to v9.3.5 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-tabster to v9.6.1 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
@@ -1231,7 +1231,7 @@ Tue, 21 Mar 2023 21:23:21 GMT
 
 ## [9.0.0-beta.40](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.40)
 
-Thu, 16 Mar 2023 14:36:59 GMT 
+Thu, 16 Mar 2023 14:36:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.39..@fluentui/react-alert_v9.0.0-beta.40)
 
 ### Changes
@@ -1243,7 +1243,7 @@ Thu, 16 Mar 2023 14:36:59 GMT
 
 ## [9.0.0-beta.39](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.39)
 
-Wed, 15 Mar 2023 10:19:53 GMT 
+Wed, 15 Mar 2023 10:19:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.38..@fluentui/react-alert_v9.0.0-beta.39)
 
 ### Changes
@@ -1255,7 +1255,7 @@ Wed, 15 Mar 2023 10:19:53 GMT
 
 ## [9.0.0-beta.38](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.38)
 
-Mon, 13 Mar 2023 08:58:26 GMT 
+Mon, 13 Mar 2023 08:58:26 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.37..@fluentui/react-alert_v9.0.0-beta.38)
 
 ### Changes
@@ -1267,7 +1267,7 @@ Mon, 13 Mar 2023 08:58:26 GMT
 
 ## [9.0.0-beta.37](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.37)
 
-Fri, 10 Mar 2023 07:14:01 GMT 
+Fri, 10 Mar 2023 07:14:01 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.36..@fluentui/react-alert_v9.0.0-beta.37)
 
 ### Changes
@@ -1279,7 +1279,7 @@ Fri, 10 Mar 2023 07:14:01 GMT
 
 ## [9.0.0-beta.36](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.36)
 
-Wed, 08 Mar 2023 17:42:51 GMT 
+Wed, 08 Mar 2023 17:42:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.35..@fluentui/react-alert_v9.0.0-beta.36)
 
 ### Changes
@@ -1291,7 +1291,7 @@ Wed, 08 Mar 2023 17:42:51 GMT
 
 ## [9.0.0-beta.35](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.35)
 
-Wed, 22 Feb 2023 23:06:07 GMT 
+Wed, 22 Feb 2023 23:06:07 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.34..@fluentui/react-alert_v9.0.0-beta.35)
 
 ### Changes
@@ -1300,7 +1300,7 @@ Wed, 22 Feb 2023 23:06:07 GMT
 
 ## [9.0.0-beta.34](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.34)
 
-Wed, 15 Feb 2023 11:44:52 GMT 
+Wed, 15 Feb 2023 11:44:52 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.33..@fluentui/react-alert_v9.0.0-beta.34)
 
 ### Changes
@@ -1312,7 +1312,7 @@ Wed, 15 Feb 2023 11:44:52 GMT
 
 ## [9.0.0-beta.33](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.33)
 
-Mon, 13 Feb 2023 23:43:14 GMT 
+Mon, 13 Feb 2023 23:43:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.32..@fluentui/react-alert_v9.0.0-beta.33)
 
 ### Changes
@@ -1324,7 +1324,7 @@ Mon, 13 Feb 2023 23:43:14 GMT
 
 ## [9.0.0-beta.32](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.32)
 
-Mon, 13 Feb 2023 09:35:48 GMT 
+Mon, 13 Feb 2023 09:35:48 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.31..@fluentui/react-alert_v9.0.0-beta.32)
 
 ### Changes
@@ -1333,7 +1333,7 @@ Mon, 13 Feb 2023 09:35:48 GMT
 
 ## [9.0.0-beta.31](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.31)
 
-Fri, 10 Feb 2023 08:50:02 GMT 
+Fri, 10 Feb 2023 08:50:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.30..@fluentui/react-alert_v9.0.0-beta.31)
 
 ### Changes
@@ -1345,7 +1345,7 @@ Fri, 10 Feb 2023 08:50:02 GMT
 
 ## [9.0.0-beta.30](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.30)
 
-Tue, 07 Feb 2023 14:13:10 GMT 
+Tue, 07 Feb 2023 14:13:10 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.29..@fluentui/react-alert_v9.0.0-beta.30)
 
 ### Changes
@@ -1356,7 +1356,7 @@ Tue, 07 Feb 2023 14:13:10 GMT
 
 ## [9.0.0-beta.29](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.29)
 
-Tue, 31 Jan 2023 19:53:58 GMT 
+Tue, 31 Jan 2023 19:53:58 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.28..@fluentui/react-alert_v9.0.0-beta.29)
 
 ### Changes
@@ -1368,7 +1368,7 @@ Tue, 31 Jan 2023 19:53:58 GMT
 
 ## [9.0.0-beta.28](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.28)
 
-Thu, 26 Jan 2023 13:31:03 GMT 
+Thu, 26 Jan 2023 13:31:03 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.27..@fluentui/react-alert_v9.0.0-beta.28)
 
 ### Changes
@@ -1380,7 +1380,7 @@ Thu, 26 Jan 2023 13:31:03 GMT
 
 ## [9.0.0-beta.27](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.27)
 
-Mon, 23 Jan 2023 16:43:12 GMT 
+Mon, 23 Jan 2023 16:43:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.26..@fluentui/react-alert_v9.0.0-beta.27)
 
 ### Changes
@@ -1389,7 +1389,7 @@ Mon, 23 Jan 2023 16:43:12 GMT
 
 ## [9.0.0-beta.26](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.26)
 
-Wed, 18 Jan 2023 16:32:57 GMT 
+Wed, 18 Jan 2023 16:32:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.25..@fluentui/react-alert_v9.0.0-beta.26)
 
 ### Changes
@@ -1400,7 +1400,7 @@ Wed, 18 Jan 2023 16:32:57 GMT
 
 ## [9.0.0-beta.25](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.25)
 
-Tue, 17 Jan 2023 12:22:56 GMT 
+Tue, 17 Jan 2023 12:22:56 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.24..@fluentui/react-alert_v9.0.0-beta.25)
 
 ### Changes
@@ -1409,7 +1409,7 @@ Tue, 17 Jan 2023 12:22:56 GMT
 
 ## [9.0.0-beta.24](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.24)
 
-Mon, 16 Jan 2023 08:38:54 GMT 
+Mon, 16 Jan 2023 08:38:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.23..@fluentui/react-alert_v9.0.0-beta.24)
 
 ### Changes
@@ -1420,7 +1420,7 @@ Mon, 16 Jan 2023 08:38:54 GMT
 
 ## [9.0.0-beta.23](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.23)
 
-Mon, 09 Jan 2023 14:35:02 GMT 
+Mon, 09 Jan 2023 14:35:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.22..@fluentui/react-alert_v9.0.0-beta.23)
 
 ### Changes
@@ -1432,12 +1432,12 @@ Mon, 09 Jan 2023 14:35:02 GMT
 
 ## [9.0.0-beta.22](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.22)
 
-Wed, 04 Jan 2023 01:40:49 GMT 
+Wed, 04 Jan 2023 01:40:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.21..@fluentui/react-alert_v9.0.0-beta.22)
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #26045](https://github.com/microsoft/fluentui/pull/26045) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #26045](https://github.com/microsoft/fluentui/pull/26045) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.2.11 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
 - Bump @fluentui/react-button to v9.1.13 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
 - Bump @fluentui/react-tabster to v9.3.5 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
@@ -1446,7 +1446,7 @@ Wed, 04 Jan 2023 01:40:49 GMT
 
 ## [9.0.0-beta.21](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.21)
 
-Wed, 21 Dec 2022 10:20:33 GMT 
+Wed, 21 Dec 2022 10:20:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.20..@fluentui/react-alert_v9.0.0-beta.21)
 
 ### Changes
@@ -1458,12 +1458,12 @@ Wed, 21 Dec 2022 10:20:33 GMT
 
 ## [9.0.0-beta.20](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.20)
 
-Tue, 20 Dec 2022 14:59:21 GMT 
+Tue, 20 Dec 2022 14:59:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.19..@fluentui/react-alert_v9.0.0-beta.20)
 
 ### Changes
 
-- fix: update tokens to match the spec ([PR #25855](https://github.com/microsoft/fluentui/pull/25855) by marigome@microsoft.com)
+- fix: update tokens to match the spec ([PR #25855](https://github.com/microsoft/fluentui/pull/25855) by <marigome@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.2.9 ([PR #26047](https://github.com/microsoft/fluentui/pull/26047) by beachball)
 - Bump @fluentui/react-button to v9.1.11 ([PR #26047](https://github.com/microsoft/fluentui/pull/26047) by beachball)
 - Bump @fluentui/react-tabster to v9.3.3 ([PR #26047](https://github.com/microsoft/fluentui/pull/26047) by beachball)
@@ -1472,7 +1472,7 @@ Tue, 20 Dec 2022 14:59:21 GMT
 
 ## [9.0.0-beta.19](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.19)
 
-Mon, 05 Dec 2022 18:29:39 GMT 
+Mon, 05 Dec 2022 18:29:39 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.18..@fluentui/react-alert_v9.0.0-beta.19)
 
 ### Changes
@@ -1483,7 +1483,7 @@ Mon, 05 Dec 2022 18:29:39 GMT
 
 ## [9.0.0-beta.18](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.18)
 
-Thu, 17 Nov 2022 23:05:33 GMT 
+Thu, 17 Nov 2022 23:05:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.17..@fluentui/react-alert_v9.0.0-beta.18)
 
 ### Changes
@@ -1494,7 +1494,7 @@ Thu, 17 Nov 2022 23:05:33 GMT
 
 ## [9.0.0-beta.17](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.17)
 
-Fri, 11 Nov 2022 14:57:51 GMT 
+Fri, 11 Nov 2022 14:57:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.16..@fluentui/react-alert_v9.0.0-beta.17)
 
 ### Changes
@@ -1507,12 +1507,12 @@ Fri, 11 Nov 2022 14:57:51 GMT
 
 ## [9.0.0-beta.16](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.16)
 
-Wed, 02 Nov 2022 11:57:47 GMT 
+Wed, 02 Nov 2022 11:57:47 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.15..@fluentui/react-alert_v9.0.0-beta.16)
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #25412](https://github.com/microsoft/fluentui/pull/25412) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25412](https://github.com/microsoft/fluentui/pull/25412) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.2.5 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 - Bump @fluentui/react-button to v9.1.7 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 - Bump @fluentui/react-utilities to v9.2.0 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
@@ -1520,7 +1520,7 @@ Wed, 02 Nov 2022 11:57:47 GMT
 
 ## [9.0.0-beta.15](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.15)
 
-Tue, 25 Oct 2022 00:35:27 GMT 
+Tue, 25 Oct 2022 00:35:27 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.14..@fluentui/react-alert_v9.0.0-beta.15)
 
 ### Changes
@@ -1530,14 +1530,14 @@ Tue, 25 Oct 2022 00:35:27 GMT
 
 ## [9.0.0-beta.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.14)
 
-Thu, 20 Oct 2022 08:39:57 GMT 
+Thu, 20 Oct 2022 08:39:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.13..@fluentui/react-alert_v9.0.0-beta.14)
 
 ### Changes
 
-- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by mgodbolt@microsoft.com)
-- chore: Migrate to new package structure. ([PR #25197](https://github.com/microsoft/fluentui/pull/25197) by tristan.watanabe@gmail.com)
-- chore: Update Griffel to latest version ([PR #25212](https://github.com/microsoft/fluentui/pull/25212) by olfedias@microsoft.com)
+- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by <mgodbolt@microsoft.com>)
+- chore: Migrate to new package structure. ([PR #25197](https://github.com/microsoft/fluentui/pull/25197) by <tristan.watanabe@gmail.com>)
+- chore: Update Griffel to latest version ([PR #25212](https://github.com/microsoft/fluentui/pull/25212) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.2.3 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 - Bump @fluentui/react-button to v9.1.5 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 - Bump @fluentui/react-theme to v9.1.1 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
@@ -1546,7 +1546,7 @@ Thu, 20 Oct 2022 08:39:57 GMT
 
 ## [9.0.0-beta.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.13)
 
-Thu, 13 Oct 2022 12:56:30 GMT 
+Thu, 13 Oct 2022 12:56:30 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.12..@fluentui/react-alert_v9.0.0-beta.13)
 
 ### Changes
@@ -1555,12 +1555,12 @@ Thu, 13 Oct 2022 12:56:30 GMT
 
 ## [9.0.0-beta.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.12)
 
-Thu, 13 Oct 2022 11:02:42 GMT 
+Thu, 13 Oct 2022 11:02:42 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.11..@fluentui/react-alert_v9.0.0-beta.12)
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #25075](https://github.com/microsoft/fluentui/pull/25075) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25075](https://github.com/microsoft/fluentui/pull/25075) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.2.1 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
 - Bump @fluentui/react-button to v9.1.4 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
 - Bump @fluentui/react-utilities to v9.1.1 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
@@ -1568,7 +1568,7 @@ Thu, 13 Oct 2022 11:02:42 GMT
 
 ## [9.0.0-beta.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.11)
 
-Mon, 03 Oct 2022 22:24:42 GMT 
+Mon, 03 Oct 2022 22:24:42 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.10..@fluentui/react-alert_v9.0.0-beta.11)
 
 ### Changes
@@ -1578,7 +1578,7 @@ Mon, 03 Oct 2022 22:24:42 GMT
 
 ## [9.0.0-beta.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.10)
 
-Tue, 20 Sep 2022 20:55:45 GMT 
+Tue, 20 Sep 2022 20:55:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.9..@fluentui/react-alert_v9.0.0-beta.10)
 
 ### Changes
@@ -1589,12 +1589,12 @@ Tue, 20 Sep 2022 20:55:45 GMT
 
 ## [9.0.0-beta.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.9)
 
-Thu, 15 Sep 2022 09:49:47 GMT 
+Thu, 15 Sep 2022 09:49:47 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.8..@fluentui/react-alert_v9.0.0-beta.9)
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #24221](https://github.com/microsoft/fluentui/pull/24221) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #24221](https://github.com/microsoft/fluentui/pull/24221) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.1.0 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 - Bump @fluentui/react-button to v9.1.1 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 - Bump @fluentui/react-theme to v9.1.0 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
@@ -1603,38 +1603,38 @@ Thu, 15 Sep 2022 09:49:47 GMT
 
 ## [9.0.0-beta.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.8)
 
-Wed, 03 Aug 2022 16:03:36 GMT 
+Wed, 03 Aug 2022 16:03:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.7..@fluentui/react-alert_v9.0.0-beta.8)
 
 ### Changes
 
-- chore: Bump Griffel dependencies ([PR #24114](https://github.com/microsoft/fluentui/pull/24114) by miroslav.stastny@microsoft.com)
+- chore: Bump Griffel dependencies ([PR #24114](https://github.com/microsoft/fluentui/pull/24114) by <miroslav.stastny@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.0.4 ([PR #24131](https://github.com/microsoft/fluentui/pull/24131) by beachball)
 - Bump @fluentui/react-button to v9.1.0 ([PR #24131](https://github.com/microsoft/fluentui/pull/24131) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.12 ([PR #24131](https://github.com/microsoft/fluentui/pull/24131) by beachball)
 
 ## [9.0.0-beta.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.7)
 
-Thu, 14 Jul 2022 21:21:08 GMT 
+Thu, 14 Jul 2022 21:21:08 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.6..@fluentui/react-alert_v9.0.0-beta.7)
 
 ### Changes
 
-- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by Humberto.Morimoto@microsoft.com)
+- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by <Humberto.Morimoto@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.0.3 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 - Bump @fluentui/react-button to v9.0.3 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 - Bump @fluentui/react-utilities to v9.0.2 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 
 ## [9.0.0-beta.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.6)
 
-Thu, 14 Jul 2022 17:06:12 GMT 
+Thu, 14 Jul 2022 17:06:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.5..@fluentui/react-alert_v9.0.0-beta.6)
 
 ### Changes
 
-- chore: Update @fluentui/react-icons dependency to v2.0.175 ([PR #23812](https://github.com/microsoft/fluentui/pull/23812) by ololubek@microsoft.com)
-- update Alert with live region attributes ([PR #23284](https://github.com/microsoft/fluentui/pull/23284) by sarah.higley@microsoft.com)
-- feat: Adding avatar slot support to Alert ([PR #23591](https://github.com/microsoft/fluentui/pull/23591) by rohitpag@microsoft.com)
+- chore: Update @fluentui/react-icons dependency to v2.0.175 ([PR #23812](https://github.com/microsoft/fluentui/pull/23812) by <ololubek@microsoft.com>)
+- update Alert with live region attributes ([PR #23284](https://github.com/microsoft/fluentui/pull/23284) by <sarah.higley@microsoft.com>)
+- feat: Adding avatar slot support to Alert ([PR #23591](https://github.com/microsoft/fluentui/pull/23591) by <rohitpag@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.0.2 ([PR #23897](https://github.com/microsoft/fluentui/pull/23897) by beachball)
 - Bump @fluentui/react-button to v9.0.2 ([PR #23897](https://github.com/microsoft/fluentui/pull/23897) by beachball)
 - Bump @fluentui/react-utilities to v9.0.1-0 ([PR #23897](https://github.com/microsoft/fluentui/pull/23897) by beachball)
@@ -1642,25 +1642,25 @@ Thu, 14 Jul 2022 17:06:12 GMT
 
 ## [9.0.0-beta.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.5)
 
-Tue, 28 Jun 2022 17:39:46 GMT 
+Tue, 28 Jun 2022 17:39:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.4..@fluentui/react-alert_v9.0.0-beta.5)
 
 ### Changes
 
-- fix: Use caret dependency range for Griffel ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by lingfangao@hotmail.com)
+- fix: Use caret dependency range for Griffel ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-button to v9.0.1 ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.10 ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by beachball)
 
 ## [9.0.0-beta.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.4)
 
-Tue, 28 Jun 2022 15:14:12 GMT 
+Tue, 28 Jun 2022 15:14:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.3..@fluentui/react-alert_v9.0.0-beta.4)
 
 ### Changes
 
-- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by lingfangao@hotmail.com)
-- Bump Griffel dependencies ([PR #23688](https://github.com/microsoft/fluentui/pull/23688) by lingfangao@hotmail.com)
-- chore: Update @fluentui/react-icons to latest version ([PR #23459](https://github.com/microsoft/fluentui/pull/23459) by olfedias@microsoft.com)
+- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by <lingfangao@hotmail.com>)
+- Bump Griffel dependencies ([PR #23688](https://github.com/microsoft/fluentui/pull/23688) by <lingfangao@hotmail.com>)
+- chore: Update @fluentui/react-icons to latest version ([PR #23459](https://github.com/microsoft/fluentui/pull/23459) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-button to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-theme to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
@@ -1668,7 +1668,7 @@ Tue, 28 Jun 2022 15:14:12 GMT
 
 ## [9.0.0-beta.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.3)
 
-Thu, 23 Jun 2022 14:25:31 GMT 
+Thu, 23 Jun 2022 14:25:31 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.2..@fluentui/react-alert_v9.0.0-beta.3)
 
 ### Changes
@@ -1678,29 +1678,29 @@ Thu, 23 Jun 2022 14:25:31 GMT
 
 ## [9.0.0-beta.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.2)
 
-Tue, 31 May 2022 21:28:35 GMT 
+Tue, 31 May 2022 21:28:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-beta.1..@fluentui/react-alert_v9.0.0-beta.2)
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #23275](https://github.com/microsoft/fluentui/pull/23275) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #23275](https://github.com/microsoft/fluentui/pull/23275) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-button to v9.0.0-rc.13 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.10 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.8 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 
 ## [9.0.0-beta.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-beta.1)
 
-Thu, 26 May 2022 21:01:22 GMT 
+Thu, 26 May 2022 21:01:22 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-alpha.0..@fluentui/react-alert_v9.0.0-beta.1)
 
 ### Changes
 
-- Publish react-alert as unstable component ([PR #23198](https://github.com/microsoft/fluentui/pull/23198) by rohitpag@microsoft.com)
+- Publish react-alert as unstable component ([PR #23198](https://github.com/microsoft/fluentui/pull/23198) by <rohitpag@microsoft.com>)
 - Bump @fluentui/react-button to v9.0.0-rc.12 ([PR #23267](https://github.com/microsoft/fluentui/pull/23267) by beachball)
 
 ## [9.0.0-alpha.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-alpha.0)
 
-Mon, 23 May 2022 18:56:51 GMT 
+Mon, 23 May 2022 18:56:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-alpha.0..@fluentui/react-alert_v9.0.0-alpha.0)
 
 ### Changes
@@ -1711,7 +1711,7 @@ Mon, 23 May 2022 18:56:51 GMT
 
 ## [9.0.0-alpha.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-alpha.0)
 
-Mon, 23 May 2022 12:14:24 GMT 
+Mon, 23 May 2022 12:14:24 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-alpha.0..@fluentui/react-alert_v9.0.0-alpha.0)
 
 ### Changes
@@ -1723,7 +1723,7 @@ Mon, 23 May 2022 12:14:24 GMT
 
 ## [9.0.0-alpha.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-alert_v9.0.0-alpha.0)
 
-Thu, 05 May 2022 18:26:30 GMT 
+Thu, 05 May 2022 18:26:30 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-alert_v9.0.0-alpha.0..@fluentui/react-alert_v9.0.0-alpha.0)
 
 ### Changes

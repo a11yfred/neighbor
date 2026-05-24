@@ -69,6 +69,9 @@ All rules run on React, Vue, and Angular unless noted.
 | `no-empty-table-header` | `<th>` or `role="columnheader"/"rowheader"` with no accessible text or `aria-label` | [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
 | `prefer-aria-disabled` | HTML `disabled` removes element from tab order; `aria-disabled` keeps it discoverable | Roselli: Don't Disable Form Controls  -  [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
 | `no-disabled-and-aria-disabled` | Element has both `disabled` and `aria-disabled`  -  causes conflicting states in assistive tech | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
+| `no-toggle-without-checked` | `role="switch"`, `checkbox`, or `radio` without `aria-checked` | [APG: Checkbox](https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/) |
+| `no-aria-hidden-on-main` | `aria-hidden="true"` on `<body>`, `<main>`, or `role="main"`  -  hides entire app from AT | [APG](https://www.w3.org/WAI/ARIA/apg/) |
+| `no-meter-without-valuenow` | `role="meter"` missing `aria-valuenow` | [APG: Meter](https://www.w3.org/WAI/ARIA/apg/patterns/meter/) |
 
 ### Warnings  -  on by default
 
@@ -77,6 +80,11 @@ All rules run on React, Vue, and Angular unless noted.
 | `no-tooltip-role-misuse` | `role="tooltip"` without an `id`; or `role="tooltip"` on an interactive element | [APG: Tooltip Pattern](https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/)  -  [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 | `no-menu-role-on-nav` | Menu/menubar/menuitem roles  -  triggers AT application-mode keyboard handling; especially wrong on `<nav>` | Roselli / Lauke / Groves  -  [SC 2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard) |
 | `no-button-type-missing` | `<button>` inside a `<form>` without an explicit `type`  -  defaults to `type="submit"` | [HTML spec §4.10.18](https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element) |
+| `no-skipped-heading-levels` | Skipping heading levels (e.g. `<h1>` to `<h3>`) | [Axe: heading-order](https://dequeuniversity.com/rules/axe/4.8/heading-order)  -  [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
+| `no-multiple-main` | More than one `<main>` or `role="main"` element in the file | [Axe: landmark-one-main](https://dequeuniversity.com/rules/axe/4.8/landmark-one-main) |
+| `no-expanded-without-controls` | `aria-expanded` without `aria-controls` pointing to the expanded container | [APG: Disclosure](https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/) |
+
+> **Note on component boundaries:** `no-skipped-heading-levels` and `no-multiple-main` are evaluated *per file*. They cannot guarantee headings are sequential across parent/child components, or that a single `<main>` isn't duplicated in other files. For full DOM validation, use a runtime tool like `@axe-core/react`.
 
 ### Off by default  -  opt in
 

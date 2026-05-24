@@ -6,7 +6,7 @@ This log was last generated on Thu, 23 Apr 2026 11:59:23 GMT and should not be m
 
 ## [9.4.20](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.20)
 
-Thu, 23 Apr 2026 11:59:23 GMT 
+Thu, 23 Apr 2026 11:59:23 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.19..@fluentui/react-infolabel_v9.4.20)
 
 ### Patches
@@ -19,7 +19,7 @@ Thu, 23 Apr 2026 11:59:23 GMT
 
 ## [9.4.19](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.19)
 
-Wed, 01 Apr 2026 15:52:43 GMT 
+Wed, 01 Apr 2026 15:52:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.18..@fluentui/react-infolabel_v9.4.19)
 
 ### Patches
@@ -28,7 +28,7 @@ Wed, 01 Apr 2026 15:52:43 GMT
 
 ## [9.4.18](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.18)
 
-Mon, 30 Mar 2026 14:37:41 GMT 
+Mon, 30 Mar 2026 14:37:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.17..@fluentui/react-infolabel_v9.4.18)
 
 ### Patches
@@ -37,7 +37,7 @@ Mon, 30 Mar 2026 14:37:41 GMT
 
 ## [9.4.17](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.17)
 
-Tue, 03 Mar 2026 09:43:43 GMT 
+Tue, 03 Mar 2026 09:43:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.16..@fluentui/react-infolabel_v9.4.17)
 
 ### Patches
@@ -46,7 +46,7 @@ Tue, 03 Mar 2026 09:43:43 GMT
 
 ## [9.4.16](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.16)
 
-Wed, 25 Feb 2026 13:32:28 GMT 
+Wed, 25 Feb 2026 13:32:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.15..@fluentui/react-infolabel_v9.4.16)
 
 ### Patches
@@ -60,7 +60,7 @@ Wed, 25 Feb 2026 13:32:28 GMT
 
 ## [9.4.15](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.15)
 
-Thu, 12 Feb 2026 10:46:15 GMT 
+Thu, 12 Feb 2026 10:46:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.14..@fluentui/react-infolabel_v9.4.15)
 
 ### Patches
@@ -71,7 +71,7 @@ Thu, 12 Feb 2026 10:46:15 GMT
 
 ## [9.4.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.14)
 
-Thu, 22 Jan 2026 17:06:55 GMT 
+Thu, 22 Jan 2026 17:06:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.13..@fluentui/react-infolabel_v9.4.14)
 
 ### Patches
@@ -86,7 +86,7 @@ Thu, 22 Jan 2026 17:06:55 GMT
 
 ## [9.4.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.13)
 
-Wed, 17 Dec 2025 18:10:11 GMT 
+Wed, 17 Dec 2025 18:10:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.12..@fluentui/react-infolabel_v9.4.13)
 
 ### Patches
@@ -99,12 +99,12 @@ Wed, 17 Dec 2025 18:10:11 GMT
 
 ## [9.4.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.12)
 
-Tue, 11 Nov 2025 19:18:23 GMT 
+Tue, 11 Nov 2025 19:18:23 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.11..@fluentui/react-infolabel_v9.4.12)
 
 ### Patches
 
-- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by estebanmu@microsoft.com)
+- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by <estebanmu@microsoft.com>)
 - Bump @fluentui/react-shared-contexts to v9.26.0 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-label to v9.3.11 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-popover to v9.12.12 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
@@ -114,7 +114,7 @@ Tue, 11 Nov 2025 19:18:23 GMT
 
 ## [9.4.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.11)
 
-Thu, 06 Nov 2025 15:01:25 GMT 
+Thu, 06 Nov 2025 15:01:25 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.10..@fluentui/react-infolabel_v9.4.11)
 
 ### Patches
@@ -127,7 +127,7 @@ Thu, 06 Nov 2025 15:01:25 GMT
 
 ## [9.4.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.10)
 
-Fri, 31 Oct 2025 16:22:06 GMT 
+Fri, 31 Oct 2025 16:22:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.9..@fluentui/react-infolabel_v9.4.10)
 
 ### Patches
@@ -140,7 +140,7 @@ Fri, 31 Oct 2025 16:22:06 GMT
 
 ## [9.4.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.9)
 
-Tue, 21 Oct 2025 14:16:59 GMT 
+Tue, 21 Oct 2025 14:16:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.8..@fluentui/react-infolabel_v9.4.9)
 
 ### Patches
@@ -151,7 +151,7 @@ Tue, 21 Oct 2025 14:16:59 GMT
 
 ## [9.4.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.8)
 
-Wed, 08 Oct 2025 12:04:53 GMT 
+Wed, 08 Oct 2025 12:04:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.7..@fluentui/react-infolabel_v9.4.8)
 
 ### Patches
@@ -164,12 +164,12 @@ Wed, 08 Oct 2025 12:04:53 GMT
 
 ## [9.4.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.7)
 
-Thu, 02 Oct 2025 15:12:21 GMT 
+Thu, 02 Oct 2025 15:12:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.6..@fluentui/react-infolabel_v9.4.7)
 
 ### Patches
 
-- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by dmytrokirpa@microsoft.com)
+- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-shared-contexts to v9.25.2 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-label to v9.3.6 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-popover to v9.12.7 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
@@ -179,14 +179,14 @@ Thu, 02 Oct 2025 15:12:21 GMT
 
 ## [9.4.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.6)
 
-Mon, 08 Sep 2025 12:50:59 GMT 
+Mon, 08 Sep 2025 12:50:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.5..@fluentui/react-infolabel_v9.4.6)
 
 ### Patches
 
-- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by dmytrokirpa@microsoft.com)
-- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by dmytrokirpa@microsoft.com)
-- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by dmytrokirpa@microsoft.com)
+- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by <dmytrokirpa@microsoft.com>)
+- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by <dmytrokirpa@microsoft.com>)
+- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-shared-contexts to v9.25.1 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-label to v9.3.5 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-popover to v9.12.6 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
@@ -196,12 +196,12 @@ Mon, 08 Sep 2025 12:50:59 GMT
 
 ## [9.4.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.5)
 
-Thu, 21 Aug 2025 12:25:37 GMT 
+Thu, 21 Aug 2025 12:25:37 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.4..@fluentui/react-infolabel_v9.4.5)
 
 ### Patches
 
-- chore: update api.md ([PR #33498](https://github.com/microsoft/fluentui/pull/33498) by vgenaev@gmail.com)
+- chore: update api.md ([PR #33498](https://github.com/microsoft/fluentui/pull/33498) by <vgenaev@gmail.com>)
 - Bump @fluentui/react-shared-contexts to v9.25.0 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
 - Bump @fluentui/react-label to v9.3.4 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
 - Bump @fluentui/react-popover to v9.12.5 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
@@ -211,7 +211,7 @@ Thu, 21 Aug 2025 12:25:37 GMT
 
 ## [9.4.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.4)
 
-Thu, 07 Aug 2025 10:03:33 GMT 
+Thu, 07 Aug 2025 10:03:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.3..@fluentui/react-infolabel_v9.4.4)
 
 ### Patches
@@ -224,7 +224,7 @@ Thu, 07 Aug 2025 10:03:33 GMT
 
 ## [9.4.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.3)
 
-Wed, 30 Jul 2025 16:55:49 GMT 
+Wed, 30 Jul 2025 16:55:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.2..@fluentui/react-infolabel_v9.4.3)
 
 ### Patches
@@ -233,7 +233,7 @@ Wed, 30 Jul 2025 16:55:49 GMT
 
 ## [9.4.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.2)
 
-Wed, 30 Jul 2025 13:10:57 GMT 
+Wed, 30 Jul 2025 13:10:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.1..@fluentui/react-infolabel_v9.4.2)
 
 ### Patches
@@ -248,7 +248,7 @@ Wed, 30 Jul 2025 13:10:57 GMT
 
 ## [9.4.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.1)
 
-Mon, 28 Jul 2025 18:48:21 GMT 
+Mon, 28 Jul 2025 18:48:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.4.0..@fluentui/react-infolabel_v9.4.1)
 
 ### Patches
@@ -261,19 +261,19 @@ Mon, 28 Jul 2025 18:48:21 GMT
 
 ## [9.4.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.4.0)
 
-Thu, 17 Jul 2025 13:49:39 GMT 
+Thu, 17 Jul 2025 13:49:39 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.3.7..@fluentui/react-infolabel_v9.4.0)
 
 ### Minor changes
 
-- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by martinhochel@microsoft.com)
+- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-label to v9.3.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 - Bump @fluentui/react-popover to v9.12.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 - Bump @fluentui/react-tabster to v9.26.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 
 ## [9.3.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.3.7)
 
-Fri, 11 Jul 2025 15:59:24 GMT 
+Fri, 11 Jul 2025 15:59:24 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.3.6..@fluentui/react-infolabel_v9.3.7)
 
 ### Patches
@@ -282,7 +282,7 @@ Fri, 11 Jul 2025 15:59:24 GMT
 
 ## [9.3.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.3.6)
 
-Fri, 04 Jul 2025 10:02:51 GMT 
+Fri, 04 Jul 2025 10:02:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.3.5..@fluentui/react-infolabel_v9.3.6)
 
 ### Patches
@@ -291,7 +291,7 @@ Fri, 04 Jul 2025 10:02:51 GMT
 
 ## [9.3.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.3.5)
 
-Fri, 27 Jun 2025 13:39:41 GMT 
+Fri, 27 Jun 2025 13:39:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.3.4..@fluentui/react-infolabel_v9.3.5)
 
 ### Patches
@@ -301,7 +301,7 @@ Fri, 27 Jun 2025 13:39:41 GMT
 
 ## [9.3.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.3.4)
 
-Thu, 26 Jun 2025 14:11:55 GMT 
+Thu, 26 Jun 2025 14:11:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.3.3..@fluentui/react-infolabel_v9.3.4)
 
 ### Patches
@@ -314,7 +314,7 @@ Thu, 26 Jun 2025 14:11:55 GMT
 
 ## [9.3.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.3.3)
 
-Mon, 23 Jun 2025 15:49:48 GMT 
+Mon, 23 Jun 2025 15:49:48 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.3.2..@fluentui/react-infolabel_v9.3.3)
 
 ### Patches
@@ -323,7 +323,7 @@ Mon, 23 Jun 2025 15:49:48 GMT
 
 ## [9.3.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.3.2)
 
-Wed, 18 Jun 2025 17:34:00 GMT 
+Wed, 18 Jun 2025 17:34:00 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.3.1..@fluentui/react-infolabel_v9.3.2)
 
 ### Patches
@@ -337,7 +337,7 @@ Wed, 18 Jun 2025 17:34:00 GMT
 
 ## [9.3.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.3.1)
 
-Fri, 13 Jun 2025 12:32:53 GMT 
+Fri, 13 Jun 2025 12:32:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.3.0..@fluentui/react-infolabel_v9.3.1)
 
 ### Patches
@@ -346,7 +346,7 @@ Fri, 13 Jun 2025 12:32:53 GMT
 
 ## [9.3.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.3.0)
 
-Thu, 12 Jun 2025 09:43:33 GMT 
+Thu, 12 Jun 2025 09:43:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.2.3..@fluentui/react-infolabel_v9.3.0)
 
 ### Minor changes
@@ -359,7 +359,7 @@ Thu, 12 Jun 2025 09:43:33 GMT
 
 ## [9.2.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.2.3)
 
-Wed, 11 Jun 2025 22:31:58 GMT 
+Wed, 11 Jun 2025 22:31:58 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.2.2..@fluentui/react-infolabel_v9.2.3)
 
 ### Patches
@@ -368,7 +368,7 @@ Wed, 11 Jun 2025 22:31:58 GMT
 
 ## [9.2.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.2.2)
 
-Fri, 06 Jun 2025 13:15:17 GMT 
+Fri, 06 Jun 2025 13:15:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.2.1..@fluentui/react-infolabel_v9.2.2)
 
 ### Patches
@@ -381,7 +381,7 @@ Fri, 06 Jun 2025 13:15:17 GMT
 
 ## [9.2.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.2.1)
 
-Wed, 14 May 2025 18:49:20 GMT 
+Wed, 14 May 2025 18:49:20 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.2.0..@fluentui/react-infolabel_v9.2.1)
 
 ### Patches
@@ -391,18 +391,18 @@ Wed, 14 May 2025 18:49:20 GMT
 
 ## [9.2.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.2.0)
 
-Thu, 24 Apr 2025 09:59:44 GMT 
+Thu, 24 Apr 2025 09:59:44 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.1.5..@fluentui/react-infolabel_v9.2.0)
 
 ### Minor changes
 
-- Feat: Exported InfoButton types and component ([PR #34255](https://github.com/microsoft/fluentui/pull/34255) by terynkum@microsoft.com)
+- Feat: Exported InfoButton types and component ([PR #34255](https://github.com/microsoft/fluentui/pull/34255) by <terynkum@microsoft.com>)
 - Bump @fluentui/react-popover to v9.10.6 ([PR #34315](https://github.com/microsoft/fluentui/pull/34315) by beachball)
 - Bump @fluentui/react-tabster to v9.24.6 ([PR #34315](https://github.com/microsoft/fluentui/pull/34315) by beachball)
 
 ## [9.1.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.1.5)
 
-Wed, 16 Apr 2025 19:42:18 GMT 
+Wed, 16 Apr 2025 19:42:18 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.1.4..@fluentui/react-infolabel_v9.1.5)
 
 ### Patches
@@ -415,7 +415,7 @@ Wed, 16 Apr 2025 19:42:18 GMT
 
 ## [9.1.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.1.4)
 
-Tue, 01 Apr 2025 15:08:02 GMT 
+Tue, 01 Apr 2025 15:08:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.1.3..@fluentui/react-infolabel_v9.1.4)
 
 ### Patches
@@ -425,12 +425,12 @@ Tue, 01 Apr 2025 15:08:02 GMT
 
 ## [9.1.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.1.3)
 
-Thu, 27 Mar 2025 21:12:49 GMT 
+Thu, 27 Mar 2025 21:12:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.1.2..@fluentui/react-infolabel_v9.1.3)
 
 ### Patches
 
-- feat: add customStyleHook ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by dmytrokirpa@microsoft.com)
+- feat: add customStyleHook ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-shared-contexts to v9.23.1 ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by beachball)
 - Bump @fluentui/react-label to v9.1.86 ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by beachball)
 - Bump @fluentui/react-popover to v9.10.3 ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by beachball)
@@ -440,7 +440,7 @@ Thu, 27 Mar 2025 21:12:49 GMT
 
 ## [9.1.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.1.2)
 
-Wed, 19 Mar 2025 15:40:43 GMT 
+Wed, 19 Mar 2025 15:40:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.1.1..@fluentui/react-infolabel_v9.1.2)
 
 ### Patches
@@ -453,7 +453,7 @@ Wed, 19 Mar 2025 15:40:43 GMT
 
 ## [9.1.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.1.1)
 
-Tue, 11 Mar 2025 18:58:54 GMT 
+Tue, 11 Mar 2025 18:58:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.1.0..@fluentui/react-infolabel_v9.1.1)
 
 ### Patches
@@ -466,7 +466,7 @@ Tue, 11 Mar 2025 18:58:54 GMT
 
 ## [9.1.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.1.0)
 
-Fri, 21 Feb 2025 14:34:05 GMT 
+Fri, 21 Feb 2025 14:34:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.57..@fluentui/react-infolabel_v9.1.0)
 
 ### Minor changes
@@ -476,7 +476,7 @@ Fri, 21 Feb 2025 14:34:05 GMT
 
 ## [9.0.57](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.57)
 
-Mon, 27 Jan 2025 20:27:35 GMT 
+Mon, 27 Jan 2025 20:27:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.56..@fluentui/react-infolabel_v9.0.57)
 
 ### Patches
@@ -485,7 +485,7 @@ Mon, 27 Jan 2025 20:27:35 GMT
 
 ## [9.0.56](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.56)
 
-Wed, 22 Jan 2025 14:00:21 GMT 
+Wed, 22 Jan 2025 14:00:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.55..@fluentui/react-infolabel_v9.0.56)
 
 ### Patches
@@ -498,7 +498,7 @@ Wed, 22 Jan 2025 14:00:21 GMT
 
 ## [9.0.55](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.55)
 
-Wed, 08 Jan 2025 18:33:36 GMT 
+Wed, 08 Jan 2025 18:33:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.54..@fluentui/react-infolabel_v9.0.55)
 
 ### Patches
@@ -509,7 +509,7 @@ Wed, 08 Jan 2025 18:33:36 GMT
 
 ## [9.0.54](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.54)
 
-Wed, 18 Dec 2024 10:59:37 GMT 
+Wed, 18 Dec 2024 10:59:37 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.53..@fluentui/react-infolabel_v9.0.54)
 
 ### Patches
@@ -518,7 +518,7 @@ Wed, 18 Dec 2024 10:59:37 GMT
 
 ## [9.0.53](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.53)
 
-Mon, 16 Dec 2024 16:26:49 GMT 
+Mon, 16 Dec 2024 16:26:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.52..@fluentui/react-infolabel_v9.0.53)
 
 ### Patches
@@ -532,18 +532,18 @@ Mon, 16 Dec 2024 16:26:49 GMT
 
 ## [9.0.52](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.52)
 
-Mon, 09 Dec 2024 17:38:12 GMT 
+Mon, 09 Dec 2024 17:38:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.51..@fluentui/react-infolabel_v9.0.52)
 
 ### Patches
 
-- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by olfedias@microsoft.com)
+- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-label to v9.1.80 ([PR #33431](https://github.com/microsoft/fluentui/pull/33431) by beachball)
 - Bump @fluentui/react-popover to v9.9.27 ([PR #33431](https://github.com/microsoft/fluentui/pull/33431) by beachball)
 
 ## [9.0.51](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.51)
 
-Fri, 06 Dec 2024 12:53:46 GMT 
+Fri, 06 Dec 2024 12:53:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.50..@fluentui/react-infolabel_v9.0.51)
 
 ### Patches
@@ -557,23 +557,23 @@ Fri, 06 Dec 2024 12:53:46 GMT
 
 ## [9.0.50](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.50)
 
-Mon, 18 Nov 2024 09:44:39 GMT 
+Mon, 18 Nov 2024 09:44:39 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.49..@fluentui/react-infolabel_v9.0.50)
 
 ### Patches
 
-- chore: Adding maxWidth to InfoButton's popover to match figma spec. ([PR #33253](https://github.com/microsoft/fluentui/pull/33253) by Humberto.Morimoto@microsoft.com)
+- chore: Adding maxWidth to InfoButton's popover to match figma spec. ([PR #33253](https://github.com/microsoft/fluentui/pull/33253) by <Humberto.Morimoto@microsoft.com>)
 - Bump @fluentui/react-popover to v9.9.25 ([PR #33229](https://github.com/microsoft/fluentui/pull/33229) by beachball)
 
 ## [9.0.49](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.49)
 
-Mon, 11 Nov 2024 10:00:40 GMT 
+Mon, 11 Nov 2024 10:00:40 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.48..@fluentui/react-infolabel_v9.0.49)
 
 ### Patches
 
-- fix: popover not dismissing in Safari after clicking on infoButton ([PR #33057](https://github.com/microsoft/fluentui/pull/33057) by vgenaev@gmail.com)
-- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by martinhochel@microsoft.com)
+- fix: popover not dismissing in Safari after clicking on infoButton ([PR #33057](https://github.com/microsoft/fluentui/pull/33057) by <vgenaev@gmail.com>)
+- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-label to v9.1.78 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-popover to v9.9.24 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-tabster to v9.23.0 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
@@ -583,7 +583,7 @@ Mon, 11 Nov 2024 10:00:40 GMT
 
 ## [9.0.48](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.48)
 
-Tue, 15 Oct 2024 17:17:53 GMT 
+Tue, 15 Oct 2024 17:17:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.47..@fluentui/react-infolabel_v9.0.48)
 
 ### Patches
@@ -597,7 +597,7 @@ Tue, 15 Oct 2024 17:17:53 GMT
 
 ## [9.0.47](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.47)
 
-Tue, 08 Oct 2024 22:05:59 GMT 
+Tue, 08 Oct 2024 22:05:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.46..@fluentui/react-infolabel_v9.0.47)
 
 ### Patches
@@ -607,7 +607,7 @@ Tue, 08 Oct 2024 22:05:59 GMT
 
 ## [9.0.46](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.46)
 
-Mon, 23 Sep 2024 12:40:13 GMT 
+Mon, 23 Sep 2024 12:40:13 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.45..@fluentui/react-infolabel_v9.0.46)
 
 ### Patches
@@ -621,7 +621,7 @@ Mon, 23 Sep 2024 12:40:13 GMT
 
 ## [9.0.45](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.45)
 
-Tue, 10 Sep 2024 10:19:12 GMT 
+Tue, 10 Sep 2024 10:19:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.44..@fluentui/react-infolabel_v9.0.45)
 
 ### Patches
@@ -634,7 +634,7 @@ Tue, 10 Sep 2024 10:19:12 GMT
 
 ## [9.0.44](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.44)
 
-Thu, 15 Aug 2024 13:49:46 GMT 
+Thu, 15 Aug 2024 13:49:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.43..@fluentui/react-infolabel_v9.0.44)
 
 ### Patches
@@ -644,7 +644,7 @@ Thu, 15 Aug 2024 13:49:46 GMT
 
 ## [9.0.43](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.43)
 
-Thu, 15 Aug 2024 08:22:11 GMT 
+Thu, 15 Aug 2024 08:22:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.42..@fluentui/react-infolabel_v9.0.43)
 
 ### Patches
@@ -654,7 +654,7 @@ Thu, 15 Aug 2024 08:22:11 GMT
 
 ## [9.0.42](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.42)
 
-Mon, 05 Aug 2024 22:33:04 GMT 
+Mon, 05 Aug 2024 22:33:04 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.41..@fluentui/react-infolabel_v9.0.42)
 
 ### Patches
@@ -663,7 +663,7 @@ Mon, 05 Aug 2024 22:33:04 GMT
 
 ## [9.0.41](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.41)
 
-Tue, 30 Jul 2024 18:47:35 GMT 
+Tue, 30 Jul 2024 18:47:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.40..@fluentui/react-infolabel_v9.0.41)
 
 ### Patches
@@ -672,7 +672,7 @@ Tue, 30 Jul 2024 18:47:35 GMT
 
 ## [9.0.40](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.40)
 
-Tue, 23 Jul 2024 20:13:14 GMT 
+Tue, 23 Jul 2024 20:13:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.39..@fluentui/react-infolabel_v9.0.40)
 
 ### Patches
@@ -685,12 +685,12 @@ Tue, 23 Jul 2024 20:13:14 GMT
 
 ## [9.0.39](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.39)
 
-Mon, 15 Jul 2024 17:25:30 GMT 
+Mon, 15 Jul 2024 17:25:30 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.38..@fluentui/react-infolabel_v9.0.39)
 
 ### Patches
 
-- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by martinhochel@microsoft.com)
+- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-label to v9.1.73 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-popover to v9.9.14 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-tabster to v9.22.2 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
@@ -699,13 +699,13 @@ Mon, 15 Jul 2024 17:25:30 GMT
 
 ## [9.0.38](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.38)
 
-Mon, 01 Jul 2024 20:30:51 GMT 
+Mon, 01 Jul 2024 20:30:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.37..@fluentui/react-infolabel_v9.0.38)
 
 ### Patches
 
-- chore: Update react-icons package to ^2.0.245 ([PR #31802](https://github.com/microsoft/fluentui/pull/31802) by ololubek@microsoft.com)
-- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by seanmonahan@microsoft.com)
+- chore: Update react-icons package to ^2.0.245 ([PR #31802](https://github.com/microsoft/fluentui/pull/31802) by <ololubek@microsoft.com>)
+- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-label to v9.1.72 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-popover to v9.9.13 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-tabster to v9.22.1 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
@@ -714,7 +714,7 @@ Mon, 01 Jul 2024 20:30:51 GMT
 
 ## [9.0.37](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.37)
 
-Mon, 17 Jun 2024 07:34:17 GMT 
+Mon, 17 Jun 2024 07:34:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-infolabel_v9.0.36..@fluentui/react-infolabel_v9.0.37)
 
 ### Patches
@@ -742,7 +742,7 @@ Thu, 23 May 2024 08:02:44 GMT
 
 ### Patches
 
-- chore: replace usage of .shorthands() in styles ([PR #31449](https://github.com/microsoft/fluentui/pull/31449) by olfedias@microsoft.com)
+- chore: replace usage of .shorthands() in styles ([PR #31449](https://github.com/microsoft/fluentui/pull/31449) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-popover to v9.9.10 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 - Bump @fluentui/react-tabster to v9.21.4 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 
@@ -753,7 +753,7 @@ Mon, 20 May 2024 12:44:56 GMT
 
 ### Patches
 
-- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by olfedias@microsoft.com)
+- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-label to v9.1.70 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-popover to v9.9.9 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-tabster to v9.21.3 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
@@ -767,7 +767,7 @@ Thu, 16 May 2024 09:25:15 GMT
 
 ### Patches
 
-- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by ololubek@microsoft.com)
+- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by <ololubek@microsoft.com>)
 
 ## [9.0.32](https://github.com/microsoft/fluentui/tree/@fluentui/react-infolabel_v9.0.32)
 
@@ -799,7 +799,7 @@ Thu, 02 May 2024 11:36:34 GMT
 
 ### Patches
 
-- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by ololubek@microsoft.com)
+- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-popover to v9.9.6 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 - Bump @fluentui/react-tabster to v9.21.0 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 
@@ -823,7 +823,7 @@ Wed, 17 Apr 2024 21:53:53 GMT
 
 ### Patches
 
-- chore: Update react-icons to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by ololubek@microsoft.com)
+- chore: Update react-icons to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-popover to v9.9.4 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 - Bump @fluentui/react-tabster to v9.20.0 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 
@@ -861,7 +861,7 @@ Fri, 15 Mar 2024 21:43:49 GMT
 
 ### Patches
 
-- fix: add aria-labelledby to infolabel note ([PR #30761](https://github.com/microsoft/fluentui/pull/30761) by sarah.higley@microsoft.com)
+- fix: add aria-labelledby to infolabel note ([PR #30761](https://github.com/microsoft/fluentui/pull/30761) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-label to v9.1.65 ([PR #30740](https://github.com/microsoft/fluentui/pull/30740) by beachball)
 - Bump @fluentui/react-popover to v9.9.1 ([PR #30740](https://github.com/microsoft/fluentui/pull/30740) by beachball)
 - Bump @fluentui/react-tabster to v9.19.4 ([PR #30740](https://github.com/microsoft/fluentui/pull/30740) by beachball)
@@ -876,7 +876,7 @@ Thu, 07 Mar 2024 19:33:22 GMT
 
 ### Patches
 
-- fix: InfoLabel popover dismisses if the InfoButton is clicked when it is already open ([PR #30731](https://github.com/microsoft/fluentui/pull/30731) by behowell@microsoft.com)
+- fix: InfoLabel popover dismisses if the InfoButton is clicked when it is already open ([PR #30731](https://github.com/microsoft/fluentui/pull/30731) by <behowell@microsoft.com>)
 - Bump @fluentui/react-label to v9.1.64 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-popover to v9.9.0 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-tabster to v9.19.3 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
@@ -1028,7 +1028,7 @@ Mon, 08 Jan 2024 16:24:22 GMT
 
 ### Patches
 
-- Update version of @fluentui/react-icons to 2.0.224 ([PR #30078](https://github.com/microsoft/fluentui/pull/30078) by ololubek@microsoft.com)
+- Update version of @fluentui/react-icons to 2.0.224 ([PR #30078](https://github.com/microsoft/fluentui/pull/30078) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-label to v9.1.55 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
 - Bump @fluentui/react-popover to v9.8.28 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
 - Bump @fluentui/react-tabster to v9.17.0 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
@@ -1123,7 +1123,7 @@ Thu, 09 Nov 2023 17:29:36 GMT
 
 ### Patches
 
-- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by martinhochel@microsoft.com)
+- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-label to v9.1.49 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-popover to v9.8.20 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-tabster to v9.14.4 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
@@ -1161,7 +1161,7 @@ Mon, 23 Oct 2023 09:51:56 GMT
 
 ### Minor changes
 
-- feat: Move InfoLabel to stable. ([PR #29585](https://github.com/microsoft/fluentui/pull/29585) by esteban.230@hotmail.com)
+- feat: Move InfoLabel to stable. ([PR #29585](https://github.com/microsoft/fluentui/pull/29585) by <esteban.230@hotmail.com>)
 - Bump @fluentui/react-popover to v9.8.17 ([commit](https://github.com/microsoft/fluentui/commit/e4ef1febe8a185dddc10f8936944d177d50bc396) by beachball)
 - Bump @fluentui/react-tabster to v9.14.1 ([commit](https://github.com/microsoft/fluentui/commit/e4ef1febe8a185dddc10f8936944d177d50bc396) by beachball)
 
@@ -1171,7 +1171,7 @@ Wed, 18 Oct 2023 17:54:04 GMT
 
 ### Minor changes
 
-- feat: release preview package ([PR #29562](https://github.com/microsoft/fluentui/pull/29562) by esteban.230@hotmail.com)
+- feat: release preview package ([PR #29562](https://github.com/microsoft/fluentui/pull/29562) by <esteban.230@hotmail.com>)
 - Bump @fluentui/react-label to v9.1.46 ([PR #29560](https://github.com/microsoft/fluentui/pull/29560) by beachball)
 - Bump @fluentui/react-popover to v9.8.16 ([PR #29560](https://github.com/microsoft/fluentui/pull/29560) by beachball)
 - Bump @fluentui/react-tabster to v9.14.0 ([PR #29560](https://github.com/microsoft/fluentui/pull/29560) by beachball)

@@ -28,4 +28,4 @@ ReactDOMClient.createRoot(document.getElementById('root')).render(
 
 ### Docs
 
-Docs are hosted at https://react.fluentui.dev/.
+Docs are hosted at <https://react.fluentui.dev/>.

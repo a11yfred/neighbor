@@ -6,13 +6,13 @@ This log was last generated on Thu, 23 Apr 2026 11:59:33 GMT and should not be m
 
 ## [9.12.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.12.1)
 
-Thu, 23 Apr 2026 11:59:33 GMT 
+Thu, 23 Apr 2026 11:59:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.12.0..@fluentui/react-tabs_v9.12.1)
 
 ### Patches
 
-- perf: memoize context values in use*ContextValues hooks ([PR #36008](https://github.com/microsoft/fluentui/pull/36008) by olfedias@microsoft.com)
-- fix: export base hook types ([PR #35989](https://github.com/microsoft/fluentui/pull/35989) by dmytrokirpa@microsoft.com)
+- perf: memoize context values in use*ContextValues hooks ([PR #36008](https://github.com/microsoft/fluentui/pull/36008) by <olfedias@microsoft.com>)
+- fix: export base hook types ([PR #35989](https://github.com/microsoft/fluentui/pull/35989) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.2.16 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.4.2 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-tabster to v9.26.14 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
@@ -20,21 +20,21 @@ Thu, 23 Apr 2026 11:59:33 GMT
 
 ## [9.12.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.12.0)
 
-Wed, 01 Apr 2026 15:52:42 GMT 
+Wed, 01 Apr 2026 15:52:42 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.11.2..@fluentui/react-tabs_v9.12.0)
 
 ### Minor changes
 
-- feat: expose base hooks for Tab and TabList ([PR #35902](https://github.com/microsoft/fluentui/pull/35902) by dmytrokirpa@microsoft.com)
+- feat: expose base hooks for Tab and TabList ([PR #35902](https://github.com/microsoft/fluentui/pull/35902) by <dmytrokirpa@microsoft.com>)
 
 ## [9.11.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.11.2)
 
-Wed, 25 Feb 2026 13:32:26 GMT 
+Wed, 25 Feb 2026 13:32:26 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.11.1..@fluentui/react-tabs_v9.11.2)
 
 ### Patches
 
-- fix: tabster attributes should be overridable on Tabs ([PR #35782](https://github.com/microsoft/fluentui/pull/35782) by olfedias@microsoft.com)
+- fix: tabster attributes should be overridable on Tabs ([PR #35782](https://github.com/microsoft/fluentui/pull/35782) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.2.15 ([PR #35782](https://github.com/microsoft/fluentui/pull/35782) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.4.1 ([PR #35782](https://github.com/microsoft/fluentui/pull/35782) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.26.2 ([PR #35782](https://github.com/microsoft/fluentui/pull/35782) by beachball)
@@ -43,7 +43,7 @@ Wed, 25 Feb 2026 13:32:26 GMT
 
 ## [9.11.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.11.1)
 
-Thu, 12 Feb 2026 10:46:15 GMT 
+Thu, 12 Feb 2026 10:46:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.11.0..@fluentui/react-tabs_v9.11.1)
 
 ### Patches
@@ -52,13 +52,13 @@ Thu, 12 Feb 2026 10:46:15 GMT
 
 ## [9.11.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.11.0)
 
-Thu, 22 Jan 2026 17:06:41 GMT 
+Thu, 22 Jan 2026 17:06:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.10.8..@fluentui/react-tabs_v9.11.0)
 
 ### Minor changes
 
-- feat: add base hooks for tabs components ([PR #35638](https://github.com/microsoft/fluentui/pull/35638) by dmytrokirpa@microsoft.com)
-- refactor(react-tabs): separate focus behavior from base hook ([PR #35675](https://github.com/microsoft/fluentui/pull/35675) by dmytrokirpa@microsoft.com)
+- feat: add base hooks for tabs components ([PR #35638](https://github.com/microsoft/fluentui/pull/35638) by <dmytrokirpa@microsoft.com>)
+- refactor(react-tabs): separate focus behavior from base hook ([PR #35675](https://github.com/microsoft/fluentui/pull/35675) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.2.14 ([PR #35574](https://github.com/microsoft/fluentui/pull/35574) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.3.5 ([PR #35574](https://github.com/microsoft/fluentui/pull/35574) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.26.1 ([PR #35574](https://github.com/microsoft/fluentui/pull/35574) by beachball)
@@ -68,7 +68,7 @@ Thu, 22 Jan 2026 17:06:41 GMT
 
 ## [9.10.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.10.8)
 
-Wed, 17 Dec 2025 18:10:11 GMT 
+Wed, 17 Dec 2025 18:10:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.10.7..@fluentui/react-tabs_v9.10.8)
 
 ### Patches
@@ -80,12 +80,12 @@ Wed, 17 Dec 2025 18:10:11 GMT
 
 ## [9.10.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.10.7)
 
-Tue, 11 Nov 2025 19:18:11 GMT 
+Tue, 11 Nov 2025 19:18:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.10.6..@fluentui/react-tabs_v9.10.7)
 
 ### Patches
 
-- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by estebanmu@microsoft.com)
+- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by <estebanmu@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.2.12 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.3.3 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.26.0 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
@@ -94,7 +94,7 @@ Tue, 11 Nov 2025 19:18:11 GMT
 
 ## [9.10.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.10.6)
 
-Thu, 06 Nov 2025 15:01:25 GMT 
+Thu, 06 Nov 2025 15:01:25 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.10.5..@fluentui/react-tabs_v9.10.6)
 
 ### Patches
@@ -106,7 +106,7 @@ Thu, 06 Nov 2025 15:01:25 GMT
 
 ## [9.10.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.10.5)
 
-Fri, 31 Oct 2025 16:22:06 GMT 
+Fri, 31 Oct 2025 16:22:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.10.4..@fluentui/react-tabs_v9.10.5)
 
 ### Patches
@@ -118,7 +118,7 @@ Fri, 31 Oct 2025 16:22:06 GMT
 
 ## [9.10.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.10.4)
 
-Tue, 21 Oct 2025 14:16:59 GMT 
+Tue, 21 Oct 2025 14:16:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.10.3..@fluentui/react-tabs_v9.10.4)
 
 ### Patches
@@ -127,7 +127,7 @@ Tue, 21 Oct 2025 14:16:59 GMT
 
 ## [9.10.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.10.3)
 
-Wed, 08 Oct 2025 12:04:53 GMT 
+Wed, 08 Oct 2025 12:04:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.10.2..@fluentui/react-tabs_v9.10.3)
 
 ### Patches
@@ -139,12 +139,12 @@ Wed, 08 Oct 2025 12:04:53 GMT
 
 ## [9.10.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.10.2)
 
-Thu, 02 Oct 2025 15:12:36 GMT 
+Thu, 02 Oct 2025 15:12:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.10.1..@fluentui/react-tabs_v9.10.2)
 
 ### Patches
 
-- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by dmytrokirpa@microsoft.com)
+- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.2.8 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.2.1 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.25.2 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
@@ -153,14 +153,14 @@ Thu, 02 Oct 2025 15:12:36 GMT
 
 ## [9.10.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.10.1)
 
-Mon, 08 Sep 2025 12:50:41 GMT 
+Mon, 08 Sep 2025 12:50:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.10.0..@fluentui/react-tabs_v9.10.1)
 
 ### Patches
 
-- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by dmytrokirpa@microsoft.com)
-- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by dmytrokirpa@microsoft.com)
-- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by dmytrokirpa@microsoft.com)
+- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by <dmytrokirpa@microsoft.com>)
+- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by <dmytrokirpa@microsoft.com>)
+- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.2.7 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.2.0 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.25.1 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
@@ -169,12 +169,12 @@ Mon, 08 Sep 2025 12:50:41 GMT
 
 ## [9.10.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.10.0)
 
-Thu, 21 Aug 2025 12:25:20 GMT 
+Thu, 21 Aug 2025 12:25:20 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.9.3..@fluentui/react-tabs_v9.10.0)
 
 ### Minor changes
 
-- feat: Export tabReservedSpaceClassNames and useTabAnimatedIndicatorStyles_unstable for style overrides ([PR #35007](https://github.com/microsoft/fluentui/pull/35007) by mifraser@microsoft.com)
+- feat: Export tabReservedSpaceClassNames and useTabAnimatedIndicatorStyles_unstable for style overrides ([PR #35007](https://github.com/microsoft/fluentui/pull/35007) by <mifraser@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.2.6 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.1.6 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.25.0 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
@@ -183,7 +183,7 @@ Thu, 21 Aug 2025 12:25:20 GMT
 
 ## [9.9.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.9.3)
 
-Thu, 07 Aug 2025 10:03:33 GMT 
+Thu, 07 Aug 2025 10:03:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.9.2..@fluentui/react-tabs_v9.9.3)
 
 ### Patches
@@ -195,7 +195,7 @@ Thu, 07 Aug 2025 10:03:33 GMT
 
 ## [9.9.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.9.2)
 
-Wed, 30 Jul 2025 13:10:57 GMT 
+Wed, 30 Jul 2025 13:10:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.9.1..@fluentui/react-tabs_v9.9.2)
 
 ### Patches
@@ -209,12 +209,12 @@ Wed, 30 Jul 2025 13:10:57 GMT
 
 ## [9.9.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.9.1)
 
-Mon, 28 Jul 2025 18:48:20 GMT 
+Mon, 28 Jul 2025 18:48:20 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.9.0..@fluentui/react-tabs_v9.9.1)
 
 ### Patches
 
-- fix: adjust circular sizes to Figma spec ([PR #34859](https://github.com/microsoft/fluentui/pull/34859) by vgenaev@gmail.com)
+- fix: adjust circular sizes to Figma spec ([PR #34859](https://github.com/microsoft/fluentui/pull/34859) by <vgenaev@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.2.3 ([PR #34918](https://github.com/microsoft/fluentui/pull/34918) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.1.3 ([PR #34918](https://github.com/microsoft/fluentui/pull/34918) by beachball)
 - Bump @fluentui/react-tabster to v9.26.1 ([PR #34918](https://github.com/microsoft/fluentui/pull/34918) by beachball)
@@ -222,17 +222,17 @@ Mon, 28 Jul 2025 18:48:20 GMT
 
 ## [9.9.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.9.0)
 
-Thu, 17 Jul 2025 13:49:48 GMT 
+Thu, 17 Jul 2025 13:49:48 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.8.3..@fluentui/react-tabs_v9.9.0)
 
 ### Minor changes
 
-- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by martinhochel@microsoft.com)
+- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.26.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 
 ## [9.8.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.8.3)
 
-Fri, 27 Jun 2025 13:39:41 GMT 
+Fri, 27 Jun 2025 13:39:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.8.2..@fluentui/react-tabs_v9.8.3)
 
 ### Patches
@@ -241,7 +241,7 @@ Fri, 27 Jun 2025 13:39:41 GMT
 
 ## [9.8.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.8.2)
 
-Thu, 26 Jun 2025 14:11:55 GMT 
+Thu, 26 Jun 2025 14:11:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.8.1..@fluentui/react-tabs_v9.8.2)
 
 ### Patches
@@ -253,7 +253,7 @@ Thu, 26 Jun 2025 14:11:55 GMT
 
 ## [9.8.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.8.1)
 
-Wed, 18 Jun 2025 17:34:00 GMT 
+Wed, 18 Jun 2025 17:34:00 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.8.0..@fluentui/react-tabs_v9.8.1)
 
 ### Patches
@@ -266,7 +266,7 @@ Wed, 18 Jun 2025 17:34:00 GMT
 
 ## [9.8.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.8.0)
 
-Thu, 12 Jun 2025 09:43:33 GMT 
+Thu, 12 Jun 2025 09:43:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.7.8..@fluentui/react-tabs_v9.8.0)
 
 ### Minor changes
@@ -278,7 +278,7 @@ Thu, 12 Jun 2025 09:43:33 GMT
 
 ## [9.7.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.7.8)
 
-Fri, 06 Jun 2025 13:15:17 GMT 
+Fri, 06 Jun 2025 13:15:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.7.7..@fluentui/react-tabs_v9.7.8)
 
 ### Patches
@@ -290,18 +290,18 @@ Fri, 06 Jun 2025 13:15:17 GMT
 
 ## [9.7.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.7.7)
 
-Wed, 14 May 2025 18:49:19 GMT 
+Wed, 14 May 2025 18:49:19 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.7.6..@fluentui/react-tabs_v9.7.7)
 
 ### Patches
 
-- fix: filled-circular appearance variant shows selected tab in high contrast ([PR #34294](https://github.com/microsoft/fluentui/pull/34294) by sarah.higley@microsoft.com)
-- fix: Tab filled (not filled-subtle) appearance has border in WHCM ([PR #34341](https://github.com/microsoft/fluentui/pull/34341) by sarah.higley@microsoft.com)
+- fix: filled-circular appearance variant shows selected tab in high contrast ([PR #34294](https://github.com/microsoft/fluentui/pull/34294) by <sarah.higley@microsoft.com>)
+- fix: Tab filled (not filled-subtle) appearance has border in WHCM ([PR #34341](https://github.com/microsoft/fluentui/pull/34341) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.24.7 ([PR #34438](https://github.com/microsoft/fluentui/pull/34438) by beachball)
 
 ## [9.7.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.7.6)
 
-Thu, 24 Apr 2025 09:59:45 GMT 
+Thu, 24 Apr 2025 09:59:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.7.5..@fluentui/react-tabs_v9.7.6)
 
 ### Patches
@@ -310,7 +310,7 @@ Thu, 24 Apr 2025 09:59:45 GMT
 
 ## [9.7.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.7.5)
 
-Wed, 16 Apr 2025 19:42:18 GMT 
+Wed, 16 Apr 2025 19:42:18 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.7.4..@fluentui/react-tabs_v9.7.5)
 
 ### Patches
@@ -322,17 +322,17 @@ Wed, 16 Apr 2025 19:42:18 GMT
 
 ## [9.7.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.7.4)
 
-Tue, 01 Apr 2025 15:08:01 GMT 
+Tue, 01 Apr 2025 15:08:01 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.7.3..@fluentui/react-tabs_v9.7.4)
 
 ### Patches
 
-- fix: fix active tab indicator animation ([PR #34060](https://github.com/microsoft/fluentui/pull/34060) by dmytrokirpa@microsoft.com)
+- fix: fix active tab indicator animation ([PR #34060](https://github.com/microsoft/fluentui/pull/34060) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.24.4 ([PR #33909](https://github.com/microsoft/fluentui/pull/33909) by beachball)
 
 ## [9.7.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.7.3)
 
-Thu, 27 Mar 2025 21:12:51 GMT 
+Thu, 27 Mar 2025 21:12:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.7.2..@fluentui/react-tabs_v9.7.3)
 
 ### Patches
@@ -345,12 +345,12 @@ Thu, 27 Mar 2025 21:12:51 GMT
 
 ## [9.7.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.7.2)
 
-Wed, 19 Mar 2025 15:40:42 GMT 
+Wed, 19 Mar 2025 15:40:42 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.7.1..@fluentui/react-tabs_v9.7.2)
 
 ### Patches
 
-- fix: use proper type for Tab value prop ([PR #33988](https://github.com/microsoft/fluentui/pull/33988) by dmytrokirpa@microsoft.com)
+- fix: use proper type for Tab value prop ([PR #33988](https://github.com/microsoft/fluentui/pull/33988) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.74 ([PR #34032](https://github.com/microsoft/fluentui/pull/34032) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.52 ([PR #34032](https://github.com/microsoft/fluentui/pull/34032) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.23.0 ([PR #34032](https://github.com/microsoft/fluentui/pull/34032) by beachball)
@@ -359,12 +359,12 @@ Wed, 19 Mar 2025 15:40:42 GMT
 
 ## [9.7.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.7.1)
 
-Tue, 11 Mar 2025 18:58:53 GMT 
+Tue, 11 Mar 2025 18:58:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.7.0..@fluentui/react-tabs_v9.7.1)
 
 ### Patches
 
-- fix: selected state in HC on Windows ([PR #33910](https://github.com/microsoft/fluentui/pull/33910) by v.kozlova13@gmail.com)
+- fix: selected state in HC on Windows ([PR #33910](https://github.com/microsoft/fluentui/pull/33910) by <v.kozlova13@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.1.73 ([PR #33927](https://github.com/microsoft/fluentui/pull/33927) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.51 ([PR #33927](https://github.com/microsoft/fluentui/pull/33927) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.22.0 ([PR #33927](https://github.com/microsoft/fluentui/pull/33927) by beachball)
@@ -373,7 +373,7 @@ Tue, 11 Mar 2025 18:58:53 GMT
 
 ## [9.7.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.7.0)
 
-Fri, 21 Feb 2025 14:34:05 GMT 
+Fri, 21 Feb 2025 14:34:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.6.7..@fluentui/react-tabs_v9.7.0)
 
 ### Minor changes
@@ -382,7 +382,7 @@ Fri, 21 Feb 2025 14:34:05 GMT
 
 ## [9.6.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.6.7)
 
-Wed, 22 Jan 2025 14:00:09 GMT 
+Wed, 22 Jan 2025 14:00:09 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.6.6..@fluentui/react-tabs_v9.6.7)
 
 ### Patches
@@ -394,22 +394,22 @@ Wed, 22 Jan 2025 14:00:09 GMT
 
 ## [9.6.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.6.6)
 
-Wed, 08 Jan 2025 18:33:35 GMT 
+Wed, 08 Jan 2025 18:33:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.6.5..@fluentui/react-tabs_v9.6.6)
 
 ### Patches
 
-- fix: update tab border color for better visibility in high contrast mode ([PR #33573](https://github.com/microsoft/fluentui/pull/33573) by dmytrokirpa@microsoft.com)
+- fix: update tab border color for better visibility in high contrast mode ([PR #33573](https://github.com/microsoft/fluentui/pull/33573) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.49 ([PR #33550](https://github.com/microsoft/fluentui/pull/33550) by beachball)
 
 ## [9.6.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.6.5)
 
-Mon, 16 Dec 2024 16:26:45 GMT 
+Mon, 16 Dec 2024 16:26:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.6.4..@fluentui/react-tabs_v9.6.5)
 
 ### Patches
 
-- fix: adjust styles for circular tabs ([PR #33441](https://github.com/microsoft/fluentui/pull/33441) by dmytrokirpa@microsoft.com)
+- fix: adjust styles for circular tabs ([PR #33441](https://github.com/microsoft/fluentui/pull/33441) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.71 ([PR #33468](https://github.com/microsoft/fluentui/pull/33468) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.48 ([PR #33468](https://github.com/microsoft/fluentui/pull/33468) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.21.2 ([PR #33468](https://github.com/microsoft/fluentui/pull/33468) by beachball)
@@ -419,16 +419,16 @@ Mon, 16 Dec 2024 16:26:45 GMT
 
 ## [9.6.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.6.4)
 
-Mon, 09 Dec 2024 17:38:06 GMT 
+Mon, 09 Dec 2024 17:38:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.6.3..@fluentui/react-tabs_v9.6.4)
 
 ### Patches
 
-- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by olfedias@microsoft.com)
+- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by <olfedias@microsoft.com>)
 
 ## [9.6.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.6.3)
 
-Fri, 06 Dec 2024 12:53:46 GMT 
+Fri, 06 Dec 2024 12:53:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.6.2..@fluentui/react-tabs_v9.6.3)
 
 ### Patches
@@ -442,21 +442,21 @@ Fri, 06 Dec 2024 12:53:46 GMT
 
 ## [9.6.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.6.2)
 
-Mon, 18 Nov 2024 09:44:40 GMT 
+Mon, 18 Nov 2024 09:44:40 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.6.1..@fluentui/react-tabs_v9.6.2)
 
 ### Patches
 
-- fix: focus selected tab by default ([PR #33236](https://github.com/microsoft/fluentui/pull/33236) by dmytrokirpa@microsoft.com)
+- fix: focus selected tab by default ([PR #33236](https://github.com/microsoft/fluentui/pull/33236) by <dmytrokirpa@microsoft.com>)
 
 ## [9.6.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.6.1)
 
-Mon, 11 Nov 2024 10:00:57 GMT 
+Mon, 11 Nov 2024 10:00:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.6.0..@fluentui/react-tabs_v9.6.1)
 
 ### Patches
 
-- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by martinhochel@microsoft.com)
+- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.69 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.46 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.21.0 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
@@ -466,12 +466,12 @@ Mon, 11 Nov 2024 10:00:57 GMT
 
 ## [9.6.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.6.0)
 
-Tue, 15 Oct 2024 17:17:51 GMT 
+Tue, 15 Oct 2024 17:17:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.5.2..@fluentui/react-tabs_v9.6.0)
 
 ### Minor changes
 
-- feature: add rounded tab variant ([PR #32944](https://github.com/microsoft/fluentui/pull/32944) by kirpadv@gmail.com)
+- feature: add rounded tab variant ([PR #32944](https://github.com/microsoft/fluentui/pull/32944) by <kirpadv@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.1.68 ([PR #32999](https://github.com/microsoft/fluentui/pull/32999) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.45 ([PR #32999](https://github.com/microsoft/fluentui/pull/32999) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.20.2 ([PR #32999](https://github.com/microsoft/fluentui/pull/32999) by beachball)
@@ -481,7 +481,7 @@ Tue, 15 Oct 2024 17:17:51 GMT
 
 ## [9.5.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.5.2)
 
-Tue, 08 Oct 2024 22:05:59 GMT 
+Tue, 08 Oct 2024 22:05:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.5.1..@fluentui/react-tabs_v9.5.2)
 
 ### Patches
@@ -490,7 +490,7 @@ Tue, 08 Oct 2024 22:05:59 GMT
 
 ## [9.5.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.5.1)
 
-Mon, 23 Sep 2024 12:40:17 GMT 
+Mon, 23 Sep 2024 12:40:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.5.0..@fluentui/react-tabs_v9.5.1)
 
 ### Patches
@@ -504,12 +504,12 @@ Mon, 23 Sep 2024 12:40:17 GMT
 
 ## [9.5.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.5.0)
 
-Tue, 10 Sep 2024 10:19:08 GMT 
+Tue, 10 Sep 2024 10:19:08 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.4.30..@fluentui/react-tabs_v9.5.0)
 
 ### Minor changes
 
-- export Tab component style hooks ([PR #32125](https://github.com/microsoft/fluentui/pull/32125) by kirpadv@gmail.com)
+- export Tab component style hooks ([PR #32125](https://github.com/microsoft/fluentui/pull/32125) by <kirpadv@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.1.66 ([PR #32494](https://github.com/microsoft/fluentui/pull/32494) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.43 ([PR #32494](https://github.com/microsoft/fluentui/pull/32494) by beachball)
 - Bump @fluentui/react-tabster to v9.22.6 ([PR #32494](https://github.com/microsoft/fluentui/pull/32494) by beachball)
@@ -517,11 +517,11 @@ Tue, 10 Sep 2024 10:19:08 GMT
 
 ### Patches
 
-- fix: Improve animation for active tab indicator on tabs with falsy values ([PR #32374](https://github.com/microsoft/fluentui/pull/32374) by kirpadv@gmail.com)
+- fix: Improve animation for active tab indicator on tabs with falsy values ([PR #32374](https://github.com/microsoft/fluentui/pull/32374) by <kirpadv@gmail.com>)
 
 ## [9.4.30](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.4.30)
 
-Thu, 15 Aug 2024 13:49:46 GMT 
+Thu, 15 Aug 2024 13:49:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.4.29..@fluentui/react-tabs_v9.4.30)
 
 ### Patches
@@ -530,7 +530,7 @@ Thu, 15 Aug 2024 13:49:46 GMT
 
 ## [9.4.29](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.4.29)
 
-Thu, 15 Aug 2024 08:22:17 GMT 
+Thu, 15 Aug 2024 08:22:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.4.28..@fluentui/react-tabs_v9.4.29)
 
 ### Patches
@@ -539,16 +539,16 @@ Thu, 15 Aug 2024 08:22:17 GMT
 
 ## [9.4.28](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.4.28)
 
-Tue, 06 Aug 2024 21:40:44 GMT 
+Tue, 06 Aug 2024 21:40:44 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.4.27..@fluentui/react-tabs_v9.4.28)
 
 ### Patches
 
-- ignore ref for tab reserved space content slot ([PR #31775](https://github.com/microsoft/fluentui/pull/31775) by kirpadv@gmail.com)
+- ignore ref for tab reserved space content slot ([PR #31775](https://github.com/microsoft/fluentui/pull/31775) by <kirpadv@gmail.com>)
 
 ## [9.4.27](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.4.27)
 
-Tue, 23 Jul 2024 20:13:14 GMT 
+Tue, 23 Jul 2024 20:13:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.4.26..@fluentui/react-tabs_v9.4.27)
 
 ### Patches
@@ -561,12 +561,12 @@ Tue, 23 Jul 2024 20:13:14 GMT
 
 ## [9.4.26](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.4.26)
 
-Mon, 15 Jul 2024 17:25:15 GMT 
+Mon, 15 Jul 2024 17:25:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.4.25..@fluentui/react-tabs_v9.4.26)
 
 ### Patches
 
-- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by martinhochel@microsoft.com)
+- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.64 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.41 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.19.1 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
@@ -575,12 +575,12 @@ Mon, 15 Jul 2024 17:25:15 GMT
 
 ## [9.4.25](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.4.25)
 
-Mon, 01 Jul 2024 20:30:33 GMT 
+Mon, 01 Jul 2024 20:30:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.4.24..@fluentui/react-tabs_v9.4.25)
 
 ### Patches
 
-- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by seanmonahan@microsoft.com)
+- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.63 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.40 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-tabster to v9.22.1 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
@@ -588,7 +588,7 @@ Mon, 01 Jul 2024 20:30:33 GMT
 
 ## [9.4.24](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.4.24)
 
-Mon, 17 Jun 2024 07:34:17 GMT 
+Mon, 17 Jun 2024 07:34:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tabs_v9.4.23..@fluentui/react-tabs_v9.4.24)
 
 ### Patches
@@ -615,7 +615,7 @@ Thu, 23 May 2024 08:02:49 GMT
 
 ### Patches
 
-- chore: replace usage of .shorthands() in styles ([PR #31449](https://github.com/microsoft/fluentui/pull/31449) by olfedias@microsoft.com)
+- chore: replace usage of .shorthands() in styles ([PR #31449](https://github.com/microsoft/fluentui/pull/31449) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.21.4 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 
 ## [9.4.21](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.4.21)
@@ -625,7 +625,7 @@ Mon, 20 May 2024 12:45:05 GMT
 
 ### Patches
 
-- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by olfedias@microsoft.com)
+- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.60 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.38 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.19.0 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
@@ -733,8 +733,8 @@ Thu, 07 Mar 2024 19:33:26 GMT
 
 ### Patches
 
-- chore: remove invalid peerDependency on scheduler ([PR #30587](https://github.com/microsoft/fluentui/pull/30587) by olfedias@microsoft.com)
-- Removed unneeded zIndex from tab active indicator ([PR #30729](https://github.com/microsoft/fluentui/pull/30729) by gcox@microsoft.com)
+- chore: remove invalid peerDependency on scheduler ([PR #30587](https://github.com/microsoft/fluentui/pull/30587) by <olfedias@microsoft.com>)
+- Removed unneeded zIndex from tab active indicator ([PR #30729](https://github.com/microsoft/fluentui/pull/30729) by <gcox@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.54 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.32 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.15.0 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
@@ -832,8 +832,8 @@ Tue, 16 Jan 2024 13:14:10 GMT
 
 ### Patches
 
-- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by mgodbolt@microsoft.com)
-- bugfix: Omit colliding content property from ComponentProps ([PR #29865](https://github.com/microsoft/fluentui/pull/29865) by bernardo.sunderhus@gmail.com)
+- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by <mgodbolt@microsoft.com>)
+- bugfix: Omit colliding content property from ComponentProps ([PR #29865](https://github.com/microsoft/fluentui/pull/29865) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.1.47 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.25 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-tabster to v9.17.1 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
@@ -882,7 +882,7 @@ Thu, 14 Dec 2023 09:58:45 GMT
 
 ### Minor changes
 
-- feat: added select tab on focus behavior ([PR #29854](https://github.com/microsoft/fluentui/pull/29854) by gcox@microsoft.com)
+- feat: added select tab on focus behavior ([PR #29854](https://github.com/microsoft/fluentui/pull/29854) by <gcox@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.43 ([PR #30056](https://github.com/microsoft/fluentui/pull/30056) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.21 ([PR #30056](https://github.com/microsoft/fluentui/pull/30056) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.13.1 ([PR #30056](https://github.com/microsoft/fluentui/pull/30056) by beachball)
@@ -925,7 +925,7 @@ Thu, 09 Nov 2023 17:29:44 GMT
 
 ### Patches
 
-- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by martinhochel@microsoft.com)
+- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.42 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.19 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.12.0 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
@@ -970,7 +970,7 @@ Wed, 18 Oct 2023 17:54:06 GMT
 
 ### Patches
 
-- chore: migrate from getNativeElementProps to getIntrinsicElementProps ([PR #29499](https://github.com/microsoft/fluentui/pull/29499) by bernardo.sunderhus@gmail.com)
+- chore: migrate from getNativeElementProps to getIntrinsicElementProps ([PR #29499](https://github.com/microsoft/fluentui/pull/29499) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.1.41 ([PR #29560](https://github.com/microsoft/fluentui/pull/29560) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.18 ([PR #29560](https://github.com/microsoft/fluentui/pull/29560) by beachball)
 - Bump @fluentui/react-tabster to v9.14.0 ([PR #29560](https://github.com/microsoft/fluentui/pull/29560) by beachball)
@@ -1051,7 +1051,7 @@ Tue, 26 Sep 2023 17:49:12 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by yuanboxue@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by <yuanboxue@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.36 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.12 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.9.1 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
@@ -1066,7 +1066,7 @@ Tue, 26 Sep 2023 15:31:47 GMT
 
 ### Patches
 
-- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by martinhochel@microsoft.com)
+- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.35 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.11 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.9.0 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
@@ -1081,7 +1081,7 @@ Wed, 20 Sep 2023 17:47:43 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by martinhochel@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.10 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.8.1 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-tabster to v9.12.11 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
@@ -1147,8 +1147,8 @@ Tue, 05 Sep 2023 13:29:06 GMT
 
 ### Patches
 
-- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by bernardo.sunderhus@gmail.com)
-- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by bernardo.sunderhus@gmail.com)
+- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by <bernardo.sunderhus@gmail.com>)
+- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.1.32 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.4 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.7.3 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
@@ -1217,7 +1217,7 @@ Mon, 14 Aug 2023 21:22:22 GMT
 
 ### Patches
 
-- Defer tabs rectangle computation only when previousSelectedValue is defined ([PR #28749](https://github.com/microsoft/fluentui/pull/28749) by nasirvi@microsoft.com)
+- Defer tabs rectangle computation only when previousSelectedValue is defined ([PR #28749](https://github.com/microsoft/fluentui/pull/28749) by <nasirvi@microsoft.com>)
 
 ## [9.3.30](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.3.30)
 
@@ -1226,7 +1226,7 @@ Fri, 11 Aug 2023 12:14:25 GMT
 
 ### Patches
 
-- chore(react-tabs): migrate to new slot API ([PR #28773](https://github.com/microsoft/fluentui/pull/28773) by bernardo.sunderhus@gmail.com)
+- chore(react-tabs): migrate to new slot API ([PR #28773](https://github.com/microsoft/fluentui/pull/28773) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.1.28 ([PR #28808](https://github.com/microsoft/fluentui/pull/28808) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.15 ([PR #28808](https://github.com/microsoft/fluentui/pull/28808) by beachball)
 - Bump @fluentui/react-tabster to v9.12.2 ([PR #28808](https://github.com/microsoft/fluentui/pull/28808) by beachball)
@@ -1239,7 +1239,7 @@ Wed, 09 Aug 2023 13:17:06 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.14 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.7.2 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-tabster to v9.12.1 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
@@ -1374,7 +1374,7 @@ Wed, 31 May 2023 06:46:20 GMT
 
 ### Patches
 
-- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by seanmonahan@microsoft.com)
+- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.22 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.6 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-tabster to v9.7.5 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
@@ -1431,9 +1431,9 @@ Fri, 12 May 2023 20:27:51 GMT
 
 ### Patches
 
-- Update to use single hook selector ([PR #27491](https://github.com/microsoft/fluentui/pull/27491) by gcox@microsoft.com)
-- chore: move makeStyles() calls to .styles.ts files ([PR #27708](https://github.com/microsoft/fluentui/pull/27708) by olfedias@microsoft.com)
-- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by olfedias@microsoft.com)
+- Update to use single hook selector ([PR #27491](https://github.com/microsoft/fluentui/pull/27491) by <gcox@microsoft.com>)
+- chore: move makeStyles() calls to .styles.ts files ([PR #27708](https://github.com/microsoft/fluentui/pull/27708) by <olfedias@microsoft.com>)
+- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.19 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.3 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.4.0 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
@@ -1449,7 +1449,7 @@ Mon, 24 Apr 2023 08:12:43 GMT
 
 ### Patches
 
-- chore: adopts custom JSX pragma ([PR #27640](https://github.com/microsoft/fluentui/pull/27640) by bernardo.sunderhus@gmail.com)
+- chore: adopts custom JSX pragma ([PR #27640](https://github.com/microsoft/fluentui/pull/27640) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.2 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
 
 ## [9.3.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.3.10)
@@ -1470,7 +1470,7 @@ Wed, 12 Apr 2023 09:31:45 GMT
 
 ### Patches
 
-- added aria-orientation attribute ([PR #27315](https://github.com/microsoft/fluentui/pull/27315) by kakrookaran@gmail.com)
+- added aria-orientation attribute ([PR #27315](https://github.com/microsoft/fluentui/pull/27315) by <kakrookaran@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.1.17 ([PR #27274](https://github.com/microsoft/fluentui/pull/27274) by beachball)
 - Bump @fluentui/react-tabster to v9.6.4 ([PR #27274](https://github.com/microsoft/fluentui/pull/27274) by beachball)
 - Bump @fluentui/react-utilities to v9.7.4 ([PR #27274](https://github.com/microsoft/fluentui/pull/27274) by beachball)
@@ -1482,7 +1482,7 @@ Fri, 07 Apr 2023 00:01:44 GMT
 
 ### Patches
 
-- fix: Merged onClick callbacks in Tab ([PR #27477](https://github.com/microsoft/fluentui/pull/27477) by gcox@microsoft.com)
+- fix: Merged onClick callbacks in Tab ([PR #27477](https://github.com/microsoft/fluentui/pull/27477) by <gcox@microsoft.com>)
 
 ## [9.3.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.3.7)
 
@@ -1502,8 +1502,8 @@ Tue, 21 Mar 2023 21:23:07 GMT
 
 ### Patches
 
-- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by tristan.watanabe@gmail.com)
-- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by tristan.watanabe@gmail.com)
+- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by <tristan.watanabe@gmail.com>)
+- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by <tristan.watanabe@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.1.15 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.3.2 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-tabster to v9.6.1 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
@@ -1562,7 +1562,7 @@ Wed, 08 Mar 2023 17:42:46 GMT
 
 ### Minor changes
 
-- feat: Adding calls to custom style hooks derived from context. ([PR #27077](https://github.com/microsoft/fluentui/pull/27077) by gcox@microsoft.com)
+- feat: Adding calls to custom style hooks derived from context. ([PR #27077](https://github.com/microsoft/fluentui/pull/27077) by <gcox@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.11 ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.3.0 ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by beachball)
 - Bump @fluentui/react-tabster to v9.5.4 ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by beachball)
@@ -1570,7 +1570,7 @@ Wed, 08 Mar 2023 17:42:46 GMT
 
 ### Patches
 
-- Fixed missing outline when forced-colors active ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by gcox@microsoft.com)
+- Fixed missing outline when forced-colors active ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by <gcox@microsoft.com>)
 
 ## [9.2.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.2.4)
 
@@ -1621,7 +1621,7 @@ Tue, 31 Jan 2023 19:53:57 GMT
 
 ### Minor changes
 
-- chore: Added context exports ([PR #26552](https://github.com/microsoft/fluentui/pull/26552) by gcox@microsoft.com)
+- chore: Added context exports ([PR #26552](https://github.com/microsoft/fluentui/pull/26552) by <gcox@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.7 ([PR #26557](https://github.com/microsoft/fluentui/pull/26557) by beachball)
 - Bump @fluentui/react-tabster to v9.4.2 ([PR #26557](https://github.com/microsoft/fluentui/pull/26557) by beachball)
 - Bump @fluentui/react-utilities to v9.5.1 ([PR #26557](https://github.com/microsoft/fluentui/pull/26557) by beachball)
@@ -1673,7 +1673,7 @@ Wed, 04 Jan 2023 01:40:34 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #26045](https://github.com/microsoft/fluentui/pull/26045) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #26045](https://github.com/microsoft/fluentui/pull/26045) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.4 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
 - Bump @fluentui/react-tabster to v9.3.5 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
 - Bump @fluentui/react-utilities to v9.3.1 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
@@ -1729,8 +1729,8 @@ Fri, 11 Nov 2022 14:57:43 GMT
 
 ### Minor changes
 
-- Added support for reserving space for selected state ([PR #25542](https://github.com/microsoft/fluentui/pull/25542) by gcox@microsoft.com)
-- Added large size tabs ([PR #25577](https://github.com/microsoft/fluentui/pull/25577) by gcox@microsoft.com)
+- Added support for reserving space for selected state ([PR #25542](https://github.com/microsoft/fluentui/pull/25542) by <gcox@microsoft.com>)
+- Added large size tabs ([PR #25577](https://github.com/microsoft/fluentui/pull/25577) by <gcox@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.1 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
 - Bump @fluentui/react-tabster to v9.3.0 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
 - Bump @fluentui/react-theme to v9.1.2 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
@@ -1739,7 +1739,7 @@ Fri, 11 Nov 2022 14:57:43 GMT
 
 ### Patches
 
-- Added support for regular/filled icon toggling ([PR #25597](https://github.com/microsoft/fluentui/pull/25597) by gcox@microsoft.com)
+- Added support for regular/filled icon toggling ([PR #25597](https://github.com/microsoft/fluentui/pull/25597) by <gcox@microsoft.com>)
 
 ## [9.0.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.0.10)
 
@@ -1748,7 +1748,7 @@ Wed, 02 Nov 2022 11:58:03 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #25412](https://github.com/microsoft/fluentui/pull/25412) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25412](https://github.com/microsoft/fluentui/pull/25412) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.0 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 - Bump @fluentui/react-tabster to v9.2.1 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 - Bump @fluentui/react-utilities to v9.2.0 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
@@ -1761,9 +1761,9 @@ Thu, 20 Oct 2022 08:39:51 GMT
 
 ### Patches
 
-- chore: Migrate to new package structure. ([PR #25241](https://github.com/microsoft/fluentui/pull/25241) by tristan.watanabe@gmail.com)
-- chore: Update Griffel to latest version ([PR #25212](https://github.com/microsoft/fluentui/pull/25212) by olfedias@microsoft.com)
-- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by mgodbolt@microsoft.com)
+- chore: Migrate to new package structure. ([PR #25241](https://github.com/microsoft/fluentui/pull/25241) by <tristan.watanabe@gmail.com>)
+- chore: Update Griffel to latest version ([PR #25212](https://github.com/microsoft/fluentui/pull/25212) by <olfedias@microsoft.com>)
+- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.0.5 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 - Bump @fluentui/react-tabster to v9.2.0 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 - Bump @fluentui/react-theme to v9.1.1 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
@@ -1777,7 +1777,7 @@ Thu, 13 Oct 2022 11:03:02 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #25075](https://github.com/microsoft/fluentui/pull/25075) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25075](https://github.com/microsoft/fluentui/pull/25075) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.0.4 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
 - Bump @fluentui/react-tabster to v9.1.3 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
 - Bump @fluentui/react-utilities to v9.1.1 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
@@ -1808,8 +1808,8 @@ Thu, 15 Sep 2022 09:49:30 GMT
 
 ### Patches
 
-- fix: add type=button to root slot ([PR #24327](https://github.com/microsoft/fluentui/pull/24327) by sarah.higley@microsoft.com)
-- chore: Update Griffel to latest version ([PR #24221](https://github.com/microsoft/fluentui/pull/24221) by olfedias@microsoft.com)
+- fix: add type=button to root slot ([PR #24327](https://github.com/microsoft/fluentui/pull/24327) by <sarah.higley@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #24221](https://github.com/microsoft/fluentui/pull/24221) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.0.3 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 - Bump @fluentui/react-tabster to v9.1.1 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 - Bump @fluentui/react-theme to v9.1.0 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
@@ -1823,7 +1823,7 @@ Wed, 03 Aug 2022 16:04:04 GMT
 
 ### Patches
 
-- chore: Bump Griffel dependencies ([PR #24114](https://github.com/microsoft/fluentui/pull/24114) by miroslav.stastny@microsoft.com)
+- chore: Bump Griffel dependencies ([PR #24114](https://github.com/microsoft/fluentui/pull/24114) by <miroslav.stastny@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.1.0 ([PR #24131](https://github.com/microsoft/fluentui/pull/24131) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.12 ([PR #24131](https://github.com/microsoft/fluentui/pull/24131) by beachball)
 
@@ -1834,7 +1834,7 @@ Thu, 14 Jul 2022 21:21:05 GMT
 
 ### Patches
 
-- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by Humberto.Morimoto@microsoft.com)
+- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by <Humberto.Morimoto@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.0.2 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 - Bump @fluentui/react-tabster to v9.0.3 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 - Bump @fluentui/react-utilities to v9.0.2 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
@@ -1858,7 +1858,7 @@ Tue, 28 Jun 2022 17:39:53 GMT
 
 ### Patches
 
-- fix: Use caret dependency range for Griffel ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by lingfangao@hotmail.com)
+- fix: Use caret dependency range for Griffel ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-tabster to v9.0.1 ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.10 ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by beachball)
 
@@ -1869,7 +1869,7 @@ Tue, 28 Jun 2022 15:14:06 GMT
 
 ### Patches
 
-- feat: Initial 9.0.0 release ([PR #23733](https://github.com/microsoft/fluentui/pull/23733) by lingfangao@hotmail.com)
+- feat: Initial 9.0.0 release ([PR #23733](https://github.com/microsoft/fluentui/pull/23733) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-context-selector to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-theme to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
@@ -1878,10 +1878,10 @@ Tue, 28 Jun 2022 15:14:06 GMT
 
 ### Changes
 
-- chore: Using ::before and ::after instead of :before and :after. ([PR #23469](https://github.com/microsoft/fluentui/pull/23469) by Humberto.Morimoto@microsoft.com)
-- Bump Griffel dependencies ([PR #23688](https://github.com/microsoft/fluentui/pull/23688) by lingfangao@hotmail.com)
-- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by lingfangao@hotmail.com)
-- chore: Adding scheduler as a peer dependency since this package has a dependency on @fluentui/react-context-selector. ([PR #23681](https://github.com/microsoft/fluentui/pull/23681) by Humberto.Morimoto@microsoft.com)
+- chore: Using ::before and ::after instead of :before and :after. ([PR #23469](https://github.com/microsoft/fluentui/pull/23469) by <Humberto.Morimoto@microsoft.com>)
+- Bump Griffel dependencies ([PR #23688](https://github.com/microsoft/fluentui/pull/23688) by <lingfangao@hotmail.com>)
+- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by <lingfangao@hotmail.com>)
+- chore: Adding scheduler as a peer dependency since this package has a dependency on @fluentui/react-context-selector. ([PR #23681](https://github.com/microsoft/fluentui/pull/23681) by <Humberto.Morimoto@microsoft.com>)
 
 ## [9.0.0-rc.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.0.0-rc.6)
 
@@ -1900,7 +1900,7 @@ Tue, 31 May 2022 21:28:48 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #23275](https://github.com/microsoft/fluentui/pull/23275) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #23275](https://github.com/microsoft/fluentui/pull/23275) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.0.0-rc.10 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-rc.13 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.10 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
@@ -1913,7 +1913,7 @@ Thu, 26 May 2022 21:01:30 GMT
 
 ### Changes
 
-- Update README.md ([PR #23200](https://github.com/microsoft/fluentui/pull/23200) by gcox@microsoft.com)
+- Update README.md ([PR #23200](https://github.com/microsoft/fluentui/pull/23200) by <gcox@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.0.0-rc.12 ([PR #23267](https://github.com/microsoft/fluentui/pull/23267) by beachball)
 
 ## [9.0.0-rc.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.0.0-rc.3)
@@ -1923,7 +1923,7 @@ Mon, 23 May 2022 18:56:49 GMT
 
 ### Changes
 
-- Removing commons type from Label. ([PR #23092](https://github.com/microsoft/fluentui/pull/23092) by esteban.230@hotmail.com)
+- Removing commons type from Label. ([PR #23092](https://github.com/microsoft/fluentui/pull/23092) by <esteban.230@hotmail.com>)
 - Bump @fluentui/react-tabster to v9.0.0-rc.11 ([PR #23146](https://github.com/microsoft/fluentui/pull/23146) by beachball)
 - Bump @fluentui/react-theme to v9.0.0-rc.9 ([PR #23146](https://github.com/microsoft/fluentui/pull/23146) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.7 ([PR #23146](https://github.com/microsoft/fluentui/pull/23146) by beachball)
@@ -1935,16 +1935,16 @@ Mon, 23 May 2022 12:13:48 GMT
 
 ### Changes
 
-- Removed TabListCommons and TabCommons types ([PR #22922](https://github.com/microsoft/fluentui/pull/22922) by gcox@microsoft.com)
-- Removed flexgap from useTabStyles ([PR #22920](https://github.com/microsoft/fluentui/pull/22920) by gcox@microsoft.com)
-- Updated to focus on current selected tab ([PR #22900](https://github.com/microsoft/fluentui/pull/22900) by gcox@microsoft.com)
-- Used background rather than border ([PR #22869](https://github.com/microsoft/fluentui/pull/22869) by gcox@microsoft.com)
-- Moved react-tabs to stable and rc.1 ([PR #22923](https://github.com/microsoft/fluentui/pull/22923) by gcox@microsoft.com)
-- feat: ship rolluped only dts ([PR #22828](https://github.com/microsoft/fluentui/pull/22828) by martinhochel@microsoft.com)
-- chore: Update Griffel to latest version ([PR #22894](https://github.com/microsoft/fluentui/pull/22894) by olfedias@microsoft.com)
-- Remove overflow to allow focus outline to display ([PR #22897](https://github.com/microsoft/fluentui/pull/22897) by gcox@microsoft.com)
-- chore: Update Griffel to latest version ([PR #23029](https://github.com/microsoft/fluentui/pull/23029) by olfedias@microsoft.com)
-- Add aria-label for icon only story ([PR #22898](https://github.com/microsoft/fluentui/pull/22898) by gcox@microsoft.com)
+- Removed TabListCommons and TabCommons types ([PR #22922](https://github.com/microsoft/fluentui/pull/22922) by <gcox@microsoft.com>)
+- Removed flexgap from useTabStyles ([PR #22920](https://github.com/microsoft/fluentui/pull/22920) by <gcox@microsoft.com>)
+- Updated to focus on current selected tab ([PR #22900](https://github.com/microsoft/fluentui/pull/22900) by <gcox@microsoft.com>)
+- Used background rather than border ([PR #22869](https://github.com/microsoft/fluentui/pull/22869) by <gcox@microsoft.com>)
+- Moved react-tabs to stable and rc.1 ([PR #22923](https://github.com/microsoft/fluentui/pull/22923) by <gcox@microsoft.com>)
+- feat: ship rolluped only dts ([PR #22828](https://github.com/microsoft/fluentui/pull/22828) by <martinhochel@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #22894](https://github.com/microsoft/fluentui/pull/22894) by <olfedias@microsoft.com>)
+- Remove overflow to allow focus outline to display ([PR #22897](https://github.com/microsoft/fluentui/pull/22897) by <gcox@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #23029](https://github.com/microsoft/fluentui/pull/23029) by <olfedias@microsoft.com>)
+- Add aria-label for icon only story ([PR #22898](https://github.com/microsoft/fluentui/pull/22898) by <gcox@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.0.0-rc.9 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-rc.10 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
 - Bump @fluentui/react-theme to v9.0.0-rc.8 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
@@ -1971,11 +1971,11 @@ Wed, 04 May 2022 13:26:52 GMT
 
 ### Changes
 
-- Added aria-selected ([PR #22742](https://github.com/microsoft/fluentui/pull/22742) by gcox@microsoft.com)
-- Updated to use correct pseudo-elements ([PR #22768](https://github.com/microsoft/fluentui/pull/22768) by gcox@microsoft.com)
-- Updated to use tokens ([PR #22717](https://github.com/microsoft/fluentui/pull/22717) by gcox@microsoft.com)
-- Removed unnecessary width and height from indicators ([PR #22744](https://github.com/microsoft/fluentui/pull/22744) by gcox@microsoft.com)
-- Allow tab to animate when value is numeric zero ([PR #22754](https://github.com/microsoft/fluentui/pull/22754) by gcox@microsoft.com)
+- Added aria-selected ([PR #22742](https://github.com/microsoft/fluentui/pull/22742) by <gcox@microsoft.com>)
+- Updated to use correct pseudo-elements ([PR #22768](https://github.com/microsoft/fluentui/pull/22768) by <gcox@microsoft.com>)
+- Updated to use tokens ([PR #22717](https://github.com/microsoft/fluentui/pull/22717) by <gcox@microsoft.com>)
+- Removed unnecessary width and height from indicators ([PR #22744](https://github.com/microsoft/fluentui/pull/22744) by <gcox@microsoft.com>)
+- Allow tab to animate when value is numeric zero ([PR #22754](https://github.com/microsoft/fluentui/pull/22754) by <gcox@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.0.0-rc.7 ([PR #22786](https://github.com/microsoft/fluentui/pull/22786) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-rc.8 ([PR #22786](https://github.com/microsoft/fluentui/pull/22786) by beachball)
 - Bump @fluentui/react-theme to v9.0.0-rc.6 ([PR #22786](https://github.com/microsoft/fluentui/pull/22786) by beachball)
@@ -1988,7 +1988,7 @@ Mon, 25 Apr 2022 09:32:15 GMT
 
 ### Changes
 
-- Added styles to support future overflow calcs ([PR #22548](https://github.com/microsoft/fluentui/pull/22548) by gcox@microsoft.com)
+- Added styles to support future overflow calcs ([PR #22548](https://github.com/microsoft/fluentui/pull/22548) by <gcox@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.0.0-rc.7 ([PR #22601](https://github.com/microsoft/fluentui/pull/22601) by beachball)
 
 ## [9.0.0-beta.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-tabs_v9.0.0-beta.9)
@@ -1998,15 +1998,15 @@ Tue, 19 Apr 2022 19:16:56 GMT
 
 ### Changes
 
-- Set disabled tab background to transparent ([PR #22342](https://github.com/microsoft/fluentui/pull/22342) by gcox@microsoft.com)
-- Add static classnames to Tabs ([PR #21960](https://github.com/microsoft/fluentui/pull/21960) by seanmonahan@microsoft.com)
-- chore: Update Griffel to latest version ([PR #21976](https://github.com/microsoft/fluentui/pull/21976) by olfedias@microsoft.com)
-- Removing star exports. ([PR #22151](https://github.com/microsoft/fluentui/pull/22151) by Humberto.Morimoto@microsoft.com)
-- fix missing dependencies and lint warnings ([PR #21924](https://github.com/microsoft/fluentui/pull/21924) by martinhochel@microsoft.com)
-- Fix subtle style on tabs ([PR #22439](https://github.com/microsoft/fluentui/pull/22439) by gcox@microsoft.com)
-- react-tabs fit and finish ([PR #22225](https://github.com/microsoft/fluentui/pull/22225) by gcox@microsoft.com)
-- Set subtle tab background to subtle background tokens ([PR #22346](https://github.com/microsoft/fluentui/pull/22346) by gcox@microsoft.com)
-- Updated to decrease gap of small vertical tab per figma change ([PR #22335](https://github.com/microsoft/fluentui/pull/22335) by gcox@microsoft.com)
+- Set disabled tab background to transparent ([PR #22342](https://github.com/microsoft/fluentui/pull/22342) by <gcox@microsoft.com>)
+- Add static classnames to Tabs ([PR #21960](https://github.com/microsoft/fluentui/pull/21960) by <seanmonahan@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #21976](https://github.com/microsoft/fluentui/pull/21976) by <olfedias@microsoft.com>)
+- Removing star exports. ([PR #22151](https://github.com/microsoft/fluentui/pull/22151) by <Humberto.Morimoto@microsoft.com>)
+- fix missing dependencies and lint warnings ([PR #21924](https://github.com/microsoft/fluentui/pull/21924) by <martinhochel@microsoft.com>)
+- Fix subtle style on tabs ([PR #22439](https://github.com/microsoft/fluentui/pull/22439) by <gcox@microsoft.com>)
+- react-tabs fit and finish ([PR #22225](https://github.com/microsoft/fluentui/pull/22225) by <gcox@microsoft.com>)
+- Set subtle tab background to subtle background tokens ([PR #22346](https://github.com/microsoft/fluentui/pull/22346) by <gcox@microsoft.com>)
+- Updated to decrease gap of small vertical tab per figma change ([PR #22335](https://github.com/microsoft/fluentui/pull/22335) by <gcox@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.0.0-rc.6 ([PR #21995](https://github.com/microsoft/fluentui/pull/21995) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-rc.6 ([PR #21995](https://github.com/microsoft/fluentui/pull/21995) by beachball)
 - Bump @fluentui/react-theme to v9.0.0-rc.5 ([PR #21995](https://github.com/microsoft/fluentui/pull/21995) by beachball)
@@ -2020,7 +2020,7 @@ Fri, 04 Mar 2022 05:17:30 GMT
 
 ### Changes
 
-- Adding explicit export maps on all consumer packages for FUIR 8 and 9. ([PR #21508](https://github.com/microsoft/fluentui/pull/21508) by dzearing@microsoft.com)
+- Adding explicit export maps on all consumer packages for FUIR 8 and 9. ([PR #21508](https://github.com/microsoft/fluentui/pull/21508) by <dzearing@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.0.0-rc.5 ([PR #21947](https://github.com/microsoft/fluentui/pull/21947) by beachball)
 - Bump @fluentui/react-theme to v9.0.0-rc.4 ([PR #21947](https://github.com/microsoft/fluentui/pull/21947) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.5 ([PR #21947](https://github.com/microsoft/fluentui/pull/21947) by beachball)
@@ -2033,7 +2033,7 @@ Tue, 01 Mar 2022 02:17:39 GMT
 
 ### Changes
 
-- fix: Add react-theme as dependency ([PR #21825](https://github.com/microsoft/fluentui/pull/21825) by olfedias@microsoft.com)
+- fix: Add react-theme as dependency ([PR #21825](https://github.com/microsoft/fluentui/pull/21825) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.0.0-rc.4 ([PR #21884](https://github.com/microsoft/fluentui/pull/21884) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.4 ([PR #21884](https://github.com/microsoft/fluentui/pull/21884) by beachball)
 - Bump @fluentui/react-context-selector to v9.0.0-rc.4 ([PR #21884](https://github.com/microsoft/fluentui/pull/21884) by beachball)
@@ -2045,9 +2045,9 @@ Fri, 18 Feb 2022 13:35:35 GMT
 
 ### Changes
 
-- chore: Force bump all v9 packages to release correct source maps ([PR #21690](https://github.com/microsoft/fluentui/pull/21690) by lingfangao@hotmail.com)
-- Updated beta and RC components to ES2019 ([PR #20405](https://github.com/microsoft/fluentui/pull/20405) by gcox@microsoft.com)
-- Publish initial version ([PR #21763](https://github.com/microsoft/fluentui/pull/21763) by gcox@microsoft.com)
+- chore: Force bump all v9 packages to release correct source maps ([PR #21690](https://github.com/microsoft/fluentui/pull/21690) by <lingfangao@hotmail.com>)
+- Updated beta and RC components to ES2019 ([PR #20405](https://github.com/microsoft/fluentui/pull/20405) by <gcox@microsoft.com>)
+- Publish initial version ([PR #21763](https://github.com/microsoft/fluentui/pull/21763) by <gcox@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.0.0-rc.3 ([PR #21800](https://github.com/microsoft/fluentui/pull/21800) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.3 ([PR #21800](https://github.com/microsoft/fluentui/pull/21800) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.3 ([PR #21800](https://github.com/microsoft/fluentui/pull/21800) by beachball)

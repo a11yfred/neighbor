@@ -5,17 +5,17 @@ All notable changes to this project will be documented in this file.
 ## [2.0.0] - 2026-05-24
 
 ### Added
+
 - **Remix 3 Support**: Added a dedicated ESLint configuration (`@a11yfred/neighbor/remix3`) that warns against `usePageTitle()` and hash router imports to ensure smooth transition to file-based routing.
 - **Web Components / Vanilla HTML Support**: Added a dedicated ESLint configuration (`@a11yfred/neighbor/webcomponents`) and AST adapter utilizing `@html-eslint/parser` to natively lint vanilla HTML elements and Lit templates.
 - **App Stubs**: Scaffolded workspace directories for `webapp`, `chrome-extension`, `firefox-extension`, and `electron-app`.
 
 ### Changed
+
 - **Rule Severities**: All recommended framework ARIA rules and Vale content rules are now set to `'warn'` by default to reduce friction on initial adoption.
 - **Rule Severities**: The `prefer-aria-disabled` rule is explicitly set to `'error'`, as previously documented.
 - **Linter Dependencies**: Dropped `eslint-plugin-jsx-a11y` as a direct dependency. It is now an optional `peerDependency`, meaning teams using only Web Components or text linting aren't forced to install React accessibility rules. `eslint-plugin-vuejs-accessibility` and `@angular-eslint/eslint-plugin-template` have also been properly registered as optional.
 - **Vale Configs**: Automatically generated and packaged the latest 10 content rules for `@a11yfred/vale-config-neighbor`.
-
-
 
 ## 1.1.0  -  2026-05-23
 

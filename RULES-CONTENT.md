@@ -259,14 +259,13 @@ Flags `&` used in place of "and" in prose.
 
 ---
 
-
 ---
 
 ### Inclusive Jargon & Decolonized Language
 
 #### `no-exclusive-language`
 
-Flags unnecessarily violent, culturally appropriated, or racially loaded tech jargon. 
+Flags unnecessarily violent, culturally appropriated, or racially loaded tech jargon.
 
 **WCAG basis:** No direct SC. Grounded in Google, Microsoft, and public health style guides that emphasize the tech industry moving away from appropriated language.
 

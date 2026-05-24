@@ -25,6 +25,7 @@ Add `neighbor` to your `.textlintrc` or `.textlintrc.json`:
 ### What it checks
 
 This rule analyzes your markdown and text nodes for:
+
 * **Ableist Language**: Flags slurs, condescending euphemisms, and suffering-framing.
 * **Disability Metaphors**: Flags figurative uses of disability ("blind spot", "tone deaf").
 * **English Idioms**: Flags opaque business jargon and sports metaphors that are inaccessible to ESL readers.

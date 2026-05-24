@@ -1,4 +1,4 @@
-# tinycolor 
+# tinycolor
 
 [![npm](https://badgen.net/npm/v/@ctrl/tinycolor)](https://www.npmjs.com/package/@ctrl/tinycolor)
 [![CircleCI](https://badgen.net/circleci/github/scttcper/tinycolor)](https://circleci.com/gh/scttcper/tinycolor)
@@ -9,7 +9,7 @@
 
 A fork of [tinycolor2](https://github.com/bgrins/TinyColor) by [Brian Grinstead](https://github.com/bgrins)
 
-__DEMO__: https://tinycolor.vercel.app  
+__DEMO__: <https://tinycolor.vercel.app>  
 
 ### Changes from tinycolor2
 
@@ -107,6 +107,7 @@ new TinyColor('darkblue');
 ```
 
 ### Number
+
 ```ts
 new TinyColor(0x0);
 new TinyColor(0xaabbcc);
@@ -285,6 +286,7 @@ color.toHslString(); // "hsla(0, 100%, 50%, 0.5)"
 ```
 
 ### toNumber
+
 ```ts
 new TinyColor('#aabbcc').toNumber() === 0xaabbcc // true
 new TinyColor('rgb(1, 1, 1)').toNumber() === (1 << 16) + (1 << 8) + 1 // true

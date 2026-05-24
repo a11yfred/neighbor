@@ -17,11 +17,12 @@
  */
 
 import { h } from '@a11yfred/neighbor/lib/helpers-jsx.js'
-import { buildRules, buildRecommendedRules } from '@a11yfred/neighbor/lib/rules.js'
+import { buildRules, buildRecommendedRules, buildReactFrameworkRules } from '@a11yfred/neighbor/lib/rules.js'
 import { buildUlamRules, buildUlamRecommendedRules } from '@a11yfred/neighbor/lib/ulam-rules.js'
+import { buildRemixRules, buildRemixRecommendedRules } from '@a11yfred/neighbor/lib/framework-rules.js'
 
 const NS = '@a11yfred/neighbor'
-const rules = { ...buildRules(h), ...buildUlamRules() }
+const rules = { ...buildRules(h), ...buildUlamRules(), ...buildRemixRules() }
 
 const plugin = { meta: { name: `${NS}/remix3` }, rules }
 
@@ -40,6 +41,8 @@ export default {
         ...(jsxA11y ? jsxA11y.configs.recommended.rules : {}),
         ...buildRecommendedRules(NS),
         ...buildUlamRecommendedRules(NS),
+        ...buildReactFrameworkRules(NS),
+        ...buildRemixRecommendedRules(NS),
       },
     },
   },

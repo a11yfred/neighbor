@@ -1,15 +1,17 @@
 # @a11yfred/neighbor
 
-Neighbor is an accessibility linting plugin for ESLint and Stylelint that builds on jsx-a11y. It looks to cover gaps: bad ARIA patterns, live region misuse, missing names on roles, and CSS that removes focus indicators. It also brings that coverage to Vue and Angular, where jsx-a11y does not apply.
+The a11yfred accessibility linter ecosystem. This monorepo houses a suite of plugins covering React, Vue, Angular, Remix, Vanilla Web Components, CSS, and prose content across ESLint, Stylelint, and Vale.
 
-Some rules are specific to **@ulam**  -  an upcoming JavaScript framework by the same author. Those rules are prefixed `no-announce-in-render`, `no-hash-router-in-remix`, and `no-use-page-title-in-remix`. They activate only when @ulam-related imports are detected and are harmless in non-@ulam projects.
+It builds on foundational tools like `eslint-plugin-jsx-a11y` to cover gaps: bad ARIA patterns, live region misuse, missing names on roles, and CSS that removes focus indicators. It also brings that robust coverage to non-React frameworks like Vue, Angular, and Vanilla Web Components.
+
+Some rules are specific to **@ulam** — an upcoming JavaScript framework by the same author. Those rules are prefixed `no-announce-in-render`, `no-hash-router-in-remix`, and `no-use-page-title-in-remix`. They activate only when @ulam-related imports are detected and are harmless in non-@ulam projects.
 
 ## Contents
 
 - [Install](#install)
 - [Entry points](#entry-points)
 - [Setup](#setup)
-  - [Vanilla JS / plain HTML (no framework)](#vanilla-js--plain-html-no-framework)
+  - [Vanilla JS / Web Components / plain HTML](#vanilla-js--web-components--plain-html)
   - [React / JSX](#react-jsx)
   - [Remix 2](#remix-2)
   - [Remix 3](#remix-3)
@@ -49,14 +51,15 @@ npm install --save-dev @a11yfred/neighbor
 
 ## Setup
 
-### Vanilla JS / plain HTML (no framework)
+### Vanilla JS / Web Components / plain HTML
 
-If you write plain JavaScript with no JSX, React, Vue, or Angular, only the **Stylelint CSS rules** and the **content linter** apply. The ESLint markup rules require a component framework. They lint JSX or template syntax that plain JS does not have.
+If you write plain HTML or Vanilla Web Components (like Lit), you can use the `@a11yfred/neighbor/webcomponents` configuration. It natively lints standard HTML syntax for accessibility violations!
 
 What you get:
 
 | Plugin | What it checks |
 | --- | --- |
+| ESLint (`@a11yfred/neighbor/webcomponents`) | Markup: Native HTML elements and Lit templates for ARIA misuse, missing labels, etc. |
 | Stylelint (`@a11yfred/neighbor`) | CSS: bare `outline: none`, forced-colors opt-out, motion/transparency without `prefers-*` fallbacks |
 | Content linter (`@a11yfred/neighbor/content`) | JS strings: ableist language, vague CTAs, unexplained abbreviations, idioms, all-caps prose |
 
@@ -138,7 +141,7 @@ export default [
 }
 ```
 
-The ESLint markup rules (`@a11yfred/neighbor/eslint` and variants) require JSX or a component template syntax. They will not produce useful output on plain HTML or vanilla JS files and should be skipped.
+The ESLint markup rules (`@a11yfred/neighbor/eslint` and variants) require a template syntax to parse (like JSX, Vue templates, or HTML strings). For vanilla HTML or Web Components, you should use the `@a11yfred/neighbor/webcomponents` plugin along with the `@html-eslint/parser`!
 
 ---
 

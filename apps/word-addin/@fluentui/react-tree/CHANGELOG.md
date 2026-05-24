@@ -6,12 +6,12 @@ This log was last generated on Thu, 23 Apr 2026 11:59:37 GMT and should not be m
 
 ## [9.16.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.16.0)
 
-Thu, 23 Apr 2026 11:59:37 GMT 
+Thu, 23 Apr 2026 11:59:37 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.16..@fluentui/react-tree_v9.16.0)
 
 ### Minor changes
 
-- feat: add CollapseParams to the motion slot type ([PR #36011](https://github.com/microsoft/fluentui/pull/36011) by robertpenner@microsoft.com)
+- feat: add CollapseParams to the motion slot type ([PR #36011](https://github.com/microsoft/fluentui/pull/36011) by <robertpenner@microsoft.com>)
 - Bump @fluentui/react-aria to v9.17.11 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-avatar to v9.11.1 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-button to v9.9.1 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
@@ -26,11 +26,11 @@ Thu, 23 Apr 2026 11:59:37 GMT
 
 ### Patches
 
-- perf: memoize context values in use*ContextValues hooks ([PR #36008](https://github.com/microsoft/fluentui/pull/36008) by olfedias@microsoft.com)
+- perf: memoize context values in use*ContextValues hooks ([PR #36008](https://github.com/microsoft/fluentui/pull/36008) by <olfedias@microsoft.com>)
 
 ## [9.15.16](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.16)
 
-Wed, 01 Apr 2026 15:52:43 GMT 
+Wed, 01 Apr 2026 15:52:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.15..@fluentui/react-tree_v9.15.16)
 
 ### Patches
@@ -41,7 +41,7 @@ Wed, 01 Apr 2026 15:52:43 GMT
 
 ## [9.15.15](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.15)
 
-Mon, 30 Mar 2026 14:37:41 GMT 
+Mon, 30 Mar 2026 14:37:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.14..@fluentui/react-tree_v9.15.15)
 
 ### Patches
@@ -53,7 +53,7 @@ Mon, 30 Mar 2026 14:37:41 GMT
 
 ## [9.15.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.14)
 
-Thu, 26 Mar 2026 08:12:54 GMT 
+Thu, 26 Mar 2026 08:12:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.13..@fluentui/react-tree_v9.15.14)
 
 ### Patches
@@ -64,7 +64,7 @@ Thu, 26 Mar 2026 08:12:54 GMT
 
 ## [9.15.13](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.13)
 
-Wed, 11 Mar 2026 09:22:22 GMT 
+Wed, 11 Mar 2026 09:22:22 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.12..@fluentui/react-tree_v9.15.13)
 
 ### Patches
@@ -74,7 +74,7 @@ Wed, 11 Mar 2026 09:22:22 GMT
 
 ## [9.15.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.12)
 
-Tue, 03 Mar 2026 09:43:43 GMT 
+Tue, 03 Mar 2026 09:43:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.11..@fluentui/react-tree_v9.15.12)
 
 ### Patches
@@ -85,7 +85,7 @@ Tue, 03 Mar 2026 09:43:43 GMT
 
 ## [9.15.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.11)
 
-Wed, 25 Feb 2026 13:32:28 GMT 
+Wed, 25 Feb 2026 13:32:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.10..@fluentui/react-tree_v9.15.11)
 
 ### Patches
@@ -105,7 +105,7 @@ Wed, 25 Feb 2026 13:32:28 GMT
 
 ## [9.15.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.10)
 
-Thu, 12 Feb 2026 10:46:15 GMT 
+Thu, 12 Feb 2026 10:46:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.9..@fluentui/react-tree_v9.15.10)
 
 ### Patches
@@ -119,7 +119,7 @@ Thu, 12 Feb 2026 10:46:15 GMT
 
 ## [9.15.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.9)
 
-Thu, 22 Jan 2026 17:06:29 GMT 
+Thu, 22 Jan 2026 17:06:29 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.8..@fluentui/react-tree_v9.15.9)
 
 ### Patches
@@ -140,7 +140,7 @@ Thu, 22 Jan 2026 17:06:29 GMT
 
 ## [9.15.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.8)
 
-Wed, 17 Dec 2025 18:10:11 GMT 
+Wed, 17 Dec 2025 18:10:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.7..@fluentui/react-tree_v9.15.8)
 
 ### Patches
@@ -159,23 +159,23 @@ Wed, 17 Dec 2025 18:10:11 GMT
 
 ## [9.15.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.7)
 
-Fri, 05 Dec 2025 22:38:27 GMT 
+Fri, 05 Dec 2025 22:38:27 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.6..@fluentui/react-tree_v9.15.7)
 
 ### Patches
 
-- fix: Making TreeItemLayout and TreeItemPersonaLayout render a tree's appearance the same way ([PR #35373](https://github.com/microsoft/fluentui/pull/35373) by 7254163+mindlessroman@users.noreply.github.com)
+- fix: Making TreeItemLayout and TreeItemPersonaLayout render a tree's appearance the same way ([PR #35373](https://github.com/microsoft/fluentui/pull/35373) by <7254163+mindlessroman@users.noreply.github.com>)
 - Bump @fluentui/react-button to v9.7.0 ([PR #35537](https://github.com/microsoft/fluentui/pull/35537) by beachball)
 
 ## [9.15.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.6)
 
-Tue, 11 Nov 2025 19:18:14 GMT 
+Tue, 11 Nov 2025 19:18:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.5..@fluentui/react-tree_v9.15.6)
 
 ### Patches
 
-- performance optimization in react-tree ([PR #35198](https://github.com/microsoft/fluentui/pull/35198) by maachin@gmail.com)
-- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by estebanmu@microsoft.com)
+- performance optimization in react-tree ([PR #35198](https://github.com/microsoft/fluentui/pull/35198) by <maachin@gmail.com>)
+- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by <estebanmu@microsoft.com>)
 - Bump @fluentui/react-aria to v9.17.6 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-avatar to v9.9.12 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-button to v9.6.12 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
@@ -191,7 +191,7 @@ Tue, 11 Nov 2025 19:18:14 GMT
 
 ## [9.15.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.5)
 
-Thu, 06 Nov 2025 17:24:17 GMT 
+Thu, 06 Nov 2025 17:24:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.4..@fluentui/react-tree_v9.15.5)
 
 ### Patches
@@ -200,12 +200,12 @@ Thu, 06 Nov 2025 17:24:17 GMT
 
 ## [9.15.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.4)
 
-Thu, 06 Nov 2025 15:01:15 GMT 
+Thu, 06 Nov 2025 15:01:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.3..@fluentui/react-tree_v9.15.4)
 
 ### Patches
 
-- chore: migrate source to react 19 ([PR #35434](https://github.com/microsoft/fluentui/pull/35434) by martinhochel@microsoft.com)
+- chore: migrate source to react 19 ([PR #35434](https://github.com/microsoft/fluentui/pull/35434) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-aria to v9.17.5 ([PR #35466](https://github.com/microsoft/fluentui/pull/35466) by beachball)
 - Bump @fluentui/react-avatar to v9.9.11 ([PR #35466](https://github.com/microsoft/fluentui/pull/35466) by beachball)
 - Bump @fluentui/react-button to v9.6.11 ([PR #35466](https://github.com/microsoft/fluentui/pull/35466) by beachball)
@@ -220,7 +220,7 @@ Thu, 06 Nov 2025 15:01:15 GMT
 
 ## [9.15.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.3)
 
-Fri, 31 Oct 2025 16:22:06 GMT 
+Fri, 31 Oct 2025 16:22:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.2..@fluentui/react-tree_v9.15.3)
 
 ### Patches
@@ -239,7 +239,7 @@ Fri, 31 Oct 2025 16:22:06 GMT
 
 ## [9.15.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.2)
 
-Tue, 21 Oct 2025 14:16:59 GMT 
+Tue, 21 Oct 2025 14:16:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.1..@fluentui/react-tree_v9.15.2)
 
 ### Patches
@@ -253,7 +253,7 @@ Tue, 21 Oct 2025 14:16:59 GMT
 
 ## [9.15.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.1)
 
-Wed, 08 Oct 2025 12:04:53 GMT 
+Wed, 08 Oct 2025 12:04:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.15.0..@fluentui/react-tree_v9.15.1)
 
 ### Patches
@@ -272,16 +272,16 @@ Wed, 08 Oct 2025 12:04:53 GMT
 
 ## [9.15.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.15.0)
 
-Mon, 06 Oct 2025 15:01:58 GMT 
+Mon, 06 Oct 2025 15:01:58 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.14.1..@fluentui/react-tree_v9.15.0)
 
 ### Minor changes
 
-- added return type to useTreeNavigation hook ([PR #35283](https://github.com/microsoft/fluentui/pull/35283) by patrycja.fogelman@microsoft.com)
+- added return type to useTreeNavigation hook ([PR #35283](https://github.com/microsoft/fluentui/pull/35283) by <patrycja.fogelman@microsoft.com>)
 
 ## [9.14.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.14.1)
 
-Fri, 03 Oct 2025 14:19:04 GMT 
+Fri, 03 Oct 2025 14:19:04 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.14.0..@fluentui/react-tree_v9.14.1)
 
 ### Patches
@@ -290,12 +290,12 @@ Fri, 03 Oct 2025 14:19:04 GMT
 
 ## [9.14.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.14.0)
 
-Thu, 02 Oct 2025 15:12:09 GMT 
+Thu, 02 Oct 2025 15:12:09 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.13.1..@fluentui/react-tree_v9.14.0)
 
 ### Minor changes
 
-- exported 'useTreeNavigation' hook ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by patrycja.fogelman@microsoft.com)
+- exported 'useTreeNavigation' hook ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by <patrycja.fogelman@microsoft.com>)
 - Bump @fluentui/react-aria to v9.17.1 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-avatar to v9.9.7 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-button to v9.6.7 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
@@ -311,18 +311,18 @@ Thu, 02 Oct 2025 15:12:09 GMT
 
 ### Patches
 
-- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by dmytrokirpa@microsoft.com)
+- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by <dmytrokirpa@microsoft.com>)
 
 ## [9.13.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.13.1)
 
-Mon, 08 Sep 2025 12:50:52 GMT 
+Mon, 08 Sep 2025 12:50:52 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.13.0..@fluentui/react-tree_v9.13.1)
 
 ### Patches
 
-- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by dmytrokirpa@microsoft.com)
-- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by dmytrokirpa@microsoft.com)
-- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by dmytrokirpa@microsoft.com)
+- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by <dmytrokirpa@microsoft.com>)
+- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by <dmytrokirpa@microsoft.com>)
+- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-aria to v9.17.0 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-avatar to v9.9.6 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-button to v9.6.6 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
@@ -338,12 +338,12 @@ Mon, 08 Sep 2025 12:50:52 GMT
 
 ## [9.13.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.13.0)
 
-Thu, 21 Aug 2025 12:25:25 GMT 
+Thu, 21 Aug 2025 12:25:25 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.12.4..@fluentui/react-tree_v9.13.0)
 
 ### Minor changes
 
-- feat: Export TreeItemCSSProperties for external usage ([PR #35007](https://github.com/microsoft/fluentui/pull/35007) by mifraser@microsoft.com)
+- feat: Export TreeItemCSSProperties for external usage ([PR #35007](https://github.com/microsoft/fluentui/pull/35007) by <mifraser@microsoft.com>)
 - Bump @fluentui/react-aria to v9.16.4 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
 - Bump @fluentui/react-avatar to v9.9.5 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
 - Bump @fluentui/react-button to v9.6.5 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
@@ -359,13 +359,13 @@ Thu, 21 Aug 2025 12:25:25 GMT
 
 ## [9.12.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.12.4)
 
-Thu, 07 Aug 2025 10:03:30 GMT 
+Thu, 07 Aug 2025 10:03:30 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.12.3..@fluentui/react-tree_v9.12.4)
 
 ### Patches
 
-- Fixed no onNavigate event not firing when clicked on a leaf ([PR #34964](https://github.com/microsoft/fluentui/pull/34964) by patrycja.fogelman@microsoft.com)
-- fix: migrate to R19 compatible JSX.* namespace types ([PR #34923](https://github.com/microsoft/fluentui/pull/34923) by martinhochel@microsoft.com)
+- Fixed no onNavigate event not firing when clicked on a leaf ([PR #34964](https://github.com/microsoft/fluentui/pull/34964) by <patrycja.fogelman@microsoft.com>)
+- fix: migrate to R19 compatible JSX.* namespace types ([PR #34923](https://github.com/microsoft/fluentui/pull/34923) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-aria to v9.16.3 ([PR #34980](https://github.com/microsoft/fluentui/pull/34980) by beachball)
 - Bump @fluentui/react-avatar to v9.9.4 ([PR #34980](https://github.com/microsoft/fluentui/pull/34980) by beachball)
 - Bump @fluentui/react-button to v9.6.4 ([PR #34980](https://github.com/microsoft/fluentui/pull/34980) by beachball)
@@ -380,7 +380,7 @@ Thu, 07 Aug 2025 10:03:30 GMT
 
 ## [9.12.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.12.3)
 
-Wed, 30 Jul 2025 16:55:39 GMT 
+Wed, 30 Jul 2025 16:55:39 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.12.2..@fluentui/react-tree_v9.12.3)
 
 ### Patches
@@ -391,7 +391,7 @@ Wed, 30 Jul 2025 16:55:39 GMT
 
 ## [9.12.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.12.2)
 
-Wed, 30 Jul 2025 13:10:57 GMT 
+Wed, 30 Jul 2025 13:10:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.12.1..@fluentui/react-tree_v9.12.2)
 
 ### Patches
@@ -412,7 +412,7 @@ Wed, 30 Jul 2025 13:10:57 GMT
 
 ## [9.12.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.12.1)
 
-Mon, 28 Jul 2025 18:48:21 GMT 
+Mon, 28 Jul 2025 18:48:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.12.0..@fluentui/react-tree_v9.12.1)
 
 ### Patches
@@ -431,12 +431,12 @@ Mon, 28 Jul 2025 18:48:21 GMT
 
 ## [9.12.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.12.0)
 
-Thu, 17 Jul 2025 13:49:51 GMT 
+Thu, 17 Jul 2025 13:49:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.11.8..@fluentui/react-tree_v9.12.0)
 
 ### Minor changes
 
-- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by martinhochel@microsoft.com)
+- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-aria to v9.15.4 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 - Bump @fluentui/react-avatar to v9.9.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 - Bump @fluentui/react-button to v9.6.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
@@ -446,7 +446,7 @@ Thu, 17 Jul 2025 13:49:51 GMT
 
 ## [9.11.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.11.8)
 
-Wed, 16 Jul 2025 13:52:50 GMT 
+Wed, 16 Jul 2025 13:52:50 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.11.7..@fluentui/react-tree_v9.11.8)
 
 ### Patches
@@ -455,7 +455,7 @@ Wed, 16 Jul 2025 13:52:50 GMT
 
 ## [9.11.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.11.7)
 
-Fri, 11 Jul 2025 15:59:24 GMT 
+Fri, 11 Jul 2025 15:59:24 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.11.6..@fluentui/react-tree_v9.11.7)
 
 ### Patches
@@ -466,7 +466,7 @@ Fri, 11 Jul 2025 15:59:24 GMT
 
 ## [9.11.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.11.6)
 
-Fri, 04 Jul 2025 10:02:48 GMT 
+Fri, 04 Jul 2025 10:02:48 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.11.5..@fluentui/react-tree_v9.11.6)
 
 ### Patches
@@ -477,7 +477,7 @@ Fri, 04 Jul 2025 10:02:48 GMT
 
 ## [9.11.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.11.5)
 
-Fri, 27 Jun 2025 13:39:41 GMT 
+Fri, 27 Jun 2025 13:39:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.11.4..@fluentui/react-tree_v9.11.5)
 
 ### Patches
@@ -491,7 +491,7 @@ Fri, 27 Jun 2025 13:39:41 GMT
 
 ## [9.11.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.11.4)
 
-Thu, 26 Jun 2025 14:11:55 GMT 
+Thu, 26 Jun 2025 14:11:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.11.3..@fluentui/react-tree_v9.11.4)
 
 ### Patches
@@ -510,7 +510,7 @@ Thu, 26 Jun 2025 14:11:55 GMT
 
 ## [9.11.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.11.3)
 
-Mon, 23 Jun 2025 15:49:48 GMT 
+Mon, 23 Jun 2025 15:49:48 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.11.2..@fluentui/react-tree_v9.11.3)
 
 ### Patches
@@ -521,7 +521,7 @@ Mon, 23 Jun 2025 15:49:48 GMT
 
 ## [9.11.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.11.2)
 
-Wed, 18 Jun 2025 17:34:00 GMT 
+Wed, 18 Jun 2025 17:34:00 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.11.1..@fluentui/react-tree_v9.11.2)
 
 ### Patches
@@ -541,7 +541,7 @@ Wed, 18 Jun 2025 17:34:00 GMT
 
 ## [9.11.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.11.1)
 
-Fri, 13 Jun 2025 12:32:53 GMT 
+Fri, 13 Jun 2025 12:32:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.11.0..@fluentui/react-tree_v9.11.1)
 
 ### Patches
@@ -552,7 +552,7 @@ Fri, 13 Jun 2025 12:32:53 GMT
 
 ## [9.11.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.11.0)
 
-Thu, 12 Jun 2025 09:43:32 GMT 
+Thu, 12 Jun 2025 09:43:32 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.12..@fluentui/react-tree_v9.11.0)
 
 ### Minor changes
@@ -571,7 +571,7 @@ Thu, 12 Jun 2025 09:43:32 GMT
 
 ## [9.10.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.12)
 
-Wed, 11 Jun 2025 22:31:58 GMT 
+Wed, 11 Jun 2025 22:31:58 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.11..@fluentui/react-tree_v9.10.12)
 
 ### Patches
@@ -582,12 +582,12 @@ Wed, 11 Jun 2025 22:31:58 GMT
 
 ## [9.10.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.11)
 
-Fri, 06 Jun 2025 13:15:17 GMT 
+Fri, 06 Jun 2025 13:15:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.10..@fluentui/react-tree_v9.10.11)
 
 ### Patches
 
-- chore: re-introduce active state style to TreeItemLayout ([PR #34558](https://github.com/microsoft/fluentui/pull/34558) by bernardo.sunderhus@gmail.com)
+- chore: re-introduce active state style to TreeItemLayout ([PR #34558](https://github.com/microsoft/fluentui/pull/34558) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.14.8 ([PR #34572](https://github.com/microsoft/fluentui/pull/34572) by beachball)
 - Bump @fluentui/react-avatar to v9.7.8 ([PR #34572](https://github.com/microsoft/fluentui/pull/34572) by beachball)
 - Bump @fluentui/react-button to v9.4.8 ([PR #34572](https://github.com/microsoft/fluentui/pull/34572) by beachball)
@@ -602,7 +602,7 @@ Fri, 06 Jun 2025 13:15:17 GMT
 
 ## [9.10.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.10)
 
-Wed, 14 May 2025 18:49:20 GMT 
+Wed, 14 May 2025 18:49:20 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.9..@fluentui/react-tree_v9.10.10)
 
 ### Patches
@@ -618,7 +618,7 @@ Wed, 14 May 2025 18:49:20 GMT
 
 ## [9.10.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.9)
 
-Thu, 24 Apr 2025 09:59:45 GMT 
+Thu, 24 Apr 2025 09:59:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.8..@fluentui/react-tree_v9.10.9)
 
 ### Patches
@@ -632,7 +632,7 @@ Thu, 24 Apr 2025 09:59:45 GMT
 
 ## [9.10.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.8)
 
-Wed, 16 Apr 2025 19:42:05 GMT 
+Wed, 16 Apr 2025 19:42:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.7..@fluentui/react-tree_v9.10.8)
 
 ### Patches
@@ -651,7 +651,7 @@ Wed, 16 Apr 2025 19:42:05 GMT
 
 ## [9.10.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.7)
 
-Tue, 01 Apr 2025 15:08:02 GMT 
+Tue, 01 Apr 2025 15:08:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.6..@fluentui/react-tree_v9.10.7)
 
 ### Patches
@@ -665,12 +665,12 @@ Tue, 01 Apr 2025 15:08:02 GMT
 
 ## [9.10.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.6)
 
-Thu, 27 Mar 2025 21:12:50 GMT 
+Thu, 27 Mar 2025 21:12:50 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.5..@fluentui/react-tree_v9.10.6)
 
 ### Patches
 
-- feat: add customStyleHook ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by dmytrokirpa@microsoft.com)
+- feat: add customStyleHook ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-aria to v9.14.3 ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by beachball)
 - Bump @fluentui/react-avatar to v9.7.3 ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by beachball)
 - Bump @fluentui/react-button to v9.4.3 ([PR #34034](https://github.com/microsoft/fluentui/pull/34034) by beachball)
@@ -686,7 +686,7 @@ Thu, 27 Mar 2025 21:12:50 GMT
 
 ## [9.10.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.5)
 
-Wed, 26 Mar 2025 21:47:47 GMT 
+Wed, 26 Mar 2025 21:47:47 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.4..@fluentui/react-tree_v9.10.5)
 
 ### Patches
@@ -696,16 +696,16 @@ Wed, 26 Mar 2025 21:47:47 GMT
 
 ## [9.10.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.4)
 
-Wed, 26 Mar 2025 15:52:38 GMT 
+Wed, 26 Mar 2025 15:52:38 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.3..@fluentui/react-tree_v9.10.4)
 
 ### Patches
 
-- bugfix: ensure tabindex whenever tree is re-populated ([PR #34083](https://github.com/microsoft/fluentui/pull/34083) by bernardo.sunderhus@gmail.com)
+- bugfix: ensure tabindex whenever tree is re-populated ([PR #34083](https://github.com/microsoft/fluentui/pull/34083) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.10.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.3)
 
-Thu, 20 Mar 2025 09:34:59 GMT 
+Thu, 20 Mar 2025 09:34:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.2..@fluentui/react-tree_v9.10.3)
 
 ### Patches
@@ -715,7 +715,7 @@ Thu, 20 Mar 2025 09:34:59 GMT
 
 ## [9.10.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.2)
 
-Wed, 19 Mar 2025 15:40:43 GMT 
+Wed, 19 Mar 2025 15:40:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.1..@fluentui/react-tree_v9.10.2)
 
 ### Patches
@@ -735,7 +735,7 @@ Wed, 19 Mar 2025 15:40:43 GMT
 
 ## [9.10.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.1)
 
-Tue, 11 Mar 2025 18:58:54 GMT 
+Tue, 11 Mar 2025 18:58:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.10.0..@fluentui/react-tree_v9.10.1)
 
 ### Patches
@@ -755,7 +755,7 @@ Tue, 11 Mar 2025 18:58:54 GMT
 
 ## [9.10.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.10.0)
 
-Fri, 21 Feb 2025 14:34:05 GMT 
+Fri, 21 Feb 2025 14:34:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.9.3..@fluentui/react-tree_v9.10.0)
 
 ### Minor changes
@@ -769,7 +769,7 @@ Fri, 21 Feb 2025 14:34:05 GMT
 
 ## [9.9.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.9.3)
 
-Fri, 07 Feb 2025 10:42:12 GMT 
+Fri, 07 Feb 2025 10:42:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.9.2..@fluentui/react-tree_v9.9.3)
 
 ### Patches
@@ -778,17 +778,17 @@ Fri, 07 Feb 2025 10:42:12 GMT
 
 ## [9.9.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.9.2)
 
-Tue, 28 Jan 2025 21:26:34 GMT 
+Tue, 28 Jan 2025 21:26:34 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.9.1..@fluentui/react-tree_v9.9.2)
 
 ### Patches
 
-- bugfix: actions lose visibility when mouse and keyboard interactions are mixed ([PR #33731](https://github.com/microsoft/fluentui/pull/33731) by bernardo.sunderhus@gmail.com)
+- bugfix: actions lose visibility when mouse and keyboard interactions are mixed ([PR #33731](https://github.com/microsoft/fluentui/pull/33731) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-button to v9.3.101 ([PR #33736](https://github.com/microsoft/fluentui/pull/33736) by beachball)
 
 ## [9.9.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.9.1)
 
-Mon, 27 Jan 2025 20:27:35 GMT 
+Mon, 27 Jan 2025 20:27:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.9.0..@fluentui/react-tree_v9.9.1)
 
 ### Patches
@@ -799,13 +799,13 @@ Mon, 27 Jan 2025 20:27:35 GMT
 
 ## [9.9.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.9.0)
 
-Wed, 22 Jan 2025 14:00:11 GMT 
+Wed, 22 Jan 2025 14:00:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.12..@fluentui/react-tree_v9.9.0)
 
 ### Minor changes
 
-- feature: introduces navigationMode property ([PR #33658](https://github.com/microsoft/fluentui/pull/33658) by bernardo.sunderhus@gmail.com)
-- feature: TreeRootReset component ([PR #33663](https://github.com/microsoft/fluentui/pull/33663) by bernardo.sunderhus@gmail.com)
+- feature: introduces navigationMode property ([PR #33658](https://github.com/microsoft/fluentui/pull/33658) by <bernardo.sunderhus@gmail.com>)
+- feature: TreeRootReset component ([PR #33663](https://github.com/microsoft/fluentui/pull/33663) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.13.14 ([PR #33631](https://github.com/microsoft/fluentui/pull/33631) by beachball)
 - Bump @fluentui/react-avatar to v9.6.49 ([PR #33631](https://github.com/microsoft/fluentui/pull/33631) by beachball)
 - Bump @fluentui/react-button to v9.3.100 ([PR #33631](https://github.com/microsoft/fluentui/pull/33631) by beachball)
@@ -820,7 +820,7 @@ Wed, 22 Jan 2025 14:00:11 GMT
 
 ## [9.8.12](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.12)
 
-Wed, 08 Jan 2025 18:33:36 GMT 
+Wed, 08 Jan 2025 18:33:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.11..@fluentui/react-tree_v9.8.12)
 
 ### Patches
@@ -836,7 +836,7 @@ Wed, 08 Jan 2025 18:33:36 GMT
 
 ## [9.8.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.11)
 
-Wed, 18 Dec 2024 10:59:37 GMT 
+Wed, 18 Dec 2024 10:59:37 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.10..@fluentui/react-tree_v9.8.11)
 
 ### Patches
@@ -845,7 +845,7 @@ Wed, 18 Dec 2024 10:59:37 GMT
 
 ## [9.8.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.10)
 
-Mon, 16 Dec 2024 16:26:49 GMT 
+Mon, 16 Dec 2024 16:26:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.9..@fluentui/react-tree_v9.8.10)
 
 ### Patches
@@ -866,7 +866,7 @@ Mon, 16 Dec 2024 16:26:49 GMT
 
 ## [9.8.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.9)
 
-Mon, 09 Dec 2024 17:38:16 GMT 
+Mon, 09 Dec 2024 17:38:16 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.8..@fluentui/react-tree_v9.8.9)
 
 ### Patches
@@ -881,12 +881,12 @@ Mon, 09 Dec 2024 17:38:16 GMT
 
 ## [9.8.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.8)
 
-Fri, 06 Dec 2024 12:53:45 GMT 
+Fri, 06 Dec 2024 12:53:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.7..@fluentui/react-tree_v9.8.8)
 
 ### Patches
 
-- chore: remove usage of "export *"  ([PR #33380](https://github.com/microsoft/fluentui/pull/33380) by olfedias@microsoft.com)
+- chore: remove usage of "export *"  ([PR #33380](https://github.com/microsoft/fluentui/pull/33380) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-aria to v9.13.10 ([PR #33372](https://github.com/microsoft/fluentui/pull/33372) by beachball)
 - Bump @fluentui/react-avatar to v9.6.44 ([PR #33372](https://github.com/microsoft/fluentui/pull/33372) by beachball)
 - Bump @fluentui/react-button to v9.3.96 ([PR #33372](https://github.com/microsoft/fluentui/pull/33372) by beachball)
@@ -903,35 +903,35 @@ Fri, 06 Dec 2024 12:53:45 GMT
 
 ## [9.8.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.7)
 
-Thu, 28 Nov 2024 09:30:53 GMT 
+Thu, 28 Nov 2024 09:30:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.6..@fluentui/react-tree_v9.8.7)
 
 ### Patches
 
-- bugfix: ensure that onActionVisibilityChange is properly invoked ([PR #33320](https://github.com/microsoft/fluentui/pull/33320) by bernardo.sunderhus@gmail.com)
+- bugfix: ensure that onActionVisibilityChange is properly invoked ([PR #33320](https://github.com/microsoft/fluentui/pull/33320) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-motion-components-preview to v0.3.1 ([PR #33331](https://github.com/microsoft/fluentui/pull/33331) by beachball)
 - Bump @fluentui/react-motion to v9.6.2 ([PR #33331](https://github.com/microsoft/fluentui/pull/33331) by beachball)
 
 ## [9.8.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.6)
 
-Mon, 18 Nov 2024 09:44:40 GMT 
+Mon, 18 Nov 2024 09:44:40 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.5..@fluentui/react-tree_v9.8.6)
 
 ### Patches
 
-- chore: ensure TreeItem role can be overridden by props ([PR #33277](https://github.com/microsoft/fluentui/pull/33277) by bernardo.sunderhus@gmail.com)
+- chore: ensure TreeItem role can be overridden by props ([PR #33277](https://github.com/microsoft/fluentui/pull/33277) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.6.43 ([PR #33229](https://github.com/microsoft/fluentui/pull/33229) by beachball)
 - Bump @fluentui/react-checkbox to v9.2.41 ([PR #33229](https://github.com/microsoft/fluentui/pull/33229) by beachball)
 - Bump @fluentui/react-radio to v9.2.36 ([PR #33229](https://github.com/microsoft/fluentui/pull/33229) by beachball)
 
 ## [9.8.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.5)
 
-Mon, 11 Nov 2024 10:00:37 GMT 
+Mon, 11 Nov 2024 10:00:37 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.4..@fluentui/react-tree_v9.8.5)
 
 ### Patches
 
-- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by martinhochel@microsoft.com)
+- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by <martinhochel@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.8 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-aria to v9.13.9 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-avatar to v9.6.42 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
@@ -949,7 +949,7 @@ Mon, 11 Nov 2024 10:00:37 GMT
 
 ## [9.8.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.4)
 
-Tue, 15 Oct 2024 17:17:53 GMT 
+Tue, 15 Oct 2024 17:17:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.3..@fluentui/react-tree_v9.8.4)
 
 ### Patches
@@ -970,7 +970,7 @@ Tue, 15 Oct 2024 17:17:53 GMT
 
 ## [9.8.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.3)
 
-Tue, 08 Oct 2024 22:05:59 GMT 
+Tue, 08 Oct 2024 22:05:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.2..@fluentui/react-tree_v9.8.3)
 
 ### Patches
@@ -984,7 +984,7 @@ Tue, 08 Oct 2024 22:05:59 GMT
 
 ## [9.8.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.2)
 
-Thu, 26 Sep 2024 14:15:28 GMT 
+Thu, 26 Sep 2024 14:15:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.1..@fluentui/react-tree_v9.8.2)
 
 ### Patches
@@ -993,7 +993,7 @@ Thu, 26 Sep 2024 14:15:28 GMT
 
 ## [9.8.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.1)
 
-Mon, 23 Sep 2024 12:40:17 GMT 
+Mon, 23 Sep 2024 12:40:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.8.0..@fluentui/react-tree_v9.8.1)
 
 ### Patches
@@ -1014,12 +1014,12 @@ Mon, 23 Sep 2024 12:40:17 GMT
 
 ## [9.8.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.8.0)
 
-Tue, 10 Sep 2024 10:19:10 GMT 
+Tue, 10 Sep 2024 10:19:10 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.7.11..@fluentui/react-tree_v9.8.0)
 
 ### Minor changes
 
-- bugfix: recover from tabIndex=-1 when TreeItem is removed ([PR #32442](https://github.com/microsoft/fluentui/pull/32442) by bernardo.sunderhus@gmail.com)
+- bugfix: recover from tabIndex=-1 when TreeItem is removed ([PR #32442](https://github.com/microsoft/fluentui/pull/32442) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.13.5 ([PR #32494](https://github.com/microsoft/fluentui/pull/32494) by beachball)
 - Bump @fluentui/react-avatar to v9.6.38 ([PR #32494](https://github.com/microsoft/fluentui/pull/32494) by beachball)
 - Bump @fluentui/react-button to v9.3.90 ([PR #32494](https://github.com/microsoft/fluentui/pull/32494) by beachball)
@@ -1034,13 +1034,13 @@ Tue, 10 Sep 2024 10:19:10 GMT
 
 ### Patches
 
-- bugfix: ensure actions visibility between successive mouse events ([PR #32477](https://github.com/microsoft/fluentui/pull/32477) by bernardo.sunderhus@gmail.com)
-- fix: remove unnecessary aria-hidden attributes that were causing accessibility issues ([PR #32081](https://github.com/microsoft/fluentui/pull/32081) by sarah.higley@microsoft.com)
-- bugfix: ensure onClick handler is not called on every click ([PR #32434](https://github.com/microsoft/fluentui/pull/32434) by bernardo.sunderhus@gmail.com)
+- bugfix: ensure actions visibility between successive mouse events ([PR #32477](https://github.com/microsoft/fluentui/pull/32477) by <bernardo.sunderhus@gmail.com>)
+- fix: remove unnecessary aria-hidden attributes that were causing accessibility issues ([PR #32081](https://github.com/microsoft/fluentui/pull/32081) by <sarah.higley@microsoft.com>)
+- bugfix: ensure onClick handler is not called on every click ([PR #32434](https://github.com/microsoft/fluentui/pull/32434) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.7.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.7.11)
 
-Fri, 16 Aug 2024 10:24:17 GMT 
+Fri, 16 Aug 2024 10:24:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.7.10..@fluentui/react-tree_v9.7.11)
 
 ### Patches
@@ -1050,7 +1050,7 @@ Fri, 16 Aug 2024 10:24:17 GMT
 
 ## [9.7.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.7.10)
 
-Thu, 15 Aug 2024 13:49:46 GMT 
+Thu, 15 Aug 2024 13:49:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.7.9..@fluentui/react-tree_v9.7.10)
 
 ### Patches
@@ -1064,7 +1064,7 @@ Thu, 15 Aug 2024 13:49:46 GMT
 
 ## [9.7.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.7.9)
 
-Thu, 15 Aug 2024 08:22:17 GMT 
+Thu, 15 Aug 2024 08:22:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.7.8..@fluentui/react-tree_v9.7.9)
 
 ### Patches
@@ -1078,26 +1078,26 @@ Thu, 15 Aug 2024 08:22:17 GMT
 
 ## [9.7.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.7.8)
 
-Tue, 06 Aug 2024 21:40:45 GMT 
+Tue, 06 Aug 2024 21:40:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.7.7..@fluentui/react-tree_v9.7.8)
 
 ### Patches
 
-- chore: improve ImmutableSet and ImmutableMap internal implementation ([PR #32167](https://github.com/microsoft/fluentui/pull/32167) by bernardo.sunderhus@gmail.com)
+- chore: improve ImmutableSet and ImmutableMap internal implementation ([PR #32167](https://github.com/microsoft/fluentui/pull/32167) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.7.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.7.7)
 
-Mon, 05 Aug 2024 22:33:04 GMT 
+Mon, 05 Aug 2024 22:33:04 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.7.6..@fluentui/react-tree_v9.7.7)
 
 ### Patches
 
-- feat: add collapse motion to Tree ([PR #32163](https://github.com/microsoft/fluentui/pull/32163) by olkatruk@microsoft.com)
+- feat: add collapse motion to Tree ([PR #32163](https://github.com/microsoft/fluentui/pull/32163) by <olkatruk@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.6.35 ([PR #32077](https://github.com/microsoft/fluentui/pull/32077) by beachball)
 
 ## [9.7.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.7.6)
 
-Tue, 30 Jul 2024 18:47:35 GMT 
+Tue, 30 Jul 2024 18:47:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.7.5..@fluentui/react-tree_v9.7.6)
 
 ### Patches
@@ -1108,7 +1108,7 @@ Tue, 30 Jul 2024 18:47:35 GMT
 
 ## [9.7.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.7.5)
 
-Tue, 23 Jul 2024 20:13:14 GMT 
+Tue, 23 Jul 2024 20:13:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.7.4..@fluentui/react-tree_v9.7.5)
 
 ### Patches
@@ -1126,13 +1126,13 @@ Tue, 23 Jul 2024 20:13:14 GMT
 
 ## [9.7.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.7.4)
 
-Mon, 15 Jul 2024 17:25:22 GMT 
+Mon, 15 Jul 2024 17:25:22 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.7.3..@fluentui/react-tree_v9.7.4)
 
 ### Patches
 
-- bugfix: defaultCheckedItems conflicts with checkedItems ([PR #31779](https://github.com/microsoft/fluentui/pull/31779) by bernardo.sunderhus@gmail.com)
-- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by martinhochel@microsoft.com)
+- bugfix: defaultCheckedItems conflicts with checkedItems ([PR #31779](https://github.com/microsoft/fluentui/pull/31779) by <bernardo.sunderhus@gmail.com>)
+- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-aria to v9.13.1 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-avatar to v9.6.32 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-button to v9.3.86 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
@@ -1146,25 +1146,25 @@ Mon, 15 Jul 2024 17:25:22 GMT
 
 ## [9.7.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.7.3)
 
-Thu, 04 Jul 2024 15:14:36 GMT 
+Thu, 04 Jul 2024 15:14:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.7.2..@fluentui/react-tree_v9.7.3)
 
 ### Patches
 
-- fix(Tree): Roving tabindexes should be refreshed if current element is unmounted ([PR #31918](https://github.com/microsoft/fluentui/pull/31918) by lingfangao@hotmail.com)
+- fix(Tree): Roving tabindexes should be refreshed if current element is unmounted ([PR #31918](https://github.com/microsoft/fluentui/pull/31918) by <lingfangao@hotmail.com>)
 
 ## [9.7.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.7.2)
 
-Mon, 01 Jul 2024 20:30:38 GMT 
+Mon, 01 Jul 2024 20:30:38 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.7.1..@fluentui/react-tree_v9.7.2)
 
 ### Patches
 
-- chore: ensures history navigation keys are respected ([PR #31780](https://github.com/microsoft/fluentui/pull/31780) by bernardo.sunderhus@gmail.com)
-- chore: Update react-icons package to ^2.0.245 ([PR #31802](https://github.com/microsoft/fluentui/pull/31802) by ololubek@microsoft.com)
-- patch: improve strict warning from useTreeItem ([PR #31835](https://github.com/microsoft/fluentui/pull/31835) by lingfangao@hotmail.com)
-- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by seanmonahan@microsoft.com)
-- bugfix: console error if TreeItem has no parent Tree ([PR #31766](https://github.com/microsoft/fluentui/pull/31766) by bernardo.sunderhus@gmail.com)
+- chore: ensures history navigation keys are respected ([PR #31780](https://github.com/microsoft/fluentui/pull/31780) by <bernardo.sunderhus@gmail.com>)
+- chore: Update react-icons package to ^2.0.245 ([PR #31802](https://github.com/microsoft/fluentui/pull/31802) by <ololubek@microsoft.com>)
+- patch: improve strict warning from useTreeItem ([PR #31835](https://github.com/microsoft/fluentui/pull/31835) by <lingfangao@hotmail.com>)
+- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by <seanmonahan@microsoft.com>)
+- bugfix: console error if TreeItem has no parent Tree ([PR #31766](https://github.com/microsoft/fluentui/pull/31766) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.13.0 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-avatar to v9.6.31 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-button to v9.3.85 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
@@ -1177,7 +1177,7 @@ Mon, 01 Jul 2024 20:30:38 GMT
 
 ## [9.7.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.7.1)
 
-Mon, 17 Jun 2024 07:34:17 GMT 
+Mon, 17 Jun 2024 07:34:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.7.0..@fluentui/react-tree_v9.7.1)
 
 ### Patches
@@ -1192,21 +1192,21 @@ Mon, 17 Jun 2024 07:34:17 GMT
 
 ## [9.7.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.7.0)
 
-Wed, 12 Jun 2024 13:17:27 GMT 
+Wed, 12 Jun 2024 13:17:27 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.6.0..@fluentui/react-tree_v9.7.0)
 
 ### Minor changes
 
-- feature: onVisibilityChange method to TreeItemLayout action slot ([PR #31598](https://github.com/microsoft/fluentui/pull/31598) by bernardo.sunderhus@gmail.com)
+- feature: onVisibilityChange method to TreeItemLayout action slot ([PR #31598](https://github.com/microsoft/fluentui/pull/31598) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.6.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.6.0)
 
-Thu, 06 Jun 2024 15:26:42 GMT 
+Thu, 06 Jun 2024 15:26:42 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-tree_v9.5.1..@fluentui/react-tree_v9.6.0)
 
 ### Minor changes
 
-- feature: preventScroll on navigation ([PR #31577](https://github.com/microsoft/fluentui/pull/31577) by bernardo.sunderhus@gmail.com)
+- feature: preventScroll on navigation ([PR #31577](https://github.com/microsoft/fluentui/pull/31577) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.12.0 ([PR #31586](https://github.com/microsoft/fluentui/pull/31586) by beachball)
 - Bump @fluentui/react-avatar to v9.6.29 ([PR #31586](https://github.com/microsoft/fluentui/pull/31586) by beachball)
 - Bump @fluentui/react-button to v9.3.83 ([PR #31586](https://github.com/microsoft/fluentui/pull/31586) by beachball)
@@ -1219,8 +1219,8 @@ Thu, 06 Jun 2024 15:26:42 GMT
 
 ### Patches
 
-- bugfix: ensure roving tab index when children content changes ([PR #31595](https://github.com/microsoft/fluentui/pull/31595) by bernardo.sunderhus@gmail.com)
-- chore: ensure only state or defaultState is provided on useControllableState hook invocation ([PR #31461](https://github.com/microsoft/fluentui/pull/31461) by bernardo.sunderhus@gmail.com)
+- bugfix: ensure roving tab index when children content changes ([PR #31595](https://github.com/microsoft/fluentui/pull/31595) by <bernardo.sunderhus@gmail.com>)
+- chore: ensure only state or defaultState is provided on useControllableState hook invocation ([PR #31461](https://github.com/microsoft/fluentui/pull/31461) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.5.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.5.1)
 
@@ -1229,7 +1229,7 @@ Thu, 23 May 2024 08:02:52 GMT
 
 ### Patches
 
-- chore: replace usage of .shorthands() in styles ([PR #31432](https://github.com/microsoft/fluentui/pull/31432) by olfedias@microsoft.com)
+- chore: replace usage of .shorthands() in styles ([PR #31432](https://github.com/microsoft/fluentui/pull/31432) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-aria to v9.11.4 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 - Bump @fluentui/react-avatar to v9.6.28 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 - Bump @fluentui/react-button to v9.3.82 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
@@ -1244,7 +1244,7 @@ Mon, 20 May 2024 12:45:08 GMT
 
 ### Minor changes
 
-- feat: exposes createHeadlessTree ([PR #31343](https://github.com/microsoft/fluentui/pull/31343) by bernardo.sunderhus@gmail.com)
+- feat: exposes createHeadlessTree ([PR #31343](https://github.com/microsoft/fluentui/pull/31343) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.11.3 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-avatar to v9.6.27 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-button to v9.3.81 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
@@ -1258,7 +1258,7 @@ Mon, 20 May 2024 12:45:08 GMT
 
 ### Patches
 
-- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by olfedias@microsoft.com)
+- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by <olfedias@microsoft.com>)
 
 ## [9.4.43](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.4.43)
 
@@ -1267,7 +1267,7 @@ Thu, 16 May 2024 09:25:20 GMT
 
 ### Patches
 
-- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by ololubek@microsoft.com)
+- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.6.26 ([PR #31390](https://github.com/microsoft/fluentui/pull/31390) by beachball)
 - Bump @fluentui/react-button to v9.3.80 ([PR #31390](https://github.com/microsoft/fluentui/pull/31390) by beachball)
 - Bump @fluentui/react-checkbox to v9.2.25 ([PR #31390](https://github.com/microsoft/fluentui/pull/31390) by beachball)
@@ -1312,9 +1312,9 @@ Thu, 02 May 2024 11:36:43 GMT
 
 ### Patches
 
-- chore: updates roving tab indexes to ensure Tree is focusable ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by bernardo.sunderhus@gmail.com)
-- fix: Apply aria-selected prop to aria-selected instead of aria-expanded. ([PR #31117](https://github.com/microsoft/fluentui/pull/31117) by estebanmu@microsoft.com)
-- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by ololubek@microsoft.com)
+- chore: updates roving tab indexes to ensure Tree is focusable ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by <bernardo.sunderhus@gmail.com>)
+- fix: Apply aria-selected prop to aria-selected instead of aria-expanded. ([PR #31117](https://github.com/microsoft/fluentui/pull/31117) by <estebanmu@microsoft.com>)
+- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-aria to v9.11.0 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 - Bump @fluentui/react-avatar to v9.6.23 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 - Bump @fluentui/react-button to v9.3.77 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
@@ -1347,9 +1347,9 @@ Wed, 17 Apr 2024 21:54:05 GMT
 
 ### Patches
 
-- fix: Allow overriding aria-selected through props. ([PR #31020](https://github.com/microsoft/fluentui/pull/31020) by estebanmu@microsoft.com)
-- chore: Update react-icons to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by ololubek@microsoft.com)
-- chore: refactor styles defined in makeResetStyles() to avoid shorthands.\*() ([PR #30996](https://github.com/microsoft/fluentui/pull/30996) by olfedias@microsoft.com)
+- fix: Allow overriding aria-selected through props. ([PR #31020](https://github.com/microsoft/fluentui/pull/31020) by <estebanmu@microsoft.com>)
+- chore: Update react-icons to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by <ololubek@microsoft.com>)
+- chore: refactor styles defined in makeResetStyles() to avoid shorthands.\*() ([PR #30996](https://github.com/microsoft/fluentui/pull/30996) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-aria to v9.10.4 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 - Bump @fluentui/react-avatar to v9.6.21 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 - Bump @fluentui/react-button to v9.3.75 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
@@ -1430,7 +1430,7 @@ Thu, 07 Mar 2024 19:33:27 GMT
 
 ### Patches
 
-- fix: aria-selected is no longer required for treeitem ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by sarah.higley@microsoft.com)
+- fix: aria-selected is no longer required for treeitem ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-aria to v9.10.0 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-avatar to v9.6.17 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-button to v9.3.71 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
@@ -1485,8 +1485,8 @@ Tue, 06 Feb 2024 17:55:20 GMT
 
 ### Patches
 
-- bugfix: regression fix for focus and blur events on TreeItem ([PR #30436](https://github.com/microsoft/fluentui/pull/30436) by bernardo.sunderhus@gmail.com)
-- bugfix: onOpenChange inconsistent between Tree and TreeItem ([PR #30050](https://github.com/microsoft/fluentui/pull/30050) by bernardo.sunderhus@gmail.com)
+- bugfix: regression fix for focus and blur events on TreeItem ([PR #30436](https://github.com/microsoft/fluentui/pull/30436) by <bernardo.sunderhus@gmail.com>)
+- bugfix: onOpenChange inconsistent between Tree and TreeItem ([PR #30050](https://github.com/microsoft/fluentui/pull/30050) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.8.2 ([PR #30392](https://github.com/microsoft/fluentui/pull/30392) by beachball)
 - Bump @fluentui/react-avatar to v9.6.14 ([PR #30392](https://github.com/microsoft/fluentui/pull/30392) by beachball)
 - Bump @fluentui/react-button to v9.3.68 ([PR #30392](https://github.com/microsoft/fluentui/pull/30392) by beachball)
@@ -1538,7 +1538,7 @@ Tue, 23 Jan 2024 15:10:59 GMT
 
 ### Patches
 
-- chore: import DistributiveOmit from react-utilities instead of redeclaring it locally ([PR #30317](https://github.com/microsoft/fluentui/pull/30317) by bernardo.sunderhus@gmail.com)
+- chore: import DistributiveOmit from react-utilities instead of redeclaring it locally ([PR #30317](https://github.com/microsoft/fluentui/pull/30317) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.8.0 ([PR #30359](https://github.com/microsoft/fluentui/pull/30359) by beachball)
 - Bump @fluentui/react-avatar to v9.6.10 ([PR #30359](https://github.com/microsoft/fluentui/pull/30359) by beachball)
 - Bump @fluentui/react-button to v9.3.66 ([PR #30359](https://github.com/microsoft/fluentui/pull/30359) by beachball)
@@ -1591,7 +1591,7 @@ Tue, 16 Jan 2024 13:14:13 GMT
 
 ### Patches
 
-- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by mgodbolt@microsoft.com)
+- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-aria to v9.7.1 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-avatar to v9.6.7 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-button to v9.3.63 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
@@ -1628,7 +1628,7 @@ Mon, 08 Jan 2024 16:24:27 GMT
 
 ### Patches
 
-- Update version of @fluentui/react-icons to 2.0.224 ([PR #30078](https://github.com/microsoft/fluentui/pull/30078) by ololubek@microsoft.com)
+- Update version of @fluentui/react-icons to 2.0.224 ([PR #30078](https://github.com/microsoft/fluentui/pull/30078) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-aria to v9.6.2 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
 - Bump @fluentui/react-avatar to v9.6.4 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
 - Bump @fluentui/react-button to v9.3.61 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
@@ -1737,7 +1737,7 @@ Tue, 14 Nov 2023 17:51:27 GMT
 
 ### Patches
 
-- chore: refactor tree navigation ([PR #29731](https://github.com/microsoft/fluentui/pull/29731) by bernardo.sunderhus@gmail.com)
+- chore: refactor tree navigation ([PR #29731](https://github.com/microsoft/fluentui/pull/29731) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.46 ([PR #29835](https://github.com/microsoft/fluentui/pull/29835) by beachball)
 - Bump @fluentui/react-button to v9.3.55 ([PR #29835](https://github.com/microsoft/fluentui/pull/29835) by beachball)
 - Bump @fluentui/react-checkbox to v9.1.56 ([PR #29835](https://github.com/microsoft/fluentui/pull/29835) by beachball)
@@ -1751,7 +1751,7 @@ Thu, 09 Nov 2023 17:29:47 GMT
 
 ### Patches
 
-- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by martinhochel@microsoft.com)
+- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by <martinhochel@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.7 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-aria to v9.3.44 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-avatar to v9.5.45 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
@@ -1772,7 +1772,7 @@ Thu, 02 Nov 2023 17:38:46 GMT
 
 ### Patches
 
-- chore: throws if FlatTree is used as a subtree ([PR #29729](https://github.com/microsoft/fluentui/pull/29729) by bernardo.sunderhus@gmail.com)
+- chore: throws if FlatTree is used as a subtree ([PR #29729](https://github.com/microsoft/fluentui/pull/29729) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.4.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.4.10)
 
@@ -1781,7 +1781,7 @@ Wed, 01 Nov 2023 19:15:55 GMT
 
 ### Patches
 
-- chore: stop unnecessary re-rendering when no actions are available ([PR #29694](https://github.com/microsoft/fluentui/pull/29694) by bernardo.sunderhus@gmail.com)
+- chore: stop unnecessary re-rendering when no actions are available ([PR #29694](https://github.com/microsoft/fluentui/pull/29694) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.4.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.4.9)
 
@@ -1832,8 +1832,8 @@ Wed, 18 Oct 2023 17:54:07 GMT
 
 ### Patches
 
-- bugfix(react-tree): stop coercing numbers to string on TreeItemValue ([PR #29529](https://github.com/microsoft/fluentui/pull/29529) by bernardo.sunderhus@gmail.com)
-- exporting TreeItemType from TreeItem component ([PR #29532](https://github.com/microsoft/fluentui/pull/29532) by petrduda@microsoft.com)
+- bugfix(react-tree): stop coercing numbers to string on TreeItemValue ([PR #29529](https://github.com/microsoft/fluentui/pull/29529) by <bernardo.sunderhus@gmail.com>)
+- exporting TreeItemType from TreeItem component ([PR #29532](https://github.com/microsoft/fluentui/pull/29532) by <petrduda@microsoft.com>)
 - Bump @fluentui/react-aria to v9.3.43 ([PR #29560](https://github.com/microsoft/fluentui/pull/29560) by beachball)
 - Bump @fluentui/react-avatar to v9.5.41 ([PR #29560](https://github.com/microsoft/fluentui/pull/29560) by beachball)
 - Bump @fluentui/react-button to v9.3.50 ([PR #29560](https://github.com/microsoft/fluentui/pull/29560) by beachball)
@@ -1864,9 +1864,9 @@ Wed, 11 Oct 2023 13:54:25 GMT
 
 ### Patches
 
-- chore: adds console error when mixing Tree and FlatTree components ([PR #29461](https://github.com/microsoft/fluentui/pull/29461) by bernardo.sunderhus@gmail.com)
-- bugfix: Tree indentation broken due to wrongly consuming root context instead of subtree context ([PR #29459](https://github.com/microsoft/fluentui/pull/29459) by bernardo.sunderhus@gmail.com)
-- refactor: consume virtual parent utilities from @fluentui/react-utilities ([PR #29286](https://github.com/microsoft/fluentui/pull/29286) by lingfan.gao@microsoft.com)
+- chore: adds console error when mixing Tree and FlatTree components ([PR #29461](https://github.com/microsoft/fluentui/pull/29461) by <bernardo.sunderhus@gmail.com>)
+- bugfix: Tree indentation broken due to wrongly consuming root context instead of subtree context ([PR #29459](https://github.com/microsoft/fluentui/pull/29459) by <bernardo.sunderhus@gmail.com>)
+- refactor: consume virtual parent utilities from @fluentui/react-utilities ([PR #29286](https://github.com/microsoft/fluentui/pull/29286) by <lingfan.gao@microsoft.com>)
 - Bump @fluentui/react-aria to v9.3.42 ([PR #29262](https://github.com/microsoft/fluentui/pull/29262) by beachball)
 - Bump @fluentui/react-avatar to v9.5.39 ([PR #29262](https://github.com/microsoft/fluentui/pull/29262) by beachball)
 - Bump @fluentui/react-button to v9.3.48 ([PR #29262](https://github.com/microsoft/fluentui/pull/29262) by beachball)
@@ -1903,8 +1903,8 @@ Thu, 05 Oct 2023 15:25:34 GMT
 
 ### Patches
 
-- chore: migrate from getNativeElementProps to getIntrinsicElementProps ([PR #29387](https://github.com/microsoft/fluentui/pull/29387) by bernardo.sunderhus@gmail.com)
-- bugfix: ensure TreeItem emits events properly ([PR #29390](https://github.com/microsoft/fluentui/pull/29390) by bernardo.sunderhus@gmail.com)
+- chore: migrate from getNativeElementProps to getIntrinsicElementProps ([PR #29387](https://github.com/microsoft/fluentui/pull/29387) by <bernardo.sunderhus@gmail.com>)
+- bugfix: ensure TreeItem emits events properly ([PR #29390](https://github.com/microsoft/fluentui/pull/29390) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.3.40 ([PR #29412](https://github.com/microsoft/fluentui/pull/29412) by beachball)
 - Bump @fluentui/react-avatar to v9.5.37 ([PR #29412](https://github.com/microsoft/fluentui/pull/29412) by beachball)
 - Bump @fluentui/react-button to v9.3.46 ([PR #29412](https://github.com/microsoft/fluentui/pull/29412) by beachball)
@@ -1923,8 +1923,8 @@ Wed, 04 Oct 2023 08:45:47 GMT
 
 ### Patches
 
-- chore: replace makeStyles with makeResetStyles ([PR #29338](https://github.com/microsoft/fluentui/pull/29338) by bernardo.sunderhus@gmail.com)
-- chore: delegate focus outline to layout components ([PR #29293](https://github.com/microsoft/fluentui/pull/29293) by bernardo.sunderhus@gmail.com)
+- chore: replace makeStyles with makeResetStyles ([PR #29338](https://github.com/microsoft/fluentui/pull/29338) by <bernardo.sunderhus@gmail.com>)
+- chore: delegate focus outline to layout components ([PR #29293](https://github.com/microsoft/fluentui/pull/29293) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.3.39 ([commit](https://github.com/microsoft/fluentui/commit/67b6cc6534e684ed32704dc6c0faee632bb840dc) by beachball)
 - Bump @fluentui/react-avatar to v9.5.36 ([commit](https://github.com/microsoft/fluentui/commit/67b6cc6534e684ed32704dc6c0faee632bb840dc) by beachball)
 - Bump @fluentui/react-button to v9.3.45 ([commit](https://github.com/microsoft/fluentui/commit/67b6cc6534e684ed32704dc6c0faee632bb840dc) by beachball)
@@ -1943,7 +1943,7 @@ Mon, 02 Oct 2023 08:56:05 GMT
 
 ### Minor changes
 
-- feat: creates SubtreeContext ([PR #29194](https://github.com/microsoft/fluentui/pull/29194) by bernardo.sunderhus@gmail.com)
+- feat: creates SubtreeContext ([PR #29194](https://github.com/microsoft/fluentui/pull/29194) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.35 ([PR #29301](https://github.com/microsoft/fluentui/pull/29301) by beachball)
 - Bump @fluentui/react-button to v9.3.44 ([PR #29301](https://github.com/microsoft/fluentui/pull/29301) by beachball)
 - Bump @fluentui/react-checkbox to v9.1.45 ([PR #29301](https://github.com/microsoft/fluentui/pull/29301) by beachball)
@@ -1959,7 +1959,7 @@ Tue, 26 Sep 2023 17:49:14 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by yuanboxue@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by <yuanboxue@microsoft.com>)
 - Bump @fluentui/keyboard-keys to v9.0.6 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-aria to v9.3.38 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-avatar to v9.5.34 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
@@ -1981,7 +1981,7 @@ Tue, 26 Sep 2023 15:31:41 GMT
 
 ### Minor changes
 
-- feat: FlatTree supports navigation without useHeadlessFlatTree ([PR #29091](https://github.com/microsoft/fluentui/pull/29091) by bernardo.sunderhus@gmail.com)
+- feat: FlatTree supports navigation without useHeadlessFlatTree ([PR #29091](https://github.com/microsoft/fluentui/pull/29091) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/keyboard-keys to v9.0.5 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-aria to v9.3.37 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-avatar to v9.5.33 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
@@ -1998,8 +1998,8 @@ Tue, 26 Sep 2023 15:31:41 GMT
 
 ### Patches
 
-- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by martinhochel@microsoft.com)
-- chore: Update react-icons version to pick up IconDirectionContextProvider updated export ([PR #29151](https://github.com/microsoft/fluentui/pull/29151) by ololubek@microsoft.com)
+- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by <martinhochel@microsoft.com>)
+- chore: Update react-icons version to pick up IconDirectionContextProvider updated export ([PR #29151](https://github.com/microsoft/fluentui/pull/29151) by <ololubek@microsoft.com>)
 
 ## [9.2.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.2.1)
 
@@ -2008,7 +2008,7 @@ Wed, 20 Sep 2023 17:47:45 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by martinhochel@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.5.32 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-button to v9.3.41 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-checkbox to v9.1.42 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
@@ -2025,8 +2025,8 @@ Wed, 20 Sep 2023 14:59:51 GMT
 
 ### Minor changes
 
-- feat: adds treeType to tree context ([PR #29189](https://github.com/microsoft/fluentui/pull/29189) by bernardo.sunderhus@gmail.com)
-- creates FlatTreeItem component ([PR #29098](https://github.com/microsoft/fluentui/pull/29098) by bernardo.sunderhus@gmail.com)
+- feat: adds treeType to tree context ([PR #29189](https://github.com/microsoft/fluentui/pull/29189) by <bernardo.sunderhus@gmail.com>)
+- creates FlatTreeItem component ([PR #29098](https://github.com/microsoft/fluentui/pull/29098) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.31 ([PR #29193](https://github.com/microsoft/fluentui/pull/29193) by beachball)
 - Bump @fluentui/react-button to v9.3.40 ([PR #29193](https://github.com/microsoft/fluentui/pull/29193) by beachball)
 - Bump @fluentui/react-checkbox to v9.1.41 ([PR #29193](https://github.com/microsoft/fluentui/pull/29193) by beachball)
@@ -2038,7 +2038,7 @@ Wed, 20 Sep 2023 14:59:51 GMT
 
 ### Patches
 
-- chore: stop using global document on HTMLElementWalker ([PR #29097](https://github.com/microsoft/fluentui/pull/29097) by bernardo.sunderhus@gmail.com)
+- chore: stop using global document on HTMLElementWalker ([PR #29097](https://github.com/microsoft/fluentui/pull/29097) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.1.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.1.1)
 
@@ -2060,7 +2060,7 @@ Tue, 12 Sep 2023 08:51:34 GMT
 
 ### Minor changes
 
-- feat: react-tree allows control of individual tree item open state ([PR #29081](https://github.com/microsoft/fluentui/pull/29081) by bernardo.sunderhus@gmail.com)
+- feat: react-tree allows control of individual tree item open state ([PR #29081](https://github.com/microsoft/fluentui/pull/29081) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.29 ([PR #29129](https://github.com/microsoft/fluentui/pull/29129) by beachball)
 - Bump @fluentui/react-button to v9.3.38 ([PR #29129](https://github.com/microsoft/fluentui/pull/29129) by beachball)
 - Bump @fluentui/react-checkbox to v9.1.39 ([PR #29129](https://github.com/microsoft/fluentui/pull/29129) by beachball)
@@ -2112,9 +2112,9 @@ Tue, 05 Sep 2023 13:29:11 GMT
 
 ### Patches
 
-- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by bernardo.sunderhus@gmail.com)
-- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by bernardo.sunderhus@gmail.com)
-- chore: adds swc-plugin-de-indent-template-literal to remove indentation of consoles ([PR #29040](https://github.com/microsoft/fluentui/pull/29040) by bernardo.sunderhus@gmail.com)
+- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by <bernardo.sunderhus@gmail.com>)
+- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by <bernardo.sunderhus@gmail.com>)
+- chore: adds swc-plugin-de-indent-template-literal to remove indentation of consoles ([PR #29040](https://github.com/microsoft/fluentui/pull/29040) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/keyboard-keys to v9.0.4 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-aria to v9.3.34 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-avatar to v9.5.26 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
@@ -2190,8 +2190,8 @@ Mon, 21 Aug 2023 11:38:02 GMT
 
 ### Patches
 
-- chore: fix lint warnings ([PR #28889](https://github.com/microsoft/fluentui/pull/28889) by seanmonahan@microsoft.com)
-- fix: stabilize `handleActionsRef` created by TreeItem ([PR #28896](https://github.com/microsoft/fluentui/pull/28896) by yuanboxue@microsoft.com)
+- chore: fix lint warnings ([PR #28889](https://github.com/microsoft/fluentui/pull/28889) by <seanmonahan@microsoft.com>)
+- fix: stabilize `handleActionsRef` created by TreeItem ([PR #28896](https://github.com/microsoft/fluentui/pull/28896) by <yuanboxue@microsoft.com>)
 - Bump @fluentui/react-avatar to v9.5.22 ([PR #28884](https://github.com/microsoft/fluentui/pull/28884) by beachball)
 
 ## [9.0.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.0.1)
@@ -2201,7 +2201,7 @@ Thu, 17 Aug 2023 13:49:56 GMT
 
 ### Patches
 
-- bugfix: headless flat tree itemType manual definition ([PR #28898](https://github.com/microsoft/fluentui/pull/28898) by bernardo.sunderhus@gmail.com)
+- bugfix: headless flat tree itemType manual definition ([PR #28898](https://github.com/microsoft/fluentui/pull/28898) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.0.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.0.0)
 
@@ -2210,7 +2210,7 @@ Wed, 16 Aug 2023 17:41:08 GMT
 
 ### Patches
 
-- feat: stable release ([PR #28845](https://github.com/microsoft/fluentui/pull/28845) by bernardo.sunderhus@gmail.com)
+- feat: stable release ([PR #28845](https://github.com/microsoft/fluentui/pull/28845) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.21 ([PR #28885](https://github.com/microsoft/fluentui/pull/28885) by beachball)
 - Bump @fluentui/react-button to v9.3.31 ([PR #28885](https://github.com/microsoft/fluentui/pull/28885) by beachball)
 - Bump @fluentui/react-checkbox to v9.1.32 ([PR #28885](https://github.com/microsoft/fluentui/pull/28885) by beachball)
@@ -2255,11 +2255,11 @@ Wed, 09 Aug 2023 13:17:09 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by olfedias@microsoft.com)
-- feat: implements nested tree selection ([PR #28668](https://github.com/microsoft/fluentui/pull/28668) by bernardo.sunderhus@gmail.com)
-- Docs(react-tree): Improve docs and stories ([PR #28741](https://github.com/microsoft/fluentui/pull/28741) by petrduda@microsoft.com)
-- bugfix: headless tree should respect itemType ([PR #28759](https://github.com/microsoft/fluentui/pull/28759) by bernardo.sunderhus@gmail.com)
-- chore(teams-prg): migrate to new slot API ([PR #28751](https://github.com/microsoft/fluentui/pull/28751) by bernardo.sunderhus@gmail.com)
+- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by <olfedias@microsoft.com>)
+- feat: implements nested tree selection ([PR #28668](https://github.com/microsoft/fluentui/pull/28668) by <bernardo.sunderhus@gmail.com>)
+- Docs(react-tree): Improve docs and stories ([PR #28741](https://github.com/microsoft/fluentui/pull/28741) by <petrduda@microsoft.com>)
+- bugfix: headless tree should respect itemType ([PR #28759](https://github.com/microsoft/fluentui/pull/28759) by <bernardo.sunderhus@gmail.com>)
+- chore(teams-prg): migrate to new slot API ([PR #28751](https://github.com/microsoft/fluentui/pull/28751) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.3.29 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-avatar to v9.5.18 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-button to v9.3.28 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
@@ -2278,8 +2278,8 @@ Fri, 04 Aug 2023 08:52:57 GMT
 
 ### Changes
 
-- bugfix: renames content slot to main ([PR #28695](https://github.com/microsoft/fluentui/pull/28695) by bernardo.sunderhus@gmail.com)
-- feat: converts actions to be a toolbar ([PR #28719](https://github.com/microsoft/fluentui/pull/28719) by bernardo.sunderhus@gmail.com)
+- bugfix: renames content slot to main ([PR #28695](https://github.com/microsoft/fluentui/pull/28695) by <bernardo.sunderhus@gmail.com>)
+- feat: converts actions to be a toolbar ([PR #28719](https://github.com/microsoft/fluentui/pull/28719) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.3.28 ([commit](https://github.com/microsoft/fluentui/commit/0bf7d9438c1d0ff90cd2b28bc4cceb4f807afbca) by beachball)
 - Bump @fluentui/react-avatar to v9.5.17 ([commit](https://github.com/microsoft/fluentui/commit/0bf7d9438c1d0ff90cd2b28bc4cceb4f807afbca) by beachball)
 - Bump @fluentui/react-button to v9.3.27 ([commit](https://github.com/microsoft/fluentui/commit/0bf7d9438c1d0ff90cd2b28bc4cceb4f807afbca) by beachball)
@@ -2300,9 +2300,9 @@ Tue, 01 Aug 2023 10:17:20 GMT
 
 ### Changes
 
-- bugfix: Tree, vertical spacing of branches and children is inconsistent ([PR #28681](https://github.com/microsoft/fluentui/pull/28681) by petrduda@microsoft.com)
-- feat: adds openItems and checkedItems to tree callback data ([PR #28669](https://github.com/microsoft/fluentui/pull/28669) by bernardo.sunderhus@gmail.com)
-- chore: improves internal headless signature ([PR #28651](https://github.com/microsoft/fluentui/pull/28651) by bernardo.sunderhus@gmail.com)
+- bugfix: Tree, vertical spacing of branches and children is inconsistent ([PR #28681](https://github.com/microsoft/fluentui/pull/28681) by <petrduda@microsoft.com>)
+- feat: adds openItems and checkedItems to tree callback data ([PR #28669](https://github.com/microsoft/fluentui/pull/28669) by <bernardo.sunderhus@gmail.com>)
+- chore: improves internal headless signature ([PR #28651](https://github.com/microsoft/fluentui/pull/28651) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.16 ([PR #28689](https://github.com/microsoft/fluentui/pull/28689) by beachball)
 - Bump @fluentui/react-button to v9.3.26 ([PR #28689](https://github.com/microsoft/fluentui/pull/28689) by beachball)
 - Bump @fluentui/react-checkbox to v9.1.27 ([PR #28689](https://github.com/microsoft/fluentui/pull/28689) by beachball)
@@ -2318,7 +2318,7 @@ Thu, 27 Jul 2023 10:34:14 GMT
 
 ### Changes
 
-- bugfix: makes selector slot required when selection mode is defined ([PR #28648](https://github.com/microsoft/fluentui/pull/28648) by bernardo.sunderhus@gmail.com)
+- bugfix: makes selector slot required when selection mode is defined ([PR #28648](https://github.com/microsoft/fluentui/pull/28648) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.15 ([PR #28649](https://github.com/microsoft/fluentui/pull/28649) by beachball)
 
 ## [9.0.0-beta.27](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.0.0-beta.27)
@@ -2328,9 +2328,9 @@ Tue, 25 Jul 2023 13:29:23 GMT
 
 ### Changes
 
-- chore: Update react-icons version to pick up fowardref change. ([PR #28590](https://github.com/microsoft/fluentui/pull/28590) by ololubek@microsoft.com)
-- chore: moves slots from TreeItem to TreeItemLayout ([PR #28621](https://github.com/microsoft/fluentui/pull/28621) by bernardo.sunderhus@gmail.com)
-- feat: creates FlatTree component ([PR #28620](https://github.com/microsoft/fluentui/pull/28620) by bernardo.sunderhus@gmail.com)
+- chore: Update react-icons version to pick up fowardref change. ([PR #28590](https://github.com/microsoft/fluentui/pull/28590) by <ololubek@microsoft.com>)
+- chore: moves slots from TreeItem to TreeItemLayout ([PR #28621](https://github.com/microsoft/fluentui/pull/28621) by <bernardo.sunderhus@gmail.com>)
+- feat: creates FlatTree component ([PR #28620](https://github.com/microsoft/fluentui/pull/28620) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.14 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
 - Bump @fluentui/react-button to v9.3.25 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
 - Bump @fluentui/react-checkbox to v9.1.26 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
@@ -2345,7 +2345,7 @@ Thu, 20 Jul 2023 18:27:36 GMT
 
 ### Changes
 
-- feat: implements selection ([PR #28497](https://github.com/microsoft/fluentui/pull/28497) by bernardo.sunderhus@gmail.com)
+- feat: implements selection ([PR #28497](https://github.com/microsoft/fluentui/pull/28497) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.3.27 ([PR #26826](https://github.com/microsoft/fluentui/pull/26826) by beachball)
 - Bump @fluentui/react-avatar to v9.5.13 ([PR #26826](https://github.com/microsoft/fluentui/pull/26826) by beachball)
 - Bump @fluentui/react-button to v9.3.24 ([PR #26826](https://github.com/microsoft/fluentui/pull/26826) by beachball)
@@ -2361,8 +2361,8 @@ Tue, 11 Jul 2023 18:46:36 GMT
 
 ### Changes
 
-- chore: move slots back to TreeItem and creates slot context ([PR #28492](https://github.com/microsoft/fluentui/pull/28492) by bernardo.sunderhus@gmail.com)
-- chore: openItems property added to TreeOpenChangeData + minor internal improvements ([PR #28491](https://github.com/microsoft/fluentui/pull/28491) by bernardo.sunderhus@gmail.com)
+- chore: move slots back to TreeItem and creates slot context ([PR #28492](https://github.com/microsoft/fluentui/pull/28492) by <bernardo.sunderhus@gmail.com>)
+- chore: openItems property added to TreeOpenChangeData + minor internal improvements ([PR #28491](https://github.com/microsoft/fluentui/pull/28491) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.12 ([PR #28491](https://github.com/microsoft/fluentui/pull/28491) by beachball)
 - Bump @fluentui/react-button to v9.3.23 ([PR #28491](https://github.com/microsoft/fluentui/pull/28491) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.11 ([PR #28491](https://github.com/microsoft/fluentui/pull/28491) by beachball)
@@ -2404,7 +2404,7 @@ Wed, 28 Jun 2023 11:12:35 GMT
 
 ### Changes
 
-- chore: export useTreeItemContextValues_unstable ([PR #28344](https://github.com/microsoft/fluentui/pull/28344) by bernardo.sunderhus@gmail.com)
+- chore: export useTreeItemContextValues_unstable ([PR #28344](https://github.com/microsoft/fluentui/pull/28344) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.3.25 ([PR #28320](https://github.com/microsoft/fluentui/pull/28320) by beachball)
 - Bump @fluentui/react-avatar to v9.5.9 ([PR #28320](https://github.com/microsoft/fluentui/pull/28320) by beachball)
 - Bump @fluentui/react-button to v9.3.20 ([PR #28320](https://github.com/microsoft/fluentui/pull/28320) by beachball)
@@ -2421,8 +2421,8 @@ Tue, 27 Jun 2023 11:21:23 GMT
 
 ### Changes
 
-- bugfix: makes value property on TreeItem less generic to simplify internals ([PR #28257](https://github.com/microsoft/fluentui/pull/28257) by bernardo.sunderhus@gmail.com)
-- bugfix: rollback to actions and aside as a slot to ensure positioning of internals ([PR #28318](https://github.com/microsoft/fluentui/pull/28318) by bernardo.sunderhus@gmail.com)
+- bugfix: makes value property on TreeItem less generic to simplify internals ([PR #28257](https://github.com/microsoft/fluentui/pull/28257) by <bernardo.sunderhus@gmail.com>)
+- bugfix: rollback to actions and aside as a slot to ensure positioning of internals ([PR #28318](https://github.com/microsoft/fluentui/pull/28318) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.5.8 ([PR #28291](https://github.com/microsoft/fluentui/pull/28291) by beachball)
 - Bump @fluentui/react-button to v9.3.19 ([PR #28291](https://github.com/microsoft/fluentui/pull/28291) by beachball)
 - Bump @fluentui/react-portal to v9.2.15 ([PR #28291](https://github.com/microsoft/fluentui/pull/28291) by beachball)
@@ -2451,7 +2451,7 @@ Tue, 20 Jun 2023 12:39:06 GMT
 
 ### Changes
 
-- chore: update @fluentui/react-icons to 2.0.203 ([PR #28203](https://github.com/microsoft/fluentui/pull/28203) by ololubek@microsoft.com)
+- chore: update @fluentui/react-icons to 2.0.203 ([PR #28203](https://github.com/microsoft/fluentui/pull/28203) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-aria to v9.3.23 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
 - Bump @fluentui/react-avatar to v9.5.6 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
 - Bump @fluentui/react-button to v9.3.17 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
@@ -2471,7 +2471,7 @@ Wed, 31 May 2023 06:46:22 GMT
 
 ### Changes
 
-- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by seanmonahan@microsoft.com)
+- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-aria to v9.3.22 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-avatar to v9.5.5 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-button to v9.3.16 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
@@ -2546,15 +2546,15 @@ Fri, 12 May 2023 20:28:01 GMT
 
 ### Changes
 
-- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by olfedias@microsoft.com)
-- feat: TreeItem itemType restructure ([PR #27799](https://github.com/microsoft/fluentui/pull/27799) by bernardo.sunderhus@gmail.com)
-- feat: creates TreeItemAside component ([PR #27701](https://github.com/microsoft/fluentui/pull/27701) by bernardo.sunderhus@gmail.com)
-- feat: makes useFlatTree generic ([PR #27682](https://github.com/microsoft/fluentui/pull/27682) by bernardo.sunderhus@gmail.com)
-- chore: updates useOpenItemsState internals ([PR #27697](https://github.com/microsoft/fluentui/pull/27697) by bernardo.sunderhus@gmail.com)
-- chore: move makeStyles() calls to .styles.ts files ([PR #27698](https://github.com/microsoft/fluentui/pull/27698) by olfedias@microsoft.com)
-- feat: adds lazy loading story ([PR #27587](https://github.com/microsoft/fluentui/pull/27587) by bernardo.sunderhus@gmail.com)
-- bugfix: fix horizontal overflow on tree ([PR #27825](https://github.com/microsoft/fluentui/pull/27825) by bernardo.sunderhus@gmail.com)
-- bugfix: fix VisibleFlatTreeItemGenerator omitting visible items ([PR #27802](https://github.com/microsoft/fluentui/pull/27802) by bernardo.sunderhus@gmail.com)
+- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by <olfedias@microsoft.com>)
+- feat: TreeItem itemType restructure ([PR #27799](https://github.com/microsoft/fluentui/pull/27799) by <bernardo.sunderhus@gmail.com>)
+- feat: creates TreeItemAside component ([PR #27701](https://github.com/microsoft/fluentui/pull/27701) by <bernardo.sunderhus@gmail.com>)
+- feat: makes useFlatTree generic ([PR #27682](https://github.com/microsoft/fluentui/pull/27682) by <bernardo.sunderhus@gmail.com>)
+- chore: updates useOpenItemsState internals ([PR #27697](https://github.com/microsoft/fluentui/pull/27697) by <bernardo.sunderhus@gmail.com>)
+- chore: move makeStyles() calls to .styles.ts files ([PR #27698](https://github.com/microsoft/fluentui/pull/27698) by <olfedias@microsoft.com>)
+- feat: adds lazy loading story ([PR #27587](https://github.com/microsoft/fluentui/pull/27587) by <bernardo.sunderhus@gmail.com>)
+- bugfix: fix horizontal overflow on tree ([PR #27825](https://github.com/microsoft/fluentui/pull/27825) by <bernardo.sunderhus@gmail.com>)
+- bugfix: fix VisibleFlatTreeItemGenerator omitting visible items ([PR #27802](https://github.com/microsoft/fluentui/pull/27802) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/keyboard-keys to v9.0.3 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-aria to v9.3.19 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-avatar to v9.5.0 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
@@ -2575,10 +2575,10 @@ Mon, 24 Apr 2023 08:12:44 GMT
 
 ### Changes
 
-- bugfix: remove caret from react-jsx-runtime prerelease dependency ([PR #27588](https://github.com/microsoft/fluentui/pull/27588) by bernardo.sunderhus@gmail.com)
-- bugfix: fix parent navigation after independency from id ([PR #27642](https://github.com/microsoft/fluentui/pull/27642) by bernardo.sunderhus@gmail.com)
-- feat: value property over id ([PR #27532](https://github.com/microsoft/fluentui/pull/27532) by bernardo.sunderhus@gmail.com)
-- chore: restructure stories, add separate category for flat tree ([PR #27586](https://github.com/microsoft/fluentui/pull/27586) by bernardo.sunderhus@gmail.com)
+- bugfix: remove caret from react-jsx-runtime prerelease dependency ([PR #27588](https://github.com/microsoft/fluentui/pull/27588) by <bernardo.sunderhus@gmail.com>)
+- bugfix: fix parent navigation after independency from id ([PR #27642](https://github.com/microsoft/fluentui/pull/27642) by <bernardo.sunderhus@gmail.com>)
+- feat: value property over id ([PR #27532](https://github.com/microsoft/fluentui/pull/27532) by <bernardo.sunderhus@gmail.com>)
+- chore: restructure stories, add separate category for flat tree ([PR #27586](https://github.com/microsoft/fluentui/pull/27586) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-avatar to v9.4.10 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
 - Bump @fluentui/react-button to v9.3.10 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.2 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
@@ -2590,7 +2590,7 @@ Mon, 17 Apr 2023 17:54:01 GMT
 
 ### Changes
 
-- chore: adopt custom jsx pragma ([PR #27542](https://github.com/microsoft/fluentui/pull/27542) by bernardo.sunderhus@gmail.com)
+- chore: adopt custom jsx pragma ([PR #27542](https://github.com/microsoft/fluentui/pull/27542) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.3.18 ([PR #27564](https://github.com/microsoft/fluentui/pull/27564) by beachball)
 - Bump @fluentui/react-avatar to v9.4.9 ([PR #27564](https://github.com/microsoft/fluentui/pull/27564) by beachball)
 - Bump @fluentui/react-button to v9.3.9 ([PR #27564](https://github.com/microsoft/fluentui/pull/27564) by beachball)
@@ -2622,7 +2622,7 @@ Tue, 04 Apr 2023 18:44:49 GMT
 
 ### Changes
 
-- chore: adds e2e flat tree tests ([PR #27318](https://github.com/microsoft/fluentui/pull/27318) by bernardo.sunderhus@gmail.com)
+- chore: adds e2e flat tree tests ([PR #27318](https://github.com/microsoft/fluentui/pull/27318) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-aria to v9.3.16 ([PR #27434](https://github.com/microsoft/fluentui/pull/27434) by beachball)
 - Bump @fluentui/react-avatar to v9.4.7 ([PR #27434](https://github.com/microsoft/fluentui/pull/27434) by beachball)
 - Bump @fluentui/react-button to v9.3.7 ([PR #27434](https://github.com/microsoft/fluentui/pull/27434) by beachball)
@@ -2638,7 +2638,7 @@ Fri, 24 Mar 2023 10:15:27 GMT
 
 ### Changes
 
-- tree stories and doc update ([PR #27270](https://github.com/microsoft/fluentui/pull/27270) by petrduda@microsoft.com)
+- tree stories and doc update ([PR #27270](https://github.com/microsoft/fluentui/pull/27270) by <petrduda@microsoft.com>)
 
 ## [9.0.0-beta.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.0.0-beta.6)
 
@@ -2647,9 +2647,9 @@ Tue, 21 Mar 2023 21:23:13 GMT
 
 ### Changes
 
-- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by tristan.watanabe@gmail.com)
-- chore: Bumping version of @fluentui/react-icons to ^2.0.196. ([PR #27100](https://github.com/microsoft/fluentui/pull/27100) by olfedias@microsoft.com)
-- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by tristan.watanabe@gmail.com)
+- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by <tristan.watanabe@gmail.com>)
+- chore: Bumping version of @fluentui/react-icons to ^2.0.196. ([PR #27100](https://github.com/microsoft/fluentui/pull/27100) by <olfedias@microsoft.com>)
+- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by <tristan.watanabe@gmail.com>)
 - chore: adds initial e2e cypress tests ([PR #27266](https://github.com/microsoft/fluentui/pull/27266) by email not defined)
 - Bump @fluentui/keyboard-keys to v9.0.2 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-aria to v9.3.15 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
@@ -2714,7 +2714,7 @@ Fri, 10 Mar 2023 13:28:40 GMT
 
 ### Changes
 
-- feat: creates useFlatTree hook to improve API ([PR #27146](https://github.com/microsoft/fluentui/pull/27146) by bernardo.sunderhus@gmail.com)
+- feat: creates useFlatTree hook to improve API ([PR #27146](https://github.com/microsoft/fluentui/pull/27146) by <bernardo.sunderhus@gmail.com>)
 
 ## [9.0.0-beta.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-tree_v9.0.0-beta.1)
 
@@ -2722,7 +2722,7 @@ Fri, 10 Mar 2023 07:14:01 GMT
 
 ### Changes
 
-- release @fluentui/react-tree unstable ([PR #27126](https://github.com/microsoft/fluentui/pull/27126) by bernardo.sunderhus@gmail.com)
+- release @fluentui/react-tree unstable ([PR #27126](https://github.com/microsoft/fluentui/pull/27126) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.1.12 ([PR #27157](https://github.com/microsoft/fluentui/pull/27157) by beachball)
 - Bump @fluentui/react-avatar to v9.4.1 ([PR #27157](https://github.com/microsoft/fluentui/pull/27157) by beachball)
 - Bump @fluentui/react-aria to v9.3.12 ([PR #27157](https://github.com/microsoft/fluentui/pull/27157) by beachball)

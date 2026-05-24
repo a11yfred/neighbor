@@ -6,12 +6,12 @@ This log was last generated on Thu, 23 Apr 2026 11:59:33 GMT and should not be m
 
 ## [9.7.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.7.2)
 
-Thu, 23 Apr 2026 11:59:33 GMT 
+Thu, 23 Apr 2026 11:59:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.7.1..@fluentui/react-switch_v9.7.2)
 
 ### Patches
 
-- fix: update Switch component to conditionally render CircleFilled in indicator ([PR #35972](https://github.com/microsoft/fluentui/pull/35972) by dmytrokirpa@microsoft.com)
+- fix: update Switch component to conditionally render CircleFilled in indicator ([PR #35972](https://github.com/microsoft/fluentui/pull/35972) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-field to v9.5.1 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.4.2 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
 - Bump @fluentui/react-label to v9.4.1 ([PR #35996](https://github.com/microsoft/fluentui/pull/35996) by beachball)
@@ -20,7 +20,7 @@ Thu, 23 Apr 2026 11:59:33 GMT
 
 ## [9.7.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.7.1)
 
-Wed, 01 Apr 2026 15:52:43 GMT 
+Wed, 01 Apr 2026 15:52:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.7.0..@fluentui/react-switch_v9.7.1)
 
 ### Patches
@@ -30,16 +30,16 @@ Wed, 01 Apr 2026 15:52:43 GMT
 
 ## [9.7.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.7.0)
 
-Thu, 26 Mar 2026 08:12:53 GMT 
+Thu, 26 Mar 2026 08:12:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.6.1..@fluentui/react-switch_v9.7.0)
 
 ### Minor changes
 
-- feat: add base hooks for Switch ([PR #35820](https://github.com/microsoft/fluentui/pull/35820) by dmytrokirpa@microsoft.com)
+- feat: add base hooks for Switch ([PR #35820](https://github.com/microsoft/fluentui/pull/35820) by <dmytrokirpa@microsoft.com>)
 
 ## [9.6.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.6.1)
 
-Wed, 11 Mar 2026 09:22:22 GMT 
+Wed, 11 Mar 2026 09:22:22 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.6.0..@fluentui/react-switch_v9.6.1)
 
 ### Patches
@@ -48,16 +48,16 @@ Wed, 11 Mar 2026 09:22:22 GMT
 
 ## [9.6.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.6.0)
 
-Tue, 03 Mar 2026 09:43:41 GMT 
+Tue, 03 Mar 2026 09:43:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.5.4..@fluentui/react-switch_v9.6.0)
 
 ### Minor changes
 
-- feat: add disabledFocusable prop to Switch component ([PR #35799](https://github.com/microsoft/fluentui/pull/35799) by copilot@microsoft.com)
+- feat: add disabledFocusable prop to Switch component ([PR #35799](https://github.com/microsoft/fluentui/pull/35799) by <copilot@microsoft.com>)
 
 ## [9.5.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.5.4)
 
-Wed, 25 Feb 2026 13:32:28 GMT 
+Wed, 25 Feb 2026 13:32:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.5.3..@fluentui/react-switch_v9.5.4)
 
 ### Patches
@@ -71,19 +71,19 @@ Wed, 25 Feb 2026 13:32:28 GMT
 
 ## [9.5.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.5.3)
 
-Thu, 12 Feb 2026 10:46:11 GMT 
+Thu, 12 Feb 2026 10:46:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.5.2..@fluentui/react-switch_v9.5.3)
 
 ### Patches
 
-- refactor: add base state hooks for Switch component ([PR #35720](https://github.com/microsoft/fluentui/pull/35720) by copilot@github.com)
+- refactor: add base state hooks for Switch component ([PR #35720](https://github.com/microsoft/fluentui/pull/35720) by <copilot@github.com>)
 - Bump @fluentui/react-field to v9.4.14 ([PR #35743](https://github.com/microsoft/fluentui/pull/35743) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.4.0 ([PR #35743](https://github.com/microsoft/fluentui/pull/35743) by beachball)
 - Bump @fluentui/react-label to v9.3.14 ([PR #35743](https://github.com/microsoft/fluentui/pull/35743) by beachball)
 
 ## [9.5.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.5.2)
 
-Thu, 22 Jan 2026 17:06:40 GMT 
+Thu, 22 Jan 2026 17:06:40 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.5.1..@fluentui/react-switch_v9.5.2)
 
 ### Patches
@@ -98,7 +98,7 @@ Thu, 22 Jan 2026 17:06:40 GMT
 
 ## [9.5.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.5.1)
 
-Wed, 17 Dec 2025 18:10:11 GMT 
+Wed, 17 Dec 2025 18:10:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.5.0..@fluentui/react-switch_v9.5.1)
 
 ### Patches
@@ -111,21 +111,21 @@ Wed, 17 Dec 2025 18:10:11 GMT
 
 ## [9.5.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.5.0)
 
-Fri, 05 Dec 2025 22:38:22 GMT 
+Fri, 05 Dec 2025 22:38:22 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.4.11..@fluentui/react-switch_v9.5.0)
 
 ### Minor changes
 
-- feat: add small variant to the Switch component ([PR #35505](https://github.com/microsoft/fluentui/pull/35505) by dmytrokirpa@microsoft.com)
+- feat: add small variant to the Switch component ([PR #35505](https://github.com/microsoft/fluentui/pull/35505) by <dmytrokirpa@microsoft.com>)
 
 ## [9.4.11](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.4.11)
 
-Tue, 11 Nov 2025 19:18:10 GMT 
+Tue, 11 Nov 2025 19:18:10 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.4.10..@fluentui/react-switch_v9.4.11)
 
 ### Patches
 
-- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by estebanmu@microsoft.com)
+- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by <estebanmu@microsoft.com>)
 - Bump @fluentui/react-field to v9.4.11 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.3.3 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-label to v9.3.11 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
@@ -135,7 +135,7 @@ Tue, 11 Nov 2025 19:18:10 GMT
 
 ## [9.4.10](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.4.10)
 
-Thu, 06 Nov 2025 15:01:25 GMT 
+Thu, 06 Nov 2025 15:01:25 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.4.9..@fluentui/react-switch_v9.4.10)
 
 ### Patches
@@ -148,7 +148,7 @@ Thu, 06 Nov 2025 15:01:25 GMT
 
 ## [9.4.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.4.9)
 
-Fri, 31 Oct 2025 16:22:06 GMT 
+Fri, 31 Oct 2025 16:22:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.4.8..@fluentui/react-switch_v9.4.9)
 
 ### Patches
@@ -161,7 +161,7 @@ Fri, 31 Oct 2025 16:22:06 GMT
 
 ## [9.4.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.4.8)
 
-Tue, 21 Oct 2025 14:16:59 GMT 
+Tue, 21 Oct 2025 14:16:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.4.7..@fluentui/react-switch_v9.4.8)
 
 ### Patches
@@ -172,7 +172,7 @@ Tue, 21 Oct 2025 14:16:59 GMT
 
 ## [9.4.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.4.7)
 
-Wed, 08 Oct 2025 12:04:53 GMT 
+Wed, 08 Oct 2025 12:04:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.4.6..@fluentui/react-switch_v9.4.7)
 
 ### Patches
@@ -185,12 +185,12 @@ Wed, 08 Oct 2025 12:04:53 GMT
 
 ## [9.4.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.4.6)
 
-Thu, 02 Oct 2025 15:12:35 GMT 
+Thu, 02 Oct 2025 15:12:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.4.5..@fluentui/react-switch_v9.4.6)
 
 ### Patches
 
-- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by dmytrokirpa@microsoft.com)
+- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-field to v9.4.6 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.2.1 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-label to v9.3.6 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
@@ -200,14 +200,14 @@ Thu, 02 Oct 2025 15:12:35 GMT
 
 ## [9.4.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.4.5)
 
-Mon, 08 Sep 2025 12:50:39 GMT 
+Mon, 08 Sep 2025 12:50:39 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.4.4..@fluentui/react-switch_v9.4.5)
 
 ### Patches
 
-- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by dmytrokirpa@microsoft.com)
-- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by dmytrokirpa@microsoft.com)
-- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by dmytrokirpa@microsoft.com)
+- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by <dmytrokirpa@microsoft.com>)
+- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by <dmytrokirpa@microsoft.com>)
+- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-field to v9.4.5 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.2.0 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-label to v9.3.5 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
@@ -217,7 +217,7 @@ Mon, 08 Sep 2025 12:50:39 GMT
 
 ## [9.4.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.4.4)
 
-Thu, 21 Aug 2025 12:25:19 GMT 
+Thu, 21 Aug 2025 12:25:19 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.4.3..@fluentui/react-switch_v9.4.4)
 
 ### Patches
@@ -231,7 +231,7 @@ Thu, 21 Aug 2025 12:25:19 GMT
 
 ## [9.4.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.4.3)
 
-Thu, 07 Aug 2025 10:03:33 GMT 
+Thu, 07 Aug 2025 10:03:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.4.2..@fluentui/react-switch_v9.4.3)
 
 ### Patches
@@ -244,7 +244,7 @@ Thu, 07 Aug 2025 10:03:33 GMT
 
 ## [9.4.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.4.2)
 
-Wed, 30 Jul 2025 13:10:57 GMT 
+Wed, 30 Jul 2025 13:10:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.4.1..@fluentui/react-switch_v9.4.2)
 
 ### Patches
@@ -259,7 +259,7 @@ Wed, 30 Jul 2025 13:10:57 GMT
 
 ## [9.4.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.4.1)
 
-Mon, 28 Jul 2025 18:48:21 GMT 
+Mon, 28 Jul 2025 18:48:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.4.0..@fluentui/react-switch_v9.4.1)
 
 ### Patches
@@ -272,19 +272,19 @@ Mon, 28 Jul 2025 18:48:21 GMT
 
 ## [9.4.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.4.0)
 
-Thu, 17 Jul 2025 13:49:47 GMT 
+Thu, 17 Jul 2025 13:49:47 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.3.7..@fluentui/react-switch_v9.4.0)
 
 ### Minor changes
 
-- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by martinhochel@microsoft.com)
+- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-field to v9.4.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 - Bump @fluentui/react-label to v9.3.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 - Bump @fluentui/react-tabster to v9.26.0 ([PR #34862](https://github.com/microsoft/fluentui/pull/34862) by beachball)
 
 ## [9.3.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.3.7)
 
-Fri, 11 Jul 2025 15:59:24 GMT 
+Fri, 11 Jul 2025 15:59:24 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.3.6..@fluentui/react-switch_v9.3.7)
 
 ### Patches
@@ -293,7 +293,7 @@ Fri, 11 Jul 2025 15:59:24 GMT
 
 ## [9.3.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.3.6)
 
-Fri, 04 Jul 2025 10:02:51 GMT 
+Fri, 04 Jul 2025 10:02:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.3.5..@fluentui/react-switch_v9.3.6)
 
 ### Patches
@@ -302,7 +302,7 @@ Fri, 04 Jul 2025 10:02:51 GMT
 
 ## [9.3.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.3.5)
 
-Fri, 27 Jun 2025 13:39:41 GMT 
+Fri, 27 Jun 2025 13:39:41 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.3.4..@fluentui/react-switch_v9.3.5)
 
 ### Patches
@@ -312,7 +312,7 @@ Fri, 27 Jun 2025 13:39:41 GMT
 
 ## [9.3.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.3.4)
 
-Thu, 26 Jun 2025 14:11:55 GMT 
+Thu, 26 Jun 2025 14:11:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.3.3..@fluentui/react-switch_v9.3.4)
 
 ### Patches
@@ -325,7 +325,7 @@ Thu, 26 Jun 2025 14:11:55 GMT
 
 ## [9.3.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.3.3)
 
-Mon, 23 Jun 2025 15:49:48 GMT 
+Mon, 23 Jun 2025 15:49:48 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.3.2..@fluentui/react-switch_v9.3.3)
 
 ### Patches
@@ -334,7 +334,7 @@ Mon, 23 Jun 2025 15:49:48 GMT
 
 ## [9.3.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.3.2)
 
-Wed, 18 Jun 2025 17:34:00 GMT 
+Wed, 18 Jun 2025 17:34:00 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.3.1..@fluentui/react-switch_v9.3.2)
 
 ### Patches
@@ -348,7 +348,7 @@ Wed, 18 Jun 2025 17:34:00 GMT
 
 ## [9.3.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.3.1)
 
-Fri, 13 Jun 2025 12:32:53 GMT 
+Fri, 13 Jun 2025 12:32:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.3.0..@fluentui/react-switch_v9.3.1)
 
 ### Patches
@@ -357,7 +357,7 @@ Fri, 13 Jun 2025 12:32:53 GMT
 
 ## [9.3.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.3.0)
 
-Thu, 12 Jun 2025 09:43:33 GMT 
+Thu, 12 Jun 2025 09:43:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.2.9..@fluentui/react-switch_v9.3.0)
 
 ### Minor changes
@@ -370,7 +370,7 @@ Thu, 12 Jun 2025 09:43:33 GMT
 
 ## [9.2.9](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.2.9)
 
-Wed, 11 Jun 2025 22:31:58 GMT 
+Wed, 11 Jun 2025 22:31:58 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.2.8..@fluentui/react-switch_v9.2.9)
 
 ### Patches
@@ -379,7 +379,7 @@ Wed, 11 Jun 2025 22:31:58 GMT
 
 ## [9.2.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.2.8)
 
-Fri, 06 Jun 2025 13:15:17 GMT 
+Fri, 06 Jun 2025 13:15:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.2.7..@fluentui/react-switch_v9.2.8)
 
 ### Patches
@@ -392,7 +392,7 @@ Fri, 06 Jun 2025 13:15:17 GMT
 
 ## [9.2.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.2.7)
 
-Wed, 14 May 2025 18:49:20 GMT 
+Wed, 14 May 2025 18:49:20 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.2.6..@fluentui/react-switch_v9.2.7)
 
 ### Patches
@@ -402,7 +402,7 @@ Wed, 14 May 2025 18:49:20 GMT
 
 ## [9.2.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.2.6)
 
-Thu, 24 Apr 2025 09:59:45 GMT 
+Thu, 24 Apr 2025 09:59:45 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.2.5..@fluentui/react-switch_v9.2.6)
 
 ### Patches
@@ -412,7 +412,7 @@ Thu, 24 Apr 2025 09:59:45 GMT
 
 ## [9.2.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.2.5)
 
-Wed, 16 Apr 2025 19:42:18 GMT 
+Wed, 16 Apr 2025 19:42:18 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.2.4..@fluentui/react-switch_v9.2.5)
 
 ### Patches
@@ -425,7 +425,7 @@ Wed, 16 Apr 2025 19:42:18 GMT
 
 ## [9.2.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.2.4)
 
-Tue, 01 Apr 2025 15:08:02 GMT 
+Tue, 01 Apr 2025 15:08:02 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.2.3..@fluentui/react-switch_v9.2.4)
 
 ### Patches
@@ -435,7 +435,7 @@ Tue, 01 Apr 2025 15:08:02 GMT
 
 ## [9.2.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.2.3)
 
-Thu, 27 Mar 2025 21:12:51 GMT 
+Thu, 27 Mar 2025 21:12:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.2.2..@fluentui/react-switch_v9.2.3)
 
 ### Patches
@@ -449,7 +449,7 @@ Thu, 27 Mar 2025 21:12:51 GMT
 
 ## [9.2.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.2.2)
 
-Wed, 19 Mar 2025 15:40:43 GMT 
+Wed, 19 Mar 2025 15:40:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.2.1..@fluentui/react-switch_v9.2.2)
 
 ### Patches
@@ -463,7 +463,7 @@ Wed, 19 Mar 2025 15:40:43 GMT
 
 ## [9.2.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.2.1)
 
-Tue, 11 Mar 2025 18:58:54 GMT 
+Tue, 11 Mar 2025 18:58:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.2.0..@fluentui/react-switch_v9.2.1)
 
 ### Patches
@@ -477,7 +477,7 @@ Tue, 11 Mar 2025 18:58:54 GMT
 
 ## [9.2.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.2.0)
 
-Fri, 21 Feb 2025 14:34:05 GMT 
+Fri, 21 Feb 2025 14:34:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.104..@fluentui/react-switch_v9.2.0)
 
 ### Minor changes
@@ -487,7 +487,7 @@ Fri, 21 Feb 2025 14:34:05 GMT
 
 ## [9.1.104](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.104)
 
-Mon, 27 Jan 2025 20:27:35 GMT 
+Mon, 27 Jan 2025 20:27:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.103..@fluentui/react-switch_v9.1.104)
 
 ### Patches
@@ -496,7 +496,7 @@ Mon, 27 Jan 2025 20:27:35 GMT
 
 ## [9.1.103](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.103)
 
-Wed, 22 Jan 2025 14:00:08 GMT 
+Wed, 22 Jan 2025 14:00:08 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.102..@fluentui/react-switch_v9.1.103)
 
 ### Patches
@@ -509,7 +509,7 @@ Wed, 22 Jan 2025 14:00:08 GMT
 
 ## [9.1.102](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.102)
 
-Wed, 08 Jan 2025 18:33:36 GMT 
+Wed, 08 Jan 2025 18:33:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.101..@fluentui/react-switch_v9.1.102)
 
 ### Patches
@@ -520,7 +520,7 @@ Wed, 08 Jan 2025 18:33:36 GMT
 
 ## [9.1.101](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.101)
 
-Mon, 16 Dec 2024 16:26:49 GMT 
+Mon, 16 Dec 2024 16:26:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.100..@fluentui/react-switch_v9.1.101)
 
 ### Patches
@@ -535,18 +535,18 @@ Mon, 16 Dec 2024 16:26:49 GMT
 
 ## [9.1.100](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.100)
 
-Mon, 09 Dec 2024 17:38:06 GMT 
+Mon, 09 Dec 2024 17:38:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.99..@fluentui/react-switch_v9.1.100)
 
 ### Patches
 
-- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by olfedias@microsoft.com)
+- chore: remove usage of "export *" ([PR #33384](https://github.com/microsoft/fluentui/pull/33384) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.82 ([PR #33431](https://github.com/microsoft/fluentui/pull/33431) by beachball)
 - Bump @fluentui/react-label to v9.1.80 ([PR #33431](https://github.com/microsoft/fluentui/pull/33431) by beachball)
 
 ## [9.1.99](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.99)
 
-Fri, 06 Dec 2024 12:53:46 GMT 
+Fri, 06 Dec 2024 12:53:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.98..@fluentui/react-switch_v9.1.99)
 
 ### Patches
@@ -561,7 +561,7 @@ Fri, 06 Dec 2024 12:53:46 GMT
 
 ## [9.1.98](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.98)
 
-Mon, 18 Nov 2024 09:44:40 GMT 
+Mon, 18 Nov 2024 09:44:40 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.97..@fluentui/react-switch_v9.1.98)
 
 ### Patches
@@ -570,12 +570,12 @@ Mon, 18 Nov 2024 09:44:40 GMT
 
 ## [9.1.97](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.97)
 
-Mon, 11 Nov 2024 10:00:56 GMT 
+Mon, 11 Nov 2024 10:00:56 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.96..@fluentui/react-switch_v9.1.97)
 
 ### Patches
 
-- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by martinhochel@microsoft.com)
+- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.79 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.46 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-label to v9.1.78 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
@@ -586,7 +586,7 @@ Mon, 11 Nov 2024 10:00:56 GMT
 
 ## [9.1.96](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.96)
 
-Tue, 15 Oct 2024 17:17:53 GMT 
+Tue, 15 Oct 2024 17:17:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.95..@fluentui/react-switch_v9.1.96)
 
 ### Patches
@@ -601,7 +601,7 @@ Tue, 15 Oct 2024 17:17:53 GMT
 
 ## [9.1.95](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.95)
 
-Tue, 08 Oct 2024 22:05:59 GMT 
+Tue, 08 Oct 2024 22:05:59 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.94..@fluentui/react-switch_v9.1.95)
 
 ### Patches
@@ -611,7 +611,7 @@ Tue, 08 Oct 2024 22:05:59 GMT
 
 ## [9.1.94](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.94)
 
-Mon, 23 Sep 2024 12:40:17 GMT 
+Mon, 23 Sep 2024 12:40:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.93..@fluentui/react-switch_v9.1.94)
 
 ### Patches
@@ -626,7 +626,7 @@ Mon, 23 Sep 2024 12:40:17 GMT
 
 ## [9.1.93](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.93)
 
-Tue, 10 Sep 2024 10:19:12 GMT 
+Tue, 10 Sep 2024 10:19:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.92..@fluentui/react-switch_v9.1.93)
 
 ### Patches
@@ -639,7 +639,7 @@ Tue, 10 Sep 2024 10:19:12 GMT
 
 ## [9.1.92](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.92)
 
-Thu, 15 Aug 2024 13:49:46 GMT 
+Thu, 15 Aug 2024 13:49:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.91..@fluentui/react-switch_v9.1.92)
 
 ### Patches
@@ -649,7 +649,7 @@ Thu, 15 Aug 2024 13:49:46 GMT
 
 ## [9.1.91](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.91)
 
-Thu, 15 Aug 2024 08:22:17 GMT 
+Thu, 15 Aug 2024 08:22:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.90..@fluentui/react-switch_v9.1.91)
 
 ### Patches
@@ -659,7 +659,7 @@ Thu, 15 Aug 2024 08:22:17 GMT
 
 ## [9.1.90](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.90)
 
-Tue, 30 Jul 2024 18:47:35 GMT 
+Tue, 30 Jul 2024 18:47:35 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.89..@fluentui/react-switch_v9.1.90)
 
 ### Patches
@@ -668,7 +668,7 @@ Tue, 30 Jul 2024 18:47:35 GMT
 
 ## [9.1.89](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.89)
 
-Tue, 23 Jul 2024 20:13:14 GMT 
+Tue, 23 Jul 2024 20:13:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.88..@fluentui/react-switch_v9.1.89)
 
 ### Patches
@@ -682,12 +682,12 @@ Tue, 23 Jul 2024 20:13:14 GMT
 
 ## [9.1.88](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.88)
 
-Mon, 15 Jul 2024 17:25:14 GMT 
+Mon, 15 Jul 2024 17:25:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.87..@fluentui/react-switch_v9.1.88)
 
 ### Patches
 
-- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by martinhochel@microsoft.com)
+- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.70 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.41 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-label to v9.1.73 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
@@ -697,13 +697,13 @@ Mon, 15 Jul 2024 17:25:14 GMT
 
 ## [9.1.87](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.87)
 
-Mon, 01 Jul 2024 20:30:32 GMT 
+Mon, 01 Jul 2024 20:30:32 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.86..@fluentui/react-switch_v9.1.87)
 
 ### Patches
 
-- chore: Update react-icons package to ^2.0.245 ([PR #31802](https://github.com/microsoft/fluentui/pull/31802) by ololubek@microsoft.com)
-- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by seanmonahan@microsoft.com)
+- chore: Update react-icons package to ^2.0.245 ([PR #31802](https://github.com/microsoft/fluentui/pull/31802) by <ololubek@microsoft.com>)
+- chore: add eslint react-compiler ([PR #31457](https://github.com/microsoft/fluentui/pull/31457) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.69 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.40 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
 - Bump @fluentui/react-label to v9.1.72 ([PR #31861](https://github.com/microsoft/fluentui/pull/31861) by beachball)
@@ -712,7 +712,7 @@ Mon, 01 Jul 2024 20:30:32 GMT
 
 ## [9.1.86](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.86)
 
-Mon, 17 Jun 2024 07:34:17 GMT 
+Mon, 17 Jun 2024 07:34:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-switch_v9.1.85..@fluentui/react-switch_v9.1.86)
 
 ### Patches
@@ -740,7 +740,7 @@ Thu, 23 May 2024 08:02:48 GMT
 
 ### Patches
 
-- chore: replace usage of .shorthands() in styles ([PR #31449](https://github.com/microsoft/fluentui/pull/31449) by olfedias@microsoft.com)
+- chore: replace usage of .shorthands() in styles ([PR #31449](https://github.com/microsoft/fluentui/pull/31449) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.21.4 ([commit](https://github.com/microsoft/fluentui/commit/03599d609e8310b08c57d1f871cffbf717d79207) by beachball)
 
 ## [9.1.83](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.83)
@@ -750,7 +750,7 @@ Mon, 20 May 2024 12:45:05 GMT
 
 ### Patches
 
-- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by olfedias@microsoft.com)
+- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.66 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.38 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-label to v9.1.70 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
@@ -765,7 +765,7 @@ Thu, 16 May 2024 09:25:18 GMT
 
 ### Patches
 
-- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by ololubek@microsoft.com)
+- chore: Upgrade react-icons version to 2.0.239 to pick up provider export map fix. ([PR #31287](https://github.com/microsoft/fluentui/pull/31287) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.65 ([PR #31390](https://github.com/microsoft/fluentui/pull/31390) by beachball)
 
 ## [9.1.81](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.81)
@@ -775,7 +775,7 @@ Thu, 09 May 2024 19:35:11 GMT
 
 ### Patches
 
-- fix: Add HC hover active styling to Switch. ([PR #31283](https://github.com/microsoft/fluentui/pull/31283) by ololubek@microsoft.com)
+- fix: Add HC hover active styling to Switch. ([PR #31283](https://github.com/microsoft/fluentui/pull/31283) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.21.2 ([PR #31321](https://github.com/microsoft/fluentui/pull/31321) by beachball)
 
 ## [9.1.80](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.80)
@@ -785,7 +785,7 @@ Mon, 06 May 2024 12:55:01 GMT
 
 ### Patches
 
-- fix: Add HC styling for Switch font icon ([PR #31241](https://github.com/microsoft/fluentui/pull/31241) by ololubek@microsoft.com)
+- fix: Add HC styling for Switch font icon ([PR #31241](https://github.com/microsoft/fluentui/pull/31241) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.64 ([PR #31271](https://github.com/microsoft/fluentui/pull/31271) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.37 ([PR #31271](https://github.com/microsoft/fluentui/pull/31271) by beachball)
 - Bump @fluentui/react-label to v9.1.69 ([PR #31271](https://github.com/microsoft/fluentui/pull/31271) by beachball)
@@ -800,7 +800,7 @@ Thu, 02 May 2024 11:36:38 GMT
 
 ### Patches
 
-- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by ololubek@microsoft.com)
+- chore: upgrade @fluentui/react-icons to 2.0.237. ([PR #31139](https://github.com/microsoft/fluentui/pull/31139) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.63 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 - Bump @fluentui/react-tabster to v9.21.0 ([PR #31231](https://github.com/microsoft/fluentui/pull/31231) by beachball)
 
@@ -825,7 +825,7 @@ Wed, 17 Apr 2024 21:53:59 GMT
 
 ### Patches
 
-- chore: Update react-icons to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by ololubek@microsoft.com)
+- chore: Update react-icons to 2.0.235 ([PR #31011](https://github.com/microsoft/fluentui/pull/31011) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.61 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 - Bump @fluentui/react-tabster to v9.20.0 ([PR #31100](https://github.com/microsoft/fluentui/pull/31100) by beachball)
 
@@ -1003,7 +1003,7 @@ Tue, 16 Jan 2024 13:14:08 GMT
 
 ### Patches
 
-- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by mgodbolt@microsoft.com)
+- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.48 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.25 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 - Bump @fluentui/react-label to v9.1.56 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
@@ -1016,7 +1016,7 @@ Mon, 08 Jan 2024 16:24:25 GMT
 
 ### Patches
 
-- Update version of @fluentui/react-icons to 2.0.224 ([PR #30078](https://github.com/microsoft/fluentui/pull/30078) by ololubek@microsoft.com)
+- Update version of @fluentui/react-icons to 2.0.224 ([PR #30078](https://github.com/microsoft/fluentui/pull/30078) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.47 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.24 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
 - Bump @fluentui/react-label to v9.1.55 ([PR #30179](https://github.com/microsoft/fluentui/pull/30179) by beachball)
@@ -1104,7 +1104,7 @@ Thu, 09 Nov 2023 17:29:44 GMT
 
 ### Patches
 
-- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by martinhochel@microsoft.com)
+- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.41 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.19 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-label to v9.1.49 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
@@ -1243,7 +1243,7 @@ Tue, 26 Sep 2023 17:49:12 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by yuanboxue@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by <yuanboxue@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.31 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.12 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-label to v9.1.39 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
@@ -1259,8 +1259,8 @@ Tue, 26 Sep 2023 15:31:48 GMT
 
 ### Patches
 
-- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by martinhochel@microsoft.com)
-- chore: Update react-icons version to pick up IconDirectionContextProvider updated export ([PR #29151](https://github.com/microsoft/fluentui/pull/29151) by ololubek@microsoft.com)
+- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by <martinhochel@microsoft.com>)
+- chore: Update react-icons version to pick up IconDirectionContextProvider updated export ([PR #29151](https://github.com/microsoft/fluentui/pull/29151) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.30 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.11 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-label to v9.1.38 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
@@ -1276,7 +1276,7 @@ Wed, 20 Sep 2023 17:47:43 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by martinhochel@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.29 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.10 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
 - Bump @fluentui/react-label to v9.1.37 ([PR #29197](https://github.com/microsoft/fluentui/pull/29197) by beachball)
@@ -1352,8 +1352,8 @@ Tue, 05 Sep 2023 13:29:05 GMT
 
 ### Patches
 
-- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by bernardo.sunderhus@gmail.com)
-- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by bernardo.sunderhus@gmail.com)
+- chore: migrate package to use JSX importSource ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by <bernardo.sunderhus@gmail.com>)
+- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-field to v9.1.23 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.4 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-label to v9.1.31 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
@@ -1443,8 +1443,8 @@ Wed, 09 Aug 2023 13:17:05 GMT
 
 ### Patches
 
-- chore(cxe-red): migrate to new slot API ([PR #28753](https://github.com/microsoft/fluentui/pull/28753) by bernardo.sunderhus@gmail.com)
-- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by olfedias@microsoft.com)
+- chore(cxe-red): migrate to new slot API ([PR #28753](https://github.com/microsoft/fluentui/pull/28753) by <bernardo.sunderhus@gmail.com>)
+- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.16 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.14 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-label to v9.1.24 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
@@ -1486,7 +1486,7 @@ Tue, 25 Jul 2023 13:29:21 GMT
 
 ### Patches
 
-- chore: Update react-icons version to pick up fowardref change. ([PR #28590](https://github.com/microsoft/fluentui/pull/28590) by ololubek@microsoft.com)
+- chore: Update react-icons version to pick up fowardref change. ([PR #28590](https://github.com/microsoft/fluentui/pull/28590) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.13 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
 - Bump @fluentui/react-tabster to v9.11.0 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
 
@@ -1578,7 +1578,7 @@ Tue, 20 Jun 2023 12:39:03 GMT
 
 ### Patches
 
-- chore: update @fluentui/react-icons to 2.0.203 ([PR #28203](https://github.com/microsoft/fluentui/pull/28203) by ololubek@microsoft.com)
+- chore: update @fluentui/react-icons to 2.0.203 ([PR #28203](https://github.com/microsoft/fluentui/pull/28203) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.7 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.7 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
 - Bump @fluentui/react-label to v9.1.16 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
@@ -1595,7 +1595,7 @@ Wed, 31 May 2023 06:46:19 GMT
 
 ### Patches
 
-- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by seanmonahan@microsoft.com)
+- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.6 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.6 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-label to v9.1.15 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
@@ -1657,9 +1657,9 @@ Fri, 12 May 2023 20:27:48 GMT
 
 ### Patches
 
-- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by olfedias@microsoft.com)
-- Update to use single hook selector ([PR #27491](https://github.com/microsoft/fluentui/pull/27491) by gcox@microsoft.com)
-- chore: move makeStyles() calls to .styles.ts files ([PR #27710](https://github.com/microsoft/fluentui/pull/27710) by olfedias@microsoft.com)
+- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by <olfedias@microsoft.com>)
+- Update to use single hook selector ([PR #27491](https://github.com/microsoft/fluentui/pull/27491) by <gcox@microsoft.com>)
+- chore: move makeStyles() calls to .styles.ts files ([PR #27710](https://github.com/microsoft/fluentui/pull/27710) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.2 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.3 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-label to v9.1.11 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
@@ -1676,7 +1676,7 @@ Mon, 24 Apr 2023 08:12:42 GMT
 
 ### Patches
 
-- chore: adopt custom JSX pragma ([PR #27627](https://github.com/microsoft/fluentui/pull/27627) by bernardo.sunderhus@gmail.com)
+- chore: adopt custom JSX pragma ([PR #27627](https://github.com/microsoft/fluentui/pull/27627) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/react-field to v9.1.1 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
 - Bump @fluentui/react-jsx-runtime to v9.0.0-alpha.2 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
 - Bump @fluentui/react-label to v9.1.10 ([commit](https://github.com/microsoft/fluentui/commit/505433ac64f144c9cca456097413d6af4582e5ee) by beachball)
@@ -1688,8 +1688,8 @@ Mon, 17 Apr 2023 17:53:58 GMT
 
 ### Patches
 
-- chore: Remove deprecated SwitchField_unstable shim component ([PR #27492](https://github.com/microsoft/fluentui/pull/27492) by behowell@microsoft.com)
-- chore: Update react-field dependency version ([PR #27493](https://github.com/microsoft/fluentui/pull/27493) by behowell@microsoft.com)
+- chore: Remove deprecated SwitchField_unstable shim component ([PR #27492](https://github.com/microsoft/fluentui/pull/27492) by <behowell@microsoft.com>)
+- chore: Update react-field dependency version ([PR #27493](https://github.com/microsoft/fluentui/pull/27493) by <behowell@microsoft.com>)
 - Bump @fluentui/react-field to v9.1.0 ([PR #27564](https://github.com/microsoft/fluentui/pull/27564) by beachball)
 - Bump @fluentui/react-label to v9.1.9 ([PR #27564](https://github.com/microsoft/fluentui/pull/27564) by beachball)
 - Bump @fluentui/react-tabster to v9.6.5 ([PR #27564](https://github.com/microsoft/fluentui/pull/27564) by beachball)
@@ -1714,8 +1714,8 @@ Fri, 07 Apr 2023 00:01:44 GMT
 
 ### Patches
 
-- chore: Hook up FieldContext for use inside a Field ([PR #27399](https://github.com/microsoft/fluentui/pull/27399) by behowell@microsoft.com)
-- chore: Update package version of react-field ([PR #27458](https://github.com/microsoft/fluentui/pull/27458) by behowell@microsoft.com)
+- chore: Hook up FieldContext for use inside a Field ([PR #27399](https://github.com/microsoft/fluentui/pull/27399) by <behowell@microsoft.com>)
+- chore: Update package version of react-field ([PR #27458](https://github.com/microsoft/fluentui/pull/27458) by <behowell@microsoft.com>)
 - Bump @fluentui/react-field to v9.0.0-beta.1 ([PR #27420](https://github.com/microsoft/fluentui/pull/27420) by beachball)
 
 ## [9.1.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.1.7)
@@ -1737,10 +1737,10 @@ Tue, 21 Mar 2023 21:23:05 GMT
 
 ### Patches
 
-- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by tristan.watanabe@gmail.com)
-- fix: Make checked switch more visible in high contrast mode ([PR #27257](https://github.com/microsoft/fluentui/pull/27257) by lingfangao@hotmail.com)
-- chore: Bumping version of @fluentui/react-icons to ^2.0.196. ([PR #27100](https://github.com/microsoft/fluentui/pull/27100) by makotom@microsoft.com)
-- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by tristan.watanabe@gmail.com)
+- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by <tristan.watanabe@gmail.com>)
+- fix: Make checked switch more visible in high contrast mode ([PR #27257](https://github.com/microsoft/fluentui/pull/27257) by <lingfangao@hotmail.com>)
+- chore: Bumping version of @fluentui/react-icons to ^2.0.196. ([PR #27100](https://github.com/microsoft/fluentui/pull/27100) by <makotom@microsoft.com>)
+- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by <tristan.watanabe@gmail.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.27 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-label to v9.1.5 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.3.2 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
@@ -1805,7 +1805,7 @@ Wed, 08 Mar 2023 17:42:44 GMT
 
 ### Minor changes
 
-- feat: Adding calls to custom style hooks derived from context. ([PR #27076](https://github.com/microsoft/fluentui/pull/27076) by gcox@microsoft.com)
+- feat: Adding calls to custom style hooks derived from context. ([PR #27076](https://github.com/microsoft/fluentui/pull/27076) by <gcox@microsoft.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.22 ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by beachball)
 - Bump @fluentui/react-label to v9.1.0 ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.3.0 ([PR #27127](https://github.com/microsoft/fluentui/pull/27127) by beachball)
@@ -1876,7 +1876,7 @@ Thu, 26 Jan 2023 13:31:01 GMT
 
 ### Patches
 
-- Deprecate SwitchField_unstable in favor of Field with Switch as its child. ([PR #26430](https://github.com/microsoft/fluentui/pull/26430) by behowell@microsoft.com)
+- Deprecate SwitchField_unstable in favor of Field with Switch as its child. ([PR #26430](https://github.com/microsoft/fluentui/pull/26430) by <behowell@microsoft.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.17 ([PR #26496](https://github.com/microsoft/fluentui/pull/26496) by beachball)
 - Bump @fluentui/react-label to v9.0.18 ([PR #26496](https://github.com/microsoft/fluentui/pull/26496) by beachball)
 - Bump @fluentui/react-tabster to v9.4.1 ([PR #26496](https://github.com/microsoft/fluentui/pull/26496) by beachball)
@@ -1907,7 +1907,7 @@ Mon, 16 Jan 2023 08:38:47 GMT
 
 ### Patches
 
-- chore: Update Switch to use griffel reset styles ([PR #26007](https://github.com/microsoft/fluentui/pull/26007) by behowell@microsoft.com)
+- chore: Update Switch to use griffel reset styles ([PR #26007](https://github.com/microsoft/fluentui/pull/26007) by <behowell@microsoft.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.15 ([commit](https://github.com/microsoft/fluentui/commit/a870d8360e47f3ea03358c4e75e89e08a74845d7) by beachball)
 - Bump @fluentui/react-label to v9.0.17 ([commit](https://github.com/microsoft/fluentui/commit/a870d8360e47f3ea03358c4e75e89e08a74845d7) by beachball)
 - Bump @fluentui/react-tabster to v9.3.7 ([commit](https://github.com/microsoft/fluentui/commit/a870d8360e47f3ea03358c4e75e89e08a74845d7) by beachball)
@@ -1931,7 +1931,7 @@ Wed, 04 Jan 2023 01:40:31 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #26045](https://github.com/microsoft/fluentui/pull/26045) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #26045](https://github.com/microsoft/fluentui/pull/26045) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.13 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
 - Bump @fluentui/react-label to v9.0.15 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
 - Bump @fluentui/react-tabster to v9.3.5 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
@@ -1970,7 +1970,7 @@ Mon, 05 Dec 2022 18:29:30 GMT
 
 ### Patches
 
-- chore: Migrate to new package structure. ([PR #25819](https://github.com/microsoft/fluentui/pull/25819) by tristan.watanabe@gmail.com)
+- chore: Migrate to new package structure. ([PR #25819](https://github.com/microsoft/fluentui/pull/25819) by <tristan.watanabe@gmail.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.10 ([PR #25798](https://github.com/microsoft/fluentui/pull/25798) by beachball)
 - Bump @fluentui/react-label to v9.0.12 ([PR #25798](https://github.com/microsoft/fluentui/pull/25798) by beachball)
 - Bump @fluentui/react-tabster to v9.3.2 ([PR #25798](https://github.com/microsoft/fluentui/pull/25798) by beachball)
@@ -1995,10 +1995,10 @@ Fri, 11 Nov 2022 14:57:40 GMT
 
 ### Patches
 
-- fix: create valid export maps ([PR #25558](https://github.com/microsoft/fluentui/pull/25558) by martinhochel@microsoft.com)
-- bugfix: adds line-height=0 to switch indicator slot ([PR #25507](https://github.com/microsoft/fluentui/pull/25507) by bernardo.sunderhus@gmail.com)
-- chore: Move SwitchField into the @fluentui/react-switch package and export as \_unstable ([PR #25593](https://github.com/microsoft/fluentui/pull/25593) by behowell@microsoft.com)
-- chore: Replacing use of hard-coded constants with curve and duration tokens from theme. ([PR #25522](https://github.com/microsoft/fluentui/pull/25522) by humberto_makoto@hotmail.com)
+- fix: create valid export maps ([PR #25558](https://github.com/microsoft/fluentui/pull/25558) by <martinhochel@microsoft.com>)
+- bugfix: adds line-height=0 to switch indicator slot ([PR #25507](https://github.com/microsoft/fluentui/pull/25507) by <bernardo.sunderhus@gmail.com>)
+- chore: Move SwitchField into the @fluentui/react-switch package and export as \_unstable ([PR #25593](https://github.com/microsoft/fluentui/pull/25593) by <behowell@microsoft.com>)
+- chore: Replacing use of hard-coded constants with curve and duration tokens from theme. ([PR #25522](https://github.com/microsoft/fluentui/pull/25522) by <humberto_makoto@hotmail.com>)
 - Bump @fluentui/react-field to v9.0.0-alpha.8 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
 - Bump @fluentui/react-label to v9.0.10 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
 - Bump @fluentui/react-tabster to v9.3.0 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
@@ -2013,7 +2013,7 @@ Wed, 02 Nov 2022 11:58:02 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #25412](https://github.com/microsoft/fluentui/pull/25412) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25412](https://github.com/microsoft/fluentui/pull/25412) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.9 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 - Bump @fluentui/react-tabster to v9.2.1 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 - Bump @fluentui/react-utilities to v9.2.0 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
@@ -2026,8 +2026,8 @@ Thu, 20 Oct 2022 08:39:48 GMT
 
 ### Patches
 
-- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by mgodbolt@microsoft.com)
-- chore: Update Griffel to latest version ([PR #25212](https://github.com/microsoft/fluentui/pull/25212) by olfedias@microsoft.com)
+- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by <mgodbolt@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #25212](https://github.com/microsoft/fluentui/pull/25212) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.8 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 - Bump @fluentui/react-tabster to v9.2.0 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 - Bump @fluentui/react-theme to v9.1.1 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
@@ -2041,7 +2041,7 @@ Thu, 13 Oct 2022 11:03:01 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #25075](https://github.com/microsoft/fluentui/pull/25075) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25075](https://github.com/microsoft/fluentui/pull/25075) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.7 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
 - Bump @fluentui/react-tabster to v9.1.3 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
 - Bump @fluentui/react-utilities to v9.1.1 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
@@ -2054,8 +2054,8 @@ Mon, 03 Oct 2022 22:24:40 GMT
 
 ### Patches
 
-- fix: Making the hidden input only cover the indicator and not also the label. ([PR #24638](https://github.com/microsoft/fluentui/pull/24638) by makotom@microsoft.com)
-- fix: Switch's label shouldn't have a pointer cursor when disabled ([PR #25026](https://github.com/microsoft/fluentui/pull/25026) by behowell@microsoft.com)
+- fix: Making the hidden input only cover the indicator and not also the label. ([PR #24638](https://github.com/microsoft/fluentui/pull/24638) by <makotom@microsoft.com>)
+- fix: Switch's label shouldn't have a pointer cursor when disabled ([PR #25026](https://github.com/microsoft/fluentui/pull/25026) by <behowell@microsoft.com>)
 - Bump @fluentui/react-tabster to v9.1.2 ([PR #25055](https://github.com/microsoft/fluentui/pull/25055) by beachball)
 
 ## [9.0.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.6)
@@ -2075,9 +2075,9 @@ Thu, 15 Sep 2022 09:49:25 GMT
 
 ### Patches
 
-- fix: update color tokens ([PR #24027](https://github.com/microsoft/fluentui/pull/24027) by seanmonahan@microsoft.com)
-- chore: Update Griffel to latest version ([PR #24221](https://github.com/microsoft/fluentui/pull/24221) by olfedias@microsoft.com)
-- refactor: Replace useMergedEventCallbacks utility with mergeCallbacks ([PR #24152](https://github.com/microsoft/fluentui/pull/24152) by behowell@microsoft.com)
+- fix: update color tokens ([PR #24027](https://github.com/microsoft/fluentui/pull/24027) by <seanmonahan@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #24221](https://github.com/microsoft/fluentui/pull/24221) by <olfedias@microsoft.com>)
+- refactor: Replace useMergedEventCallbacks utility with mergeCallbacks ([PR #24152](https://github.com/microsoft/fluentui/pull/24152) by <behowell@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.5 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 - Bump @fluentui/react-tabster to v9.1.1 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 - Bump @fluentui/react-theme to v9.1.0 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
@@ -2091,9 +2091,9 @@ Wed, 03 Aug 2022 16:04:02 GMT
 
 ### Patches
 
-- refactor: use `useFocusWithin` hook for :focus-within styles ([PR #24154](https://github.com/microsoft/fluentui/pull/24154) by lingfangao@hotmail.com)
-- chore: Bump Griffel dependencies ([PR #24114](https://github.com/microsoft/fluentui/pull/24114) by miroslav.stastny@microsoft.com)
-- bugfix: add reduced motion styles for avatar, spinner, switch, and input focus styles ([PR #23788](https://github.com/microsoft/fluentui/pull/23788) by sarah.higley@microsoft.com)
+- refactor: use `useFocusWithin` hook for :focus-within styles ([PR #24154](https://github.com/microsoft/fluentui/pull/24154) by <lingfangao@hotmail.com>)
+- chore: Bump Griffel dependencies ([PR #24114](https://github.com/microsoft/fluentui/pull/24114) by <miroslav.stastny@microsoft.com>)
+- bugfix: add reduced motion styles for avatar, spinner, switch, and input focus styles ([PR #23788](https://github.com/microsoft/fluentui/pull/23788) by <sarah.higley@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.4 ([PR #24131](https://github.com/microsoft/fluentui/pull/24131) by beachball)
 - Bump @fluentui/react-tabster to v9.1.0 ([PR #24131](https://github.com/microsoft/fluentui/pull/24131) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.12 ([PR #24131](https://github.com/microsoft/fluentui/pull/24131) by beachball)
@@ -2105,7 +2105,7 @@ Thu, 14 Jul 2022 21:21:05 GMT
 
 ### Patches
 
-- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by Humberto.Morimoto@microsoft.com)
+- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by <Humberto.Morimoto@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.3 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 - Bump @fluentui/react-tabster to v9.0.3 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 - Bump @fluentui/react-utilities to v9.0.2 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
@@ -2117,7 +2117,7 @@ Thu, 14 Jul 2022 17:06:23 GMT
 
 ### Patches
 
-- chore: Update @fluentui/react-icons dependency to v2.0.175 ([PR #23812](https://github.com/microsoft/fluentui/pull/23812) by ololubek@microsoft.com)
+- chore: Update @fluentui/react-icons dependency to v2.0.175 ([PR #23812](https://github.com/microsoft/fluentui/pull/23812) by <ololubek@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.2 ([PR #23897](https://github.com/microsoft/fluentui/pull/23897) by beachball)
 - Bump @fluentui/react-tabster to v9.0.2 ([PR #23897](https://github.com/microsoft/fluentui/pull/23897) by beachball)
 - Bump @fluentui/react-utilities to v9.0.1-0 ([PR #23897](https://github.com/microsoft/fluentui/pull/23897) by beachball)
@@ -2130,7 +2130,7 @@ Tue, 28 Jun 2022 17:39:52 GMT
 
 ### Patches
 
-- fix: Use caret dependency range for Griffel ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by lingfangao@hotmail.com)
+- fix: Use caret dependency range for Griffel ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-label to v9.0.1 ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by beachball)
 - Bump @fluentui/react-tabster to v9.0.1 ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by beachball)
 - Bump @fluentui/react-conformance-griffel to v9.0.0-beta.10 ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by beachball)
@@ -2142,7 +2142,7 @@ Tue, 28 Jun 2022 15:14:04 GMT
 
 ### Patches
 
-- feat: Initial 9.0.0 release ([PR #23733](https://github.com/microsoft/fluentui/pull/23733) by lingfangao@hotmail.com)
+- feat: Initial 9.0.0 release ([PR #23733](https://github.com/microsoft/fluentui/pull/23733) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-label to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-theme to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
@@ -2151,13 +2151,13 @@ Tue, 28 Jun 2022 15:14:04 GMT
 
 ### Changes
 
-- Bump Griffel dependencies ([PR #23688](https://github.com/microsoft/fluentui/pull/23688) by lingfangao@hotmail.com)
-- fix: Removing user-select: 'none' from label. ([PR #23590](https://github.com/microsoft/fluentui/pull/23590) by Humberto.Morimoto@microsoft.com)
-- README update. ([PR #23439](https://github.com/microsoft/fluentui/pull/23439) by Humberto.Morimoto@microsoft.com)
-- chore: Update @fluentui/react-icons to latest version ([PR #23459](https://github.com/microsoft/fluentui/pull/23459) by olfedias@microsoft.com)
-- fix: Making thumb be vertically centered in Switch. ([PR #23712](https://github.com/microsoft/fluentui/pull/23712) by Humberto.Morimoto@microsoft.com)
-- README, spec and migration guide cleanup. ([PR #23396](https://github.com/microsoft/fluentui/pull/23396) by Humberto.Morimoto@microsoft.com)
-- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by lingfangao@hotmail.com)
+- Bump Griffel dependencies ([PR #23688](https://github.com/microsoft/fluentui/pull/23688) by <lingfangao@hotmail.com>)
+- fix: Removing user-select: 'none' from label. ([PR #23590](https://github.com/microsoft/fluentui/pull/23590) by <Humberto.Morimoto@microsoft.com>)
+- README update. ([PR #23439](https://github.com/microsoft/fluentui/pull/23439) by <Humberto.Morimoto@microsoft.com>)
+- chore: Update @fluentui/react-icons to latest version ([PR #23459](https://github.com/microsoft/fluentui/pull/23459) by <olfedias@microsoft.com>)
+- fix: Making thumb be vertically centered in Switch. ([PR #23712](https://github.com/microsoft/fluentui/pull/23712) by <Humberto.Morimoto@microsoft.com>)
+- README, spec and migration guide cleanup. ([PR #23396](https://github.com/microsoft/fluentui/pull/23396) by <Humberto.Morimoto@microsoft.com>)
+- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by <lingfangao@hotmail.com>)
 
 ## [9.0.0-rc.14](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-rc.14)
 
@@ -2177,7 +2177,7 @@ Tue, 31 May 2022 21:28:47 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #23275](https://github.com/microsoft/fluentui/pull/23275) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #23275](https://github.com/microsoft/fluentui/pull/23275) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.0-rc.5 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-rc.13 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.10 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
@@ -2212,13 +2212,13 @@ Mon, 23 May 2022 12:13:46 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #22894](https://github.com/microsoft/fluentui/pull/22894) by olfedias@microsoft.com)
-- Replace hardcoded padding with spacing tokens ([PR #22982](https://github.com/microsoft/fluentui/pull/22982) by behowell@microsoft.com)
-- Refactor styles to remove usage of flex gap ([PR #22976](https://github.com/microsoft/fluentui/pull/22976) by behowell@microsoft.com)
-- Updated react-label package version to RC. ([PR #22865](https://github.com/microsoft/fluentui/pull/22865) by esteban.230@hotmail.com)
-- feat: ship rolluped only dts ([PR #22874](https://github.com/microsoft/fluentui/pull/22874) by martinhochel@microsoft.com)
-- Removing SwitchCommons type in @fluentui/react-switch. ([PR #22943](https://github.com/microsoft/fluentui/pull/22943) by Humberto.Morimoto@microsoft.com)
-- chore: Update Griffel to latest version ([PR #23029](https://github.com/microsoft/fluentui/pull/23029) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #22894](https://github.com/microsoft/fluentui/pull/22894) by <olfedias@microsoft.com>)
+- Replace hardcoded padding with spacing tokens ([PR #22982](https://github.com/microsoft/fluentui/pull/22982) by <behowell@microsoft.com>)
+- Refactor styles to remove usage of flex gap ([PR #22976](https://github.com/microsoft/fluentui/pull/22976) by <behowell@microsoft.com>)
+- Updated react-label package version to RC. ([PR #22865](https://github.com/microsoft/fluentui/pull/22865) by <esteban.230@hotmail.com>)
+- feat: ship rolluped only dts ([PR #22874](https://github.com/microsoft/fluentui/pull/22874) by <martinhochel@microsoft.com>)
+- Removing SwitchCommons type in @fluentui/react-switch. ([PR #22943](https://github.com/microsoft/fluentui/pull/22943) by <Humberto.Morimoto@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #23029](https://github.com/microsoft/fluentui/pull/23029) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.0-rc.2 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-rc.10 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
 - Bump @fluentui/react-theme to v9.0.0-rc.8 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
@@ -2245,7 +2245,7 @@ Wed, 04 May 2022 13:26:51 GMT
 
 ### Changes
 
-- Switch: Fixing disabled styles in high contrast mode. ([PR #22817](https://github.com/microsoft/fluentui/pull/22817) by humberto_makoto@hotmail.com)
+- Switch: Fixing disabled styles in high contrast mode. ([PR #22817](https://github.com/microsoft/fluentui/pull/22817) by <humberto_makoto@hotmail.com>)
 - Bump @fluentui/react-label to v9.0.0-beta.11 ([PR #22786](https://github.com/microsoft/fluentui/pull/22786) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-rc.8 ([PR #22786](https://github.com/microsoft/fluentui/pull/22786) by beachball)
 - Bump @fluentui/react-theme to v9.0.0-rc.6 ([PR #22786](https://github.com/microsoft/fluentui/pull/22786) by beachball)
@@ -2267,10 +2267,10 @@ Tue, 19 Apr 2022 19:16:54 GMT
 
 ### Changes
 
-- Add deprecation messages to react-switch ([PR #21960](https://github.com/microsoft/fluentui/pull/21960) by seanmonahan@microsoft.com)
-- chore: Update Griffel to latest version ([PR #21976](https://github.com/microsoft/fluentui/pull/21976) by olfedias@microsoft.com)
-- update react-icons version to ^2.0.166-rc.3 from ^2.0.159-beta.10 ([PR #22512](https://github.com/microsoft/fluentui/pull/22512) by seanmonahan@microsoft.com)
-- Removing star exports. ([PR #22139](https://github.com/microsoft/fluentui/pull/22139) by Humberto.Morimoto@microsoft.com)
+- Add deprecation messages to react-switch ([PR #21960](https://github.com/microsoft/fluentui/pull/21960) by <seanmonahan@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #21976](https://github.com/microsoft/fluentui/pull/21976) by <olfedias@microsoft.com>)
+- update react-icons version to ^2.0.166-rc.3 from ^2.0.159-beta.10 ([PR #22512](https://github.com/microsoft/fluentui/pull/22512) by <seanmonahan@microsoft.com>)
+- Removing star exports. ([PR #22139](https://github.com/microsoft/fluentui/pull/22139) by <Humberto.Morimoto@microsoft.com>)
 - Switch: Updating spec and migration guide to reflect latest state of the component. ([PR #22011](https://github.com/microsoft/fluentui/pull/22011) by email not defined)
 - Bump @fluentui/react-label to v9.0.0-beta.10 ([PR #21995](https://github.com/microsoft/fluentui/pull/21995) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-rc.6 ([PR #21995](https://github.com/microsoft/fluentui/pull/21995) by beachball)
@@ -2285,7 +2285,7 @@ Fri, 04 Mar 2022 05:17:30 GMT
 
 ### Changes
 
-- Adding explicit export maps on all consumer packages for FUIR 8 and 9. ([PR #21508](https://github.com/microsoft/fluentui/pull/21508) by dzearing@microsoft.com)
+- Adding explicit export maps on all consumer packages for FUIR 8 and 9. ([PR #21508](https://github.com/microsoft/fluentui/pull/21508) by <dzearing@microsoft.com>)
 - Updating class names to use slot class names helper type. ([PR #21933](https://github.com/microsoft/fluentui/pull/21933) by email not defined)
 - Bump @fluentui/react-label to v9.0.0-beta.9 ([PR #21947](https://github.com/microsoft/fluentui/pull/21947) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-rc.5 ([PR #21947](https://github.com/microsoft/fluentui/pull/21947) by beachball)
@@ -2299,8 +2299,8 @@ Tue, 01 Mar 2022 02:17:38 GMT
 
 ### Changes
 
-- Switch: Re-implementing component to make it simpler and making it adhere to latest patterns. ([PR #21849](https://github.com/microsoft/fluentui/pull/21849) by Humberto.Morimoto@microsoft.com)
-- fix: Add react-theme as dependency ([PR #21825](https://github.com/microsoft/fluentui/pull/21825) by olfedias@microsoft.com)
+- Switch: Re-implementing component to make it simpler and making it adhere to latest patterns. ([PR #21849](https://github.com/microsoft/fluentui/pull/21849) by <Humberto.Morimoto@microsoft.com>)
+- fix: Add react-theme as dependency ([PR #21825](https://github.com/microsoft/fluentui/pull/21825) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-label to v9.0.0-beta.8 ([PR #21884](https://github.com/microsoft/fluentui/pull/21884) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-rc.4 ([PR #21884](https://github.com/microsoft/fluentui/pull/21884) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.4 ([PR #21884](https://github.com/microsoft/fluentui/pull/21884) by beachball)
@@ -2312,8 +2312,8 @@ Fri, 18 Feb 2022 13:35:34 GMT
 
 ### Changes
 
-- fix visual display of controlled switches ([PR #21704](https://github.com/microsoft/fluentui/pull/21704) by mgodbolt@microsoft.com)
-- fix: Source maps contain original source code ([PR #21690](https://github.com/microsoft/fluentui/pull/21690) by lingfangao@hotmail.com)
+- fix visual display of controlled switches ([PR #21704](https://github.com/microsoft/fluentui/pull/21704) by <mgodbolt@microsoft.com>)
+- fix: Source maps contain original source code ([PR #21690](https://github.com/microsoft/fluentui/pull/21690) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-shared-contexts to v9.0.0-rc.3 ([PR #21800](https://github.com/microsoft/fluentui/pull/21800) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-rc.3 ([PR #21800](https://github.com/microsoft/fluentui/pull/21800) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.3 ([PR #21800](https://github.com/microsoft/fluentui/pull/21800) by beachball)
@@ -2326,16 +2326,16 @@ Thu, 10 Feb 2022 08:50:51 GMT
 
 ### Changes
 
-- Replace make-styles packages with griffel equivalents. ([PR #21424](https://github.com/microsoft/fluentui/pull/21424) by olfedias@microsoft.com)
-- Updating based on changes to composition types. ([PR #20891](https://github.com/microsoft/fluentui/pull/20891) by Humberto.Morimoto@microsoft.com)
-- Remove component's shorthandProps array ([PR #21134](https://github.com/microsoft/fluentui/pull/21134) by behowell@microsoft.com)
-- Refactor component Slot typings ([PR #21518](https://github.com/microsoft/fluentui/pull/21518) by behowell@microsoft.com)
-- remove export of commons types ([PR #21660](https://github.com/microsoft/fluentui/pull/21660) by mgodbolt@microsoft.com)
-- update styles to not use CSS shorthands ([PR #20844](https://github.com/microsoft/fluentui/pull/20844) by olfedias@microsoft.com)
-- Replacing use of functions in makeStyles with direct use of tokens. ([PR #21056](https://github.com/microsoft/fluentui/pull/21056) by Humberto.Morimoto@microsoft.com)
-- Updating packages based on changes to focusIndicator functions to remove functions from makeStyles in @fluentui/react-tabster. ([PR #21035](https://github.com/microsoft/fluentui/pull/21035) by Humberto.Morimoto@microsoft.com)
-- BREAKING: Rename component hooks add the suffix \_unstable, as their API has not been finalized yet ([PR #21365](https://github.com/microsoft/fluentui/pull/21365) by behowell@microsoft.com)
-- Bump Fluent UI dependencies to 9.0.0-rc ([PR #21623](https://github.com/microsoft/fluentui/pull/21623) by lingfangao@hotmail.com)
+- Replace make-styles packages with griffel equivalents. ([PR #21424](https://github.com/microsoft/fluentui/pull/21424) by <olfedias@microsoft.com>)
+- Updating based on changes to composition types. ([PR #20891](https://github.com/microsoft/fluentui/pull/20891) by <Humberto.Morimoto@microsoft.com>)
+- Remove component's shorthandProps array ([PR #21134](https://github.com/microsoft/fluentui/pull/21134) by <behowell@microsoft.com>)
+- Refactor component Slot typings ([PR #21518](https://github.com/microsoft/fluentui/pull/21518) by <behowell@microsoft.com>)
+- remove export of commons types ([PR #21660](https://github.com/microsoft/fluentui/pull/21660) by <mgodbolt@microsoft.com>)
+- update styles to not use CSS shorthands ([PR #20844](https://github.com/microsoft/fluentui/pull/20844) by <olfedias@microsoft.com>)
+- Replacing use of functions in makeStyles with direct use of tokens. ([PR #21056](https://github.com/microsoft/fluentui/pull/21056) by <Humberto.Morimoto@microsoft.com>)
+- Updating packages based on changes to focusIndicator functions to remove functions from makeStyles in @fluentui/react-tabster. ([PR #21035](https://github.com/microsoft/fluentui/pull/21035) by <Humberto.Morimoto@microsoft.com>)
+- BREAKING: Rename component hooks add the suffix \_unstable, as their API has not been finalized yet ([PR #21365](https://github.com/microsoft/fluentui/pull/21365) by <behowell@microsoft.com>)
+- Bump Fluent UI dependencies to 9.0.0-rc ([PR #21623](https://github.com/microsoft/fluentui/pull/21623) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-shared-contexts to v9.0.0-rc.1 ([commit](https://github.com/microsoft/fluentui/commit/e6c855f6d9019d6c73668d15fc9bc3a13291a6c8) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-rc.1 ([commit](https://github.com/microsoft/fluentui/commit/e6c855f6d9019d6c73668d15fc9bc3a13291a6c8) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.1 ([commit](https://github.com/microsoft/fluentui/commit/e6c855f6d9019d6c73668d15fc9bc3a13291a6c8) by beachball)
@@ -2363,7 +2363,7 @@ Fri, 12 Nov 2021 13:25:33 GMT
 
 ### Changes
 
-- export static classes for components ([PR #20456](https://github.com/microsoft/fluentui/pull/20456) by olfedias@microsoft.com)
+- export static classes for components ([PR #20456](https://github.com/microsoft/fluentui/pull/20456) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-make-styles to v9.0.0-beta.3 ([PR #20583](https://github.com/microsoft/fluentui/pull/20583) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.0.0-beta.3 ([PR #20583](https://github.com/microsoft/fluentui/pull/20583) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-beta.4 ([PR #20583](https://github.com/microsoft/fluentui/pull/20583) by beachball)
@@ -2379,8 +2379,8 @@ Wed, 27 Oct 2021 12:14:22 GMT
 
 ### Changes
 
-- Changing the Switch's onKeyDown event to onKeyUp. ([PR #20217](https://github.com/microsoft/fluentui/pull/20217) by czearing@outlook.com)
-- added styling of documentation ([PR #20193](https://github.com/microsoft/fluentui/pull/20193) by peter@draxler.ml)
+- Changing the Switch's onKeyDown event to onKeyUp. ([PR #20217](https://github.com/microsoft/fluentui/pull/20217) by <czearing@outlook.com>)
+- added styling of documentation ([PR #20193](https://github.com/microsoft/fluentui/pull/20193) by <peter@draxler.ml>)
 - Bump @fluentui/react-make-styles to v9.0.0-beta.2 ([PR #20353](https://github.com/microsoft/fluentui/pull/20353) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.0.0-beta.2 ([PR #20353](https://github.com/microsoft/fluentui/pull/20353) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-beta.3 ([PR #20353](https://github.com/microsoft/fluentui/pull/20353) by beachball)
@@ -2409,7 +2409,7 @@ Wed, 06 Oct 2021 10:37:22 GMT
 
 ### Changes
 
-- Bump all v9 components to beta prerelease tag ([PR #20106](https://github.com/microsoft/fluentui/pull/20106) by lingfangao@hotmail.com)
+- Bump all v9 components to beta prerelease tag ([PR #20106](https://github.com/microsoft/fluentui/pull/20106) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-make-styles to v9.0.0-beta.1 ([PR #20106](https://github.com/microsoft/fluentui/pull/20106) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.0.0-beta.1 ([PR #20106](https://github.com/microsoft/fluentui/pull/20106) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-beta.1 ([PR #20106](https://github.com/microsoft/fluentui/pull/20106) by beachball)
@@ -2443,7 +2443,7 @@ Tue, 05 Oct 2021 09:28:07 GMT
 
 ### Changes
 
-- Adds ForwardRefComponent to react-switch components declaration ([PR #20081](https://github.com/microsoft/fluentui/pull/20081) by bsunderhus@microsoft.com)
+- Adds ForwardRefComponent to react-switch components declaration ([PR #20081](https://github.com/microsoft/fluentui/pull/20081) by <bsunderhus@microsoft.com>)
 - Bump @fluentui/react-make-styles to v9.0.0-alpha.77 ([PR #20081](https://github.com/microsoft/fluentui/pull/20081) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-alpha.72 ([PR #20081](https://github.com/microsoft/fluentui/pull/20081) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-alpha.56 ([PR #20081](https://github.com/microsoft/fluentui/pull/20081) by beachball)
@@ -2460,7 +2460,7 @@ Fri, 01 Oct 2021 14:13:08 GMT
 
 ### Changes
 
-- Bump v9 prerelease versions to rerelease ([PR #20069](https://github.com/microsoft/fluentui/pull/20069) by lingfangao@hotmail.com)
+- Bump v9 prerelease versions to rerelease ([PR #20069](https://github.com/microsoft/fluentui/pull/20069) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-make-styles to v9.0.0-alpha.76 ([PR #20069](https://github.com/microsoft/fluentui/pull/20069) by beachball)
 - Bump @fluentui/react-shared-contexts to v9.0.0-alpha.28 ([PR #20069](https://github.com/microsoft/fluentui/pull/20069) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-alpha.71 ([PR #20069](https://github.com/microsoft/fluentui/pull/20069) by beachball)
@@ -2479,7 +2479,7 @@ Fri, 01 Oct 2021 09:44:56 GMT
 
 ### Changes
 
-- Use new default pseudo element focus outline style ([PR #19990](https://github.com/microsoft/fluentui/pull/19990) by lingfangao@hotmail.com)
+- Use new default pseudo element focus outline style ([PR #19990](https://github.com/microsoft/fluentui/pull/19990) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-tabster to v9.0.0-alpha.69 ([PR #19990](https://github.com/microsoft/fluentui/pull/19990) by beachball)
 - Bump @fluentui/react-provider to v9.0.0-alpha.86 ([PR #19990](https://github.com/microsoft/fluentui/pull/19990) by beachball)
 
@@ -2539,7 +2539,7 @@ Thu, 23 Sep 2021 08:21:34 GMT
 
 ### Changes
 
-- Adding dragging to the Switch component. ([commit](https://github.com/microsoft/fluentui/commit/95682da34c48813f7658032ae490d21d2f363b90) by czearing@outlook.com)
+- Adding dragging to the Switch component. ([commit](https://github.com/microsoft/fluentui/commit/95682da34c48813f7658032ae490d21d2f363b90) by <czearing@outlook.com>)
 - Bump @fluentui/react-make-styles to v9.0.0-alpha.71 ([commit](https://github.com/microsoft/fluentui/commit/95682da34c48813f7658032ae490d21d2f363b90) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-alpha.65 ([commit](https://github.com/microsoft/fluentui/commit/95682da34c48813f7658032ae490d21d2f363b90) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-alpha.51 ([commit](https://github.com/microsoft/fluentui/commit/95682da34c48813f7658032ae490d21d2f363b90) by beachball)
@@ -2556,7 +2556,7 @@ Wed, 22 Sep 2021 10:10:07 GMT
 
 ### Changes
 
-- Adding switch role to the hidden input element. ([commit](https://github.com/microsoft/fluentui/commit/bc3f1ec72fc7784a558b0dd6598ee0662f4649c1) by czearing@outlook.com)
+- Adding switch role to the hidden input element. ([commit](https://github.com/microsoft/fluentui/commit/bc3f1ec72fc7784a558b0dd6598ee0662f4649c1) by <czearing@outlook.com>)
 - Bump @fluentui/react-make-styles to v9.0.0-alpha.70 ([commit](https://github.com/microsoft/fluentui/commit/bc3f1ec72fc7784a558b0dd6598ee0662f4649c1) by beachball)
 - Bump @fluentui/react-tabster to v9.0.0-alpha.64 ([commit](https://github.com/microsoft/fluentui/commit/bc3f1ec72fc7784a558b0dd6598ee0662f4649c1) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-alpha.50 ([commit](https://github.com/microsoft/fluentui/commit/bc3f1ec72fc7784a558b0dd6598ee0662f4649c1) by beachball)
@@ -2590,7 +2590,7 @@ Mon, 20 Sep 2021 07:36:26 GMT
 
 ### Changes
 
-- Bump @fluentui/react-switch to v9.0.0-alpha.6 ([PR #19844](https://github.com/microsoft/fluentui/pull/19844) by lingfangao@hotmail.com)
+- Bump @fluentui/react-switch to v9.0.0-alpha.6 ([PR #19844](https://github.com/microsoft/fluentui/pull/19844) by <lingfangao@hotmail.com>)
 
 ## [9.0.0-alpha.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.5)
 
@@ -2599,7 +2599,7 @@ Fri, 17 Sep 2021 07:35:26 GMT
 
 ### Changes
 
-- Bump @fluentui/react-switch to v9.0.0-alpha.5 ([PR #19840](https://github.com/microsoft/fluentui/pull/19840) by Humberto.Morimoto@microsoft.com)
+- Bump @fluentui/react-switch to v9.0.0-alpha.5 ([PR #19840](https://github.com/microsoft/fluentui/pull/19840) by <Humberto.Morimoto@microsoft.com>)
 
 ## [9.0.0-alpha.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.4)
 
@@ -2608,8 +2608,8 @@ Thu, 16 Sep 2021 07:38:39 GMT
 
 ### Changes
 
-- Fix typings in React.forwardRef ([PR #19815](https://github.com/microsoft/fluentui/pull/19815) by behowell@microsoft.com)
-- Bump @fluentui/react-switch to v9.0.0-alpha.4 ([PR #19815](https://github.com/microsoft/fluentui/pull/19815) by behowell@microsoft.com)
+- Fix typings in React.forwardRef ([PR #19815](https://github.com/microsoft/fluentui/pull/19815) by <behowell@microsoft.com>)
+- Bump @fluentui/react-switch to v9.0.0-alpha.4 ([PR #19815](https://github.com/microsoft/fluentui/pull/19815) by <behowell@microsoft.com>)
 
 ## [9.0.0-alpha.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.3)
 
@@ -2618,7 +2618,7 @@ Tue, 14 Sep 2021 20:09:02 GMT
 
 ### Changes
 
-- Bump @fluentui/react-switch to v9.0.0-alpha.3 ([PR #19155](https://github.com/microsoft/fluentui/pull/19155) by bsunderhus@microsoft.com)
+- Bump @fluentui/react-switch to v9.0.0-alpha.3 ([PR #19155](https://github.com/microsoft/fluentui/pull/19155) by <bsunderhus@microsoft.com>)
 
 ## [9.0.0-alpha.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.2)
 
@@ -2627,8 +2627,8 @@ Fri, 10 Sep 2021 16:31:53 GMT
 
 ### Changes
 
-- chore(v9): Move all internal v9 dependencies from caret to fixed version ([PR #19748](https://github.com/microsoft/fluentui/pull/19748) by lingfangao@hotmail.com)
-- Bump @fluentui/react-switch to v9.0.0-alpha.2 ([PR #19748](https://github.com/microsoft/fluentui/pull/19748) by lingfangao@hotmail.com)
+- chore(v9): Move all internal v9 dependencies from caret to fixed version ([PR #19748](https://github.com/microsoft/fluentui/pull/19748) by <lingfangao@hotmail.com>)
+- Bump @fluentui/react-switch to v9.0.0-alpha.2 ([PR #19748](https://github.com/microsoft/fluentui/pull/19748) by <lingfangao@hotmail.com>)
 
 ## [9.0.0-alpha.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.1)
 
@@ -2637,7 +2637,7 @@ Fri, 10 Sep 2021 07:39:51 GMT
 
 ### Changes
 
-- Setting the package to public. ([PR #19735](https://github.com/microsoft/fluentui/pull/19735) by czearing@outlook.com)
+- Setting the package to public. ([PR #19735](https://github.com/microsoft/fluentui/pull/19735) by <czearing@outlook.com>)
 
 ## [9.0.0-alpha.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.0)
 
@@ -2646,7 +2646,7 @@ Mon, 06 Sep 2021 07:34:53 GMT
 
 ### Changes
 
-- Bump @fluentui/babel-make-styles to v9.0.0-alpha.44 ([PR #19640](https://github.com/microsoft/fluentui/pull/19640) by lingfangao@hotmail.com)
+- Bump @fluentui/babel-make-styles to v9.0.0-alpha.44 ([PR #19640](https://github.com/microsoft/fluentui/pull/19640) by <lingfangao@hotmail.com>)
 
 ## [9.0.0-alpha.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.0)
 
@@ -2655,11 +2655,11 @@ Thu, 02 Sep 2021 07:36:46 GMT
 
 ### Patches
 
-- Bump @fluentui/react-conformance to v0.4.5 ([PR #19590](https://github.com/microsoft/fluentui/pull/19590) by olfedias@microsoft.com)
+- Bump @fluentui/react-conformance to v0.4.5 ([PR #19590](https://github.com/microsoft/fluentui/pull/19590) by <olfedias@microsoft.com>)
 
 ### Changes
 
-- Bump @fluentui/babel-make-styles to v9.0.0-alpha.43 ([PR #19065](https://github.com/microsoft/fluentui/pull/19065) by olfedias@microsoft.com)
+- Bump @fluentui/babel-make-styles to v9.0.0-alpha.43 ([PR #19065](https://github.com/microsoft/fluentui/pull/19065) by <olfedias@microsoft.com>)
 
 ## [9.0.0-alpha.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.0)
 
@@ -2668,7 +2668,7 @@ Wed, 01 Sep 2021 07:39:56 GMT
 
 ### Changes
 
-- Bump @fluentui/babel-make-styles to v9.0.0-alpha.42 ([PR #19483](https://github.com/microsoft/fluentui/pull/19483) by bsunderhus@microsoft.com)
+- Bump @fluentui/babel-make-styles to v9.0.0-alpha.42 ([PR #19483](https://github.com/microsoft/fluentui/pull/19483) by <bsunderhus@microsoft.com>)
 
 ## [9.0.0-alpha.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.0)
 
@@ -2677,7 +2677,7 @@ Tue, 31 Aug 2021 07:37:47 GMT
 
 ### Changes
 
-- Bump @fluentui/babel-make-styles to v9.0.0-alpha.41 ([PR #19556](https://github.com/microsoft/fluentui/pull/19556) by lingfan.gao@microsoft.com)
+- Bump @fluentui/babel-make-styles to v9.0.0-alpha.41 ([PR #19556](https://github.com/microsoft/fluentui/pull/19556) by <lingfan.gao@microsoft.com>)
 
 ## [9.0.0-alpha.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.0)
 
@@ -2686,7 +2686,7 @@ Fri, 27 Aug 2021 07:33:32 GMT
 
 ### Changes
 
-- Bump @fluentui/babel-make-styles to v9.0.0-alpha.40 ([PR #19462](https://github.com/microsoft/fluentui/pull/19462) by olfedias@microsoft.com)
+- Bump @fluentui/babel-make-styles to v9.0.0-alpha.40 ([PR #19462](https://github.com/microsoft/fluentui/pull/19462) by <olfedias@microsoft.com>)
 
 ## [9.0.0-alpha.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.0)
 
@@ -2695,7 +2695,7 @@ Thu, 26 Aug 2021 07:35:43 GMT
 
 ### Changes
 
-- Bump @fluentui/babel-make-styles to v9.0.0-alpha.39 ([PR #19486](https://github.com/microsoft/fluentui/pull/19486) by martinhochel@microsoft.com)
+- Bump @fluentui/babel-make-styles to v9.0.0-alpha.39 ([PR #19486](https://github.com/microsoft/fluentui/pull/19486) by <martinhochel@microsoft.com>)
 
 ## [9.0.0-alpha.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.0)
 
@@ -2704,7 +2704,7 @@ Fri, 20 Aug 2021 07:37:28 GMT
 
 ### Changes
 
-- Bump @fluentui/babel-make-styles to v9.0.0-alpha.38 ([PR #19441](https://github.com/microsoft/fluentui/pull/19441) by elcraig@microsoft.com)
+- Bump @fluentui/babel-make-styles to v9.0.0-alpha.38 ([PR #19441](https://github.com/microsoft/fluentui/pull/19441) by <elcraig@microsoft.com>)
 
 ## [9.0.0-alpha.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-switch_v9.0.0-alpha.0)
 
@@ -2713,4 +2713,4 @@ Thu, 19 Aug 2021 07:41:35 GMT
 
 ### Changes
 
-- Bump @fluentui/babel-make-styles to v9.0.0-alpha.37 ([PR #19273](https://github.com/microsoft/fluentui/pull/19273) by bsunderhus@microsoft.com)
+- Bump @fluentui/babel-make-styles to v9.0.0-alpha.37 ([PR #19273](https://github.com/microsoft/fluentui/pull/19273) by <bsunderhus@microsoft.com>)

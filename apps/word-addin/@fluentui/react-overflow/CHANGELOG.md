@@ -6,7 +6,7 @@ This log was last generated on Thu, 23 Apr 2026 11:59:28 GMT and should not be m
 
 ## [9.7.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.7.2)
 
-Thu, 23 Apr 2026 11:59:28 GMT 
+Thu, 23 Apr 2026 11:59:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.7.1..@fluentui/react-overflow_v9.7.2)
 
 ### Patches
@@ -16,28 +16,28 @@ Thu, 23 Apr 2026 11:59:28 GMT
 
 ## [9.7.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.7.1)
 
-Wed, 25 Feb 2026 13:32:24 GMT 
+Wed, 25 Feb 2026 13:32:24 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.7.0..@fluentui/react-overflow_v9.7.1)
 
 ### Patches
 
-- fix: add  missing "use client" directive to client components and styles ([PR #35719](https://github.com/microsoft/fluentui/pull/35719) by dmytrokirpa@microsoft.com)
+- fix: add  missing "use client" directive to client components and styles ([PR #35719](https://github.com/microsoft/fluentui/pull/35719) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.2.15 ([PR #35782](https://github.com/microsoft/fluentui/pull/35782) by beachball)
 - Bump @fluentui/react-utilities to v9.26.2 ([PR #35782](https://github.com/microsoft/fluentui/pull/35782) by beachball)
 
 ## [9.7.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.7.0)
 
-Thu, 12 Feb 2026 10:46:10 GMT 
+Thu, 12 Feb 2026 10:46:10 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.6.7..@fluentui/react-overflow_v9.7.0)
 
 ### Minor changes
 
-- feat: add support for pinned items ([PR #35712](https://github.com/microsoft/fluentui/pull/35712) by olfedias@microsoft.com)
+- feat: add support for pinned items ([PR #35712](https://github.com/microsoft/fluentui/pull/35712) by <olfedias@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.3.0 ([PR #35743](https://github.com/microsoft/fluentui/pull/35743) by beachball)
 
 ## [9.6.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.6.7)
 
-Thu, 22 Jan 2026 17:06:33 GMT 
+Thu, 22 Jan 2026 17:06:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.6.6..@fluentui/react-overflow_v9.6.7)
 
 ### Patches
@@ -48,7 +48,7 @@ Thu, 22 Jan 2026 17:06:33 GMT
 
 ## [9.6.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.6.6)
 
-Wed, 17 Dec 2025 18:10:11 GMT 
+Wed, 17 Dec 2025 18:10:11 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.6.5..@fluentui/react-overflow_v9.6.6)
 
 ### Patches
@@ -58,29 +58,29 @@ Wed, 17 Dec 2025 18:10:11 GMT
 
 ## [9.6.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.6.5)
 
-Tue, 11 Nov 2025 19:18:28 GMT 
+Tue, 11 Nov 2025 19:18:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.6.4..@fluentui/react-overflow_v9.6.5)
 
 ### Patches
 
-- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by estebanmu@microsoft.com)
+- chore: Bump @griffel/react package. ([PR #35469](https://github.com/microsoft/fluentui/pull/35469) by <estebanmu@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.2.12 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 - Bump @fluentui/react-utilities to v9.25.4 ([PR #35462](https://github.com/microsoft/fluentui/pull/35462) by beachball)
 
 ## [9.6.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.6.4)
 
-Thu, 06 Nov 2025 15:01:24 GMT 
+Thu, 06 Nov 2025 15:01:24 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.6.3..@fluentui/react-overflow_v9.6.4)
 
 ### Patches
 
-- chore: migrate source to react 19 ([PR #35434](https://github.com/microsoft/fluentui/pull/35434) by martinhochel@microsoft.com)
+- chore: migrate source to react 19 ([PR #35434](https://github.com/microsoft/fluentui/pull/35434) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.2.11 ([PR #35466](https://github.com/microsoft/fluentui/pull/35466) by beachball)
 - Bump @fluentui/react-utilities to v9.25.3 ([PR #35466](https://github.com/microsoft/fluentui/pull/35466) by beachball)
 
 ## [9.6.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.6.3)
 
-Fri, 31 Oct 2025 16:22:06 GMT 
+Fri, 31 Oct 2025 16:22:06 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.6.1..@fluentui/react-overflow_v9.6.3)
 
 ### Patches
@@ -91,7 +91,7 @@ Fri, 31 Oct 2025 16:22:06 GMT
 
 ## [9.6.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.6.1)
 
-Wed, 08 Oct 2025 12:04:53 GMT 
+Wed, 08 Oct 2025 12:04:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.6.0..@fluentui/react-overflow_v9.6.1)
 
 ### Patches
@@ -101,49 +101,49 @@ Wed, 08 Oct 2025 12:04:53 GMT
 
 ## [9.6.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.6.0)
 
-Thu, 02 Oct 2025 15:12:28 GMT 
+Thu, 02 Oct 2025 15:12:28 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.5.6..@fluentui/react-overflow_v9.6.0)
 
 ### Minor changes
 
-- feat: add hasHiddenItems option ([PR #35090](https://github.com/microsoft/fluentui/pull/35090) by vkozlova@microsoft.com)
+- feat: add hasHiddenItems option ([PR #35090](https://github.com/microsoft/fluentui/pull/35090) by <vkozlova@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.2.0 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-context-selector to v9.2.8 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 - Bump @fluentui/react-utilities to v9.25.0 ([PR #35133](https://github.com/microsoft/fluentui/pull/35133) by beachball)
 
 ### Patches
 
-- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by dmytrokirpa@microsoft.com)
+- feat: enforce usage of use client directive for files with client-only features ([PR #35173](https://github.com/microsoft/fluentui/pull/35173) by <dmytrokirpa@microsoft.com>)
 
 ## [9.5.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.5.6)
 
-Mon, 08 Sep 2025 12:51:12 GMT 
+Mon, 08 Sep 2025 12:51:12 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.5.5..@fluentui/react-overflow_v9.5.6)
 
 ### Patches
 
-- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by dmytrokirpa@microsoft.com)
-- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by dmytrokirpa@microsoft.com)
-- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by dmytrokirpa@microsoft.com)
+- chore: enforce explicit module boundary types ([PR #35080](https://github.com/microsoft/fluentui/pull/35080) by <dmytrokirpa@microsoft.com>)
+- chore: extend peer dependencies versions to support React 19 ([PR #35145](https://github.com/microsoft/fluentui/pull/35145) by <dmytrokirpa@microsoft.com>)
+- fix: react 19 type issues ([PR #34864](https://github.com/microsoft/fluentui/pull/34864) by <dmytrokirpa@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.1.16 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-context-selector to v9.2.7 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 - Bump @fluentui/react-utilities to v9.24.1 ([commit](https://github.com/microsoft/fluentui/commit/17af11b3c9f4cac2beeaf4342a81c1f08e95fd29) by beachball)
 
 ## [9.5.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.5.5)
 
-Thu, 21 Aug 2025 12:25:15 GMT 
+Thu, 21 Aug 2025 12:25:15 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.5.4..@fluentui/react-overflow_v9.5.5)
 
 ### Patches
 
-- fix: replace deprecated element.ref usages to support react 19 ([PR #35030](https://github.com/microsoft/fluentui/pull/35030) by dmytrokirpa@microsoft.com)
-- indirect ts emit change with exactOptionalPropertyTypes ([PR #33498](https://github.com/microsoft/fluentui/pull/33498) by vgenaev@gmail.com)
+- fix: replace deprecated element.ref usages to support react 19 ([PR #35030](https://github.com/microsoft/fluentui/pull/35030) by <dmytrokirpa@microsoft.com>)
+- indirect ts emit change with exactOptionalPropertyTypes ([PR #33498](https://github.com/microsoft/fluentui/pull/33498) by <vgenaev@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.2.6 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
 - Bump @fluentui/react-utilities to v9.24.0 ([commit](https://github.com/microsoft/fluentui/commit/884c695de4f736774c224fa33b2e410bf42752b0) by beachball)
 
 ## [9.5.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.5.4)
 
-Thu, 07 Aug 2025 10:03:33 GMT 
+Thu, 07 Aug 2025 10:03:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.5.3..@fluentui/react-overflow_v9.5.4)
 
 ### Patches
@@ -153,7 +153,7 @@ Thu, 07 Aug 2025 10:03:33 GMT
 
 ## [9.5.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.5.2)
 
-Wed, 30 Jul 2025 13:10:57 GMT 
+Wed, 30 Jul 2025 13:10:57 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.5.1..@fluentui/react-overflow_v9.5.2)
 
 ### Patches
@@ -164,7 +164,7 @@ Wed, 30 Jul 2025 13:10:57 GMT
 
 ## [9.5.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.5.1)
 
-Mon, 28 Jul 2025 18:48:21 GMT 
+Mon, 28 Jul 2025 18:48:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.5.0..@fluentui/react-overflow_v9.5.1)
 
 ### Patches
@@ -174,16 +174,16 @@ Mon, 28 Jul 2025 18:48:21 GMT
 
 ## [9.5.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.5.0)
 
-Thu, 17 Jul 2025 13:49:42 GMT 
+Thu, 17 Jul 2025 13:49:42 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.4.4..@fluentui/react-overflow_v9.5.0)
 
 ### Minor changes
 
-- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by martinhochel@microsoft.com)
+- feat: enable griffel raw styles ([PR #34853](https://github.com/microsoft/fluentui/pull/34853) by <martinhochel@microsoft.com>)
 
 ## [9.4.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.4.4)
 
-Thu, 26 Jun 2025 14:11:55 GMT 
+Thu, 26 Jun 2025 14:11:55 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.4.2..@fluentui/react-overflow_v9.4.4)
 
 ### Patches
@@ -193,7 +193,7 @@ Thu, 26 Jun 2025 14:11:55 GMT
 
 ## [9.4.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.4.2)
 
-Wed, 18 Jun 2025 17:34:00 GMT 
+Wed, 18 Jun 2025 17:34:00 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.4.0..@fluentui/react-overflow_v9.4.2)
 
 ### Patches
@@ -203,7 +203,7 @@ Wed, 18 Jun 2025 17:34:00 GMT
 
 ## [9.4.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.4.0)
 
-Thu, 12 Jun 2025 09:43:33 GMT 
+Thu, 12 Jun 2025 09:43:33 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.3.8..@fluentui/react-overflow_v9.4.0)
 
 ### Minor changes
@@ -213,7 +213,7 @@ Thu, 12 Jun 2025 09:43:33 GMT
 
 ## [9.3.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.3.8)
 
-Fri, 06 Jun 2025 13:15:17 GMT 
+Fri, 06 Jun 2025 13:15:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.3.5..@fluentui/react-overflow_v9.3.8)
 
 ### Patches
@@ -223,7 +223,7 @@ Fri, 06 Jun 2025 13:15:17 GMT
 
 ## [9.3.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.3.5)
 
-Wed, 16 Apr 2025 19:42:18 GMT 
+Wed, 16 Apr 2025 19:42:18 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.3.3..@fluentui/react-overflow_v9.3.5)
 
 ### Patches
@@ -233,7 +233,7 @@ Wed, 16 Apr 2025 19:42:18 GMT
 
 ## [9.3.3](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.3.3)
 
-Thu, 27 Mar 2025 21:12:51 GMT 
+Thu, 27 Mar 2025 21:12:51 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.3.2..@fluentui/react-overflow_v9.3.3)
 
 ### Patches
@@ -243,7 +243,7 @@ Thu, 27 Mar 2025 21:12:51 GMT
 
 ## [9.3.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.3.2)
 
-Wed, 19 Mar 2025 15:40:43 GMT 
+Wed, 19 Mar 2025 15:40:43 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.3.1..@fluentui/react-overflow_v9.3.2)
 
 ### Patches
@@ -253,7 +253,7 @@ Wed, 19 Mar 2025 15:40:43 GMT
 
 ## [9.3.1](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.3.1)
 
-Tue, 11 Mar 2025 18:58:54 GMT 
+Tue, 11 Mar 2025 18:58:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.3.0..@fluentui/react-overflow_v9.3.1)
 
 ### Patches
@@ -263,7 +263,7 @@ Tue, 11 Mar 2025 18:58:54 GMT
 
 ## [9.3.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.3.0)
 
-Fri, 21 Feb 2025 14:34:05 GMT 
+Fri, 21 Feb 2025 14:34:05 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.2.7..@fluentui/react-overflow_v9.3.0)
 
 ### Minor changes
@@ -272,7 +272,7 @@ Fri, 21 Feb 2025 14:34:05 GMT
 
 ## [9.2.7](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.2.7)
 
-Wed, 22 Jan 2025 14:00:21 GMT 
+Wed, 22 Jan 2025 14:00:21 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.2.4..@fluentui/react-overflow_v9.2.7)
 
 ### Patches
@@ -282,7 +282,7 @@ Wed, 22 Jan 2025 14:00:21 GMT
 
 ## [9.2.4](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.2.4)
 
-Mon, 16 Dec 2024 16:26:49 GMT 
+Mon, 16 Dec 2024 16:26:49 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.2.2..@fluentui/react-overflow_v9.2.4)
 
 ### Patches
@@ -293,7 +293,7 @@ Mon, 16 Dec 2024 16:26:49 GMT
 
 ## [9.2.2](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.2.2)
 
-Fri, 06 Dec 2024 12:53:46 GMT 
+Fri, 06 Dec 2024 12:53:46 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.2.0..@fluentui/react-overflow_v9.2.2)
 
 ### Patches
@@ -304,12 +304,12 @@ Fri, 06 Dec 2024 12:53:46 GMT
 
 ## [9.2.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.2.0)
 
-Mon, 11 Nov 2024 10:00:48 GMT 
+Mon, 11 Nov 2024 10:00:48 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.1.32..@fluentui/react-overflow_v9.2.0)
 
 ### Minor changes
 
-- feat: add `onOverflowChange` callback ([PR #33106](https://github.com/microsoft/fluentui/pull/33106) by lingfangao@hotmail.com)
+- feat: add `onOverflowChange` callback ([PR #33106](https://github.com/microsoft/fluentui/pull/33106) by <lingfangao@hotmail.com>)
 - Bump @fluentui/priority-overflow to v9.1.14 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-context-selector to v9.1.69 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
 - Bump @fluentui/react-theme to v9.1.22 ([PR #33238](https://github.com/microsoft/fluentui/pull/33238) by beachball)
@@ -317,11 +317,11 @@ Mon, 11 Nov 2024 10:00:48 GMT
 
 ### Patches
 
-- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by martinhochel@microsoft.com)
+- chore: replace npm-scripts and just-scrtips with nx inferred tasks ([PR #33074](https://github.com/microsoft/fluentui/pull/33074) by <martinhochel@microsoft.com>)
 
 ## [9.1.32](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.1.32)
 
-Tue, 15 Oct 2024 17:17:53 GMT 
+Tue, 15 Oct 2024 17:17:53 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.1.30..@fluentui/react-overflow_v9.1.32)
 
 ### Patches
@@ -332,7 +332,7 @@ Tue, 15 Oct 2024 17:17:53 GMT
 
 ## [9.1.30](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.1.30)
 
-Mon, 23 Sep 2024 12:40:17 GMT 
+Mon, 23 Sep 2024 12:40:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.1.29..@fluentui/react-overflow_v9.1.30)
 
 ### Patches
@@ -343,18 +343,18 @@ Mon, 23 Sep 2024 12:40:17 GMT
 
 ## [9.1.29](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.1.29)
 
-Tue, 10 Sep 2024 10:19:07 GMT 
+Tue, 10 Sep 2024 10:19:07 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.1.27..@fluentui/react-overflow_v9.1.29)
 
 ### Patches
 
-- fix(useOverflowContainer): Removes double overflowManager creation ([PR #32459](https://github.com/microsoft/fluentui/pull/32459) by lingfangao@hotmail.com)
+- fix(useOverflowContainer): Removes double overflowManager creation ([PR #32459](https://github.com/microsoft/fluentui/pull/32459) by <lingfangao@hotmail.com>)
 - Bump @fluentui/react-context-selector to v9.1.66 ([PR #32494](https://github.com/microsoft/fluentui/pull/32494) by beachball)
 - Bump @fluentui/react-utilities to v9.18.14 ([PR #32494](https://github.com/microsoft/fluentui/pull/32494) by beachball)
 
 ## [9.1.25](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.1.25)
 
-Tue, 23 Jul 2024 20:13:14 GMT 
+Tue, 23 Jul 2024 20:13:14 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.1.24..@fluentui/react-overflow_v9.1.25)
 
 ### Patches
@@ -364,18 +364,18 @@ Tue, 23 Jul 2024 20:13:14 GMT
 
 ## [9.1.24](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.1.24)
 
-Mon, 15 Jul 2024 17:25:38 GMT 
+Mon, 15 Jul 2024 17:25:38 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.1.23..@fluentui/react-overflow_v9.1.24)
 
 ### Patches
 
-- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by martinhochel@microsoft.com)
+- fix: revert incorectly set npm versions in all packages ([PR #31937](https://github.com/microsoft/fluentui/pull/31937) by <martinhochel@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.64 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 - Bump @fluentui/react-utilities to v9.18.12 ([PR #31998](https://github.com/microsoft/fluentui/pull/31998) by beachball)
 
 ## [9.1.23](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.1.23)
 
-Mon, 01 Jul 2024 20:30:54 GMT 
+Mon, 01 Jul 2024 20:30:54 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.1.22..@fluentui/react-overflow_v9.1.23)
 
 ### Patches
@@ -385,7 +385,7 @@ Mon, 01 Jul 2024 20:30:54 GMT
 
 ## [9.1.22](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.1.22)
 
-Mon, 17 Jun 2024 07:34:17 GMT 
+Mon, 17 Jun 2024 07:34:17 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.1.21..@fluentui/react-overflow_v9.1.22)
 
 ### Patches
@@ -394,7 +394,7 @@ Mon, 17 Jun 2024 07:34:17 GMT
 
 ## [9.1.21](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.1.21)
 
-Thu, 06 Jun 2024 15:26:36 GMT 
+Thu, 06 Jun 2024 15:26:36 GMT
 [Compare changes](https://github.com/microsoft/fluentui/compare/@fluentui/react-overflow_v9.1.20..@fluentui/react-overflow_v9.1.21)
 
 ### Patches
@@ -410,7 +410,7 @@ Mon, 20 May 2024 12:45:00 GMT
 
 ### Patches
 
-- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by olfedias@microsoft.com)
+- chore: bump @griffel/react ([PR #31258](https://github.com/microsoft/fluentui/pull/31258) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.60 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 - Bump @fluentui/react-utilities to v9.18.9 ([PR #26682](https://github.com/microsoft/fluentui/pull/26682) by beachball)
 
@@ -421,7 +421,7 @@ Thu, 16 May 2024 09:25:16 GMT
 
 ### Patches
 
-- fix(OverflowItem): properly propagate refs to child elements ([PR #31347](https://github.com/microsoft/fluentui/pull/31347) by olfedias@microsoft.com)
+- fix(OverflowItem): properly propagate refs to child elements ([PR #31347](https://github.com/microsoft/fluentui/pull/31347) by <olfedias@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.1.12 ([PR #31390](https://github.com/microsoft/fluentui/pull/31390) by beachball)
 
 ## [9.1.18](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.1.18)
@@ -483,7 +483,7 @@ Thu, 07 Mar 2024 19:33:23 GMT
 
 ### Patches
 
-- chore: remove invalid peerDependency on scheduler ([PR #30587](https://github.com/microsoft/fluentui/pull/30587) by olfedias@microsoft.com)
+- chore: remove invalid peerDependency on scheduler ([PR #30587](https://github.com/microsoft/fluentui/pull/30587) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.54 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-theme to v9.1.17 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
 - Bump @fluentui/react-utilities to v9.18.3 ([PR #30687](https://github.com/microsoft/fluentui/pull/30687) by beachball)
@@ -525,7 +525,7 @@ Tue, 23 Jan 2024 15:10:59 GMT
 
 ### Patches
 
-- fix: cleanup overflow manager on every unmount ([PR #30363](https://github.com/microsoft/fluentui/pull/30363) by marcosvmmoura@gmail.com)
+- fix: cleanup overflow manager on every unmount ([PR #30363](https://github.com/microsoft/fluentui/pull/30363) by <marcosvmmoura@gmail.com>)
 - Bump @fluentui/react-context-selector to v9.1.50 ([PR #30359](https://github.com/microsoft/fluentui/pull/30359) by beachball)
 - Bump @fluentui/react-utilities to v9.17.0 ([PR #30359](https://github.com/microsoft/fluentui/pull/30359) by beachball)
 
@@ -556,7 +556,7 @@ Tue, 16 Jan 2024 13:14:21 GMT
 
 ### Patches
 
-- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by mgodbolt@microsoft.com)
+- fix: correct version of @types/react-dom peer dep that matches for 16.x ([PR #30259](https://github.com/microsoft/fluentui/pull/30259) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.47 ([PR #30299](https://github.com/microsoft/fluentui/pull/30299) by beachball)
 
 ## [9.1.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.1.5)
@@ -607,7 +607,7 @@ Mon, 20 Nov 2023 09:55:09 GMT
 
 ### Patches
 
-- fix: register should happen again once observe options change ([PR #29375](https://github.com/microsoft/fluentui/pull/29375) by lingfan.gao@microsoft.com)
+- fix: register should happen again once observe options change ([PR #29375](https://github.com/microsoft/fluentui/pull/29375) by <lingfan.gao@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.1.10 ([PR #29878](https://github.com/microsoft/fluentui/pull/29878) by beachball)
 
 ## [9.1.0](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.1.0)
@@ -617,7 +617,7 @@ Fri, 10 Nov 2023 13:46:33 GMT
 
 ### Minor changes
 
-- feat: Implement useOverflowVisibility hook ([PR #29809](https://github.com/microsoft/fluentui/pull/29809) by lingfangao@hotmail.com)
+- feat: Implement useOverflowVisibility hook ([PR #29809](https://github.com/microsoft/fluentui/pull/29809) by <lingfangao@hotmail.com>)
 
 ## [9.0.43](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.0.43)
 
@@ -626,7 +626,7 @@ Thu, 09 Nov 2023 17:29:38 GMT
 
 ### Patches
 
-- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by martinhochel@microsoft.com)
+- chore: use package.json#files setup instead of npmignore for all v9 libraries ([PR #29734](https://github.com/microsoft/fluentui/pull/29734) by <martinhochel@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.1.9 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-context-selector to v9.1.42 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
 - Bump @fluentui/react-theme to v9.1.16 ([PR #29800](https://github.com/microsoft/fluentui/pull/29800) by beachball)
@@ -707,7 +707,7 @@ Tue, 26 Sep 2023 17:49:08 GMT
 
 ### Patches
 
-- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by yuanboxue@microsoft.com)
+- chore: trigger manual version bump after broken release ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by <yuanboxue@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.1.7 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-context-selector to v9.1.36 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
 - Bump @fluentui/react-theme to v9.1.14 ([PR #29303](https://github.com/microsoft/fluentui/pull/29303) by beachball)
@@ -720,7 +720,7 @@ Tue, 26 Sep 2023 15:31:54 GMT
 
 ### Patches
 
-- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by martinhochel@microsoft.com)
+- fix: bump swc core to mitigate transpilation memory leaks ([PR #29253](https://github.com/microsoft/fluentui/pull/29253) by <martinhochel@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.1.6 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-context-selector to v9.1.35 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
 - Bump @fluentui/react-theme to v9.1.13 ([PR #29300](https://github.com/microsoft/fluentui/pull/29300) by beachball)
@@ -753,8 +753,8 @@ Tue, 05 Sep 2023 13:28:57 GMT
 
 ### Patches
 
-- bumps react peer dependencies to v16.14.0 ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by bernardo.sunderhus@gmail.com)
-- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by bernardo.sunderhus@gmail.com)
+- bumps react peer dependencies to v16.14.0 ([PR #28959](https://github.com/microsoft/fluentui/pull/28959) by <bernardo.sunderhus@gmail.com>)
+- bumps @swc/helpers version to 0.5.1 ([PR #28989](https://github.com/microsoft/fluentui/pull/28989) by <bernardo.sunderhus@gmail.com>)
 - Bump @fluentui/priority-overflow to v9.1.5 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-context-selector to v9.1.32 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
 - Bump @fluentui/react-theme to v9.1.12 ([PR #29056](https://github.com/microsoft/fluentui/pull/29056) by beachball)
@@ -797,7 +797,7 @@ Fri, 11 Aug 2023 12:14:25 GMT
 
 ### Patches
 
-- fix: flickering in Overflow ([PR #28767](https://github.com/microsoft/fluentui/pull/28767) by vkozlova@microsoft.com)
+- fix: flickering in Overflow ([PR #28767](https://github.com/microsoft/fluentui/pull/28767) by <vkozlova@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.1.4 ([PR #28808](https://github.com/microsoft/fluentui/pull/28808) by beachball)
 - Bump @fluentui/react-context-selector to v9.1.28 ([PR #28808](https://github.com/microsoft/fluentui/pull/28808) by beachball)
 - Bump @fluentui/react-utilities to v9.11.1 ([PR #28808](https://github.com/microsoft/fluentui/pull/28808) by beachball)
@@ -809,8 +809,8 @@ Wed, 09 Aug 2023 13:16:59 GMT
 
 ### Patches
 
-- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by olfedias@microsoft.com)
-- fix: inaccurate calculation of size ([PR #28728](https://github.com/microsoft/fluentui/pull/28728) by vkozlova@microsoft.com)
+- chore: Update Griffel to latest version ([PR #28684](https://github.com/microsoft/fluentui/pull/28684) by <olfedias@microsoft.com>)
+- fix: inaccurate calculation of size ([PR #28728](https://github.com/microsoft/fluentui/pull/28728) by <vkozlova@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.1.3 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 - Bump @fluentui/react-theme to v9.1.11 ([PR #28775](https://github.com/microsoft/fluentui/pull/28775) by beachball)
 
@@ -832,7 +832,7 @@ Tue, 25 Jul 2023 13:29:20 GMT
 
 ### Patches
 
-- fix: Overflow update should run show/hide steps twice ([PR #28628](https://github.com/microsoft/fluentui/pull/28628) by lingfan.gao@microsoft.com)
+- fix: Overflow update should run show/hide steps twice ([PR #28628](https://github.com/microsoft/fluentui/pull/28628) by <lingfan.gao@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.1.2 ([PR #28622](https://github.com/microsoft/fluentui/pull/28622) by beachball)
 
 ## [9.0.23](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.0.23)
@@ -873,7 +873,7 @@ Tue, 20 Jun 2023 12:39:01 GMT
 
 ### Patches
 
-- Added support for custom divider ([PR #28011](https://github.com/microsoft/fluentui/pull/28011) by vkozlova@microsoft.com)
+- Added support for custom divider ([PR #28011](https://github.com/microsoft/fluentui/pull/28011) by <vkozlova@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.1.0 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
 - Bump @fluentui/react-context-selector to v9.1.23 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
 - Bump @fluentui/react-theme to v9.1.9 ([PR #28229](https://github.com/microsoft/fluentui/pull/28229) by beachball)
@@ -886,7 +886,7 @@ Wed, 31 May 2023 06:46:16 GMT
 
 ### Patches
 
-- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by seanmonahan@microsoft.com)
+- chore: Update Griffel to v1.5.7. ([PR #27925](https://github.com/microsoft/fluentui/pull/27925) by <seanmonahan@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.22 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 - Bump @fluentui/react-utilities to v9.9.2 ([PR #28054](https://github.com/microsoft/fluentui/pull/28054) by beachball)
 
@@ -917,9 +917,9 @@ Fri, 12 May 2023 20:27:29 GMT
 
 ### Patches
 
-- refactor: Consolidate all overflow state into one object ([PR #27756](https://github.com/microsoft/fluentui/pull/27756) by lingfangao@hotmail.com)
-- chore: move makeStyles() calls to .styles.ts files ([PR #27698](https://github.com/microsoft/fluentui/pull/27698) by olfedias@microsoft.com)
-- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by olfedias@microsoft.com)
+- refactor: Consolidate all overflow state into one object ([PR #27756](https://github.com/microsoft/fluentui/pull/27756) by <lingfangao@hotmail.com>)
+- chore: move makeStyles() calls to .styles.ts files ([PR #27698](https://github.com/microsoft/fluentui/pull/27698) by <olfedias@microsoft.com>)
+- chore: exclude .swcrc from being published ([PR #27740](https://github.com/microsoft/fluentui/pull/27740) by <olfedias@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.0.3 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-context-selector to v9.1.19 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
 - Bump @fluentui/react-theme to v9.1.8 ([PR #27827](https://github.com/microsoft/fluentui/pull/27827) by beachball)
@@ -952,7 +952,7 @@ Tue, 04 Apr 2023 18:44:49 GMT
 
 ### Patches
 
-- fix: overflow item style should be applied when overflow items are nested in wrapper elements ([PR #27402](https://github.com/microsoft/fluentui/pull/27402) by vkozlova@microsoft.com)
+- fix: overflow item style should be applied when overflow items are nested in wrapper elements ([PR #27402](https://github.com/microsoft/fluentui/pull/27402) by <vkozlova@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.16 ([PR #27434](https://github.com/microsoft/fluentui/pull/27434) by beachball)
 - Bump @fluentui/react-utilities to v9.7.3 ([PR #27434](https://github.com/microsoft/fluentui/pull/27434) by beachball)
 
@@ -963,8 +963,8 @@ Tue, 21 Mar 2023 21:23:41 GMT
 
 ### Patches
 
-- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by tristan.watanabe@gmail.com)
-- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by tristan.watanabe@gmail.com)
+- fix: add node field to package.json exports map. ([PR #27154](https://github.com/microsoft/fluentui/pull/27154) by <tristan.watanabe@gmail.com>)
+- chore: migrate to swc transpilation approach. ([PR #27250](https://github.com/microsoft/fluentui/pull/27250) by <tristan.watanabe@gmail.com>)
 - Bump @fluentui/priority-overflow to v9.0.2 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-context-selector to v9.1.15 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
 - Bump @fluentui/react-theme to v9.1.7 ([PR #27271](https://github.com/microsoft/fluentui/pull/27271) by beachball)
@@ -1085,7 +1085,7 @@ Wed, 18 Jan 2023 16:32:55 GMT
 
 ### Patches
 
-- Release as stable ([PR #26380](https://github.com/microsoft/fluentui/pull/26380) by lingfangao@hotmail.com)
+- Release as stable ([PR #26380](https://github.com/microsoft/fluentui/pull/26380) by <lingfangao@hotmail.com>)
 - Bump @fluentui/priority-overflow to v9.0.0 ([PR #26377](https://github.com/microsoft/fluentui/pull/26377) by beachball)
 
 ## [9.0.0-rc.6](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.0.0-rc.6)
@@ -1106,7 +1106,7 @@ Wed, 04 Jan 2023 01:40:14 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #26045](https://github.com/microsoft/fluentui/pull/26045) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #26045](https://github.com/microsoft/fluentui/pull/26045) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.4 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
 - Bump @fluentui/react-utilities to v9.3.1 ([PR #26114](https://github.com/microsoft/fluentui/pull/26114) by beachball)
 
@@ -1146,7 +1146,7 @@ Thu, 17 Nov 2022 23:05:42 GMT
 
 ### Changes
 
-- feat: Bump to RC ([PR #25659](https://github.com/microsoft/fluentui/pull/25659) by lingfangao@hotmail.com)
+- feat: Bump to RC ([PR #25659](https://github.com/microsoft/fluentui/pull/25659) by <lingfangao@hotmail.com>)
 - Bump @fluentui/priority-overflow to v9.0.0-rc.1 ([PR #25683](https://github.com/microsoft/fluentui/pull/25683) by beachball)
 - Bump @fluentui/react-context-selector to v9.1.2 ([PR #25683](https://github.com/microsoft/fluentui/pull/25683) by beachball)
 - Bump @fluentui/react-utilities to v9.2.2 ([PR #25683](https://github.com/microsoft/fluentui/pull/25683) by beachball)
@@ -1158,7 +1158,7 @@ Fri, 11 Nov 2022 14:58:08 GMT
 
 ### Changes
 
-- fix: create valid export maps ([PR #25558](https://github.com/microsoft/fluentui/pull/25558) by martinhochel@microsoft.com)
+- fix: create valid export maps ([PR #25558](https://github.com/microsoft/fluentui/pull/25558) by <martinhochel@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.0.0-beta.4 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
 - Bump @fluentui/react-context-selector to v9.1.1 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
 - Bump @fluentui/react-theme to v9.1.2 ([PR #25615](https://github.com/microsoft/fluentui/pull/25615) by beachball)
@@ -1171,7 +1171,7 @@ Wed, 02 Nov 2022 11:57:55 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #25412](https://github.com/microsoft/fluentui/pull/25412) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25412](https://github.com/microsoft/fluentui/pull/25412) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.1.0 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 - Bump @fluentui/react-utilities to v9.2.0 ([PR #25456](https://github.com/microsoft/fluentui/pull/25456) by beachball)
 
@@ -1182,8 +1182,8 @@ Thu, 20 Oct 2022 08:39:38 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #25212](https://github.com/microsoft/fluentui/pull/25212) by olfedias@microsoft.com)
-- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by mgodbolt@microsoft.com)
+- chore: Update Griffel to latest version ([PR #25212](https://github.com/microsoft/fluentui/pull/25212) by <olfedias@microsoft.com>)
+- chore: Bump peer deps to support React 18 ([PR #24972](https://github.com/microsoft/fluentui/pull/24972) by <mgodbolt@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.0.5 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 - Bump @fluentui/react-theme to v9.1.1 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
 - Bump @fluentui/react-utilities to v9.1.2 ([PR #25265](https://github.com/microsoft/fluentui/pull/25265) by beachball)
@@ -1195,8 +1195,8 @@ Thu, 13 Oct 2022 11:02:54 GMT
 
 ### Changes
 
-- fix: useOverflowMenu should register overflow menu ([PR #25091](https://github.com/microsoft/fluentui/pull/25091) by lingfangao@hotmail.com)
-- chore: Update Griffel to latest version ([PR #25075](https://github.com/microsoft/fluentui/pull/25075) by olfedias@microsoft.com)
+- fix: useOverflowMenu should register overflow menu ([PR #25091](https://github.com/microsoft/fluentui/pull/25091) by <lingfangao@hotmail.com>)
+- chore: Update Griffel to latest version ([PR #25075](https://github.com/microsoft/fluentui/pull/25075) by <olfedias@microsoft.com>)
 - Bump @fluentui/priority-overflow to v9.0.0-beta.3 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
 - Bump @fluentui/react-context-selector to v9.0.4 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
 - Bump @fluentui/react-utilities to v9.1.1 ([PR #25181](https://github.com/microsoft/fluentui/pull/25181) by beachball)
@@ -1208,8 +1208,8 @@ Thu, 15 Sep 2022 09:49:10 GMT
 
 ### Changes
 
-- chore: fix no-context-default-value lint violations ([PR #24276](https://github.com/microsoft/fluentui/pull/24276) by lingfangao@hotmail.com)
-- chore: Update Griffel to latest version ([PR #24221](https://github.com/microsoft/fluentui/pull/24221) by olfedias@microsoft.com)
+- chore: fix no-context-default-value lint violations ([PR #24276](https://github.com/microsoft/fluentui/pull/24276) by <lingfangao@hotmail.com>)
+- chore: Update Griffel to latest version ([PR #24221](https://github.com/microsoft/fluentui/pull/24221) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.0.3 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 - Bump @fluentui/react-theme to v9.1.0 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
 - Bump @fluentui/react-utilities to v9.1.0 ([PR #24808](https://github.com/microsoft/fluentui/pull/24808) by beachball)
@@ -1221,7 +1221,7 @@ Wed, 03 Aug 2022 16:03:52 GMT
 
 ### Changes
 
-- chore: Bump Griffel dependencies ([PR #24114](https://github.com/microsoft/fluentui/pull/24114) by miroslav.stastny@microsoft.com)
+- chore: Bump Griffel dependencies ([PR #24114](https://github.com/microsoft/fluentui/pull/24114) by <miroslav.stastny@microsoft.com>)
 
 ## [9.0.0-beta.8](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.0.0-beta.8)
 
@@ -1230,7 +1230,7 @@ Thu, 14 Jul 2022 21:21:01 GMT
 
 ### Changes
 
-- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by Humberto.Morimoto@microsoft.com)
+- fix: Fixing bad version bump of @fluentui/react-utilities. ([PR #23920](https://github.com/microsoft/fluentui/pull/23920) by <Humberto.Morimoto@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.0.2 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 - Bump @fluentui/react-utilities to v9.0.2 ([PR #23918](https://github.com/microsoft/fluentui/pull/23918) by beachball)
 
@@ -1251,7 +1251,7 @@ Tue, 28 Jun 2022 17:39:50 GMT
 
 ### Changes
 
-- fix: Use caret dependency range for Griffel ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by lingfangao@hotmail.com)
+- fix: Use caret dependency range for Griffel ([PR #23754](https://github.com/microsoft/fluentui/pull/23754) by <lingfangao@hotmail.com>)
 
 ## [9.0.0-beta.5](https://github.com/microsoft/fluentui/tree/@fluentui/react-overflow_v9.0.0-beta.5)
 
@@ -1260,11 +1260,11 @@ Tue, 28 Jun 2022 15:13:44 GMT
 
 ### Changes
 
-- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by lingfangao@hotmail.com)
-- fix: do not throw in SSR ([PR #23372](https://github.com/microsoft/fluentui/pull/23372) by olfedias@microsoft.com)
-- chore: Mark teams-prg owned APIs with @internal ([PR #23689](https://github.com/microsoft/fluentui/pull/23689) by lingfangao@hotmail.com)
-- chore: Adding scheduler as a peer dependency since this package has a dependency on @fluentui/react-context-selector. ([PR #23681](https://github.com/microsoft/fluentui/pull/23681) by Humberto.Morimoto@microsoft.com)
-- Bump Griffel dependencies ([PR #23688](https://github.com/microsoft/fluentui/pull/23688) by lingfangao@hotmail.com)
+- Update 9.0.0-rc dependencies to use caret range ([PR #23732](https://github.com/microsoft/fluentui/pull/23732) by <lingfangao@hotmail.com>)
+- fix: do not throw in SSR ([PR #23372](https://github.com/microsoft/fluentui/pull/23372) by <olfedias@microsoft.com>)
+- chore: Mark teams-prg owned APIs with @internal ([PR #23689](https://github.com/microsoft/fluentui/pull/23689) by <lingfangao@hotmail.com>)
+- chore: Adding scheduler as a peer dependency since this package has a dependency on @fluentui/react-context-selector. ([PR #23681](https://github.com/microsoft/fluentui/pull/23681) by <Humberto.Morimoto@microsoft.com>)
+- Bump Griffel dependencies ([PR #23688](https://github.com/microsoft/fluentui/pull/23688) by <lingfangao@hotmail.com>)
 - Bump @fluentui/priority-overflow to v9.0.0-beta.2 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-context-selector to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
 - Bump @fluentui/react-theme to v9.0.0 ([commit](https://github.com/microsoft/fluentui/commit/ba6c5d651559b91c815429c9a9357c4d5a390f3e) by beachball)
@@ -1286,7 +1286,7 @@ Tue, 31 May 2022 21:28:40 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #23275](https://github.com/microsoft/fluentui/pull/23275) by olfedias@microsoft.com)
+- chore: Update Griffel to latest version ([PR #23275](https://github.com/microsoft/fluentui/pull/23275) by <olfedias@microsoft.com>)
 - Bump @fluentui/react-context-selector to v9.0.0-rc.10 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 - Bump @fluentui/react-utilities to v9.0.0-rc.10 ([PR #23325](https://github.com/microsoft/fluentui/pull/23325) by beachball)
 
@@ -1306,9 +1306,9 @@ Mon, 23 May 2022 12:13:31 GMT
 
 ### Changes
 
-- chore: Update Griffel to latest version ([PR #22894](https://github.com/microsoft/fluentui/pull/22894) by olfedias@microsoft.com)
-- chore: Update Griffel to latest version ([PR #23029](https://github.com/microsoft/fluentui/pull/23029) by olfedias@microsoft.com)
-- feat: Initial beta release ([PR #22913](https://github.com/microsoft/fluentui/pull/22913) by lingfangao@hotmail.com)
+- chore: Update Griffel to latest version ([PR #22894](https://github.com/microsoft/fluentui/pull/22894) by <olfedias@microsoft.com>)
+- chore: Update Griffel to latest version ([PR #23029](https://github.com/microsoft/fluentui/pull/23029) by <olfedias@microsoft.com>)
+- feat: Initial beta release ([PR #22913](https://github.com/microsoft/fluentui/pull/22913) by <lingfangao@hotmail.com>)
 - Bump @fluentui/priority-overflow to v9.0.0-beta.1 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
 - Bump @fluentui/react-context-selector to v9.0.0-rc.9 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)
 - Bump @fluentui/react-theme to v9.0.0-rc.8 ([PR #23030](https://github.com/microsoft/fluentui/pull/23030) by beachball)

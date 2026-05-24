@@ -92,6 +92,7 @@ export default [
 ```
 
 #### Legacy Config (.eslintrc)
+
 ```js
 {
   "plugins": [
