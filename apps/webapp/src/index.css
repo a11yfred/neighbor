@@ -1,0 +1,178 @@
+@import '@ulam/ube/base-tokens.css';
+@import '@ulam/ube/base-reset.css';
+@import '@ulam/ube/base-typography.css';
+@import '@ulam/ube/ui.css';
+
+:root {
+  --sidebar-width: 320px;
+  --header-height: 64px;
+}
+
+body {
+  font-family: var(--font-family, system-ui, sans-serif);
+  background-color: var(--color-bg-base, #ffffff);
+  color: var(--color-text-base, #111111);
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+  padding: 0 24px;
+  border-bottom: 1px solid var(--color-border-subtle, #e0e0e0);
+  background-color: var(--color-bg-base);
+  z-index: 10;
+}
+
+.app-header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.app-header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.app-main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.editor-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg-subtle, #f9f9f9);
+  padding: 24px;
+}
+
+.editor-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100%;
+  background: var(--color-bg-base, #fff);
+  border: 1px solid var(--color-border-base, #ccc);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+.editor-backdrop, .editor-textarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-y: auto;
+  border: none;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.editor-backdrop {
+  z-index: 1;
+  color: transparent;
+  pointer-events: none;
+}
+
+.editor-textarea {
+  z-index: 2;
+  color: var(--color-text-base);
+  background: transparent;
+  resize: none;
+  outline: none;
+  caret-color: var(--color-text-base);
+}
+
+.editor-highlight {
+  background-color: var(--color-warning-subtle, #ffeeb8);
+  border-bottom: 2px solid var(--color-warning-base, #e6a700);
+  border-radius: 2px;
+}
+
+.sidebar {
+  width: var(--sidebar-width);
+  border-left: 1px solid var(--color-border-subtle, #e0e0e0);
+  background-color: var(--color-bg-base);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.sidebar-header {
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.issue-list {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+}
+
+.issue-card {
+  border: 1px solid var(--color-border-subtle);
+  border-radius: 8px;
+  padding: 16px;
+  background-color: var(--color-bg-base);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.issue-match {
+  font-family: monospace;
+  background-color: var(--color-warning-subtle, #ffeeb8);
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.issue-suggest {
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.issue-sources {
+  font-size: 12px;
+  color: var(--color-text-muted, #666);
+}
+
+.app-footer {
+  padding: 16px 24px;
+  border-top: 1px solid var(--color-border-subtle, #e0e0e0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-bg-subtle, #f9f9f9);
+}
+
+.app-footer p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--color-text-muted, #666);
+}
