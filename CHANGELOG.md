@@ -17,7 +17,7 @@ All notable changes to this project will be documented in this file.
 - **Linter Dependencies**: Dropped `eslint-plugin-jsx-a11y` as a direct dependency. It is now an optional `peerDependency`, meaning teams using only Web Components or text linting aren't forced to install React accessibility rules. `eslint-plugin-vuejs-accessibility` and `@angular-eslint/eslint-plugin-template` have also been properly registered as optional.
 - **Vale Configs**: Automatically generated and packaged the latest 10 content rules for `@a11yfred/vale-config-neighbor`.
 
-## 1.1.0  -  2026-05-23
+## 1.1.0 - 2026-05-23
 
 ### Added
 
@@ -29,7 +29,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## 1.0.6  -  2026-05-13
+## 1.0.6 - 2026-05-13
 
 ### Changed
 
@@ -43,7 +43,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## 1.0.0  -  2026-05-12
+## 1.0.0 - 2026-05-12
 
 ### Breaking change
 
@@ -106,6 +106,6 @@ Rules are synthesised from 17 sources spanning W3C WAI, government plain languag
 
 ---
 
-## 0.1.0  -  2026-04-30
+## 0.1.0 - 2026-04-30
 
 Initial release.

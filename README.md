@@ -21,11 +21,11 @@ Some rules are specific to **@ulam**, an upcoming JavaScript framework by the sa
   - [Content linting](#content-linting)
 - [Peer dependencies](#peer-dependencies)
 - [What neighbor adds](#what-neighbor-adds)
-  - [ESLint  -  React / JSX](#eslint-react-jsx)
-  - [ESLint  -  Remix 2](#eslint-remix-2)
-  - [ESLint  -  Vue SFCs](#eslint-vue-sfcs)
-  - [ESLint  -  Angular templates](#eslint-angular-templates)
-  - [Stylelint  -  CSS](#stylelint-css)
+  - [ESLint - React / JSX](#eslint-react-jsx)
+  - [ESLint - Remix 2](#eslint-remix-2)
+  - [ESLint - Vue SFCs](#eslint-vue-sfcs)
+  - [ESLint - Angular templates](#eslint-angular-templates)
+  - [Stylelint - CSS](#stylelint-css)
   - [Content linter](#content-linter)
 - [Rule severity](#rule-severity)
 - [Contributing](CONTRIBUTING.md)
@@ -345,7 +345,7 @@ All peers are optional. Install only what your project uses.
 
 ## What neighbor adds
 
-### ESLint  -  React / JSX
+### ESLint - React / JSX
 
 Base: `eslint-plugin-jsx-a11y`
 
@@ -399,7 +399,7 @@ Base: `eslint-plugin-jsx-a11y`
 | `<th>` or header role with no accessible text | `no-empty-table-header` | error | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
 | `announce()` called in component render body | `no-announce-in-render` | error | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
 
-### ESLint  -  Remix 2
+### ESLint - Remix 2
 
 Same as React / JSX. Additional rules activate when Remix imports are detected in the file being linted:
 
@@ -408,7 +408,7 @@ Same as React / JSX. Additional rules activate when Remix imports are detected i
 | `@ulam` hash router alongside `react-router` | `no-hash-router-in-remix` | warn |
 | `usePageTitle()` alongside `react-router` | `no-use-page-title-in-remix` | warn |
 
-### ESLint  -  Vue SFCs
+### ESLint - Vue SFCs
 
 Base: `eslint-plugin-vuejs-accessibility`
 
@@ -427,7 +427,7 @@ Neighbor adds everything in the React table above, adapted for Vue's AST (`v-htm
 | `scope` on `<td>` (only valid on `<th>`) | `no-scope-on-td` | error | [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
 | `announce()` called outside `onMounted`/`watch`/handler | `no-announce-in-render` | error | [4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages) |
 
-### ESLint  -  Angular templates
+### ESLint - Angular templates
 
 Base: `@angular-eslint/eslint-plugin-template`
 
@@ -435,7 +435,7 @@ Neighbor adds the same rule set as Vue, adapted for Angular's template AST (`[in
 
 **Known limitation:** Angular's template parser does not attach parent pointers to AST nodes. Rules that need to walk up the tree (`no-summary-without-details`, `no-button-type-missing`, `no-log-with-interactive-children`, `no-menu-role-on-nav`, `no-heading-inside-interactive`) will silently pass in Angular templates. The `no-dynamic-content-without-live` rule only checks the element itself for Angular (no ancestor walk).
 
-### Stylelint  -  CSS
+### Stylelint - CSS
 
 | Rule | Severity | What it checks |
 | --- | --- | --- |
