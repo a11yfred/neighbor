@@ -34,8 +34,23 @@ Some rules are specific to **@ulam** — an upcoming JavaScript framework by the
 
 ## Install
 
+All neighbor rules are packaged in a single install:
+
 ```bash
 npm install --save-dev @a11yfred/neighbor
+```
+
+This gives you access to:
+
+- **ESLint plugins** via different entry points (`/eslint`, `/eslint-vue`, `/eslint-angular`, `/webcomponents`) for markup accessibility rules in your framework
+- **Stylelint plugin** via the default export or `/stylelint` alias for CSS accessibility rules
+- **Content rules** via `/content` for textlint linting of prose in JS/TS/JSX/TSX files
+
+**Optional: Vale configuration** (for standalone prose/content linting outside of JavaScript):
+
+```bash
+npm install --save-dev @a11yfred/vale-config-neighbor
+vale config pull
 ```
 
 ## Entry points
@@ -45,6 +60,7 @@ npm install --save-dev @a11yfred/neighbor
 | `@a11yfred/neighbor/eslint` | React / JSX, Remix 2  -  markup rules |
 | `@a11yfred/neighbor/eslint-vue` | Vue SFCs  -  markup rules |
 | `@a11yfred/neighbor/eslint-angular` | Angular templates  -  markup rules |
+| `@a11yfred/neighbor/webcomponents` | Web Components / Vanilla HTML  -  markup rules |
 | `@a11yfred/neighbor/content` | Any JS/TS/JSX/TSX  -  content and prose rules |
 | `@a11yfred/neighbor` | Stylelint  -  CSS rules |
 | `@a11yfred/neighbor/stylelint` | Stylelint  -  CSS rules (explicit alias) |

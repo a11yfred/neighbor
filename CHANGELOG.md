@@ -94,7 +94,7 @@ Rules are synthesised from 17 sources spanning W3C WAI, government plain languag
   - `no-application-role`, `no-grid-role`, `no-aria-roledescription`, `no-aria-readonly`, `no-tab-without-controls`, `no-href-hash`, `warn-role-alert`, `prefer-aria-disabled`, `no-target-blank-without-label`, `no-dialog-without-close`
   - `no-tooltip-role-misuse` and `no-menu-role-on-nav` remain on as warns.
 
-- **Extended rules:** `no-announce-in-render` now runs in Vue and Angular plugins (not just React). Safe contexts are tuned per framework  -  Vue recognises `onMounted`, `watch`, `watchEffect`, `nextTick`; Angular recognises `ngOnInit`, `ngAfterViewInit`, `ngOnChanges`, and class method event handlers.
+- **Extended rules:** `no-announce-in-render` now runs in Vue and Angular plugins (not just React). Safe contexts are tuned per framework  -  Vue recognizes `onMounted`, `watch`, `watchEffect`, `nextTick`; Angular recognizes `ngOnInit`, `ngAfterViewInit`, `ngOnChanges`, and class method event handlers.
 
 ### Documentation
 
