@@ -86,6 +86,36 @@ These rules were synthesized from the following sources. Where sources conflict,
 | Grammarly | Clarity and passive voice patterns |
 | Hemingway Editor | Sentence length and readability grade |
 
+### Source abbreviations
+
+When rule tables cite sources, they use these abbreviations:
+
+| Abbreviation | Source |
+| --- | --- |
+| W3C WAI | W3C WAI Writing Tips |
+| WCAG 2.2 | WCAG 2.2 specification |
+| plainlanguage.gov | U.S. Plain Language Action and Information Network |
+| digital.gov | U.S. Digital.gov Plain Language Guide |
+| SBA | SBA Content Style Guide (U.S.) |
+| GOV.UK | GOV.UK Publishing Accessible Documents (UK) |
+| DWP | DWP Accessibility Manual (UK) |
+| Australian Gov | Australian Government Style Manual |
+| Canadian Gov | Government of Canada Accessible Documents Guidelines |
+| NCDJ | National Center for Disability Journalism |
+| AP | AP Stylebook (wire journalism standard) |
+| ADA NN | ADA National Network |
+| APA | APA Style  -  Bias-free Language |
+| SIGACCESS | SIGACCESS Accessible Writing Guide |
+| Google | Google Developer Style Guide  -  Accessibility |
+| UX Content Co. | UX Content Co. Accessible UX Writing |
+| A11y Collective | A11y Collective Accessible Writing |
+| SJSU | SJSU Writing Center Accessible Writing Strategies |
+| Section 508 | Section 508.gov Alternative Text Guide |
+| Scope UK | Scope UK (disability rights organization) |
+| NAHJ | National Association of Hispanic Journalists |
+| TJA | Trans Journalists Association |
+| UK Gov | UK Government style and communications |
+
 ---
 
 ## Rules
