@@ -12,7 +12,7 @@ Some rules are specific to **@ulam**, an upcoming JavaScript framework by the sa
 - [Entry points](#entry-points)
 - [Setup](#setup)
   - [Vanilla JS / Web Components / plain HTML](#vanilla-js--web-components--plain-html)
-  - [React / JSX](#react-jsx)
+  - [React / JSX](#react--jsx)
   - [Remix 2](#remix-2)
   - [Remix 3](#remix-3)
   - [Vue](#vue)
@@ -62,8 +62,8 @@ vale config pull
 | `@a11yfred/neighbor/eslint-angular` | Angular templates: markup rules |
 | `@a11yfred/neighbor/webcomponents` | Web Components / Vanilla HTML: markup rules |
 | `@a11yfred/neighbor/content` | Any JS/TS/JSX/TSX: content and prose rules |
-| `@a11yfred/neighbor` | Stylelint  -  CSS rules |
-| `@a11yfred/neighbor/stylelint` | Stylelint  -  CSS rules (explicit alias) |
+| `@a11yfred/neighbor` | Stylelint - CSS rules |
+| `@a11yfred/neighbor/stylelint` | Stylelint - CSS rules (explicit alias) |
 
 ## Setup
 
@@ -204,7 +204,7 @@ export default [
 
 ### Remix 3
 
-Remix 3 is framework-agnostic and does not require React. Neighbor does not have a dedicated Remix 3 entry point  -  use the entry point that matches your renderer.
+Remix 3 is framework-agnostic and does not require React. Neighbor does not have a dedicated Remix 3 entry point - use the entry point that matches your renderer.
 
 If you are using React with Remix 3:
 
@@ -336,7 +336,7 @@ export default [
 | Peer | Required for |
 | --- | --- |
 | `eslint >= 8` | Any ESLint entry point |
-| `eslint-plugin-jsx-a11y >= 6` | React config  -  neighbor extends it, not replaces it |
+| `eslint-plugin-jsx-a11y >= 6` | React config - neighbor extends it, not replaces it |
 | `eslint-plugin-vuejs-accessibility >= 2` | Vue config |
 | `@angular-eslint/eslint-plugin-template >= 17` | Angular config |
 | `stylelint >= 14` | Stylelint config |
@@ -431,7 +431,7 @@ Neighbor adds everything in the React table above, adapted for Vue's AST (`v-htm
 
 Base: `@angular-eslint/eslint-plugin-template`
 
-Neighbor adds the same rule set as Vue, adapted for Angular's template AST (`[innerHTML]` instead of `dangerouslySetInnerHTML`). The `no-announce-in-render` rule also lints Angular component TypeScript files  -  see the setup instructions for how to configure it for `.ts` files alongside `.html` templates.
+Neighbor adds the same rule set as Vue, adapted for Angular's template AST (`[innerHTML]` instead of `dangerouslySetInnerHTML`). The `no-announce-in-render` rule also lints Angular component TypeScript files - see the setup instructions for how to configure it for `.ts` files alongside `.html` templates.
 
 **Known limitation:** Angular's template parser does not attach parent pointers to AST nodes. Rules that need to walk up the tree (`no-summary-without-details`, `no-button-type-missing`, `no-log-with-interactive-children`, `no-menu-role-on-nav`, `no-heading-inside-interactive`) will silently pass in Angular templates. The `no-dynamic-content-without-live` rule only checks the element itself for Angular (no ancestor walk).
 
@@ -439,9 +439,9 @@ Neighbor adds the same rule set as Vue, adapted for Angular's template AST (`[in
 
 | Rule | Severity | What it checks |
 | --- | --- | --- |
-| `neighbor/user-preferences` | warn | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks  -  [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
-| `neighbor/no-outline-none` | error | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors  -  [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
-| `neighbor/no-forced-colors-none` | error | Disallows `forced-color-adjust: none` inside `@media (forced-colors)`  -  opts out of Windows High Contrast Mode  -  [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
+| `neighbor/user-preferences` | warn | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks - [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
+| `neighbor/no-outline-none` | error | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors - [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
+| `neighbor/no-forced-colors-none` | error | Disallows `forced-color-adjust: none` inside `@media (forced-colors)` - opts out of Windows High Contrast Mode - [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
 
 ### Content linter
 
@@ -457,7 +457,7 @@ Rules that flag accessibility and inclusion problems in web and app copy. Works 
 | `no-unexplained-abbreviation` | Acronyms used without a prior expansion in the same file | warn | [3.1.4](https://www.w3.org/WAI/WCAG22/Understanding/abbreviations) |
 | `no-all-caps-prose` | ALL CAPS words in prose that screen readers may spell out letter-by-letter | warn | - |
 | `no-vague-error-message` | Error messages that don't explain what went wrong ("An error occurred", "Something went wrong") | warn | [3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification) |
-| `no-ampersand-in-prose` | `&` used in place of "and" in prose  -  announced inconsistently by screen readers | warn | - |
+| `no-ampersand-in-prose` | `&` used in place of "and" in prose - announced inconsistently by screen readers | warn | - |
 | `no-exclusive-language` | Tech jargon and culturally appropriated terms (blacklist, master/slave, sanity check, spirit animal) | warn | - |
 | `no-colonial-and-violent-language` | Terms rooted in colonialism or violence applied to people (stakeholder, target population, tackle) | warn | - |
 | `no-deficit-language` | Language that reduces people to their circumstances (the homeless, inmate, addict, at-risk youth) | warn | - |
@@ -473,7 +473,7 @@ See [RULES-CONTENT.md](RULES-CONTENT.md) for the full rule reference including s
 | --- | --- |
 | `error` | Definite AT breakage or HTML spec violation |
 | `warn` | Strong guidance, occasional legitimate overrides exist |
-| `off` | Available but disabled  -  too noisy for most codebases, enable if it fits your project |
+| `off` | Available but disabled - too noisy for most codebases, enable if it fits your project |
 
 All rules can be overridden in your config.
 
@@ -495,11 +495,11 @@ Planned improvements and extensions to neighbor:
 
 ## See also
 
-- [RULES.md](RULES.md)  -  rule index across all domains
-- [RULES-MARKUP.md](RULES-MARKUP.md)  -  full ESLint rule reference (markup)
-- [RULES-CSS.md](RULES-CSS.md)  -  full Stylelint rule reference (CSS)
-- [RULES-CONTENT.md](RULES-CONTENT.md)  -  full content rule reference with sources
-- `@a11yfred/vale-config-neighbor`  -  companion Vale package for prose linting in Markdown, MDX, and HTML. See `packages/vale-config-neighbor` in this monorepo.
+- [RULES.md](RULES.md) - rule index across all domains
+- [RULES-MARKUP.md](RULES-MARKUP.md) - full ESLint rule reference (markup)
+- [RULES-CSS.md](RULES-CSS.md) - full Stylelint rule reference (CSS)
+- [RULES-CONTENT.md](RULES-CONTENT.md) - full content rule reference with sources
+- `@a11yfred/vale-config-neighbor` - companion Vale package for prose linting in Markdown, MDX, and HTML. See `packages/vale-config-neighbor` in this monorepo.
 
 ## License
 

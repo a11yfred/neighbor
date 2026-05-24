@@ -19,24 +19,19 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.0 - 2026-05-23
 
-### Added
-
 - **New rule:** `no-disabled-and-aria-disabled`: Elements with both `disabled` and `aria-disabled` attributes cause conflicting states in assistive tech
-
-### Changed
-
 - **Severity change:** `prefer-aria-disabled` moved from `off` to `error` by default to enforce discoverable form controls in tab order.
 
 ---
 
 ## 1.0.6 - 2026-05-13
 
-### Changed
+**Changed:**
 
 - **Documentation:** Add severity column to all rule tables in README
 - **Docs cleanup:** Remove em dashes, fix MD036/MD040 markdownlint issues across all docs
 
-### Fixed
+**Fixed:**
 
 - **`no-placeholder-only`**: no longer false-positives on `<input>` elements inside a `role="search"` landmark with an accessible name. The input is correctly labeled at the group level in that pattern.
 - **`no-dialog-without-close`**: no longer false-positives on `role="dialog"` elements whose children are passed dynamically (`{children}`). When a close button cannot be statically detected, the rule skips rather than reporting.
