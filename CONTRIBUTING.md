@@ -1,21 +1,21 @@
 # Contributing to @a11yfred/neighbor
 
-Neighbor is maintained by [@a11yfred](https://github.com/a11yfred). Contributions are welcome from the accessibility community  -  practitioners, AT users, spec readers, and people who have found a gap in existing tooling.
+Neighbor is maintained by [@a11yfred](https://github.com/a11yfred). Contributions are welcome from the accessibility community: practitioners, AT users, spec readers, and people who have found a gap in existing tooling.
 
 ## What belongs here
 
 A rule belongs in neighbor if it meets all three criteria:
 
-1. **Statically detectable**  -  the violation can be identified from markup/code alone, without a browser or AT. Runtime-only failures (color contrast, focus order in the DOM) belong in axe-core.
-2. **Not already covered**  -  jsx-a11y, vuejs-accessibility, @angular-eslint/template, or axe-core doesn't already flag it in a recommended config.
-3. **Expert-backed**  -  there's a WCAG SC, ARIA spec citation, or clear consensus from accessibility practitioners (Roselli, O'Hara, Lauke, Sutton, Pickering, Groves, Eggert, etc.).
+1. **Statically detectable**: the violation can be identified from markup/code alone, without a browser or AT. Runtime-only failures (color contrast, focus order in the DOM) belong in axe-core.
+2. **Not already covered**: jsx-a11y, vuejs-accessibility, @angular-eslint/template, or axe-core doesn't already flag it in a recommended config.
+3. **Expert-backed**: there's a WCAG SC, ARIA spec citation, or clear consensus from accessibility practitioners (Roselli, O'Hara, Lauke, Sutton, Pickering, Groves, Eggert, etc.).
 
 If you're unsure, open an issue before writing a rule. A brief description and a source is enough to start a conversation.
 
 ## What doesn't belong here
 
 - Rules that require runtime information (computed styles, DOM layout, AT output)
-- Rules already in jsx-a11y recommended  -  neighbor extends it, not replaces it
+- Rules already in jsx-a11y recommended: neighbor extends it, not replaces it
 - Opinionated style rules without a clear accessibility impact
 - Rules with very high false-positive rates on real codebases (see the rejected rules list in [RULES.md](RULES.md))
 
@@ -27,7 +27,7 @@ cd neighbor
 npm install
 ```
 
-No build step. Rules are plain ES modules  -  edit and run ESLint directly.
+No build step. Rules are plain ES modules: edit and run ESLint directly.
 
 ## How rules are structured
 
@@ -62,7 +62,7 @@ The `h` adapter gives you a uniform interface across all three frameworks:
 | `h.getElementName(node)` | lowercase tag name, or `null` for custom components |
 | `h.hasAttr(node, name)` | boolean |
 | `h.getRoleValue(node)` | role string or `null` |
-| `h.hasAccessibleName(node)` | boolean  -  checks `aria-label` / `aria-labelledby` |
+| `h.hasAccessibleName(node)` | boolean: checks `aria-label` / `aria-labelledby` |
 | `h.isInteractiveElement(node)` | boolean |
 | `h.getParent(node)` | parent element node or `null` |
 | `h.getAncestors(node)` | iterable of ancestor element nodes, root-ward |
@@ -71,7 +71,7 @@ The `h` adapter gives you a uniform interface across all three frameworks:
 | `h.elementVisitor` | AST node type string for `create()` visitor key |
 | `h.elementWithChildrenVisitor` | visitor key for rules that need child access |
 
-**Angular caveat:** `getParent()` and `getAncestors()` return `null`/nothing for Angular  -  the template parser doesn't attach parent pointers. Rules that require ancestor walking should degrade gracefully (skip the check, don't throw).
+**Angular caveat:** `getParent()` and `getAncestors()` return `null`/nothing for Angular. The template parser doesn't attach parent pointers. Rules that require ancestor walking should degrade gracefully (skip the check, don't throw).
 
 After writing your factory:
 
@@ -85,7 +85,7 @@ Stylelint rules live in [`neighbor-stylelint.mjs`](neighbor-stylelint.mjs) and u
 
 | Severity | When to use |
 |---|---|
-| `error` | Unambiguous AT breakage  -  a phantom control, broken name computation, HTML spec violation. No legitimate override. |
+| `error` | Unambiguous AT breakage: a phantom control, broken name computation, HTML spec violation. No legitimate override. |
 | `warn` | Strong guidance with a clear accessibility basis, but real codebases occasionally have justified exceptions. |
 | `off` | Real problem, but fires too often on legitimate patterns to be on by default. Make it available; let teams opt in. |
 
@@ -107,7 +107,7 @@ Use the PR template. The key things:
 
 - **What problem does this flag?** Link a WCAG SC, ARIA spec section, or expert source.
 - **Why can't axe-core catch it at runtime instead?** (If it can, it probably belongs there.)
-- **What are the false-positive cases?** Be honest  -  we'd rather move a rule to `off` than reject it.
+- **What are the false-positive cases?** Be honest. We would rather move a rule to `off` than reject it.
 - **Does it degrade gracefully for Angular?** (Parent walking unavailable.)
 
 ## Questions

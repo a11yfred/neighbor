@@ -1,4 +1,4 @@
-# @a11yfred/neighbor  -  Rule Index
+# @a11yfred/neighbor: Rule Index
 
 Neighbor ships rules across three separate domains. Each has its own reference page.
 
@@ -10,7 +10,7 @@ Neighbor ships rules across three separate domains. Each has its own reference p
 
 ---
 
-## Markup rules  -  summary
+## Markup rules: summary
 
 ESLint rules that flag bad ARIA patterns, missing accessible names, keyboard traps, and structural errors in React / JSX, Remix 2, Remix 3, Vue SFCs, Angular templates, and Vanilla Web Components / HTML. Full reference → [RULES-MARKUP.md](RULES-MARKUP.md)
 
@@ -26,21 +26,21 @@ ESLint rules that flag bad ARIA patterns, missing accessible names, keyboard tra
 
 ---
 
-## CSS rules  -  summary
+## CSS rules: summary
 
 Stylelint rules that flag CSS that removes focus indicators, opts out of High Contrast Mode, or fails to provide user-preference media query fallbacks. Full reference → [RULES-CSS.md](RULES-CSS.md)
 
 | Rule | What it flags |
 | --- | --- |
 | `neighbor/user-preferences` | Animation, motion, and transparency without `@media (prefers-*)` fallbacks |
-| `neighbor/no-outline-none` | `outline: none` outside `:focus` selectors  -  removes keyboard focus ring |
-| `neighbor/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)`  -  opts out of Windows High Contrast Mode |
+| `neighbor/no-outline-none` | `outline: none` outside `:focus` selectors - removes keyboard focus ring |
+| `neighbor/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)` - opts out of Windows High Contrast Mode |
 
 ---
 
-## Content rules  -  summary
+## Content rules: summary
 
-ESLint rules that flag accessibility and inclusion problems in string literals and JSX text  -  ableist language, disability metaphors, English idioms, vague link and button text, directional references, unexplained abbreviations, ALL CAPS prose, vague error messages, and exclusive/decolonized language. All ship as `warn`. Full reference → [RULES-CONTENT.md](RULES-CONTENT.md)
+ESLint rules that flag accessibility and inclusion problems in string literals and JSX text: ableist language, disability metaphors, English idioms, vague link and button text, directional references, unexplained abbreviations, ALL CAPS prose, vague error messages, and exclusive/decolonized language. All ship as `warn`. Full reference → [RULES-CONTENT.md](RULES-CONTENT.md)
 
 | Rule | What it flags | WCAG SC |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ ESLint rules that flag accessibility and inclusion problems in string literals a
 | `no-unexplained-abbreviation` | Acronyms used without prior expansion in the file | 3.1.4 |
 | `no-all-caps-prose` | ALL CAPS words that screen readers may spell out letter-by-letter | - |
 | `no-vague-error-message` | Error messages that don't say what went wrong ("An error occurred") | 3.3.1 |
-| `no-ampersand-in-prose` | `&` in place of "and"  -  announced inconsistently by screen readers | - |
+| `no-ampersand-in-prose` | `&` in place of "and" - announced inconsistently by screen readers | - |
 | `no-exclusive-language` | Tech jargon and culturally appropriated terms (blacklist, master/slave, spirit animal) | - |
 | `no-colonial-and-violent-language` | Terms rooted in colonialism or violence (stakeholder, target population, tackle) | - |
 | `no-deficit-language` | Language that reduces people to their circumstances (the homeless, inmate, addict) | - |

@@ -1,4 +1,4 @@
-# @a11yfred/neighbor  -  Content Rules
+# @a11yfred/neighbor: Content Rules
 
 Rules for accessible and inclusive web and app copy.
 
@@ -8,19 +8,19 @@ Rules for accessible and inclusive web and app copy.
 
 ## On language
 
-Language is inherently sensitive. What is appropriate  -  or inappropriate  -  is never fixed. It shifts depending on who is speaking, who is listening, the relationship between them, the cultural context, the time period, and how communities themselves evolve. A term that was clinical yesterday may be reclaimed tomorrow. A word considered polite in one country may carry different weight in another. What one person finds empowering another may find reductive.
+Language is inherently sensitive. What is appropriate - or inappropriate - is never fixed. It shifts depending on who is speaking, who is listening, the relationship between them, the cultural context, the time period, and how communities themselves evolve. A term that was clinical yesterday may be reclaimed tomorrow. A word considered polite in one country may carry different weight in another. What one person finds empowering another may find reductive.
 
 This is not a problem that a linter can fully solve. It is a problem that requires ongoing human attention.
 
-Accessibility practitioner [Nicolas Steenhout](https://incl.ca/disability-language-is-a-nuanced-thing/) argues against prescriptive language rules: disabled people must lead conversations about disability language rather than having terminology imposed by well-meaning non-disabled people  -  the foundational disability rights principle *[Nothing About Us Without Us](https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us)*. Well-intentioned euphemisms ("handicapable", "physically challenged") have historically increased stigma rather than reduced it, precisely because they were invented by people outside the community they were meant to serve.
+Accessibility practitioner [Nicolas Steenhout](https://incl.ca/disability-language-is-a-nuanced-thing/) argues against prescriptive language rules: disabled people must lead conversations about disability language rather than having terminology imposed by well-meaning non-disabled people - the foundational disability rights principle *[Nothing About Us Without Us](https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us)*. Well-intentioned euphemisms ("handicapable", "physically challenged") have historically increased stigma rather than reduced it, precisely because they were invented by people outside the community they were meant to serve.
 
 Steenhout cites [Léonie Watson](https://tink.uk), blind web standards engineer: *"There is no right or wrong answer because it is a matter of personal choice, and the choice depends on context."*
 
-With that framing in mind, these rules exist to flag patterns where expert consensus across multiple independent disability-led sources is clear and consistent  -  not to arbitrate language for every situation. Where consensus is genuinely contested (identity-first vs person-first language being the clearest example), no rule is applied. Where context matters more than pattern (a slur used in direct quotation, a metaphor in a novel excerpt, internal tooling with a known audience), suppress the rule.
+With that framing in mind, these rules exist to flag patterns where expert consensus across multiple independent disability-led sources is clear and consistent - not to arbitrate language for every situation. Where consensus is genuinely contested (identity-first vs person-first language being the clearest example), no rule is applied. Where context matters more than pattern (a slur used in direct quotation, a metaphor in a novel excerpt, internal tooling with a known audience), suppress the rule.
 
 All content rules ship as `warn`, not `error`, for exactly this reason. A warning is an invitation to think. An error is a claim of certainty that language does not deserve.
 
-If the defaults feel wrong for your community, context, or codebase  -  use the `allow` option, open an issue, or submit a PR. These lists should be a living document maintained by the people who use them.
+If the defaults feel wrong for your community, context, or codebase - use the `allow` option, open an issue, or submit a PR. These lists should be a living document maintained by the people who use them.
 
 ---
 
@@ -29,7 +29,7 @@ If the defaults feel wrong for your community, context, or codebase  -  use the 
 A rule is included only when all three conditions hold:
 
 1. A WCAG Success Criterion directly applies, **or** the pattern appears in ≥ 3 independent authoritative sources as an explicit problem.
-2. The rule can be expressed as a finite, deterministic pattern  -  a string match, token count, or AST shape. No NLP, no runtime context required.
+2. The rule can be expressed as a finite, deterministic pattern - a string match, token count, or AST shape. No NLP, no runtime context required.
 3. Expert consensus is clear and consistent across sources. Where credible authorities disagree, the rule is excluded.
 
 Rules that require subjective reading, that depend on the relationship between speaker and audience, or that are under active community debate are not included.
@@ -46,7 +46,7 @@ These rules were synthesized from the following sources. Where sources conflict,
 
 | Source | URL |
 | --- | --- |
-| W3C WAI Writing Tips | [w3.org/WAI/tips/writing](https://www.w3.org/WAI/tips/writing/)  -  primary authority |
+| W3C WAI Writing Tips | [w3.org/WAI/tips/writing](https://www.w3.org/WAI/tips/writing/) - primary authority |
 | wcag.com/authors | [wcag.com/authors](https://wcag.com/authors/) |
 | WCAG 2.2 | [w3.org/TR/WCAG22](https://www.w3.org/TR/WCAG22/) |
 
@@ -56,22 +56,22 @@ These rules were synthesized from the following sources. Where sources conflict,
 | --- | --- |
 | United States | [plainlanguage.gov](https://www.plainlanguage.gov) / [digital.gov/guides/plain-language](https://digital.gov/guides/plain-language) |
 | United States | [SBA Content Style Guide](https://advocacy.sba.gov/office-of-advocacy-content-style-guide/writing-accessible-content/) |
-| United Kingdom | [GOV.UK  -  Publishing Accessible Documents](https://www.gov.uk/guidance/publishing-accessible-documents) |
+| United Kingdom | [GOV.UK - Publishing Accessible Documents](https://www.gov.uk/guidance/publishing-accessible-documents) |
 | United Kingdom | [DWP Accessibility Manual](https://accessibility-manual.dwp.gov.uk/best-practice/writing-content) |
-| United Kingdom | [GOV.UK Communications  -  accessible communications resources](https://www.communications.gov.uk/guidance/accessible-communications/accessible-communications-learning-and-resources/) |
-| Australia | [Australian Government Style Manual  -  Accessible and Inclusive Content](https://www.stylemanual.gov.au/accessible-and-inclusive-content) |
-| Canada | [Government of Canada  -  Guidelines for Creating Accessible Documents](https://accessible.canada.ca/guidelines-creating-accessible-documents) |
+| United Kingdom | [GOV.UK Communications - accessible communications resources](https://www.communications.gov.uk/guidance/accessible-communications/accessible-communications-learning-and-resources/) |
+| Australia | [Australian Government Style Manual - Accessible and Inclusive Content](https://www.stylemanual.gov.au/accessible-and-inclusive-content) |
+| Canada | [Government of Canada - Guidelines for Creating Accessible Documents](https://accessible.canada.ca/guidelines-creating-accessible-documents) |
 
 ### Disability language authorities
 
 | Source | URL | Notes |
 | --- | --- | --- |
 | NCDJ Disability Language Style Guide | [cronkite.asu.edu/ncdj](https://cronkite.asu.edu/ncdj/disability-language-style-guide) | Journalism standard; updated regularly |
-| AP Stylebook  -  Disability | [amdisrights.org/ap-stylebook-primer-on-disability](https://amdisrights.org/ap-stylebook-primer-on-disability) | Wire journalism standard |
+| AP Stylebook - Disability | [amdisrights.org/ap-stylebook-primer-on-disability](https://amdisrights.org/ap-stylebook-primer-on-disability) | Wire journalism standard |
 | ADA National Network | [adata.org/factsheet/ADANN-writing](https://adata.org/factsheet/ADANN-writing) | U.S. legal/advocacy context |
-| APA Style  -  Disability | [apastyle.apa.org  -  bias-free language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability) | Academic publishing standard |
+| APA Style - Disability | [apastyle.apa.org - bias-free language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability) | Academic publishing standard |
 | SIGACCESS Accessible Writing Guide | [sigaccess.org](https://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/) | Computing research community |
-| Nicolas Steenhout | [incl.ca  -  Disability Language Is a Nuanced Thing](https://incl.ca/disability-language-is-a-nuanced-thing/) | Practitioner perspective; *Nothing About Us Without Us* principle; identity-first vs person-first as community choice, not external rule; cites Léonie Watson |
+| Nicolas Steenhout | [incl.ca - Disability Language Is a Nuanced Thing](https://incl.ca/disability-language-is-a-nuanced-thing/) | Practitioner perspective; *Nothing About Us Without Us* principle; identity-first vs person-first as community choice, not external rule; cites Léonie Watson |
 | Léonie Watson | [tink.uk](https://tink.uk) | Blind web standards engineer; cited by Steenhout: *"There is no right or wrong answer because it is a matter of personal choice, and the choice depends on context."* |
 
 ### Technical and UX writing
@@ -79,10 +79,10 @@ These rules were synthesized from the following sources. Where sources conflict,
 | Source | URL |
 | --- | --- |
 | Google Developer Style Guide | [developers.google.com/style/accessibility](https://developers.google.com/style/accessibility) |
-| UX Content Co. | [uxcontent.com  -  Accessible UX Writing](https://uxcontent.com/accessible-ux-writing-a-guide-for-inclusive-content-design/) |
-| A11y Collective | [a11y-collective.com  -  Accessible Writing](https://www.a11y-collective.com/blog/accessible-writing/) |
-| SJSU Writing Center | [sjsu.edu  -  Accessible Writing Strategies](https://www.sjsu.edu/writingcenter/docs/handouts/Accessible%20Writing%20Strategies.pdf) |
-| Section 508 | [section508.gov  -  Alternative Text](https://www.section508.gov/create/alternative-text/) |
+| UX Content Co. | [uxcontent.com - Accessible UX Writing](https://uxcontent.com/accessible-ux-writing-a-guide-for-inclusive-content-design/) |
+| A11y Collective | [a11y-collective.com - Accessible Writing](https://www.a11y-collective.com/blog/accessible-writing/) |
+| SJSU Writing Center | [sjsu.edu - Accessible Writing Strategies](https://www.sjsu.edu/writingcenter/docs/handouts/Accessible%20Writing%20Strategies.pdf) |
+| Section 508 | [section508.gov - Alternative Text](https://www.section508.gov/create/alternative-text/) |
 | Grammarly | Clarity and passive voice patterns |
 | Hemingway Editor | Sentence length and readability grade |
 
@@ -104,9 +104,9 @@ When rule tables cite sources, they use these abbreviations:
 | NCDJ | National Center for Disability Journalism |
 | AP | AP Stylebook (wire journalism standard) |
 | ADA NN | ADA National Network |
-| APA | APA Style  -  Bias-free Language |
+| APA | APA Style - Bias-free Language |
 | SIGACCESS | SIGACCESS Accessible Writing Guide |
-| Google | Google Developer Style Guide  -  Accessibility |
+| Google | Google Developer Style Guide - Accessibility |
 | UX Content Co. | UX Content Co. Accessible UX Writing |
 | A11y Collective | A11y Collective Accessible Writing |
 | SJSU | SJSU Writing Center Accessible Writing Strategies |
@@ -122,7 +122,7 @@ When rule tables cite sources, they use these abbreviations:
 
 All rules ship from `@a11yfred/neighbor/content`. All ship as `warn` by default.
 
-**Why all warnings?** Content is subjective in ways markup is not. A rule that fires on a metaphor inside a novel excerpt, or on an idiom in a developer-facing internal tool, is noise. Every content rule has legitimate exceptions  -  `warn` lets teams decide which matter for their context rather than forcing blanket errors. Upgrade individual rules to `error` in your own config where the stakes are higher.
+**Why all warnings?** Content is subjective in ways markup is not. A rule that fires on a metaphor inside a novel excerpt, or on an idiom in a developer-facing internal tool, is noise. Every content rule has legitimate exceptions - `warn` lets teams decide which matter for their context rather than forcing blanket errors. Upgrade individual rules to `error` in your own config where the stakes are higher.
 
 ---
 
@@ -134,7 +134,7 @@ Flags slurs, condescending euphemisms, and suffering-framing when writing about 
 
 **WCAG basis:** SC 3.1.1 (Language of Page). While WCAG does not enumerate specific words, content that demeans or excludes users undermines the perceivable and understandable principles the spec is built on.
 
-**Consensus:** Every disability language guide surveyed  -  NCDJ, AP Stylebook, ADA National Network, APA Style, SIGACCESS  -  independently prohibits these terms. No credible source defends them.
+**Consensus:** Every disability language guide surveyed - NCDJ, AP Stylebook, ADA National Network, APA Style, SIGACCESS - independently prohibits these terms. No credible source defends them.
 
 What it catches:
 
@@ -172,7 +172,7 @@ Configuration:
 
 #### `no-disability-metaphor`
 
-Flags figurative uses of disability language  -  disability used as a metaphor in non-clinical prose.
+Flags figurative uses of disability language - disability used as a metaphor in non-clinical prose.
 
 **WCAG basis:** No direct SC. Grounded in NCDJ, A11y Collective, and APA guidance that these uses normalise disability as a negative even when not intended that way.
 
@@ -196,7 +196,7 @@ What it catches:
 
 Flags English idioms and sports metaphors that are opaque to ESL readers and international audiences.
 
-**WCAG basis:** SC 3.1.5 (Reading Level). Idioms systematically fail this criterion for non-native English speakers because their meaning cannot be inferred from constituent words. No other accessibility linting tool flags idioms  -  this is the most novel rule in this set.
+**WCAG basis:** SC 3.1.5 (Reading Level). Idioms systematically fail this criterion for non-native English speakers because their meaning cannot be inferred from constituent words. No other accessibility linting tool flags idioms - this is the most novel rule in this set.
 
 **Sources:** Canadian Government accessible documents guide, SJSU accessible writing strategies, UX Content Co., A11y Collective.
 
@@ -235,7 +235,7 @@ What it catches:
 
 Flags content that gives instructions using screen position ("above", "in the right sidebar").
 
-**WCAG basis:** SC 1.3.3 (Sensory Characteristics)  -  instructions shall not rely solely on location or sensory characteristics. Position references break for screen reader users, keyboard users, and anyone who zooms or reflows the page.
+**WCAG basis:** SC 1.3.3 (Sensory Characteristics) - instructions shall not rely solely on location or sensory characteristics. Position references break for screen reader users, keyboard users, and anyone who zooms or reflows the page.
 
 **Sources:** SBA Content Style Guide, Google Developer Style Guide, WCAG SC 1.3.3.
 
@@ -247,7 +247,7 @@ Flags content that gives instructions using screen position ("above", "in the ri
 
 Flags abbreviations and acronyms used without a prior expansion in the same file.
 
-**WCAG basis:** SC 3.1.4 (Abbreviations)  -  a mechanism shall be available for identifying the expanded form of abbreviations.
+**WCAG basis:** SC 3.1.4 (Abbreviations) - a mechanism shall be available for identifying the expanded form of abbreviations.
 
 **Sources:** Google Developer Style Guide, GOV.UK, wcag.com/authors, SBA, US Plain Language, Canadian Government.
 
@@ -283,7 +283,7 @@ Configuration:
 
 Flags `&` used in place of "and" in prose.
 
-**Why it matters:** Screen readers may announce `&` as "ampersand" or skip it entirely  -  behaviour is inconsistent across AT vendors and verbosity settings.
+**Why it matters:** Screen readers may announce `&` as "ampersand" or skip it entirely - behaviour is inconsistent across AT vendors and verbosity settings.
 
 **Sources:** Google Developer Style Guide, US Plain Language guide.
 
@@ -425,7 +425,7 @@ What it catches:
 
 Flags vague call-to-action and link text.
 
-**WCAG basis:** SC 2.4.4 (Link Purpose, In Context)  -  link purpose shall be determinable from the link text alone. Patterns like "click here" or "read more" are the most-cited failure in the annual WebAIM Million report.
+**WCAG basis:** SC 2.4.4 (Link Purpose, In Context) - link purpose shall be determinable from the link text alone. Patterns like "click here" or "read more" are the most-cited failure in the annual WebAIM Million report.
 
 **Sources:** W3C WAI, wcag.com/authors, Google Developer Style Guide, SBA, UX Content Co., A11y Collective, GOV.UK, WebAIM Million.
 
@@ -437,7 +437,7 @@ Flags vague call-to-action and link text.
 
 Flags error messages that do not explain what went wrong.
 
-**WCAG basis:** SC 3.3.1 (Error Identification)  -  if an input error is detected, the item in error shall be described. SC 3.3.3 (Error Suggestion)  -  suggestions for correction shall be provided. "An error occurred" satisfies neither.
+**WCAG basis:** SC 3.3.1 (Error Identification) - if an input error is detected, the item in error shall be described. SC 3.3.3 (Error Suggestion) - suggestions for correction shall be provided. "An error occurred" satisfies neither.
 
 **Sources:** UX Content Co., Google Developer Style Guide.
 

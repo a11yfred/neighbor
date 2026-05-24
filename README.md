@@ -4,7 +4,7 @@ The a11yfred accessibility linter ecosystem. This monorepo houses a suite of plu
 
 It builds on foundational tools like `eslint-plugin-jsx-a11y` to cover gaps: bad ARIA patterns, live region misuse, missing names on roles, and CSS that removes focus indicators. It also brings that robust coverage to non-React frameworks like Vue, Angular, and Vanilla Web Components.
 
-Some rules are specific to **@ulam** — an upcoming JavaScript framework by the same author. Those rules are prefixed `no-announce-in-render`, `no-hash-router-in-remix`, and `no-use-page-title-in-remix`. They activate only when @ulam-related imports are detected and are harmless in non-@ulam projects.
+Some rules are specific to **@ulam**, an upcoming JavaScript framework by the same author. Those rules are prefixed `no-announce-in-render`, `no-hash-router-in-remix`, and `no-use-page-title-in-remix`. They activate only when @ulam-related imports are detected and are harmless in non-@ulam projects.
 
 ## Contents
 
@@ -57,11 +57,11 @@ vale config pull
 
 | Import | Use for |
 | --- | --- |
-| `@a11yfred/neighbor/eslint` | React / JSX, Remix 2  -  markup rules |
-| `@a11yfred/neighbor/eslint-vue` | Vue SFCs  -  markup rules |
-| `@a11yfred/neighbor/eslint-angular` | Angular templates  -  markup rules |
-| `@a11yfred/neighbor/webcomponents` | Web Components / Vanilla HTML  -  markup rules |
-| `@a11yfred/neighbor/content` | Any JS/TS/JSX/TSX  -  content and prose rules |
+| `@a11yfred/neighbor/eslint` | React / JSX, Remix 2: markup rules |
+| `@a11yfred/neighbor/eslint-vue` | Vue SFCs: markup rules |
+| `@a11yfred/neighbor/eslint-angular` | Angular templates: markup rules |
+| `@a11yfred/neighbor/webcomponents` | Web Components / Vanilla HTML: markup rules |
+| `@a11yfred/neighbor/content` | Any JS/TS/JSX/TSX: content and prose rules |
 | `@a11yfred/neighbor` | Stylelint  -  CSS rules |
 | `@a11yfred/neighbor/stylelint` | Stylelint  -  CSS rules (explicit alias) |
 
@@ -483,11 +483,11 @@ Planned improvements and extensions to neighbor:
 
 ### In development
 
-- [ ] **iOS app** — Accessibility linting for native iOS applications (Swift)
-- [ ] **Android app** — Accessibility linting for native Android applications (Kotlin)
-- [ ] **Desktop app (Electron)** — Standalone desktop application for cross-platform linting
-- [ ] **Microsoft Word add-in** — Native Word add-in for accessibility linting in document authoring
-- [ ] **Browser extensions** — Chrome and Firefox extensions for live page linting with real-time violation highlighting
+- [ ] **iOS app**: Accessibility linting for native iOS applications (Swift)
+- [ ] **Android app**: Accessibility linting for native Android applications (Kotlin)
+- [ ] **Desktop app (Electron)**: Standalone desktop application for cross-platform linting
+- [ ] **Microsoft Word add-in**: Native Word add-in for accessibility linting in document authoring
+- [ ] **Browser extensions**: Chrome and Firefox extensions for live page linting with real-time violation highlighting
 
 ### Planned
 

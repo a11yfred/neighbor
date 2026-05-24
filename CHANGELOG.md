@@ -21,7 +21,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- **New rule:** `no-disabled-and-aria-disabled` — Elements with both `disabled` and `aria-disabled` attributes cause conflicting states in assistive tech
+- **New rule:** `no-disabled-and-aria-disabled`: Elements with both `disabled` and `aria-disabled` attributes cause conflicting states in assistive tech
 
 ### Changed
 
@@ -59,9 +59,9 @@ Update your `.stylelintrc.json` to use the new names.
 
 ### Added
 
-- **New rule:** `neighbor/no-forced-colors-none` — `forced-color-adjust: none` inside `@media (forced-colors)` actively opts out of Windows High Contrast Mode
+- **New rule:** `neighbor/no-forced-colors-none`: `forced-color-adjust: none` inside `@media (forced-colors)` actively opts out of Windows High Contrast Mode
 
-- **New entry point:** `@a11yfred/neighbor/content` — An ESLint plugin for accessibility and inclusion problems in web and app copy. Lints string literals and JSX text in JS/TS/JSX/TSX files.
+- **New entry point:** `@a11yfred/neighbor/content`: An ESLint plugin for accessibility and inclusion problems in web and app copy. Lints string literals and JSX text in JS/TS/JSX/TSX files.
 
 - **New content rules (all `warn`):**
 
@@ -75,14 +75,14 @@ Update your `.stylelintrc.json` to use the new names.
 | `no-unexplained-abbreviation` | Acronyms used without a prior expansion in the same file |
 | `no-all-caps-prose` | ALL CAPS words that screen readers may spell out letter-by-letter |
 | `no-vague-error-message` | Error messages that don't explain what went wrong ("An error occurred", "Something went wrong") |
-| `no-ampersand-in-prose` | `&` in place of "and" in prose  -  announced inconsistently across AT vendors |
+| `no-ampersand-in-prose` | `&` in place of "and" in prose - announced inconsistently across AT vendors |
 
 Rules are synthesised from 17 sources spanning W3C WAI, government plain language guides (US, UK, Australia, Canada), and disability language authorities (NCDJ, AP Stylebook, ADA National Network, APA Style, SIGACCESS). See [RULES-CONTENT.md](RULES-CONTENT.md) for full methodology and source citations.
 
 - **New rule reference pages:** RULES.md is now an index. Full references split into:
-  - [RULES-MARKUP.md](RULES-MARKUP.md)  -  ESLint markup rules
-  - [RULES-CSS.md](RULES-CSS.md)  -  Stylelint CSS rules
-  - [RULES-CONTENT.md](RULES-CONTENT.md)  -  content rules with sources and methodology
+  - [RULES-MARKUP.md](RULES-MARKUP.md): ESLint markup rules
+  - [RULES-CSS.md](RULES-CSS.md): Stylelint CSS rules
+  - [RULES-CONTENT.md](RULES-CONTENT.md): content rules with sources and methodology
 
 - **New entry point alias:** `@a11yfred/neighbor/stylelint` added as an explicit stylelint alias alongside the default export.
 
@@ -90,11 +90,11 @@ Rules are synthesised from 17 sources spanning W3C WAI, government plain languag
 
 ### Changed
 
-- **Severity changes:** 10 rules moved from `warn` to `off` in the recommended config  -  they flag real problems but are too noisy for most codebases by default. All remain available to opt in individually:
+- **Severity changes:** 10 rules moved from `warn` to `off` in the recommended config. They flag real problems but are too noisy for most codebases by default. All remain available to opt in individually:
   - `no-application-role`, `no-grid-role`, `no-aria-roledescription`, `no-aria-readonly`, `no-tab-without-controls`, `no-href-hash`, `warn-role-alert`, `prefer-aria-disabled`, `no-target-blank-without-label`, `no-dialog-without-close`
   - `no-tooltip-role-misuse` and `no-menu-role-on-nav` remain on as warns.
 
-- **Extended rules:** `no-announce-in-render` now runs in Vue and Angular plugins (not just React). Safe contexts are tuned per framework  -  Vue recognizes `onMounted`, `watch`, `watchEffect`, `nextTick`; Angular recognizes `ngOnInit`, `ngAfterViewInit`, `ngOnChanges`, and class method event handlers.
+- **Extended rules:** `no-announce-in-render` now runs in Vue and Angular plugins (not just React). Safe contexts are tuned per framework: Vue recognizes `onMounted`, `watch`, `watchEffect`, `nextTick`; Angular recognizes `ngOnInit`, `ngAfterViewInit`, `ngOnChanges`, and class method event handlers.
 
 ### Documentation
 
