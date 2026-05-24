@@ -477,4 +477,4 @@ MIT
 
 ---
 
-*Bu
+*Built with help from Claude.*

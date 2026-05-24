@@ -101,4 +101,10 @@ To regenerate after updating the term lists:
 node packages/neighbor/scripts/generate-vale.mjs
 ```
 
-`AllCapsProse.yml` and `AmpersandInPr
+`AllCapsProse.yml` and `AmpersandInProse.yml` are hand-authored and not generated.
+
+---
+
+## License
+
+MIT
