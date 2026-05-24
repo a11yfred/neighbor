@@ -1,87 +1,19 @@
 {
-  "name": "@a11yfred/neighbor",
-  "version": "1.1.2",
-  "description": "Accessibility linting for a11yfred  -  ESLint (markup + content), Stylelint (CSS). Won't you be my neighbor?",
-  "type": "module",
-  "license": "MIT",
-  "files": [
-    "lib",
-    "*.mjs",
-    "LICENSE",
-    "README.md",
-    "CHANGELOG.md",
-    "CONTRIBUTING.md",
-    "RULES.md",
-    "RULES-MARKUP.md",
-    "RULES-CSS.md",
-    "RULES-CONTENT.md"
+  "name": "@a11yfred/monorepo",
+  "version": "2.0.0",
+  "private": true,
+  "packageManager": "npm@11.14.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
   ],
-  "main": "./neighbor-stylelint.mjs",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/a11yfred/neighbor.git"
-  },
-  "homepage": "https://github.com/a11yfred/neighbor#readme",
-  "bugs": {
-    "url": "https://github.com/a11yfred/neighbor/issues"
-  },
-  "exports": {
-    ".": "./neighbor-stylelint.mjs",
-    "./stylelint": "./neighbor-stylelint.mjs",
-    "./eslint": "./neighbor-eslint.mjs",
-    "./eslint-vue": "./neighbor-eslint-vue.mjs",
-    "./eslint-angular": "./neighbor-eslint-angular.mjs",
-    "./content": "./neighbor-content.mjs",
-    "./rules": "./lib/content-rules.js"
-  },
-  "keywords": [
-    "stylelint",
-    "stylelint-plugin",
-    "eslint",
-    "eslint-plugin",
-    "a11yfred",
-    "css",
-    "aria",
-    "accessibility",
-    "a11y",
-    "content",
-    "plain-language",
-    "inclusive-language",
-    "ableist"
-  ],
-  "peerDependencies": {
-    "@angular-eslint/eslint-plugin-template": ">=17",
-    "eslint": ">=8",
-    "eslint-plugin-jsx-a11y": ">=6",
-    "eslint-plugin-vuejs-accessibility": ">=2",
-    "stylelint": ">=14"
-  },
-  "peerDependenciesMeta": {
-    "eslint": {
-      "optional": true
-    },
-    "eslint-plugin-jsx-a11y": {
-      "optional": true
-    },
-    "eslint-plugin-vuejs-accessibility": {
-      "optional": true
-    },
-    "@angular-eslint/eslint-plugin-template": {
-      "optional": true
-    },
-    "stylelint": {
-      "optional": true
-    }
-  },
-  "overrides": {
-    "eslint-plugin-jsx-a11y": {
-      "eslint": ">=8"
-    }
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "dev": "turbo run dev",
+    "test": "turbo run test"
   },
   "devDependencies": {
-    "@a11yfred/neighbor": "^1.0.3",
-    "eslint": "^9.39.4",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
-    "stylelint": "^17.11.0"
+    "turbo": "^2.0.0"
   }
 }

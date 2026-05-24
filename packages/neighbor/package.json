@@ -1,0 +1,86 @@
+{
+  "name": "@a11yfred/neighbor",
+  "version": "2.0.0",
+  "description": "Accessibility linting for a11yfred  -  ESLint (markup + content), Stylelint (CSS). Won't you be my neighbor?",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "*.mjs",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "RULES.md",
+    "RULES-MARKUP.md",
+    "RULES-CSS.md",
+    "RULES-CONTENT.md"
+  ],
+  "main": "./lib/rules.js",
+  "scripts": {
+    "build": "node scripts/generate-vale.mjs",
+    "test": "echo \"No test specified\" && exit 0",
+    "lint": "echo \"No lint specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a11yfred/neighbor.git"
+  },
+  "homepage": "https://github.com/a11yfred/neighbor#readme",
+  "bugs": {
+    "url": "https://github.com/a11yfred/neighbor/issues"
+  },
+  "exports": {
+    "./rules": "./lib/content-rules.js",
+    "./lib/*": "./lib/*.js"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "eslint",
+    "eslint-plugin",
+    "a11yfred",
+    "css",
+    "aria",
+    "accessibility",
+    "a11y",
+    "content",
+    "plain-language",
+    "inclusive-language",
+    "ableist"
+  ],
+  "peerDependencies": {
+    "@angular-eslint/eslint-plugin-template": ">=17",
+    "eslint": ">=8",
+    "eslint-plugin-jsx-a11y": ">=6",
+    "eslint-plugin-vuejs-accessibility": ">=2",
+    "stylelint": ">=14"
+  },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
+      "optional": true
+    },
+    "eslint-plugin-vuejs-accessibility": {
+      "optional": true
+    },
+    "@angular-eslint/eslint-plugin-template": {
+      "optional": true
+    },
+    "stylelint": {
+      "optional": true
+    }
+  },
+  "overrides": {
+    "eslint-plugin-jsx-a11y": {
+      "eslint": ">=8"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^9.39.4",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "stylelint": "^17.11.0"
+  }
+}

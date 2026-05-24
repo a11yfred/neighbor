@@ -1,0 +1,282 @@
+/**
+ * @a11yfred/neighbor  -  Stylelint plugin
+ *
+ * Rules:
+ *   neighbor/user-preferences      -  Warn when motion, transparency, or alpha colors
+ *                                  are used without @media (prefers-*) fallbacks.
+ *   neighbor/no-outline-none       -  Disallow bare outline:none/0 outside :focus selectors.
+ *   neighbor/no-forced-colors-none -  Disallow forced-color-adjust:none inside @media (forced-colors).
+ *
+ * Sources and credits:
+ *   WCAG 2.1 / 2.2         w3.org/TR/WCAG21, w3.org/TR/WCAG22
+ *   WebAIM                 webaim.org
+ *   double-great/stylelint-a11y  github.com/double-great/stylelint-a11y
+ */
+
+import stylelint from 'stylelint';
+const { utils: { report } } = stylelint;
+
+const defined = (x) => x !== undefined && x !== null;
+
+/** True if the node or any ancestor is a prefers-* / forced-colors media block */
+function insidePreferencesMedia(node) {
+  let current = node.parent;
+  while (defined(current)) {
+    if (
+      current.type === 'atrule' &&
+      current.name === 'media' &&
+      /prefers-|forced-colors/.test(current.params)
+    ) {
+      return true;
+    }
+    current = current.parent;
+  }
+  return false;
+}
+
+/** True if the value string contains an alpha channel (rgb/hsl with slash, or 8-digit hex) */
+function hasAlphaChannel(value) {
+  // rgb(r g b / a) or rgba() or hsl(h s l / a)
+  if (/\b(rgb|hsl)a?\s*\(/.test(value) && /\/\s*[01]?\.?\d+[^)]*\)/.test(value)) return true;
+  // 8-digit hex #rrggbbaa
+  if (/#[0-9a-fA-F]{8}\b/.test(value)) return true;
+  return false;
+}
+
+/** True if the opacity value is a structural endpoint (0 or 1), not a dim */
+function isStructuralOpacity(value) {
+  const n = parseFloat(value.trim());
+  return n === 0 || n === 1;
+}
+
+const ruleName = 'neighbor/user-preferences';
+
+const messages = {
+  opacity: (value) =>
+    `opacity: ${value} creates a transparency effect. Add a fallback in @media (prefers-reduced-transparency: reduce) that uses an explicit color token instead. See src/components/ui/user-preferences.css.`,
+  animation: (prop, value) =>
+    `${prop}: ${value} uses motion. Add a fallback in @media (prefers-reduced-motion: reduce) that disables or stills this animation. See src/components/ui/user-preferences.css.`,
+  alpha: (value) =>
+    `Color value "${value}" uses an alpha channel. Add an opaque fallback in @media (prefers-reduced-transparency: reduce). See src/components/ui/user-preferences.css.`,
+};
+
+const meta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/**
+ * Collect all selectors that appear inside a prefers-reduced-* or forced-colors
+ * media block anywhere in the file. Used to suppress warnings when an override exists.
+ * Splits comma-separated selector lists so each individual selector is tracked.
+ */
+function collectCoveredSelectors(root) {
+  const covered = new Set();
+  root.walkAtRules('media', (atRule) => {
+    if (!/prefers-|forced-colors/.test(atRule.params)) return;
+    atRule.walkRules((ruleNode) => {
+      // Split comma-separated selector lists
+      for (const part of ruleNode.selector.split(',')) {
+        const sel = part.trim();
+        covered.add(sel);
+        // Also add bare selector without pseudo-classes/pseudo-elements
+        covered.add(sel.replace(/::[^,\s{]+|:[^,\s{(]+(\([^)]*\))?/g, '').trim());
+      }
+    });
+  });
+  return covered;
+}
+
+/** True if the given selector (or its bare form) is in the covered set */
+function isCovered(selector, covered) {
+  // Split comma lists in the base selector too
+  for (const part of selector.split(',')) {
+    const norm = part.trim();
+    if (covered.has(norm)) return true;
+    const bare = norm.replace(/::[^,\s{]+|:[^,\s{(]+(\([^)]*\))?/g, '').trim();
+    if (covered.has(bare)) return true;
+  }
+  return false;
+}
+
+/** @type {import('stylelint').Rule} */
+function rule(primaryOption) {
+  return (root, result) => {
+    // Only enforce inside src/components/ui/
+    const filePath = (root.source?.input?.file ?? '').replace(/\\/g, '/');
+    if (!filePath.includes('src/components/ui')) return;
+    // Never enforce inside user-preferences.css itself
+    if (filePath.includes('user-preferences.css')) return;
+
+    // Pre-scan: collect selectors already covered by prefers overrides in this file
+    const covered = collectCoveredSelectors(root);
+
+    root.walkDecls((decl) => {
+      if (insidePreferencesMedia(decl)) return;
+
+      // If the containing rule's selector is already overridden in a prefers block, skip
+      const parentSelector = decl.parent?.selector ?? '';
+      if (parentSelector && isCovered(parentSelector, covered)) return;
+
+      const prop = decl.prop.toLowerCase();
+      const value = decl.value;
+
+      // opacity  -  warn on non-structural values (i.e. dims like 0.5, 0.75)
+      if (prop === 'opacity' && !isStructuralOpacity(value)) {
+        report(decl, messages.opacity(value));
+        return;
+      }
+
+      // animation or transition
+      if (prop === 'animation' || prop === 'transition' || prop === 'animation-name') {
+        // Skip "none" values  -  they're already the reduced state
+        if (/^none\b/i.test(value.trim())) return;
+        report(decl, messages.animation(prop, value));
+        return;
+      }
+
+      // Alpha-channel color values on visual properties
+      const visualProps = new Set([
+        'background', 'background-color', 'color', 'border', 'border-color',
+        'border-top-color', 'border-right-color', 'border-bottom-color', 'border-left-color',
+        'outline-color', 'box-shadow', 'text-shadow', 'fill', 'stroke',
+      ]);
+      if (visualProps.has(prop) && hasAlphaChannel(value)) {
+        report(decl, messages.alpha(value));
+      }
+    });
+  };
+}
+
+const userPreferences = { ruleName, rule, meta };
+
+// ─── Rule: neighbor/no-outline-none ──────────────────────────────────────────
+// outline: none / outline: 0 removes the browser's default keyboard focus
+// indicator. This is one of the most common keyboard accessibility failures  - 
+// keyboard users lose all visual indication of where focus is.
+//
+// Only fires when the declaration is NOT inside a :focus-visible, :focus, or
+// :focus-within selector, and no sibling :focus-visible rule overrides it in
+// the same block.
+//
+// Ref: WCAG 2.4.7 (Focus Visible); WebAIM; Roselli; cross-practitioner consensus
+
+const noOutlineNoneRuleName = 'neighbor/no-outline-none';
+
+const noOutlineNoneMessages = {
+  removed: (value) =>
+    `outline: ${value} removes the keyboard focus indicator. Add a :focus-visible rule with a visible outline or custom focus style. (WCAG 2.4.7 / WebAIM)`,
+};
+
+const noOutlineNoneMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** Returns true if the selector string targets a focus state. */
+function isFocusSelector(selector) {
+  return /:focus(?:-visible|-within)?/i.test(selector);
+}
+
+/** Returns true if the node is inside a @media (pointer: fine/coarse) block — keyboard users are unaffected. */
+function insidePointerMedia(node) {
+  let current = node.parent;
+  while (current) {
+    if (
+      current.type === 'atrule' &&
+      current.name === 'media' &&
+      /pointer\s*:\s*(fine|coarse)/.test(current.params)
+    ) return true;
+    current = current.parent;
+  }
+  return false;
+}
+
+/** Returns true if the decl or any ancestor rule node targets a focus state. */
+function insideFocusSelector(decl) {
+  let current = decl.parent;
+  while (current) {
+    if (current.type === 'rule' && isFocusSelector(current.selector ?? '')) return true;
+    current = current.parent;
+  }
+  return false;
+}
+
+/** @type {import('stylelint').Rule} */
+function noOutlineNoneRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^outline$/i, (decl) => {
+      const value = decl.value.trim().toLowerCase();
+      if (value !== 'none' && value !== '0') return;
+
+      // Allow inside :focus / :focus-visible (author is intentionally restyling focus)
+      if (insideFocusSelector(decl)) return;
+      // Allow inside @media (pointer: fine/coarse) — keyboard users are unaffected
+      if (insidePointerMedia(decl)) return;
+
+      report({ message: noOutlineNoneMessages.removed(decl.value), node: decl, result, ruleName: noOutlineNoneRuleName });
+    });
+  };
+}
+
+const noOutlineNone = {
+  ruleName: noOutlineNoneRuleName,
+  rule: noOutlineNoneRule,
+  meta: noOutlineNoneMeta,
+};
+
+// ─── Rule: neighbor/no-forced-colors-none ────────────────────────────────────
+// forced-color-adjust: none inside @media (forced-colors) actively opts out of
+// Windows High Contrast Mode and other forced-colors user settings. For users
+// who depend on forced colors this is their last resort for viewing content  - 
+// overriding it is a serious accessibility regression.
+//
+// Legitimate narrow exceptions exist (e.g. color pickers where all swatches
+// would collapse to CanvasText). Those should be scoped tightly to the specific
+// element, not a whole section, and are typically few enough to suppress inline.
+//
+// Ref: Sarah Higley  -  forced-color-adjust: none (sarahmhigley.com)
+//      Adrian Roselli  -  WHCM and System Colors (adrianroselli.com)
+//      WCAG SC 1.4.11 Non-text Contrast; SC 1.4.3 Contrast (Minimum)
+
+const noForcedColorsNoneRuleName = 'neighbor/no-forced-colors-none';
+
+const noForcedColorsNoneMessages = {
+  none: (selector) =>
+    `forced-color-adjust: none on "${selector}" inside @media (forced-colors) opts out of ` +
+    `Windows High Contrast Mode, removing all forced-color overrides for these elements. ` +
+    `Users who depend on forced colors lose visibility entirely. ` +
+    `Remove forced-color-adjust: none, or scope it to the narrowest possible element ` +
+    `(e.g. a color-picker swatch) and add a comment explaining why. ` +
+    `(Higley / Roselli  -  WCAG SC 1.4.11 / SC 1.4.3)`,
+};
+
+const noForcedColorsNoneMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** Returns true if the node is directly inside a @media (forced-colors) block. */
+function insideForcedColorsMedia(node) {
+  let current = node.parent;
+  while (current) {
+    if (
+      current.type === 'atrule' &&
+      current.name === 'media' &&
+      /forced-colors/.test(current.params)
+    ) return true;
+    current = current.parent;
+  }
+  return false;
+}
+
+/** @type {import('stylelint').Rule} */
+function noForcedColorsNoneRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^forced-color-adjust$/i, (decl) => {
+      if (decl.value.trim().toLowerCase() !== 'none') return;
+      if (!insideForcedColorsMedia(decl)) return;
+      const selector = decl.parent?.selector ?? decl.parent?.name ?? '(unknown)';
+      report({ message: noForcedColorsNoneMessages.none(selector), node: decl, result, ruleName: noForcedColorsNoneRuleName });
+    });
+  };
+}
+
+const noForcedColorsNone = {
+  ruleName: noForcedColorsNoneRuleName,
+  rule: noForcedColorsNoneRule,
+  meta: noForcedColorsNoneMeta,
+};
+
+export default [userPreferences, noOutlineNone, noForcedColorsNone];

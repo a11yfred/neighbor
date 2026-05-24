@@ -1,0 +1,60 @@
+{
+  "hash": "38f12c6f",
+  "configHash": "b6954e9d",
+  "lockfileHash": "9e62ff15",
+  "browserHash": "ea530e4f",
+  "optimized": {
+    "@a11yfred/neighbor/rules": {
+      "src": "../../@a11yfred/neighbor/lib/content-rules.js",
+      "file": "@a11yfred_neighbor_rules.js",
+      "fileHash": "1df03208",
+      "needsInterop": false
+    },
+    "@fluentui/react-components": {
+      "src": "../../@fluentui/react-components/lib/index.js",
+      "file": "@fluentui_react-components.js",
+      "fileHash": "8ad97172",
+      "needsInterop": false
+    },
+    "react-dom": {
+      "src": "../../react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "f47160af",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "df7e53ab",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../react/index.js",
+      "file": "react.js",
+      "fileHash": "7936d50d",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "a63a7bc2",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "c8a30318",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "react-B6BdZLWZ": {
+      "file": "react-B6BdZLWZ.js",
+      "isDynamicEntry": false
+    },
+    "scheduler-BpaJT1zr": {
+      "file": "scheduler-BpaJT1zr.js",
+      "isDynamicEntry": false
+    }
+  }
+}

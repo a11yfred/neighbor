@@ -1,0 +1,12 @@
+{
+  "name": "@a11yfred/stylelint-plugin-neighbor",
+  "version": "2.0.0",
+  "type": "module",
+  "main": "neighbor-stylelint.mjs",
+  "dependencies": {
+    "@a11yfred/neighbor": "*"
+  },
+  "peerDependencies": {
+    "stylelint": ">=14"
+  }
+}

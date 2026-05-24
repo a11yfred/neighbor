@@ -1,0 +1,34 @@
+{
+  "name": "@a11yfred/eslint-plugin-neighbor",
+  "version": "2.0.0",
+  "type": "module",
+  "main": "neighbor-eslint.mjs",
+  "exports": {
+    ".": "./neighbor-eslint.mjs",
+    "./vue": "./neighbor-eslint-vue.mjs",
+    "./angular": "./neighbor-eslint-angular.mjs",
+    "./remix3": "./neighbor-eslint-remix3.mjs",
+    "./webcomponents": "./neighbor-eslint-webcomponents.mjs",
+    "./content": "./neighbor-content.mjs"
+  },
+  "dependencies": {
+    "@a11yfred/neighbor": "*"
+  },
+  "peerDependencies": {
+    "@angular-eslint/eslint-plugin-template": ">=15",
+    "eslint": ">=8",
+    "eslint-plugin-jsx-a11y": ">=6",
+    "eslint-plugin-vuejs-accessibility": ">=2"
+  },
+  "peerDependenciesMeta": {
+    "@angular-eslint/eslint-plugin-template": {
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
+      "optional": true
+    },
+    "eslint-plugin-vuejs-accessibility": {
+      "optional": true
+    }
+  }
+}
