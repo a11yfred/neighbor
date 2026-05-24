@@ -14,31 +14,39 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
-      
+
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
           registry-url: 'https://registry.npmjs.org'
-          
-      - name: Publish to npm
-        run: npm publish --access public --provenance
+
+      - name: Prepare @a11yfred/neighbor package
+        run: |
+          cp LICENSE CHANGELOG.md CONTRIBUTING.md RULES.md RULES-MARKUP.md RULES-CSS.md RULES-CONTENT.md packages/neighbor/
+          cp packages/eslint-plugin-neighbor/neighbor-*.mjs packages/neighbor/
+          cp packages/stylelint-plugin-neighbor/neighbor-stylelint.mjs packages/neighbor/
+
+      - name: Publish @a11yfred/neighbor to npm
+        run: |
+          cd packages/neighbor
+          npm publish --access public --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Publish textlint-rule to npm
+      - name: Publish @a11yfred/textlint-rule-neighbor to npm
         run: |
           cd packages/textlint-rule-neighbor
           npm publish --access public --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          
+
       - name: Package Vale Rules
         run: |
-          cd vale
+          cd packages/vale-config-neighbor/vale
           zip -r neighbor.zip neighbor/
-          
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: vale/neighbor.zip
+          files: packages/vale-config-neighbor/vale/neighbor.zip
           generate_release_notes: true

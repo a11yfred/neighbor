@@ -54,7 +54,7 @@ If you are still using ESLint below 9.0.0, the `recommended` preset can also be 
 
 ### Custom Configuration
 
-If you want more fine-grained configuration, you can instead choose to enable specific rules. However, we strongly encourage using the recommended presets — see above — so that you will automatically receive new recommended rules as we add them in future versions of the plugin.
+If you want more fine-grained configuration, you can instead choose to enable specific rules. However, we strongly encourage using the recommended presets - see above - so that you will automatically receive new recommended rules as we add them in future versions of the plugin.
 
 #### Flat Config (eslint.config.js|ts)
 

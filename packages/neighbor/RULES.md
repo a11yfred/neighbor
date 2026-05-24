@@ -4,10 +4,10 @@ Neighbor has rules for four different areas. Each area has its own page.
 
 | Area | Setup | Rules page |
 | --- | --- | --- |
-| CSS | `@a11yfred/neighbor`, `@a11yfred/neighbor/stylelint` | [RULES-CSS.md](RULES-CSS.md) |
 | HTML / Markup | `@a11yfred/neighbor/eslint`, `/eslint-vue`, `/eslint-angular`, `/webcomponents` | [RULES-MARKUP.md](RULES-MARKUP.md) |
-| Native Mobile | `apps/ios-app`, `apps/android-app` | [iOS Rules](apps/ios-app/README.md) / [Android Rules](apps/android-app/README.md) |
+| CSS | `@a11yfred/neighbor`, `@a11yfred/neighbor/stylelint` | [RULES-CSS.md](RULES-CSS.md) |
 | Text / Content | `@a11yfred/neighbor/content` | [RULES-CONTENT.md](RULES-CONTENT.md) |
+| Native Mobile | `apps/ios-app`, `apps/android-app` | [iOS Rules](apps/ios-app/README.md) / [Android Rules](apps/android-app/README.md) |
 
 ---
 
@@ -33,10 +33,10 @@ Stylelint rules that find bad CSS. They check if you hide focus rings, block Hig
 
 | Rule | What it finds |
 | --- | --- |
-| `neighbor/no-absolute-viewport-text` | Pure viewport units (`vw`, `vh`) for text sizing - this stops browser zoom from working |
 | `neighbor/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)` - this blocks Windows High Contrast Mode |
 | `neighbor/no-outline-none` | `outline: none` outside `:focus` - this removes keyboard focus rings |
 | `neighbor/no-text-justify` | `text-align: justify` - this creates uneven word spacing that is hard for dyslexic users to read |
+| `neighbor/no-absolute-viewport-text` | Pure viewport units (`vw`, `vh`) for text sizing - this stops browser zoom from working |
 | `neighbor/no-user-select-all-none` | `user-select: none` on text - this stops users from highlighting, copying, and translating text |
 | `neighbor/user-preferences` | Animation, motion, and transparency without `@media (prefers-*)` fallbacks |
 
@@ -49,20 +49,20 @@ ESLint rules that find problems in your text. They check for ableist language, h
 | Rule | What it finds | WCAG SC |
 | --- | --- | --- |
 | `no-ableist-language` | Offensive words about disability or framing disability as suffering ("wheelchair-bound", "suffers from", "special needs") | 3.1.1 |
-| `no-all-caps-prose` | ALL CAPS words (screen readers might read them one letter at a time) | - |
-| `no-ampersand-in-prose` | Using `&` instead of "and" (screen readers read this differently) | - |
-| `no-anti-lgbtq-language` | Old or offensive words about sexual orientation and gender | - |
-| `no-colonial-and-violent-language` | Words based on colonialism or violence (stakeholder, target population, tackle) | - |
-| `no-deficit-language` | Words that reduce people to their bad situations (the homeless, inmate, addict) | - |
-| `no-device-specific-action` | Words that only make sense on a desktop computer ("click here", "press enter") | - |
-| `no-directional-language` | Instructions based on where things are on the screen ("see above", "in the right sidebar") | 1.3.3 |
 | `no-disability-metaphor` | Using disability as a metaphor ("blind spot", "tone deaf", "paralyzed by") | - |
 | `no-english-idiom` | Phrases or sports metaphors that are hard for non-native English speakers to understand ("slam dunk", "boil the ocean", "circle back") | 3.1.5 |
-| `no-exclusive-language` | Tech jargon and culturally insensitive words (blacklist, master/slave, spirit animal) | - |
-| `no-gendered-language` | Gendered pronouns when the gender is unknown (he/she, his or her, mum and dad) | - |
-| `no-unexplained-abbreviation` | Short words or acronyms used before you explain what they mean | 3.1.4 |
 | `no-vague-cta` | Confusing link or button text ("click here", "read more", "here") | 2.4.4 |
+| `no-directional-language` | Instructions based on where things are on the screen ("see above", "in the right sidebar") | 1.3.3 |
+| `no-unexplained-abbreviation` | Short words or acronyms used before you explain what they mean | 3.1.4 |
+| `no-all-caps-prose` | ALL CAPS words (screen readers might read them one letter at a time) | - |
 | `no-vague-error-message` | Error messages that do not explain what is wrong ("An error occurred") | 3.3.1 |
+| `no-ampersand-in-prose` | Using `&` instead of "and" (screen readers read this differently) | - |
+| `no-exclusive-language` | Tech jargon and culturally insensitive words (blacklist, master/slave, spirit animal) | - |
+| `no-colonial-and-violent-language` | Words based on colonialism or violence (stakeholder, target population, tackle) | - |
+| `no-deficit-language` | Words that reduce people to their bad situations (the homeless, inmate, addict) | - |
+| `no-gendered-language` | Gendered pronouns when the gender is unknown (he/she, his or her, mum and dad) | - |
+| `no-anti-lgbtq-language` | Old or offensive words about sexual orientation and gender | - |
+| `no-device-specific-action` | Words that only make sense on a desktop computer ("click here", "press enter") | - |
 
 ---
 

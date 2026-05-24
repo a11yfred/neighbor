@@ -72,10 +72,12 @@ Just like ESLint, you can change these rules to **Error**, **Warning**, or **Off
 Most native linters ignore the actual words being presented to the user. `neighbor` changes this by bringing our web Content Linting strategy to Android.
 
 ### The Clean Way (Recommended)
-You should never hardcode strings into your UI components (like `Text("Click here")`). Instead, extract them into `res/values/strings.xml`. 
+
+You should never hardcode strings into your UI components (like `Text("Click here")`). Instead, extract them into `res/values/strings.xml`.
 You can then run the `@a11yfred/neighbor/textlint` package directly against your `strings.xml` file. It will automatically scan your app's localization files for jargon, ableist language, and confusing CTAs.
 
 ### The Fallback Way
+
 If a developer bypasses standard practices and hardcodes strings directly into `contentDescription` modifiers, the standard Android Lint `ComposeContentViolation` rule (documented above) will catch common violations like "click here", "swipe left", or ableist jargon directly in the code.
 
 ## How to build (Future)

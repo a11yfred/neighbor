@@ -499,7 +499,7 @@ Rules that flag accessibility and inclusion problems in web and app copy. Works 
 | `no-gendered-language` | Generic gendered pronoun patterns (he/she, his or her, mum and dad) | warn | - |
 | `no-unexplained-abbreviation` | Acronyms used without a prior expansion in the same file | warn | [3.1.4](https://www.w3.org/WAI/WCAG22/Understanding/abbreviations) |
 | `no-vague-cta` | Vague link and button text ("click here", "read more", "here") | warn | [2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context) |
-| `no-vague-error-message` | Error messages that don't explain what went wrong ("An error occurred", "Something went wrong") | warn | [3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification) |
+| `no-vague-error-message` | Error messages that do not explain what went wrong ("An error occurred", "Something went wrong") | warn | [3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification) |
 
 See [RULES-CONTENT.md](RULES-CONTENT.md) for the full rule reference including sources, methodology, and the language-evolution note.
 

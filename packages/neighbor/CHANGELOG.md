@@ -76,9 +76,9 @@ CSS rules renamed from `ulam/` to `neighbor/` namespace:
 
 | Old | New |
 | --- | --- |
-| `ulam/no-forced-colors-none` | `neighbor/no-forced-colors-none` |
-| `ulam/no-outline-none` | `neighbor/no-outline-none` |
 | `ulam/user-preferences` | `neighbor/user-preferences` |
+| `ulam/no-outline-none` | `neighbor/no-outline-none` |
+| `ulam/no-forced-colors-none` | `neighbor/no-forced-colors-none` |
 
 Update your `.stylelintrc.json` to use the new names.
 
@@ -91,14 +91,14 @@ Update your `.stylelintrc.json` to use the new names.
 | Rule | What it flags |
 | --- | --- |
 | `no-ableist-language` | Slurs, suffering-framing, and condescending euphemisms when writing about disability ("wheelchair-bound", "suffers from", "special needs", "differently abled") |
-| `no-all-caps-prose` | ALL CAPS words that screen readers may spell out letter-by-letter |
-| `no-ampersand-in-prose` | `&` in place of "and" in prose - announced inconsistently across AT vendors |
-| `no-directional-language` | Layout-dependent position instructions ("see above", "in the right sidebar", "as shown below") |
 | `no-disability-metaphor` | Figurative uses of disability language ("blind spot", "tone deaf", "paralyzed by", "crippling debt") |
 | `no-english-idiom` | English idioms and sports metaphors opaque to ESL and international readers ("slam dunk", "boil the ocean", "circle back", "touch base") |
-| `no-unexplained-abbreviation` | Acronyms used without a prior expansion in the same file |
 | `no-vague-cta` | Vague link and button text ("click here", "read more", "here", "learn more") |
+| `no-directional-language` | Layout-dependent position instructions ("see above", "in the right sidebar", "as shown below") |
+| `no-unexplained-abbreviation` | Acronyms used without a prior expansion in the same file |
+| `no-all-caps-prose` | ALL CAPS words that screen readers may spell out letter-by-letter |
 | `no-vague-error-message` | Error messages that don't explain what went wrong ("An error occurred", "Something went wrong") |
+| `no-ampersand-in-prose` | `&` in place of "and" in prose - announced inconsistently across AT vendors |
 
 Rules are synthesised from 17 sources spanning W3C WAI, government plain language guides (US, UK, Australia, Canada), and disability language authorities (NCDJ, AP Stylebook, ADA National Network, APA Style, SIGACCESS). See [RULES-CONTENT.md](RULES-CONTENT.md) for full methodology and source citations.
 

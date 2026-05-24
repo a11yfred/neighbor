@@ -57,19 +57,19 @@ The `h` helper gives you a single way to check code across React, Vue, and Angul
 
 | Helper | Returns |
 | --- | --- |
-| `h.elementVisitor` | AST node type string for `create()` visitor key |
-| `h.elementWithChildrenVisitor` | visitor key for rules that need child access |
-| `h.getAncestors(node)` | iterable of ancestor element nodes, root-ward |
 | `h.getAttr(node, name)` | attribute node or `null` |
 | `h.getAttrStringValue(attr)` | string or `null` (null for dynamic expressions) |
-| `h.getChildOpeningElements(node)` | iterable of direct child element nodes |
 | `h.getElementName(node)` | lowercase tag name, or `null` for custom components |
-| `h.getInnerHtmlAttr(node)` | `dangerouslySetInnerHTML` / `v-html` / `[innerHTML]` node or `null` |
-| `h.getParent(node)` | parent element node or `null` |
+| `h.hasAttr(node, name)` | boolean |
 | `h.getRoleValue(node)` | role string or `null` |
 | `h.hasAccessibleName(node)` | boolean: checks `aria-label` / `aria-labelledby` |
-| `h.hasAttr(node, name)` | boolean |
 | `h.isInteractiveElement(node)` | boolean |
+| `h.getParent(node)` | parent element node or `null` |
+| `h.getAncestors(node)` | iterable of ancestor element nodes, root-ward |
+| `h.getChildOpeningElements(node)` | iterable of direct child element nodes |
+| `h.getInnerHtmlAttr(node)` | `dangerouslySetInnerHTML` / `v-html` / `[innerHTML]` node or `null` |
+| `h.elementVisitor` | AST node type string for `create()` visitor key |
+| `h.elementWithChildrenVisitor` | visitor key for rules that need child access |
 
 **Angular warning:** `getParent()` and `getAncestors()` return `null` in Angular. The parser does not link child nodes to parent nodes. If your rule needs to look at parent nodes, it should fail quietly (skip the check, do not throw an error).
 

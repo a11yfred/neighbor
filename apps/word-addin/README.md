@@ -5,6 +5,7 @@ This directory contains the Microsoft Word Add-in for `a11yfred`. It helps write
 ## How it works
 
 The Word Add-in uses React and Vite. It connects to the `neighbor` content rules to find problems like:
+
 - Ableist language
 - Confusing idioms
 - Vague link text
