@@ -1,6 +1,6 @@
 {
   "name": "@a11yfred/textlint-rule-neighbor",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Textlint prose linting rules for accessibility. Won't you be my neighbor?",
   "type": "module",
   "main": "index.js",
