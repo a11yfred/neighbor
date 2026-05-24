@@ -19,33 +19,24 @@ All notable changes to this project will be documented in this file.
 
 ## 1.1.0  -  2026-05-23
 
-### New rules
+### Added
 
-| Rule | What it catches |
-| --- | --- |
-| `no-disabled-and-aria-disabled` | Elements with both `disabled` and `aria-disabled` attributes  -  causes conflicting states in assistive tech |
+- **New rule:** `no-disabled-and-aria-disabled` — Elements with both `disabled` and `aria-disabled` attributes cause conflicting states in assistive tech
 
-### Severity changes
+### Changed
 
-- `prefer-aria-disabled` moved from `off` to `error` by default to enforce discoverable form controls in tab order.
+- **Severity change:** `prefer-aria-disabled` moved from `off` to `error` by default to enforce discoverable form controls in tab order.
 
 ---
 
 ## 1.0.6  -  2026-05-13
 
-Add Severity column to all rule tables in README.
+### Changed
 
----
+- **Documentation:** Add severity column to all rule tables in README
+- **Docs cleanup:** Remove em dashes, fix MD036/MD040 markdownlint issues across all docs
 
-## 1.0.5  -  2026-05-13
-
-Docs cleanup: remove em dashes, fix MD036/MD040 markdownlint issues across all docs.
-
----
-
-## 1.0.4  -  2026-05-13
-
-### Bug fixes
+### Fixed
 
 - **`no-placeholder-only`**: no longer false-positives on `<input>` elements inside a `role="search"` landmark with an accessible name. The input is correctly labeled at the group level in that pattern.
 - **`no-dialog-without-close`**: no longer false-positives on `role="dialog"` elements whose children are passed dynamically (`{children}`). When a close button cannot be statically detected, the rule skips rather than reporting.
@@ -66,15 +57,13 @@ CSS rules renamed from `ulam/` to `neighbor/` namespace:
 
 Update your `.stylelintrc.json` to use the new names.
 
----
+### Added
 
-## 0.4.0  -  2026-05-12
+- **New rule:** `neighbor/no-forced-colors-none` — `forced-color-adjust: none` inside `@media (forced-colors)` actively opts out of Windows High Contrast Mode
 
-### New entry point
+- **New entry point:** `@a11yfred/neighbor/content` — An ESLint plugin for accessibility and inclusion problems in web and app copy. Lints string literals and JSX text in JS/TS/JSX/TSX files.
 
-`@a11yfred/neighbor/content`  -  an ESLint plugin for accessibility and inclusion problems in web and app copy. Lints string literals and JSX text in JS/TS/JSX/TSX files.
-
-### New content rules (all `warn`)
+- **New content rules (all `warn`):**
 
 | Rule | What it flags |
 | --- | --- |
@@ -90,37 +79,20 @@ Update your `.stylelintrc.json` to use the new names.
 
 Rules are synthesised from 17 sources spanning W3C WAI, government plain language guides (US, UK, Australia, Canada), and disability language authorities (NCDJ, AP Stylebook, ADA National Network, APA Style, SIGACCESS). See [RULES-CONTENT.md](RULES-CONTENT.md) for full methodology and source citations.
 
-### New rule reference pages
+- **New rule reference pages:** RULES.md is now an index. Full references split into:
+  - [RULES-MARKUP.md](RULES-MARKUP.md)  -  ESLint markup rules
+  - [RULES-CSS.md](RULES-CSS.md)  -  Stylelint CSS rules
+  - [RULES-CONTENT.md](RULES-CONTENT.md)  -  content rules with sources and methodology
 
-RULES.md is now an index. Full references split into:
+- **New entry point alias:** `@a11yfred/neighbor/stylelint` added as an explicit stylelint alias alongside the default export.
 
-- [RULES-MARKUP.md](RULES-MARKUP.md)  -  ESLint markup rules
-- [RULES-CSS.md](RULES-CSS.md)  -  Stylelint CSS rules
-- [RULES-CONTENT.md](RULES-CONTENT.md)  -  content rules with sources and methodology
+### Changed
 
-### Entry point table update
+- **Severity changes:** 10 rules moved from `warn` to `off` in the recommended config  -  they flag real problems but are too noisy for most codebases by default. All remain available to opt in individually:
+  - `no-application-role`, `no-grid-role`, `no-aria-roledescription`, `no-aria-readonly`, `no-tab-without-controls`, `no-href-hash`, `warn-role-alert`, `prefer-aria-disabled`, `no-target-blank-without-label`, `no-dialog-without-close`
+  - `no-tooltip-role-misuse` and `no-menu-role-on-nav` remain on as warns.
 
-`@a11yfred/neighbor/stylelint` added as an explicit stylelint alias alongside the default export.
-
----
-
-## 0.3.0  -  2026-05-12
-
-### New rule
-
-| Rule | What it catches |
-| --- | --- |
-| `neighbor/no-forced-colors-none` | `forced-color-adjust: none` inside `@media (forced-colors)`  -  actively opts out of Windows High Contrast Mode |
-
-### Severity changes
-
-10 rules moved from `warn` to `off` in the recommended config  -  they flag real problems but are too noisy for most codebases by default. All remain available to opt in individually:
-
-`no-application-role`, `no-grid-role`, `no-aria-roledescription`, `no-aria-readonly`, `no-tab-without-controls`, `no-href-hash`, `warn-role-alert`, `prefer-aria-disabled`, `no-target-blank-without-label`, `no-dialog-without-close`
-
-`no-tooltip-role-misuse` and `no-menu-role-on-nav` remain on as warns.
-
-### Docs
+### Documentation
 
 - WCAG SC and HTML spec links added throughout README and RULES.md
 - CONTRIBUTING.md, PR template, and issue templates added
