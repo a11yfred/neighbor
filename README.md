@@ -50,7 +50,7 @@ Why choose `neighbor`?
   - [Stylelint - CSS](#stylelint---css)
   - [Content linter](#content-linter)
 - [Rule severity](#rule-severity)
-- [Contributing](CONTRIBUTING.md)
+- [Contributing](packages/neighbor/CONTRIBUTING.md)
 - [See also](#see-also)
 - [License](#license)
 
@@ -426,15 +426,15 @@ Because `neighbor` is designed as a "gap-filler", it assumes you are running it 
 
 Neighbor's exact rule sets, including what is checked for each framework, which rules are errors vs warnings, and how they map to WCAG Success Criteria, are documented in our dedicated rule pages:
 
-- **[Markup Rules](RULES-MARKUP.md)**: React, Remix, Vue, Angular, Lit, and Web Components (ARIA, focus, semantic HTML)
-- **[CSS Rules](RULES-CSS.md)**: Stylelint rules for focus rings, high contrast mode, and motion preferences
-- **[Content Rules](RULES-CONTENT.md)**: Textlint rules for ableist language, confusing CTAs, and jargon
+- **[Markup Rules](packages/neighbor/RULES-MARKUP.md)**: React, Remix, Vue, Angular, Lit, and Web Components (ARIA, focus, semantic HTML)
+- **[CSS Rules](packages/neighbor/RULES-CSS.md)**: Stylelint rules for focus rings, high contrast mode, and motion preferences
+- **[Content Rules](packages/neighbor/RULES-CONTENT.md)**: Textlint rules for ableist language, confusing CTAs, and jargon
 
 ### Working with standard linters
 
 The JavaScript ecosystem already has great tools (`eslint-plugin-jsx-a11y` for React, `eslint-plugin-vuejs-accessibility` for Vue, `@angular-eslint` for Angular, and `eslint-plugin-lit-a11y` for Lit).
 
-Neighbor is designed as a **gap-filler**. It automatically detects if you have the standard linter installed for your framework. If you do, it will disable any of its own redundant checks and only run the rules that the standard linter misses, ensuring you get maximum coverage without duplicate warnings. For a full list of omitted redundant rules, see the [Framework Omissions](RULES-MARKUP.md#framework-specific-omissions) section.
+Neighbor is designed as a **gap-filler**. It automatically detects if you have the standard linter installed for your framework. If you do, it will disable any of its own redundant checks and only run the rules that the standard linter misses, ensuring you get maximum coverage without duplicate warnings. For a full list of omitted redundant rules, see the [Framework Omissions](packages/neighbor/RULES-MARKUP.md#framework-specific-omissions) section.
 
 ### Customizing Rule Severity
 
@@ -507,7 +507,7 @@ Rules that flag accessibility and inclusion problems in web and app copy. Works 
 | `no-vague-cta` | Vague link and button text ("click here", "read more", "here") | warn | [2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context) |
 | `no-vague-error-message` | Error messages that do not explain what went wrong ("An error occurred", "Something went wrong") | warn | [3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification) |
 
-See [RULES-CONTENT.md](RULES-CONTENT.md) for the full rule reference including sources, methodology, and the language-evolution note.
+See [RULES-CONTENT.md](packages/neighbor/RULES-CONTENT.md) for the full rule reference including sources, methodology, and the language-evolution note.
 
 ## Rule severity
 
@@ -537,10 +537,10 @@ Future plans for neighbor:
 
 ## See also
 
-- [RULES.md](RULES.md) - rule index across all domains
-- [RULES-MARKUP.md](RULES-MARKUP.md) - full ESLint rule reference (markup)
-- [RULES-CSS.md](RULES-CSS.md) - full Stylelint rule reference (CSS)
-- [RULES-CONTENT.md](RULES-CONTENT.md) - full content rule reference with sources
+- [RULES.md](packages/neighbor/RULES.md) - rule index across all domains
+- [RULES-MARKUP.md](packages/neighbor/RULES-MARKUP.md) - full ESLint rule reference (markup)
+- [RULES-CSS.md](packages/neighbor/RULES-CSS.md) - full Stylelint rule reference (CSS)
+- [RULES-CONTENT.md](packages/neighbor/RULES-CONTENT.md) - full content rule reference with sources
 - `@a11yfred/vale-config-neighbor` - companion Vale package for prose linting in Markdown, MDX, and HTML. See `packages/vale-config-neighbor` in this monorepo.
 
 ## License

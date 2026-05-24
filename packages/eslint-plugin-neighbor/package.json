@@ -35,5 +35,20 @@
     "eslint-plugin-vuejs-accessibility": {
       "optional": true
     }
+  },
+  "description": "ESLint plugin for neighbor rules. This is an alias package.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a11yfred/neighbor.git"
+  },
+  "keywords": [
+    "eslint",
+    "accessibility",
+    "a11y",
+    "neighbor"
+  ],
+  "engines": {
+    "node": ">=18"
   }
 }

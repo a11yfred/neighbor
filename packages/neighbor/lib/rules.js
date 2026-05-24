@@ -2600,6 +2600,116 @@ export function makeReactFragmentRuinsAria(h) {
   }
 }
 
+
+// ─── no-toggle-without-checked ───────────────────────────────────────────────
+
+export function makeNoToggleWithoutChecked(h) {
+  return {
+    meta: {
+      type: 'problem',
+      docs: { description: 'Disallow role="switch", "checkbox", or "radio" without aria-checked' },
+      messages: {
+        missingChecked: 'Elements with role="{{role}}" must have an aria-checked attribute to convey their state. (APG)',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          const role = h.getRoleValue(node)
+          if (role !== 'switch' && role !== 'checkbox' && role !== 'radio') return
+          if (h.hasAttr(node, 'aria-checked')) return
+          // Exception: HTML native <input type="checkbox/radio"> has native state
+          const el = h.getElementName(node)
+          if (el === 'input') {
+            const typeAttr = h.getAttr(node, 'type')
+            const type = typeAttr ? h.getAttrStringValue(typeAttr) : null
+            if (type === 'checkbox' || type === 'radio') return
+          }
+          context.report({ node, messageId: 'missingChecked', data: { role } })
+        },
+      }
+    },
+  }
+}
+
+// ─── no-expanded-without-controls ────────────────────────────────────────────
+
+export function makeNoExpandedWithoutControls(h) {
+  return {
+    meta: {
+      type: 'suggestion',
+      docs: { description: 'Disallow aria-expanded without aria-controls' },
+      messages: {
+        missingControls: 'Elements with aria-expanded must have an aria-controls attribute pointing to the ID of the expandable container. (APG: Disclosure)',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          if (!h.hasAttr(node, 'aria-expanded')) return
+          if (h.hasAttr(node, 'aria-controls')) return
+          context.report({ node, messageId: 'missingControls' })
+        },
+      }
+    },
+  }
+}
+
+// ─── no-aria-hidden-on-main ──────────────────────────────────────────────────
+
+export function makeNoAriaHiddenOnMain(h) {
+  return {
+    meta: {
+      type: 'problem',
+      docs: { description: 'Disallow aria-hidden="true" on <body>, <main>, or role="main"' },
+      messages: {
+        hiddenMain: 'aria-hidden="true" on the main content or body hides the entire application from screen readers. Place it on a sibling wrapper instead. (APG)',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          const isHidden = h.getAttrStringValue(h.getAttr(node, 'aria-hidden')) === 'true'
+          if (!isHidden) return
+          const el = h.getElementName(node)
+          const role = h.getRoleValue(node)
+          if (el === 'main' || el === 'body' || role === 'main') {
+            context.report({ node, messageId: 'hiddenMain' })
+          }
+        },
+      }
+    },
+  }
+}
+
+// ─── no-meter-without-valuenow ───────────────────────────────────────────────
+
+export function makeNoMeterWithoutValuenow(h) {
+  return {
+    meta: {
+      type: 'problem',
+      docs: { description: 'Disallow role="meter" without aria-valuenow' },
+      messages: {
+        missingValuenow: 'role="meter" represents a scalar measurement and must have an aria-valuenow attribute. (APG: Meter)',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          const role = h.getRoleValue(node)
+          if (role !== 'meter') return
+          if (h.hasAttr(node, 'aria-valuenow')) return
+          context.report({ node, messageId: 'missingValuenow' })
+        },
+      }
+    },
+  }
+}
+
 // ─── All rules map ────────────────────────────────────────────────────────────
 
 export const RULE_FACTORIES = {

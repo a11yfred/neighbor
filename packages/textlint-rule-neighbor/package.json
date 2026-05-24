@@ -26,5 +26,8 @@
     "type": "git",
     "url": "https://github.com/a11yfred/neighbor.git",
     "directory": "packages/textlint-rule-neighbor"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

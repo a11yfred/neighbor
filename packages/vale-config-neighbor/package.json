@@ -1,5 +1,25 @@
 {
   "name": "@a11yfred/vale-config-neighbor",
   "version": "2.0.0",
-  "type": "module"
+  "type": "module",
+  "description": "Vale config for neighbor rules.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a11yfred/neighbor.git"
+  },
+  "keywords": [
+    "vale",
+    "accessibility",
+    "a11y",
+    "neighbor",
+    "prose"
+  ],
+  "files": [
+    "vale",
+    "vale.ini"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
 }
