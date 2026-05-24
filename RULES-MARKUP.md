@@ -1,6 +1,6 @@
 # @a11yfred/neighbor  -  Markup Rules
 
-ESLint rules for React / JSX, Vue SFCs, and Angular templates.
+ESLint rules for React / JSX, Remix 2, Remix 3, Vue SFCs, Angular templates, and Vanilla Web Components / HTML.
 
 → [CSS rules](RULES-CSS.md) · [Content rules](RULES-CONTENT.md) · [Back to RULES.md](RULES.md)
 
@@ -27,7 +27,7 @@ ESLint rules for React / JSX, Vue SFCs, and Angular templates.
 
 ## Core rules  -  all frameworks
 
-All rules run on React, Vue, and Angular unless noted.
+All rules run on React, Remix 2, Remix 3, Vue, Angular, and Web Components unless noted.
 
 ### Errors  -  definite breakage or phantom controls
 
@@ -137,13 +137,16 @@ These rules are specific to the @ulam framework and activate only when @ulam-rel
 | `no-hash-router-in-remix` | warn | @ulam hash router alongside `react-router`  -  signals an incomplete Remix migration |
 | `no-use-page-title-in-remix` | warn | `usePageTitle()` alongside `react-router`  -  conflicts with Remix's declarative `meta` export |
 
-The `no-announce-in-render` rule runs in all three plugins with safe contexts per framework:
+The `no-announce-in-render` rule runs in React, Vue, and Angular plugins with safe contexts per framework:
 
 - **React:** `useEffect`, `useLayoutEffect`, `useCallback`, `useMemo`, and event handlers
 - **Vue:** `onMounted`, `onUpdated`, `watch`, `watchEffect`, `nextTick`, and their variants
 - **Angular:** `ngOnInit`, `ngAfterViewInit`, `ngAfterContentInit`, `ngOnChanges`, `ngDoCheck`, and class method event handlers
 
-**Known Angular limitation:** Angular's template parser does not attach parent pointers to AST nodes. Rules that walk up the tree (`no-summary-without-details`, `no-button-type-missing`, `no-log-with-interactive-children`, `no-menu-role-on-nav`, `no-heading-inside-interactive`) will silently pass in Angular templates. The `no-dynamic-content-without-live` rule only checks the element itself (no ancestor walk) in Angular.
+**Known parser limitations:**
+
+- **Angular templates:** The template parser does not attach parent pointers to AST nodes. Rules that walk up the tree (`no-summary-without-details`, `no-button-type-missing`, `no-log-with-interactive-children`, `no-menu-role-on-nav`, `no-heading-inside-interactive`) will silently pass in Angular templates. The `no-dynamic-content-without-live` rule only checks the element itself (no ancestor walk) in Angular.
+- **Web Components:** When using the `@a11yfred/neighbor/webcomponents` entry point with `@html-eslint/parser`, parent-walking rules have the same limitation as Angular due to parser constraints.
 
 ---
 
