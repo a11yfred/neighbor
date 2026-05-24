@@ -45,7 +45,7 @@ Vale will download the package from the GitHub Release and install it into your 
 | `AllCapsProse` | Words written in ALL CAPS (excludes known acronyms) | GOV.UK, Google |
 | `AmpersandInProse` | `&` used as a substitute for "and" | Plain language guides |
 
-Full rule documentation: [RULES-CONTENT.md](https://github.com/a11yfred/neighbor/blob/main/packages/neighbor/RULES-CONTENT.md) in the monorepo.
+Full rule documentation: [RULES-CONTENT.md](https://github.com/a11yfred/neighbor/blob/main/RULES-CONTENT.md) in the monorepo.
 
 Three rules from the neighbor ESLint content plugin are not included here because they require JSX context that Vale cannot access:
 
