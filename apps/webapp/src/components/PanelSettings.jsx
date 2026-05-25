@@ -1,8 +1,6 @@
-import { Panel, FormControlSelect, FormControlToggle } from '@ulam/ube/react'
+import { Panel, FormControlToggle } from '@ulam/ube/react'
 
 export default function PanelSettings({
-  theme,
-  setTheme,
   checkAbleist,
   setCheckAbleist,
   checkMetaphors,
@@ -24,15 +22,9 @@ export default function PanelSettings({
       closeAriaLabel="Close settings panel"
     >
       <div className="panel-section">
-        <div className="panel-field" style={{ marginBottom: '24px' }}>
-          <label htmlFor="theme-select" className="panel-field-label" style={{ fontWeight: 600, display: 'block', marginBottom: '8px' }}>Color Theme</label>
-          <FormControlSelect id="theme-select" value={theme} onChange={e => setTheme(e.target.value)}>
-            <option value="auto">System Default (Auto)</option>
-            <option value="light">Light Mode</option>
-            <option value="dark">Dark Mode</option>
-            <option value="fiesta">Fiesta Mode! 🎉</option>
-          </FormControlSelect>
-        </div>
+        <p className="panel-body" style={{ fontSize: '0.9rem', lineHeight: 1.5, color: 'var(--color-text-body)', marginBottom: '24px' }}>
+          This tool is a work in progress. Full details on the rules and how they were written can be found in the <a href="https://github.com/a11yfred/neighbor/blob/main/packages/neighbor/RULES.md" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent)', textDecoration: 'underline' }}>rules.md file on GitHub</a>.
+        </p>
 
         <h3 className="panel-section-heading" style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-text-muted)', textTransform: 'uppercase', marginBottom: '16px', letterSpacing: '0.05em' }}>Rule Checks</h3>
 

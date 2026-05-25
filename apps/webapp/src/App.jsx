@@ -3,10 +3,8 @@ import {
   Button,
   InfoBox,
   FormControlToggle,
-  FormControlSelect,
   Panel,
   announce,
-  applyTheme,
   useThemeManager
 } from '@ulam/ube/react'
 import { Drawer } from '@ulam/sili/react'
@@ -57,7 +55,6 @@ export default function App() {
   const [checkAbleist, setCheckAbleist] = useState(() => localStorage.getItem('neighbor-check-ableist') !== 'false')
   const [checkMetaphors, setCheckMetaphors] = useState(() => localStorage.getItem('neighbor-check-metaphors') !== 'false')
   const [checkIdioms, setCheckIdioms] = useState(() => localStorage.getItem('neighbor-check-idioms') !== 'false')
-  const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'auto')
 
   // Refs for custom toggle elements to bypass their event registration bug
   const ableistRef = useRef(null)
@@ -71,19 +68,8 @@ export default function App() {
   const aboutTriggerRef = useRef(null)
   const settingsTriggerRef = useRef(null)
 
-  // Apply and manage theme (incorporating interactive random colors for Fiesta mode)
-  useThemeManager(theme, {
-    onFiestaActivated: () => {
-      announce('Fiesta mode activated! Color theme is randomized!')
-    },
-    onFiestaClick: () => {
-      applyTheme('fiesta')
-    },
-    onFiestaKey: () => {
-      applyTheme('fiesta')
-    },
-    keyTargetId: 'editor-textarea'
-  })
+  // Apply and manage theme (strictly adopting the system auto theme)
+  useThemeManager('auto')
 
   // Save settings on change
   useEffect(() => {
@@ -98,9 +84,7 @@ export default function App() {
     localStorage.setItem('neighbor-check-idioms', checkIdioms)
   }, [checkIdioms])
 
-  useEffect(() => {
-    localStorage.setItem('theme', theme)
-  }, [theme])
+
 
   // Run scans when text or settings change
   useEffect(() => {
@@ -265,8 +249,6 @@ export default function App() {
 
       <Drawer open={settingsOpen} onClose={() => { setSettingsOpen(false); announce('Settings panel closed.') }} label="Settings" focusOnClose={settingsTriggerRef}>
         <PanelSettings
-          theme={theme}
-          setTheme={setTheme}
           checkAbleist={checkAbleist}
           setCheckAbleist={setCheckAbleist}
           checkMetaphors={checkMetaphors}

@@ -19,13 +19,10 @@
     <!-- Color scheme preference for all browsers -->
     <meta name="color-scheme" content="light dark" />
     
-    <!-- Blocking theme init: applies saved theme before first paint to prevent flash -->
+    <!-- Blocking theme init: applies system theme before first paint to prevent flash -->
     <script>
       (function () {
-        var theme = localStorage.getItem('theme') || 'auto'
-        var resolved = theme === 'auto'
-          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
-          : theme
+        var resolved = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
         document.documentElement.setAttribute('data-theme', resolved)
       })()
     </script>
