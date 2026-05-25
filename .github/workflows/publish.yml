@@ -1,6 +1,7 @@
 name: Publish to npm and GitHub Releases
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - 'v*'
@@ -37,6 +38,27 @@ jobs:
       - name: Publish @a11yfred/textlint-rule-neighbor to npm
         run: |
           cd packages/textlint-rule-neighbor
+          npm publish --access public --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish @a11yfred/eslint-plugin-neighbor to npm
+        run: |
+          cd packages/eslint-plugin-neighbor
+          npm publish --access public --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish @a11yfred/stylelint-plugin-neighbor to npm
+        run: |
+          cd packages/stylelint-plugin-neighbor
+          npm publish --access public --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish @a11yfred/vale-config-neighbor to npm
+        run: |
+          cd packages/vale-config-neighbor
           npm publish --access public --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
