@@ -1,6 +1,6 @@
 {
   "name": "@a11yfred/vale-config-neighbor",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "type": "module",
   "description": "Vale config for neighbor rules.",
   "license": "MIT",
