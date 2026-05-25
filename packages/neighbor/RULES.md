@@ -1,4 +1,4 @@
-# @A11yfred/neighbor: Rule Index
+# @a11yfred/neighbor: Rule Index
 
 Neighbor has rules for four different areas. Each area has its own page.
 

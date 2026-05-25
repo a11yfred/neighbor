@@ -1,4 +1,4 @@
-# @A11yfred/neighbor: CSS Rules
+# @a11yfred/neighbor: CSS Rules
 
 Stylelint rules that check your CSS for accessibility problems.
 

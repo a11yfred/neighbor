@@ -1,4 +1,4 @@
-# Contributing to @A11yfred/neighbor
+# Contributing to @a11yfred/neighbor
 
 Neighbor is maintained by [@a11yfred](https://github.com/a11yfred). We welcome help from the accessibility community: experts, screen reader users, spec readers, and anyone who sees something missing in other tools.
 

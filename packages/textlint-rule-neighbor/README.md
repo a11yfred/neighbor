@@ -1,4 +1,4 @@
-# @A11yfred/textlint-rule-neighbor
+# @a11yfred/textlint-rule-neighbor
 
 Textlint prose linting rules for accessibility and inclusive language. This plugin runs the exact same content rules as `@a11yfred/neighbor` for ESLint, but tailored natively for Textlint.
 

@@ -1,4 +1,4 @@
-# @A11yfred/neighbor: Content Rules
+# @a11yfred/neighbor: Content Rules
 
 Rules for accessible and inclusive web and app copy.
 

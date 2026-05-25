@@ -1,4 +1,4 @@
-# @A11yfred/neighbor: Markup Rules
+# @a11yfred/neighbor: Markup Rules
 
 ESLint rules for React, Remix, Vue, Angular, Lit, and plain HTML.
 
