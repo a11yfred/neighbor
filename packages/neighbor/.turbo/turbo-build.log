@@ -1,5 +1,5 @@
 
-> @a11yfred/neighbor@2.0.0 build
+> @a11yfred/neighbor@2.0.1 build
 > node scripts/generate-vale.mjs
 
 wrote AbleistLanguage.yml
