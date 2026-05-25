@@ -23,7 +23,7 @@ export default function PanelSettings({
     >
       <div className="panel-section">
         <p className="panel-body" style={{ fontSize: '0.9rem', lineHeight: 1.5, color: 'var(--color-text-body)', marginBottom: '24px' }}>
-          This tool is a work in progress. Full details on the rules and how they were written can be found in the <a href="https://github.com/a11yfred/neighbor/blob/main/packages/neighbor/RULES.md" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent)', textDecoration: 'underline' }}>rules.md file on GitHub</a>.
+          This tool is a work in progress. Full details on the rules and how they were written can be found in the <a href="https://github.com/a11yfred/neighbor/blob/main/packages/neighbor/RULES-CONTENT.md" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent)', textDecoration: 'underline' }}>RULES-CONTENT.md file on GitHub</a>.
         </p>
 
         <h3 className="panel-section-heading" style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-text-muted)', textTransform: 'uppercase', marginBottom: '16px', letterSpacing: '0.05em' }}>Rule Checks</h3>
