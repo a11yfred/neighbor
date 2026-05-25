@@ -1,5 +1,0 @@
-
-> @a11yfred/neighbor@2.0.1 lint
-> echo "No lint specified" && exit 0
-
-"No lint specified" 
