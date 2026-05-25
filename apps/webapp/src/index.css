@@ -27,7 +27,7 @@ body {
 
 @media (min-width: 768px) {
   .app-container {
-    max-width: var(--size-modal-max-width, 720px);
+    max-width: 80%;
     margin: 0 auto;
     padding: 32px 16px;
   }
@@ -81,6 +81,13 @@ body {
   background-color: var(--color-bg-subtle, #f9f9f9);
   padding: 16px;
   border-radius: 8px;
+  height: 380px;
+}
+
+@media (min-width: 768px) {
+  .editor-container {
+    height: auto;
+  }
 }
 
 .editor-wrapper {
@@ -143,11 +150,13 @@ body {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+  max-height: 400px;
 }
 
 @media (min-width: 768px) {
   .sidebar {
     width: var(--sidebar-width);
+    max-height: none;
   }
 }
 
