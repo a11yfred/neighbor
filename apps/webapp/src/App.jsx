@@ -1,15 +1,19 @@
 import { useState, useRef, useEffect } from 'react'
 import {
   Button,
-  ButtonBack,
   InfoBox,
   FormControlToggle,
   FormControlSelect,
+  Panel,
   announce,
   applyTheme,
   useThemeManager
 } from '@ulam/ube/react'
+import { Drawer } from '@ulam/sili/react'
 import { Settings, Info, Github } from 'lucide-react'
+import Sidebar from './components/Sidebar.jsx'
+import PanelAbout from './components/PanelAbout.jsx'
+import PanelSettings from './components/PanelSettings.jsx'
 import './index.css'
 
 import {
@@ -46,7 +50,8 @@ function checkList(fullText, list, ruleName) {
 export default function App() {
   const [text, setText] = useState('')
   const [issues, setIssues] = useState([])
-  const [sidebarView, setSidebarView] = useState('issues') // 'issues' | 'settings' | 'about'
+  const [aboutOpen, setAboutOpen] = useState(false)
+  const [settingsOpen, setSettingsOpen] = useState(false)
 
   // Persistent settings
   const [checkAbleist, setCheckAbleist] = useState(() => localStorage.getItem('neighbor-check-ableist') !== 'false')
@@ -61,6 +66,10 @@ export default function App() {
 
   const textareaRef = useRef(null)
   const backdropRef = useRef(null)
+
+  // Refs for drawer triggers to handle accessibility return focus
+  const aboutTriggerRef = useRef(null)
+  const settingsTriggerRef = useRef(null)
 
   // Apply and manage theme (incorporating interactive random colors for Fiesta mode)
   useThemeManager(theme, {
@@ -144,17 +153,6 @@ export default function App() {
     el.setSelectionRange(issue.index, issue.index + issue.length)
   }
 
-  const handleSetSidebarView = (view) => {
-    setSidebarView(view)
-    if (view === 'settings') {
-      announce('Settings panel opened.')
-    } else if (view === 'about') {
-      announce('About panel opened.')
-    } else {
-      announce('Returned to issues list.')
-    }
-  }
-
   // Generate backdrop HTML with highlighted marks
   const generateHighlights = () => {
     if (!text) return ''
@@ -187,32 +185,39 @@ export default function App() {
 
   return (
     <div className="app-container">
-      <header className="app-header">
-        <div className="app-header-left">
-          <h1 id="app-title-h1" style={{ margin: 0, fontSize: '1.25rem', fontWeight: 700 }}>Neighbor Web</h1>
-        </div>
-        <div className="app-header-right">
+      <header className="page-header" style={{ position: 'relative', textAlign: 'center', marginBottom: '32px' }}>
+        <div className="page-header__actions" style={{ position: 'absolute', top: 0, right: 0, display: 'flex', gap: '8px' }}>
           <Button
+            ref={aboutTriggerRef}
             id="btn-nav-about"
             variant="secondary"
-            icon={<Info size={16} />}
-            active={sidebarView === 'about'}
-            onClick={() => handleSetSidebarView(sidebarView === 'about' ? 'issues' : 'about')}
+            icon={<Info size={18} />}
+            onClick={() => {
+              setAboutOpen(true)
+              announce('About panel opened.')
+            }}
             label="About Neighbor"
           >
             About
           </Button>
           <Button
+            ref={settingsTriggerRef}
             id="btn-nav-settings"
             variant="secondary"
-            icon={<Settings size={16} />}
-            active={sidebarView === 'settings'}
-            onClick={() => handleSetSidebarView(sidebarView === 'settings' ? 'issues' : 'settings')}
+            icon={<Settings size={18} />}
+            onClick={() => {
+              setSettingsOpen(true)
+              announce('Settings panel opened.')
+            }}
             label="Settings"
           >
             Settings
           </Button>
         </div>
+        <h1 className="page-title">Neighbor</h1>
+        <p className="page-tagline" style={{ margin: '4px 0 0', color: 'var(--color-text-muted)', fontSize: 'var(--fs-body)' }}>
+          <em>Inclusive and accessible writing assistant</em>
+        </p>
       </header>
 
       <main className="app-main">
@@ -238,114 +243,7 @@ export default function App() {
           </div>
         </div>
 
-        <aside className="sidebar">
-          {sidebarView === 'issues' && (
-            <>
-              <div className="sidebar-header">
-                <h2 id="sidebar-issues-h2" style={{ margin: 0, fontSize: '1.1rem', fontWeight: 600 }}>
-                  {issues.length} {issues.length === 1 ? 'Issue' : 'Issues'} Found
-                </h2>
-              </div>
-              <div className="issue-list">
-                {issues.length === 0 && (
-                  <p style={{ margin: 0, color: 'var(--color-text-muted)' }}>
-                    {text ? 'No issues found! Your document looks great.' : 'Type some text to start checking accessibility.'}
-                  </p>
-                )}
-                {issues.map(issue => (
-                  <div key={issue.id} className="issue-card">
-                    <div style={{ fontWeight: 600 }}>{issue.rule}</div>
-                    <hr style={{ margin: '4px 0', border: 'none', borderTop: '1px solid var(--color-border-subtle)' }} />
-                    <div style={{ marginTop: '4px' }}>
-                      <strong>Found:</strong> <span className="issue-match">"{issue.match}"</span>
-                    </div>
-                    <div style={{ marginTop: '4px' }}>
-                      <strong>Suggestion:</strong> <span className="issue-suggest">{issue.suggest}</span>
-                    </div>
-                    <div className="issue-sources" style={{ marginTop: '6px' }}>Sources: {issue.sources}</div>
-                    <div style={{ marginTop: '12px' }}>
-                      <Button
-                        id={`btn-highlight-${issue.id}`}
-                        variant="outline"
-                        size="compact"
-                        onClick={() => highlightIssue(issue)}
-                        label={`Highlight "${issue.match}" in text`}
-                      >
-                        Highlight
-                      </Button>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </>
-          )}
-
-          {sidebarView === 'settings' && (
-            <div className="panel-container" style={{ padding: '24px' }}>
-              <div className="panel-header" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '24px' }}>
-                <ButtonBack id="btn-settings-back" label="Back to issues" onClick={() => handleSetSidebarView('issues')} />
-                <h2 id="panel-settings-h2" className="panel-title" style={{ margin: 0, fontSize: '1.25rem', fontWeight: 700 }}>Settings</h2>
-              </div>
-              <div className="panel-section">
-                <div className="panel-field" style={{ marginBottom: '24px' }}>
-                  <label htmlFor="theme-select" className="panel-field-label" style={{ fontWeight: 600, display: 'block', marginBottom: '8px' }}>Color Theme</label>
-                  <FormControlSelect id="theme-select" value={theme} onChange={e => setTheme(e.target.value)}>
-                    <option value="auto">System Default (Auto)</option>
-                    <option value="light">Light Mode</option>
-                    <option value="dark">Dark Mode</option>
-                    <option value="fiesta">Fiesta Mode! 🎉</option>
-                  </FormControlSelect>
-                </div>
-
-                <h3 className="panel-section-heading" style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-text-muted)', textTransform: 'uppercase', marginBottom: '16px', letterSpacing: '0.05em' }}>Rule Checks</h3>
-
-                <div className="panel-toggle-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '20px' }}>
-                  <div style={{ paddingRight: '12px' }}>
-                    <label htmlFor="toggle-ableist" className="panel-toggle-label" style={{ fontWeight: 600, display: 'block', marginBottom: '4px' }}>Ableist Language</label>
-                    <div className="panel-toggle-desc" style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>Flag words that demean people with disabilities (e.g. "crazy", "lame").</div>
-                  </div>
-                  <FormControlToggle ref={ableistRef} id="toggle-ableist" checked={checkAbleist} onChange={setCheckAbleist} />
-                </div>
-
-                <div className="panel-toggle-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '20px' }}>
-                  <div style={{ paddingRight: '12px' }}>
-                    <label htmlFor="toggle-metaphors" className="panel-toggle-label" style={{ fontWeight: 600, display: 'block', marginBottom: '4px' }}>Disability Metaphors</label>
-                    <div className="panel-toggle-desc" style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>Flag metaphors misusing medical conditions (e.g. "blind spot").</div>
-                  </div>
-                  <FormControlToggle ref={metaphorsRef} id="toggle-metaphors" checked={checkMetaphors} onChange={setCheckMetaphors} />
-                </div>
-
-                <div className="panel-toggle-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '20px' }}>
-                  <div style={{ paddingRight: '12px' }}>
-                    <label htmlFor="toggle-idioms" className="panel-toggle-label" style={{ fontWeight: 600, display: 'block', marginBottom: '4px' }}>Opaque Idioms</label>
-                    <div className="panel-toggle-desc" style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>Flag idioms opaque to neurodivergent readers or non-native speakers.</div>
-                  </div>
-                  <FormControlToggle ref={idiomsRef} id="toggle-idioms" checked={checkIdioms} onChange={setCheckIdioms} />
-                </div>
-              </div>
-            </div>
-          )}
-
-          {sidebarView === 'about' && (
-            <div className="panel-container" style={{ padding: '24px' }}>
-              <div className="panel-header" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '24px' }}>
-                <ButtonBack id="btn-about-back" label="Back to issues" onClick={() => handleSetSidebarView('issues')} />
-                <h2 id="panel-about-h2" className="panel-title" style={{ margin: 0, fontSize: '1.25rem', fontWeight: 700 }}>About</h2>
-              </div>
-              <div className="panel-section" style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                <p className="panel-body" style={{ margin: 0, lineHeight: 1.6 }}>
-                  <strong>Neighbor Web</strong> is an interactive accessibility writing assistant that flags exclusionary terminology, idioms, and metaphors.
-                </p>
-                <p className="panel-body" style={{ margin: 0, lineHeight: 1.6 }}>
-                  By offering inclusive suggestions in real-time, Neighbor supports authors in crafting content that is both respectful and readable.
-                </p>
-                <InfoBox label="A11yFred Suite">
-                  Neighbor is a core component of the A11yFred suite of tools, supporting digital inclusion and professional accessibility audits.
-                </InfoBox>
-              </div>
-            </div>
-          )}
-        </aside>
+        <Sidebar issues={issues} onHighlight={highlightIssue} text={text} />
       </main>
 
       <footer className="app-footer">
@@ -360,6 +258,28 @@ export default function App() {
           View this on GitHub
         </Button>
       </footer>
+
+      <Drawer open={aboutOpen} onClose={() => { setAboutOpen(false); announce('About panel closed.') }} label="About Neighbor" focusOnClose={aboutTriggerRef}>
+        <PanelAbout onClose={() => { setAboutOpen(false); announce('About panel closed.') }} />
+      </Drawer>
+
+      <Drawer open={settingsOpen} onClose={() => { setSettingsOpen(false); announce('Settings panel closed.') }} label="Settings" focusOnClose={settingsTriggerRef}>
+        <PanelSettings
+          theme={theme}
+          setTheme={setTheme}
+          checkAbleist={checkAbleist}
+          setCheckAbleist={setCheckAbleist}
+          checkMetaphors={checkMetaphors}
+          setCheckMetaphors={setCheckMetaphors}
+          checkIdioms={checkIdioms}
+          setCheckIdioms={setCheckIdioms}
+          ableistRef={ableistRef}
+          metaphorsRef={metaphorsRef}
+          idiomsRef={idiomsRef}
+          onClose={() => { setSettingsOpen(false); announce('Settings panel closed.') }}
+        />
+      </Drawer>
     </div>
   )
 }
+

@@ -2,9 +2,10 @@
 @import '@ulam/ube/base-reset.css';
 @import '@ulam/ube/base-typography.css';
 @import '@ulam/ube/ui.css';
+@import '@ulam/sili/base.css';
 
 :root {
-  --sidebar-width: 320px;
+  --sidebar-width: 280px;
   --header-height: 64px;
 }
 
@@ -19,37 +20,56 @@ body {
 .app-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
-.app-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: var(--header-height);
-  padding: 0 24px;
-  border-bottom: 1px solid var(--color-border-subtle, #e0e0e0);
-  background-color: var(--color-bg-base);
-  z-index: 10;
+@media (min-width: 768px) {
+  .app-container {
+    max-width: var(--size-modal-max-width, 720px);
+    margin: 0 auto;
+    padding: 32px 16px;
+  }
 }
 
-.app-header-left {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+.page-title {
+  font-family: var(--font-display, 'Outfit', sans-serif);
+  font-size: clamp(2.25rem, 3.5rem, 4.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--color-text-heading);
+  line-height: 1.15;
+  margin: 0;
 }
 
-.app-header-right {
+.page-header {
+  position: relative;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.page-header__actions {
+  position: absolute;
+  top: 0;
+  right: 0;
   display: flex;
-  align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .app-main {
   display: flex;
+  flex-direction: column;
+  gap: 24px;
   flex: 1;
-  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .app-main {
+    flex-direction: row;
+    height: 520px;
+    align-items: stretch;
+  }
 }
 
 .editor-container {
@@ -59,7 +79,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--color-bg-subtle, #f9f9f9);
-  padding: 24px;
+  padding: 16px;
+  border-radius: 8px;
 }
 
 .editor-wrapper {
@@ -115,12 +136,19 @@ body {
 }
 
 .sidebar {
-  width: var(--sidebar-width);
-  border-left: 1px solid var(--color-border-subtle, #e0e0e0);
+  width: 100%;
+  border: 1px solid var(--color-border-subtle, #e0e0e0);
+  border-radius: 8px;
   background-color: var(--color-bg-base);
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    width: var(--sidebar-width);
+  }
 }
 
 .sidebar-header {
@@ -163,12 +191,21 @@ body {
 }
 
 .app-footer {
-  padding: 16px 24px;
   border-top: 1px solid var(--color-border-subtle, #e0e0e0);
+  margin-top: 24px;
+  padding: 24px 0 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  background-color: var(--color-bg-subtle, #f9f9f9);
+  gap: 12px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .app-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .app-footer p {
