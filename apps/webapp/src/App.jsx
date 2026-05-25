@@ -185,8 +185,12 @@ export default function App() {
 
   return (
     <div className="app-container">
-      <header className="page-header" style={{ position: 'relative', textAlign: 'center', marginBottom: '32px' }}>
-        <div className="page-header__actions" style={{ position: 'absolute', top: 0, right: 0, display: 'flex', gap: '8px' }}>
+      <header className="page-header">
+        <h1 className="page-title">Neighbor</h1>
+        <p className="page-tagline">
+          <em>Inclusive and accessible writing assistant</em>
+        </p>
+        <div className="page-header__actions">
           <Button
             ref={aboutTriggerRef}
             id="btn-nav-about"
@@ -214,10 +218,6 @@ export default function App() {
             Settings
           </Button>
         </div>
-        <h1 className="page-title">Neighbor</h1>
-        <p className="page-tagline" style={{ margin: '4px 0 0', color: 'var(--color-text-muted)', fontSize: 'var(--fs-body)' }}>
-          <em>Inclusive and accessible writing assistant</em>
-        </p>
       </header>
 
       <main className="app-main">
