@@ -13,5 +13,5 @@ ignorecase: true
 swap:
   \bstakeholder[s]?\b: 'partner / collaborator / contributor / community member'
   \btarget (population|audience)\b: 'group of focus / intended audience / specific population'
-  # Note: JS lookahead stripped for RE2 compatibility (sources: Prevention.org)
+  # Note: JS lookahead stripped for RE2 compatibility (sources: CDC, WHO)
   \b(combat|tackle)\b: 'address / collaborate with / eliminate'

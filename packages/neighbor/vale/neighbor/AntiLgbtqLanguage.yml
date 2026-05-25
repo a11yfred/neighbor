@@ -24,3 +24,7 @@ swap:
   \bfaggot[s]?\b: '(highly offensive slur, avoid entirely)'
   \bfag[s]?\b: '(highly offensive slur, avoid entirely. Note: slang for cigarette in UK but slur in US)'
   \bqueer\b: '(use only if referring to self-identification, otherwise avoid as it can be a slur)'
+  \bhermaphrodite[s]?\b: 'intersex / person with intersex traits'
+  \bgender identity disorder\b: 'gender dysphoria / gender incongruence'
+  \bsex change[s]?\b: 'gender transition / gender-affirming surgery'
+  \blifestyle choice[s]?\b: 'sexual orientation / gender identity'

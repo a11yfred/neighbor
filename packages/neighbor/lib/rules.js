@@ -734,7 +734,7 @@ export function makeNoTargetBlankWithoutLabel(h) {
   return {
     meta: {
       type: 'suggestion',
-      docs: { description: 'Warn when target="_blank" is used without communicating the new-tab behaviour' },
+      docs: { description: 'Warn when target="_blank" is used without communicating the new-tab behavior' },
       messages: {
         targetBlank:
           'target="_blank" opens a new tab without warning AT users. Add visually-hidden text "(opens in new tab)" or include it in aria-label/the link text so users can anticipate the context switch. (WebAIM / WCAG 3.2.2)',
@@ -1880,7 +1880,7 @@ export function makeNoButtonTypeMissing(h) {
 
           // Only flag when inside a <form>  -  outside a form, the default is harmless.
           // Angular's getAncestors yields nothing (parent is null), so the loop
-          // completes without finding 'form' and we silently skip  -  correct behaviour.
+          // completes without finding 'form' and we silently skip  -  correct behavior.
           let insideForm = false
           for (const ancestor of h.getAncestors(node)) {
             if (h.getElementName(ancestor) === 'form') { insideForm = true; break }

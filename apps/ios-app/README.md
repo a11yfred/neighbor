@@ -1,4 +1,4 @@
-# neighbor - iOS App (Work in Progress)
+# Neighbor - IOS App (Work in Progress)
 
 > [!WARNING]
 > **Work in Progress**
@@ -8,7 +8,7 @@ This folder shows how `neighbor` checks native iOS apps (built with SwiftUI) for
 
 We use **SwiftLint** to enforce accessibility rules directly in your Xcode project. `neighbor` provides a set of custom regex-based SwiftLint rules that catch common accessibility mistakes in SwiftUI views.
 
-## What rules are checked?
+## What Rules Are Checked?
 
 These rules are fundamentally the same concepts as the web. They are **directly adapted from the same principles as `jsx-a11y` and `neighbor` web rules**, translating web accessibility into native iOS concepts:
 
@@ -40,7 +40,7 @@ You can find these custom rules inside the [`.swiftlint.yml`](./.swiftlint.yml) 
 | `text_fixed_size` | `.fixedSize()` applied to text | Prevents text from wrapping/expanding when users increase font size, causing truncation (WCAG 1.4.4 Resize Text). | Warning |
 | `forced_light_mode` | `.preferredColorScheme(.light)` | Forcing light mode overrides system settings and prevents use of Dark Mode, which is essential for users with photophobia or light sensitivity. | **Off** |
 
-### How to install and change severity
+### How to Install and Change Severity
 
 If you already use SwiftLint in your iOS app, just copy the `custom_rules` block from our `.swiftlint.yml` file and paste it into your own project's `.swiftlint.yml` file.
 
@@ -53,7 +53,7 @@ To change a rule's severity from Warning to Error (or to turn it off completely)
     severity: error # Change this from warning to error
 ```
 
-## Content Linting for iOS
+## Content Linting for IOS
 
 Most native linters ignore the actual words being presented to the user. `neighbor` changes this by bringing our web Content Linting strategy to iOS.
 

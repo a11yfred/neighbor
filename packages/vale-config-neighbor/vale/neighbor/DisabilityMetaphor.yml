@@ -38,3 +38,4 @@ swap:
   \bcrippling (debt|fear|blow|anxiety)\b: 'devastating / crushing / severe'
   \bschizophrenic (approach|strategy|policy|market)\b: 'contradictory / inconsistent / unpredictable'
   \bstands? on its own two feet\b: 'self-sufficient / independent'
+  \bbasket[- ]case[s]?\b: 'anxious / nervous / overwhelmed'

@@ -1,4 +1,4 @@
-# @a11yfred/neighbor
+# @A11yfred/neighbor
 
 The a11yfred accessibility linter ecosystem, **neighbor**. This repository contains tools for React, Vue, Angular, Remix, Web Components, CSS, text, iOS (SwiftUI), Android (Jetpack Compose), and Microsoft Word. It uses ESLint, Stylelint, textlint, Vale, SwiftLint, and Android Lint.
 
@@ -16,7 +16,7 @@ Some rules are only for **@ulam**, an upcoming JavaScript framework. These rules
 > **AI Assisted Development**
 > All of the platform adaptations, browser extensions, native plugins, and ecosystem tooling in this repository were largely aided by AI. We could really use the community's help in testing these tools and verifying their real-world usefulness and quality!
 
-## Why use neighbor?
+## Why Use Neighbor?
 
 Tools like axe-core and Lighthouse are great, but they only test your app *after* you build it. This makes fixing mistakes slow. **`neighbor` finds accessibility mistakes directly in your editor, while you type.**
 
@@ -30,28 +30,28 @@ Why choose `neighbor`?
 ## Contents
 
 - [Install](#install)
-- [Entry points](#entry-points)
+- [Entry Points](#entry-points)
 - [Setup](#setup)
-  - [Vanilla JS / Web Components / plain HTML](#vanilla-js--web-components--plain-html)
+  - [Vanilla JS / Web Components / Plain HTML](#vanilla-js--web-components--plain-html)
   - [React / JSX](#react--jsx)
   - [Remix 2](#remix-2)
   - [Remix 3](#remix-3)
   - [Vue](#vue)
   - [Angular](#angular)
   - [Stylelint](#stylelint)
-  - [Content linting](#content-linting)
+  - [Content Linting](#content-linting)
 - [Ecosystem & Integrations](#ecosystem--integrations)
-- [Peer dependencies](#peer-dependencies)
-- [What neighbor adds](#what-neighbor-adds)
-  - [ESLint - React / JSX](#react--jsx)
-  - [ESLint - Remix 2](#remix-2)
-  - [ESLint - Vue SFCs](#vue)
-  - [ESLint - Angular templates](#angular)
+- [Peer Dependencies](#peer-dependencies)
+- [Working With Standard Linters](#working-with-standard-linters)
+- [What Neighbor Adds](#what-neighbor-adds)
+  - [ESLint - Markup](#eslint---markup)
   - [Stylelint - CSS](#stylelint---css)
-  - [Content linter](#content-linter)
-- [Rule severity](#rule-severity)
+  - [Content Linter](#content-linter)
+- [Rule Severity](#rule-severity)
+  - [Customizing Rule Severity](#customizing-rule-severity)
+- [Roadmap](#roadmap)
 - [Contributing](packages/neighbor/CONTRIBUTING.md)
-- [See also](#see-also)
+- [See Also](#see-also)
 - [License](#license)
 
 ## Install
@@ -75,7 +75,7 @@ npm install --save-dev @a11yfred/vale-config-neighbor
 vale config pull
 ```
 
-## Entry points
+## Entry Points
 
 | Import | Use for |
 | --- | --- |
@@ -90,7 +90,7 @@ vale config pull
 
 ## Setup
 
-### Vanilla JS / Web Components / plain HTML
+### Vanilla JS / Web Components / Plain HTML
 
 <details><summary>Show setup instructions</summary>
 
@@ -339,7 +339,7 @@ export default [
 
 </details>
 
-### Content linting
+### Content Linting
 
 <details><summary>Show setup instructions</summary>
 
@@ -390,12 +390,19 @@ export default [
 
 `neighbor` extends beyond traditional JavaScript IDE linters into standalone applications and native platform integrations.
 
-- **[iOS App (SwiftUI)](./apps/ios-app/README.md)**: Custom SwiftLint rules for native iOS accessibility.
-- **[Android App (Jetpack Compose)](./apps/android-app/README.md)**: A standard Gradle lint module for native Android accessibility.
+- **[Web App](https://a11yfred.github.io/neighbor)**: A web interface for the neighbor ecosystem.
 - **[Microsoft Word Add-in](./apps/word-addin/README.md)**: An Office.js add-in that checks documents for exclusionary language while you type.
 - **[Vale Dictionary](./packages/neighbor/vale/neighbor)**: A compiled Vale-compatible dictionary containing our textlint content vocabulary for standalone Markdown checking.
 
-## Peer dependencies
+*WIP & Pre-launch:*
+- **[iOS App (SwiftUI)](./apps/ios-app/README.md)**: Custom SwiftLint rules for native iOS accessibility.
+- **[Android App (Jetpack Compose)](./apps/android-app/README.md)**: A standard Gradle lint module for native Android accessibility.
+
+*Upcoming:*
+- **Browser Extensions**: Chrome and Firefox plugins.
+- **Desktop App**: An Electron app that runs these checks.
+
+## Peer Dependencies
 
 | Peer | Required for |
 | --- | --- |
@@ -407,7 +414,13 @@ export default [
 
 All peers are optional. Install only what your project uses.
 
-## What neighbor adds
+## Working with Standard Linters
+
+The JavaScript ecosystem already has great tools (`eslint-plugin-jsx-a11y` for React, `eslint-plugin-vuejs-accessibility` for Vue, `@angular-eslint` for Angular, and `eslint-plugin-lit-a11y` for Lit).
+
+Neighbor is designed as a **gap-filler**. It automatically detects if you have the standard linter installed for your framework. If you do, it will disable any of its own redundant checks and only run the rules that the standard linter misses, ensuring you get maximum coverage without duplicate warnings. For a full list of omitted redundant rules, see the [Framework Omissions](packages/neighbor/RULES-MARKUP.md#framework-specific-omissions) section.
+
+## What Neighbor Adds
 
 Because `neighbor` is designed as a "gap-filler", it assumes you are running it alongside the standard linters for your framework.
 
@@ -422,25 +435,19 @@ Because `neighbor` is designed as a "gap-filler", it assumes you are running it 
 | **Vanilla HTML** | `@html-eslint/eslint-plugin` | **~50 rules** <br/>*(30 core rules + 20 portability rules applied directly to `.html` AST)* |
 | **Vue** | `eslint-plugin-vuejs-accessibility` | **~53 rules** <br/>*(30 core rules + 20 portability rules missing from Vue standard + 3 Vue-specific rules like `<Transition>` live regions)* |
 
-### Detailed Rule Lists
+## Rule Severity
 
-Neighbor's exact rule sets, including what is checked for each framework, which rules are errors vs warnings, and how they map to WCAG Success Criteria, are documented in our dedicated rule pages:
-
-- **[Markup Rules](packages/neighbor/RULES-MARKUP.md)**: React, Remix, Vue, Angular, Lit, and Web Components (ARIA, focus, semantic HTML)
-- **[CSS Rules](packages/neighbor/RULES-CSS.md)**: Stylelint rules for focus rings, high contrast mode, and motion preferences
-- **[Content Rules](packages/neighbor/RULES-CONTENT.md)**: Textlint rules for ableist language, confusing CTAs, and jargon
-
-### Working with standard linters
-
-The JavaScript ecosystem already has great tools (`eslint-plugin-jsx-a11y` for React, `eslint-plugin-vuejs-accessibility` for Vue, `@angular-eslint` for Angular, and `eslint-plugin-lit-a11y` for Lit).
-
-Neighbor is designed as a **gap-filler**. It automatically detects if you have the standard linter installed for your framework. If you do, it will disable any of its own redundant checks and only run the rules that the standard linter misses, ensuring you get maximum coverage without duplicate warnings. For a full list of omitted redundant rules, see the [Framework Omissions](packages/neighbor/RULES-MARKUP.md#framework-specific-omissions) section.
+| Severity | Meaning |
+| --- | --- |
+| `error` | This breaks screen readers or violates HTML rules. You must fix it. |
+| `warn` | This is usually bad, but sometimes you have a good reason to do it. |
+| `off` | This rule is turned off because it gives too many warnings. You can turn it on if you want. |
 
 ### Customizing Rule Severity
 
 Yes! You have full control over the rules. If you want to change a rule to a warning, turn off a noisy rule, or enable a rule that is off by default, you can do so in your ESLint or Stylelint configuration:
 
-**ESLint (`eslint.config.js`)**
+<details><summary>ESLint (<code>eslint.config.js</code>)</summary>
 
 ```js
 export default [
@@ -460,7 +467,9 @@ export default [
 ]
 ```
 
-**Stylelint (`stylelint.config.js`)**
+</details>
+
+<details><summary>Stylelint (<code>stylelint.config.js</code>)</summary>
 
 ```js
 export default {
@@ -474,56 +483,32 @@ export default {
 }
 ```
 
+</details>
+
+### ESLint - Markup
+
+Neighbor's exact markup rule sets, including what is checked for each framework, which rules are errors vs warnings, and how they map to WCAG Success Criteria, are documented in our dedicated rule page.
+
+See **[Markup Rules](packages/neighbor/RULES-MARKUP.md)** for ESLint rules covering React, Remix, Vue, Angular, Lit, and Web Components (ARIA, focus, semantic HTML).
+
 ### Stylelint - CSS
 
-| Rule | Severity | What it checks |
-| --- | --- | --- |
-| `neighbor/no-forced-colors-none` | error | Disallows `forced-color-adjust: none` inside `@media (forced-colors)` - opts out of Windows High Contrast Mode - [SC 1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast) |
-| `neighbor/no-outline-none` | error | Disallows bare `outline: none` or `outline: 0` outside `:focus` selectors - [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
-| `neighbor/no-text-justify` | error | Disallows `text-align: justify` which creates uneven spacing for dyslexic users - [SC 1.4.8](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation) |
-| `neighbor/no-absolute-viewport-text` | warn | Warns on pure viewport units (`vw`, `vh`) for text sizing which block browser zoom - [SC 1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text) |
-| `neighbor/no-user-select-all-none` | warn | Warns on `user-select: none` which prevents text selection and translation - [SC 1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text) |
-| `neighbor/user-preferences` | warn | Warns when motion, transparency, or alpha colors are used without `@media (prefers-*)` fallbacks - [SC 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) / [SC 2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions) |
+Neighbor's exact CSS rule sets, including which rules are errors vs warnings and how they map to WCAG Success Criteria, are documented in our dedicated rule page.
 
-### Content linter
+See **[CSS Rules](packages/neighbor/RULES-CSS.md)** for Stylelint rules covering focus rings, high contrast mode, and motion preferences.
 
-Rules that flag accessibility and inclusion problems in web and app copy. Works on string literals and JSX text in JS/TS/JSX/TSX files.
+### Content Linter
 
-| Rule | What it flags | Severity | WCAG SC |
-| --- | --- | --- | --- |
-| `no-ableist-language` | Slurs, condescending euphemisms, suffering-framing ("suffers from", "wheelchair-bound", "special needs") | warn | [3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page) |
-| `no-all-caps-prose` | ALL CAPS words in prose that screen readers may spell out letter-by-letter | warn | - |
-| `no-ampersand-in-prose` | `&` used in place of "and" in prose - announced inconsistently by screen readers | warn | - |
-| `no-anti-lgbtq-language` | Outdated or pathologizing terms regarding sexual orientation and gender identity | warn | - |
-| `no-colonial-and-violent-language` | Terms rooted in colonialism or violence applied to people (stakeholder, target population, tackle) | warn | - |
-| `no-deficit-language` | Language that reduces people to their circumstances (the homeless, inmate, addict, at-risk youth) | warn | - |
-| `no-device-specific-action` | Device-specific input actions (click, tap, swipe) | warn | - |
-| `no-directional-language` | Layout-dependent position references ("see above", "in the right sidebar") | warn | [1.3.3](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics) |
-| `no-disability-metaphor` | Figurative use of disability language ("blind spot", "tone deaf", "paralyzed by") | warn | - |
-| `no-english-idiom` | Idioms and sports metaphors opaque to ESL readers ("ball park", "slam dunk", "boil the ocean") | warn | [3.1.5](https://www.w3.org/WAI/WCAG22/Understanding/reading-level) |
-| `no-exclusive-language` | Tech jargon and culturally appropriated terms (blacklist, master/slave, sanity check, spirit animal) | warn | - |
-| `no-gendered-language` | Generic gendered pronoun patterns (he/she, his or her, mum and dad) | warn | - |
-| `no-unexplained-abbreviation` | Acronyms used without a prior expansion in the same file | warn | [3.1.4](https://www.w3.org/WAI/WCAG22/Understanding/abbreviations) |
-| `no-vague-cta` | Vague link and button text ("click here", "read more", "here") | warn | [2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context) |
-| `no-vague-error-message` | Error messages that do not explain what went wrong ("An error occurred", "Something went wrong") | warn | [3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification) |
+Neighbor's exact content rule sets, including which rules are errors vs warnings and how they map to WCAG Success Criteria, are documented in our dedicated rule page.
 
-See [RULES-CONTENT.md](packages/neighbor/RULES-CONTENT.md) for the full rule reference including sources, methodology, and the language-evolution note.
+See **[Content Rules](packages/neighbor/RULES-CONTENT.md)** for Textlint rules flagging ableist language, confusing CTAs, jargon, and inclusion problems in web and app copy (works on string literals and JSX text in JS/TS/JSX/TSX files).
 
-## Rule severity
-
-| Severity | Meaning |
-| --- | --- |
-| `error` | This breaks screen readers or violates HTML rules. You must fix it. |
-| `warn` | This is usually bad, but sometimes you have a good reason to do it. |
-| `off` | This rule is turned off because it gives too many warnings. You can turn it on if you want. |
-
-You can change any rule's severity in your config file.
 
 ## Roadmap
 
 Future plans for neighbor:
 
-### In development
+### In Development
 
 - [ ] **Browser extensions**: Chrome and Firefox plugins to check pages live.
 - `[x]` **iOS app**: [Accessibility checking for iOS apps (SwiftUI)](./apps/ios-app/README.md).
@@ -535,12 +520,14 @@ Future plans for neighbor:
 
 - [ ] More editor plugins (VS Code, Sublime Text, Xcode, Android Studio, etc.).
 
-## See also
+## See Also
 
 - [RULES.md](packages/neighbor/RULES.md) - rule index across all domains
 - [RULES-MARKUP.md](packages/neighbor/RULES-MARKUP.md) - full ESLint rule reference (markup)
 - [RULES-CSS.md](packages/neighbor/RULES-CSS.md) - full Stylelint rule reference (CSS)
 - [RULES-CONTENT.md](packages/neighbor/RULES-CONTENT.md) - full content rule reference with sources
+- [iOS Rules](./apps/ios-app/README.md) - custom SwiftLint rules for native iOS accessibility
+- [Android Rules](./apps/android-app/README.md) - custom Android Lint rules for Jetpack Compose
 - `@a11yfred/vale-config-neighbor` - companion Vale package for prose linting in Markdown, MDX, and HTML. See `packages/vale-config-neighbor` in this monorepo.
 
 ## License

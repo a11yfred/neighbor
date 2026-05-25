@@ -1,4 +1,4 @@
-# Vale Rules for neighbor
+# Vale Rules for Neighbor
 
 Vale prose linting rules for accessibility. A companion to the [neighbor](https://github.com/a11yfred/neighbor) ESLint and Stylelint package.
 
@@ -59,7 +59,7 @@ Use the [neighbor](https://github.com/a11yfred/neighbor) ESLint plugin alongside
 
 ---
 
-## On language
+## On Language
 
 Language changes. What is appropriate depends on the speaker, audience, context, culture, and time period. These rules represent a snapshot of consensus across the sources listed below - they are not final answers.
 
@@ -90,14 +90,14 @@ Rules were included only when the pattern appeared in three or more independent 
 
 ---
 
-## Maintainer notes
+## Maintainer Notes
 
 The term lists for `AbleistLanguage`, `DisabilityMetaphor`, `EnglishIdiom`, and `DirectionalLanguage` are defined in the `neighbor` package at `packages/neighbor/lib/content-rules.js`. The YAML files here are generated from those lists.
 
 To regenerate after updating the term lists:
 
 ```sh
-# from the monorepo root
+# From the Monorepo Root
 node packages/neighbor/scripts/generate-vale.mjs
 ```
 

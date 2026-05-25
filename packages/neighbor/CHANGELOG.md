@@ -70,7 +70,7 @@ All notable changes to this project will be documented in this file.
 
 ## 1.0.0 - 2026-05-12
 
-### Breaking change
+### Breaking Change
 
 CSS rules renamed from `ulam/` to `neighbor/` namespace:
 

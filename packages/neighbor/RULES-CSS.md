@@ -1,10 +1,10 @@
-# @a11yfred/neighbor: CSS Rules
+# @A11yfred/neighbor: CSS Rules
 
 Stylelint rules that check your CSS for accessibility problems.
 
 → [Markup rules](RULES-MARKUP.md) · [Content rules](RULES-CONTENT.md) · [Back to RULES.md](RULES.md)
 
-## Sources and credits
+## Sources and Credits
 
 | Source | Reference |
 | --- | --- |
@@ -23,7 +23,7 @@ Stylelint rules that check your CSS for accessibility problems.
 
 All CSS rules start with `neighbor/`. You can use them from `@a11yfred/neighbor` or `@a11yfred/neighbor/stylelint`.
 
-### Errors (you must fix these)
+### Errors (You Must Fix These)
 
 These rules flag issues that objectively break WCAG requirements and block users from accessing your content. By default, Stylelint rules are configured as errors unless you explicitly set their severity to "warning".
 
@@ -33,7 +33,7 @@ These rules flag issues that objectively break WCAG requirements and block users
 | `neighbor/no-outline-none` | Using `outline: none` or `outline: 0` without a `:focus` selector. This hides the focus ring for keyboard users. | [SC 2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
 | `neighbor/no-text-justify` | Using `text-align: justify`. This creates uneven spaces between words that are very difficult for users with dyslexia to read. | [SC 1.4.8](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation) |
 
-### Warnings (configure these in your stylelint config)
+### Warnings (Configure These in Your Stylelint Config)
 
 | Rule | What it finds | WCAG SC |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ These rules flag issues that objectively break WCAG requirements and block users
 
 ---
 
-## `stylelint-a11y` Integration
+## `Stylelint-a11y` Integration
 
 If you already have [`stylelint-a11y`](https://github.com/double-great/stylelint-a11y) installed in your project, `neighbor` will automatically detect it and **turn off** the following rules to prevent duplicate warnings:
 
@@ -57,7 +57,7 @@ You will still get `neighbor`'s unique checks for forced colors, text selection,
 
 ## Notes
 
-### `neighbor/no-outline-none`
+### `Neighbor/no-outline-none`
 
 This rule allows `outline: none` inside `:focus`, `:focus-visible`, and `:focus-within`. This is because you are usually changing the style, not removing it completely. A common pattern for elements focused by JavaScript is:
 
@@ -67,13 +67,13 @@ This rule allows `outline: none` inside `:focus`, `:focus-visible`, and `:focus-
 
 This hides the focus ring when JavaScript focuses an element, but keeps it when a user uses the keyboard. This rule will not complain about this pattern.
 
-### `neighbor/no-forced-colors-none`
+### `Neighbor/no-forced-colors-none`
 
 Using `forced-color-adjust: none` is sometimes okay (like for color pickers) if it is *outside* a `@media (forced-colors)` block. This rule will only complain if you use it inside the media query, because that means you are trying to turn off High Contrast Mode.
 
 ---
 
-## Rules considered and rejected
+## Rules Considered and Rejected
 
 | Rule | Reason rejected |
 | --- | --- |

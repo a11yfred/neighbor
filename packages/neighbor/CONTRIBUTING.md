@@ -1,8 +1,8 @@
-# Contributing to @a11yfred/neighbor
+# Contributing to @A11yfred/neighbor
 
 Neighbor is maintained by [@a11yfred](https://github.com/a11yfred). We welcome help from the accessibility community: experts, screen reader users, spec readers, and anyone who sees something missing in other tools.
 
-## What belongs here
+## What Belongs Here
 
 A rule belongs in neighbor if it meets all three checks:
 
@@ -12,7 +12,7 @@ A rule belongs in neighbor if it meets all three checks:
 
 If you are not sure, open an issue before writing the rule. Just describe the idea and where it comes from to start a conversation.
 
-## What does not belong here
+## What Does Not Belong Here
 
 - Rules that need a browser to run (like checking CSS layout).
 - Rules already in the standard accessibility linter for your framework (e.g., `jsx-a11y`, `vuejs-accessibility`, `@angular-eslint/template`, or `lit-a11y`). Neighbor works with them, it does not replace them.
@@ -29,7 +29,7 @@ npm install
 
 There is no build step. Rules are simple JavaScript files. You can edit them and run ESLint directly.
 
-## How rules are structured
+## How Rules Are Structured
 
 All ESLint rules live in [`lib/rules.js`](lib/rules.js) as factory functions:
 
@@ -81,7 +81,7 @@ After writing your rule function:
 
 Stylelint rules live in [`neighbor-stylelint.mjs`](neighbor-stylelint.mjs). They use PostCSS. Look at the existing rules to see how they work.
 
-## Severity guidance
+## Severity Guidance
 
 | Severity | When to use |
 | --- | --- |
@@ -91,7 +91,7 @@ Stylelint rules live in [`neighbor-stylelint.mjs`](neighbor-stylelint.mjs). They
 
 If you are not sure, start with `warn`. It is easier to change a `warn` to an `error` later.
 
-## Commit style
+## Commit Style
 
 ```text
 feat: add no-my-new-rule (short description)

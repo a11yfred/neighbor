@@ -1,10 +1,10 @@
-# @a11yfred/neighbor: Markup Rules
+# @A11yfred/neighbor: Markup Rules
 
 ESLint rules for React, Remix, Vue, Angular, Lit, and plain HTML.
 
 → [CSS rules](RULES-CSS.md) · [Content rules](RULES-CONTENT.md) · [Back to RULES.md](RULES.md)
 
-## Sources and credits
+## Sources and Credits
 
 | Source | Reference |
 | --- | --- |
@@ -25,11 +25,11 @@ ESLint rules for React, Remix, Vue, Angular, Lit, and plain HTML.
 
 ---
 
-## Core rules: all frameworks
+## Core Rules: All Frameworks
 
 All rules run on React, Remix, Vue, Angular, and Web Components unless noted.
 
-### Errors (you must fix these)
+### Errors (You Must Fix These)
 
 | Rule | What it finds | Source |
 | --- | --- | --- |
@@ -71,7 +71,7 @@ All rules run on React, Remix, Vue, Angular, and Web Components unless noted.
 | `no-tree-without-treeitem` | `role="tree"` without any `role="treeitem"` inside it. | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) / [APG: Tree View](https://www.w3.org/WAI/ARIA/apg/patterns/treeview/) |
 | `no-unblocked-aria-disabled` | `aria-disabled="true"` on a button or link that still has an `onClick`. The button still works even though it says it is disabled. | [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/) |
 
-### Warnings (these are usually bad)
+### Warnings (These Are Usually Bad)
 
 | Rule | What it finds | Source |
 | --- | --- | --- |
@@ -85,7 +85,7 @@ All rules run on React, Remix, Vue, Angular, and Web Components unless noted.
 
 > **Note on components:** `no-skipped-heading-levels` and `no-multiple-main` are only checked in a single file. They cannot promise that your headings are perfect across your entire app. To test the whole app, use a tool like `@axe-core/react`.
 
-### Off by default (you can turn these on)
+### Off by Default (You Can Turn These On)
 
 These rules find real problems, but they complain a lot in most projects. You can turn them on if you want.
 
@@ -104,7 +104,7 @@ These rules find real problems, but they complain a lot in most projects. You ca
 
 ---
 
-## Portability rules: Vue and Angular only
+## Portability Rules: Vue and Angular Only
 
 These rules cover gaps in `eslint-plugin-jsx-a11y` that have no equivalent in `eslint-plugin-vuejs-accessibility` or `@angular-eslint/eslint-plugin-template`. React projects get these from jsx-a11y already.
 
@@ -125,7 +125,7 @@ These rules cover gaps in `eslint-plugin-jsx-a11y` that have no equivalent in `e
 | `no-scope-on-td` | `scope` attribute on `<td>` - only valid on `<th>` | [SC 1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships) |
 | `prefer-semantic-element` | `<div role="button">` where a native element would be correct | [SC 4.1.2](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value) |
 
-## Framework-specific rules: React, Vue, Angular, Remix, Lit
+## Framework-specific Rules: React, Vue, Angular, Remix, Lit
 
 These rules apply only to specific frameworks using their respective parser plugins.
 
@@ -147,21 +147,21 @@ Neighbor is designed to run alongside standard accessibility linters (like `esli
 
 If you have these standard linters installed, Neighbor will automatically **turn off** its own redundant base rules to prevent duplicate warnings. If you choose *not* to install the standard linters, Neighbor will keep these base rules enabled to protect your codebase.
 
-### Vue (`eslint-plugin-vuejs-accessibility`)
+### Vue (`Eslint-plugin-vuejs-accessibility`)
 
 Omitted base rules: `no-heading-no-content`, `no-iframe-no-title`, `no-access-key`, `no-img-redundant-alt`, `no-anchor-no-content`, `no-invalid-aria-prop-value`, `no-role-supports-aria-props`.
 
-### Angular (`@angular-eslint/eslint-plugin-template`)
+### Angular (`@Angular-eslint/eslint-plugin-template`)
 
 Omitted base rules: `no-heading-no-content`, `no-anchor-no-content`, `no-img-redundant-alt`, `no-scope-on-td`, `no-invalid-aria-prop-value`.
 
-### Lit (`eslint-plugin-lit-a11y`)
+### Lit (`Eslint-plugin-lit-a11y`)
 
 Omitted base rules: `no-heading-no-content`, `no-iframe-no-title`, `no-img-redundant-alt`, `no-access-key`, `no-aria-activedescendant-no-tabindex`, `no-anchor-no-content`, `no-invalid-aria-prop-value`, `no-role-supports-aria-props`, `no-scope-on-td`.
 
 ---
 
-## Vue / Angular / Lit specific rules
+## Vue / Angular / Lit Specific Rules
 
 These rules are added specifically to handle framework-specific ASTs or behaviors.
 
@@ -190,7 +190,7 @@ These rules are added specifically to handle framework-specific ASTs or behavior
 
 ---
 
-## Framework-specific rules: @ulam only
+## Framework-specific Rules: @Ulam Only
 
 These rules are specific to the @ulam framework and activate only when @ulam-related imports are detected.
 
@@ -213,7 +213,7 @@ The `no-announce-in-render` rule runs in React, Vue, and Angular plugins with sa
 
 ---
 
-## Rules considered and rejected
+## Rules Considered and Rejected
 
 | Rule | Reason rejected |
 | --- | --- |

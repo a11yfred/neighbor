@@ -1,9 +1,9 @@
-# neighbor - Android App (Work in Progress)
+# Neighbor - Android App (Work in Progress)
 
 > [!NOTE]
 > This directory contains `neighbor`'s custom Android Lint module, specifically designed to check Jetpack Compose code for accessibility gaps.
 
-## How it works
+## How It Works
 
 Android accessibility checking in `neighbor` has two parts. This is similar to how standard Android tools work:
 
@@ -22,7 +22,7 @@ Android Lint comes with built-in accessibility checks. You can run them in any A
 
 These built-in tools already do a massive amount of work for legacy XML Views. Because standard tooling covers XML so thoroughly, **`neighbor` intentionally ignores XML layouts and defers entirely to standard Android Lint.** We strongly suggest that you use standard Android Lint in your project.
 
-### Part 2: Custom Compose Rules (The missing piece)
+### Part 2: Custom Compose Rules (the Missing Piece)
 
 Jetpack Compose, however, does not have adequate accessibility checking built into standard tools yet. There is no standard tool that properly checks `Modifier` chains for text scaling, touch targets, or complex semantics. This is the massive gap that `neighbor` fills.
 
@@ -80,7 +80,7 @@ You can then run the `@a11yfred/neighbor/textlint` package directly against your
 
 If a developer bypasses standard practices and hardcodes strings directly into `contentDescription` modifiers, the standard Android Lint `ComposeContentViolation` rule (documented above) will catch common violations like "click here", "swipe left", or ableist jargon directly in the code.
 
-## How to build (Future)
+## How to Build (Future)
 
 We have published these rules as a standard Android Lint module. You can build it by navigating to this directory and running:
 
@@ -90,7 +90,7 @@ We have published these rules as a standard Android Lint module. You can build i
 
 This will produce a lint `.jar` file that you can include in your Android projects.
 
-## More reading
+## More Reading
 
 - [Appt.org - Android Accessibility](https://appt.org/en/docs/android/samples)
 - [Google Developer Guide - Testing Accessibility](https://developer.android.com/guide/topics/ui/accessibility/testing)

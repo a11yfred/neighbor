@@ -100,6 +100,7 @@ export const ABLEIST_TERMS = [
   { term: /\bhearing[- ]impaired\b/i, suggest: 'deaf / hard of hearing', sources: 'NCDJ, AP, ADA NN, APA' },
   { term: /\bthe (disabled|blind|deaf|mentally ill)\b/i, suggest: 'people with disabilities / blind people / deaf people / people with mental illness', sources: 'NCDJ, AP, ADA NN, APA, SIGACCESS' },
   { term: /\bhandicapped\b/i, suggest: 'person with a disability / accessible (for facilities)', sources: 'NCDJ, AP, ADA NN' },
+  { term: /\bmongol(oid)?s?\b/i, suggest: "person with Down's syndrome", sources: 'Scope UK, NHS, DWP' },
 ]
 
 /**
@@ -120,6 +121,7 @@ export const DISABILITY_METAPHORS = [
   { term: /\bcrippling (debt|fear|blow|anxiety)\b/i, suggest: 'devastating / crushing / severe', sources: 'NCDJ, A11y Collective' },
   { term: /\bschizophrenic (approach|strategy|policy|market)\b/i, suggest: 'contradictory / inconsistent / unpredictable', sources: 'NCDJ, APA' },
   { term: /\bstands? on its own two feet\b/i, suggest: 'self-sufficient / independent', sources: 'A11y Collective' },
+  { term: /\bbasket[- ]case[s]?\b/i, suggest: 'anxious / nervous / overwhelmed', sources: 'NCDJ, APA, UW' },
 ]
 
 /**
@@ -164,6 +166,17 @@ export const ENGLISH_IDIOMS = [
   { term: /\bunder the weather\b/i, suggest: 'unwell / sick / not feeling well', sources: 'SJSU, A11y Collective' },
   { term: /\bball ?park (figure|estimate|number)?\b/i, suggest: 'rough estimate / approximate', sources: 'SJSU, Canadian Gov' },
   { term: /\bin the ball ?park\b/i, suggest: 'approximately / roughly', sources: 'SJSU, Canadian Gov' },
+  { term: /\bparadigm shift[s]?\b/i, suggest: 'significant change / transformation / new approach', sources: 'Google, MS, plainlanguage.gov' },
+  { term: /\bbleeding[- ]edge\b/i, suggest: 'state-of-the-art / cutting-edge / pioneering', sources: 'Google, MS' },
+  { term: /\becosystem[s]?\b/i, suggest: 'platform / suite / products / network (if referring to software/services)', sources: 'Google, MS' },
+  { term: /\bdrill(ing)? down\b/i, suggest: 'analyze further / investigate / look closer', sources: 'Google, MS' },
+  { term: /\bwheelhouse\b/i, suggest: 'area of expertise / specialty', sources: 'Google, MS' },
+  { term: /\bdogfood(ing)?\b|\beat(ing)? (our|your|their) own dog food\b/i, suggest: 'test internally / use our own products', sources: 'Google, MS' },
+  { term: /\bopen(ing)? the kimono\b/i, suggest: 'share information / reveal details / be transparent', sources: 'Google, Salesforce' },
+  { term: /\bbest of breed\b/i, suggest: 'best / leading / top-performing', sources: 'Google, MS' },
+  { term: /\bthought leader[s]?(ship)?\b/i, suggest: 'expert / specialist / pioneer', sources: 'Google, MS' },
+  { term: /\bdeliverable[s]?\b/i, suggest: 'product / output / result', sources: 'Google, plainlanguage.gov' },
+  { term: /\bvalue[- ]add(ed)?\b/i, suggest: 'benefit / extra value / advantage', sources: 'plainlanguage.gov, Google' },
 
   // Sports idioms  -  opaque to non-sports audiences, appear in ≥2 guides
   { term: /\bhit it out of the park\b/i, suggest: 'succeed greatly / do exceptionally well', sources: 'SJSU, A11y Collective' },
@@ -285,6 +298,7 @@ export function createNoAbleistLanguageRule() {
           type: 'object',
           properties: {
             allow: { type: 'array', items: { type: 'string' } },
+            enableOffTerms: { type: 'boolean' },
           },
           additionalProperties: false,
         },
@@ -336,6 +350,7 @@ export function createNoDisabilityMetaphorRule() {
           type: 'object',
           properties: {
             allow: { type: 'array', items: { type: 'string' } },
+            enableOffTerms: { type: 'boolean' },
           },
           additionalProperties: false,
         },
@@ -392,6 +407,7 @@ export function createNoEnglishIdiomRule() {
           type: 'object',
           properties: {
             allow: { type: 'array', items: { type: 'string' } },
+            enableOffTerms: { type: 'boolean' },
           },
           additionalProperties: false,
         },
@@ -612,22 +628,11 @@ export function createNoUnexplainedAbbreviationRule() {
 }
 
 /**
- * no-all-caps-prose
+ * no-typography-in-prose
  *
- * Flags words written in ALL CAPS in prose content.
- *
- * WCAG basis: No direct SC. However, screen readers using certain verbosity
- * settings read ALL CAPS letter-by-letter (Google Dev Style cites this
- * explicitly). Also degrades readability for users with dyslexia and cognitive
- * disabilities.
- *
- * Expert consensus: Explicit rule in Google Dev Style, GOV.UK publishing guide,
- * and Canadian Gov guide. Excluded: known uppercase acronyms (HTML, CSS, etc.)
- * and words < 3 characters.
- *
- * Sources: Google Dev Style, GOV.UK, Canadian Gov.
+ * Flags words written in ALL CAPS and raw & used in place of "and" in prose.
  */
-export function createNoAllCapsProse() {
+export function createNoTypographyInProseRule() {
   const KNOWN_ACRONYMS = new Set([
     'HTML', 'CSS', 'JS', 'URL', 'API', 'PDF', 'UI', 'UX', 'ID', 'FAQ',
     'OK', 'US', 'UK', 'EU', 'UN', 'NATO', 'NASA', 'FBI', 'CIA', 'CDC',
@@ -645,12 +650,14 @@ export function createNoAllCapsProse() {
     meta: {
       type: 'suggestion',
       docs: {
-        description: 'Disallow ALL CAPS in prose content  -  screen readers may spell it out letter by letter',
-        url: 'https://github.com/a11yfred/neighbor#no-all-caps-prose',
+        description: 'Disallow ALL CAPS and ampersands in prose content  -  screen readers may announce them letter-by-letter or inconsistently',
+        url: 'https://github.com/a11yfred/neighbor#no-typography-in-prose',
       },
       messages: {
         allCaps:
           '"{{word}}" is written in ALL CAPS. Screen readers using high verbosity may read it letter-by-letter. Use regular casing; add to the `known` option if this is a recognized acronym. (Google Dev Style, GOV.UK)',
+        ampersand:
+          '"&" may be announced inconsistently by screen readers. Use "and" in prose. (Google Dev Style)',
       },
       schema: [
         {
@@ -669,6 +676,13 @@ export function createNoAllCapsProse() {
       return {
         Literal(node) {
           if (typeof node.value !== 'string') return
+          
+          // Check ampersand
+          if (/\s&\s/.test(node.value)) {
+            context.report({ node, messageId: 'ampersand' })
+          }
+
+          // Check ALL CAPS
           let m
           ALL_CAPS.lastIndex = 0
           while ((m = ALL_CAPS.exec(node.value)) !== null) {
@@ -751,76 +765,62 @@ export function createNoVagueErrorMessageRule() {
   }
 }
 
-/**
- * no-ampersand-in-prose
- *
- * Flags `&` used in place of "and" in prose text.
- *
- * WCAG basis: No direct SC. Screen readers may announce `&` inconsistently
- * across AT vendors  -  some say "ampersand", some skip it. Google Dev Style
- * cites this as an explicit accessibility concern.
- *
- * Expert consensus: Google Dev Style is the primary source; also noted in
- * plain language guides as informal register that reduces clarity.
- * Excludes legitimate code/UI uses (checking for literal `&` not `&amp;`).
- *
- * Sources: Google Dev Style, US Plain Language guide.
- */
-export function createNoAmpersandInProseRule() {
-  return {
-    meta: {
-      type: 'suggestion',
-      docs: {
-        description: 'Disallow & as a substitute for "and" in prose  -  screen readers may not announce it consistently',
-        url: 'https://github.com/a11yfred/neighbor#no-ampersand-in-prose',
-      },
-      messages: {
-        ampersand:
-          '"&" may be announced inconsistently by screen readers. Use "and" in prose. (Google Dev Style)',
-      },
-      schema: [],
-    },
-    create(context) {
-      return {
-        Literal(node) {
-          if (typeof node.value !== 'string') return
-          if (/\s&\s/.test(node.value)) {
-            context.report({ node, messageId: 'ampersand' })
-          }
-        },
-      }
-    },
-  }
-}
+// no-ampersand-in-prose consolidated into no-typography-in-prose
 
 
 /**
  * no-exclusive-language
  */
 export const EXCLUSIVE_TERMS = [
-  { term: /\bblack[- ]?list[s]?\b/i, suggest: 'denylist / blocklist', sources: 'Google, MS, Prevention.org' },
-  { term: /\bwhite[- ]?list[s]?\b/i, suggest: 'allowlist / safelist', sources: 'Google, MS, Prevention.org' },
-  { term: /\bmaster(?! (node|degree|class))\b/i, suggest: 'primary / main / leader', sources: 'Google, MS, Prevention.org' },
-  { term: /\bslave\b/i, suggest: 'replica / worker / follower', sources: 'Google, MS, Prevention.org' },
+  { term: /\bblack[- ]?list[s]?\b/i, suggest: 'denylist / blocklist', sources: 'Google, MS, NIST, IBM, Salesforce' },
+  { term: /\bwhite[- ]?list[s]?\b/i, suggest: 'allowlist / safelist', sources: 'Google, MS, NIST, IBM, Salesforce' },
+  { term: /\bmaster(?! (node|degree|class))\b/i, suggest: 'primary / main / leader', sources: 'Google, MS, IETF, IBM' },
+  { term: /\bslave\b/i, suggest: 'replica / worker / follower', sources: 'Google, MS, IETF, IBM' },
   { term: /\bdummy\b/i, suggest: 'placeholder / mock / sample', sources: 'Google' },
   { term: /\bsanity check\b/i, suggest: 'quick check / confidence check', sources: 'Google' },
-  { term: /\bspirit animal\b/i, suggest: 'remove / favorite (avoid cultural appropriation)', sources: 'MS, Prevention.org' },
-  { term: /\bpowwow\b/i, suggest: 'meeting / gathering (avoid cultural appropriation)', sources: 'MS, Prevention.org' },
-  { term: /\bninja[s]?\b/i, suggest: 'expert / specialist', sources: 'MS, Prevention.org' },
-  { term: /\bguru[s]?\b/i, suggest: 'expert / leader', sources: 'MS, Prevention.org' },
-  { term: /\btribe\b/i, suggest: 'team / network / community', sources: 'Prevention.org' },
-  { term: /\bguys\b/i, suggest: 'folks / everyone / team', sources: 'Google, MS' },
+  { term: /\bspirit animal\b/i, suggest: 'remove / favorite (avoid cultural appropriation)', sources: 'MS, NPR, Brandeis' },
+  { term: /\bpowwow\b/i, suggest: 'meeting / gathering (avoid cultural appropriation)', sources: 'MS, NPR, Brandeis' },
+  { term: /\bninja[s]?\b/i, suggest: 'expert / specialist', sources: 'Google, MS' },
+  { term: /\bguru[s]?\b/i, suggest: 'expert / leader', sources: 'Google, MS' },
+  { term: /\btribe\b/i, suggest: 'team / network / community', sources: 'APA, Brandeis' },
+  { term: /\bguys\b/i, suggest: 'folks / everyone / team', sources: 'Google, MS, Mailchimp, Salesforce' },
   { term: /\bcolou?red people\b/i, suggest: 'people of color (avoid coloured which is highly offensive in the UK)', sources: 'APA, AP Style' },
   { term: /\boriental[s]?\b/i, suggest: 'Asian / specific descent', sources: 'AP Style, Microsoft' },
   { term: /\beskimo[s]?\b/i, suggest: 'Alaska Native / Inuit', sources: 'AP Style, Microsoft' },
   { term: /\bnegro[s]?\b/i, suggest: 'Black / African American / specific descent', sources: 'AP Style, APA' },
   { term: /\bafro[- ]american[s]?\b/i, suggest: 'Black / African American / specific descent', sources: 'AP Style, APA' },
   { term: /\bpaki[s]?\b/i, suggest: 'specific descent (highly offensive slur in UK, avoid entirely)', sources: 'UK Gov' },
+  { term: /\bgrandfather(ed|ing)?\b/i, suggest: 'legacy / pre-existing / retain', sources: 'AP, 18F, UW, Harvard' },
+  { term: /\bpeanut gallery\b/i, suggest: 'hecklers / unwelcome commentators', sources: 'The Conversation, CDC, UW, Brandeis' },
+  { term: /\bsold down the river\b/i, suggest: 'betrayed / sold out', sources: 'NPR, CDC, CSU, Brandeis' },
+  { term: /\bgyp(ped|ping)?\b/i, suggest: 'cheat / swindle / rip off', sources: 'AP, APA, Harvard, UK Gov' },
+  { term: /\bgypsy([- ]?cab)?\b/i, suggest: 'Romani (for people) / unlicensed taxi (for cab)', sources: 'AP, APA, UK Gov' },
+  { term: /\boff the reservation\b/i, suggest: 'unauthorized / unorthodox / deviant / off script', sources: 'NPR, 18F, UW, Stanford' },
+  { term: /\buppity\b/i, suggest: 'arrogant / snobbish / dismissive', sources: 'AP, CDC, Harvard, Brandeis' },
+  { term: /\bcakewalk\b/i, suggest: 'easy win / breeze / simple task', sources: 'NPR, UW, Brandeis' },
+  { term: /\bno can do\b/i, suggest: 'I cannot / impossible', sources: 'AP, UW, Brandeis' },
+  { term: /\bbeyond the pale\b/i, suggest: 'unacceptable / outside acceptable limits', sources: 'Irish Gov, UK Gov', level: 'off' },
+  { term: /\bchavs?\b/i, suggest: 'working-class youth / (avoid derogatory slang)', sources: 'UK Gov, BBC' },
+  { term: /\bcoolie[s]?\b/i, suggest: '(highly offensive racial slur, avoid entirely)', sources: 'SAHRC, Oxford', level: 'off' },
+  { term: /\bdreamtime\b/i, suggest: 'the Dreaming / [specific language group term]', sources: 'Australian Gov', level: 'off' },
+  { term: /\bforeign alien[s]?\b/i, suggest: 'foreign national / non-citizen', sources: 'GovTech Singapore, US Gov' },
+  { term: /\bforeign talent\b/i, suggest: 'international employee / foreign worker', sources: 'GovTech Singapore', level: 'off' },
+  { term: /\bhalf-breed[s]?\b/i, suggest: 'Métis / person of mixed ancestry', sources: 'Canadian Gov, UBC', level: 'off' },
+  { term: /\bhalf-caste[s]?\b/i, suggest: 'Aboriginal / Māori / Indigenous person', sources: 'Australian Gov, NZ Gov, UK Gov' },
+  { term: /\bindios?\b/i, suggest: 'Filipino / native', sources: 'NHCP', level: 'off' },
+  { term: /\bkaffir[s]?\b/i, suggest: '(highly offensive racial slur, avoid entirely)', sources: 'SAHRC', level: 'off' },
+  { term: /\bknackers?\b/i, suggest: 'Irish Traveller (highly offensive slur, avoid entirely)', sources: 'Irish Gov, Pavee Point', level: 'off' },
+  { term: /\bnon-white[s]?\b/i, suggest: 'people of color / historically marginalized groups', sources: 'APA, UCT, CDC' },
+  { term: /\bpart-Aboriginal\b/i, suggest: 'Aboriginal / Indigenous person', sources: 'Australian Gov', level: 'off' },
+  { term: /\bpart-Mā?ori\b/i, suggest: 'Māori / of Māori descent', sources: 'NZ Gov', level: 'off' },
+  { term: /\bpikeys?\b/i, suggest: 'Traveller / Gypsy (highly offensive slur, avoid entirely)', sources: 'UK Gov, Irish Gov, AP' },
+  { term: /\btinkers?\b/i, suggest: 'Gypsy/Traveller / (highly offensive slur, avoid entirely)', sources: 'Scottish Gov, UK Gov', level: 'off' },
+  { term: /\buntouchables?\b/i, suggest: 'Dalit / marginalized communities', sources: 'India Gov, HRW', level: 'off' },
 ]
 
 export function createNoExclusiveLanguageRule() {
   return {
-    meta: { type: 'suggestion', docs: { description: 'Disallow non-inclusive tech jargon and cultural appropriation', url: 'https://github.com/a11yfred/neighbor#no-exclusive-language' }, messages: { exclusive: '"{{term}}" is non-inclusive or culturally appropriated. Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } } }, additionalProperties: false }] },
+    meta: { type: 'suggestion', docs: { description: 'Disallow non-inclusive tech jargon and cultural appropriation', url: 'https://github.com/a11yfred/neighbor#no-exclusive-language' }, messages: { exclusive: '"{{term}}" is non-inclusive or culturally appropriated. Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } }, enableOffTerms: { type: 'boolean' } }, additionalProperties: false }] },
     create(context) {
       const allow = new Set((context.options[0]?.allow ?? []).map(s => s.toLowerCase()))
       return {
@@ -840,14 +840,14 @@ export function createNoExclusiveLanguageRule() {
  * no-colonial-and-violent-language
  */
 export const VIOLENT_COLONIAL_TERMS = [
-  { term: /\bstakeholder[s]?\b/i, suggest: 'partner / collaborator / contributor / community member', sources: 'SkilledWork' },
-  { term: /\btarget (population|audience)\b/i, suggest: 'group of focus / intended audience / specific population', sources: 'SkilledWork, Prevention.org' },
-  { term: /\b(combat|tackle)\b(?! (the|this) (issue|problem|disease))/i, suggest: 'address / collaborate with / eliminate', sources: 'Prevention.org' }
+  { term: /\bstakeholder[s]?\b/i, suggest: 'partner / collaborator / contributor / community member', sources: 'CDC, 18F, WHO' },
+  { term: /\btarget (population|audience)\b/i, suggest: 'group of focus / intended audience / specific population', sources: 'CDC, WHO' },
+  { term: /\b(combat|tackle)\b(?! (the|this) (issue|problem|disease))/i, suggest: 'address / collaborate with / eliminate', sources: 'CDC, WHO' }
 ]
 
 export function createNoColonialAndViolentLanguageRule() {
   return {
-    meta: { type: 'suggestion', docs: { description: 'Disallow terms rooted in colonialism or violent imagery applied to people', url: 'https://github.com/a11yfred/neighbor#no-colonial-and-violent-language' }, messages: { violentColonial: '"{{term}}" has violent or colonial origins. Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } } }, additionalProperties: false }] },
+    meta: { type: 'suggestion', docs: { description: 'Disallow terms rooted in colonialism or violent imagery applied to people', url: 'https://github.com/a11yfred/neighbor#no-colonial-and-violent-language' }, messages: { violentColonial: '"{{term}}" has violent or colonial origins. Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } }, enableOffTerms: { type: 'boolean' } }, additionalProperties: false }] },
     create(context) {
       const allow = new Set((context.options[0]?.allow ?? []).map(s => s.toLowerCase()))
       return {
@@ -867,20 +867,21 @@ export function createNoColonialAndViolentLanguageRule() {
  * no-deficit-language
  */
 export const DEFICIT_TERMS = [
-  { term: /\bthe homeless\b/i, suggest: 'people experiencing homelessness', sources: 'Prevention.org, SkilledWork' },
-  { term: /\b(inmate|felon|convict|ex-con)[s]?\b/i, suggest: 'person with legal system involvement / formerly incarcerated person', sources: 'SkilledWork' },
-  { term: /\boffender[s]?\b/i, suggest: 'person with legal system involvement', sources: 'SkilledWork' },
-  { term: /\baddict[s]?\b/i, suggest: 'person with a substance use disorder', sources: 'Prevention.org' },
-  { term: /\b(drug|substance) abuse\b/i, suggest: 'substance use disorder', sources: 'Prevention.org' },
-  { term: /\bminority\b/i, suggest: 'historically marginalized group / people of color', sources: 'APA, Prevention.org' },
-  { term: /\bat-risk youth\b/i, suggest: 'opportunity youth', sources: 'SkilledWork' },
-  { term: /\b(vulnerable|high-risk) (group|population)[s]?\b/i, suggest: 'groups experiencing vulnerability / historically marginalized communities', sources: 'SkilledWork, Prevention.org' },
+  { term: /\bthe homeless\b/i, suggest: 'people experiencing homelessness', sources: 'AP, HUD, CDC' },
+  { term: /\b(inmate|felon|convict|ex-con)[s]?\b/i, suggest: 'person with legal system involvement / formerly incarcerated person', sources: 'AP, US DOJ' },
+  { term: /\boffender[s]?\b/i, suggest: 'person with legal system involvement', sources: 'AP, US DOJ' },
+  { term: /\baddict[s]?\b/i, suggest: 'person with a substance use disorder', sources: 'APA, CDC, NIDA' },
+  { term: /\b(drug|substance) abuse\b/i, suggest: 'substance use disorder', sources: 'APA, CDC, NIDA' },
+  { term: /\bminority\b/i, suggest: 'historically marginalized group / people of color', sources: 'APA, CDC' },
+  { term: /\bat-risk youth\b/i, suggest: 'opportunity youth', sources: 'CDC, HHS' },
+  { term: /\b(vulnerable|high-risk) (group|population)[s]?\b/i, suggest: 'groups experiencing vulnerability / historically marginalized communities', sources: 'CDC, WHO' },
   { term: /\bnon-English speaking\b/i, suggest: 'multilingual learner', sources: 'ACECQA' },
+  { term: /\bsquatters?\b/i, suggest: 'informal settler / resident without formal title', sources: 'PH Gov', level: 'off' },
 ]
 
 export function createNoDeficitLanguageRule() {
   return {
-    meta: { type: 'suggestion', docs: { description: 'Disallow language that reduces people to their circumstances or behaviors', url: 'https://github.com/a11yfred/neighbor#no-deficit-language' }, messages: { deficit: '"{{term}}" is deficit-based language. Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } } }, additionalProperties: false }] },
+    meta: { type: 'suggestion', docs: { description: 'Disallow language that reduces people to their circumstances or behaviors', url: 'https://github.com/a11yfred/neighbor#no-deficit-language' }, messages: { deficit: '"{{term}}" is deficit-based language. Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } }, enableOffTerms: { type: 'boolean' } }, additionalProperties: false }] },
     create(context) {
       const allow = new Set((context.options[0]?.allow ?? []).map(s => s.toLowerCase()))
       return {
@@ -909,12 +910,16 @@ export const GENDERED_PATTERNS = [
   { term: /\b(husband|wife)\b/i, suggest: 'partner / spouse (when gender is unknown)', sources: 'APA, Google, NAHJ' },
   { term: /\b(boyfriend|girlfriend)\b/i, suggest: 'partner (when gender is unknown)', sources: 'APA, Google, NAHJ' },
   { term: /\b(male-bodied|female-bodied)\b/i, suggest: 'assigned male/female at birth', sources: 'TJA' },
-  { term: /\b(fireman|policeman|chairman)\b/i, suggest: 'firefighter / police officer / chairperson', sources: 'GOV.UK, Canada' },
+  { term: /\b(fireman|policeman|chairman|spokesman|spokeswoman|congressman)\b/i, suggest: 'firefighter / police officer / chairperson / spokesperson / representative', sources: 'GOV.UK, Canada, UN' },
+  { term: /\bmanpower\b/i, suggest: 'workforce / personnel / staff', sources: 'UN, Google, MS' },
+  { term: /\bmankind\b/i, suggest: 'humanity / human race', sources: 'UN, Google, MS' },
+  { term: /\bman[- ]made\b/i, suggest: 'artificial / synthetic / manufactured / human-made', sources: 'UN, Google, MS' },
+  { term: /\blayman\b/i, suggest: 'layperson / non-expert', sources: 'UN, Google' },
 ]
 
 export function createNoGenderedLanguageRule() {
   return {
-    meta: { type: 'suggestion', docs: { description: 'Disallow gendered pronoun patterns in generic references', url: 'https://github.com/a11yfred/neighbor#no-gendered-language' }, messages: { gendered: '"{{term}}" is a generic gendered pattern. Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } } }, additionalProperties: false }] },
+    meta: { type: 'suggestion', docs: { description: 'Disallow gendered pronoun patterns in generic references', url: 'https://github.com/a11yfred/neighbor#no-gendered-language' }, messages: { gendered: '"{{term}}" is a generic gendered pattern. Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } }, enableOffTerms: { type: 'boolean' } }, additionalProperties: false }] },
     create(context) {
       const allow = new Set((context.options[0]?.allow ?? []).map(s => s.toLowerCase()))
       return {
@@ -941,7 +946,7 @@ export const DEVICE_SPECIFIC_PATTERNS = [
 
 export function createNoDeviceSpecificActionRule() {
   return {
-    meta: { type: 'suggestion', docs: { description: 'Disallow device-specific action verbs', url: 'https://github.com/a11yfred/neighbor#no-device-specific-action' }, messages: { deviceAction: '"{{term}}" assumes a specific input device (mouse, touch screen). Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } } }, additionalProperties: false }] },
+    meta: { type: 'suggestion', docs: { description: 'Disallow device-specific action verbs', url: 'https://github.com/a11yfred/neighbor#no-device-specific-action' }, messages: { deviceAction: '"{{term}}" assumes a specific input device (mouse, touch screen). Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } }, enableOffTerms: { type: 'boolean' } }, additionalProperties: false }] },
     create(context) {
       const allow = new Set((context.options[0]?.allow ?? []).map(s => s.toLowerCase()))
       return {
@@ -974,11 +979,16 @@ export const ANTI_LGBTQ_TERMS = [
   { term: /\bfaggot[s]?\b/i, suggest: '(highly offensive slur, avoid entirely)', sources: 'AP Style' },
   { term: /\bfag[s]?\b/i, suggest: '(highly offensive slur, avoid entirely. Note: slang for cigarette in UK but slur in US)', sources: 'AP Style' },
   { term: /\bqueer\b/i, suggest: '(use only if referring to self-identification, otherwise avoid as it can be a slur)', sources: 'AP Style, UK Gov' },
+  { term: /\bhermaphrodite[s]?\b/i, suggest: 'intersex / person with intersex traits', sources: 'APA, UK Gov, Australian Gov' },
+  { term: /\bgender identity disorder\b/i, suggest: 'gender dysphoria / gender incongruence', sources: 'APA, WHO' },
+  { term: /\bsex change[s]?\b/i, suggest: 'gender transition / gender-affirming surgery', sources: 'AP, APA, TJA' },
+  { term: /\blifestyle choice[s]?\b/i, suggest: 'sexual orientation / gender identity', sources: 'AP, APA' },
+  { term: /\bmoffie[s]?\b/i, suggest: 'gay man (highly offensive homophobic slur in South Africa, avoid entirely)', sources: 'SAHRC', level: 'off' },
 ]
 
 export function createNoAntiLgbtqLanguageRule() {
   return {
-    meta: { type: 'suggestion', docs: { description: 'Disallow outdated, pathologizing, or offensive terms regarding sexual orientation and gender identity', url: 'https://github.com/a11yfred/neighbor#no-anti-lgbtq-language' }, messages: { antiLgbtq: '"{{term}}" is outdated or offensive regarding LGBTQ+ identity. Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } } }, additionalProperties: false }] },
+    meta: { type: 'suggestion', docs: { description: 'Disallow outdated, pathologizing, or offensive terms regarding sexual orientation and gender identity', url: 'https://github.com/a11yfred/neighbor#no-anti-lgbtq-language' }, messages: { antiLgbtq: '"{{term}}" is outdated or offensive regarding LGBTQ+ identity. Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } }, enableOffTerms: { type: 'boolean' } }, additionalProperties: false }] },
     create(context) {
       const allow = new Set((context.options[0]?.allow ?? []).map(s => s.toLowerCase()))
       return {
@@ -988,6 +998,59 @@ export function createNoAntiLgbtqLanguageRule() {
         },
         TemplateLiteral(node) {
           for (const quasi of node.quasis) { checkTermList(quasi, quasi.value.raw, ANTI_LGBTQ_TERMS, allow, context, 'antiLgbtq') }
+        }
+      }
+    }
+  }
+}
+
+export const CROSS_DIALECT_TERMS = [
+  { term: /\bcum\b/i, suggest: 'combined with / and / serving as both (avoid "cum" due to slang/sexual connotation in US/UK/AU)', sources: 'OED, Nihalani' },
+  { term: /\bpants\b/i, suggest: 'trousers / underwear (in UK, pants means underwear and slang for bad; in US, pants means trousers)', sources: 'OED, Cambridge' },
+  { term: /\bprepon(e|ed|es|ing)\b/i, suggest: 'bring forward / schedule earlier / advance', sources: 'OED, Merriam-Webster' },
+  { term: /\bdo(ing)? the needful\b/i, suggest: 'do what is necessary / take the necessary action (can sound archaic or passive-aggressive to US/UK speakers)', sources: 'OED, HBR' },
+  { term: /\bpassed out\b/i, suggest: 'graduated (outside South Asia, passed out means fainted/unconscious)', sources: 'Cambridge' },
+  { term: /\bout of station\b/i, suggest: 'out of town / away (perceived as station reference outside South Asia)', sources: 'Nihalani' },
+  { term: /\bbackside\b/i, suggest: 'rear / behind / back (outside South Asia, backside means buttocks)', sources: 'OED' },
+  { term: /\bfanny\b/i, suggest: 'waist bag / buttocks (avoid in UK/AU as it is vulgar slang for female genitalia)', sources: 'OED, Cambridge' },
+  { term: /\bpissed\b/i, suggest: 'angry / drunk (means angry in US, drunk in UK/AU)', sources: 'OED' },
+  { term: /\brubbers?\b/i, suggest: 'eraser / condom (means condom in US, eraser in UK/India)', sources: 'OED' },
+  { term: /\bschemes?\b/i, suggest: 'program / plan / project (implies a deceptive plot in US)', sources: 'OED' },
+  { term: /\bknock(ing|ed)? up\b/i, suggest: 'visit / wake up / get pregnant (means get pregnant in US, visit/wake up in UK)', sources: 'OED' },
+  { term: /\bhomely\b/i, suggest: 'cozy / comfortable / homelike (means plain/unattractive in US, cozy/warm in UK/India)', sources: 'OED, Cambridge' },
+  { term: /\bmoot\b/i, suggest: 'arguable / irrelevant (means academic/irrelevant in US, open to debate in UK)', sources: 'OED' },
+  { term: /\bnonplussed\b/i, suggest: 'confused / unimpressed (avoid due to conflicting standard and informal meanings)', sources: 'OED' },
+  { term: /\btrolleys?\b/i, suggest: 'shopping cart / streetcar (means shopping cart in UK/AU, streetcar/cable car in US)', sources: 'OED' },
+  { term: /\bvests?\b/i, suggest: 'waistcoat / undershirt (means waistcoat in US, undershirt in UK)', sources: 'OED' },
+  { term: /\bsuspenders\b/i, suggest: 'braces / garter belt (means trouser straps in US, garter belt in UK)', sources: 'OED, Cambridge' },
+  { term: /\b(to table|table the (discussion|agenda|proposal|motion|bill|topic|meeting|issue))\b/i, suggest: 'postpone / shelve (in US) or bring forward / propose (in UK/Commonwealth) (avoid "table" as it has opposite meanings)', sources: 'OED, Cambridge' },
+  { term: /\b(enter|use|with|add|end with) (a |the )?period\b/i, suggest: 'full stop / dot / punctuation mark (to avoid cross-dialect confusion with menstruation or timeframes)', sources: 'OED, plain language guides' },
+  { term: /\bshag(ged|s|ging)?\b/i, suggest: 'exhausted / tired / (avoid due to vulgar slang connotation in UK/AU/NZ)', sources: 'OED, BBC' },
+  { term: /\bnapp(ies|y)\b/i, suggest: 'diaper / (avoid in US due to racially offensive connotation)', sources: 'OED, BBC, NYT' },
+  { term: /\bpecker[s]?\b/i, suggest: 'courage / spirits / (avoid to prevent vulgar double entendre in US)', sources: 'OED, BBC, NYT' },
+  { term: /\broot(ed|ing)\b/i, suggest: 'cheering for / supporting / (avoid in AU/NZ to prevent vulgar slang/broken connotation)', sources: 'OED, BBC' },
+  { term: /\brevert(ed|ing|s)?\b/i, suggest: 'reply / get back to / respond (if meaning reply; otherwise return to previous state)', sources: 'OED, BBC, Nihalani' },
+  { term: /\bintimat(e|ed|ing|es)\b/i, suggest: 'inform / notify / advise (if meaning to inform)', sources: 'OED, Nihalani' },
+  { term: /\bco-brother[s]?\b/i, suggest: 'brother-in-law / wife\'s sister\'s husband', sources: 'OED, Nihalani' },
+  { term: /\bstepney[s]?\b/i, suggest: 'spare tire / spare wheel', sources: 'OED, Nihalani' },
+  { term: /\bfirst floor\b/i, suggest: 'ground floor / second floor / (clarify physical floor level)', sources: 'OED, BBC, NYT' },
+  { term: /\bcaskets?\b/i, suggest: 'coffin / jewelry box / (clarify to avoid confusion)', sources: 'OED, NYT' },
+  { term: /\bchuffed\b/i, suggest: 'pleased / proud / happy', sources: 'OED, BBC, NYT' },
+  { term: /\bfortnight[s]?\b/i, suggest: 'two weeks / 14 days', sources: 'OED, BBC, NYT' },
+]
+
+export function createNoCrossDialectConfusionRule() {
+  return {
+    meta: { type: 'suggestion', docs: { description: 'Disallow terms that cause cross-dialect confusion or inappropriate double entendre', url: 'https://github.com/a11yfred/neighbor#no-cross-dialect-confusion' }, messages: { crossDialect: '"{{term}}" may cause cross-dialect confusion or inappropriate double entendre. Suggestion: {{suggest}}. ({{sources}})' }, schema: [{ type: 'object', properties: { allow: { type: 'array', items: { type: 'string' } }, enableOffTerms: { type: 'boolean' } }, additionalProperties: false }] },
+    create(context) {
+      const allow = new Set((context.options[0]?.allow ?? []).map(s => s.toLowerCase()))
+      return {
+        Literal(node) {
+          if (typeof node.value !== 'string') return
+          checkTermList(node, node.value, CROSS_DIALECT_TERMS, allow, context, 'crossDialect')
+        },
+        TemplateLiteral(node) {
+          for (const quasi of node.quasis) { checkTermList(quasi, quasi.value.raw, CROSS_DIALECT_TERMS, allow, context, 'crossDialect') }
         }
       }
     }
@@ -1004,15 +1067,15 @@ export const CONTENT_RULE_FACTORIES = {
   'no-vague-cta': createNoVagueCTARule,
   'no-directional-language': createNoDirectionalLanguageRule,
   'no-unexplained-abbreviation': createNoUnexplainedAbbreviationRule,
-  'no-all-caps-prose': createNoAllCapsProse,
+  'no-typography-in-prose': createNoTypographyInProseRule,
   'no-vague-error-message': createNoVagueErrorMessageRule,
-  'no-ampersand-in-prose': createNoAmpersandInProseRule,
   'no-exclusive-language': createNoExclusiveLanguageRule,
   'no-colonial-and-violent-language': createNoColonialAndViolentLanguageRule,
   'no-deficit-language': createNoDeficitLanguageRule,
   'no-gendered-language': createNoGenderedLanguageRule,
   'no-device-specific-action': createNoDeviceSpecificActionRule,
   'no-anti-lgbtq-language': createNoAntiLgbtqLanguageRule,
+  'no-cross-dialect-confusion': createNoCrossDialectConfusionRule,
 }
 
 /**
@@ -1030,23 +1093,23 @@ export function buildContentRecommendedRules(ns) {
     [`${ns}/no-english-idiom`]: 'warn',
     [`${ns}/no-vague-cta`]: 'warn',
     [`${ns}/no-directional-language`]: 'warn',
-    [`${ns}/no-unexplained-abbreviation`]: 'warn',
-    [`${ns}/no-all-caps-prose`]: 'warn',
+    [`${ns}/no-unexplained-abbreviation`]: 'off',
+    [`${ns}/no-typography-in-prose`]: 'off',
     [`${ns}/no-vague-error-message`]: 'warn',
-    [`${ns}/no-ampersand-in-prose`]: 'warn',
     [`${ns}/no-exclusive-language`]: 'warn',
     [`${ns}/no-colonial-and-violent-language`]: 'warn',
     [`${ns}/no-deficit-language`]: 'warn',
     [`${ns}/no-gendered-language`]: 'warn',
     [`${ns}/no-device-specific-action`]: 'warn',
     [`${ns}/no-anti-lgbtq-language`]: 'warn',
+    [`${ns}/no-cross-dialect-confusion`]: 'off',
   }
 }
 
-// ─── Helpers ─────────────────────────────────────────────────────────────────
-
 function checkTermList(node, text, termList, allow, context, messageId) {
-  for (const { term, suggest, sources } of termList) {
+  const enableOffTerms = context.options[0]?.enableOffTerms ?? false
+  for (const { term, suggest, sources, level } of termList) {
+    if (level === 'off' && !enableOffTerms) continue
     const m = text.match(term)
     if (!m) continue
     const matched = m[0]
@@ -1058,6 +1121,7 @@ function checkTermList(node, text, termList, allow, context, messageId) {
     })
   }
 }
+
 
 function extractJSXText(node) {
   let text = ''

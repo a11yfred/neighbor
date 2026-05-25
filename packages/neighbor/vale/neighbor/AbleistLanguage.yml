@@ -76,3 +76,4 @@ swap:
   \bhearing[- ]impaired\b: 'deaf / hard of hearing'
   \bthe (disabled|blind|deaf|mentally ill)\b: 'people with disabilities / blind people / deaf people / people with mental illness'
   \bhandicapped\b: 'person with a disability / accessible (for facilities)'
+  \bmongol(oid)?s?\b: "person with Down's syndrome"

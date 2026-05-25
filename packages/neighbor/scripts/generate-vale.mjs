@@ -28,12 +28,24 @@ import {
   GENDERED_PATTERNS,
   DEVICE_SPECIFIC_PATTERNS,
   ANTI_LGBTQ_TERMS,
+  CROSS_DIALECT_TERMS,
 } from '../lib/content-rules.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const OUT_DIR = resolve(__dirname, '../vale/neighbor')
+const OUT_DIRS = [
+  resolve(__dirname, '../vale/neighbor'),
+  resolve(__dirname, '../../vale-config-neighbor/vale/neighbor'),
+]
 
-mkdirSync(OUT_DIR, { recursive: true })
+for (const dir of OUT_DIRS) {
+  mkdirSync(dir, { recursive: true })
+}
+
+function writeRuleFile(name, content) {
+  for (const dir of OUT_DIRS) {
+    writeFileSync(resolve(dir, name), content)
+  }
+}
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -101,7 +113,8 @@ function stripLookaheads(src) {
  * The swap map key is the Vale pattern; the value is the suggestion string.
  */
 function buildSubstitutionRule({ header, message, termList }) {
-  const swapLines = termList.map(({ term, suggest, sources }) => {
+  const activeTerms = termList.filter(t => t.level !== 'off')
+  const swapLines = activeTerms.map(({ term, suggest, sources }) => {
     const { pattern, hasLookahead } = jsRegexToVale(term)
     const lookaheadNote = hasLookahead
       ? `  # Note: JS lookahead stripped for RE2 compatibility (sources: ${sources})\n`
@@ -132,7 +145,8 @@ ${swapLines.join('\n')}
  * suggestion in the file as a comment above each token.
  */
 function buildExistenceRule({ header, message, termList }) {
-  const tokenLines = termList.map(({ term, suggest, sources }) => {
+  const activeTerms = termList.filter(t => t.level !== 'off')
+  const tokenLines = activeTerms.map(({ term, suggest, sources }) => {
     const { pattern, hasLookahead } = jsRegexToVale(term)
     const lookaheadNote = hasLookahead
       ? `  # Note: JS lookahead stripped for RE2 compat (${sources})\n`
@@ -187,8 +201,8 @@ const ableistHeader = `# neighbor/AbleistLanguage.yml  [GENERATED - do not edit 
 
 `
 
-writeFileSync(
-  resolve(OUT_DIR, 'AbleistLanguage.yml'),
+writeRuleFile(
+  'AbleistLanguage.yml',
   buildSubstitutionRule({
     header: ableistHeader,
     message: "'%s' may be ableist language. Consider: %s",
@@ -225,8 +239,8 @@ const metaphorHeader = `# neighbor/DisabilityMetaphor.yml  [GENERATED - do not e
 
 `
 
-writeFileSync(
-  resolve(OUT_DIR, 'DisabilityMetaphor.yml'),
+writeRuleFile(
+  'DisabilityMetaphor.yml',
   buildSubstitutionRule({
     header: metaphorHeader,
     message: "'%s' uses disability as a metaphor. Consider: %s",
@@ -272,8 +286,8 @@ const idiomHeader = `# neighbor/EnglishIdiom.yml  [GENERATED - do not edit by ha
 
 `
 
-writeFileSync(
-  resolve(OUT_DIR, 'EnglishIdiom.yml'),
+writeRuleFile(
+  'EnglishIdiom.yml',
   buildSubstitutionRule({
     header: idiomHeader,
     message: "'%s' is an idiom that may be unclear to ESL and international readers. Consider: %s",
@@ -307,8 +321,8 @@ const directionalHeader = `# neighbor/DirectionalLanguage.yml  [GENERATED - do n
 
 `
 
-writeFileSync(
-  resolve(OUT_DIR, 'DirectionalLanguage.yml'),
+writeRuleFile(
+  'DirectionalLanguage.yml',
   buildExistenceRule({
     header: directionalHeader,
     message: "'%s' uses layout position to give instructions. Position-based references break when users zoom, reflow, or use a screen reader. Reference content by name or heading instead.",
@@ -326,7 +340,7 @@ const exclusiveHeader = `# neighbor/ExclusiveLanguage.yml  [GENERATED - do not e
 #
 # Flags unnecessarily violent, culturally appropriated, or racially loaded tech jargon.
 `
-writeFileSync(resolve(OUT_DIR, 'ExclusiveLanguage.yml'), buildSubstitutionRule({ header: exclusiveHeader, message: "'%s' is non-inclusive or culturally appropriated. Consider: %s", termList: EXCLUSIVE_TERMS }))
+writeRuleFile('ExclusiveLanguage.yml', buildSubstitutionRule({ header: exclusiveHeader, message: "'%s' is non-inclusive or culturally appropriated. Consider: %s", termList: EXCLUSIVE_TERMS }))
 console.log('wrote ExclusiveLanguage.yml')
 
 // ─── ColonialAndViolentLanguage.yml ────────────────────────────────────────────────────────
@@ -338,7 +352,7 @@ const colonialHeader = `# neighbor/ColonialAndViolentLanguage.yml  [GENERATED - 
 #
 # Flags terms rooted in colonialism or violent imagery applied to people.
 `
-writeFileSync(resolve(OUT_DIR, 'ColonialAndViolentLanguage.yml'), buildSubstitutionRule({ header: colonialHeader, message: "'%s' has violent or colonial origins. Consider: %s", termList: VIOLENT_COLONIAL_TERMS }))
+writeRuleFile('ColonialAndViolentLanguage.yml', buildSubstitutionRule({ header: colonialHeader, message: "'%s' has violent or colonial origins. Consider: %s", termList: VIOLENT_COLONIAL_TERMS }))
 console.log('wrote ColonialAndViolentLanguage.yml')
 
 // ─── DeficitLanguage.yml ────────────────────────────────────────────────────────
@@ -350,7 +364,7 @@ const deficitHeader = `# neighbor/DeficitLanguage.yml  [GENERATED - do not edit 
 #
 # Flags language that reduces people to their circumstances, behaviors, or conditions.
 `
-writeFileSync(resolve(OUT_DIR, 'DeficitLanguage.yml'), buildSubstitutionRule({ header: deficitHeader, message: "'%s' is deficit-based language. Consider: %s", termList: DEFICIT_TERMS }))
+writeRuleFile('DeficitLanguage.yml', buildSubstitutionRule({ header: deficitHeader, message: "'%s' is deficit-based language. Consider: %s", termList: DEFICIT_TERMS }))
 console.log('wrote DeficitLanguage.yml')
 
 // ─── GenderedLanguage.yml ────────────────────────────────────────────────────────
@@ -362,7 +376,7 @@ const genderedHeader = `# neighbor/GenderedLanguage.yml  [GENERATED - do not edi
 #
 # Flags generic use of gendered pronouns.
 `
-writeFileSync(resolve(OUT_DIR, 'GenderedLanguage.yml'), buildSubstitutionRule({ header: genderedHeader, message: "'%s' is a generic gendered pattern. Consider: %s", termList: GENDERED_PATTERNS }))
+writeRuleFile('GenderedLanguage.yml', buildSubstitutionRule({ header: genderedHeader, message: "'%s' is a generic gendered pattern. Consider: %s", termList: GENDERED_PATTERNS }))
 console.log('wrote GenderedLanguage.yml')
 
 
@@ -375,7 +389,7 @@ const deviceSpecificHeader = `# neighbor/DeviceSpecificAction.yml  [GENERATED - 
 #
 # Flags instructions that assume the user's input device.
 `
-writeFileSync(resolve(OUT_DIR, 'DeviceSpecificAction.yml'), buildSubstitutionRule({ header: deviceSpecificHeader, message: "'%s' assumes a specific input device. Consider: %s", termList: DEVICE_SPECIFIC_PATTERNS }))
+writeRuleFile('DeviceSpecificAction.yml', buildSubstitutionRule({ header: deviceSpecificHeader, message: "'%s' assumes a specific input device. Consider: %s", termList: DEVICE_SPECIFIC_PATTERNS }))
 console.log('wrote DeviceSpecificAction.yml')
 
 // ─── AntiLgbtqLanguage.yml ────────────────────────────────────────────────────────
@@ -387,9 +401,22 @@ const antiLgbtqHeader = `# neighbor/AntiLgbtqLanguage.yml  [GENERATED - do not e
 #
 # Flags outdated, pathologizing, or offensive terms regarding sexual orientation and gender identity.
 `
-writeFileSync(resolve(OUT_DIR, 'AntiLgbtqLanguage.yml'), buildSubstitutionRule({ header: antiLgbtqHeader, message: "'%s' is outdated or offensive regarding LGBTQ+ identity. Consider: %s", termList: ANTI_LGBTQ_TERMS }))
+writeRuleFile('AntiLgbtqLanguage.yml', buildSubstitutionRule({ header: antiLgbtqHeader, message: "'%s' is outdated or offensive regarding LGBTQ+ identity. Consider: %s", termList: ANTI_LGBTQ_TERMS }))
 console.log('wrote AntiLgbtqLanguage.yml')
 
 
-console.log(`\nDone. Files written to ${OUT_DIR}`)
+// ─── CrossDialectConfusion.yml ────────────────────────────────────────────────────────
+
+const crossDialectHeader = `# neighbor/CrossDialectConfusion.yml  [GENERATED - do not edit by hand]
+#
+# Source of truth: lib/content-rules.js CROSS_DIALECT_TERMS
+# Regenerate: node scripts/generate-vale.mjs
+#
+# Flags terms that cause cross-dialect confusion or inappropriate double entendre.
+`
+writeRuleFile('CrossDialectConfusion.yml', buildSubstitutionRule({ header: crossDialectHeader, message: "'%s' may cause cross-dialect confusion or inappropriate double entendre. Consider: %s", termList: CROSS_DIALECT_TERMS }))
+console.log('wrote CrossDialectConfusion.yml')
+
+
+console.log(`\nDone. Files written to:\n${OUT_DIRS.map(d => `  - ${d}`).join('\n')}`)
 console.log('Note: AllCapsProse.yml and AmpersandInProse.yml are hand-authored and were not overwritten.')

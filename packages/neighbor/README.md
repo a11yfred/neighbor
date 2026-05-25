@@ -1,4 +1,4 @@
-# @a11yfred/neighbor
+# @A11yfred/neighbor
 
 The a11yfred accessibility linter ecosystem core packages. This specific package houses the ESLint and Stylelint rules.
 

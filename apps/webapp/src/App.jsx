@@ -1,9 +1,6 @@
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useMemo } from 'react'
 import {
   Button,
-  InfoBox,
-  FormControlToggle,
-  Panel,
   announce,
   useThemeManager
 } from '@ulam/ube/react'
@@ -47,7 +44,6 @@ function checkList(fullText, list, ruleName) {
 
 export default function App() {
   const [text, setText] = useState('')
-  const [issues, setIssues] = useState([])
   const [aboutOpen, setAboutOpen] = useState(false)
   const [settingsOpen, setSettingsOpen] = useState(false)
 
@@ -87,7 +83,7 @@ export default function App() {
 
 
   // Run scans when text or settings change
-  useEffect(() => {
+  const issues = useMemo(() => {
     const ableist = checkAbleist ? checkList(text, ABLEIST_TERMS, 'Ableist Language') : []
     const metaphors = checkMetaphors ? checkList(text, DISABILITY_METAPHORS, 'Disability Metaphor') : []
     const idioms = checkIdioms ? checkList(text, ENGLISH_IDIOMS, 'Opaque Idiom') : []
@@ -107,7 +103,7 @@ export default function App() {
       }
     }
 
-    setIssues(filteredIssues)
+    return filteredIssues
   }, [text, checkAbleist, checkMetaphors, checkIdioms])
 
   // Debounced announcements to prevent screen reader spam during active typing
