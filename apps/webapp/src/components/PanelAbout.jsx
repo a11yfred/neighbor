@@ -1,4 +1,4 @@
-import { Panel, InfoBox } from '@ulam/ube/react'
+import { Panel } from '@ulam/ube/react'
 
 export default function PanelAbout({ onClose }) {
   return (
@@ -17,9 +17,6 @@ export default function PanelAbout({ onClose }) {
         <p className="panel-body" style={{ margin: 0, lineHeight: 1.6 }}>
           By offering inclusive suggestions in real-time, Neighbor supports authors in crafting content that is both respectful and readable.
         </p>
-        <InfoBox label="A11yFred Suite">
-          Neighbor is a core component of the A11yFred suite of tools, supporting digital inclusion and professional accessibility audits.
-        </InfoBox>
       </div>
     </Panel>
   )

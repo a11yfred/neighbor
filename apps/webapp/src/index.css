@@ -230,3 +230,10 @@ body {
   font-size: 14px;
   color: var(--color-text-muted, #666);
 }
+
+@media (min-width: 768px) {
+  .drawer-panel {
+    max-width: 720px;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
+  }
+}
