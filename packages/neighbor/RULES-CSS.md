@@ -13,22 +13,7 @@ Until now, there has been no actively maintained Stylelint plugin dedicated to c
 > [!TIP]
 > If you previously used `stylelint-a11y`, you can drop it entirely and replace it with `@a11yfred/neighbor`. Every rule it offered that was still valid has been reimplemented and improved here.
 
-## Sources and Credits
-
-We stand on the shoulders of these projects and standards. Thank you.
-
-| Source | Reference |
-| --- | --- |
-| YozhikM/stylelint-a11y | [github.com/YozhikM/stylelint-a11y](https://github.com/YozhikM/stylelint-a11y) - the original Stylelint accessibility plugin that started it all |
-| double-great/stylelint-a11y | [github.com/double-great/stylelint-a11y](https://github.com/double-great/stylelint-a11y) - maintained fork that kept the torch burning |
-| axe-core (Deque) | [github.com/dequelabs/axe-core](https://github.com/dequelabs/axe-core) - target size, text spacing, hover-focus parity |
-| Eric Eggert | [yatil.net](https://yatil.net) - forced colors and focus ring patterns |
-| Scott O'Hara | [scottohara.me](https://scottohara.me) - list-style-none / VoiceOver research |
-| Adrian Roselli | [adrianroselli.com](https://adrianroselli.com) - overflow clipping, resize text |
-| Josh W. Comeau | [joshwcomeau.com](https://joshwcomeau.com) - rem vs px font sizing |
-| MDN Web Docs | [forced-color-adjust](https://developer.mozilla.org/en-US/docs/Web/CSS/forced-color-adjust) |
-| WCAG 2.1 | [SC 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content), [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships), [1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum), [1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text), [1.4.8](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation), [1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast), [1.4.12](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing), [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard), [2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions), [2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
-| WCAG 2.2 | [SC 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum) |
+[View the full list of sources and credits at the bottom of this page.](#sources-and-credits)
 
 ---
 
@@ -100,3 +85,22 @@ Safari/VoiceOver has a [long-standing behavior](https://bugs.webkit.org/show_bug
 | `no-forced-colors-none` (global, not scoped to media query) | There are valid reasons to use this globally. We only check inside the `@media (forced-colors)` block. |
 | `prefer-focus-visible` | Using `:focus` is enough for WCAG. Complaining about it gives too many false errors. |
 | `no-display-none` (global) | `display: none` is fundamental CSS. Only warning on `.sr-only` / `.visually-hidden` selectors avoids drowning developers in noise. |
+
+---
+
+## Sources and Credits
+
+We stand on the shoulders of these projects and standards. Thank you.
+
+| Source | Reference |
+| --- | --- |
+| YozhikM/stylelint-a11y | [github.com/YozhikM/stylelint-a11y](https://github.com/YozhikM/stylelint-a11y) - the original Stylelint accessibility plugin that started it all |
+| double-great/stylelint-a11y | [github.com/double-great/stylelint-a11y](https://github.com/double-great/stylelint-a11y) - maintained fork that kept the torch burning |
+| axe-core (Deque) | [github.com/dequelabs/axe-core](https://github.com/dequelabs/axe-core) - target size, text spacing, hover-focus parity |
+| Eric Eggert | [yatil.net](https://yatil.net) - forced colors and focus ring patterns |
+| Scott O'Hara | [scottohara.me](https://scottohara.me) - list-style-none / VoiceOver research |
+| Adrian Roselli | [adrianroselli.com](https://adrianroselli.com) - overflow clipping, resize text |
+| Josh W. Comeau | [joshwcomeau.com](https://joshwcomeau.com) - rem vs px font sizing |
+| MDN Web Docs | [forced-color-adjust](https://developer.mozilla.org/en-US/docs/Web/CSS/forced-color-adjust) |
+| WCAG 2.1 | [SC 1.1.1](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content), [1.3.1](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships), [1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum), [1.4.4](https://www.w3.org/WAI/WCAG21/Understanding/resize-text), [1.4.8](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation), [1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast), [1.4.12](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing), [2.1.1](https://www.w3.org/WAI/WCAG21/Understanding/keyboard), [2.3.3](https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions), [2.4.7](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible) |
+| WCAG 2.2 | [SC 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum) |

@@ -15,15 +15,19 @@ Neighbor has rules for four different areas. Each area has its own page.
 
 ESLint rules that find bad ARIA code, missing names, keyboard traps, and HTML mistakes in React, Vue, Angular, Lit, and plain HTML. Full list → [RULES-MARKUP.md](RULES-MARKUP.md)
 
-**Errors (you must fix these):** `no-aria-label-on-generic`, `no-assertive-live-overuse`, `no-unblocked-aria-disabled`, `no-roles-without-name`, `no-group-without-name`, `no-presentation-on-focusable`, `no-log-with-interactive-children`, `no-aria-hidden-in-link`, `no-redundant-aria-hidden-with-presentation`, `no-aria-owns-on-void`, `no-title-as-label`, `no-tabs-without-structure`, `no-positive-tabindex`, `no-autoplay-without-controls`, `no-heading-inside-interactive`, `no-placeholder-only`, `no-empty-button`, `no-image-role-without-name`, `no-spinbutton-without-range`, `no-slider-without-range`, `no-combobox-without-expanded`, `no-mouse-only-events`, `no-listbox-without-option`, `no-tree-without-treeitem`, `no-feed-without-article`, `no-aria-activedescendant-without-id`, `no-duplicate-id`, `no-summary-without-details`, `no-aria-required-on-non-form`, `no-input-type-invalid`, `no-labelledby-missing-target`, `no-dynamic-content-without-live`, `form-field-multiple-labels`, `no-empty-table-header`, `no-disabled-and-aria-disabled`, `prefer-aria-disabled`
+### The Gap We're Filling
 
-**Warnings (these are usually bad):** `no-tooltip-role-misuse`, `no-menu-role-on-nav`, `no-button-type-missing`
+While React has enjoyed excellent accessibility linting through `eslint-plugin-jsx-a11y`, other frameworks like Vue, Angular, and Lit have historically lagged behind. `neighbor` bridges this gap. We've taken the most critical checks—along with new, advanced anti-patterns—and built a suite of framework-agnostic ESLint rules that bring native web components and non-React frameworks to full parity. 
 
-**Off by default (you can turn these on):** `no-application-role`, `no-grid-role`, `no-aria-roledescription`, `no-aria-readonly`, `no-tab-without-controls`, `no-href-hash`, `warn-role-alert`, `no-target-blank-without-label`, `no-dialog-without-close`
+Beyond standard checks, `neighbor` looks for complex interactions that other tools miss: broken focus management during single-page app routing, components dropping ARIA properties, and improper live region implementations.
 
-**Vue / Angular only:** `no-anchor-ambiguous-text`, `no-anchor-no-content`, `no-aria-activedescendant-no-tabindex`, `no-invalid-aria-prop-value`, `no-autocomplete-invalid`, `no-heading-no-content`, `no-iframe-no-title`, `no-img-redundant-alt`, `no-access-key`, `no-noninteractive-to-interactive-role`, `no-noninteractive-tabindex`, `prefer-semantic-element`, `no-role-supports-aria-props`, `no-scope-on-td`
+### Rule Development & Sources
 
-**@ulam only:** `no-announce-in-render`, `no-hash-router-in-remix`, `no-use-page-title-in-remix`
+Our markup rules are not based on opinion; they are synthesized directly from authoritative specifications and accessibility practitioners:
+
+- **Specifications**: Directly mapped to [WCAG 2.1](https://www.w3.org/TR/WCAG21/) and [WCAG 2.2](https://www.w3.org/TR/WCAG22/) Success Criteria, the [WAI-ARIA 1.2 Specification](https://www.w3.org/TR/wai-aria-1.2/), and the [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/).
+- **Practitioners**: Based on documented research and edge-case discoveries from accessibility experts including Adrian Roselli, Scott O'Hara, Heydon Pickering, Marcy Sutton, Patrick Lauke, and Karl Groves.
+- **Standards Integration**: Rule concepts originally spearheaded by Deque's `axe-core` and the `jsx-a11y` project were studied and reimplemented to work consistently across multiple framework ASTs (Vue templates, Angular templates, JSX, and Lit template literals).
 
 ---
 

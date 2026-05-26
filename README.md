@@ -1,32 +1,33 @@
 # @a11yfred/neighbor
 
-The a11yfred accessibility linter ecosystem, **neighbor**. This repository contains tools for React, Vue, Angular, Remix, Web Components, CSS, text, iOS (SwiftUI), Android (Jetpack Compose), and Microsoft Word. It uses ESLint, Stylelint, textlint, Vale, SwiftLint, and Android Lint.
+**neighbor** is an entire ecosystem of accessibility linters and related tools. It provides comprehensive, cross-platform accessibility checks that go far beyond standard tools.
 
-It adds new rules to base tools like `eslint-plugin-jsx-a11y`. It finds problems like bad ARIA code, wrong live regions, missing names, and bad CSS. It brings these strong checks to non-React frameworks like Vue, Angular, and Web Components.
+Whether you're writing markup for a web app, styling components with CSS, authoring content, or building native mobile applications, `neighbor` has you covered. It brings strong, unified accessibility checks to:
 
-**Beyond the web**, neighbor also ships:
+- **Markup (React, Vue, Angular, Remix, Web Components)**: By expanding on base tools like `eslint-plugin-jsx-a11y`, it finds complex issues like bad ARIA code, incorrect live regions, and missing names. More importantly, it brings these rigorous checks to non-React frameworks where accessibility linting has historically lagged behind.
+- **Styles (CSS)**: Fills a massive gap in modern CSS accessibility via Stylelint, catching problems like bad CSS that affects zoom, focus, and visual readability.
+- **Content and prose**: Checks documents for exclusionary and ableist language while you type, via a web app, **[Vale](https://vale.sh/)** package, or a **[Microsoft Word add-in](./apps/word-addin/README.md)**.
+- **Native iOS (WIP)**: Ships with **[Native iOS linting](./apps/ios-app/README.md)** using 9 custom SwiftLint rules for SwiftUI accessibility.
+- **Native Android (WIP)**: Ships with **[Native Android linting](./apps/android-app/README.md)** using 8 custom Android Lint rules for Jetpack Compose.
 
-- **[Native iOS linting](./apps/ios-app/README.md)** with 9 custom SwiftLint rules for SwiftUI accessibility.
-- **[Native Android linting](./apps/android-app/README.md)** with 8 custom Android Lint rules for Jetpack Compose.
-- **[A Microsoft Word add-in](./apps/word-addin/README.md)** that checks documents for exclusionary and ableist language while you type.
+Additionally, the following tools are currently in the works:
 
-Some rules are only for **@ulam**, an upcoming JavaScript framework. These rules will not run unless you use @ulam. They are safe to keep in other projects.
+- **Browser Extensions**: Live page checking via Chrome and Firefox extensions.
+- **Desktop App**: A standalone Electron app for running checks without needing command-line tools.
 
 > [!NOTE]
 > **AI Assisted Development**
 > All of the platform adaptations, browser extensions, native plugins, and ecosystem tooling in this repository were largely aided by AI. We could really use the community's help in testing these tools and verifying their real-world usefulness and quality!
 
-## Why Use Neighbor?
+## Why Use the Neighbor Ecosystem?
 
-Tools like axe-core and Lighthouse are great, but they only test your app *after* you build it. This makes fixing mistakes slow. **`neighbor` finds accessibility mistakes directly in your editor, while you type.**
+Standard tools like axe-core and Lighthouse are essential, but they only test your app *after* you build it. This makes fixing mistakes slow. **`neighbor` shifts accessibility left, finding mistakes directly in your editor across your entire stack.**
 
-Why choose `neighbor`?
-
-1. **More Rules:** It checks for complex problems. Standard tools check simple things like missing `alt` text. `neighbor` checks for harder problems, like missing close buttons on dialogs, broken tab menus, or React Fragments silently dropping `aria-*` props.
-2. **Same Rules for Every Framework:** If you switch from React to Vue or Angular, your linter often catches fewer mistakes. `neighbor` gives you the exact same strict rules for React, Vue, Angular, Remix, Lit Web Components, iOS, and Android.
-3. **CSS Accessibility — A Gap No One Else Fills:** The only CSS accessibility linter — `stylelint-a11y` — has been unmaintained since 2019. `neighbor` picks up where it left off with **18 CSS rules** mapped to WCAG Success Criteria, catching problems like hidden focus rings, clipped zoomed text, smooth scrolling without motion fallbacks, and `list-style: none` stripping Safari semantics. No other maintained tool does this.
-4. **Text and Content:** Accessibility is not just code. `neighbor` flags ableist language, vague calls-to-action, and confusing link text directly in your JS/TS string literals.
-5. **Ecosystem Integration:** Works natively across your entire stack via ESLint, Stylelint, textlint, Vale, Microsoft Word, Xcode (iOS), and Android Studio.
+1. **A Comprehensive Suite:** It checks for complex problems. Standard tools check simple things like missing `alt` text. `neighbor` checks for harder problems, like missing close buttons on dialogs, broken tab menus, or React Fragments silently dropping `aria-*` props.
+2. **Unified Rules Everywhere:** If you switch from React to Vue or Angular, your linter often catches fewer mistakes. `neighbor` gives you the exact same strict rules for React, Vue, Angular, Remix, Lit Web Components, iOS, and Android.
+3. **CSS Accessibility:** The only CSS accessibility linter — `stylelint-a11y` — has been unmaintained since 2019. `neighbor` provides **18 modern CSS rules** mapped to WCAG Success Criteria, catching problems like hidden focus rings, clipped zoomed text, smooth scrolling without motion fallbacks, and `list-style: none` stripping Safari semantics.
+4. **Text and Content Checking:** Accessibility is not just code. `neighbor` flags ableist language, vague calls-to-action, and confusing link text directly in your JS/TS string literals, markdown, or even Microsoft Word.
+5. **Native Mobile Integration:** Beyond the web, neighbor ships with custom rules for **iOS (SwiftUI)** and **Android (Jetpack Compose)**.
 
 ## Contents
 
@@ -44,7 +45,7 @@ Why choose `neighbor`?
 - [Ecosystem & Integrations](#ecosystem--integrations)
 - [Peer Dependencies](#peer-dependencies)
 - [Working With Standard Linters](#working-with-standard-linters)
-- [What Neighbor Adds](#what-neighbor-adds)
+- [What Neighbor Adds to the Ecosystem](#what-neighbor-adds-to-the-ecosystem)
   - [ESLint - Markup](#eslint---markup)
   - [Stylelint - CSS](#stylelint---css)
   - [Content Linter](#content-linter)
@@ -57,7 +58,7 @@ Why choose `neighbor`?
 
 ## Install
 
-All neighbor rules are packaged in a single install:
+All core `neighbor` rules are packaged in a single install to make adopting the suite as easy as possible:
 
 ```bash
 npm install --save-dev @a11yfred/neighbor
@@ -67,7 +68,7 @@ This gives you access to:
 
 - **ESLint plugins** via different entry points (`/eslint`, `/eslint-vue`, `/eslint-angular`, `/webcomponents`) for markup accessibility rules in your framework
 - **Stylelint plugin** via the default export or `/stylelint` alias for CSS accessibility rules
-- **Content rules** via `/content` for textlint linting of prose in JS/TS/JSX/TSX files
+- **Content rules** via `/content` for linting of prose in JS/TS/JSX/TSX files
 
 **Optional: Vale configuration** (for standalone prose/content linting outside of JavaScript):
 
@@ -389,17 +390,16 @@ export default [
 
 ## Ecosystem & Integrations
 
-`neighbor` extends beyond traditional JavaScript IDE linters into standalone applications and native platform integrations.
+`neighbor` is an expanding ecosystem that extends beyond traditional JavaScript IDE linters into standalone applications and native platform integrations.
 
 - **[Web App](https://a11yfred.github.io/neighbor)**: A web interface for the neighbor ecosystem.
+- **[Native iOS linting](./apps/ios-app/README.md)**: Custom SwiftLint rules for native iOS (SwiftUI) accessibility.
+- **[Native Android linting](./apps/android-app/README.md)**: Custom Android Lint rules for Jetpack Compose accessibility.
 - **[Microsoft Word Add-in](./apps/word-addin/README.md)**: An Office.js add-in that checks documents for exclusionary language while you type.
 - **[Vale Dictionary](./packages/neighbor/vale/neighbor)**: A compiled Vale-compatible dictionary containing our textlint content vocabulary for standalone Markdown checking.
 
-*WIP & Pre-launch:*
-- **[iOS App (SwiftUI)](./apps/ios-app/README.md)**: Custom SwiftLint rules for native iOS accessibility.
-- **[Android App (Jetpack Compose)](./apps/android-app/README.md)**: A standard Gradle lint module for native Android accessibility.
-
 *Upcoming:*
+
 - **Browser Extensions**: Chrome and Firefox plugins.
 - **Desktop App**: An Electron app that runs these checks.
 
@@ -419,13 +419,13 @@ All peers are optional. Install only what your project uses.
 
 The JavaScript ecosystem already has great tools (`eslint-plugin-jsx-a11y` for React, `eslint-plugin-vuejs-accessibility` for Vue, `@angular-eslint` for Angular, and `eslint-plugin-lit-a11y` for Lit).
 
-Neighbor is designed as a **gap-filler**. It automatically detects if you have the standard linter installed for your framework. If you do, it will disable any of its own redundant checks and only run the rules that the standard linter misses, ensuring you get maximum coverage without duplicate warnings. For a full list of omitted redundant rules, see the [Framework Omissions](packages/neighbor/RULES-MARKUP.md#framework-specific-omissions) section.
+As part of providing a cohesive ecosystem, `neighbor` automatically integrates with them. It detects if you have the standard linter installed for your framework. If you do, it will disable any of its own redundant checks and only run the rules that the standard linter misses, ensuring you get maximum coverage without duplicate warnings. For a full list of omitted redundant rules, see the [Framework Omissions](packages/neighbor/RULES-MARKUP.md#framework-specific-omissions) section.
 
-## What Neighbor Adds
+## What Neighbor Adds to the Ecosystem
 
-Because `neighbor` is designed as a "gap-filler", it assumes you are running it alongside the standard linters for your framework.
+`neighbor` elevates your existing tools by bringing advanced checks and unifying your accessibility linting strategy across every domain.
 
-| Framework | Standard A11y Linter | `neighbor` Gap Coverage (Rules not in standard linter) |
+| Framework / Domain | Ecosystem Integration | `neighbor` Enhanced Coverage (Rules not in standard tools) |
 | :--- | :--- | :--- |
 | **@ulam** | *N/A (Internal framework)* | **3 specific rules** <br/>*(Checks for `announce()` abuse in render loops and router collisions)* |
 | **Android (Compose)** | Android Lint (built-in) | **8 custom UAST rules** <br/>*(Checks specifically for `Modifier` chain accessibility, `pointerInput` semantics, and TalkBack traversal groups)* |
@@ -495,7 +495,7 @@ See **[Markup Rules](packages/neighbor/RULES-MARKUP.md)** for ESLint rules cover
 
 ### Stylelint - CSS
 
-CSS accessibility linting has been an unsolved problem in the JavaScript ecosystem. The only dedicated tool — `stylelint-a11y` — went unmaintained in 2019 and no successor emerged. **Neighbor fills this gap** with 18 rules built from scratch for modern Stylelint (v14+), each mapped to a specific WCAG Success Criterion. It covers focus rings, High Contrast Mode, motion preferences, target size, text spacing, overflow clipping, list semantics, font sizing, screen-reader visibility, and more.
+CSS accessibility linting has been an unsolved problem in the JavaScript ecosystem. The only dedicated tool — `stylelint-a11y` — went unmaintained in 2019 and no successor emerged. **Neighbor fills this gap in the ecosystem** with 18 rules built from scratch for modern Stylelint (v14+), each mapped to a specific WCAG Success Criterion. It covers focus rings, High Contrast Mode, motion preferences, target size, text spacing, overflow clipping, list semantics, font sizing, screen-reader visibility, and more.
 
 See **[CSS Rules](packages/neighbor/RULES-CSS.md)** for the full rule reference, WCAG mappings, and migration notes for `stylelint-a11y` users.
 
@@ -505,20 +505,19 @@ Neighbor's exact content rule sets, including which rules are errors vs warnings
 
 See **[Content Rules](packages/neighbor/RULES-CONTENT.md)** for Textlint rules flagging ableist language, confusing CTAs, jargon, and inclusion problems in web and app copy (works on string literals and JSX text in JS/TS/JSX/TSX files).
 
-
 ## Roadmap
 
-Future plans for neighbor:
+Future plans for the neighbor ecosystem:
 
 ### In Development
 
 - [ ] **Browser extensions**: Chrome and Firefox plugins to check pages live.
+- [ ] **Desktop app (Electron)**: A desktop app that runs these checks.
 - `[x]` **iOS app**: [Accessibility checking for iOS apps (SwiftUI)](./apps/ios-app/README.md).
 - `[x]` **Android app**: [Accessibility checking for Android apps (Compose)](./apps/android-app/README.md).
-- [ ] **Desktop app (Electron)**: A desktop app that runs these checks.
 - `[x]` **Microsoft Word add-in**: [Check documents while you type in Word](./apps/word-addin/README.md).
 
-### Planned
+### Ideas
 
 - [ ] More editor plugins (VS Code, Sublime Text, Xcode, Android Studio, etc.).
 

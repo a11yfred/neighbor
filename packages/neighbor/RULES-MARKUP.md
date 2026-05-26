@@ -4,24 +4,7 @@ ESLint rules for React, Remix, Vue, Angular, Lit, and plain HTML.
 
 → [CSS rules](RULES-CSS.md) · [Content rules](RULES-CONTENT.md) · [Back to RULES.md](RULES.md)
 
-## Sources and Credits
-
-| Source | Reference |
-| --- | --- |
-| Adrian Roselli | [adrianroselli.com](https://adrianroselli.com) |
-| ARIA 1.2 spec | [w3.org/TR/wai-aria-1.2](https://www.w3.org/TR/wai-aria-1.2/) |
-| Deque / axe-core | deque.com: rule concepts reimplemented independently under MPL-2.0 |
-| Eric Eggert | [yatil.net](https://yatil.net) |
-| Heydon Pickering | [heydonworks.com](https://heydonworks.com), [inclusive-components.design](https://inclusive-components.design) |
-| HTML Living Standard | [html.spec.whatwg.org](https://html.spec.whatwg.org/) |
-| Karl Groves | [karlgroves.com](https://karlgroves.com) |
-| Marcy Sutton | [marcysutton.com](https://marcysutton.com) |
-| Patrick Lauke | [splintered.co.uk](https://splintered.co.uk), [patrickhlauke.github.io/aria](https://patrickhlauke.github.io/aria) |
-| Scott O'Hara | [scottohara.me](https://scottohara.me) |
-| WAI-ARIA APG | [w3.org/WAI/ARIA/apg](https://www.w3.org/WAI/ARIA/apg/) |
-| WCAG 2.1 | [w3.org/TR/WCAG21](https://www.w3.org/TR/WCAG21/) |
-| WCAG 2.2 | [w3.org/TR/WCAG22](https://www.w3.org/TR/WCAG22/) |
-| WebAIM Million | [webaim.org/projects/million](https://webaim.org/projects/million/) |
+[View the full list of sources and credits at the bottom of this page.](#sources-and-credits)
 
 ---
 
@@ -229,3 +212,24 @@ The `no-announce-in-render` rule runs in React, Vue, and Angular plugins with sa
 | `no-generated-content-text` | We cannot tell if CSS generated content is decorative or important. |
 | `no-scrollable-without-focusable` | We cannot read CSS to see if an element scrolls. |
 | `require-menu-owned-menuitem` / `require-listbox-owned-option` | In React/Vue, children are often hidden while loading. This would give too many false errors. |
+
+---
+
+## Sources and Credits
+
+| Source | Reference |
+| --- | --- |
+| Adrian Roselli | [adrianroselli.com](https://adrianroselli.com) |
+| ARIA 1.2 spec | [w3.org/TR/wai-aria-1.2](https://www.w3.org/TR/wai-aria-1.2/) |
+| Deque / axe-core | deque.com: rule concepts reimplemented independently under MPL-2.0 |
+| Eric Eggert | [yatil.net](https://yatil.net) |
+| Heydon Pickering | [heydonworks.com](https://heydonworks.com), [inclusive-components.design](https://inclusive-components.design) |
+| HTML Living Standard | [html.spec.whatwg.org](https://html.spec.whatwg.org/) |
+| Karl Groves | [karlgroves.com](https://karlgroves.com) |
+| Marcy Sutton | [marcysutton.com](https://marcysutton.com) |
+| Patrick Lauke | [splintered.co.uk](https://splintered.co.uk), [patrickhlauke.github.io/aria](https://patrickhlauke.github.io/aria) |
+| Scott O'Hara | [scottohara.me](https://scottohara.me) |
+| WAI-ARIA APG | [w3.org/WAI/ARIA/apg](https://www.w3.org/WAI/ARIA/apg/) |
+| WCAG 2.1 | [w3.org/TR/WCAG21](https://www.w3.org/TR/WCAG21/) |
+| WCAG 2.2 | [w3.org/TR/WCAG22](https://www.w3.org/TR/WCAG22/) |
+| WebAIM Million | [webaim.org/projects/million](https://webaim.org/projects/million/) |

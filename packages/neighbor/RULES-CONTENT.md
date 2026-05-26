@@ -43,63 +43,13 @@ These rules are synthesized from **42 authoritative sources** across three main 
 - **Journalism & Editorial (7 sources)**: Stylebooks and publishing standards including the AP Stylebook, Trans Journalists Association (TJA), National Association of Hispanic Journalists (NAHJ), BBC Academy / News style guides, and The New York Times Manual of Style and Usage.
 - **Academic, Technical & Corporate (15 sources)**: Directives and style guides from the APA, SIGACCESS, Google, Microsoft, IBM, Salesforce, and Mailchimp.
 
-Where sources conflict, W3C WAI wins.
-
-### Global Standards
-
-| Source | URL |
-| --- | --- |
-| W3C WAI Writing Tips | [w3.org/WAI/tips/writing](https://www.w3.org/WAI/tips/writing/) - primary authority |
-| WCAG 2.2 | [w3.org/TR/WCAG22](https://www.w3.org/TR/WCAG22/) |
-| wcag.com/authors | [wcag.com/authors](https://wcag.com/authors/) |
-| United Nations | [un.org/en/gender-inclusive-language](https://www.un.org/en/gender-inclusive-language/) / [Disability-Inclusive Language Guidelines](https://www.un.org/en/content/disability-inclusive-language-guidelines/) |
-
-### English-speaking Governments
-
-| Country | Source |
-| --- | --- |
-| Australia | [Australian Government Style Manual - Accessible and Inclusive Content](https://www.stylemanual.gov.au/accessible-and-inclusive-content) |
-| Canada | [Government of Canada - Guidelines for Creating Accessible Documents](https://accessible.canada.ca/guidelines-creating-accessible-documents) |
-| Singapore | [GovTech Singapore Writing Style Guide](https://www.developer.tech.gov.sg/) |
-| United Kingdom | [GOV.UK - Publishing Accessible Documents](https://www.gov.uk/guidance/publishing-accessible-documents) |
-| United Kingdom | [DWP Accessibility Manual](https://accessibility-manual.dwp.gov.uk/best-practice/writing-content) |
-| New Zealand | [digital.govt.nz - Content design guidance](https://www.digital.govt.nz/standards-and-guidance/design-and-ux/content-design-guidance/) / Plain Language Act 2022 |
-| South Africa | [GCIS Style Guide for Government Communicators](https://www.gcis.gov.za/) / [SAHRC Equality Guidelines](https://www.sahrc.org.za/) |
-| United Kingdom | [GOV.UK Communications - accessible communications resources](https://www.communications.gov.uk/guidance/accessible-communications/accessible-communications-learning-and-resources/) |
-| United States | [plainlanguage.gov](https://www.plainlanguage.gov) / [digital.gov/guides/plain-language](https://digital.gov/guides/plain-language) |
-| United States | [SBA Content Style Guide](https://advocacy.sba.gov/office-of-advocacy-content-style-guide/writing-accessible-content/) |
-
-### Disability Language Authorities
-
-| Source | URL | Notes |
-| --- | --- | --- |
-| ADA National Network | [adata.org/factsheet/ADANN-writing](https://adata.org/factsheet/ADANN-writing) | U.S. legal/advocacy context |
-| AP Stylebook - Disability | [amdisrights.org/ap-stylebook-primer-on-disability](https://amdisrights.org/ap-stylebook-primer-on-disability) | Wire journalism standard |
-| APA Style - Disability | [apastyle.apa.org - bias-free language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability) | Academic publishing standard |
-| Léonie Watson | [tink.uk](https://tink.uk) | Blind web standards engineer; cited by Steenhout: *"There is no right or wrong answer because it is a matter of personal choice, and the choice depends on context."* |
-| NCDJ Disability Language Style Guide | [cronkite.asu.edu/ncdj](https://cronkite.asu.edu/ncdj/disability-language-style-guide) | Journalism standard; updated regularly |
-| Nicolas Steenhout | [incl.ca - Disability Language Is a Nuanced Thing](https://incl.ca/disability-language-is-a-nuanced-thing/) | Practitioner perspective; *Nothing About Us Without Us* principle; identity-first vs person-first as community choice, not external rule; cites Léonie Watson |
-| SIGACCESS Accessible Writing Guide | [sigaccess.org](https://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/) | Computing research community |
-
-### Technical and UX Writing
-
-| Source | URL |
-| --- | --- |
-| A11y Collective | [a11y-collective.com - Accessible Writing](https://www.a11y-collective.com/blog/accessible-writing/) |
-| Google Developer Style Guide | [developers.google.com/style/accessibility](https://developers.google.com/style/accessibility) |
-| Grammarly | Clarity and passive voice patterns |
-| Hemingway Editor | Sentence length and readability grade |
-| IBM Style Guide | [ibm.com/design/language/writing](https://www.ibm.com/design/language/writing/) |
-| Mailchimp Content Style Guide | [styleguide.mailchimp.com](https://styleguide.mailchimp.com/) |
-| Salesforce Style Guide | [developer.salesforce.com/docs](https://developer.salesforce.com/docs/) |
-| Section 508 | [section508.gov - Alternative Text](https://www.section508.gov/create/alternative-text/) |
-| Shopify Polaris | [polaris.shopify.com/content](https://polaris.shopify.com/content/) |
-| SJSU Writing Center | [sjsu.edu - Accessible Writing Strategies](https://www.sjsu.edu/writingcenter/docs/handouts/Accessible%20Writing%20Strategies.pdf) |
-| UX Content Co. | [uxcontent.com - Accessible UX Writing](https://uxcontent.com/accessible-ux-writing-a-guide-for-inclusive-content-design/) |
+Where sources conflict, W3C WAI wins.[View the full list of sources and URLs at the bottom of this page.](#full-source-list)
 
 ### Source Abbreviations
 
 When rule tables cite sources, they use these abbreviations:
+
+<details><summary>Show source abbreviations</summary>
 
 | Abbreviation | Source |
 | --- | --- |
@@ -147,6 +97,8 @@ When rule tables cite sources, they use these abbreviations:
 | W3C WAI | W3C WAI Writing Tips |
 | WCAG 2.2 | WCAG 2.2 specification |
 | WHO | World Health Organization |
+
+</details>ation |
 
 ---
 
@@ -686,3 +638,59 @@ Finds error messages that do not explain what is wrong.
 | Placeholder used as label | Overlaps with `jsx-a11y/label-has-associated-control`. Check that rule first before enabling here. |
 | Reading grade level | Cannot be computed accurately from string literals in a JS AST without analysing full document context. Better measured by Hemingway on full page text. |
 | Sentence length | A 25-word threshold is the most commonly cited guideline (Google Dev Style, GOV.UK). However, compound technical sentences often need to exceed this. A sentence-length rule would require calibration per content type and is better suited to a prose editor than a code linter. |
+
+---
+
+## Full Source List
+
+### Global Standards
+
+| Source | URL |
+| --- | --- |
+| W3C WAI Writing Tips | [w3.org/WAI/tips/writing](https://www.w3.org/WAI/tips/writing/) - primary authority |
+| WCAG 2.2 | [w3.org/TR/WCAG22](https://www.w3.org/TR/WCAG22/) |
+| wcag.com/authors | [wcag.com/authors](https://wcag.com/authors/) |
+| United Nations | [un.org/en/gender-inclusive-language](https://www.un.org/en/gender-inclusive-language/) / [Disability-Inclusive Language Guidelines](https://www.un.org/en/content/disability-inclusive-language-guidelines/) |
+
+### English-speaking Governments
+
+| Country | Source |
+| --- | --- |
+| Australia | [Australian Government Style Manual - Accessible and Inclusive Content](https://www.stylemanual.gov.au/accessible-and-inclusive-content) |
+| Canada | [Government of Canada - Guidelines for Creating Accessible Documents](https://accessible.canada.ca/guidelines-creating-accessible-documents) |
+| Singapore | [GovTech Singapore Writing Style Guide](https://www.developer.tech.gov.sg/) |
+| United Kingdom | [GOV.UK - Publishing Accessible Documents](https://www.gov.uk/guidance/publishing-accessible-documents) |
+| United Kingdom | [DWP Accessibility Manual](https://accessibility-manual.dwp.gov.uk/best-practice/writing-content) |
+| New Zealand | [digital.govt.nz - Content design guidance](https://www.digital.govt.nz/standards-and-guidance/design-and-ux/content-design-guidance/) / Plain Language Act 2022 |
+| South Africa | [GCIS Style Guide for Government Communicators](https://www.gcis.gov.za/) / [SAHRC Equality Guidelines](https://www.sahrc.org.za/) |
+| United Kingdom | [GOV.UK Communications - accessible communications resources](https://www.communications.gov.uk/guidance/accessible-communications/accessible-communications-learning-and-resources/) |
+| United States | [plainlanguage.gov](https://www.plainlanguage.gov) / [digital.gov/guides/plain-language](https://digital.gov/guides/plain-language) |
+| United States | [SBA Content Style Guide](https://advocacy.sba.gov/office-of-advocacy-content-style-guide/writing-accessible-content/) |
+
+### Disability Language Authorities
+
+| Source | URL | Notes |
+| --- | --- | --- |
+| ADA National Network | [adata.org/factsheet/ADANN-writing](https://adata.org/factsheet/ADANN-writing) | U.S. legal/advocacy context |
+| AP Stylebook - Disability | [amdisrights.org/ap-stylebook-primer-on-disability](https://amdisrights.org/ap-stylebook-primer-on-disability) | Wire journalism standard |
+| APA Style - Disability | [apastyle.apa.org - bias-free language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability) | Academic publishing standard |
+| Léonie Watson | [tink.uk](https://tink.uk) | Blind web standards engineer; cited by Steenhout: *"There is no right or wrong answer because it is a matter of personal choice, and the choice depends on context."* |
+| NCDJ Disability Language Style Guide | [cronkite.asu.edu/ncdj](https://cronkite.asu.edu/ncdj/disability-language-style-guide) | Journalism standard; updated regularly |
+| Nicolas Steenhout | [incl.ca - Disability Language Is a Nuanced Thing](https://incl.ca/disability-language-is-a-nuanced-thing/) | Practitioner perspective; *Nothing About Us Without Us* principle; identity-first vs person-first as community choice, not external rule; cites Léonie Watson |
+| SIGACCESS Accessible Writing Guide | [sigaccess.org](https://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/) | Computing research community |
+
+### Technical and UX Writing
+
+| Source | URL |
+| --- | --- |
+| A11y Collective | [a11y-collective.com - Accessible Writing](https://www.a11y-collective.com/blog/accessible-writing/) |
+| Google Developer Style Guide | [developers.google.com/style/accessibility](https://developers.google.com/style/accessibility) |
+| Grammarly | Clarity and passive voice patterns |
+| Hemingway Editor | Sentence length and readability grade |
+| IBM Style Guide | [ibm.com/design/language/writing](https://www.ibm.com/design/language/writing/) |
+| Mailchimp Content Style Guide | [styleguide.mailchimp.com](https://styleguide.mailchimp.com/) |
+| Salesforce Style Guide | [developer.salesforce.com/docs](https://developer.salesforce.com/docs/) |
+| Section 508 | [section508.gov - Alternative Text](https://www.section508.gov/create/alternative-text/) |
+| Shopify Polaris | [polaris.shopify.com/content](https://polaris.shopify.com/content/) |
+| SJSU Writing Center | [sjsu.edu - Accessible Writing Strategies](https://www.sjsu.edu/writingcenter/docs/handouts/Accessible%20Writing%20Strategies.pdf) |
+| UX Content Co. | [uxcontent.com - Accessible UX Writing](https://uxcontent.com/accessible-ux-writing-a-guide-for-inclusive-content-design/) |

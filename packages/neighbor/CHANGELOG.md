@@ -4,6 +4,46 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.2.0] - 2026-05-26
+
+### Documentation
+
+- **README Rewrite**: Reframed the README to emphasize `neighbor` as a comprehensive, cross-platform accessibility ecosystem rather than just a gap-filler.
+- **Framework Selling Points**: Added explicit context to the Vue and Angular setup sections explaining how their standard accessibility plugins lag behind React, and how `neighbor` bridges that gap.
+- **Rules Formatting**: Moved "Sources and Credits" tables to the bottom of `RULES-MARKUP.md`, `RULES-CSS.md`, and `RULES-CONTENT.md` for better readability, adding anchor links and collapsible abbreviations.
+- **Ecosystem Updates**: Linked Vale package, marked native iOS and Android tools as WIP, and added Browser Extensions and Desktop App to the in-works list.
+
+## [2.1.1] - 2026-05-25
+
+### Changed
+
+- **Publish Workflow**: Fixed npm publish workflow to include all packages and allow manual triggers.
+- **Documentation**: Lowercased `@a11yfred` mentions across documentation.
+
+## [2.1.0] - 2026-05-25
+
+### Added
+
+- **Vale Configuration**: Added initial Vale configuration file (`vale.ini`).
+
+### Changed
+
+- **Housekeeping**: Monorepo cleanup, including removing tracked turbo caches, removing vendored `uri-js`, and normalizing CRLF to LF.
+- **Dependencies**: Configured Dependabot and updated npm, turbo, and other dependencies to resolve security vulnerabilities.
+- **CI/CD**: Refactored CodeQL workflows to prevent duplicate scanning and exclude `node_modules`. Added npm install and build steps to publish workflow.
+
+## [2.0.1] - 2026-05-24
+
+### Added
+
+- **Neighbor Web App**: Created the standalone web application (`apps/webapp`) using `@ulam/ube` and rules integration for live testing.
+- **GitHub Pages**: Added deployment workflow and relative base path configuration to automatically publish the web app.
+
+### Changed
+
+- **Web App Enhancements**: Adopted system theme, improved mobile layout (stacked editor with scroll limits, resolved height collapse), and polished general UI (drawers, headers, persistent sidebar).
+- **Refactoring**: Improved code structure for readability and maintainability.
+
 ## [2.0.0] - 2026-05-24
 
 ### Added

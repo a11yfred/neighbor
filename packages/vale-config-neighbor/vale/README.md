@@ -67,26 +67,7 @@ Nicolas Steenhout ([incl.ca](https://incl.ca/disability-language-is-a-nuanced-th
 
 ---
 
-## Sources
-
-Rules were included only when the pattern appeared in three or more independent authoritative sources, or a WCAG Success Criterion directly applied.
-
-- WCAG 2.2 - w3.org/WAI/WCAG22/Understanding
-- W3C WAI Writing Tips - w3.org/WAI/tips/writing/
-- Google Developer Style Guide - developers.google.com/style/accessibility
-- US Plain Language Guide - plainlanguage.gov
-- SBA Office of Advocacy Style Guide - advocacy.sba.gov
-- GOV.UK Publishing Accessible Documents - gov.uk/guidance/publishing-accessible-documents
-- Government of Canada Accessible Documents - accessible.canada.ca
-- NCDJ Disability Language Style Guide - cronkite.asu.edu/ncdj/disability-language-style-guide
-- AP Stylebook - amdisrights.org/ap-stylebook-primer-on-disability
-- ADA National Network - adata.org/factsheet/ADANN-writing
-- APA Style Bias-Free Language - apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability
-- SIGACCESS Accessible Writing Guide - sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/
-- A11y Collective - a11y-collective.com/blog/accessible-writing/
-- UX Content Co. - uxcontent.com/accessible-ux-writing-a-guide-for-inclusive-content-design/
-- SJSU Writing Center - sjsu.edu/writingcenter/
-- Nicolas Steenhout - incl.ca/disability-language-is-a-nuanced-thing/
+[View the full list of sources at the bottom of this page.](#sources)
 
 ---
 
@@ -108,3 +89,26 @@ node packages/neighbor/scripts/generate-vale.mjs
 ## License
 
 MIT
+
+---
+
+## Sources
+
+Rules were included only when the pattern appeared in three or more independent authoritative sources, or a WCAG Success Criterion directly applied.
+
+- WCAG 2.2 - w3.org/WAI/WCAG22/Understanding
+- W3C WAI Writing Tips - w3.org/WAI/tips/writing/
+- Google Developer Style Guide - developers.google.com/style/accessibility
+- US Plain Language Guide - plainlanguage.gov
+- SBA Office of Advocacy Style Guide - advocacy.sba.gov
+- GOV.UK Publishing Accessible Documents - gov.uk/guidance/publishing-accessible-documents
+- Government of Canada Accessible Documents - accessible.canada.ca
+- NCDJ Disability Language Style Guide - cronkite.asu.edu/ncdj/disability-language-style-guide
+- AP Stylebook - amdisrights.org/ap-stylebook-primer-on-disability
+- ADA National Network - adata.org/factsheet/ADANN-writing
+- APA Style Bias-Free Language - apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability
+- SIGACCESS Accessible Writing Guide - sigaccess.org/welcome-to-sigaccess/resources/accessible-writing-guide/
+- A11y Collective - a11y-collective.com/blog/accessible-writing/
+- UX Content Co. - uxcontent.com/accessible-ux-writing-a-guide-for-inclusive-content-design/
+- SJSU Writing Center - sjsu.edu/writingcenter/
+- Nicolas Steenhout - incl.ca/disability-language-is-a-nuanced-thing/
