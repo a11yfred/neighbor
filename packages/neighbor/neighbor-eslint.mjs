@@ -29,7 +29,7 @@
  */
 
 import { h } from '@a11yfred/neighbor/lib/helpers-jsx.js'
-import { buildRules, buildRecommendedRules, buildReactFrameworkRules } from '@a11yfred/neighbor/lib/rules.js'
+import { buildRules, buildRecommendedRules, buildReactFrameworkRules, buildRemixFrameworkRules, buildVueFrameworkRules, buildAngularFrameworkRules, buildWebComponentsFrameworkRules } from '@a11yfred/neighbor/lib/rules.js'
 import { buildUlamRules, buildUlamRecommendedRules } from '@a11yfred/neighbor/lib/ulam-rules.js'
 
 const NS = '@a11yfred/neighbor'
@@ -56,8 +56,27 @@ export default {
         'jsx-a11y/no-redundant-roles': 'off',
         ...buildRecommendedRules(NS),
         ...buildUlamRecommendedRules(NS),
-        ...buildReactFrameworkRules(NS),
       },
+    },
+    react: {
+      plugins: { [NS]: plugin },
+      rules: { ...buildReactFrameworkRules(NS) },
+    },
+    remix: {
+      plugins: { [NS]: plugin },
+      rules: { ...buildRemixFrameworkRules(NS) },
+    },
+    vue: {
+      plugins: { [NS]: plugin },
+      rules: { ...buildVueFrameworkRules(NS) },
+    },
+    angular: {
+      plugins: { [NS]: plugin },
+      rules: { ...buildAngularFrameworkRules(NS) },
+    },
+    webcomponents: {
+      plugins: { [NS]: plugin },
+      rules: { ...buildWebComponentsFrameworkRules(NS) },
     },
   },
 }

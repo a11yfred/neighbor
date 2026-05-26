@@ -21,6 +21,17 @@
  */
 
 import {
+  makeReactFragmentNoAriaProps,
+  makeReactSpaFocusManagement,
+  makeRemixRouteAnnouncerMissing,
+  makeVueRouterFocusManagement,
+  makeAngularRouteAnnouncer,
+  makeAngularClickKeyEvents,
+  makeWcDelegatesFocus,
+  makeWcShadowAriaIdref,
+} from './framework-rules.js'
+
+import {
   INTERACTIVE_ELEMENTS,
   INTERACTIVE_ROLES,
   GENERIC_CONTAINERS,
@@ -2787,7 +2798,15 @@ export const RULE_FACTORIES = {
   'vue-router-focus-management':                makeVueRouterFocusManagement,
   // React-specific JSX rules  -  included in React/Remix configs only
   'react-fragment-ruins-aria':                  makeReactFragmentRuinsAria,
+  'react-fragment-no-aria-props':               makeReactFragmentNoAriaProps,
   'react-spa-focus-management':                 makeReactSpaFocusManagement,
+  'remix-route-announcer-missing':              makeRemixRouteAnnouncerMissing,
+  // Angular-specific template rules
+  'angular-route-announcer':                    makeAngularRouteAnnouncer,
+  'angular-click-key-events':                   makeAngularClickKeyEvents,
+  // Web Components rules
+  'wc-delegates-focus':                         makeWcDelegatesFocus,
+  'wc-shadow-aria-idref':                       makeWcShadowAriaIdref,
 }
 
 /** Build the rules map for a plugin by applying helpers to all factories. */
@@ -2891,10 +2910,35 @@ export function buildVueFrameworkRules(ns) {
   }
 }
 
-/** Build React/Remix-specific JSX rules (fragment hierarchy, etc.). */
+/** Build React-specific JSX rules (fragment hierarchy, etc.). */
 export function buildReactFrameworkRules(ns) {
   return {
     [`${ns}/react-fragment-ruins-aria`]: 'warn',
+    [`${ns}/react-fragment-no-aria-props`]: 'error',
     [`${ns}/react-spa-focus-management`]: 'warn',
+  }
+}
+
+/** Build Remix-specific JSX rules. */
+export function buildRemixFrameworkRules(ns) {
+  return {
+    ...buildReactFrameworkRules(ns),
+    [`${ns}/remix-route-announcer-missing`]: 'error',
+  }
+}
+
+/** Build Angular-specific template rules. */
+export function buildAngularFrameworkRules(ns) {
+  return {
+    [`${ns}/angular-route-announcer`]: 'error',
+    [`${ns}/angular-click-key-events`]: 'error',
+  }
+}
+
+/** Build Web Components-specific rules. */
+export function buildWebComponentsFrameworkRules(ns) {
+  return {
+    [`${ns}/wc-delegates-focus`]: 'warn',
+    [`${ns}/wc-shadow-aria-idref`]: 'error',
   }
 }

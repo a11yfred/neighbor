@@ -22,10 +22,11 @@ Tools like axe-core and Lighthouse are great, but they only test your app *after
 
 Why choose `neighbor`?
 
-1. **More Rules:** It checks for complex problems. Standard tools check simple things like missing `alt` text. `neighbor` checks for harder problems, like missing close buttons on dialogs or broken tab menus.
-2. **Same Rules for Every Framework:** If you switch from React to Vue or Angular, your linter often catches fewer mistakes. `neighbor` gives you the exact same strict rules for React, Vue, Angular, Lit Web Components, iOS, and Android.
-3. **CSS and Text:** Accessibility is not just HTML. `neighbor` also finds bad CSS (like hiding focus outlines) and bad text (like ableist words or confusing links).
-4. **Ecosystem Integration:** Works natively across your entire stack via ESLint, Stylelint, textlint, Vale, Microsoft Word, Xcode (iOS), and Android Studio.
+1. **More Rules:** It checks for complex problems. Standard tools check simple things like missing `alt` text. `neighbor` checks for harder problems, like missing close buttons on dialogs, broken tab menus, or React Fragments silently dropping `aria-*` props.
+2. **Same Rules for Every Framework:** If you switch from React to Vue or Angular, your linter often catches fewer mistakes. `neighbor` gives you the exact same strict rules for React, Vue, Angular, Remix, Lit Web Components, iOS, and Android.
+3. **CSS Accessibility — A Gap No One Else Fills:** The only CSS accessibility linter — `stylelint-a11y` — has been unmaintained since 2019. `neighbor` picks up where it left off with **18 CSS rules** mapped to WCAG Success Criteria, catching problems like hidden focus rings, clipped zoomed text, smooth scrolling without motion fallbacks, and `list-style: none` stripping Safari semantics. No other maintained tool does this.
+4. **Text and Content:** Accessibility is not just code. `neighbor` flags ableist language, vague calls-to-action, and confusing link text directly in your JS/TS string literals.
+5. **Ecosystem Integration:** Works natively across your entire stack via ESLint, Stylelint, textlint, Vale, Microsoft Word, Xcode (iOS), and Android Studio.
 
 ## Contents
 
@@ -102,7 +103,7 @@ What you get:
 | --- | --- |
 | Content linter (`@a11yfred/neighbor/content`) | JS strings: ableist language, vague CTAs, unexplained abbreviations, idioms, all-caps prose |
 | ESLint (`@a11yfred/neighbor/webcomponents`) | Markup: Native HTML elements and Lit templates for ARIA misuse, missing labels, etc. |
-| Stylelint (`@a11yfred/neighbor`) | CSS: bare `outline: none`, forced-colors opt-out, motion/transparency without `prefers-*` fallbacks |
+| Stylelint (`@a11yfred/neighbor`) | CSS: 18 rules covering focus rings, High Contrast Mode, motion preferences, target size, text spacing, `list-style` semantics, overflow clipping, font sizing, and more |
 
 **Stylelint setup** (CSS only, no framework needed):
 
@@ -434,6 +435,7 @@ Because `neighbor` is designed as a "gap-filler", it assumes you are running it 
 | **Remix** | `eslint-plugin-jsx-a11y` | **~31 rules** <br/>*(30 core rules + Remix missing `meta` title)* |
 | **Vanilla HTML** | `@html-eslint/eslint-plugin` | **~50 rules** <br/>*(30 core rules + 20 portability rules applied directly to `.html` AST)* |
 | **Vue** | `eslint-plugin-vuejs-accessibility` | **~53 rules** <br/>*(30 core rules + 20 portability rules missing from Vue standard + 3 Vue-specific rules like `<Transition>` live regions)* |
+| **CSS (Stylelint)** | *None maintained* | **18 rules** <br/>*(Focus rings, motion preferences, text spacing, target size, overflow clipping, list semantics, font sizing, and more — filling the gap left by the unmaintained `stylelint-a11y`)* |
 
 ## Rule Severity
 
@@ -493,9 +495,9 @@ See **[Markup Rules](packages/neighbor/RULES-MARKUP.md)** for ESLint rules cover
 
 ### Stylelint - CSS
 
-Neighbor's exact CSS rule sets, including which rules are errors vs warnings and how they map to WCAG Success Criteria, are documented in our dedicated rule page.
+CSS accessibility linting has been an unsolved problem in the JavaScript ecosystem. The only dedicated tool — `stylelint-a11y` — went unmaintained in 2019 and no successor emerged. **Neighbor fills this gap** with 18 rules built from scratch for modern Stylelint (v14+), each mapped to a specific WCAG Success Criterion. It covers focus rings, High Contrast Mode, motion preferences, target size, text spacing, overflow clipping, list semantics, font sizing, screen-reader visibility, and more.
 
-See **[CSS Rules](packages/neighbor/RULES-CSS.md)** for Stylelint rules covering focus rings, high contrast mode, and motion preferences.
+See **[CSS Rules](packages/neighbor/RULES-CSS.md)** for the full rule reference, WCAG mappings, and migration notes for `stylelint-a11y` users.
 
 ### Content Linter
 

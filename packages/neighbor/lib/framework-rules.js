@@ -1,282 +1,239 @@
-/**
- * neighbor/lib/framework-rules.js
- * Framework-specific ESLint rules using standard JS/TS AST visitors.
- *
- * Unlike rules.js (which uses template AST visitors via helpers-jsx/vue/angular),
- * these rules target the JavaScript/TypeScript AST and are scoped to specific
- * frameworks via their dedicated plugin config files.
- *
- * Rules:
- *   remix-route-title-missing   → neighbor-eslint-remix3.mjs only
- *   angular-host-a11y           → neighbor-eslint-angular.mjs only (TS files)
- */
-
-// ─── remix-route-title-missing ───────────────────────────────────────────────
-
-/**
- * Ensures every Remix v2/v3 route module exports a meta() function
- * that includes a title property. Without this, navigating to the route
- * leaves the document title unchanged - screen readers announce nothing.
- *
- * Applies only to files matching: app/routes/**
- */
-export const remixRouteTitleMissing = {
-  meta: {
-    type: 'problem',
-    docs: {
-      description:
-        'Require a `title` in the exported `meta` function in Remix route files  -  screen readers announce the document title on navigation.',
-    },
-    messages: {
-      missingMeta:
-        'Remix route is missing an exported `meta` function. Screen readers announce the document title on page navigation  -  add `export const meta = () => [{ title: "Page Name" }]`. (WCAG SC 2.4.2)',
-      missingTitle:
-        'Remix route `meta` export must include a `{ title: "..." }` entry. Screen readers announce the document title on page navigation. (WCAG SC 2.4.2)',
-    },
-    schema: [],
-  },
-  create(context) {
-    const filename = context.getFilename?.() ?? context.filename ?? ''
-    // Only apply in Remix route files
-    const isRoute =
-      /[/\\]app[/\\]routes[/\\]/.test(filename) ||
-      /[/\\]routes[/\\]/.test(filename)
-    if (!isRoute) return {}
-
-    let metaExportFound = false
-    let titleFound = false
-
-    function checkObjectHasTitle(node) {
-      if (node.type === 'ObjectExpression') {
-        return node.properties.some(
-          (p) =>
-            p.type === 'Property' &&
-            (p.key?.name === 'title' || p.key?.value === 'title')
-        )
-      }
-      return false
-    }
-
-    function checkForTitle(node) {
-      // Array: return [{ title: "..." }, ...]
-      if (node.type === 'ArrayExpression') {
-        return node.elements.some((el) => el && checkObjectHasTitle(el))
-      }
-      // Object: return { title: "..." }  (Remix v1 compat)
-      if (node.type === 'ObjectExpression') {
-        return checkObjectHasTitle(node)
-      }
-      // Arrow with implicit return: () => [...]
-      if (node.type === 'ArrowFunctionExpression' && node.expression) {
-        return checkForTitle(node.body)
-      }
-      return false
-    }
-
-    return {
-      // export const meta = ...
-      ExportNamedDeclaration(node) {
-        const decl = node.declaration
-        if (!decl || decl.type !== 'VariableDeclaration') return
-        for (const declarator of decl.declarations) {
-          if (declarator.id?.name !== 'meta') continue
-          metaExportFound = true
-          if (declarator.init && checkForTitle(declarator.init)) {
-            titleFound = true
-          }
-        }
+export function makeReactFragmentNoAriaProps(h) {
+  return {
+    meta: {
+      type: 'problem',
+      docs: { description: 'Disallow ARIA props and roles on React Fragments' },
+      messages: {
+        fragmentAria: 'React Fragments (<>...</> or <React.Fragment>) do not render a DOM node, so they silently drop `role` and `aria-*` props. Use a <div> or <span> instead to attach ARIA semantics.',
       },
-      // export function meta() { return [...] }
-      'ExportNamedDeclaration > FunctionDeclaration'(node) {
-        if (node.id?.name !== 'meta') return
-        metaExportFound = true
-        // Walk return statements in the function body
-        const body = node.body?.body ?? []
-        for (const stmt of body) {
-          if (
-            stmt.type === 'ReturnStatement' &&
-            stmt.argument &&
-            checkForTitle(stmt.argument)
-          ) {
-            titleFound = true
-          }
-        }
-      },
-      'Program:exit'(node) {
-        if (!metaExportFound) {
-          context.report({ node, messageId: 'missingMeta' })
-        } else if (!titleFound) {
-          context.report({ node, messageId: 'missingTitle' })
-        }
-      },
-    }
-  },
-}
-
-// ─── angular-host-a11y ───────────────────────────────────────────────────────
-
-/**
- * Ensures Angular @Component({ host: {...} }) decorators don't apply
- * interactive roles to the host element without also providing tabindex.
- *
- * Without tabindex="0", a custom Angular component with role="button" set
- * in the host binding will appear in the accessibility tree but won't be
- * reachable via keyboard Tab navigation.
- */
-
-const INTERACTIVE_HOST_ROLES = new Set([
-  'button', 'link', 'checkbox', 'radio', 'switch', 'tab',
-  'menuitem', 'menuitemcheckbox', 'menuitemradio', 'option',
-  'slider', 'spinbutton', 'treeitem', 'gridcell',
-])
-
-export const angularHostA11y = {
-  meta: {
-    type: 'problem',
-    docs: {
-      description:
-        'Disallow interactive `role` in Angular @Component host bindings without `tabindex`',
+      schema: [],
     },
-    messages: {
-      missingTabindex:
-        'Angular @Component host binding has `role="{{ role }}"` but is missing `tabindex: "0"`. Without tabindex, the element will not be reachable via keyboard navigation. (ARIA 1.2 / APG)',
-    },
-    schema: [],
-  },
-  create(context) {
-    return {
-      // Matches: @Component({ host: { role: 'button' } })
-      Decorator(node) {
-        if (
-          node.expression?.type !== 'CallExpression' ||
-          node.expression.callee?.name !== 'Component'
-        ) return
-
-        const args = node.expression.arguments ?? []
-        const configObj = args.find((a) => a.type === 'ObjectExpression')
-        if (!configObj) return
-
-        const hostProp = configObj.properties.find(
-          (p) =>
-            p.type === 'Property' &&
-            (p.key?.name === 'host' || p.key?.value === 'host')
-        )
-        if (!hostProp || hostProp.value?.type !== 'ObjectExpression') return
-
-        const hostProps = hostProp.value.properties
-        let hostRole = null
-        let hasTabindex = false
-
-        for (const prop of hostProps) {
-          const key =
-            prop.key?.name ?? prop.key?.value ?? ''
-          const val =
-            prop.value?.value ?? prop.value?.quasis?.[0]?.value?.raw ?? ''
-
-          if (key === 'role' && INTERACTIVE_HOST_ROLES.has(val)) {
-            hostRole = val
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          const el = h.getElementName(node);
+          if (el !== 'Fragment' && el !== 'React.Fragment' && el !== null && el !== undefined) return;
+          const attrs = node.openingElement?.attributes ?? node.startTag?.attributes ?? [];
+          for (const a of attrs) {
+            const name = a.name?.name ?? a.name?.toString() ?? '';
+            if (name === 'role' || name.startsWith('aria-')) {
+              context.report({ node: a, messageId: 'fragmentAria' });
+            }
           }
-          if (key === 'tabindex' || key === 'tabIndex') {
-            hasTabindex = true
-          }
-        }
-
-        if (hostRole && !hasTabindex) {
-          context.report({
-            node: hostProp,
-            messageId: 'missingTabindex',
-            data: { role: hostRole },
-          })
-        }
-      },
-    }
-  },
-}
-
-// ─── angular-router-focus-management ─────────────────────────────────────────
-
-export const angularRouterFocusManagement = {
-  meta: {
-    type: 'suggestion',
-    docs: { description: 'Warn if <router-outlet> is used without focus management.' },
-    messages: {
-      noFocus: 'SPA route transitions via <router-outlet> require manual focus management (e.g., using a skip-link or programmatic focus).'
-    },
-    schema: [],
-  },
-  create(context) {
-    return {
-      Element(node) {
-        if (node.name === 'router-outlet') {
-          context.report({ node, messageId: 'noFocus' })
-        }
+        },
       }
-    }
+    },
   }
 }
 
-// ─── lit-no-autofocus ────────────────────────────────────────────────────────
-
-export const litNoAutofocus = {
-  meta: {
-    type: 'suggestion',
-    docs: { description: 'Disallow autofocus in Lit templates.' },
-    messages: {
-      noAutofocus: 'The autofocus attribute disrupts focus flow and disorients screen reader users.'
+export function makeReactSpaFocusManagement(_h) {
+  return {
+    meta: {
+      type: 'suggestion',
+      docs: { description: 'Warn if React Router is used without a known route announcer or focus manager' },
+      messages: {
+        missingFocus: 'This component uses React Router but does not appear to manage focus on navigation. SPA navigations must manage focus (e.g. sending focus to a heading) or use a Route Announcer so screen readers know the page changed.',
+      },
+      schema: [],
     },
-    schema: [],
-  },
-  create(context) {
-    return {
-      TaggedTemplateExpression(node) {
-        if (node.tag && node.tag.name === 'html') {
-          const raw = node.quasi.quasis.map(q => q.value.raw).join('')
-          // Simple regex to catch autofocus attribute
-          if (/\bautofocus\b/.test(raw)) {
-            context.report({ node, messageId: 'noAutofocus' })
+    create(context) {
+      let usesRouter = false;
+      let hasFocusManagement = false;
+      return {
+        ImportDeclaration(node) {
+          if (node.source.value.includes('react-router')) usesRouter = true;
+          const src = node.source.value.toLowerCase();
+          if (src.includes('focus') || src.includes('announce')) hasFocusManagement = true;
+        },
+        CallExpression(node) {
+          const name = node.callee?.name?.toLowerCase() || '';
+          if (name.includes('focus') || name.includes('announce')) hasFocusManagement = true;
+        },
+        JSXIdentifier(node) {
+          const name = node.name?.toLowerCase() || '';
+          if (name.includes('announcer') || name.includes('livereload')) hasFocusManagement = true;
+        },
+        'Program:exit'(node) {
+          if (usesRouter && !hasFocusManagement) {
+            context.report({ node, messageId: 'missingFocus' });
           }
         }
       }
-    }
+    },
   }
 }
 
-// ─── Exports ─────────────────────────────────────────────────────────────────
-
-export function buildRemixRules() {
+export function makeRemixRouteAnnouncerMissing(h) {
   return {
-    'remix-route-title-missing': remixRouteTitleMissing,
+    meta: {
+      type: 'problem',
+      docs: { description: 'Ensure Remix root.tsx includes a Route Announcer' },
+      messages: {
+        missingAnnouncer: 'Remix `root.tsx` must render an accessible route announcer (or `<LiveReload>` which includes one) so screen readers know when the page changes.',
+      },
+      schema: [],
+    },
+    create(context) {
+      const filename = context.getPhysicalFilename ? context.getPhysicalFilename() : context.getFilename();
+      if (!/root\.(tsx|jsx|js|ts)$/.test(filename)) return {};
+      
+      let hasAnnouncer = false;
+      return {
+        [h.elementVisitor](node) {
+          const el = h.getElementName(node) || '';
+          if (el.includes('Announcer') || el === 'LiveReload' || el === 'ScrollRestoration') {
+            hasAnnouncer = true;
+          }
+        },
+        'Program:exit'(node) {
+          if (!hasAnnouncer) {
+            context.report({ node, messageId: 'missingAnnouncer' });
+          }
+        }
+      }
+    },
   }
 }
 
-export function buildRemixRecommendedRules(ns) {
+export function makeVueRouterFocusManagement(_h) {
   return {
-    [`${ns}/remix-route-title-missing`]: 'error',
+    meta: {
+      type: 'suggestion',
+      docs: { description: 'Warn if vue-router is used without focus management' },
+      messages: {
+        missingFocus: 'This component uses vue-router but does not manage focus on route changes. Send focus to the new page heading or a route announcer so screen readers can track the navigation.',
+      },
+      schema: [],
+    },
+    create(context) {
+      let usesRouter = false;
+      let hasFocusManagement = false;
+      return {
+        ImportDeclaration(node) {
+          if (node.source.value.includes('vue-router')) usesRouter = true;
+        },
+        Identifier(node) {
+          if (node.name === '$router' || node.name === 'useRouter') usesRouter = true;
+          if (node.name.toLowerCase().includes('focus') || node.name.toLowerCase().includes('announce')) hasFocusManagement = true;
+        },
+        'Program:exit'(node) {
+          if (usesRouter && !hasFocusManagement) {
+            context.report({ node, messageId: 'missingFocus' });
+          }
+        }
+      }
+    },
   }
 }
 
-export function buildAngularFrameworkRules() {
+export function makeAngularRouteAnnouncer(_h) {
   return {
-    'angular-host-a11y': angularHostA11y,
-    'angular-router-focus-management': angularRouterFocusManagement,
+    meta: {
+      type: 'problem',
+      docs: { description: 'Ensure Angular routing uses Title service or aria-live outlet' },
+      messages: {
+        missingAnnouncer: 'Angular `RouterModule` is used without an `aria-live` route announcer or explicit `Title` service updates. Screen readers will not announce route changes.',
+      },
+      schema: [],
+    },
+    create(context) {
+      let usesRouter = false;
+      let managesTitle = false;
+      return {
+        ImportDeclaration(node) {
+          if (node.source.value.includes('@angular/router')) usesRouter = true;
+          if (node.source.value.includes('@angular/platform-browser') && node.specifiers.some(s => s.imported?.name === 'Title')) managesTitle = true;
+        },
+        'Program:exit'(node) {
+          if (usesRouter && !managesTitle) {
+            context.report({ node, messageId: 'missingAnnouncer' });
+          }
+        }
+      }
+    },
   }
 }
 
-export function buildAngularHostRecommendedRules(ns) {
+export function makeAngularClickKeyEvents(h) {
   return {
-    [`${ns}/angular-host-a11y`]: 'error',
-    [`${ns}/angular-router-focus-management`]: 'off',
+    meta: {
+      type: 'problem',
+      docs: { description: 'Ensure Angular (click) elements have (keydown.space) or (keydown.enter)' },
+      messages: {
+        missingKey: 'Elements with `(click)` must also have `(keydown.space)` or `(keydown.enter)` to be accessible to keyboard users.',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          if (!h.hasAttr(node, '(click)')) return;
+          const el = h.getElementName(node);
+          const nativeInteractive = new Set(['button', 'a', 'input', 'select', 'textarea', 'details']);
+          if (nativeInteractive.has(el)) return;
+          
+          if (!h.hasAttr(node, '(keydown.space)') && !h.hasAttr(node, '(keydown.enter)') && !h.hasAttr(node, '(keyup.space)') && !h.hasAttr(node, '(keyup.enter)')) {
+            context.report({ node: h.getAttr(node, '(click)'), messageId: 'missingKey' });
+          }
+        },
+      }
+    },
   }
 }
 
-export function buildLitRules() {
+export function makeWcDelegatesFocus(_h) {
   return {
-    'lit-no-autofocus': litNoAutofocus,
+    meta: {
+      type: 'suggestion',
+      docs: { description: 'Suggest delegatesFocus for Web Components rendering interactive elements' },
+      messages: {
+        delegatesFocus: 'This shadow root seems to render interactive elements. Consider passing `{ delegatesFocus: true }` to `attachShadow` to ensure proper focus delegation and outline styling.',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        CallExpression(node) {
+          if (node.callee?.property?.name === 'attachShadow') {
+            const arg = node.arguments[0];
+            if (arg && arg.type === 'ObjectExpression') {
+              const hasDelegatesFocus = arg.properties.some(p => p.key?.name === 'delegatesFocus');
+              if (!hasDelegatesFocus) {
+                context.report({ node, messageId: 'delegatesFocus' });
+              }
+            }
+          }
+        }
+      }
+    },
   }
 }
 
-export function buildLitRecommendedRules(ns) {
+export function makeWcShadowAriaIdref(h) {
   return {
-    [`${ns}/lit-no-autofocus`]: 'error',
+    meta: {
+      type: 'problem',
+      docs: { description: 'Warn against ARIA ID references crossing the Shadow DOM boundary' },
+      messages: {
+        shadowIdref: 'ARIA attributes like `aria-controls` or `aria-labelledby` cannot reference IDs outside their own Shadow DOM tree. Use Element reflection or encapsulate the relationship.',
+      },
+      schema: [],
+    },
+    create(context) {
+      return {
+        [h.elementVisitor](node) {
+          const attrs = node.openingElement?.attributes ?? node.startTag?.attributes ?? [];
+          for (const a of attrs) {
+            const name = a.name?.name ?? a.name?.toString() ?? '';
+            if (name === 'aria-controls' || name === 'aria-labelledby' || name === 'aria-describedby') {
+              const val = h.getAttrStringValue(a) || '';
+              if (val.includes('props.') || val.includes('this.')) {
+                context.report({ node: a, messageId: 'shadowIdref' });
+              }
+            }
+          }
+        }
+      }
+    },
   }
 }

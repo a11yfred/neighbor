@@ -14,15 +14,6 @@
  */
 
 import stylelint from 'stylelint';
-import { createRequire } from 'module';
-
-const require = createRequire(import.meta.url);
-let a11yLoaded = false;
-try {
-  require.resolve('stylelint-a11y');
-  a11yLoaded = true;
-} catch {}
-
 const { utils: { report } } = stylelint;
 
 const defined = (x) => x !== undefined && x !== null;
@@ -133,12 +124,10 @@ function rule(primaryOption) {
         return;
       }
 
-      // animation or transition
-      if (prop === 'animation' || prop === 'transition' || prop === 'animation-name') {
-        // If stylelint-a11y is installed, it already checks prefers-reduced-motion
-        if (a11yLoaded) return;
-        // Skip "none" values  -  they're already the reduced state
-        if (/^none\b/i.test(value.trim())) return;
+      // animation, transition, scroll-behavior
+      if (prop === 'animation' || prop === 'transition' || prop === 'animation-name' || prop === 'scroll-behavior') {
+        // Skip "none" and "auto" values  -  they're already the reduced state
+        if (/^none\b/i.test(value.trim()) || /^auto\b/i.test(value.trim())) return;
         report(decl, messages.animation(prop, value));
         return;
       }
@@ -210,9 +199,6 @@ function insideFocusSelector(decl) {
 /** @type {import('stylelint').Rule} */
 function noOutlineNoneRule(_primaryOption) {
   return (root, result) => {
-    // Redundant with stylelint-a11y/no-outline-none
-    if (a11yLoaded) return;
-
     root.walkDecls(/^outline$/i, (decl) => {
       const value = decl.value.trim().toLowerCase();
       if (value !== 'none' && value !== '0') return;
@@ -310,9 +296,6 @@ const noTextJustifyMeta = { url: 'https://github.com/a11yfred/neighbor' };
 /** @type {import('stylelint').Rule} */
 function noTextJustifyRule(_primaryOption) {
   return (root, result) => {
-    // Redundant with stylelint-a11y/no-text-align-justify
-    if (a11yLoaded) return;
-
     root.walkDecls(/^text-align$/i, (decl) => {
       if (decl.value.trim().toLowerCase() !== 'justify') return;
       report({ message: noTextJustifyMessages.justify(), node: decl, result, ruleName: noTextJustifyRuleName });
@@ -410,6 +393,314 @@ const noAbsoluteViewportText = {
   meta: noAbsoluteViewportTextMeta,
 };
 
+// ─── Rule: neighbor/require-hover-focus ──────────────────────────────────────
+const requireHoverFocusRuleName = 'neighbor/require-hover-focus';
+const requireHoverFocusMessages = {
+  missing: (selector) =>
+    `Selector "${selector}" has a :hover state but no corresponding :focus or :focus-visible state. Keyboard users must receive the same visual affordance as mouse users. (WCAG 2.1.1)`,
+};
+const requireHoverFocusMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function requireHoverFocusRule(_primaryOption) {
+  return (root, result) => {
+    const allSelectors = new Set();
+    root.walkRules((rule) => {
+      rule.selectors.forEach(s => allSelectors.add(s.trim()));
+    });
+
+    root.walkRules((rule) => {
+      rule.selectors.forEach(selector => {
+        const sel = selector.trim();
+        if (sel.includes(':hover')) {
+          const focusSel = sel.replace(/:hover\b/g, ':focus');
+          const focusVisibleSel = sel.replace(/:hover\b/g, ':focus-visible');
+          if (!allSelectors.has(focusSel) && !allSelectors.has(focusVisibleSel)) {
+            const hasFocusInSameRule = rule.selectors.some(s => s.trim() === focusSel || s.trim() === focusVisibleSel);
+            if (!hasFocusInSameRule) {
+              report({ message: requireHoverFocusMessages.missing(sel), node: rule, result, ruleName: requireHoverFocusRuleName });
+            }
+          }
+        }
+      });
+    });
+  };
+}
+const requireHoverFocus = { ruleName: requireHoverFocusRuleName, rule: requireHoverFocusRule, meta: requireHoverFocusMeta };
+
+// ─── Rule: neighbor/no-content-property-text ─────────────────────────────────
+const noContentPropertyTextRuleName = 'neighbor/no-content-property-text';
+const noContentPropertyTextMessages = {
+  text: (value) =>
+    `content: ${value} injects raw text via CSS. Screen reader support is inconsistent and it cannot be translated. Use the alt syntax 'content: ${value} / "alt text"' or move the text to the HTML DOM. (WCAG 1.1.1)`,
+};
+const noContentPropertyTextMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function noContentPropertyTextRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^content$/i, (decl) => {
+      const value = decl.value.trim();
+      if (value === '""' || value === "''" || value === 'none' || value === 'normal') return;
+      if (/^(attr|url|counter|counters|var)\(/i.test(value)) return;
+      if (value.includes('/')) return; // Uses CSS3 alt syntax
+      if (/^["']/.test(value)) {
+        report({ message: noContentPropertyTextMessages.text(value), node: decl, result, ruleName: noContentPropertyTextRuleName });
+      }
+    });
+  };
+}
+const noContentPropertyText = { ruleName: noContentPropertyTextRuleName, rule: noContentPropertyTextRule, meta: noContentPropertyTextMeta };
+
+// ─── Rule: neighbor/require-minimum-target-size ──────────────────────────────
+const requireMinimumTargetSizeRuleName = 'neighbor/require-minimum-target-size';
+const requireMinimumTargetSizeMessages = {
+  small: (prop, value, selector) =>
+    `${prop}: ${value} on "${selector}" is dangerously close to failing the WCAG 2.5.8 minimum target size of 24x24px. Ensure padding compensates, or increase this value.`,
+};
+const requireMinimumTargetSizeMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function requireMinimumTargetSizeRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^(width|height)$/i, (decl) => {
+      const value = decl.value.trim().toLowerCase();
+      const match = value.match(/^(\d*\.?\d+)px$/);
+      if (match) {
+        const num = parseFloat(match[1]);
+        if (num > 0 && num < 24) {
+          const selector = decl.parent?.selector ?? '';
+          if (selector.includes('::before') || selector.includes('::after') || selector.includes('icon')) return;
+          report({ message: requireMinimumTargetSizeMessages.small(decl.prop, value, selector), node: decl, result, ruleName: requireMinimumTargetSizeRuleName });
+        }
+      }
+    });
+  };
+}
+const requireMinimumTargetSize = { ruleName: requireMinimumTargetSizeRuleName, rule: requireMinimumTargetSizeRule, meta: requireMinimumTargetSizeMeta };
+
+// ─── Rule: neighbor/require-minimum-text-spacing ─────────────────────────────
+const requireMinimumTextSpacingRuleName = 'neighbor/require-minimum-text-spacing';
+const requireMinimumTextSpacingMessages = {
+  spacing: (prop, value) =>
+    `${prop}: ${value} is too tight for users with cognitive or visual disabilities. WCAG 1.4.12 requires line-height to be at least 1.5, letter-spacing 0.12em, and word-spacing 0.16em.`,
+};
+const requireMinimumTextSpacingMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function requireMinimumTextSpacingRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^(line-height|letter-spacing|word-spacing)$/i, (decl) => {
+      const prop = decl.prop.toLowerCase();
+      const value = decl.value.trim().toLowerCase();
+      
+      if (prop === 'line-height') {
+        const match = value.match(/^(\d*\.?\d+)$/);
+        // Exclude 1 and 0 (often resets or heading styles)
+        if (match && parseFloat(match[1]) < 1.2 && parseFloat(match[1]) > 0 && parseFloat(match[1]) !== 1) {
+          report({ message: requireMinimumTextSpacingMessages.spacing(prop, value), node: decl, result, ruleName: requireMinimumTextSpacingRuleName });
+        }
+      } else if (prop === 'letter-spacing' || prop === 'word-spacing') {
+        const matchPx = value.match(/^-\d*\.?\d+(px|em|rem)$/); // Negative spacing
+        if (matchPx) {
+           report({ message: requireMinimumTextSpacingMessages.spacing(prop, value), node: decl, result, ruleName: requireMinimumTextSpacingRuleName });
+        }
+      }
+    });
+  };
+}
+const requireMinimumTextSpacing = { ruleName: requireMinimumTextSpacingRuleName, rule: requireMinimumTextSpacingRule, meta: requireMinimumTextSpacingMeta };
+
+// ─── Rule: neighbor/no-display-none-on-sr-only ───────────────────────────────
+const noDisplayNoneOnSrOnlyRuleName = 'neighbor/no-display-none-on-sr-only';
+const noDisplayNoneOnSrOnlyMessages = {
+  hidden: (prop, selector) =>
+    `Using \`${prop}\` on "${selector}" hides the text from screen readers too. If the goal is to visually hide text for screen readers, rely only on the \`clip\` or \`clip-path\` properties.`,
+};
+const noDisplayNoneOnSrOnlyMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function noDisplayNoneOnSrOnlyRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^(display|visibility)$/i, (decl) => {
+      const prop = decl.prop.toLowerCase();
+      const value = decl.value.trim().toLowerCase();
+      if ((prop === 'display' && value === 'none') || (prop === 'visibility' && value === 'hidden')) {
+        const selector = decl.parent?.selector ?? '';
+        if (selector.includes('sr-only') || selector.includes('visually-hidden') || selector.includes('screen-reader')) {
+          report({ message: noDisplayNoneOnSrOnlyMessages.hidden(prop, selector), node: decl, result, ruleName: noDisplayNoneOnSrOnlyRuleName });
+        }
+      }
+    });
+  };
+}
+const noDisplayNoneOnSrOnly = { ruleName: noDisplayNoneOnSrOnlyRuleName, rule: noDisplayNoneOnSrOnlyRule, meta: noDisplayNoneOnSrOnlyMeta };
+
+// ─── Rule: neighbor/prefer-rem-for-font-size ─────────────────────────────────
+const preferRemForFontSizeRuleName = 'neighbor/prefer-rem-for-font-size';
+const preferRemForFontSizeMessages = {
+  px: (value) =>
+    `font-size: ${value} uses absolute units. This prevents text from scaling with the user's OS or browser-level default font size. Use \`rem\` or \`em\` instead.`,
+};
+const preferRemForFontSizeMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function preferRemForFontSizeRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^font-size$/i, (decl) => {
+      const value = decl.value.trim().toLowerCase();
+      if (/^\d*\.?\d+(px|pt)$/.test(value)) {
+        report({ message: preferRemForFontSizeMessages.px(value), node: decl, result, ruleName: preferRemForFontSizeRuleName });
+      }
+    });
+  };
+}
+const preferRemForFontSize = { ruleName: preferRemForFontSizeRuleName, rule: preferRemForFontSizeRule, meta: preferRemForFontSizeMeta };
+
+// ─── Rule: neighbor/no-pointer-events-none ───────────────────────────────────
+const noPointerEventsNoneRuleName = 'neighbor/no-pointer-events-none';
+const noPointerEventsNoneMessages = {
+  none: (selector) =>
+    `pointer-events: none on "${selector}" makes it unclickable for mouse/touch users, but it remains fully focusable and "clickable" for keyboard users, creating a disparate experience. Disable the element with the HTML \`disabled\` attribute instead.`,
+};
+const noPointerEventsNoneMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function noPointerEventsNoneRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^pointer-events$/i, (decl) => {
+      if (decl.value.trim().toLowerCase() !== 'none') return;
+      
+      const selector = decl.parent?.selector ?? '';
+      // Warn if selector implies interactive element
+      if (/\b(button|a|input|select|textarea)\b/i.test(selector) || /\.btn\b/i.test(selector) || /\.button\b/i.test(selector)) {
+        report({ message: noPointerEventsNoneMessages.none(selector), node: decl, result, ruleName: noPointerEventsNoneRuleName });
+      }
+    });
+  };
+}
+const noPointerEventsNone = { ruleName: noPointerEventsNoneRuleName, rule: noPointerEventsNoneRule, meta: noPointerEventsNoneMeta };
+
+// ─── Rule: neighbor/no-text-transform-uppercase ──────────────────────────────
+const noTextTransformUppercaseRuleName = 'neighbor/no-text-transform-uppercase';
+const noTextTransformUppercaseMessages = {
+  upper: () =>
+    `text-transform: uppercase can cause screen readers to read words letter-by-letter as acronyms, and is significantly harder for users with dyslexia to read. Use sparingly for short headers only.`,
+};
+const noTextTransformUppercaseMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function noTextTransformUppercaseRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^text-transform$/i, (decl) => {
+      if (decl.value.trim().toLowerCase() === 'uppercase') {
+        report({ message: noTextTransformUppercaseMessages.upper(), node: decl, result, ruleName: noTextTransformUppercaseRuleName });
+      }
+    });
+  };
+}
+const noTextTransformUppercase = { ruleName: noTextTransformUppercaseRuleName, rule: noTextTransformUppercaseRule, meta: noTextTransformUppercaseMeta };
+
+// ─── Rule: neighbor/no-list-style-none ───────────────────────────────────────
+const noListStyleNoneRuleName = 'neighbor/no-list-style-none';
+const noListStyleNoneMessages = {
+  none: (selector) =>
+    `list-style: none on "${selector}" removes list semantics in WebKit/Safari for VoiceOver users. Ensure you add \`role="list"\` to the HTML element.`,
+};
+const noListStyleNoneMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function noListStyleNoneRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^list-style$/i, (decl) => {
+      if (decl.value.trim().toLowerCase() === 'none') {
+        const selector = decl.parent?.selector ?? '';
+        report({ message: noListStyleNoneMessages.none(selector), node: decl, result, ruleName: noListStyleNoneRuleName });
+      }
+    });
+  };
+}
+const noListStyleNone = { ruleName: noListStyleNoneRuleName, rule: noListStyleNoneRule, meta: noListStyleNoneMeta };
+
+// ─── Rule: neighbor/no-word-break-all ────────────────────────────────────────
+const noWordBreakAllRuleName = 'neighbor/no-word-break-all';
+const noWordBreakAllMessages = {
+  all: () =>
+    `word-break: break-all splits words arbitrarily across lines, which is severely disruptive for users with cognitive disabilities or dyslexia. Use \`word-break: break-word\` or \`overflow-wrap: break-word\` instead.`,
+};
+const noWordBreakAllMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function noWordBreakAllRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^word-break$/i, (decl) => {
+      if (decl.value.trim().toLowerCase() === 'break-all') {
+        report({ message: noWordBreakAllMessages.all(), node: decl, result, ruleName: noWordBreakAllRuleName });
+      }
+    });
+  };
+}
+const noWordBreakAll = { ruleName: noWordBreakAllRuleName, rule: noWordBreakAllRule, meta: noWordBreakAllMeta };
+
+// ─── Rule: neighbor/no-outline-color-transparent ─────────────────────────────
+const noOutlineColorTransparentRuleName = 'neighbor/no-outline-color-transparent';
+const noOutlineColorTransparentMessages = {
+  transparent: () =>
+    `outline-color: transparent visually removes the focus ring. If you are hiding focus rings for mouse clicks, do it explicitly via \`:focus:not(:focus-visible) { outline: none }\` instead.`,
+};
+const noOutlineColorTransparentMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function noOutlineColorTransparentRule(_primaryOption) {
+  return (root, result) => {
+    root.walkDecls(/^outline-color$/i, (decl) => {
+      if (decl.value.trim().toLowerCase() === 'transparent') {
+        if (insideFocusSelector(decl)) return;
+        report({ message: noOutlineColorTransparentMessages.transparent(), node: decl, result, ruleName: noOutlineColorTransparentRuleName });
+      }
+    });
+  };
+}
+const noOutlineColorTransparent = { ruleName: noOutlineColorTransparentRuleName, rule: noOutlineColorTransparentRule, meta: noOutlineColorTransparentMeta };
+
+// ─── Rule: neighbor/no-overflow-hidden-on-fixed-height ───────────────────────
+const noOverflowHiddenOnFixedHeightRuleName = 'neighbor/no-overflow-hidden-on-fixed-height';
+const noOverflowHiddenOnFixedHeightMessages = {
+  hidden: (selector) =>
+    `Combining \`overflow: hidden\` with a fixed \`height\` or \`max-height\` on "${selector}" means that if users increase text size (WCAG 1.4.4), the text will expand out of the box and be clipped and unreadable. Consider using \`min-height\` or allowing overflow.`,
+};
+const noOverflowHiddenOnFixedHeightMeta = { url: 'https://github.com/a11yfred/neighbor' };
+
+/** @type {import('stylelint').Rule} */
+function noOverflowHiddenOnFixedHeightRule(_primaryOption) {
+  return (root, result) => {
+    root.walkRules((rule) => {
+      let hasOverflowHidden = false;
+      let hasFixedHeight = false;
+
+      rule.walkDecls((decl) => {
+        const prop = decl.prop.toLowerCase();
+        const value = decl.value.trim().toLowerCase();
+        
+        if (prop === 'overflow' || prop === 'overflow-y') {
+          if (value === 'hidden') hasOverflowHidden = true;
+        }
+        
+        if (prop === 'height' || prop === 'max-height') {
+          if (/^\d*\.?\d+(px|rem|em|pt|vh)$/.test(value)) {
+            hasFixedHeight = true;
+          }
+        }
+      });
+
+      if (hasOverflowHidden && hasFixedHeight) {
+        report({ message: noOverflowHiddenOnFixedHeightMessages.hidden(rule.selector), node: rule, result, ruleName: noOverflowHiddenOnFixedHeightRuleName });
+      }
+    });
+  };
+}
+const noOverflowHiddenOnFixedHeight = { ruleName: noOverflowHiddenOnFixedHeightRuleName, rule: noOverflowHiddenOnFixedHeightRule, meta: noOverflowHiddenOnFixedHeightMeta };
+
 export default [
   userPreferences,
   noOutlineNone,
@@ -417,4 +708,16 @@ export default [
   noTextJustify,
   noUserSelectAllNone,
   noAbsoluteViewportText,
+  requireHoverFocus,
+  noContentPropertyText,
+  requireMinimumTargetSize,
+  requireMinimumTextSpacing,
+  noDisplayNoneOnSrOnly,
+  preferRemForFontSize,
+  noPointerEventsNone,
+  noTextTransformUppercase,
+  noListStyleNone,
+  noWordBreakAll,
+  noOutlineColorTransparent,
+  noOverflowHiddenOnFixedHeight,
 ];

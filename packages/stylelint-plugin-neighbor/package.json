@@ -1,6 +1,6 @@
 {
   "name": "@a11yfred/stylelint-plugin-neighbor",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "type": "module",
   "main": "neighbor-stylelint.mjs",
   "dependencies": {
