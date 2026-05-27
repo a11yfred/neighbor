@@ -4,6 +4,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.2.1] - 2026-05-27
+
+### Refactored
+
+- **Rules Optimization**: Cleaned up unused helper functions (`hasDisabledInAncestors` and `hasAriaDisabledInAncestors`) in the `@ulam` rules implementation (`ulam-rules.js`).
+
 ## [2.2.0] - 2026-05-26
 
 ### Documentation

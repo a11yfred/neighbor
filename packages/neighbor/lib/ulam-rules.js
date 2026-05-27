@@ -266,38 +266,6 @@ export function makeNoUsePageTitleInRemix() {
 // Solution: Use only aria-disabled on all custom controls; use only disabled on
 // native form controls (button, input, select, textarea).
 
-function hasDisabledInAncestors(node) {
-  let current = node
-  while (current) {
-    if (current.type === 'JSXOpeningElement' || current.type === 'JSXSelfClosingElement') {
-      const attrs = current.attributes || []
-      const hasDisabled = attrs.some(attr =>
-        (attr.type === 'JSXAttribute' && attr.name?.name === 'disabled') ||
-        (attr.type === 'JSXSpreadAttribute')
-      )
-      if (hasDisabled) return true
-    }
-    current = current.parent
-  }
-  return false
-}
-
-function hasAriaDisabledInAncestors(node) {
-  let current = node
-  while (current) {
-    if (current.type === 'JSXOpeningElement' || current.type === 'JSXSelfClosingElement') {
-      const attrs = current.attributes || []
-      const hasAriaDis = attrs.some(attr =>
-        attr.type === 'JSXAttribute' &&
-        attr.name?.name === 'aria-disabled'
-      )
-      if (hasAriaDis) return true
-    }
-    current = current.parent
-  }
-  return false
-}
-
 function hasDisabledInChildren(node) {
   if (!node.children) return false
   for (const child of node.children) {

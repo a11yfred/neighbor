@@ -1,6 +1,6 @@
 {
   "name": "@a11yfred/neighbor",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Accessibility linting for a11yfred  -  ESLint (markup + content), Stylelint (CSS). Won't you be my neighbor?",
   "type": "module",
   "license": "MIT",
