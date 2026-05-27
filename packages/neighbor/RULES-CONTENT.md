@@ -39,6 +39,7 @@ We do not include rules that are subjective or hard to check, like sentence leng
 ## Sources
 
 These rules are synthesized from **42 authoritative sources** across three main categories:
+
 - **Government & Public Sector (20 sources)**: Guidelines from plainlanguage.gov, GOV.UK, Australian Government, GovTech Singapore, Government of Canada, digital.govt.nz (New Zealand), GCIS (South Africa), and various US/UK health and human services.
 - **Journalism & Editorial (7 sources)**: Stylebooks and publishing standards including the AP Stylebook, Trans Journalists Association (TJA), National Association of Hispanic Journalists (NAHJ), BBC Academy / News style guides, and The New York Times Manual of Style and Usage.
 - **Academic, Technical & Corporate (15 sources)**: Directives and style guides from the APA, SIGACCESS, Google, Microsoft, IBM, Salesforce, and Mailchimp.
@@ -98,7 +99,7 @@ When rule tables cite sources, they use these abbreviations:
 | WCAG 2.2 | WCAG 2.2 specification |
 | WHO | World Health Organization |
 
-</details>ation |
+</details>
 
 ---
 
@@ -319,6 +320,7 @@ Finds short words or acronyms used before you explain them. **This rule is set t
 Finds words in ALL CAPS and ampersands (`&`) used in place of "and" in prose. **This rule is set to `off` by default.**
 
 **Why it matters:**
+
 - **ALL CAPS:** Some screen readers using high verbosity settings read ALL CAPS letter-by-letter ("H-E-L-P" instead of "help"). Also reduces readability for users with dyslexia. `IMPORTANT`, `WARNING`, `NOTE`, and common acronyms are excluded by default.
 - **Ampersands:** Screen readers may announce `&` as "ampersand" or skip it entirely - behavior is inconsistent across AT vendors and verbosity settings.
 
