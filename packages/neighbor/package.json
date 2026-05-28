@@ -32,7 +32,9 @@
   },
   "exports": {
     "./rules": "./lib/content-rules.js",
-    "./lib/*": "./lib/*.js"
+    "./lib/*": "./lib/*",
+    "./eslint": "./neighbor-eslint.mjs",
+    "./stylelint": "./neighbor-stylelint.mjs"
   },
   "keywords": [
     "stylelint",

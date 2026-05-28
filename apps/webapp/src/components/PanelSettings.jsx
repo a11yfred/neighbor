@@ -14,7 +14,7 @@ export default function PanelSettings({
 }) {
   return (
     <Panel
-      panelClassName="settings-panel page-panel"
+      panelClassName="page-panel"
       headerClassName="panel-header"
       titleClassName="panel-title"
       heading="Settings"
