@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.22.9",
-    "@babel/core": "^7.22.9",
+    "@babel/core": "^8.0.1",
     "@babel/preset-env": "^7.22.9",
     "codecov": "^3.8.2",
     "debug": "^4.3.4",
@@ -65,7 +65,7 @@
     "rimraf": "^6.0.1",
     "spawn-sync": "^2.0.0",
     "tap": "^16.3.9",
-    "tmp": "0.2.6",
+    "tmp": "0.2.7",
     "typescript": "^5.1.6"
   },
   "engines": {

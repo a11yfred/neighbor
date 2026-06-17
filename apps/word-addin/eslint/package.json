@@ -152,7 +152,7 @@
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.0",
-    "@babel/core": "^7.4.3",
+    "@babel/core": "^8.0.1",
     "@babel/preset-env": "^7.4.3",
     "@cypress/webpack-preprocessor": "^6.0.2",
     "@eslint/eslintrc": "^3.3.5",
@@ -185,7 +185,7 @@
     "jiti": "^2.6.1",
     "knip": "^6.13.1",
     "lint-staged": "^11.0.0",
-    "markdown-it": "^12.2.0",
+    "markdown-it": "^14.2.0",
     "markdown-it-container": "^3.0.0",
     "markdownlint-cli2": "^0.22.0",
     "marked": "^4.0.8",
